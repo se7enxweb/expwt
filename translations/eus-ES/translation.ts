@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URLak</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Aukeratu oraindik etortzeko dagoen une bat.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Hau ez dago programatuta jada.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Ezin da orain orri honen bertsio berririk egin.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Aldaera hasi aurretik amaituko litzateke.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Kendu</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Diseinu-aldaera hasten da</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Diseinu-aldaera amaitzen da</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Orri hau eta azpikoak</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Gune osoa</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Aurreko hilabetea</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Hurrengo hilabetea</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Gaur</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n programatuta</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Mugitu</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Programatuta</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Aste hauetan ez dago ezer programatuta.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Data batean argitaratzea ez dago hemen konfiguratuta: content/publish lan-fluxuak ez du "Wait until date" gertaerarik.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Data batean orriak kentzea ez dago hemen konfiguratuta: content.ini [HideSettings]-ek ez du klaserik ez goiko nodorik izendatzen.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Ez dago konfiguratuta gune honetan</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>%time arte</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>araua desaktibatuta</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Honentzat: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Arrastatu beste egun batera</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Mugitu "%name" (%kind) hona:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Orriaren bertsio berri bat argitaratzen da data honekin; onarpen bat beharko da agian.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Bere amaiera ere mugitzen da.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Data eta ordua</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Mugituta. Data berriak onarpenaren zain dago.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Mugituta.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Egutegia</translation>
+    </message>
 </context>
 </TS>

@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>Mga URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Pumili ng oras na darating pa lang.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Hindi na ito naka-iskedyul.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Hindi makakagawa ng bagong bersyon ng pahinang ito ngayon.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Matatapos ang variant bago pa ito magsimula.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Ibaba</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Nagsisimula ang variant ng layout</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Natatapos ang variant ng layout</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Ang pahinang ito at sa ilalim</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Ang buong site</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Nakaraang buwan</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Susunod na buwan</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Ngayon</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n naka-iskedyul</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Ilipat</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Naka-iskedyul</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Walang naka-iskedyul sa mga linggong ito.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Hindi naka-set dito ang pag-publish sa isang petsa: walang "Wait until date" na event ang workflow na content/publish.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Hindi naka-set dito ang pagbaba ng mga pahina sa isang petsa: walang binabanggit na klase at itaas na node ang content.ini [HideSettings].</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Hindi naka-set sa site na ito</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>hanggang %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>naka-off ang tuntunin</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Para sa: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>I-drag sa ibang araw</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Ilipat ang "%name" (%kind) sa:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Ipa-publish ang bagong bersyon ng pahina na may ganitong petsa; maaaring kailanganin ang pag-apruba.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Kasabay na lilipat ang dulo nito.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Petsa at oras</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Nailipat. Naghihintay ng pag-apruba ang bagong petsa.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Nailipat.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalendaryo</translation>
+    </message>
 </context>
 </TS>

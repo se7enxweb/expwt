@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URLలు</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>ఇంకా రావలసిన సమయాన్ని ఎంచుకోండి.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>ఇది ఇకపై షెడ్యూల్ చేయబడలేదు.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>ఈ పేజీ కొత్త వెర్షన్‌ను ఇప్పుడు చేయలేము.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>వేరియంట్ ప్రారంభం కాకముందే ముగుస్తుంది.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>తీసివేయి</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>లేఅవుట్ వేరియంట్ ప్రారంభం</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>లేఅవుట్ వేరియంట్ ముగింపు</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>ఈ పేజీ మరియు కింద</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>మొత్తం సైట్</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>మునుపటి నెల</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>తదుపరి నెల</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>ఈరోజు</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n షెడ్యూల్</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>తరలించు</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>షెడ్యూల్ చేయబడింది</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>ఈ వారాల్లో ఏదీ షెడ్యూల్ చేయబడలేదు.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>తేదీన ప్రచురణ ఇక్కడ సెట్ చేయబడలేదు: content/publish వర్క్‌ఫ్లోలో "Wait until date" ఈవెంట్ లేదు.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>తేదీన పేజీలను తీసివేయడం ఇక్కడ సెట్ చేయబడలేదు: content.ini [HideSettings] ఏ క్లాస్‌నూ పై నోడ్‌నూ పేర్కొనదు.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>ఈ సైట్‌లో సెట్ చేయబడలేదు</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>%time వరకు</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>నియమం ఆఫ్‌లో ఉంది</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>దీని కోసం: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>మరో రోజుకు లాగండి</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name" (%kind) ఇక్కడికి తరలించు:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>ఈ తేదీతో పేజీ కొత్త వెర్షన్ ప్రచురించబడుతుంది; ఆమోదం వర్తించవచ్చు.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>దాని ముగింపు కూడా దానితో కదులుతుంది.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>తేదీ మరియు సమయం</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>తరలించబడింది. కొత్త తేదీ ఆమోదం కోసం వేచి ఉంది.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>తరలించబడింది.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>క్యాలెండర్</translation>
+    </message>
 </context>
 </TS>

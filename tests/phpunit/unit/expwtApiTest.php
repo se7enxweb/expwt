@@ -89,6 +89,10 @@ class expwtApiTestGateway extends expwtGateway
     public function addresses( array $in ) { return $this->record( 'addresses', $in ); }
     public function urlAlias( array $in ) { return $this->record( 'urlAlias', $in ); }
     public function urlWildcard( array $in ) { return $this->record( 'urlWildcard', $in ); }
+    public function calendar( array $in ) { return $this->record( 'calendar', $in ); }
+    public function calendarPublish( array $in ) { return $this->record( 'calendarPublish', $in ); }
+    public function calendarTakeDown( array $in ) { return $this->record( 'calendarTakeDown', $in ); }
+    public function calendarVariant( array $in ) { return $this->record( 'calendarVariant', $in ); }
     public $registered = array( 'panels' => array(), 'actions' => array(), 'highlights' => array(), 'search' => array() );
     public $policies = array();
     public function registeredActions() { return $this->registered['actions']; }
@@ -269,6 +273,40 @@ class expwtApiTest extends PHPUnit\Framework\TestCase
         $this->assertSame( array( 'commentsOffer', array( 'nodeId' => 93 ) ), $this->gateway->calls[0] );
         $this->gateway->comments = null;
         $this->assertNull( $api->call( 'boot', array(), 'GET' )['body']['data']['comments'] );
+    }
+
+    /** E6: the calendar: loading is a read for those who edit; moving a draft's publish date and a page's take-down
+        date stands for the administration's content/edit, moving a layout variant needs expwt/layouts; cleaned */
+    public function testTheCalendarGoesToTheGatewayCleaned()
+    {
+        $api = $this->api();
+        $this->assertFalse( expwtAccess::writes( 'calendar.load' ) );
+        $this->assertSame( 'edit', expwtAccess::functionFor( 'calendar.load' ) );
+        foreach ( array( 'calendar.publish' => 'edit', 'calendar.takedown' => 'edit', 'calendar.variant' => 'layouts' ) as $action => $function )
+        {
+            $this->assertSame( $function, expwtAccess::functionFor( $action ) );
+            $this->assertTrue( expwtAccess::writes( $action ) );
+            $this->assertSame( 405, $api->call( $action, array( 'nodeId' => 1 ), 'GET' )['status'], "$action only by POST" );
+        }
+        $this->assertSame( array( 'module' => 'content', 'view' => 'edit', 'post' => array( 'PublishButton' => '1' ) ), expwtAccess::kernelView( 'calendar.takedown' ) );
+        $api->call( 'calendar.load', array( 'nodeId' => '93', 'scope' => 'subtree', 'from' => '1793000000', 'to' => 1795000000, 'x' => 1 ), 'GET' );
+        $this->assertSame( array( 'calendar', array( 'nodeId' => 93, 'from' => 1793000000, 'to' => 1795000000, 'scope' => 'subtree' ) ), $this->gateway->calls[0] );
+        $api->call( 'calendar.publish', array( 'objectId' => '7', 'version' => '3', 'at' => '2026-11-12T09:30:00+01:00', 'nodeId' => 5 ), 'POST' );
+        $this->assertSame( array( 'calendarPublish', array( 'objectId' => 7, 'version' => 3, 'at' => '2026-11-12T09:30:00+01:00' ) ), $this->gateway->calls[1] );
+        $api->call( 'calendar.takedown', array( 'nodeId' => 93, 'at' => '2026-11-12T09:30', 'objectId' => 7 ), 'POST' );
+        $this->assertSame( array( 'calendarTakeDown', array( 'nodeId' => 93, 'at' => '2026-11-12T09:30' ) ), $this->gateway->calls[2] );
+        $api->call( 'calendar.variant', array( 'conditionId' => 4, 'which' => 'end', 'at' => '2026-11-12T09:30', 'value' => '{}' ), 'POST' );
+        $this->assertSame( array( 'calendarVariant', array( 'conditionId' => 4, 'which' => 'end', 'at' => '2026-11-12T09:30' ) ), $this->gateway->calls[3], 'never a condition value from the browser' );
+
+        // without expwt/layouts: the layout variants stay where they are, the rest moves
+        $caps = array_fill_keys( expwtAccess::FUNCTIONS, true );
+        $caps['layouts'] = false;
+        $this->assertSame( 403, $this->api( $caps )->call( 'calendar.variant', array( 'conditionId' => 4, 'at' => '2026-11-12T09:30' ), 'POST' )['status'] );
+        $this->assertSame( 200, $this->api( $caps )->call( 'calendar.publish', array( 'objectId' => 7, 'version' => 3, 'at' => '2026-11-12T09:30' ), 'POST' )['status'] );
+        // without expwt/edit: no calendar at all
+        $caps = array_fill_keys( expwtAccess::FUNCTIONS, true );
+        $caps['edit'] = false;
+        $this->assertSame( 403, $this->api( $caps )->call( 'calendar.load', array( 'nodeId' => 93 ), 'GET' )['status'] );
     }
 
     /** E5: the page's addresses: loading is a read; an alias and a wildcard are writes by POST that stand for the

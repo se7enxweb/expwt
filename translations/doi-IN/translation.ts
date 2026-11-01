@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>ऐसा समां चुनो जेहड़ा अजें औना ऐ।</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>एह् हून निर्धारत नेईं ऐ।</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>इस पन्ने दा नमां संस्करण हून नेईं बनी सकदा।</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>वेरिएंट शुरू होने कोला पैह्लें खत्म होई जाग।</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>हटाओ</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>लेआउट वेरिएंट शुरू</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>लेआउट वेरिएंट खत्म</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>एह् पन्ना ते इसदे थल्लै</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>सारी साइट</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>पिछला म्हीना</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>अगला म्हीना</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>अज्ज</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n निर्धारत</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>खसकाओ</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>निर्धारत</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>इनें हफ्तें च किश बी निर्धारत नेईं।</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>तरीक पर प्रकाशन इत्थें सेट नेईं: content/publish वर्कफ्लो च कोई "Wait until date" घटना नेईं।</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>तरीक पर पन्ने हटाना इत्थें सेट नेईं: content.ini [HideSettings] कुसै क्लास ते उप्परले नोड दा नां नेईं लैंदा।</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>इस साइट पर सेट नेईं</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>%time तगर</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>नियम बंद</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>आस्तै: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>दूए दिनै पर खिच्चो</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name" (%kind) इत्थें खसकाओ:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>इस तरीक कन्नै पन्ने दा नमां संस्करण प्रकाशत होंदा ऐ; मंजूरी लग्गी सकदी ऐ।</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>इसदा अंत बी कन्नै खसकदा ऐ।</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>तरीक ते समां</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>खसकाया गेआ। नमीं तरीक मंजूरी दी उडीक च ऐ।</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>खसकाया गेआ।</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>कैलेंडर</translation>
+    </message>
 </context>
 </TS>

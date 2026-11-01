@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>Ngaahi URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Fili ha taimi ʻoku teʻeki ke hoko mai.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>ʻOku ʻikai toe fokotuʻutuʻu ʻeni.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>ʻOku ʻikai lava ke faʻu ha paaki foʻou ʻo e peesi ko ʻeni he taimí ni.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>ʻE ngata ʻa e kehekehé kimuʻa pea kamata.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Toʻo hifo</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Kamata ʻa e kehekehe ʻo e fokotuʻutuʻu</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Ngata ʻa e kehekehe ʻo e fokotuʻutuʻu</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Peesi ko ʻeni mo hono lalo</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Uepisaiti kotoa</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Māhina kuoʻosi</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Māhina hoko</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>ʻAho ní</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n kuo fokotuʻutuʻu</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Hiki</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Kuo fokotuʻutuʻu</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>ʻOku ʻikai ha meʻa kuo fokotuʻutuʻu ʻi he ngaahi uike ko ʻeni.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>ʻOku teʻeki fokotuʻu heni ʻa e pulusi ʻi ha ʻaho: ʻoku ʻikai ha meʻa hoko "Wait until date" ʻi he founga ngāue content/publish.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>ʻOku teʻeki fokotuʻu heni ʻa e toʻo hifo ʻo e ngaahi peesi ʻi ha ʻaho: ʻoku ʻikai fakahingoa ʻe content.ini [HideSettings] ha kalasi pe node ʻi ʻolunga.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>ʻOku teʻeki fokotuʻu ʻi he uepisaiti ko ʻeni</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>ʻo aʻu ki he %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>kuo tāmateʻi ʻa e lao</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Maʻa: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Toho ki ha ʻaho kehe</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Hiki "%name" (%kind) ki he:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>ʻOku pulusi ha paaki foʻou ʻo e peesi mo e ʻaho ko ʻeni; mahalo ʻe fiemaʻu ha fakangofua.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>ʻOku hiki fakataha mo hono ngataʻangá.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>ʻAho mo e taimi</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Kuo hiki. ʻOku tatali ʻa e ʻaho foʻoú ki he fakangofua.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Kuo hiki.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalena</translation>
+    </message>
 </context>
 </TS>

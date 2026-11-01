@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URLs</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Zaɓi lokacin da bai zo ba tukuna.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Wannan ba a tsara shi ba kuma.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Ba za a iya yin sabon sigar wannan shafi yanzu ba.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Bambancin zai ƙare kafin ya fara.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Sauke</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Bambancin shimfiɗa ya fara</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Bambancin shimfiɗa ya ƙare</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Wannan shafi da ƙasansa</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Duk shafin yanar gizo</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Watan da ya gabata</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Wata mai zuwa</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Yau</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n an tsara</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Matsar</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>An tsara</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Babu abin da aka tsara a waɗannan makonni.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Ba a saita bugawa a wata rana a nan ba: tsarin aikin content/publish ba shi da taron "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Ba a saita sauke shafuka a wata rana a nan ba: content.ini [HideSettings] bai ambaci wani aji ko wani babban kumburi ba.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Ba a saita a wannan shafin ba</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>har zuwa %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>an kashe ƙa'ida</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Don: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Ja zuwa wata rana</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Matsar da "%name" (%kind) zuwa:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Ana buga sabon sigar shafin tare da wannan rana; ana iya buƙatar amincewa.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Ƙarshensa ma yana matsawa tare da shi.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Kwanan wata da lokaci</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>An matsar. Sabuwar rana tana jiran amincewa.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>An matsar.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalanda</translation>
+    </message>
 </context>
 </TS>

@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Hãy chọn một thời điểm chưa đến.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Mục này không còn được lên lịch.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Hiện không thể tạo phiên bản mới của trang này.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Biến thể sẽ kết thúc trước khi bắt đầu.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Gỡ xuống</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Biến thể bố cục bắt đầu</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Biến thể bố cục kết thúc</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Trang này và bên dưới</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Toàn bộ trang web</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Tháng trước</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Tháng sau</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Hôm nay</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n đã lên lịch</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Di chuyển</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Đã lên lịch</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Không có gì được lên lịch trong những tuần này.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Xuất bản theo ngày chưa được thiết lập ở đây: quy trình content/publish không có sự kiện "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Gỡ trang theo ngày chưa được thiết lập ở đây: content.ini [HideSettings] không nêu lớp nào và nút trên cùng nào.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Chưa thiết lập trên trang web này</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>đến %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>quy tắc đã tắt</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Cho: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Kéo sang ngày khác</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Di chuyển "%name" (%kind) đến:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Một phiên bản mới của trang với ngày này được xuất bản; có thể cần phê duyệt.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Điểm kết thúc của nó cũng dời theo.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Ngày và giờ</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Đã di chuyển. Ngày mới đang chờ phê duyệt.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Đã di chuyển.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Lịch</translation>
+    </message>
 </context>
 </TS>

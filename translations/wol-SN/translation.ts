@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL yi</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Tànnal ab waxtu bu ñëwagul.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Lii nekkatul ci tëralin gi.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Mënuñu def leegi sumb bu bees bu xët wii.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Wuute bi dina jeex balaa muy tàmbali.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Dindi</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Wuute tëralin bi tàmbali na</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Wuute tëralin bi jeex na</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Xët wii ak li ci suufam</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Sit bi yépp</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Weer wi weesu</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Weer wiy ñëw</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Tey</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n ci tëralin</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Toxal</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Ci tëralin</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Dara nekkul ci tëralin ci ayu-bés yii.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Siiwal ci benn bés defaruñu ko fii: yoonu liggéey content/publish amul xew-xewu "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Dindi xët yi ci benn bés defaruñu ko fii: content.ini [HideSettings] tuddul benn klaas mbaa benn node bu kawe.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Defaruñu ko ci sit bii</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>ba %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>ndigal lañu fey</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Ngir: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Diri ko ci beneen bés</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Toxal "%name" (%kind) ci:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Sumb bu bees bu xët wi ak bés bii dinañu ko siiwal; nangu mën na laaj.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Mujjam itam dina tox ak moom.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Bés ak waxtu</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Toxal nañu ko. Bés bu bees bi ngi xaar nangu.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Toxal nañu ko.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Arminaat</translation>
+    </message>
 </context>
 </TS>

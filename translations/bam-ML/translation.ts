@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URLw</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Waati dɔ sugandi min bɛna na fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Nin tɛ labɛnni na tugun.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Nin sɛbɛnbiye kura tɛ se ka dilan sisan.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Fɛɛrɛ in bɛna ban sani a ka daminɛ.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>A bɔ</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Cogoya fɛɛrɛ bɛ daminɛ</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Cogoya fɛɛrɛ bɛ ban</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Nin sɛbɛnbiye ani a kɔrɔla</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Siti bɛɛ</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Kalo tɛmɛnen</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Kalo nata</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Bi</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n labɛnnen</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>A jiginni</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Labɛnnen</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Foyi ma labɛn ni dɔgɔkun ninnu kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Ka bɔ don dɔ la ma labɛn yan: content/publish baara siraw tɛ "Wait until date" ko si la.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Ka sɛbɛnbiyew bɔ don dɔ la ma labɛn yan: content.ini [HideSettings] tɛ kulu si tɔgɔ fɔ, sanfɛ nɔdu si fana.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Ma labɛn nin siti in kan</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>fo %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>sariya datugulen</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Ka ɲɛsin: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>A sama ka taa don wɛrɛ la</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name" (%kind) jiginni ka taa:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Sɛbɛnbiye kura min bɛ ni nin don ye, o bɛ bɔ; sɔnni dɔ bɛ se ka wajibi ye.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>A laban bɛ jigin ni a ye.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Don ani waati</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>A jiginna. Don kura bɛ sɔnni makɔnɔ.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>A jiginna.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalandiriye</translation>
+    </message>
 </context>
 </TS>

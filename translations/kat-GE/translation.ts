@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL-ები</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>აირჩიეთ დრო, რომელიც ჯერ არ დამდგარა.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>ეს აღარ არის დაგეგმილი.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>ამ გვერდის ახალი ვერსიის შექმნა ახლა შეუძლებელია.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>ვარიანტი დაწყებამდე დასრულდებოდა.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>ჩამოხსნა</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>განლაგების ვარიანტი იწყება</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>განლაგების ვარიანტი სრულდება</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>ეს გვერდი და ქვემოთ</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>მთელი საიტი</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>წინა თვე</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>შემდეგი თვე</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>დღეს</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>დაგეგმილია: %n</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>გადატანა</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>დაგეგმილი</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>ამ კვირებში არაფერია დაგეგმილი.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>თარიღზე გამოქვეყნება აქ არ არის მორგებული: სამუშაო პროცესს content/publish არ აქვს "Wait until date" მოვლენა.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>თარიღზე გვერდების ჩამოხსნა აქ არ არის მორგებული: content.ini [HideSettings] არ ასახელებს არც კლასს და არც ზედა კვანძს.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>ამ საიტზე არ არის მორგებული</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>%time-მდე</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>წესი გამორთულია</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>ვისთვის: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>გადაათრიეთ სხვა დღეზე</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name" (%kind) გადატანა:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>ქვეყნდება გვერდის ახალი ვერსია ამ თარიღით; შეიძლება საჭირო იყოს დამტკიცება.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>მისი დასასრულიც გადაინაცვლებს.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>თარიღი და დრო</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>გადატანილია. ახალი თარიღი დამტკიცებას ელოდება.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>გადატანილია.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>კალენდარი</translation>
+    </message>
 </context>
 </TS>

@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URLs</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Choose time wey never reach.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Dis one no dey for schedule again.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Dem no fit make new version of dis page now.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Di variant go end before e start.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Comot am</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Layout variant start</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Layout variant end</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Dis page and wetin dey under am</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Di whole site</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Last month</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Next month</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Today</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n for schedule</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Move</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>For schedule</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Nothing dey for schedule for dis weeks.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Publish for one date never set for here: di content/publish workflow no get "Wait until date" event.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Take pages comot for one date never set for here: content.ini [HideSettings] no call any class and any top node.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>E never set for dis site</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>till %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>rule don off</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>For: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Drag am go another day</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Move "%name" (%kind) go:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>New version of di page wey get dis date go publish; approval fit apply.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Im end go move with am.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Date and time</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>E don move. Di new date dey wait for approval.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>E don move.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Calendar</translation>
+    </message>
 </context>
 </TS>

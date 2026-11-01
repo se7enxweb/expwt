@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URLs</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Agħżel ħin li għadu ġej.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Dan m'għadux skedat.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Verżjoni ġdida ta' din il-paġna ma tistax issir issa.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Il-varjant jispiċċa qabel ma jibda.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Neħħi</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Jibda l-varjant tat-tqassim</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Jispiċċa l-varjant tat-tqassim</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Din il-paġna u taħtha</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Is-sit kollu</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Ix-xahar ta' qabel</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Ix-xahar li ġej</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Illum</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n skedati</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Ċaqlaq</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Skedat</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>M'hemm xejn skedat f'dawn il-ġimgħat.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Il-pubblikazzjoni f'data mhix imwaqqfa hawn: il-fluss tax-xogħol content/publish m'għandu l-ebda avveniment "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>It-tneħħija tal-paġni f'data mhix imwaqqfa hawn: content.ini [HideSettings] ma jsemmi l-ebda klassi u l-ebda node ta' fuq.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Mhux imwaqqaf f'dan is-sit</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>sa %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>regola mitfija</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Għal: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Kaxkar għal jum ieħor</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Ċaqlaq "%name" (%kind) għal:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Tiġi ppubblikata verżjoni ġdida tal-paġna b'din id-data; tista' tapplika approvazzjoni.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>It-tmiem tiegħu jiċċaqlaq miegħu.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Data u ħin</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Iċċaqlaq. Id-data l-ġdida qed tistenna l-approvazzjoni.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Iċċaqlaq.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalendarju</translation>
+    </message>
 </context>
 </TS>

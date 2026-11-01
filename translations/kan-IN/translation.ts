@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URLಗಳು</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>ಇನ್ನೂ ಬರಬೇಕಿರುವ ಸಮಯವನ್ನು ಆರಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>ಇದು ಇನ್ನು ನಿಗದಿಯಾಗಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>ಈ ಪುಟದ ಹೊಸ ಆವೃತ್ತಿಯನ್ನು ಈಗ ಮಾಡಲಾಗದು.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>ವೇರಿಯಂಟ್ ಆರಂಭವಾಗುವ ಮೊದಲೇ ಕೊನೆಗೊಳ್ಳುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>ತೆಗೆದುಹಾಕಿ</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>ಲೇಔಟ್ ವೇರಿಯಂಟ್ ಆರಂಭ</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>ಲೇಔಟ್ ವೇರಿಯಂಟ್ ಅಂತ್ಯ</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>ಈ ಪುಟ ಮತ್ತು ಕೆಳಗಿನವು</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>ಇಡೀ ಸೈಟ್</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>ಹಿಂದಿನ ತಿಂಗಳು</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>ಮುಂದಿನ ತಿಂಗಳು</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>ಇಂದು</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n ನಿಗದಿ</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>ಸರಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>ನಿಗದಿಯಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>ಈ ವಾರಗಳಲ್ಲಿ ಏನೂ ನಿಗದಿಯಾಗಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>ದಿನಾಂಕದಂದು ಪ್ರಕಟಣೆ ಇಲ್ಲಿ ಹೊಂದಿಸಿಲ್ಲ: content/publish ವರ್ಕ್‌ಫ್ಲೋದಲ್ಲಿ "Wait until date" ಘಟನೆ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>ದಿನಾಂಕದಂದು ಪುಟಗಳನ್ನು ತೆಗೆಯುವುದು ಇಲ್ಲಿ ಹೊಂದಿಸಿಲ್ಲ: content.ini [HideSettings] ಯಾವುದೇ ಕ್ಲಾಸ್ ಅಥವಾ ಮೇಲಿನ ನೋಡ್ ಹೆಸರಿಸುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>ಈ ಸೈಟ್‌ನಲ್ಲಿ ಹೊಂದಿಸಿಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>%time ವರೆಗೆ</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>ನಿಯಮ ಆಫ್ ಆಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>ಇದಕ್ಕೆ: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>ಬೇರೆ ದಿನಕ್ಕೆ ಎಳೆಯಿರಿ</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name" (%kind) ಅನ್ನು ಇಲ್ಲಿಗೆ ಸರಿಸಿ:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>ಈ ದಿನಾಂಕದೊಂದಿಗೆ ಪುಟದ ಹೊಸ ಆವೃತ್ತಿ ಪ್ರಕಟವಾಗುತ್ತದೆ; ಅನುಮೋದನೆ ಅನ್ವಯಿಸಬಹುದು.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>ಅದರ ಅಂತ್ಯವೂ ಜೊತೆಗೆ ಸರಿಯುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>ದಿನಾಂಕ ಮತ್ತು ಸಮಯ</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>ಸರಿಸಲಾಗಿದೆ. ಹೊಸ ದಿನಾಂಕ ಅನುಮೋದನೆಗಾಗಿ ಕಾಯುತ್ತಿದೆ.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>ಸರಿಸಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>ಕ್ಯಾಲೆಂಡರ್</translation>
+    </message>
 </context>
 </TS>

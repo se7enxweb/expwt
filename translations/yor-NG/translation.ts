@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>Àwọn URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Yan àkókò tí kò tíì dé.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Èyí kò sí nínú ètò mọ́.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>A kò lè ṣe ẹ̀dà tuntun ojú-ìwé yìí báyìí.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Ìyàtọ̀ náà yóò parí kí ó tó bẹ̀rẹ̀.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Yọ kúrò</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Ìyàtọ̀ ìfilélẹ̀ bẹ̀rẹ̀</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Ìyàtọ̀ ìfilélẹ̀ parí</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Ojú-ìwé yìí àti nísàlẹ̀ rẹ̀</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Gbogbo ojú-òpó</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Oṣù tó kọjá</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Oṣù tó ń bọ̀</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Òní</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n nínú ètò</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Gbé</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Nínú ètò</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Kò sí ohun tí ó wà nínú ètò ní àwọn ọ̀sẹ̀ yìí.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Títẹ̀jáde ní ọjọ́ kan kò tíì ṣètò níbí: ìṣàn iṣẹ́ content/publish kò ní ìṣẹ̀lẹ̀ "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Yíyọ ojú-ìwé kúrò ní ọjọ́ kan kò tíì ṣètò níbí: content.ini [HideSettings] kò dárúkọ kíláàsì kankan tàbí nódù òkè kankan.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Kò tíì ṣètò lórí ojú-òpó yìí</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>títí di %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>òfin ti pa</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Fún: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Fà á lọ sí ọjọ́ mìíràn</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Gbé "%name" (%kind) lọ sí:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>A ó tẹ ẹ̀dà tuntun ojú-ìwé náà pẹ̀lú ọjọ́ yìí jáde; ìfọwọ́sí lè wúlò.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Òpin rẹ̀ náà ń bá a lọ.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Ọjọ́ àti àkókò</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>A ti gbé e. Ọjọ́ tuntun ń dúró de ìfọwọ́sí.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>A ti gbé e.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kàlẹ́ńdà</translation>
+    </message>
 </context>
 </TS>

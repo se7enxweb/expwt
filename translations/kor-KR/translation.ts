@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>아직 오지 않은 시간을 선택하세요.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>이 항목은 더 이상 예약되어 있지 않습니다.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>지금은 이 페이지의 새 버전을 만들 수 없습니다.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>변형이 시작되기 전에 끝나게 됩니다.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>게시 중단</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>레이아웃 변형 시작</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>레이아웃 변형 종료</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>이 페이지와 하위</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>사이트 전체</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>이전 달</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>다음 달</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>오늘</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n건 예약됨</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>이동</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>예약됨</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>이 기간에는 예약된 항목이 없습니다.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>날짜 지정 게시가 여기에 설정되어 있지 않습니다: 워크플로 content/publish에 "Wait until date" 이벤트가 없습니다.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>날짜 지정 페이지 게시 중단이 여기에 설정되어 있지 않습니다: content.ini [HideSettings]에 클래스도 최상위 노드도 지정되어 있지 않습니다.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>이 사이트에는 설정되지 않음</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>%time까지</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>규칙 꺼짐</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>대상: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>다른 날로 드래그</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name"(%kind) 이동할 날짜:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>이 날짜로 페이지의 새 버전이 게시됩니다. 승인이 필요할 수 있습니다.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>종료도 함께 이동합니다.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>날짜 및 시간</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>이동했습니다. 새 날짜는 승인을 기다리고 있습니다.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>이동했습니다.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>캘린더</translation>
+    </message>
 </context>
 </TS>

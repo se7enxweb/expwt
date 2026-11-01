@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>نشانی‌ها</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>زمانی را انتخاب کنید که هنوز نیامده است.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>این دیگر زمان‌بندی نشده است.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>اکنون نمی‌توان نسخهٔ تازه‌ای از این صفحه ساخت.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>این گونه پیش از آغاز پایان می‌یابد.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>برداشتن</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>گونهٔ طرح آغاز می‌شود</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>گونهٔ طرح پایان می‌یابد</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>این صفحه و زیر آن</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>تمام سایت</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>ماه گذشته</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>ماه آینده</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>امروز</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n زمان‌بندی‌شده</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>جابه‌جا کردن</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>زمان‌بندی‌شده</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>در این هفته‌ها هیچ چیزی زمان‌بندی نشده است.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>نشر در یک تاریخ این‌جا تنظیم نشده است: روند کاری content/publish رویداد "Wait until date" ندارد.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>برداشتن صفحه‌ها در یک تاریخ این‌جا تنظیم نشده است: content.ini [HideSettings] هیچ کلاس و هیچ گرهٔ بالایی را نام نمی‌برد.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>در این سایت تنظیم نشده</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>تا %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>قاعده خاموش است</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>برای: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>به روز دیگری بکشید</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>جابه‌جا کردن "%name" (%kind) به:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>نسخهٔ تازهٔ صفحه با این تاریخ نشر می‌شود؛ شاید تأیید لازم باشد.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>پایان آن نیز با آن جابه‌جا می‌شود.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>تاریخ و زمان</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>جابه‌جا شد. تاریخ تازه در انتظار تأیید است.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>جابه‌جا شد.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>تقویم</translation>
+    </message>
 </context>
 </TS>

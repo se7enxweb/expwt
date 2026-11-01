@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URLތައް</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>އަދި އަންނަން އޮތް ވަގުތެއް ހޮވާ.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>މިއީ އިތުރަށް ތާވަލުކުރެވިފައިވާ އެއްޗެއް ނޫން.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>މި ޞަފްޙާގެ އާ ވަރޝަނެއް މިހާރު ހެދޭނެ ނުވާނެ.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>ވެރިއަންޓް ފެށުމުގެ ކުރިން ނިމިގެންދާނެ.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>ނަގާ</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>ލޭއައުޓް ވެރިއަންޓް ފެށޭ</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>ލޭއައުޓް ވެރިއަންޓް ނިމޭ</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>މި ޞަފްޙާއާއި ތިރީގައިވާ</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>މުޅި ސައިޓް</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>ކުރީ މަސް</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>ދެން އަންނަ މަސް</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>މިއަދު</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n ތާވަލުކުރެވިފައި</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>ބަދަލުކުރޭ</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>ތާވަލުކުރެވިފައި</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>މި ހަފްތާތަކުގައި އެއްވެސް އެއްޗެއް ތާވަލުކުރެވިފައެއް ނެތް.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>ތާރީޚަކަށް ޝާއިޢުކުރުން މިތާ ސެޓްކޮށްފައެއް ނެތް: content/publish ވޯކްފްލޯގައި "Wait until date" އިވެންޓެއް ނެތް.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>ތާރީޚަކަށް ޞަފްޙާތައް ނެގުން މިތާ ސެޓްކޮށްފައެއް ނެތް: content.ini [HideSettings] ގައި އެއްވެސް ކްލާހެއް ނުވަތަ މަތީ ނޯޑެއް ނެތް.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>މި ސައިޓުގައި ސެޓްކޮށްފައެއް ނެތް</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>%time އަށް</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>ޤަވާޢިދު ނިއްވާލާފައި</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>އަށް: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>އެހެން ދުވަހަކަށް ދަމާ</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name" (%kind) މިތަނަށް ބަދަލުކުރޭ:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>މި ތާރީޚާއެކު ޞަފްޙާގެ އާ ވަރޝަނެއް ޝާއިޢުކުރެވޭ؛ ތައްޔިދު ބޭނުންވެދާނެ.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>އޭގެ ނިމުމަށްވެސް ބަދަލު އަންނާނެ.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>ތާރީޚާއި ވަގުތު</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>ބަދަލުކުރެވިއްޖެ. އާ ތާރީޚު ތައްޔިދަށް މަޑުކުރަނީ.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>ބަދަލުކުރެވިއްޖެ.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>ކަލަންޑަރު</translation>
+    </message>
 </context>
 </TS>

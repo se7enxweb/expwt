@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Pilih masa yang belum tiba.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Ini tidak lagi dijadualkan.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Versi baharu halaman ini tidak boleh dibuat sekarang.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Varian akan tamat sebelum ia bermula.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Turunkan</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Varian susun atur bermula</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Varian susun atur tamat</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Halaman ini dan di bawahnya</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Seluruh laman</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Bulan sebelumnya</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Bulan seterusnya</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Hari ini</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n dijadualkan</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Alihkan</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Dijadualkan</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Tiada apa-apa dijadualkan pada minggu-minggu ini.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Penerbitan pada tarikh belum disediakan di sini: aliran kerja content/publish tiada acara "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Penurunan halaman pada tarikh belum disediakan di sini: content.ini [HideSettings] tidak menamakan sebarang kelas dan nod teratas.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Belum disediakan di laman ini</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>hingga %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>peraturan dimatikan</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Untuk: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Seret ke hari lain</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Alihkan "%name" (%kind) ke:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Versi baharu halaman dengan tarikh ini diterbitkan; kelulusan mungkin terpakai.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Penghujungnya turut beralih.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Tarikh dan masa</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Dialihkan. Tarikh baharu menunggu kelulusan.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Dialihkan.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalendar</translation>
+    </message>
 </context>
 </TS>

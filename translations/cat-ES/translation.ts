@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Trieu un moment que encara ha de venir.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Això ja no està programat.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Ara no es pot fer una versió nova d'aquesta pàgina.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>La variant acabaria abans de començar.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Retirar</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Comença la variant de disseny</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Acaba la variant de disseny</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Aquesta pàgina i les de sota</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Tot el lloc</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Mes anterior</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Mes següent</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Avui</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n programats</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Moure</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Programat</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>No hi ha res programat en aquestes setmanes.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Publicar en una data no està configurat aquí: el flux de treball content/publish no té cap esdeveniment "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Retirar pàgines en una data no està configurat aquí: content.ini [HideSettings] no anomena cap classe ni cap node superior.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>No configurat en aquest lloc</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>fins a %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>regla desactivada</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Per a: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Arrossegueu a un altre dia</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Moure "%name" (%kind) a:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Es publica una versió nova de la pàgina amb aquesta data; pot caldre una aprovació.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>El final es mou amb ella.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Data i hora</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Mogut. La data nova espera l'aprovació.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Mogut.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Calendari</translation>
+    </message>
 </context>
 </TS>

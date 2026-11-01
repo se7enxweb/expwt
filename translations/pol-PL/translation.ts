@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>Adresy URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Wybierz czas, który dopiero nadejdzie.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>To nie jest już zaplanowane.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Nie można teraz utworzyć nowej wersji tej strony.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Wariant skończyłby się, zanim się zacznie.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Zdejmij</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Wariant układu się zaczyna</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Wariant układu się kończy</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Ta strona i poniżej</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Cała witryna</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Poprzedni miesiąc</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Następny miesiąc</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Dziś</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>Zaplanowane: %n</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Przenieś</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Zaplanowane</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>W tych tygodniach nic nie jest zaplanowane.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Publikacja na dzień nie jest tu skonfigurowana: proces content/publish nie ma zdarzenia "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Zdejmowanie stron na dzień nie jest tu skonfigurowane: content.ini [HideSettings] nie wskazuje żadnej klasy ani górnego węzła.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Nieskonfigurowane w tej witrynie</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>do %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>reguła wyłączona</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Dla: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Przeciągnij na inny dzień</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Przenieś "%name" (%kind) na:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Publikowana jest nowa wersja strony z tą datą; może obowiązywać zatwierdzenie.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Jego koniec przesuwa się razem z nim.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Data i godzina</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Przeniesiono. Nowa data czeka na zatwierdzenie.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Przeniesiono.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalendarz</translation>
+    </message>
 </context>
 </TS>

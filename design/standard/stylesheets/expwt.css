@@ -925,3 +925,38 @@ button.wt-seo-item:hover { border-color: var(--a4-accent); }
 .wt-url-path { flex: 1 1 calc(var(--a4-space-7) * 3); min-inline-size: 0; overflow-wrap: break-word; }
 .wt-url-meta { display: inline-flex; flex-wrap: wrap; gap: var(--a4-space-1); }
 .wt-url-form { margin-block-start: var(--a4-space-3); }
+
+/* the calendar (E6): a month of six weeks in seven equal columns that shrink with the panel, the list of what is
+   scheduled below it; the marks and the handles are dragged onto a day */
+.wt-cal-nav { display: flex; flex-wrap: wrap; align-items: center; gap: var(--a4-space-2); margin-block: var(--a4-space-2); }
+.wt-cal-title { flex: 1 1 auto; min-inline-size: 0; margin: 0; text-align: center; }
+.wt-cal-grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: var(--a4-space-1); }
+.wt-cal-wd { text-align: center; color: var(--a4-muted); font-size: var(--a4-text-xs); }
+.wt-cal-day { display: flex; flex-direction: column; align-items: center; gap: var(--a4-space-1); min-inline-size: 0; min-block-size: calc(var(--a4-space-7) - var(--a4-space-1));
+  padding: var(--a4-space-1) 0; border: 1px solid var(--a4-line); border-radius: var(--a4-radius-s); background: var(--a4-surface); color: var(--a4-ink); font: inherit; cursor: pointer; }
+.wt-cal-day.is-other { background: var(--a4-soft); color: var(--a4-muted); }
+.wt-cal-day.is-today { border-color: var(--a4-accent); border-width: 2px; }
+.wt-cal-day[data-drop="true"] { background: var(--a4-accent-soft); border-color: var(--a4-accent); }
+.wt-cal-num { font-size: var(--a4-text-xs); }
+.wt-cal-marks { display: flex; flex-wrap: wrap; justify-content: center; gap: calc(var(--a4-space-1) / 2); max-inline-size: 100%; }
+.wt-cal-mark { display: inline-block; inline-size: var(--a4-space-2); block-size: var(--a4-space-2); border-radius: 50%; background: var(--a4-muted); }
+.wt-cal-mark.is-publish { background: var(--a4-ok); }
+.wt-cal-mark.is-takedown { background: var(--a4-bad); }
+.wt-cal-mark.is-variant { background: var(--a4-info); }
+.wt-cal-mark.is-variant-end { background: var(--a4-surface); border: 2px solid var(--a4-info); box-sizing: border-box; }
+.wt-cal-mark[data-drag="true"], .wt-cal-handle { touch-action: none; cursor: grab; }
+.wt-cal-legend { display: flex; flex-wrap: wrap; gap: var(--a4-space-1) var(--a4-space-3); margin-block: var(--a4-space-2); font-size: var(--a4-text-xs); color: var(--a4-muted); }
+.wt-cal-key { display: inline-flex; align-items: center; gap: var(--a4-space-1); }
+.wt-cal-confirm { margin-block: var(--a4-space-3); padding: var(--a4-space-3); border: 1px solid var(--a4-accent); border-radius: var(--a4-radius-s); background: var(--a4-accent-soft); }
+.wt-cal-confirm p { margin-block: 0 var(--a4-space-2); overflow-wrap: break-word; }
+.wt-cal-confirm input { max-inline-size: 100%; box-sizing: border-box; }
+.wt-cal-date { margin-block: var(--a4-space-3) var(--a4-space-1); font-size: var(--a4-text-s); }
+.wt-cal-list > li.wt-cal-item { flex-wrap: wrap; }
+.wt-cal-list > li.wt-cal-item.is-dragging { opacity: 0.6; }
+.wt-cal-list > li.wt-cal-item > .wt-cal-handle { flex: none; padding: 0 var(--a4-space-1); color: var(--a4-muted); font-size: var(--a4-text-m); line-height: 1; user-select: none; }
+.wt-cal-body { display: flex; flex-direction: column; gap: var(--a4-space-1); flex: 1 1 calc(var(--a4-space-7) * 3); min-inline-size: 0; overflow-wrap: break-word; }
+.wt-cal-body > .wt-cal-name { overflow-wrap: break-word; }
+.wt-cal-meta { display: inline-flex; flex-wrap: wrap; align-items: center; gap: var(--a4-space-1) var(--a4-space-2); }
+.wt-cal-kind.is-publish { background: var(--a4-ok-bg); color: var(--a4-ok); }
+.wt-cal-kind.is-takedown { background: var(--a4-bad-bg); color: var(--a4-bad); }
+.wt-cal-kind.is-variant, .wt-cal-kind.is-variant-end { background: var(--a4-info-bg); color: var(--a4-info); }

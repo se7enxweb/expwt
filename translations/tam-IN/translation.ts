@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URLகள்</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>இன்னும் வரவிருக்கும் நேரத்தைத் தேர்ந்தெடுக்கவும்.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>இது இனி திட்டமிடப்படவில்லை.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>இந்தப் பக்கத்தின் புதிய பதிப்பை இப்போது உருவாக்க முடியாது.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>மாறுபாடு தொடங்கும் முன்பே முடிந்துவிடும்.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>நீக்கு</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>தளவமைப்பு மாறுபாடு தொடக்கம்</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>தளவமைப்பு மாறுபாடு முடிவு</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>இந்தப் பக்கமும் கீழுள்ளவையும்</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>முழுத் தளம்</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>முந்தைய மாதம்</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>அடுத்த மாதம்</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>இன்று</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n திட்டமிடப்பட்டவை</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>நகர்த்து</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>திட்டமிடப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>இந்த வாரங்களில் எதுவும் திட்டமிடப்படவில்லை.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>தேதியில் வெளியிடுதல் இங்கே அமைக்கப்படவில்லை: content/publish பணிப்பாய்வில் "Wait until date" நிகழ்வு இல்லை.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>தேதியில் பக்கங்களை நீக்குதல் இங்கே அமைக்கப்படவில்லை: content.ini [HideSettings] எந்த வகுப்பையும் மேல் கணுவையும் குறிப்பிடவில்லை.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>இந்தத் தளத்தில் அமைக்கப்படவில்லை</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>%time வரை</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>விதி அணைக்கப்பட்டுள்ளது</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>இதற்கு: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>வேறொரு நாளுக்கு இழுக்கவும்</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name" (%kind) இங்கே நகர்த்து:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>இந்தத் தேதியுடன் பக்கத்தின் புதிய பதிப்பு வெளியிடப்படும்; ஒப்புதல் தேவைப்படலாம்.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>அதன் முடிவும் உடன் நகரும்.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>தேதியும் நேரமும்</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>நகர்த்தப்பட்டது. புதிய தேதி ஒப்புதலுக்காகக் காத்திருக்கிறது.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>நகர்த்தப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>நாட்காட்டி</translation>
+    </message>
 </context>
 </TS>

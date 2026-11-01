@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>Vefslóðir</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Veldu tíma sem er enn ókominn.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Þetta er ekki lengur á dagskrá.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Ekki er hægt að gera nýja útgáfu af þessari síðu núna.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Afbrigðið myndi enda áður en það byrjar.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Taka niður</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Útlitsafbrigði hefst</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Útlitsafbrigði lýkur</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Þessi síða og undir</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Allur vefurinn</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Fyrri mánuður</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Næsti mánuður</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Í dag</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n á dagskrá</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Færa</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Á dagskrá</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Ekkert er á dagskrá þessar vikur.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Birting á dagsetningu er ekki sett upp hér: verkflæðið content/publish hefur engan "Wait until date"-atburð.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Að taka síður niður á dagsetningu er ekki sett upp hér: content.ini [HideSettings] nefnir engan klasa og engan efsta hnút.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Ekki sett upp á þessum vef</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>til %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>regla óvirk</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Fyrir: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Dragðu á annan dag</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Færa "%name" (%kind) á:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Ný útgáfa síðunnar með þessari dagsetningu er birt; samþykki getur átt við.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Endirinn færist með.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Dagsetning og tími</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Fært. Nýja dagsetningin bíður samþykkis.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Fært.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Dagatal</translation>
+    </message>
 </context>
 </TS>

@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>Ama-URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Khetha isikhathi esisazofika.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Lokhu akusahleliwe.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Inguqulo entsha yaleli khasi ayikwazi ukwenziwa manje.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Okuhlukile kungaphela ngaphambi kokuqala.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Susa</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Okuhlukile kwesakhiwo kuyaqala</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Okuhlukile kwesakhiwo kuyaphela</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Leli khasi nangaphansi</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Isayithi lonke</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Inyanga edlule</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Inyanga ezayo</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Namuhla</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n okuhleliwe</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Hambisa</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Kuhleliwe</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Akukho okuhleliwe kula maviki.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Ukushicilela ngosuku akusethiwe lapha: ukuhamba komsebenzi content/publish akunasenzakalo "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Ukususa amakhasi ngosuku akusethiwe lapha: content.ini [HideSettings] ayiqambi kilasi noma inodi engaphezulu.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Akusethiwe kuleli sayithi</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>kuze kube %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>umthetho ucishiwe</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Kokuthi: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Hudula uye kolunye usuku</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Hambisa "%name" (%kind) uye:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Inguqulo entsha yekhasi enalolu suku iyashicilelwa; imvume ingadingeka.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Ukuphela kwakho nakho kuhamba nakho.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Usuku nesikhathi</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Kuhanjisiwe. Usuku olusha lulinde imvume.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Kuhanjisiwe.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Ikhalenda</translation>
+    </message>
 </context>
 </TS>

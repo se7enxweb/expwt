@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URLs</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Fren akud ur d-yewwiḍ ara yakan.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Aya ur yettusɣiwes ara tura.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Ur yezmir ara ad yettwaxdem lqem amaynut n usebter-a tura.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Tamuɣli ad tfakk uqbel ad tebdu.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Kkes</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Tamuɣli n wesbeddi tebda</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Tamuɣli n wesbeddi tfukk</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Asebter-a d wayen yellan seddaw-as</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Asmel akk</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Ayyur yezrin</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Ayyur d-iteddun</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Ass-a</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n yettusɣiwsen</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Senkez</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Yettusɣiwes</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Ulac ayen yettusɣiwsen deg yimalasen-a.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Asuffeɣ ɣer yizen n wass ur yettusbadu ara da: asuddes n umahil content/publish ulac deg-s tadyant "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Tukksa n yisebtar ɣer yizen n wass ur yettusbadu ara da: content.ini [HideSettings] ur d-yebder ara asmil neɣ takerruct n ufella.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Ur yettusbadu ara deg usmel-a</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>alamma %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>alugen yensa</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>I: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Zuɣer ɣer wass-nniḍen</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Senkez "%name" (%kind) ɣer:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Lqem amaynut n usebter s uzemz-a ad yeffeɣ; tazmilt n tmeɣra tezmer ad tettwasra.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Taggara-ines tettenkaz yid-s.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Azemz d wakud</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Yettwasenkez. Azemz amaynut yettraǧu aqbal.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Yettwasenkez.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Awitay</translation>
+    </message>
 </context>
 </TS>

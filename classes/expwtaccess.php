@@ -87,6 +87,14 @@ class expwtAccess
         'urls.load'         => array( 'edit', false, '', '', '' ),
         'urls.alias'        => array( 'edit', true, 'content', 'urlalias', 'NewAliasButton' ),
         'urls.wildcard'     => array( 'edit', true, 'content', 'urlwildcards', 'NewWildcardButton' ),
+        // the calendar of what is scheduled (E6): the drafts the wait-until-date event holds, the pages the hide cronjob
+        // takes down, the layout variants (explayouts rules with a time condition); moving one changes what the
+        // administration would: the draft's date (content/edit), a new version with the take-down date published
+        // (content/edit), the rule's time condition (expwt/layouts and explayouts_ui_api/edit)
+        'calendar.load'     => array( 'edit', false, '', '', '' ),
+        'calendar.publish'  => array( 'edit', true, 'content', 'edit', 'PublishButton' ),
+        'calendar.takedown' => array( 'edit', true, 'content', 'edit', 'PublishButton' ),
+        'calendar.variant'  => array( 'layouts', true, 'explayouts_ui_api', 'app', '' ),
     );
 
     /**

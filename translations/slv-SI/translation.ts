@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL-ji</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Izberite čas, ki šele pride.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>To ni več načrtovano.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Nove različice te strani zdaj ni mogoče narediti.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Različica bi se končala, preden se začne.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Umakni</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Različica postavitve se začne</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Različica postavitve se konča</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Ta stran in pod njo</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Celotno spletišče</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Prejšnji mesec</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Naslednji mesec</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Danes</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>Načrtovano: %n</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Premakni</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Načrtovano</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>V teh tednih ni nič načrtovano.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Objava na datum tukaj ni nastavljena: potek dela content/publish nima dogodka "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Umik strani na datum tukaj ni nastavljen: content.ini [HideSettings] ne navaja nobenega razreda in nobenega zgornjega vozlišča.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Na tem spletišču ni nastavljeno</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>do %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>pravilo izklopljeno</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Za: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Povlecite na drug dan</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Premakni "%name" (%kind) na:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Objavi se nova različica strani s tem datumom; morda velja odobritev.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Njen konec se premakne z njo.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Datum in čas</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Premaknjeno. Novi datum čaka na odobritev.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Premaknjeno.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Koledar</translation>
+    </message>
 </context>
 </TS>

@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URLanna</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Roghnaigh am atá fós le teacht.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Níl sé seo sceidealaithe a thuilleadh.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Ní féidir leagan nua den leathanach seo a dhéanamh anois.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Chríochnódh an leagan malartach sula dtosódh sé.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Bain anuas</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Tosaíonn leagan malartach leagain amach</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Críochnaíonn leagan malartach leagain amach</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>An leathanach seo agus faoi</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>An suíomh ar fad</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>An mhí roimhe</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>An mhí seo chugainn</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Inniu</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n sceidealaithe</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Bog</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Sceidealaithe</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Níl aon rud sceidealaithe sna seachtainí seo.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Níl foilsiú ar dháta socraithe anseo: níl aon teagmhas "Wait until date" sa sreabhadh oibre content/publish.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Níl baint anuas leathanach ar dháta socraithe anseo: ní ainmníonn content.ini [HideSettings] aicme ná nód barr ar bith.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Gan socrú ar an suíomh seo</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>go dtí %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>riail múchta</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Do: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Tarraing go lá eile</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Bog "%name" (%kind) go:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Foilsítear leagan nua den leathanach leis an dáta seo; d'fhéadfadh faomhadh a bheith i gceist.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Bogann a dheireadh leis.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Dáta agus am</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Bogtha. Tá an dáta nua ag fanacht le faomhadh.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Bogtha.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Féilire</translation>
+    </message>
 </context>
 </TS>

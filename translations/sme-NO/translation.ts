@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL:at</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Vállje áiggi mii ain boahtá.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Dát ii leat šat plánejuvvon.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Dán siiddu ođđa veršuvdna ii sáhte dál ráhkaduvvot.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Variánta nohkašii ovdal go álgá.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Váldde eret</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Hábmenvariánta álgá</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Hábmenvariánta nohká</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Dát siidu ja vuolábeallái</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Olles neahttabáiki</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Ovddit mánnu</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Boahtte mánnu</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Odne</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n plánejuvvon</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Sirdde</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Plánejuvvon</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Dáid vahkuid ii leat mihkkege plánejuvvon.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Almmuheapmi beaivvis ii leat heivehuvvon dáppe: bargogolggus content/publish ii leat "Wait until date"-dáhpáhus.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Siidduid eretváldin beaivvis ii leat heivehuvvon dáppe: content.ini [HideSettings] ii namut ii makkárge klássa iige bajimus čuolmma.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Ii leat heivehuvvon dán neahttabáikkis</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>gitta %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>njuolggadus jáddaduvvon</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Geasa: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Gease eará beaivái</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Sirdde "%name" (%kind) dása:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Siiddu ođđa veršuvdna dáinna beivviin almmuhuvvo; dohkkeheapmi sáhttá gustot.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Dan loahppa sirdása ovttas.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Beaivi ja áigi</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Sirdojuvvon. Ođđa beaivi vuordá dohkkeheami.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Sirdojuvvon.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kaleandar</translation>
+    </message>
 </context>
 </TS>

@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>Nā URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>E koho i kekahi manawa e hiki mai ana.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>ʻAʻole i hoʻonohonoho hou ʻia kēia.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>ʻAʻole hiki ke hana i mana hou o kēia ʻaoʻao i kēia manawa.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>E pau ana ka ʻano ʻē ma mua o kona hoʻomaka ʻana.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Lawe i lalo</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Hoʻomaka ka ʻano hoʻonohonoho</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Pau ka ʻano hoʻonohonoho</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Kēia ʻaoʻao a ma lalo</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Ka pūnaewele holoʻokoʻa</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Mahina i hala</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Mahina aʻe</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>I kēia lā</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n i hoʻonohonoho ʻia</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Hoʻoneʻe</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Hoʻonohonoho ʻia</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>ʻAʻohe mea i hoʻonohonoho ʻia i kēia mau pule.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>ʻAʻole i hoʻonohonoho ʻia ka paʻi ʻana ma kekahi lā ma ʻaneʻi: ʻaʻohe hanana "Wait until date" o ke kaʻina hana content/publish.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>ʻAʻole i hoʻonohonoho ʻia ka lawe ʻana i nā ʻaoʻao ma kekahi lā ma ʻaneʻi: ʻaʻole i kapa ʻo content.ini [HideSettings] i kekahi papa a i ʻole node kiʻekiʻe.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>ʻAʻole i hoʻonohonoho ʻia ma kēia pūnaewele</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>a hiki i %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>ua hoʻopau ʻia ke kānāwai</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>No: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Kauo i kekahi lā ʻē aʻe</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Hoʻoneʻe iā "%name" (%kind) i:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Paʻi ʻia kekahi mana hou o ka ʻaoʻao me kēia lā; pili paha kekahi ʻae ʻana.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Neʻe pū kona hopena.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Lā a me ka manawa</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Ua hoʻoneʻe ʻia. Ke kali nei ka lā hou i ka ʻae ʻana.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Ua hoʻoneʻe ʻia.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalena</translation>
+    </message>
 </context>
 </TS>

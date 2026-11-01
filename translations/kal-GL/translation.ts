@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL-it</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Piffissaq suli tikiutissaq toqqaruk.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Una pilersaarusiorneqarunnaarpoq.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Quppernerup matuma nutaamik aaqqissugaa massakkut pilersinneqarsinnaanngilaq.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Allanngorneq aallartinngitsoq naammassissaaq.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Peeruk</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Ilusiliinerup allanngornera aallartippoq</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Ilusiliinerup allanngornera naavoq</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Qupperneq una ataaniittullu</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Nittartagaq tamaat</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Qaammat kingulleq</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Qaammat tulleq</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Ullumi</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n pilersaarusiorneqarsimasut</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Nuuguk</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Pilersaarusiorneqarsimasoq</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Sapaatip akunnerini uku pilersaarusiorneqarsimasoqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Ulloq aalajangersimasoq saqqummersitsineq maani aaqqissuussaanngilaq: suliaqarnerup ingerlanerani content/publish "Wait until date" pisoqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Ulloq aalajangersimasoq quppernerit peerneqarnerat maani aaqqissuussaanngilaq: content.ini [HideSettings] klassimik qulliusumilluunniit knudemik taaneqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Nittartakkami matumani aaqqissuussaanngilaq</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>%time tikillugu</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>maleruagassaq qamitaavoq</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Uannga: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Ullormut allamut nusuguk</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name" (%kind) nuuguk uunga:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Quppernerup nutaamik aaqqissugaa ulloq taanna ilanngullugu saqqummersinneqassaaq; akuersissut pisariaqarsinnaavoq.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Naanera aamma peqatigalugu nuuppoq.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Ulloq piffissarlu</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Nuunneqarpoq. Ulloq nutaaq akuersissummik utaqqivoq.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Nuunneqarpoq.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Ullorsiutit</translation>
+    </message>
 </context>
 </TS>

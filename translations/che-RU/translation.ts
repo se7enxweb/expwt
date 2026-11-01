@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL-аш</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Хьажа а хан харжа, иза хила еза.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>ХӀара кхин хьалха хӀоттийна дац.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>ХӀокху агӀонан керла верси хӀинца ян йиш яц.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Вариант болабале хьалха чекхболур бу.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>ДӀаяккха</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>ХӀоттаман вариант болало</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>ХӀоттаман вариант чекхболу</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>ХӀара агӀо а, лахахь ерш а</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Сайт ерриге а</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Хьалхарчу бутт</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>ТӀеберу бутт</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Тахана</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>ХӀоттийна: %n</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>ДӀасахьажо</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>ХӀоттийна</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>ХӀокху кӀиранашкахь хӀумма а хӀоттийна дац.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Терахьехь араяхар кхузахь нисдина дац: content/publish болх беш некъ "Wait until date" хилам бац.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Терахьехь агӀонаш дӀаяхар кхузахь нисдина дац: content.ini [HideSettings] цхьа а класс а, лакхара шад а ца йоцу.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>ХӀокху сайтехь нисдина дац</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>%time кхаччалц</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>бакъо дӀайайина</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Цунна: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Кхечу дийнахь тӀе текхаде</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name" (%kind) дӀасахьажо:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>ХӀокху терахьаца агӀонан керла верси араяло; бакъо яла мега.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Цуьнан чаккхе а цуьнца йоьду.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Терахь а, хан а</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>ДӀасахьажийна. Керла терахь бакъо ло хьоьжу.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>ДӀасахьажийна.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Календарь</translation>
+    </message>
 </context>
 </TS>

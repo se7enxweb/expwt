@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URLs</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>داسې وخت وټاکئ چې لا راتلونکی دی.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>دا نور مهالویش شوی نه دی.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>د دې پاڼې نوې بڼه اوس نشي جوړېدای.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>ډول به له پیل مخکې پای ته ورسېږي.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>لرې کول</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>د ترتیب ډول پیلېږي</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>د ترتیب ډول پای ته رسېږي</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>دا پاڼه او لاندې</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>ټول سایټ</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>تېره میاشت</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>راتلونکې میاشت</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>نن</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n مهالویش شوي</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>لېږدول</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>مهالویش شوی</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>په دې اونیو کې هېڅ مهالویش شوی نه دی.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>په نېټه خپرول دلته نه دي ترتیب شوي: د content/publish کاري بهیر هېڅ "Wait until date" پېښه نه لري.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>په نېټه د پاڼو لرې کول دلته نه دي ترتیب شوي: content.ini [HideSettings] هېڅ ټولګی او پورتنی غوټه نه نوموي.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>په دې سایټ کې نه دی ترتیب شوی</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>تر %time پورې</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>قاعده بنده ده</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>لپاره: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>بلې ورځې ته یې کش کړئ</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name" (%kind) دې ته ولېږدوئ:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>د دې نېټې سره د پاڼې نوې بڼه خپرېږي؛ ښايي تصویب پکار وي.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>پای یې هم ورسره لېږدېږي.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>نېټه او وخت</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>ولېږدول شو. نوې نېټه د تصویب په تمه ده.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>ولېږدول شو.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>جنتري</translation>
+    </message>
 </context>
 </TS>

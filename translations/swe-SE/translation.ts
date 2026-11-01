@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL:er</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Välj en tidpunkt som ännu inte har kommit.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Det här är inte schemalagt längre.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>En ny version av den här sidan kan inte skapas nu.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Varianten skulle sluta innan den börjar.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Ta ned</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Layoutvariant börjar</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Layoutvariant slutar</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Den här sidan och under</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Hela webbplatsen</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Föregående månad</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Nästa månad</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>I dag</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n schemalagda</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Flytta</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Schemalagt</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Inget är schemalagt under de här veckorna.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Publicering på ett datum är inte inställt här: arbetsflödet content/publish har ingen "Wait until date"-händelse.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Nedtagning av sidor på ett datum är inte inställt här: content.ini [HideSettings] nämner ingen klass och ingen toppnod.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Inte inställt på den här webbplatsen</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>till %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>regeln avstängd</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>För: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Dra till en annan dag</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Flytta "%name" (%kind) till:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>En ny version av sidan med det här datumet publiceras; ett godkännande kan gälla.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Dess slut flyttas med.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Datum och tid</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Flyttat. Det nya datumet väntar på godkännande.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Flyttat.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalender</translation>
+    </message>
 </context>
 </TS>

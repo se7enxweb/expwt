@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URLoù</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Dibabit ur mare a zo da zont c'hoazh.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>N'eo ket steuñvet ken.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>N'haller ket ober ur stumm nevez eus ar bajenn-mañ bremañ.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>An adstumm a echufe a-raok kregiñ.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Tennañ kuit</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Kregiñ a ra an adstumm pajennaozañ</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Echuiñ a ra an adstumm pajennaozañ</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Ar bajenn-mañ hag a-is</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Al lec'hienn a-bezh</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Miz kent</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Miz war-lerc'h</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Hiziv</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n steuñvet</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Dilec'hiañ</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Steuñvet</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Netra n'eo steuñvet er sizhunioù-mañ.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>N'eo ket kefluniet amañ embann d'un deiziad: n'eus darvoud "Wait until date" ebet e red-labour content/publish.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>N'eo ket kefluniet amañ tennañ pajennoù kuit d'un deiziad: content.ini [HideSettings] ne ra anv eus klas ebet na skoulm uhelañ ebet.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>N'eo ket kefluniet el lec'hienn-mañ</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>betek %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>reolenn lazhet</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Evit: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Riklañ d'un devezh all</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Dilec'hiañ "%name" (%kind) da:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Embannet e vez ur stumm nevez eus ar bajenn gant an deiziad-mañ; un aprouadur a c'hall bezañ ret.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>E dibenn a ya gantañ.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Deiziad hag eur</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Dilec'hiet. An deiziad nevez a c'hortoz e aprouadur.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Dilec'hiet.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Deiziadur</translation>
+    </message>
 </context>
 </TS>

@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL-адреса</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Выберите время, которое ещё не наступило.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Это больше не запланировано.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Сейчас нельзя создать новую версию этой страницы.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Вариант закончился бы раньше, чем начался.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Снять</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Вариант макета начинается</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Вариант макета заканчивается</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Эта страница и ниже</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Весь сайт</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Предыдущий месяц</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Следующий месяц</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Сегодня</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>Запланировано: %n</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Перенести</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Запланировано</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>На эти недели ничего не запланировано.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Публикация в дату здесь не настроена: в рабочем процессе content/publish нет события "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Снятие страниц в дату здесь не настроено: content.ini [HideSettings] не называет ни класса, ни верхнего узла.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Не настроено на этом сайте</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>до %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>правило выключено</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Для: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Перетащите на другой день</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Перенести "%name" (%kind) на:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Публикуется новая версия страницы с этой датой; может потребоваться утверждение.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Его конец переносится вместе с ним.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Дата и время</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Перенесено. Новая дата ждёт утверждения.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Перенесено.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Календарь</translation>
+    </message>
 </context>
 </TS>

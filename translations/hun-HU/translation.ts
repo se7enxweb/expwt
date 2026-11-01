@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL-ek</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Válasszon egy még eljövendő időpontot.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Ez már nincs ütemezve.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Ebből az oldalból most nem lehet új változatot készíteni.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>A változat azelőtt érne véget, hogy elkezdődne.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Levétel</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Elrendezésváltozat kezdete</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Elrendezésváltozat vége</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Ez az oldal és alatta</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Az egész webhely</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Előző hónap</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Következő hónap</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Ma</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n ütemezve</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Áthelyezés</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Ütemezve</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Ezekre a hetekre semmi sincs ütemezve.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>A dátumra időzített közzététel itt nincs beállítva: a content/publish munkafolyamatban nincs "Wait until date" esemény.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Az oldalak dátumra időzített levétele itt nincs beállítva: a content.ini [HideSettings] nem nevez meg osztályt és felső csomópontot.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Ezen a webhelyen nincs beállítva</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>eddig: %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>szabály kikapcsolva</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Kinek: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Húzza egy másik napra</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name" (%kind) áthelyezése erre:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Az oldal új változata ezzel a dátummal jelenik meg; jóváhagyás szükséges lehet.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>A vége is vele mozog.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Dátum és idő</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Áthelyezve. Az új dátum jóváhagyásra vár.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Áthelyezve.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Naptár</translation>
+    </message>
 </context>
 </TS>

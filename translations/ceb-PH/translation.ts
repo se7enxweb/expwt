@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>Mga URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Pilia ang oras nga moabot pa.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Dili na kini naka-iskedyul.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Dili makahimo og bag-ong bersyon niining panid karon.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Ang variant matapos sa dili pa kini magsugod.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Kuhaon</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Magsugod ang variant sa layout</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Matapos ang variant sa layout</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Kini nga panid ug sa ubos</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Ang tibuok site</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Miaging bulan</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Sunod nga bulan</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Karon</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n naka-iskedyul</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Ibalhin</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Naka-iskedyul</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Walay naka-iskedyul niining mga semanaha.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Ang pagpatik sa usa ka petsa wala gi-set dinhi: ang content/publish workflow walay "Wait until date" nga event.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Ang pagkuha sa mga panid sa usa ka petsa wala gi-set dinhi: ang content.ini [HideSettings] walay gingalan nga klase ug walay ibabaw nga node.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Wala gi-set niining site</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>hangtod %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>gipalong ang lagda</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Para sa: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Iguyod sa laing adlaw</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Ibalhin ang "%name" (%kind) ngadto sa:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Gipatik ang bag-ong bersyon sa panid nga adunay kini nga petsa; mahimong kinahanglan ang pag-aprobar.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Mobalhin usab ang katapusan niini.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Petsa ug oras</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Nabalhin. Ang bag-ong petsa naghulat sa pag-aprobar.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Nabalhin.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalendaryo</translation>
+    </message>
 </context>
 </TS>

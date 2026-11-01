@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>เลือกเวลาที่ยังมาไม่ถึง</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>รายการนี้ไม่ได้กำหนดเวลาไว้แล้ว</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>ไม่สามารถสร้างเวอร์ชันใหม่ของหน้านี้ได้ในตอนนี้</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>ตัวแปรจะสิ้นสุดก่อนเริ่ม</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>นำลง</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>ตัวแปรเลย์เอาต์เริ่ม</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>ตัวแปรเลย์เอาต์สิ้นสุด</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>หน้านี้และด้านล่าง</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>ทั้งเว็บไซต์</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>เดือนก่อน</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>เดือนถัดไป</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>วันนี้</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>กำหนดเวลาไว้ %n รายการ</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>ย้าย</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>กำหนดเวลาไว้</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>ไม่มีสิ่งใดกำหนดเวลาไว้ในสัปดาห์เหล่านี้</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>ยังไม่ได้ตั้งค่าการเผยแพร่ตามวันที่ที่นี่: เวิร์กโฟลว์ content/publish ไม่มีเหตุการณ์ "Wait until date"</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>ยังไม่ได้ตั้งค่าการนำหน้าลงตามวันที่ที่นี่: content.ini [HideSettings] ไม่ได้ระบุคลาสหรือโหนดบนสุดใดเลย</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>ไม่ได้ตั้งค่าในเว็บไซต์นี้</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>จนถึง %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>ปิดกฎแล้ว</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>สำหรับ: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>ลากไปยังวันอื่น</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>ย้าย "%name" (%kind) ไปที่:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>เวอร์ชันใหม่ของหน้าที่มีวันที่นี้จะถูกเผยแพร่ อาจต้องได้รับการอนุมัติ</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>จุดสิ้นสุดจะย้ายตามไปด้วย</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>วันที่และเวลา</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>ย้ายแล้ว วันที่ใหม่รอการอนุมัติ</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>ย้ายแล้ว</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>ปฏิทิน</translation>
+    </message>
 </context>
 </TS>

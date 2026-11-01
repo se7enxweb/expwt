@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URLs</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Thuura ihinda rĩrĩa rĩtarĩ rĩakinya.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Ũndũ ũyũ ndũrĩ mũbango rĩngĩ.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Gũtirĩ ũhoti wa gũthondeka mũhiano mwerũ wa rũrenda rũrũ rĩu.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Mũhiano ũcio ũngĩthira mbere ya kwambĩrĩria.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Ruta</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Mũhiano wa mũbango wambĩrĩria</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Mũhiano wa mũbango wathira</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Rũrenda rũrũ na rũrĩa rũrĩ rungu</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Thaĩtĩ yothe</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Mweri ũrĩa wahĩtũka</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Mweri ũrĩa ũrooka</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Ũmũthĩ</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n ciĩ mbango-inĩ</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Thamia</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Mũbango-inĩ</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Gũtirĩ kĩndũ kĩrĩ mbango-inĩ thiku-inĩ ici.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Kũgũrĩrĩria mũthenya-inĩ ũmwe gũtirĩ kũbangĩtwo haha: mũthiĩre wa wĩra content/publish ndũrĩ na ũndũ wa "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Kũruta marũrenda mũthenya-inĩ ũmwe gũtirĩ kũbangĩtwo haha: content.ini [HideSettings] ndĩrĩ na ngaarĩ kana kĩhinga kĩa igũrũ.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Gũtirĩ kũbangĩtwo thaĩtĩ-inĩ ĩno</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>nginya %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>watho nĩ mũhingĩre</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Nĩ ũndũ wa: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Kururia nginya mũthenya ũngĩ</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Thamia "%name" (%kind) nginya:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Mũhiano mwerũ wa rũrenda ũrĩ na mũthenya ũyũ nĩ ũrogũrĩrĩrio; ĩtĩkĩro no ĩbatarage.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Mũthia waguo nawo nĩ ũthamaga hamwe naguo.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Mũthenya na ihinda</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Nĩ ũthamio. Mũthenya mwerũ ũraetereire ĩtĩkĩro.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Nĩ ũthamio.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalenda</translation>
+    </message>
 </context>
 </TS>

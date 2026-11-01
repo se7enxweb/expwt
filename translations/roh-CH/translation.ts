@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URLs</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Tscherni in temp che vegn anc.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Quai n'è betg pli planisà.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Da questa pagina na po ussa betg vegnir fatga ina nova versiun.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>La varianta finiss avant che cumenzar.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Prender giu</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>La varianta da layout cumenza</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>La varianta da layout finescha</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Questa pagina e sutvart</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>L'entira website</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Mais precedent</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Mais proxim</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Oz</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n planisads</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Spustar</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Planisà</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>En questas emnas n'è nagut planisà.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Publitgar ad ina data n'è betg configurà qua: il process content/publish n'ha nagin eveniment "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Prender giu paginas ad ina data n'è betg configurà qua: content.ini [HideSettings] na numna nagina classa e nagin nuf sura.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Betg configurà sin questa website</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>fin %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>regla deactivada</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Per: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Trair sin in auter di</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Spustar "%name" (%kind) sin:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Ina nova versiun da la pagina cun questa data vegn publitgada; ina approvaziun po valair.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Sia fin sa spustescha cun ella.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Data e temp</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Spustà. La nova data spetga l'approvaziun.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Spustà.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Chalender</translation>
+    </message>
 </context>
 </TS>

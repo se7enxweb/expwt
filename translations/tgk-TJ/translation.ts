@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL-ҳо</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Вақтеро интихоб кунед, ки ҳоло наомадааст.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Ин дигар ба нақша гирифта нашудааст.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Версияи нави ин саҳифаро ҳоло сохтан ғайриимкон аст.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Вариант пеш аз оғоз ба охир мерасид.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Бардоштан</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Варианти тарҳ оғоз мешавад</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Варианти тарҳ ба охир мерасад</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Ин саҳифа ва поёнтар</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Тамоми сомона</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Моҳи гузашта</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Моҳи оянда</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Имрӯз</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>Ба нақша гирифта: %n</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Кӯчонидан</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Ба нақша гирифта</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Дар ин ҳафтаҳо ҳеҷ чиз ба нақша гирифта нашудааст.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Нашр дар сана дар ин ҷо танзим нашудааст: ҷараёни кории content/publish ҳодисаи "Wait until date" надорад.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Бардоштани саҳифаҳо дар сана дар ин ҷо танзим нашудааст: content.ini [HideSettings] ягон синф ва гиреҳи болоиро ном намебарад.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Дар ин сомона танзим нашудааст</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>то %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>қоида хомӯш аст</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Барои: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Ба рӯзи дигар кашед</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name" (%kind)-ро кӯчонед ба:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Версияи нави саҳифа бо ин сана нашр мешавад; шояд тасдиқ лозим шавад.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Охираш ҳам ҳамроҳ мекӯчад.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Сана ва вақт</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Кӯчонида шуд. Санаи нав тасдиқро интизор аст.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Кӯчонида шуд.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Тақвим</translation>
+    </message>
 </context>
 </TS>

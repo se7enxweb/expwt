@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL لار</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>تېخى كەلمىگەن ۋاقىتنى تاللاڭ.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>بۇ ئەمدى پىلانلانمىغان.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>بۇ بەتنىڭ يېڭى نەشرىنى ھازىر قۇرغىلى بولمايدۇ.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>ۋارىيانت باشلىنىشتىن بۇرۇن ئاخىرلىشىدۇ.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>چۈشۈرۈش</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>ئورۇنلاشتۇرۇش ۋارىيانتى باشلىنىدۇ</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>ئورۇنلاشتۇرۇش ۋارىيانتى ئاخىرلىشىدۇ</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>بۇ بەت ۋە ئاستى</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>پۈتۈن تور بېكەت</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>ئالدىنقى ئاي</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>كېيىنكى ئاي</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>بۈگۈن</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n پىلانلانغان</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>يۆتكەش</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>پىلانلانغان</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>بۇ ھەپتىلەردە ھېچنېمە پىلانلانمىغان.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>چېسلادا ئېلان قىلىش بۇ يەردە تەڭشەلمىگەن: content/publish خىزمەت ئېقىمىدا "Wait until date" ھادىسىسى يوق.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>چېسلادا بەتلەرنى چۈشۈرۈش بۇ يەردە تەڭشەلمىگەن: content.ini [HideSettings] ھېچقانداق تۈر ۋە ئۈستۈنكى تۈگۈننى ئاتىمايدۇ.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>بۇ تور بېكەتتە تەڭشەلمىگەن</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>%time گىچە</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>قائىدە تاقالغان</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>ئۈچۈن: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>باشقا كۈنگە سۆرەڭ</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name" (%kind) نى يۆتكەش:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>بۇ چېسلا بىلەن بەتنىڭ يېڭى نەشرى ئېلان قىلىنىدۇ؛ تەستىق كېرەك بولۇشى مۇمكىن.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>ئۇنىڭ ئاخىرىمۇ بىللە يۆتكىلىدۇ.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>چېسلا ۋە ۋاقىت</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>يۆتكەلدى. يېڭى چېسلا تەستىق كۈتۈۋاتىدۇ.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>يۆتكەلدى.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>كالېندار</translation>
+    </message>
 </context>
 </TS>

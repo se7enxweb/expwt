@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Wubjeŕśo cas, kótaryž hyšći pśiźo.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>To wěcej njejo planowane.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Nowa wersija toś togo boka njedajo se něnto napóraś.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Warianta by se skóńcyła, pjerwjej ako zachopijo.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Wótpóraś</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Warianta wugótowanja se zachopijo</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Warianta wugótowanja se skóńcyjo</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Toś ten bok a dołojce</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Ceły sedło</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Pśedchadny mjasec</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Pśiducy mjasec</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Źinsa</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>Planowane: %n</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Pśesunuś</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Planowane</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>W toś tych tyźenjach nic njejo planowane.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Wózjawjenje k datumoju njejo how nastajone: źěłowy wótbyg content/publish njama tšojenje "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Wótpóranje bokow k datumoju njejo how nastajone: content.ini [HideSettings] njemjenijo žednu klasu a žeden górny suk.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Na toś tom sedle njenastajone</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>až do %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>pšawidło wótšaltowane</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Za: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Śěgniśo na drugi źeń</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name" (%kind) pśesunuś na:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Nowa wersija boka z toś tym datumom se wózjawijo; pśizwólenje móžo trěbne byś.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Jogo kóńc se z nim pśesuwa.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Datum a cas</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Pśesunjone. Nowy datum caka na pśizwólenje.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Pśesunjone.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalendaŕ</translation>
+    </message>
 </context>
 </TS>

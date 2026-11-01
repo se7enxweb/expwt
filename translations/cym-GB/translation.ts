@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URLau</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Dewiswch amser sydd eto i ddod.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Nid yw hyn wedi'i amserlennu mwyach.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Ni ellir gwneud fersiwn newydd o'r dudalen hon nawr.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Byddai'r amrywiad yn dod i ben cyn iddo ddechrau.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Tynnu i lawr</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Amrywiad cynllun yn dechrau</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Amrywiad cynllun yn dod i ben</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Y dudalen hon a'r rhai oddi tani</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Y wefan gyfan</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Mis blaenorol</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Mis nesaf</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Heddiw</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n wedi'u hamserlennu</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Symud</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Wedi'i amserlennu</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Does dim wedi'i amserlennu yn yr wythnosau hyn.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Nid yw cyhoeddi ar ddyddiad wedi'i osod yma: nid oes gan lif gwaith content/publish ddigwyddiad "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Nid yw tynnu tudalennau i lawr ar ddyddiad wedi'i osod yma: nid yw content.ini [HideSettings] yn enwi dosbarth na nod uchaf.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Heb ei osod ar y wefan hon</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>tan %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>rheol wedi'i diffodd</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Ar gyfer: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Llusgwch i ddiwrnod arall</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Symud "%name" (%kind) i:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Cyhoeddir fersiwn newydd o'r dudalen gyda'r dyddiad hwn; gall cymeradwyaeth fod yn berthnasol.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Mae ei ddiwedd yn symud gydag ef.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Dyddiad ac amser</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Wedi'i symud. Mae'r dyddiad newydd yn aros am gymeradwyaeth.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Wedi'i symud.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Calendr</translation>
+    </message>
 </context>
 </TS>

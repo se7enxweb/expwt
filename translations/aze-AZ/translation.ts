@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL-lər</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Hələ gələcək bir vaxt seçin.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Bu artıq planlaşdırılmayıb.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Bu səhifənin yeni versiyası indi yaradıla bilməz.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Variant başlamazdan əvvəl bitərdi.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Yayımdan çıxar</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Tərtibat variantı başlayır</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Tərtibat variantı bitir</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Bu səhifə və altındakılar</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Bütün sayt</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Əvvəlki ay</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Növbəti ay</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Bu gün</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n planlaşdırılıb</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Köçür</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Planlaşdırılıb</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Bu həftələrdə heç nə planlaşdırılmayıb.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Tarixdə dərc etmə burada qurulmayıb: content/publish iş axınında "Wait until date" hadisəsi yoxdur.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Səhifələri tarixdə götürmə burada qurulmayıb: content.ini [HideSettings] heç bir sinif və yuxarı düyün adlandırmır.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Bu saytda qurulmayıb</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>%time qədər</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>qayda söndürülüb</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Üçün: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Başqa günə sürüşdürün</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name" (%kind) bura köçür:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Bu tarixlə səhifənin yeni versiyası dərc olunur; təsdiq tələb oluna bilər.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Sonu da onunla köçür.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Tarix və vaxt</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Köçürüldü. Yeni tarix təsdiqi gözləyir.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Köçürüldü.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Təqvim</translation>
+    </message>
 </context>
 </TS>

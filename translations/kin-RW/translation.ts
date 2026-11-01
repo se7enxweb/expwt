@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Hitamo igihe kitaragera.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Ibi ntibikiri muri gahunda.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Ntibishoboka gukora verisiyo nshya y'uru rupapuro ubu.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Ubwoko bwahinduwe bwarangira butaratangira.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Kuraho</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Ubwoko bw'imiterere butangiye</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Ubwoko bw'imiterere burangiye</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Uru rupapuro n'ibiri munsi</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Urubuga rwose</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Ukwezi gushize</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Ukwezi gutaha</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Uyu munsi</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n biri muri gahunda</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Kwimura</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Biri muri gahunda</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Nta kintu kiri muri gahunda muri ibi byumweru.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Gutangaza ku itariki ntibyateguwe hano: urujya n'uruza rw'akazi content/publish nta gikorwa "Wait until date" rufite.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Gukuraho impapuro ku itariki ntibyateguwe hano: content.ini [HideSettings] nta cyiciro cyangwa ingingo yo hejuru ivuga.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Ntibyateguwe kuri uru rubuga</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>kugeza %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>itegeko ryazimijwe</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Kuri: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Kurura ujyane ku wundi munsi</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Kwimura "%name" (%kind) kuri:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Verisiyo nshya y'urupapuro ifite iyi tariki iratangazwa; kwemeza bishobora gukenerwa.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Iherezo ryayo naryo ririmukana nayo.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Itariki n'isaha</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Byimuwe. Itariki nshya itegereje kwemezwa.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Byimuwe.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalendari</translation>
+    </message>
 </context>
 </TS>

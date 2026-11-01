@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URLwo</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Tia ɣeyiɣi aɖe si gale eme gbɔna.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Wometsɔ esia de ɖoɖo me azɔ o.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Womate ŋu awɔ axa sia ƒe tɔtrɔ yeye fifia o.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Tɔtrɔa awu enu hafi adze egɔme.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Ɖe ɖa</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Ɖoɖo tɔtrɔ dze egɔme</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Ɖoɖo tɔtrɔ wu enu</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Axa sia kple ete</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Nyatakakadzraɖoƒe blibo</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Ɣleti si va yi</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Ɣleti si gbɔna</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Egbe</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n le ɖoɖo me</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Ʋuʋu</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Le ɖoɖo me</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Naneke mele ɖoɖo me le kwasiɖa siawo me o.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Woɖe ɖe go le ŋkeke aɖe dzi meɖo afi sia o: content/publish dɔwɔwɔ ƒe mɔ mexɔ "Wait until date" nudzɔdzɔ aɖeke o.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Axawo ɖeɖe ɖa le ŋkeke aɖe dzi meɖo afi sia o: content.ini [HideSettings] meyɔ ƒuƒoƒo aɖeke kple node si le dzi aɖeke o.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Meɖo nyatakakadzraɖoƒe sia dzi o</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>va se ɖe %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>se la tsi</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Na: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>He yi ŋkeke bubu dzi</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Ʋu "%name" (%kind) yi:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Woɖe axa la ƒe tɔtrɔ yeye si me ŋkeke sia le la ɖe go; ɖewohĩ alɔ̃ɖoɖo ahiã.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Eƒe nuwuwu hã ʋuna kplii.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Ŋkeke kple ɣeyiɣi</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Woʋui. Ŋkeke yeye la le alɔ̃ɖoɖo lalam.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Woʋui.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalenda</translation>
+    </message>
 </context>
 </TS>

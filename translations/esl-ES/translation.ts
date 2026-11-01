@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Elige un momento que aún esté por llegar.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Esto ya no está programado.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Ahora no se puede crear una versión nueva de esta página.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>La variante terminaría antes de empezar.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Retirar</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Empieza la variante de diseño</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Termina la variante de diseño</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Esta página y las de debajo</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Todo el sitio</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Mes anterior</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Mes siguiente</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Hoy</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n programados</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Mover</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Programado</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>No hay nada programado en estas semanas.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Publicar en una fecha no está configurado aquí: el flujo de trabajo content/publish no tiene ningún evento "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Retirar páginas en una fecha no está configurado aquí: content.ini [HideSettings] no nombra ninguna clase ni ningún nodo superior.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>No configurado en este sitio</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>hasta %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>regla desactivada</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Para: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Arrastra a otro día</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Mover "%name" (%kind) a:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Se publica una versión nueva de la página con esta fecha; puede aplicarse una aprobación.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Su final se mueve con ella.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Fecha y hora</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Movido. La nueva fecha espera su aprobación.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Movido.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Calendario</translation>
+    </message>
 </context>
 </TS>

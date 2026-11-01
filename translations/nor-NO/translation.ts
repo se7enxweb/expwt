@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL-er</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Velg et tidspunkt som ennå ikke har kommet.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Dette er ikke planlagt lenger.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Det kan ikke lages en ny versjon av denne siden nå.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Varianten ville slutte før den begynner.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Ta ned</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Layoutvariant starter</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Layoutvariant slutter</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Denne siden og under</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Hele nettstedet</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Forrige måned</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Neste måned</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>I dag</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n planlagt</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Flytt</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Planlagt</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Ingenting er planlagt i disse ukene.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Publisering på en dato er ikke satt opp her: arbeidsflyten content/publish har ingen "Wait until date"-hendelse.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Nedtaking av sider på en dato er ikke satt opp her: content.ini [HideSettings] nevner ingen klasse og ingen toppnode.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Ikke satt opp på dette nettstedet</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>til %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>regel slått av</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>For: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Dra til en annen dag</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Flytt "%name" (%kind) til:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>En ny versjon av siden med denne datoen publiseres; en godkjenning kan gjelde.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Slutten flyttes med.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Dato og tid</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Flyttet. Den nye datoen venter på godkjenning.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Flyttet.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalender</translation>
+    </message>
 </context>
 </TS>

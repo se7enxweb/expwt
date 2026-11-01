@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>Ii-URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Khetha ixesha elisazayo.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Oku akusacwangciswanga.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Inguqulelo entsha yeli phepha ayinakwenziwa ngoku.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Okwahlukileyo kungaphela ngaphambi kokuba kuqale.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Susa</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Okwahlukileyo kokubeka kuyaqala</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Okwahlukileyo kokubeka kuyaphela</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Eli phepha nangaphantsi</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Isiza sonke</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Inyanga edlulileyo</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Inyanga ezayo</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Namhlanje</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n okucwangcisiweyo</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Shenxisa</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Kucwangcisiwe</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Akukho nto icwangcisiweyo kwezi veki.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Ukupapasha ngomhla akumiselwanga apha: inkqubo yomsebenzi content/publish ayinasiganeko "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Ukususa amaphepha ngomhla akumiselwanga apha: content.ini [HideSettings] ayichazi naluphi na udidi okanye inodi ephezulu.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Akumiselwanga kwesi siza</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>de kube %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>umthetho ucinyiwe</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Ye: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Rhuqa uye kolunye usuku</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Shenxisa "%name" (%kind) uye:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Inguqulelo entsha yephepha enalo mhla iyapapashwa; imvume isenokufuneka.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Isiphelo sayo naso siyashenxa nayo.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Umhla nexesha</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Kushenxisiwe. Umhla omtsha ulinde imvume.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Kushenxisiwe.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Ikhalenda</translation>
+    </message>
 </context>
 </TS>

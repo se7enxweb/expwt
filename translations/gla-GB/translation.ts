@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URLan</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Tagh àm a tha fhathast ri thighinn.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Chan eil seo air a chlàradh tuilleadh.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Chan urrainnear tionndadh ùr den duilleag seo a dhèanamh an-dràsta.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Thigeadh an tionndadh gu crìch mus tòisicheadh e.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Thoir a-nuas</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Tòisichidh tionndadh na co-dhealbhachd</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Crìochnaichidh tionndadh na co-dhealbhachd</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>An duilleag seo is fodha</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>An làrach gu lèir</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Am mìos roimhe</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>An ath mhìos</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>An-diugh</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n air an clàradh</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Gluais</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Air a chlàradh</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Chan eil dad air a chlàradh sna seachdainean seo.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Chan eil foillseachadh air ceann-latha air a shuidheachadh an-seo: chan eil tachartas "Wait until date" aig an t-sruth-obrach content/publish.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Chan eil toirt a-nuas dhuilleagan air ceann-latha air a shuidheachadh an-seo: chan eil content.ini [HideSettings] ag ainmeachadh clas no nòd as àirde.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Gun suidheachadh air an làrach seo</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>gu %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>riaghailt dheth</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Airson: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Slaod gu latha eile</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Gluais "%name" (%kind) gu:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Thèid tionndadh ùr den duilleag leis a' cheann-latha seo fhoillseachadh; dh'fhaoidte gum bi aonta riatanach.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Gluaisidh a crìoch leatha.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Ceann-latha is àm</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Air a ghluasad. Tha an ceann-latha ùr a' feitheamh ri aonta.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Air a ghluasad.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Mìosachan</translation>
+    </message>
 </context>
 </TS>

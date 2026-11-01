@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>यः कालः अद्यापि आगमिष्यति तं चिनोतु।</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>एतत् इदानीं निर्धारितं नास्ति।</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>अस्य पृष्ठस्य नूतनं संस्करणम् इदानीं कर्तुं न शक्यते।</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>प्रकारः आरम्भात् पूर्वमेव समाप्स्यते।</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>अपनयतु</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>विन्यासप्रकारः आरभते</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>विन्यासप्रकारः समाप्यते</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>इदं पृष्ठम् अधः च</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>सम्पूर्णं जालस्थानम्</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>पूर्वमासः</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>अग्रिममासः</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>अद्य</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n निर्धारितानि</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>चालयतु</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>निर्धारितम्</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>एषु सप्ताहेषु किमपि निर्धारितं नास्ति।</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>दिनाङ्के प्रकाशनम् अत्र न स्थापितम्: content/publish कार्यप्रवाहे "Wait until date" घटना नास्ति।</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>दिनाङ्के पृष्ठापनयनम् अत्र न स्थापितम्: content.ini [HideSettings] कञ्चित् वर्गं उपरितनग्रन्थिं वा न निर्दिशति।</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>अस्मिन् जालस्थाने न स्थापितम्</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>%time पर्यन्तम्</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>नियमः निष्क्रियः</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>कृते: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>अन्यदिनं प्रति कर्षतु</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name" (%kind) अत्र चालयतु:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>अनेन दिनाङ्केन सह पृष्ठस्य नूतनं संस्करणं प्रकाश्यते; अनुमोदनम् आवश्यकं स्यात्।</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>तस्य अन्तः अपि सह चलति।</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>दिनाङ्कः समयः च</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>चालितम्। नूतनः दिनाङ्कः अनुमोदनं प्रतीक्षते।</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>चालितम्।</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>पञ्चाङ्गम्</translation>
+    </message>
 </context>
 </TS>

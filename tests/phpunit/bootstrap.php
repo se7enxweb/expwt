@@ -17,7 +17,7 @@ $expwtClasses = array(
     'expwtApiError' => 'expwtapierror.php', 'expwtApi' => 'expwtapi.php', 'expwtStrings' => 'expwtstrings.php',
     'expwtSchedule' => 'expwtschedule.php', 'expwtHook' => 'expwthook.php', 'expwtGateway' => 'expwtgateway.php',
     'expwtFieldMarkerHandler' => 'expwtfieldmarkerhandler.php',
-    'expwtRegistry' => 'expwtregistry.php',
+    'expwtRegistry' => 'expwtregistry.php', 'expwtCalendar' => 'expwtcalendar.php',
 );
 foreach ( $expwtClasses as $expwtClass => $expwtFile )
 {

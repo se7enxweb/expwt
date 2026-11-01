@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Demek hilbijêre ku hîn nehatiye.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Ev êdî ne di plansaziyê de ye.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Niha guhertoyeke nû ya vê rûpelê nayê çêkirin.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Guhertoya cuda dê beriya destpêkirinê biqede.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Rake</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Guhertoya xêzkirinê dest pê dike</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Guhertoya xêzkirinê diqede</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Ev rûpel û yên li jêr</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Tevahiya malperê</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Meha berê</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Meha bê</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Îro</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n di plansaziyê de</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Bar bike</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Di plansaziyê de</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Di van hefteyan de tiştek nehatiye plankirin.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Weşandina di dîrokekê de li vir nehatiye sazkirin: herikîna karê content/publish bûyera "Wait until date" tune.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Rakirina rûpelan di dîrokekê de li vir nehatiye sazkirin: content.ini [HideSettings] tu çîn û girêka jorîn nabe navê.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Li vê malperê nehatiye sazkirin</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>heta %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>rêgez girtî ye</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Ji bo: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Bikişîne rojeke din</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name" (%kind) bar bike bo:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Guhertoyeke nû ya rûpelê bi vê dîrokê tê weşandin; dibe ku pejirandin pêwîst be.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Dawiya wê jî pê re bar dibe.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Dîrok û dem</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Hat barkirin. Dîroka nû li benda pejirandinê ye.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Hat barkirin.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Salname</translation>
+    </message>
 </context>
 </TS>

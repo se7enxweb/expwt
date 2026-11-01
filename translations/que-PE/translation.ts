@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URLkuna</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Hamunanraq pachata akllay.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Kayqa manañam pachachasqachu.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Kunanqa manam kay p'anqapa musuq kaqninta ruwayta atikunchu.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Hukniray qallarinanpa ñawpaqninpim tukukunman.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Qichuy</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Churapa huknirayninmi qallarin</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Churapa huknirayninmi tukukun</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Kay p'anqa hinallataq urayninpi</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Llapan tiyay</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Ñawpaq killa</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Hamuq killa</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Kunan p'unchaw</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n pachachasqa</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Kuyuchiy</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Pachachasqa</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Kay semanakunapiqa manam imapas pachachasqachu.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>P'unchawpi rikuchiyqa manam kaypi churasqachu: content/publish llamkay purisqanqa manam "Wait until date" ruwayniyuqchu.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>P'unchawpi p'anqakuna qichuyqa manam kaypi churasqachu: content.ini [HideSettings] manam ima clasetapas nitaq hanaq nodotapas sutichanchu.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Kay tiyaypi mana churasqa</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>%time kama</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>kamachiy wañuchisqa</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Paypaq: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Huk p'unchawman aysay</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name" (%kind) kuyuchiy kayman:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Kay p'unchawniyuq p'anqapa musuq kaqninmi rikuchikun; chaskiyqa kanmanmi.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Tukukuyninpas paywanmi kuyun.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>P'unchaw hinallataq pacha</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Kuyuchisqa. Musuq p'unchawmi chaskiyta suyachkan.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Kuyuchisqa.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalindaryu</translation>
+    </message>
 </context>
 </TS>

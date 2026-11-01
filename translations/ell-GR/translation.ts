@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Επιλέξτε μια ώρα που δεν έχει έρθει ακόμη.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Αυτό δεν είναι πλέον προγραμματισμένο.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Δεν μπορεί να δημιουργηθεί νέα έκδοση αυτής της σελίδας τώρα.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Η παραλλαγή θα τελείωνε πριν ξεκινήσει.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Απόσυρση</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Ξεκινά παραλλαγή διάταξης</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Λήγει παραλλαγή διάταξης</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Αυτή η σελίδα και κάτω</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Ολόκληρος ο ιστότοπος</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Προηγούμενος μήνας</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Επόμενος μήνας</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Σήμερα</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n προγραμματισμένα</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Μετακίνηση</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Προγραμματισμένα</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Δεν υπάρχει τίποτα προγραμματισμένο αυτές τις εβδομάδες.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Η δημοσίευση σε ημερομηνία δεν έχει ρυθμιστεί εδώ: η ροή εργασιών content/publish δεν έχει συμβάν "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Η απόσυρση σελίδων σε ημερομηνία δεν έχει ρυθμιστεί εδώ: το content.ini [HideSettings] δεν ορίζει καμία κλάση και κανέναν ανώτερο κόμβο.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Δεν έχει ρυθμιστεί σε αυτόν τον ιστότοπο</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>έως %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>ο κανόνας είναι απενεργοποιημένος</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Για: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Σύρετε σε άλλη ημέρα</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Μετακίνηση "%name" (%kind) σε:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Δημοσιεύεται νέα έκδοση της σελίδας με αυτή την ημερομηνία· μπορεί να απαιτείται έγκριση.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Το τέλος της μετακινείται μαζί.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Ημερομηνία και ώρα</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Μετακινήθηκε. Η νέα ημερομηνία περιμένει έγκριση.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Μετακινήθηκε.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Ημερολόγιο</translation>
+    </message>
 </context>
 </TS>

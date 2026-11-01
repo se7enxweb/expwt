@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>තවම පැමිණීමට ඇති වේලාවක් තෝරන්න.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>මෙය තවදුරටත් කාලසටහන්ගත නැත.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>මෙම පිටුවේ නව අනුවාදයක් දැන් සෑදිය නොහැක.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>ප්‍රභේදය ආරම්භ වීමට පෙර අවසන් වනු ඇත.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>ඉවත් කරන්න</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>පිරිසැලසුම් ප්‍රභේදය ආරම්භ වේ</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>පිරිසැලසුම් ප්‍රභේදය අවසන් වේ</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>මෙම පිටුව සහ පහළ</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>සම්පූර්ණ අඩවිය</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>පෙර මාසය</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>ඊළඟ මාසය</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>අද</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>කාලසටහන්ගත %n</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>ගෙන යන්න</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>කාලසටහන්ගත</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>මෙම සති තුළ කිසිවක් කාලසටහන්ගත කර නැත.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>දිනයකට ප්‍රකාශනය මෙහි සකසා නැත: content/publish කාර්ය ප්‍රවාහයේ "Wait until date" සිදුවීමක් නැත.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>දිනයකට පිටු ඉවත් කිරීම මෙහි සකසා නැත: content.ini [HideSettings] කිසිදු පන්තියක් හෝ ඉහළ නෝඩයක් නම් නොකරයි.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>මෙම අඩවියේ සකසා නැත</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>%time දක්වා</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>රීතිය අක්‍රියයි</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>සඳහා: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>වෙනත් දිනයකට අදින්න</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name" (%kind) මෙතැනට ගෙන යන්න:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>මෙම දිනය සහිත පිටුවේ නව අනුවාදයක් ප්‍රකාශ වේ; අනුමැතියක් අදාළ විය හැක.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>එහි අවසානයද සමඟ ගමන් කරයි.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>දිනය සහ වේලාව</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>ගෙන ගියා. නව දිනය අනුමැතිය එනතුරු රැඳී සිටී.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>ගෙන ගියා.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>දින දර්ශනය</translation>
+    </message>
 </context>
 </TS>

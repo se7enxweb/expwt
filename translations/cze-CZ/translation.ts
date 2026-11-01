@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL adresy</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Zvolte čas, který teprve přijde.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Tohle už není naplánováno.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Novou verzi této stránky teď nelze vytvořit.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Varianta by skončila dřív, než začne.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Stáhnout</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Varianta rozvržení začíná</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Varianta rozvržení končí</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Tato stránka a pod ní</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Celý web</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Předchozí měsíc</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Další měsíc</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Dnes</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>Naplánováno: %n</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Přesunout</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Naplánováno</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>V těchto týdnech není nic naplánováno.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Publikování k datu zde není nastaveno: workflow content/publish nemá událost "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Stahování stránek k datu zde není nastaveno: content.ini [HideSettings] neuvádí žádnou třídu ani horní uzel.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Na tomto webu nenastaveno</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>do %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>pravidlo vypnuto</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Pro: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Přetáhněte na jiný den</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Přesunout "%name" (%kind) na:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Publikuje se nová verze stránky s tímto datem; může být nutné schválení.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Její konec se posune s ní.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Datum a čas</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Přesunuto. Nové datum čeká na schválení.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Přesunuto.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalendář</translation>
+    </message>
 </context>
 </TS>

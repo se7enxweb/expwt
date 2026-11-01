@@ -2167,6 +2167,269 @@
     }
   }
 
+  /* ---------------------------------------------------------------------------------------------- calendar */
+
+  /* Pure (tests/js/calendar.test.js): the month grid (six weeks from the Monday on or before the 1st), the days of the
+     items, a time moved to another day (the same time of day, in the browser's time zone, sent with its offset) and
+     what a move sends. */
+  var Calendar = {
+    key: function (d) { return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate()); },
+    dayOf: function (ts) { return Calendar.key(new Date(ts * 1000)); },
+    grid: function (year, month) {
+      var first = new Date(year, month, 1);
+      var shift = (first.getDay() + 6) % 7;
+      var days = [];
+      for (var i = 0; i < 42; i++) {
+        var d = new Date(year, month, 1 - shift + i);
+        days.push({ key: Calendar.key(d), day: d.getDate(), inMonth: d.getMonth() === month, weekday: (d.getDay() + 6) % 7 });
+      }
+      var start = new Date(year, month, 1 - shift);
+      var end = new Date(year, month, 1 - shift + 42);
+      return { from: Math.floor(start.getTime() / 1000), to: Math.floor(end.getTime() / 1000) - 1, days: days };
+    },
+    iso: function (d) {
+      var off = -d.getTimezoneOffset();
+      var sign = off >= 0 ? '+' : '-';
+      off = Math.abs(off);
+      return Calendar.key(d) + 'T' + pad(d.getHours()) + ':' + pad(d.getMinutes()) + ':' + pad(d.getSeconds()) + sign + pad(Math.floor(off / 60)) + ':' + pad(off % 60);
+    },
+    movedTo: function (ts, dayKey) {
+      var d = new Date(ts * 1000);
+      var p = String(dayKey).split('-');
+      return Calendar.iso(new Date(+p[0], +p[1] - 1, +p[2], d.getHours(), d.getMinutes(), d.getSeconds()));
+    },
+    fromLocal: function (text) {
+      if (!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}/.test(String(text || ''))) { return ''; }
+      var d = new Date(text);
+      return isNaN(d.getTime()) ? '' : Calendar.iso(d);
+    },
+    byDay: function (items) {
+      var out = {};
+      items.forEach(function (it) { var k = Calendar.dayOf(it.at); (out[k] = out[k] || []).push(it); });
+      return out;
+    },
+    action: function (item) {
+      return item.kind === 'publish' ? 'calendar.publish' : item.kind === 'takedown' ? 'calendar.takedown' : 'calendar.variant';
+    },
+    input: function (item, at) {
+      if (item.kind === 'publish') { return { objectId: item.objectId, version: item.version, at: at }; }
+      if (item.kind === 'takedown') { return { nodeId: item.nodeId, at: at }; }
+      return { conditionId: item.conditionId, which: item.which === 'end' ? 'end' : 'start', at: at };
+    }
+  };
+
+  /* Everything scheduled (E6) for the page, the page and below, or the whole site, a month at a time: the drafts the
+     wait-until-date event holds, the pages the hide cronjob takes down and the layout variants. Drag an item (its
+     handle in the list, or its mark in the grid) to another day, or "Move" it to a date and time; every move is
+     confirmed first. */
+  function calendar(ctx, root) {
+    var h = ctx.h;
+    var t = ctx.t;
+    if (!ctx.node) {
+      root.appendChild(h('p', { text: t('This page is not content of the site. Open a page of the site to edit it.') }));
+      return;
+    }
+    var today = new Date();
+    var view = { year: today.getFullYear(), month: today.getMonth(), scope: 'page' };
+    var lang = (document.documentElement && document.documentElement.lang) || undefined;
+    var kinds = { publish: t('Publish'), takedown: t('Take down'), variant: t('Layout variant starts'), 'variant-end': t('Layout variant ends') };
+    var current = null;
+    var confirmBox = null;
+    var asked = 0;
+    root.appendChild(h('p', { class: 'wt-muted', text: t('Loading ...') }));
+    load();
+
+    function fmt(options, d) {
+      try { return new Intl.DateTimeFormat(lang, options).format(d); } catch (e) { return d.toLocaleString(); }
+    }
+    function whenText(item, ts) {
+      var d = new Date(ts * 1000);
+      return item.precision === 'date' ? fmt({ dateStyle: 'medium' }, d) : fmt({ dateStyle: 'medium', timeStyle: 'short' }, d);
+    }
+
+    function load() {
+      var g = Calendar.grid(view.year, view.month);
+      /* only the answer to the latest question is drawn: a slower earlier one never overwrites it */
+      var mine = ++asked;
+      ctx.call('calendar.load', { nodeId: ctx.node, scope: view.scope, from: g.from, to: g.to }).then(function (r) {
+        if (mine !== asked) { return; }
+        current = r;
+        draw(r, g);
+      }, function (err) { if (mine !== asked) { return; } root.textContent = ''; failure(ctx, err); });
+    }
+
+    function shift(n) {
+      var d = new Date(view.year, view.month + n, 1);
+      view.year = d.getFullYear();
+      view.month = d.getMonth();
+      load();
+    }
+
+    function draw(r, g) {
+      root.textContent = '';
+      var scopes = [['page', t('This page')], ['subtree', t('This page and below')], ['site', t('The whole site')]];
+      root.appendChild(h('div', { class: 'wt-row wt-cal-scope', role: 'group', 'aria-label': t('Calendar') }, scopes.map(function (s) {
+        return h('button', { type: 'button', class: 'wt-btn wt-chip-btn', 'aria-pressed': view.scope === s[0] ? 'true' : 'false', text: s[1],
+          onclick: function () { view.scope = s[0]; load(); } });
+      })));
+      var title = fmt({ month: 'long', year: 'numeric' }, new Date(view.year, view.month, 1));
+      root.appendChild(h('div', { class: 'wt-cal-nav' }, [
+        h('button', { type: 'button', class: 'wt-btn wt-chip-btn', 'aria-label': t('Previous month'), text: '‹', onclick: function () { shift(-1); } }),
+        h('h3', { id: 'wt-cal-h', class: 'wt-cal-title', 'aria-live': 'polite', text: title }),
+        h('button', { type: 'button', class: 'wt-btn wt-chip-btn', 'aria-label': t('Next month'), text: '›', onclick: function () { shift(1); } }),
+        h('button', { type: 'button', class: 'wt-btn wt-chip-btn', text: t('Today'), onclick: function () {
+          view.year = today.getFullYear(); view.month = today.getMonth(); load();
+        } })
+      ]));
+
+      var byDay = Calendar.byDay(r.items);
+      var todayKey = Calendar.key(new Date());
+      var grid = h('div', { class: 'wt-cal-grid', 'aria-labelledby': 'wt-cal-h', role: 'group' });
+      for (var w = 0; w < 7; w++) {
+        grid.appendChild(h('span', { class: 'wt-cal-wd', 'aria-hidden': 'true', text: fmt({ weekday: 'narrow' }, g.days[w] ? new Date(g.days[w].key + 'T12:00') : new Date()) }));
+      }
+      g.days.forEach(function (day) {
+        var items = byDay[day.key] || [];
+        var label = fmt({ dateStyle: 'full' }, new Date(day.key + 'T12:00')) + (items.length ? ', ' + t('%n scheduled').replace('%n', items.length) : '');
+        var marks = h('span', { class: 'wt-cal-marks', 'aria-hidden': 'true' }, items.slice(0, 4).map(function (it) {
+          var m = h('span', { class: 'wt-cal-mark is-' + it.kind, 'data-key': it.key });
+          drag(m, it);
+          return m;
+        }));
+        var cell = h('button', { type: 'button', class: 'wt-cal-day' + (day.inMonth ? '' : ' is-other') + (day.key === todayKey ? ' is-today' : ''),
+          'data-day': day.key, 'aria-label': label, 'aria-current': day.key === todayKey ? 'date' : null,
+          onclick: function () {
+            var group = root.querySelector('[data-day-list="' + day.key + '"]');
+            if (group) { group.scrollIntoView({ block: 'nearest' }); var f = group.querySelector('a,button'); if (f) { f.focus(); } }
+          } }, [h('span', { class: 'wt-cal-num', text: String(day.day) }), marks]);
+        grid.appendChild(cell);
+      });
+      root.appendChild(grid);
+      root.appendChild(h('p', { class: 'wt-cal-legend' }, ['publish', 'takedown', 'variant', 'variant-end'].map(function (k) {
+        return h('span', { class: 'wt-cal-key' }, [h('span', { class: 'wt-cal-mark is-' + k, 'aria-hidden': 'true' }), h('span', { text: kinds[k] })]);
+      })));
+
+      confirmBox = h('div', { class: 'wt-cal-confirm', hidden: true, role: 'region', 'aria-live': 'polite', 'aria-label': t('Move') });
+      root.appendChild(confirmBox);
+
+      var list = h('section', { class: 'wt-section', 'aria-labelledby': 'wt-cal-l' }, [h('h3', { id: 'wt-cal-l', text: t('Scheduled') })]);
+      var inMonth = r.items.filter(function (it) { return Calendar.dayOf(it.at) >= g.days[0].key && Calendar.dayOf(it.at) <= g.days[41].key; });
+      if (!inMonth.length) {
+        list.appendChild(h('p', { class: 'wt-muted', text: t('Nothing is scheduled in these weeks.') }));
+      }
+      Object.keys(byDay).sort().forEach(function (key) {
+        var group = h('div', { class: 'wt-cal-group', 'data-day-list': key }, [h('h4', { class: 'wt-cal-date', text: fmt({ dateStyle: 'full' }, new Date(key + 'T12:00')) })]);
+        var ul = h('ul', { class: 'wt-list wt-cal-list' });
+        byDay[key].forEach(function (it) { ul.appendChild(itemRow(it)); });
+        group.appendChild(ul);
+        list.appendChild(group);
+      });
+      root.appendChild(list);
+
+      var notes = [];
+      if (!r.setup.publish) { notes.push(t('Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.')); }
+      if (!r.setup.takeDown) { notes.push(t('Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.')); }
+      if (notes.length) {
+        root.appendChild(h('details', { class: 'wt-section wt-cal-notes' }, [h('summary', { text: t('Not set up on this site') })].concat(notes.map(function (n) { return h('p', { class: 'wt-muted', text: n }); }))));
+      }
+    }
+
+    function itemRow(it) {
+      var meta = [h('span', { class: 'wt-chip wt-cal-kind is-' + it.kind, text: kinds[it.kind] || it.kind }),
+        h('span', { class: 'wt-cal-time', text: whenText(it, it.at) })];
+      if (it.kind === 'variant' && it.to) { meta.push(h('span', { class: 'wt-muted', text: t('until %time').replace('%time', whenText(it, it.to)) })); }
+      if ((it.kind === 'variant' || it.kind === 'variant-end') && it.enabled === false) { meta.push(h('span', { class: 'wt-chip is-warn', text: t('rule switched off') })); }
+      var body = h('div', { class: 'wt-cal-body' }, [
+        it.url ? h('a', { class: 'wt-cal-name', href: it.url, target: '_blank', rel: 'noopener', text: it.title }) : h('span', { class: 'wt-cal-name', text: it.title }),
+        h('span', { class: 'wt-cal-meta' }, meta),
+        it.targets && it.targets.length ? h('span', { class: 'wt-muted wt-cal-targets', text: t('For: %list').replace('%list', it.targets.join(', ')) }) : null
+      ]);
+      var li = h('li', { class: 'wt-cal-item', 'data-key': it.key }, [body]);
+      if (it.canMove) {
+        var handle = h('span', { class: 'wt-cal-handle', 'aria-hidden': 'true', title: t('Drag to another day'), text: '⠇' });
+        drag(handle, it);
+        li.insertBefore(handle, body);
+        li.appendChild(h('button', { type: 'button', class: 'wt-btn wt-chip-btn', text: t('Move'), 'aria-label': t('Move') + ': ' + it.title,
+          onclick: function () { ask(it, null); } }));
+      }
+      return li;
+    }
+
+    /* the confirmation of a move: the new date and time (prefilled), Move and Cancel */
+    function ask(it, dayKey) {
+      var at = dayKey ? Calendar.movedTo(it.at, dayKey) : Calendar.iso(new Date(it.at * 1000));
+      var input = h('input', { type: 'datetime-local', id: 'wt-cal-at', value: at.slice(0, 16) });
+      var ok = h('button', { type: 'submit', class: 'wt-btn is-primary', text: t('Move') });
+      var form = h('form', { class: 'wt-cal-form' }, [
+        h('p', { text: t('Move "%name" (%kind) to:').replace('%name', it.title).replace('%kind', kinds[it.kind] || it.kind) }),
+        it.kind === 'takedown' ? h('p', { class: 'wt-muted', text: t('A new version of the page with this date is published; an approval may apply.') }) : null,
+        it.kind === 'variant' && it.to ? h('p', { class: 'wt-muted', text: t('Its end moves with it.') }) : null,
+        h('label', { class: 'wt-field', for: 'wt-cal-at' }, [h('span', { text: t('Date and time') }), input]),
+        h('div', { class: 'wt-row' }, [ok, h('button', { type: 'button', class: 'wt-btn', text: t('Cancel'), onclick: close })])
+      ]);
+      form.addEventListener('submit', function (ev) {
+        ev.preventDefault();
+        var value = Calendar.fromLocal(input.value);
+        if (!value) { input.focus(); ctx.say(t('This is not a date and time.'), 'bad'); return; }
+        ok.disabled = true;
+        ctx.call(Calendar.action(it), Calendar.input(it, value)).then(function (res) {
+          ctx.say(res.status === 'PENDING' ? t('Moved. The new date waits for its approval.') : t('Moved.'), 'ok');
+          load();
+        }, function (err) { ok.disabled = false; failure(ctx, err); });
+      });
+      confirmBox.textContent = '';
+      confirmBox.appendChild(form);
+      confirmBox.hidden = false;
+      confirmBox.scrollIntoView({ block: 'nearest' });
+      input.focus();
+      function close() { confirmBox.hidden = true; confirmBox.textContent = ''; }
+    }
+
+    /* drag by pointer (mouse, pen and touch alike) onto a day of the grid; Escape cancels */
+    function drag(el, it) {
+      if (!it.canMove) { return; }
+      el.setAttribute('data-drag', 'true');
+      el.addEventListener('pointerdown', function (ev) {
+        if (ev.button !== 0) { return; }
+        ev.preventDefault();
+        ev.stopPropagation();
+        var scope = root.getRootNode && root.getRootNode().elementFromPoint ? root.getRootNode() : document;
+        var over = null;
+        var row = root.querySelector('.wt-cal-item[data-key="' + it.key + '"]');
+        if (row) { row.classList.add('is-dragging'); }
+        try { el.setPointerCapture(ev.pointerId); } catch (e) { /* not capturable */ }
+        function at(x, y) {
+          var target = scope.elementFromPoint(x, y);
+          return target && target.closest ? target.closest('.wt-cal-day') : null;
+        }
+        function mark(cell) {
+          if (over === cell) { return; }
+          if (over) { over.removeAttribute('data-drop'); }
+          over = cell;
+          if (over) { over.setAttribute('data-drop', 'true'); }
+        }
+        function moveTo(e) { mark(at(e.clientX, e.clientY)); }
+        function end(e, cancelled) {
+          el.removeEventListener('pointermove', moveTo);
+          el.removeEventListener('pointerup', up);
+          el.removeEventListener('pointercancel', cancel);
+          document.removeEventListener('keydown', key, true);
+          if (row) { row.classList.remove('is-dragging'); }
+          var cell = cancelled ? null : (e ? at(e.clientX, e.clientY) : over);
+          mark(null);
+          if (cell && cell.getAttribute('data-day') !== Calendar.dayOf(it.at)) { ask(it, cell.getAttribute('data-day')); }
+        }
+        function up(e) { end(e, false); }
+        function cancel() { end(null, true); }
+        function key(e) { if (e.key === 'Escape') { e.preventDefault(); end(null, true); } }
+        el.addEventListener('pointermove', moveTo);
+        el.addEventListener('pointerup', up);
+        el.addEventListener('pointercancel', cancel);
+        document.addEventListener('keydown', key, true);
+      });
+    }
+  }
+
   /* ---------------------------------------------------------------------------------------------- newsletter */
 
   /* The page's newsletter (E3, cjw_newsletter). On an edition: the edition. On any other page: the editions that carry
@@ -2581,5 +2844,6 @@
   window.ExpwtSeo = SEO;
   window.ExpwtComments = { actions: commentActions };
   window.ExpwtUrls = { address: addressOf };
-  window.ExpwtPanels = { page: page, create: create, structure: structure, seo: seo, sites: sites, forms: forms, newsletter: newsletter, urls: urls, insights: insights, inbox: inbox, me: me, shortcuts: shortcuts };
+  window.ExpwtCalendar = Calendar;
+  window.ExpwtPanels = { page: page, create: create, structure: structure, seo: seo, sites: sites, forms: forms, newsletter: newsletter, urls: urls, calendar: calendar, insights: insights, inbox: inbox, me: me, shortcuts: shortcuts };
 }());

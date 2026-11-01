@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL-të</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Zgjidhni një kohë që ende nuk ka ardhur.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Kjo nuk është më e planifikuar.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Një version i ri i kësaj faqeje nuk mund të bëhet tani.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Varianti do të mbaronte para se të fillonte.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Hiqe</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Fillon varianti i paraqitjes</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Mbaron varianti i paraqitjes</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Kjo faqe dhe poshtë</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>I gjithë sajti</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Muaji i kaluar</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Muaji tjetër</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Sot</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n të planifikuara</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Zhvendos</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>E planifikuar</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Asgjë nuk është planifikuar në këto javë.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Botimi në një datë nuk është ngritur këtu: rrjedha e punës content/publish nuk ka ngjarje "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Heqja e faqeve në një datë nuk është ngritur këtu: content.ini [HideSettings] nuk përmend asnjë klasë dhe asnjë nyje të sipërme.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>E pa ngritur në këtë sajt</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>deri më %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>rregulli i fikur</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Për: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Tërhiqeni në një ditë tjetër</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Zhvendos "%name" (%kind) në:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Botohet një version i ri i faqes me këtë datë; mund të vlejë një miratim.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Fundi i tij zhvendoset bashkë.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Data dhe ora</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>U zhvendos. Data e re pret miratimin.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>U zhvendos.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalendar</translation>
+    </message>
 </context>
 </TS>

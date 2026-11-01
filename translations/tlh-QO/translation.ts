@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URLmey</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>poH ghoSbe'pu'bogh yIwIv.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>DaH nab ghajbe'chugh vam.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>DaH nav vam chu' ghItlh chenmoHlaHbe'.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>taghpa' rInlaH variant.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>yIteq</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>HaSta variant tagh</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>HaSta variant rIn</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>nav vam 'ej bIngDaq</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Hoch Daq</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>jar vorgh</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>jar veb</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>DaHjaj</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n nab</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>yIvIH</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>nab</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Hoghmeyvam nab pagh.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>jaj DaqDaq ghItlh lI'moH naDev cherbe'lu': content/publish Qu' He ghajbe' "Wait until date" wanI'.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>jaj DaqDaq nav teq naDev cherbe'lu': content.ini [HideSettings] Segh pagh 'ej Dung node pagh pongbe'.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Daqvam cherbe'lu'</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>%time ghoS</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>chut chu'Ha'lu'pu'</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>-vaD: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>latlh jaj yIlISmoH</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name" (%kind) yIvIH:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>jajvam ghaj nav ghItlh chu' lI'moHlu'; chaw' poQlaH.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>rInDaj je vIHmoHlu'.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>jaj 'ej poH</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>vIHlu'pu'. chaw' loS jaj chu'.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>vIHlu'pu'.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>'ISjaH</translation>
+    </message>
 </context>
 </TS>

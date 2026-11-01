@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL adresai</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Pasirinkite laiką, kuris dar tik ateis.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Tai nebėra suplanuota.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Šio puslapio naujos versijos dabar sukurti negalima.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Variantas baigtųsi anksčiau nei prasideda.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Nuimti</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Išdėstymo variantas prasideda</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Išdėstymo variantas baigiasi</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Šis puslapis ir žemiau</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Visa svetainė</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Ankstesnis mėnuo</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Kitas mėnuo</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Šiandien</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>Suplanuota: %n</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Perkelti</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Suplanuota</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Šiomis savaitėmis nieko nesuplanuota.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Skelbimas nurodytą dieną čia nenustatytas: darbo eiga content/publish neturi įvykio "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Puslapių nuėmimas nurodytą dieną čia nenustatytas: content.ini [HideSettings] nenurodo jokios klasės ir jokio viršutinio mazgo.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Šioje svetainėje nenustatyta</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>iki %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>taisyklė išjungta</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Kam: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Vilkite į kitą dieną</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Perkelti "%name" (%kind) į:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Paskelbiama nauja puslapio versija su šia data; gali reikėti patvirtinimo.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Jo pabaiga persikelia kartu.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Data ir laikas</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Perkelta. Nauja data laukia patvirtinimo.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Perkelta.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalendorius</translation>
+    </message>
 </context>
 </TS>

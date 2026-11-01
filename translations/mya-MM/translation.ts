@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL များ</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>မရောက်သေးသော အချိန်ကို ရွေးပါ။</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>၎င်းကို အချိန်ဇယားတွင် မထားတော့ပါ။</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>ဤစာမျက်နှာ၏ ဗားရှင်းအသစ်ကို ယခု မပြုလုပ်နိုင်ပါ။</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>ကွဲပြားမှုသည် မစတင်မီ ပြီးဆုံးသွားပါမည်။</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>ဖြုတ်ချ</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>အပြင်အဆင် ကွဲပြားမှု စတင်</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>အပြင်အဆင် ကွဲပြားမှု ပြီးဆုံး</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>ဤစာမျက်နှာနှင့် အောက်ပိုင်း</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>ဆိုက်တစ်ခုလုံး</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>ယခင်လ</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>နောက်လ</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>ယနေ့</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>အချိန်ဇယားသွင်းထား %n</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>ရွှေ့</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>အချိန်ဇယားသွင်းထား</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>ဤရက်သတ္တပတ်များတွင် ဘာမျှ အချိန်ဇယားမသွင်းထားပါ။</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>ရက်စွဲတွင် ထုတ်ဝေခြင်းကို ဤနေရာတွင် မသတ်မှတ်ထားပါ- content/publish လုပ်ငန်းစဉ်တွင် "Wait until date" ဖြစ်ရပ် မရှိပါ။</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>ရက်စွဲတွင် စာမျက်နှာများ ဖြုတ်ချခြင်းကို ဤနေရာတွင် မသတ်မှတ်ထားပါ- content.ini [HideSettings] သည် မည်သည့်အတန်းအစား သို့မဟုတ် ထိပ်ဆုံး node ကိုမျှ မဖော်ပြပါ။</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>ဤဆိုက်တွင် မသတ်မှတ်ထားပါ</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>%time အထိ</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>စည်းမျဉ်း ပိတ်ထားသည်</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>အတွက်- %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>အခြားနေ့သို့ ဆွဲပါ</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name" (%kind) ကို ရွှေ့ရန်-</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>ဤရက်စွဲပါသော စာမျက်နှာ၏ ဗားရှင်းအသစ်ကို ထုတ်ဝေမည်။ အတည်ပြုချက် လိုအပ်နိုင်သည်။</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>၎င်း၏ အဆုံးလည်း အတူ ရွှေ့သွားသည်။</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>ရက်စွဲနှင့် အချိန်</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>ရွှေ့ပြီးပါပြီ။ ရက်စွဲအသစ်သည် အတည်ပြုချက်ကို စောင့်နေသည်။</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>ရွှေ့ပြီးပါပြီ။</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>ပြက္ခဒိန်</translation>
+    </message>
 </context>
 </TS>

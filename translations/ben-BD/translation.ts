@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>এমন একটি সময় বেছে নিন যা এখনও আসেনি।</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>এটি আর নির্ধারিত নেই।</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>এই পৃষ্ঠার নতুন সংস্করণ এখন তৈরি করা যাবে না।</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>ভ্যারিয়েন্টটি শুরু হওয়ার আগেই শেষ হয়ে যাবে।</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>সরিয়ে নিন</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>লেআউট ভ্যারিয়েন্ট শুরু</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>লেআউট ভ্যারিয়েন্ট শেষ</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>এই পৃষ্ঠা ও নিচের সব</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>পুরো সাইট</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>আগের মাস</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>পরের মাস</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>আজ</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%nটি নির্ধারিত</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>সরান</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>নির্ধারিত</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>এই সপ্তাহগুলোতে কিছুই নির্ধারিত নেই।</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>তারিখে প্রকাশ এখানে সেট করা নেই: content/publish ওয়ার্কফ্লোতে কোনো "Wait until date" ইভেন্ট নেই।</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>তারিখে পৃষ্ঠা সরানো এখানে সেট করা নেই: content.ini [HideSettings] কোনো ক্লাস বা শীর্ষ নোডের নাম দেয় না।</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>এই সাইটে সেট করা নেই</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>%time পর্যন্ত</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>নিয়ম বন্ধ</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>জন্য: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>অন্য দিনে টেনে আনুন</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name" (%kind) সরান এখানে:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>এই তারিখসহ পৃষ্ঠার নতুন সংস্করণ প্রকাশিত হয়; অনুমোদন লাগতে পারে।</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>এর শেষও সঙ্গে সরে যায়।</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>তারিখ ও সময়</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>সরানো হয়েছে। নতুন তারিখ অনুমোদনের অপেক্ষায়।</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>সরানো হয়েছে।</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>ক্যালেন্ডার</translation>
+    </message>
 </context>
 </TS>

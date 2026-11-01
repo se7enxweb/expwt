@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Scegli un momento ancora da venire.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Questo non è più programmato.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Ora non si può creare una nuova versione di questa pagina.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>La variante finirebbe prima di iniziare.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Ritira</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Inizia la variante di layout</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Finisce la variante di layout</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Questa pagina e sotto</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Tutto il sito</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Mese precedente</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Mese successivo</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Oggi</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n programmati</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Sposta</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Programmato</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Non c'è niente di programmato in queste settimane.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>La pubblicazione a una data non è configurata qui: il workflow content/publish non ha nessun evento "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Il ritiro delle pagine a una data non è configurato qui: content.ini [HideSettings] non indica nessuna classe e nessun nodo superiore.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Non configurato su questo sito</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>fino al %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>regola disattivata</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Per: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Trascina su un altro giorno</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Sposta "%name" (%kind) a:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Viene pubblicata una nuova versione della pagina con questa data; può servire un'approvazione.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>La sua fine si sposta con essa.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Data e ora</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Spostato. La nuova data attende l'approvazione.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Spostato.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Calendario</translation>
+    </message>
 </context>
 </TS>

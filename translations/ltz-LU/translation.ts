@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URLen</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Wielt eng Zäit, déi nach kënnt.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Dat ass net méi geplangt.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Vun dëser Säit ka grad keng nei Versioun gemaach ginn.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>D'Variant géif ophalen, ier se ufänkt.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Erofhuelen</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Layoutvariant fänkt un</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Layoutvariant hält op</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Dës Säit an drënner</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>De ganze Site</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Viregte Mount</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Nächste Mount</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Haut</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n geplangt</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Verréckelen</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Geplangt</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>An dëse Wochen ass näischt geplangt.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Publizéieren op en Datum ass hei net ageriicht: de Workflow content/publish huet keen Event "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Säiten op en Datum erofhuelen ass hei net ageriicht: content.ini [HideSettings] nennt keng Klass a kee bäischten Knuet.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Op dësem Site net ageriicht</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>bis %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>Regel ausgeschalt</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Fir: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Op en aneren Dag zéien</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name" (%kind) verréckelen op:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Eng nei Versioun vun der Säit mat dësem Datum gëtt publizéiert; eng Fräigab kann zielen.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Hiert Enn verréckelt sech mat.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Datum an Zäit</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Verréckelt. Den neien Datum waart op seng Fräigab.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Verréckelt.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalenner</translation>
+    </message>
 </context>
 </TS>

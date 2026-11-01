@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>अजून येवपाचो आसा असो वेळ वेंचात.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>हें आतां वेळापत्रकांत ना.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>ह्या पानाची नवी आवृत्ती आतां करूंक जायना.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>वेरियंट सुरू जावचे आदींच सोंपतलो.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>काडात</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>लेआउट वेरियंट सुरू</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>लेआउट वेरियंट सोंपता</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>हें पान आनी सकयल</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>सगळी सायट</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>फाटलो म्हयनो</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>फुडलो म्हयनो</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>आयज</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n वेळापत्रकांत</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>हालयात</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>वेळापत्रकांत</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>ह्या सप्तकांनी कांयच वेळापत्रकांत ना.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>तारखेर उजवाडप हांगा सेट केल्लें ना: content/publish वर्कफ्लोंत "Wait until date" घडणूक ना.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>तारखेर पानां काडप हांगा सेट केल्लें ना: content.ini [HideSettings] खंयच्याच वर्गाचें आनी वयल्या नोडाचें नांव घेना.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>ह्या सायटीर सेट केल्लें ना</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>%time मेरेन</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>नेम बंद</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>खातीर: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>दुसऱ्या दिसा ओडात</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name" (%kind) हांगा हालयात:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>ह्या तारखेसयत पानाची नवी आवृत्ती उजवाडाक येता; मान्यताय लागू जावं येता.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>ताचो शेवटूय सांगाता हालता.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>तारीख आनी वेळ</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>हालयलें. नवी तारीख मान्यतायेची वाट पळयता.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>हालयलें.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>कॅलेंडर</translation>
+    </message>
 </context>
 </TS>

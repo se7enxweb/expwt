@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Mifidiana fotoana mbola ho avy.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Tsy voalahatra intsony ity.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Tsy azo atao izao ny dika vaovao amin'ity pejy ity.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Hifarana alohan'ny hanombohany ilay fiovana.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Esory</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Manomboka ny fiovan'ny endrika</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Mifarana ny fiovan'ny endrika</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Ity pejy ity sy ny ambany</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Ny tranonkala manontolo</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Volana teo aloha</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Volana manaraka</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Androany</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n voalahatra</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Afindra</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Voalahatra</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Tsy misy voalahatra amin'ireo herinandro ireo.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Tsy voakarakara eto ny famoahana amin'ny daty iray: tsy manana hetsika "Wait until date" ny fizotran'asa content/publish.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Tsy voakarakara eto ny fanesorana pejy amin'ny daty iray: tsy manonona kilasy na fihaonana ambony ny content.ini [HideSettings].</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Tsy voakarakara amin'ity tranonkala ity</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>hatramin'ny %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>maty ny fitsipika</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Ho an'ny: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Sintony ho amin'ny andro hafa</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Afindra "%name" (%kind) ho amin'ny:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Avoaka ny dika vaovaon'ny pejy miaraka amin'ity daty ity; mety ilaina ny fankatoavana.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Mifindra miaraka aminy koa ny fiafarany.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Daty sy ora</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Voafindra. Miandry fankatoavana ny daty vaovao.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Voafindra.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Tetiandro</translation>
+    </message>
 </context>
 </TS>

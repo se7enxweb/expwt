@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL-uri</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Alegeți un moment care încă urmează.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Acest lucru nu mai este programat.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Nu se poate crea acum o versiune nouă a acestei pagini.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Varianta s-ar încheia înainte să înceapă.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Retrage</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Începe varianta de aranjare</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Se încheie varianta de aranjare</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Această pagină și dedesubt</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Tot site-ul</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Luna anterioară</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Luna următoare</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Astăzi</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n programate</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Mută</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Programat</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Nimic nu este programat în aceste săptămâni.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Publicarea la o dată nu este configurată aici: fluxul de lucru content/publish nu are niciun eveniment "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Retragerea paginilor la o dată nu este configurată aici: content.ini [HideSettings] nu numește nicio clasă și niciun nod superior.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Neconfigurat pe acest site</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>până la %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>regulă oprită</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Pentru: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Trageți pe altă zi</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Mută "%name" (%kind) la:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Se publică o versiune nouă a paginii cu această dată; se poate aplica o aprobare.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Sfârșitul ei se mută odată cu ea.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Data și ora</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Mutat. Noua dată așteaptă aprobarea.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Mutat.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Calendar</translation>
+    </message>
 </context>
 </TS>

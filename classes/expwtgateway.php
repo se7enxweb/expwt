@@ -1819,6 +1819,358 @@ class expwtGateway
         return array( 'status' => 'created', 'source' => '/' . $source, 'destination' => '/' . $destination );
     }
 
+    // ------------------------------------------------------------------------------------------------ the calendar
+
+    /** How many waiting workflow processes the calendar looks at, at most, for the drafts that wait for their date */
+    const CALENDAR_SCAN = 500;
+
+    /**
+     * Everything scheduled for the page, its subtree or the whole site in a stretch of time (E6, expwtCalendar): the
+     * drafts the wait-until-date event holds (publish), the pages the hide cronjob takes down (takedown) and the layout
+     * variants of explayouts (variant, variant-end: the start and the end of a rule's time condition). Only what the
+     * user may read; each item says whether the user may move it. setup says which of the kernel's mechanisms the
+     * installation has (a wait-until-date event in the content/publish workflow, [HideSettings], explayouts).
+     *
+     * @param array $in nodeId, scope (page, subtree, site), from, to
+     * @return array nodeId, name, scope, from, to, now, setup, items
+     */
+    public function calendar( array $in )
+    {
+        $node = $this->readableNode( $in );
+        $scope = expwtCalendar::scope( isset( $in['scope'] ) ? $in['scope'] : 'page' );
+        $now = time();
+        $window = expwtCalendar::window( isset( $in['from'] ) ? $in['from'] : 0, isset( $in['to'] ) ? $in['to'] : 0, $now );
+        $setup = array( 'publish' => false, 'takeDown' => false, 'variants' => class_exists( 'expLayoutsRuleCondition' ) );
+        $items = array();
+        if ( class_exists( 'expContentSchedule' ) )
+        {
+            $ini = eZINI::instance( 'content.ini' );
+            $setup['publish'] = (bool)expContentSchedule::waitAttributeIds();
+            $setup['takeDown'] = (bool)array_filter( (array)$ini->variable( 'HideSettings', 'HideDateAttributeList' ) )
+                                 && (bool)array_filter( (array)$ini->variable( 'HideSettings', 'RootNodeList' ) );
+            if ( $setup['publish'] )
+                $items = array_merge( $items, $this->scheduledPublishes( $scope, $node, $window ) );
+            if ( $setup['takeDown'] )
+                $items = array_merge( $items, $this->scheduledTakeDowns( $scope, $node, $window ) );
+        }
+        if ( $setup['variants'] )
+            $items = array_merge( $items, $this->scheduledVariants( $scope, $node, $window ) );
+        return array( 'nodeId' => (int)$node->attribute( 'node_id' ), 'name' => (string)$node->attribute( 'name' ), 'scope' => $scope,
+                      'from' => $window['from'], 'to' => $window['to'], 'now' => $now, 'setup' => $setup,
+                      'items' => expwtCalendar::sorted( $items ) );
+    }
+
+    /** @return array the drafts the wait-until-date event holds, dated in the window, in the scope */
+    protected function scheduledPublishes( $scope, eZContentObjectTreeNode $node, array $window )
+    {
+        $out = array();
+        $mayEdit = $this->may( 'content', 'edit' );
+        foreach ( self::waitingProcesses() as $key => $process )
+        {
+            list( $id, $number ) = array_map( 'intval', explode( '-', $key ) );
+            $object = eZContentObject::fetch( $id );
+            $version = $object instanceof eZContentObject ? $object->version( $number ) : null;
+            if ( !$version instanceof eZContentObjectVersion || (int)$version->attribute( 'status' ) !== eZContentObjectVersion::STATUS_PENDING )
+                continue;
+            $can = expContentSchedule::forObject( $object );
+            $at = $can['publish'] ? expContentSchedule::dateOf( $version, $can['publish']['identifier'] ) : 0;
+            if ( $at < $window['from'] || $at > $window['to'] )
+                continue;
+            $own = (int)$version->attribute( 'creator_id' ) === $this->userId();
+            if ( !$own && !$object->canRead() )
+                continue;
+            $paths = array();
+            foreach ( (array)$object->assignedNodes() as $n )
+                $paths[] = (string)$n->attribute( 'path_string' );
+            if ( !$paths )
+                $paths[] = expContentSchedule::parentPathOf( $object ) . '0/';
+            if ( !expwtCalendar::inScope( $scope, (int)$node->attribute( 'node_id' ), $paths ) )
+                continue;
+            $out[] = array( 'kind' => 'publish', 'key' => 'p' . $key, 'at' => $at, 'title' => (string)$version->name(),
+                            'objectId' => $id, 'version' => $number, 'precision' => $can['publish']['precision'],
+                            'url' => self::url( '/content/versionview/' . $id . '/' . $number ),
+                            'canMove' => $mayEdit && $object->canEdit() );
+            if ( count( $out ) >= expwtCalendar::MAX_ITEMS )
+                break;
+        }
+        return $out;
+    }
+
+    /**
+     * The workflow processes that wait in a wait-until-date event for the workflow cronjob, by the version they hold
+     * (the process keeps the object and the version in its parameters).
+     *
+     * @return eZWorkflowProcess[] "<object id>-<version>" => process
+     */
+    protected static function waitingProcesses()
+    {
+        $out = array();
+        $events = array();
+        foreach ( (array)eZWorkflowProcess::fetchForStatus( eZWorkflow::STATUS_DEFERRED_TO_CRON ) as $process )
+        {
+            $eventId = (int)$process->attribute( 'event_id' );
+            if ( !isset( $events[$eventId] ) )
+            {
+                $event = eZWorkflowEvent::fetch( $eventId );
+                $events[$eventId] = $event && preg_replace( '/^event_/', '', (string)$event->attribute( 'workflow_type_string' ) ) === expContentSchedule::WAIT_EVENT;
+            }
+            $parameters = (array)$process->attribute( 'parameter_list' );
+            if ( $events[$eventId] && !empty( $parameters['object_id'] ) && !empty( $parameters['version'] ) )
+                $out[(int)$parameters['object_id'] . '-' . (int)$parameters['version']] = $process;
+            if ( count( $out ) >= self::CALENDAR_SCAN )
+                break;
+        }
+        return $out;
+    }
+
+    /** @return eZWorkflowProcess|null the process that holds the version in a wait-until-date event */
+    protected static function waitingProcess( $objectId, $version )
+    {
+        $all = self::waitingProcesses();
+        $key = (int)$objectId . '-' . (int)$version;
+        return isset( $all[$key] ) ? $all[$key] : null;
+    }
+
+    /** @return array the pages the hide cronjob takes down in the window, in the scope */
+    protected function scheduledTakeDowns( $scope, eZContentObjectTreeNode $node, array $window )
+    {
+        $ini = eZINI::instance( 'content.ini' );
+        $map = array_filter( (array)$ini->variable( 'HideSettings', 'HideDateAttributeList' ) );
+        $pagePath = (string)$node->attribute( 'path_string' );
+        $nodeId = (int)$node->attribute( 'node_id' );
+        $mayEdit = $this->may( 'content', 'edit' );
+        $found = array();
+        // the page itself (and, for its subtree, the page as the top of it)
+        if ( $scope !== 'site' )
+            $found[$nodeId] = $node;
+        foreach ( (array)$ini->variable( 'HideSettings', 'RootNodeList' ) as $rootId )
+        {
+            if ( $scope === 'page' )
+                break;
+            $root = eZContentObjectTreeNode::fetch( (int)$rootId );
+            if ( !$root instanceof eZContentObjectTreeNode )
+                continue;
+            if ( $scope === 'site' )
+                $base = $root;
+            else if ( strpos( $pagePath, '/' . (int)$rootId . '/' ) !== false )
+                $base = $node;
+            else if ( strpos( (string)$root->attribute( 'path_string' ), '/' . $nodeId . '/' ) !== false )
+                $base = $root;
+            else
+                continue;
+            foreach ( $map as $class => $attribute )
+            {
+                $list = $base->subTree( array( 'ClassFilterType' => 'include', 'ClassFilterArray' => array( $class ), 'LoadDataMap' => false,
+                    'Limit' => expwtCalendar::MAX_ITEMS, 'SortBy' => array( 'published', true ),
+                    'AttributeFilter' => array( 'and', array( "$class/$attribute", '>=', $window['from'] ), array( "$class/$attribute", '<=', $window['to'] ) ) ) );
+                foreach ( (array)$list as $n )
+                    $found[(int)$n->attribute( 'node_id' )] = $n;
+            }
+        }
+        $out = array();
+        foreach ( $found as $id => $n )
+        {
+            $object = $n->object();
+            if ( !$object instanceof eZContentObject || !$n->canRead() || (int)$n->attribute( 'is_invisible' ) )
+                continue;
+            $can = expContentSchedule::forObject( $object );
+            $version = $object->currentVersion();
+            $at = $can['takeDown'] && $version ? expContentSchedule::dateOf( $version, $can['takeDown']['identifier'] ) : 0;
+            if ( $at < $window['from'] || $at > $window['to'] )
+                continue;
+            $out[] = array( 'kind' => 'takedown', 'key' => 't' . $id, 'at' => $at, 'title' => (string)$n->attribute( 'name' ),
+                            'nodeId' => $id, 'objectId' => (int)$object->attribute( 'id' ), 'precision' => $can['takeDown']['precision'],
+                            'url' => self::url( '/' . ltrim( (string)$n->attribute( 'url_alias' ), '/' ) ),
+                            'canMove' => $mayEdit && $object->canEdit() );
+            if ( count( $out ) >= expwtCalendar::MAX_ITEMS )
+                break;
+        }
+        return $out;
+    }
+
+    /** @return array the starts and ends of the layout variants (rules with a time condition) in the window, in the scope */
+    protected function scheduledVariants( $scope, eZContentObjectTreeNode $node, array $window )
+    {
+        $out = array();
+        $canMove = !empty( $this->capabilities()['layouts'] ) && $this->may( 'explayouts_ui_api', 'edit' );
+        $pagePath = (string)$node->attribute( 'path_string' );
+        $nodeId = (int)$node->attribute( 'node_id' );
+        $address = '/' . ltrim( (string)$node->attribute( 'url_alias' ), '/' );
+        $conditions = eZPersistentObject::fetchObjectList( expLayoutsRuleCondition::definition(), null, array( 'condition_type' => 'time' ), array( 'id' => 'asc' ), null, true );
+        foreach ( (array)$conditions as $condition )
+        {
+            $range = expwtCalendar::timeRange( (string)$condition->attribute( 'condition_value' ) );
+            if ( $range === null || !expwtCalendar::touches( $range['from'], $range['to'], $window ) )
+                continue;
+            $rule = expLayoutsRule::fetch( (int)$condition->attribute( 'rule_id' ) );
+            if ( !$rule )
+                continue;
+            $in = false;
+            $where = array();
+            foreach ( (array)$rule->targets() as $target )
+            {
+                $type = (string)$target->attribute( 'target_type' );
+                $value = (string)$target->attribute( 'target_value' );
+                $targetNode = ( $type === 'node' || $type === 'subtree' ) && ctype_digit( $value ) ? eZContentObjectTreeNode::fetch( (int)$value ) : null;
+                $answer = expwtCalendar::targetInScope( $scope, $nodeId, $pagePath, $type, $targetNode ? (string)$targetNode->attribute( 'path_string' ) : '' );
+                if ( $answer === null && class_exists( 'expLayoutsResolver' ) )
+                {
+                    try { $answer = (bool)expLayoutsResolver::targetMatches( $target, $address ); }
+                    catch ( Exception $e ) { $answer = false; }
+                }
+                $in = $in || $answer;
+                $where[] = $targetNode && $targetNode->canRead() ? ( $type === 'subtree' ? '/' . ltrim( (string)$targetNode->attribute( 'url_alias' ), '/' ) . ' …' : (string)$targetNode->attribute( 'name' ) )
+                                                               : $type . ( $value !== '' ? ' ' . $value : '' );
+            }
+            if ( !$in )
+                continue;
+            $layout = class_exists( 'expLayoutsLayout' ) ? expLayoutsLayout::fetch( (int)$rule->attribute( 'layout_id' ) ) : null;
+            $base = array( 'conditionId' => (int)$condition->attribute( 'id' ), 'ruleId' => (int)$rule->attribute( 'id' ),
+                           'title' => $layout ? (string)$layout->attribute( 'name' ) : '#' . (int)$rule->attribute( 'layout_id' ),
+                           'from' => $range['from'], 'to' => $range['to'], 'enabled' => (bool)(int)$rule->attribute( 'enabled' ),
+                           'targets' => array_slice( $where, 0, 5 ), 'precision' => 'datetime', 'canMove' => $canMove );
+            if ( $range['from'] !== null && $range['from'] >= $window['from'] && $range['from'] <= $window['to'] )
+                $out[] = array( 'kind' => 'variant', 'key' => 'v' . $base['conditionId'] . 's', 'at' => $range['from'], 'which' => 'start' ) + $base;
+            if ( $range['to'] !== null && $range['to'] >= $window['from'] && $range['to'] <= $window['to'] )
+                $out[] = array( 'kind' => 'variant-end', 'key' => 'v' . $base['conditionId'] . 'e', 'at' => $range['to'], 'which' => 'end' ) + $base;
+            if ( count( $out ) >= expwtCalendar::MAX_ITEMS )
+                break;
+        }
+        return $out;
+    }
+
+    /** @return int the time a move asks for, in the future; refused otherwise */
+    protected static function moveTime( array $in )
+    {
+        $at = expwtSchedule::parse( isset( $in['at'] ) ? $in['at'] : '' );
+        $error = expwtCalendar::moveError( $at, time() );
+        if ( $error === 'past' )
+            throw new expwtApiError( 400, 'past', 'Choose a time that is still to come.' );
+        if ( $error !== null )
+            throw new expwtApiError( 400, 'bad_value', 'This is not a date and time.' );
+        return $at;
+    }
+
+    /**
+     * Moves the date a draft waits for (E6): the draft's date field the wait-until-date event reads, and the time its
+     * workflow process wakes up, so the workflow cronjob publishes it then (every other event of the workflow, an
+     * approval, still applies). As editing the date of the draft and publishing it again would; needs content/edit
+     * of the object. Audited as content.expwt.schedule.change.
+     *
+     * @param array $in objectId, version, at
+     * @return array status MOVED, at
+     */
+    public function calendarPublish( array $in )
+    {
+        $object = isset( $in['objectId'] ) ? eZContentObject::fetch( $in['objectId'] ) : null;
+        $version = $object instanceof eZContentObject && isset( $in['version'] ) ? $object->version( (int)$in['version'] ) : null;
+        if ( !$version instanceof eZContentObjectVersion || (int)$version->attribute( 'status' ) !== eZContentObjectVersion::STATUS_PENDING )
+            throw new expwtApiError( 404, 'not_found', 'This is not scheduled any more.' );
+        if ( !$object->canEdit() || !$this->may( 'content', 'edit' ) )
+            throw new expwtApiError( 403, 'forbidden', 'You may not do this.' );
+        $process = self::waitingProcess( (int)$object->attribute( 'id' ), (int)$version->attribute( 'version' ) );
+        if ( !$process || !class_exists( 'expContentSchedule' ) )
+            throw new expwtApiError( 409, 'not_waiting', 'This is not scheduled any more.' );
+        $at = self::moveTime( $in );
+        $can = expContentSchedule::forObject( $object );
+        $before = $can['publish'] ? expContentSchedule::dateOf( $version, $can['publish']['identifier'] ) : 0;
+        $plan = expContentSchedule::plan( $can['publish'], null, $at, null, time() );
+        if ( $plan['error'] !== null || !$plan['writes'] )
+            throw new expwtApiError( 400, 'not_schedulable', 'Not possible here: this kind of page has no date field for it.' );
+        $written = (int)reset( $plan['writes'] );
+        $db = eZDB::instance();
+        $db->begin();
+        expContentSchedule::setDates( $version, $plan['writes'] );
+        $process->setAttribute( 'activation_date', $written );
+        $process->store();
+        $db->commit();
+        self::auditMove( 'publish', array( 'type' => 'object', 'id' => (int)$object->attribute( 'id' ), 'name' => (string)$version->name() ),
+                         array( 'version' => (int)$version->attribute( 'version' ), 'at' => $before ), array( 'at' => $written ) );
+        return array( 'status' => 'MOVED', 'at' => $written );
+    }
+
+    /**
+     * Moves the date the hide cronjob takes a page down (E6) as the administration does it: a new version of the page
+     * with the new date, published through content/publish (an approval applies: PENDING). Needs content/edit of the
+     * page. Audited as content.expwt.schedule.change.
+     *
+     * @param array $in nodeId, at
+     * @return array status (PUBLISHED, PENDING), at
+     */
+    public function calendarTakeDown( array $in )
+    {
+        $node = $this->readableNode( $in );
+        $object = $node->object();
+        if ( !$object instanceof eZContentObject || !$object->canEdit() || !$this->may( 'content', 'edit' ) )
+            throw new expwtApiError( 403, 'forbidden', 'You may not do this.' );
+        if ( !class_exists( 'expContentSchedule' ) )
+            throw new expwtApiError( 400, 'not_schedulable', 'Not possible here: this kind of page has no date field for it.' );
+        $at = self::moveTime( $in );
+        $can = expContentSchedule::forObject( $object );
+        $current = $object->currentVersion();
+        $before = $can['takeDown'] && $current ? expContentSchedule::dateOf( $current, $can['takeDown']['identifier'] ) : 0;
+        $plan = expContentSchedule::plan( null, $can['takeDown'], null, $at, time() );
+        if ( $plan['error'] !== null || !$plan['writes'] )
+            throw new expwtApiError( 400, 'not_schedulable', 'Not possible here: this kind of page has no date field for it.' );
+        $db = eZDB::instance();
+        $db->begin();
+        $draft = $object->createNewVersion( false, true );
+        if ( !$draft instanceof eZContentObjectVersion )
+        {
+            $db->rollback();
+            throw new expwtApiError( 409, 'version_limit', 'No new version can be made of this page now.' );
+        }
+        expContentSchedule::setDates( $draft, $plan['writes'] );
+        $db->commit();
+        $result = $this->writer()->publishDraft( (int)$object->attribute( 'id' ), (int)$draft->attribute( 'version' ) );
+        $written = (int)reset( $plan['writes'] );
+        self::auditMove( 'takedown', array( 'type' => 'node', 'id' => (int)$node->attribute( 'node_id' ), 'name' => (string)$node->attribute( 'name' ) ),
+                         array( 'at' => $before ), array( 'at' => $written, 'version' => (int)$draft->attribute( 'version' ) ) );
+        return array( 'status' => (string)$result['status'], 'at' => $written );
+    }
+
+    /**
+     * Moves a layout variant (E6): the start of a rule's time condition (its end moves with it) or only its end, as
+     * explayouts' rule editor would change the condition; needs expwt/layouts and explayouts_ui_api/edit. The
+     * resolver's cache and the template blocks expire as after any rule change. Audited as content.expwt.schedule.change.
+     *
+     * @param array $in conditionId, which (start, end), at
+     * @return array status MOVED, from, to
+     */
+    public function calendarVariant( array $in )
+    {
+        if ( !class_exists( 'expLayoutsRuleCondition' ) )
+            throw new expwtApiError( 404, 'not_found', 'This is not scheduled any more.' );
+        if ( !$this->may( 'explayouts_ui_api', 'edit' ) )
+            throw new expwtApiError( 403, 'forbidden', 'You may not do this.' );
+        $condition = isset( $in['conditionId'] ) ? eZPersistentObject::fetchObject( expLayoutsRuleCondition::definition(), null, array( 'id' => (int)$in['conditionId'] ), true ) : null;
+        if ( !$condition || (string)$condition->attribute( 'condition_type' ) !== 'time' )
+            throw new expwtApiError( 404, 'not_found', 'This is not scheduled any more.' );
+        $at = self::moveTime( $in );
+        $before = (string)$condition->attribute( 'condition_value' );
+        $moved = expwtCalendar::moveRange( $before, isset( $in['which'] ) && $in['which'] === 'end' ? 'end' : 'start', $at );
+        if ( $moved['error'] === 'end_before_start' )
+            throw new expwtApiError( 400, 'end_before_start', 'The variant would end before it starts.' );
+        if ( $moved['error'] !== null )
+            throw new expwtApiError( 400, 'bad_value', 'This is not a date and time.' );
+        $condition->setAttribute( 'condition_value', $moved['value'] );
+        $condition->store();
+        if ( class_exists( 'expLayoutsResolver' ) && method_exists( 'expLayoutsResolver', 'clearCache' ) )
+            expLayoutsResolver::clearCache();
+        eZContentObject::expireTemplateBlockCache();
+        self::auditMove( 'variant', array( 'type' => 'layout_rule', 'id' => (int)$condition->attribute( 'rule_id' ) ),
+                         array( 'condition' => $before ), array( 'condition' => $moved['value'] ) );
+        return array( 'status' => 'MOVED', 'from' => $moved['from'], 'to' => $moved['to'] );
+    }
+
+    /** Records a move of the calendar (expwtAuditBranch: content.expwt.schedule.change) */
+    protected static function auditMove( $kind, array $object, array $before, array $after )
+    {
+        if ( class_exists( 'expAuditHook' ) )
+            expAuditHook::emit( 'content.expwt.schedule.change', array( 'object' => $object, 'verb' => 'change',
+                'before' => $before, 'after' => array( 'kind' => $kind ) + $after ) );
+    }
+
     // ------------------------------------------------------------------------------------------------ the inbox
 
     /** @return bool the user may use the kernel's collaboration (the module's policy), where the approvals are */

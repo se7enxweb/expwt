@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>Ma URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Sarudza nguva ichiri kuuya.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Izvi hazvisisiri muhurongwa.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Shanduro itsva yepeji iyi haigoni kugadzirwa izvozvi.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Musiyano unopera usati watanga.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Bvisa</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Musiyano wemarongerwo unotanga</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Musiyano wemarongerwo unopera</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Peji iyi nezviri pazasi</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Saiti yese</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Mwedzi wapfuura</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Mwedzi unotevera</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Nhasi</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n zviri muhurongwa</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Fambisa</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Zviri muhurongwa</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Hapana chiri muhurongwa mumavhiki aya.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Kuburitsa pazuva hakuna kugadzirirwa pano: nzira yebasa content/publish haina chiitiko "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Kubvisa mapeji pazuva hakuna kugadzirirwa pano: content.ini [HideSettings] haidomi kirasi kana node yepamusoro.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Hazvina kugadzirirwa pasaiti iyi</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>kusvika %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>mutemo wakadzimwa</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Ye: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Dhonza kune rimwe zuva</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Fambisa "%name" (%kind) ku:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Shanduro itsva yepeji ine zuva iri inoburitswa; mvumo inogona kudiwa.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Kuguma kwayo kunofamba nayo.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Zuva nenguva</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Zvafambiswa. Zuva idzva rakamirira mvumo.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Zvafambiswa.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Karenda</translation>
+    </message>
 </context>
 </TS>

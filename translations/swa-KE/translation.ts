@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Chagua wakati ambao bado haujafika.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Hili halijapangwa tena.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Toleo jipya la ukurasa huu haliwezi kutengenezwa sasa.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Kibadala kingeisha kabla ya kuanza.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Ondoa</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Kibadala cha mpangilio kinaanza</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Kibadala cha mpangilio kinaisha</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Ukurasa huu na chini yake</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Tovuti nzima</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Mwezi uliopita</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Mwezi ujao</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Leo</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n zimepangwa</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Hamisha</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Imepangwa</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Hakuna kilichopangwa katika wiki hizi.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Kuchapisha kwa tarehe hakujawekwa hapa: mtiririko wa kazi content/publish hauna tukio la "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Kuondoa kurasa kwa tarehe hakujawekwa hapa: content.ini [HideSettings] haitaji darasa wala nodi ya juu yoyote.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Haijawekwa kwenye tovuti hii</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>hadi %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>sheria imezimwa</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Kwa: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Buruta hadi siku nyingine</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Hamisha "%name" (%kind) hadi:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Toleo jipya la ukurasa lenye tarehe hii linachapishwa; idhini inaweza kuhitajika.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Mwisho wake unahamia pamoja nao.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Tarehe na saa</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Imehamishwa. Tarehe mpya inasubiri idhini.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Imehamishwa.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalenda</translation>
+    </message>
 </context>
 </TS>

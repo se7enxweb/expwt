@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>जायखौ सम बायनो थाखाय सम सायख।</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>बेयो गोनां फारिलाव नङा।</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>बे बिलाइनि गोदान सुंद'नायखौ दानो दानाय हायाखै।</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>भेरियेन्टआ जागायनायनि सिगां जोबनो।</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>फोजोब</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>लेआउट भेरियेन्ट जागायो</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>लेआउट भेरियेन्ट जोबो</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>बे बिलाइ आरो सिंथाव</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>आबुं साइट</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>सिगांनि दान</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>उननि दान</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>दिनै</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n फारिलाव</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>सोलाय</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>फारिलाव</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>बे सप्ताहफोराव जेबो फारिलाव नङा।</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>अक्ट'आव फोसावनायखौ बेयाव सेट खालामाखै: content/publish वार्कफ्लोआव "Wait until date" जाथाय गैया।</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>अक्ट'आव बिलाइ फोजोबनायखौ बेयाव सेट खालामाखै: content.ini [HideSettings]आ जेबो क्लास आरो सासि नोडनि मुं लाया।</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>बे साइटआव सेट खालामाखै</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>%time सिम</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>फोरमान बन्द</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>थाखाय: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>गुबुन सानआव बोनानो</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name" (%kind) बेयाव सोलाय:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>बे अक्ट'जों बिलाइनि गोदान सुंद'नाय फोसावो; मंजुरी नांगौ हायो।</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>बेनि जोबनायबो लोगोसे सोलायो।</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>अक्ट' आरो सम</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>सोलायखानाय। गोदान अक्ट'आ मंजुरीनि थाखाय नेथ'।</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>सोलायखानाय।</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>केलेन्डार</translation>
+    </message>
 </context>
 </TS>

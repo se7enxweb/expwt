@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URLs</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>མ་འོངས་པའི་དུས་ཚོད་ཅིག་འདེམས་རོགས།</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>འདི་ད་ནས་ལས་རིམ་ནང་མེད།</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>ཤོག་ངོས་འདིའི་པར་གཞི་གསར་པ་ད་ལྟ་བཟོ་མི་ཐུབ།</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>འགྱུར་ཚུལ་དེ་མ་འགོ་ཙམ་ནས་མཇུག་རྫོགས་འགྱུར།</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>ཕྱིར་འཐེན།</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>བཀོད་སྒྲིག་འགྱུར་ཚུལ་འགོ་འཛུགས།</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>བཀོད་སྒྲིག་འགྱུར་ཚུལ་མཇུག་རྫོགས།</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>ཤོག་ངོས་འདི་དང་འོག་གི</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>དྲ་ཚིགས་ཧྲིལ་པོ།</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>ཟླ་བ་སྔ་མ།</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>ཟླ་བ་རྗེས་མ།</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>དེ་རིང་།</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n ལས་རིམ་ནང་།</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>སྤོ་བ།</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>ལས་རིམ་ནང་།</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>གཟའ་འཁོར་འདི་དག་ནང་ལས་རིམ་གང་ཡང་མེད།</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>ཚེས་གྲངས་ཐོག་པར་སྐྲུན་འདིར་སྒྲིག་འགོད་བྱས་མེད། content/publish ལས་རིམ་ལ་"Wait until date"བྱ་བ་མེད།</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>ཚེས་གྲངས་ཐོག་ཤོག་ངོས་ཕྱིར་འཐེན་འདིར་སྒྲིག་འགོད་བྱས་མེད། content.ini [HideSettings] ནང་རིགས་དང་མཐོ་ཤོས་ཀྱི་མདུད་ཚིགས་གང་ཡང་མེད།</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>དྲ་ཚིགས་འདིར་སྒྲིག་འགོད་བྱས་མེད།</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>%time བར།</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>སྒྲིག་གཞི་བཀག་ཡོད།</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>ཆེད་དུ། %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>ཉིན་གཞན་ཞིག་ལ་འཐེན།</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name" (%kind) འདིར་སྤོ།</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>ཚེས་གྲངས་འདི་ཡོད་པའི་ཤོག་ངོས་ཀྱི་པར་གཞི་གསར་པ་པར་སྐྲུན་བྱེད། ཆོག་མཆན་དགོས་སྲིད།</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>མཇུག་ཀྱང་མཉམ་དུ་སྤོ།</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>ཚེས་གྲངས་དང་དུས་ཚོད།</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>སྤོས་ཟིན། ཚེས་གྲངས་གསར་པ་ཆོག་མཆན་ལ་སྒུག་བཞིན་ཡོད།</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>སྤོས་ཟིན།</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>ལོ་ཐོ།</translation>
+    </message>
 </context>
 </TS>

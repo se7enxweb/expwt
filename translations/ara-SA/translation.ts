@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>العناوين</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>اختر وقتًا لم يأتِ بعد.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>لم يعد هذا مجدولًا.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>لا يمكن إنشاء إصدار جديد من هذه الصفحة الآن.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>سينتهي البديل قبل أن يبدأ.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>إزالة النشر</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>يبدأ بديل التخطيط</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>ينتهي بديل التخطيط</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>هذه الصفحة وما تحتها</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>الموقع بأكمله</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>الشهر السابق</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>الشهر التالي</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>اليوم</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n مجدول</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>نقل</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>مجدول</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>لا شيء مجدول في هذه الأسابيع.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>النشر في تاريخ محدد غير مُعدّ هنا: سير العمل content/publish لا يحتوي على حدث "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>إزالة الصفحات في تاريخ محدد غير مُعدّة هنا: لا يذكر content.ini [HideSettings] أي فئة ولا أي عقدة عليا.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>غير مُعدّ على هذا الموقع</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>حتى %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>القاعدة معطلة</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>لـ: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>اسحب إلى يوم آخر</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>نقل "%name" (%kind) إلى:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>يُنشر إصدار جديد من الصفحة بهذا التاريخ؛ قد تلزم موافقة.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>تنتقل نهايته معه.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>التاريخ والوقت</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>تم النقل. التاريخ الجديد بانتظار الموافقة.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>تم النقل.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>التقويم</translation>
+    </message>
 </context>
 </TS>

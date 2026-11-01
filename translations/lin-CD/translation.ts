@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>Ba URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Pona ntango oyo ekoya naino.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Oyo ezali lisusu na manaka te.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Bakoki kosala te sikoyo version ya sika ya lokasa oyo.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Mbongwana ekosila liboso ete ebanda.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Longola</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Mbongwana ya ebongiseli ebandi</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Mbongwana ya ebongiseli esili</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Lokasa oyo mpe na nse</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Site mobimba</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Sanza eleki</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Sanza ekoya</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Lelo</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n na manaka</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Tambwisa</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Na manaka</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Eloko moko te ezali na manaka na mposo oyo.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Kobimisa na mokolo moko ebongisami awa te: nzela ya mosala content/publish ezali na likambo "Wait until date" te.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Kolongola nkasa na mokolo moko ebongisami awa te: content.ini [HideSettings] etangi kalasi moko te mpe noeud ya likolo moko te.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Ebongisami na site oyo te</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>kino %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>mobeko ekufi</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Mpo na: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Benda na mokolo mosusu</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Tambwisa "%name" (%kind) na:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Version ya sika ya lokasa na mokolo oyo ekobima; ndingisa ekoki kosengama.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Nsuka na yango mpe etambolaka elongo.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Mokolo mpe ntango</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Etambwisami. Mokolo ya sika ezali kozela ndingisa.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Etambwisami.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Manaka</translation>
+    </message>
 </context>
 </TS>

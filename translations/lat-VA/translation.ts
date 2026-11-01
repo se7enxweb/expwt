@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Elige tempus quod adhuc venturum est.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Hoc iam non est dispositum.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Nova huius paginae editio nunc fieri non potest.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Varietas finiretur antequam inciperet.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Detrahe</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Varietas dispositionis incipit</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Varietas dispositionis desinit</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Haec pagina et infra</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Totus situs</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Mensis prior</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Mensis sequens</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Hodie</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n disposita</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Move</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Dispositum</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Nihil his hebdomadibus dispositum est.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Editio ad diem hic non est constituta: cursus operis content/publish eventum "Wait until date" non habet.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Detractio paginarum ad diem hic non est constituta: content.ini [HideSettings] nullam classem nullumque nodum summum nominat.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>In hoc situ non constitutum</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>usque ad %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>regula exstincta</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Pro: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Trahe ad alium diem</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Move "%name" (%kind) ad:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Nova paginae editio cum hoc die editur; approbatio fortasse valet.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Finis eius una movetur.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Dies et hora</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Motum. Novus dies approbationem exspectat.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Motum.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Calendarium</translation>
+    </message>
 </context>
 </TS>

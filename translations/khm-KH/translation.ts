@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>ជ្រើសពេលវេលាដែលមិនទាន់មកដល់។</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>វាលែងបានកំណត់ពេលទៀតហើយ។</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>មិនអាចបង្កើតកំណែថ្មីនៃទំព័រនេះឥឡូវនេះទេ។</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>បំរែបំរួលនឹងបញ្ចប់មុនពេលចាប់ផ្ដើម។</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>ដកចេញ</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>បំរែបំរួលប្លង់ចាប់ផ្ដើម</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>បំរែបំរួលប្លង់បញ្ចប់</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>ទំព័រនេះ និងខាងក្រោម</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>គេហទំព័រទាំងមូល</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>ខែមុន</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>ខែក្រោយ</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>ថ្ងៃនេះ</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>បានកំណត់ពេល %n</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>ផ្លាស់ទី</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>បានកំណត់ពេល</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>គ្មានអ្វីកំណត់ពេលក្នុងសប្ដាហ៍ទាំងនេះទេ។</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>ការផ្សាយនៅកាលបរិច្ឆេទមិនទាន់បានរៀបចំនៅទីនេះទេ៖ លំហូរការងារ content/publish គ្មានព្រឹត្តិការណ៍ "Wait until date" ទេ។</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>ការដកទំព័រនៅកាលបរិច្ឆេទមិនទាន់បានរៀបចំនៅទីនេះទេ៖ content.ini [HideSettings] មិនបញ្ជាក់ថ្នាក់ ឬថ្នាំងកំពូលណាមួយទេ។</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>មិនទាន់រៀបចំនៅលើគេហទំព័រនេះ</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>រហូតដល់ %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>ច្បាប់ត្រូវបានបិទ</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>សម្រាប់៖ %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>អូសទៅថ្ងៃផ្សេង</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>ផ្លាស់ទី "%name" (%kind) ទៅ៖</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>កំណែថ្មីនៃទំព័រដែលមានកាលបរិច្ឆេទនេះត្រូវបានផ្សាយ។ អាចត្រូវការការអនុម័ត។</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>ចុងរបស់វាក៏ផ្លាស់ទីជាមួយដែរ។</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>កាលបរិច្ឆេទ និងម៉ោង</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>បានផ្លាស់ទី។ កាលបរិច្ឆេទថ្មីកំពុងរង់ចាំការអនុម័ត។</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>បានផ្លាស់ទី។</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>ប្រតិទិន</translation>
+    </message>
 </context>
 </TS>

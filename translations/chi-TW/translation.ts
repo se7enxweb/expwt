@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>網址</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>請選擇一個尚未到來的時間。</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>此項已不再排程。</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>現在無法為此頁面建立新版本。</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>該變體會在開始之前結束。</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>下架</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>版面變體開始</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>版面變體結束</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>此頁面及其下層</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>整個網站</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>上個月</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>下個月</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>今天</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n 項排程</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>移動</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>已排程</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>這幾週沒有任何排程。</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>此處未設定定時發佈：content/publish 工作流程中沒有"Wait until date"事件。</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>此處未設定定時下架頁面：content.ini [HideSettings] 未指定任何類別與頂層節點。</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>此網站未設定</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>直到 %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>規則已關閉</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>適用於：%list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>拖到另一天</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>將"%name"（%kind）移至：</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>將發佈帶有此日期的頁面新版本；可能需要核准。</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>其結束時間隨之移動。</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>日期和時間</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>已移動。新日期等待核准。</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>已移動。</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>行事曆</translation>
+    </message>
 </context>
 </TS>

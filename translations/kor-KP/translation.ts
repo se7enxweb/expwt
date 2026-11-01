@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>아직 오지 않은 시간을 고르십시오.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>이것은 더는 예정되여있지 않습니다.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>지금은 이 페지의 새 판을 만들수 없습니다.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>변종이 시작되기 전에 끝나게 됩니다.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>내리기</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>배치 변종 시작</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>배치 변종 끝</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>이 페지와 그 아래</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>사이트 전체</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>이전 달</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>다음 달</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>오늘</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n건 예정</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>옮기기</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>예정</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>이 몇주동안 예정된것이 없습니다.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>날자를 정한 공개가 여기에 설정되여있지 않습니다: 작업흐름 content/publish에 "Wait until date" 사건이 없습니다.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>날자를 정한 페지 내리기가 여기에 설정되여있지 않습니다: content.ini [HideSettings]에 클라스도 최상위 마디도 지정되여있지 않습니다.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>이 사이트에서는 설정되지 않음</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>%time까지</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>규칙 꺼짐</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>대상: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>다른 날로 끌기</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name"(%kind) 옮길 곳:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>이 날자로 페지의 새 판이 공개됩니다. 승인이 필요할수 있습니다.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>끝도 함께 옮겨집니다.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>날자와 시간</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>옮겼습니다. 새 날자는 승인을 기다립니다.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>옮겼습니다.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>달력</translation>
+    </message>
 </context>
 </TS>

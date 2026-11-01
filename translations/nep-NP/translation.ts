@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL हरू</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>अझै आउन बाँकी समय छान्नुहोस्।</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>यो अब तालिकामा छैन।</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>यो पृष्ठको नयाँ संस्करण अहिले बनाउन सकिँदैन।</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>भेरियन्ट सुरु हुनुअघि नै सकिनेछ।</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>हटाउनुहोस्</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>लेआउट भेरियन्ट सुरु</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>लेआउट भेरियन्ट अन्त्य</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>यो पृष्ठ र तल</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>सम्पूर्ण साइट</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>अघिल्लो महिना</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>अर्को महिना</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>आज</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n तालिकामा</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>सार्नुहोस्</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>तालिकामा</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>यी हप्ताहरूमा केही पनि तालिकामा छैन।</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>मितिमा प्रकाशन यहाँ सेट गरिएको छैन: content/publish कार्यप्रवाहमा कुनै "Wait until date" घटना छैन।</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>मितिमा पृष्ठहरू हटाउने यहाँ सेट गरिएको छैन: content.ini [HideSettings] ले कुनै वर्ग र माथिल्लो नोडको नाम लिँदैन।</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>यो साइटमा सेट गरिएको छैन</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>%time सम्म</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>नियम बन्द</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>का लागि: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>अर्को दिनमा तान्नुहोस्</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name" (%kind) यहाँ सार्नुहोस्:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>यो मितिसहित पृष्ठको नयाँ संस्करण प्रकाशित हुन्छ; स्वीकृति लाग्न सक्छ।</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>यसको अन्त्य पनि सँगै सर्छ।</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>मिति र समय</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>सारियो। नयाँ मिति स्वीकृतिको पर्खाइमा छ।</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>सारियो।</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>पात्रो</translation>
+    </message>
 </context>
 </TS>

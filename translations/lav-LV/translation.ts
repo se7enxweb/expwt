@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL adreses</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Izvēlieties laiku, kas vēl tikai pienāks.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Tas vairs nav ieplānots.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Šīs lapas jaunu versiju tagad nevar izveidot.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Variants beigtos, pirms sākas.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Noņemt</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Izkārtojuma variants sākas</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Izkārtojuma variants beidzas</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Šī lapa un zem tās</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Visa vietne</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Iepriekšējais mēnesis</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Nākamais mēnesis</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Šodien</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>Ieplānoti: %n</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Pārvietot</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Ieplānots</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Šajās nedēļās nekas nav ieplānots.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Publicēšana datumā šeit nav iestatīta: darbplūsmai content/publish nav notikuma "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Lapu noņemšana datumā šeit nav iestatīta: content.ini [HideSettings] nenosauc nevienu klasi un nevienu augšējo mezglu.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Šajā vietnē nav iestatīts</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>līdz %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>noteikums izslēgts</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Kam: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Velciet uz citu dienu</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Pārvietot "%name" (%kind) uz:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Tiek publicēta lapas jauna versija ar šo datumu; var būt vajadzīgs apstiprinājums.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Tā beigas pārvietojas līdzi.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Datums un laiks</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Pārvietots. Jaunais datums gaida apstiprinājumu.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Pārvietots.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalendārs</translation>
+    </message>
 </context>
 </TS>

@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URLs</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>קלײַבט אױס אַ צײַט װאָס קומט נאָך.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>דאָס איז מער ניט פּלאַנירט.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>מע קען איצט ניט מאַכן קײן נײַע װערסיע פֿון דעם בלאַט.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>די װאַריאַנט װאָלט זיך געענדיקט אײדער זי הײבט זיך אָן.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>אַראָפּנעמען</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>אױסלײג־װאַריאַנט הײבט זיך אָן</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>אױסלײג־װאַריאַנט ענדיקט זיך</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>דער בלאַט און אונטן</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>דער גאַנצער זײַטל</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>פֿריִערדיקער חודש</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>קומעדיקער חודש</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>הײַנט</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n פּלאַנירט</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>איבערטראָגן</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>פּלאַנירט</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>אין די װאָכן איז גאָרנישט פּלאַנירט.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>אַרױסגעבן אױף אַ דאַטע איז דאָ ניט אײַנגעשטעלט: דער אַרבעטס־פֿלוס content/publish האָט ניט קײן "Wait until date" געשעעניש.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>אַראָפּנעמען בלעטער אױף אַ דאַטע איז דאָ ניט אײַנגעשטעלט: content.ini [HideSettings] נענט ניט קײן קלאַס און קײן אײבערשטן קנופּ.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>ניט אײַנגעשטעלט אױף דעם זײַטל</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>ביז %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>כּלל אױסגעלאָשן</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>פֿאַר: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>שלעפּט אױף אַן אַנדער טאָג</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>איבערטראָגן "%name" (%kind) אױף:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>אַ נײַע װערסיע פֿונעם בלאַט מיט דער דאַטע װערט אַרױסגעגעבן; אַ באַשטעטיקונג קען גילטן.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>איר סוף רוקט זיך מיט.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>דאַטע און צײַט</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>איבערגעטראָגן. די נײַע דאַטע װאַרט אױף באַשטעטיקונג.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>איבערגעטראָגן.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>קאַלענדאַר</translation>
+    </message>
 </context>
 </TS>

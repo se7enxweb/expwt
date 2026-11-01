@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL-കൾ</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>ഇനി വരാനിരിക്കുന്ന സമയം തിരഞ്ഞെടുക്കുക.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>ഇത് ഇനി ഷെഡ്യൂൾ ചെയ്തിട്ടില്ല.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>ഈ പേജിന്റെ പുതിയ പതിപ്പ് ഇപ്പോൾ ഉണ്ടാക്കാനാവില്ല.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>വേരിയന്റ് തുടങ്ങുന്നതിനു മുമ്പേ അവസാനിക്കും.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>പിൻവലിക്കുക</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>ലേഔട്ട് വേരിയന്റ് തുടങ്ങുന്നു</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>ലേഔട്ട് വേരിയന്റ് അവസാനിക്കുന്നു</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>ഈ പേജും താഴെയുള്ളവയും</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>മുഴുവൻ സൈറ്റ്</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>മുൻ മാസം</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>അടുത്ത മാസം</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>ഇന്ന്</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n ഷെഡ്യൂൾ ചെയ്തവ</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>നീക്കുക</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>ഷെഡ്യൂൾ ചെയ്തവ</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>ഈ ആഴ്ചകളിൽ ഒന്നും ഷെഡ്യൂൾ ചെയ്തിട്ടില്ല.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>തീയതിയിൽ പ്രസിദ്ധീകരണം ഇവിടെ സജ്ജമാക്കിയിട്ടില്ല: content/publish വർക്ക്ഫ്ലോയിൽ "Wait until date" ഇവന്റ് ഇല്ല.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>തീയതിയിൽ പേജുകൾ പിൻവലിക്കൽ ഇവിടെ സജ്ജമാക്കിയിട്ടില്ല: content.ini [HideSettings] ഒരു ക്ലാസിനെയും മുകളിലെ നോഡിനെയും പേരെടുത്തു പറയുന്നില്ല.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>ഈ സൈറ്റിൽ സജ്ജമാക്കിയിട്ടില്ല</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>%time വരെ</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>നിയമം ഓഫാണ്</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>ഇതിനായി: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>മറ്റൊരു ദിവസത്തിലേക്ക് വലിച്ചിടുക</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name" (%kind) ഇതിലേക്ക് നീക്കുക:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>ഈ തീയതിയോടെ പേജിന്റെ പുതിയ പതിപ്പ് പ്രസിദ്ധീകരിക്കുന്നു; അംഗീകാരം ബാധകമാകാം.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>അതിന്റെ അവസാനവും ഒപ്പം നീങ്ങുന്നു.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>തീയതിയും സമയവും</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>നീക്കി. പുതിയ തീയതി അംഗീകാരത്തിനായി കാത്തിരിക്കുന്നു.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>നീക്കി.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>കലണ്ടർ</translation>
+    </message>
 </context>
 </TS>

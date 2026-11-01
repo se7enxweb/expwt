@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URLs</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Londa obudde obukyali okujja.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Kino tekikyali mu nteekateeka.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Tekisoboka kukola nkyusa mpya ey'olupapula luno kati.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Enkyukakyuka yandiwedde nga tennatandika.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Ggyako</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Enkyukakyuka y'entegeka etandika</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Enkyukakyuka y'entegeka ekoma</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Olupapula luno n'ebiri wansi</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Omukutu gwonna</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Omwezi oguwedde</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Omwezi ogujja</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Leero</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n mu nteekateeka</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Kyusa</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Mu nteekateeka</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Tewali kiri mu nteekateeka mu wiiki zino.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Okufulumya ku lunaku tekutegekeddwa wano: enkola y'emirimu content/publish terina kintu "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Okuggyako empapula ku lunaku tekutegekeddwa wano: content.ini [HideSettings] teyogera kibinja kyonna wadde node ey'oku ntikko.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Tekitegekeddwa ku mukutu guno</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>okutuuka %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>etteeka liggiddwako</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Ku lwa: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Walula ku lunaku olulala</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Kyusa "%name" (%kind) ku:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Enkyusa empya ey'olupapula n'olunaku luno efulumizibwa; okukkiriza kuyinza okwetaagisa.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Enkomerero yaakyo nayo ekyuka wamu nakyo.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Olunaku n'essaawa</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Kikyusiddwa. Olunaku olupya lulindirira okukkirizibwa.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Kikyusiddwa.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalenda</translation>
+    </message>
 </context>
 </TS>

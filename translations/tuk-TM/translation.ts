@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL-ler</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Entek gelmedik wagty saýlaň.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Bu indi meýilleşdirilmedik.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Bu sahypanyň täze wersiýasyny häzir döredip bolmaýar.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Wariant başlamazdan öň gutarardy.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Aýyr</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Ýerleşiş warianty başlaýar</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Ýerleşiş warianty gutarýar</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Bu sahypa we aşagy</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Tutuş saýt</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Öňki aý</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Indiki aý</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Şu gün</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n meýilleşdirilen</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Göçür</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Meýilleşdirilen</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Bu hepdelerde hiç zat meýilleşdirilmedik.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Senede neşir etmek bu ýerde sazlanmadyk: content/publish iş akymynda "Wait until date" wakasy ýok.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Sahypalary senede aýyrmak bu ýerde sazlanmadyk: content.ini [HideSettings] hiç bir synpy we ýokarky düwüni atlandyrmaýar.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Bu saýtda sazlanmadyk</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>%time çenli</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>düzgün öçürilen</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Üçin: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Başga güne süýräň</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name" (%kind) şu ýere göçür:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Sahypanyň bu senäli täze wersiýasy neşir edilýär; tassyklama gerek bolup biler.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Onuň ahyry hem bilelikde göçýär.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Sene we wagt</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Göçürildi. Täze sene tassyklamaga garaşýar.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Göçürildi.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Senenama</translation>
+    </message>
 </context>
 </TS>

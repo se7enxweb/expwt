@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URLታት</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>ገና ዝመጽእ ግዜ ምረጹ።</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>እዚ ድሕሪ ሕጂ ኣብ መደብ የለን።</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>ሓድሽ ሕታም ናይዚ ገጽ ሕጂ ክስራሕ ኣይክእልን።</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>እቲ ፍልልይ ቅድሚ ምጅማሩ ምተወደአ።</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>ኣውርድ</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>ፍልልይ ኣቀማምጣ ይጅምር</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>ፍልልይ ኣቀማምጣ ይውዳእ</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>እዚ ገጽን ትሕቲኡን</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>ምሉእ መርበብ</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>ዝሓለፈ ወርሒ</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>ዝመጽእ ወርሒ</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>ሎሚ</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n ኣብ መደብ</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>ኣግዕዝ</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>ኣብ መደብ</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>ኣብዚኦም ሰሙናት ዋላ ሓንቲ ኣብ መደብ የለን።</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>ብዕለት ምሕታም ኣብዚ ኣይተዳለወን: ናይ content/publish ዋሕዚ ስራሕ "Wait until date" ፍጻመ የብሉን።</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>ብዕለት ገጻት ምውራድ ኣብዚ ኣይተዳለወን: content.ini [HideSettings] ዝኾነ ክፍልን ላዕለዋይ መስቀልን ኣይጠቅስን።</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>ኣብዚ መርበብ ኣይተዳለወን</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>ክሳብ %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>ሕጊ ተዓጽዩ</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>ን: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>ናብ ካልእ መዓልቲ ስሓብ</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name" (%kind) ናብ ኣግዕዝ:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>ሓድሽ ሕታም ናይቲ ገጽ ምስዚ ዕለት ይሕተም፤ ፍቓድ ከድሊ ይኽእል።</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>መወዳእታኡ'ውን ምስኡ ይግዕዝ።</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>ዕለትን ሰዓትን</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>ተገዒዙ። እቲ ሓድሽ ዕለት ፍቓድ ይጽበ ኣሎ።</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>ተገዒዙ።</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>ዓውደ ኣዋርሕ</translation>
+    </message>
 </context>
 </TS>

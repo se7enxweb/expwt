@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL-id</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Valige aeg, mis on alles tulemas.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Seda pole enam ajastatud.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Sellest lehest ei saa praegu uut versiooni teha.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Variant lõppeks enne, kui algab.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Võta maha</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Paigutuse variant algab</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Paigutuse variant lõpeb</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>See leht ja selle all</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Kogu sait</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Eelmine kuu</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Järgmine kuu</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Täna</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>Ajastatud: %n</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Teisalda</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Ajastatud</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Nendel nädalatel pole midagi ajastatud.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Kuupäeval avaldamine pole siin seadistatud: töövool content/publish ei sisalda sündmust "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Lehtede kuupäeval mahavõtmine pole siin seadistatud: content.ini [HideSettings] ei nimeta ühtegi klassi ega ülemist sõlme.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Sellel saidil seadistamata</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>kuni %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>reegel välja lülitatud</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Kellele: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Lohista teisele päevale</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Teisalda "%name" (%kind):</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Avaldatakse lehe uus versioon selle kuupäevaga; võib kehtida kinnitamine.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Selle lõpp liigub kaasa.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Kuupäev ja kellaaeg</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Teisaldatud. Uus kuupäev ootab kinnitamist.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Teisaldatud.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalender</translation>
+    </message>
 </context>
 </TS>

@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>اوہ ویلا چنو جیہڑا حالے آؤنا اے۔</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>ایہ ہُن شیڈول وچ نئیں۔</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>ایس صفحے دا نواں ورژن ہُن نئیں بن سکدا۔</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>ویری اینٹ شروع ہون توں پہلاں ای مُک جاوے گا۔</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>ہٹاؤ</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>لے آؤٹ ویری اینٹ شروع</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>لے آؤٹ ویری اینٹ مُکدا اے</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>ایہ صفحہ تے ایہدے تھلے</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>ساری سائٹ</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>پچھلا مہینہ</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>اگلا مہینہ</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>اج</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n شیڈول</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>ہلاؤ</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>شیڈول</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>ایہناں ہفتیاں وچ کجھ وی شیڈول نئیں۔</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>تریخ تے چھاپنا ایتھے سیٹ نئیں: content/publish ورک فلو وچ کوئی "Wait until date" واقعہ نئیں۔</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>تریخ تے صفحے ہٹانا ایتھے سیٹ نئیں: content.ini [HideSettings] کسے کلاس تے اُتلے نوڈ دا ناں نئیں لیندا۔</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>ایس سائٹ تے سیٹ نئیں</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>%time تیک</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>اصول بند اے</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>لئی: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>کسے ہور دن تے کھچو</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name" (%kind) ایتھے ہلاؤ:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>ایس تریخ نال صفحے دا نواں ورژن چھپدا اے؛ منظوری لگ سکدی اے۔</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>ایہدا انت وی نال ہلدا اے۔</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>تریخ تے ویلا</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>ہلا دتا۔ نویں تریخ منظوری دی اڈیک وچ اے۔</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>ہلا دتا۔</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>کیلنڈر</translation>
+    </message>
 </context>
 </TS>

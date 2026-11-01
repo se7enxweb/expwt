@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL-ներ</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Ընտրեք ժամանակ, որը դեռ գալու է։</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Սա այլևս պլանավորված չէ։</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Այս էջի նոր տարբերակ հիմա չի կարող ստեղծվել։</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Տարբերակը կավարտվեր նախքան սկսվելը։</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Հանել</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Դասավորության տարբերակը սկսվում է</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Դասավորության տարբերակն ավարտվում է</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Այս էջը և ներքևում</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Ամբողջ կայքը</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Նախորդ ամիս</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Հաջորդ ամիս</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Այսօր</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n պլանավորված</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Տեղափոխել</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Պլանավորված</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Այս շաբաթներին ոչինչ պլանավորված չէ։</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Ամսաթվով հրապարակումն այստեղ կարգավորված չէ․ content/publish աշխատահոսքը "Wait until date" իրադարձություն չունի։</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Էջերի ամսաթվով հանումն այստեղ կարգավորված չէ․ content.ini [HideSettings]-ը ոչ մի դաս և վերին հանգույց չի նշում։</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Այս կայքում կարգավորված չէ</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>մինչև %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>կանոնն անջատված է</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Համար՝ %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Քաշեք այլ օր</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Տեղափոխել "%name" (%kind)՝</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Հրապարակվում է էջի նոր տարբերակ այս ամսաթվով․ կարող է հաստատում պահանջվել։</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Դրա ավարտը տեղափոխվում է միասին։</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Ամսաթիվ և ժամ</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Տեղափոխված է։ Նոր ամսաթիվը սպասում է հաստատման։</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Տեղափոխված է։</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Օրացույց</translation>
+    </message>
 </context>
 </TS>

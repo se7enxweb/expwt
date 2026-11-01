@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>כתובות</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>בחרו זמן שעוד לא הגיע.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>זה כבר לא מתוזמן.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>לא ניתן ליצור כעת גרסה חדשה של הדף הזה.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>הווריאנט היה מסתיים לפני שהוא מתחיל.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>הורדה</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>וריאנט פריסה מתחיל</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>וריאנט פריסה מסתיים</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>הדף הזה ומתחתיו</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>כל האתר</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>החודש הקודם</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>החודש הבא</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>היום</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n מתוזמנים</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>העברה</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>מתוזמן</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>אין שום דבר מתוזמן בשבועות האלה.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>פרסום בתאריך לא מוגדר כאן: לתהליך העבודה content/publish אין אירוע "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>הורדת דפים בתאריך לא מוגדרת כאן: content.ini [HideSettings] לא מציין אף מחלקה ואף צומת עליון.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>לא מוגדר באתר הזה</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>עד %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>הכלל כבוי</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>עבור: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>גררו ליום אחר</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>העברת "%name" (%kind) אל:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>גרסה חדשה של הדף עם התאריך הזה מתפרסמת; ייתכן שיחול אישור.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>הסוף שלו זז איתו.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>תאריך ושעה</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>הועבר. התאריך החדש ממתין לאישור.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>הועבר.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>לוח שנה</translation>
+    </message>
 </context>
 </TS>

@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL-osoitteet</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Valitse aika, joka on vasta tulossa.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Tätä ei ole enää ajastettu.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Tästä sivusta ei voi nyt tehdä uutta versiota.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Muunnelma päättyisi ennen kuin alkaa.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Poista näkyvistä</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Asettelun muunnelma alkaa</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Asettelun muunnelma päättyy</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Tämä sivu ja sen alla</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Koko sivusto</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Edellinen kuukausi</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Seuraava kuukausi</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Tänään</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>Ajastettu: %n</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Siirrä</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Ajastettu</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Näille viikoille ei ole ajastettu mitään.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Julkaisua päivämääränä ei ole asetettu tässä: työnkulussa content/publish ei ole tapahtumaa "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Sivujen poistoa näkyvistä päivämääränä ei ole asetettu tässä: content.ini [HideSettings] ei nimeä luokkaa eikä ylintä solmua.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Ei asetettu tällä sivustolla</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>%time asti</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>sääntö pois päältä</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Kohde: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Vedä toiseen päivään</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Siirrä "%name" (%kind):</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Sivusta julkaistaan uusi versio tällä päivämäärällä; hyväksyntä voi olla tarpeen.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Sen loppu siirtyy mukana.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Päivämäärä ja aika</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Siirretty. Uusi päivämäärä odottaa hyväksyntää.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Siirretty.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalenteri</translation>
+    </message>
 </context>
 </TS>

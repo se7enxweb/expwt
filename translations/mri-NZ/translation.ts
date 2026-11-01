@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>Ngā URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Kōwhiria he wā kāore anō kia tae mai.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Kua kore tēnei i te whakaritea.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Kāore e taea te hanga he putanga hou o tēnei whārangi ināianei.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Ka mutu te momo rerekē i mua i tōna tīmatanga.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Tangohia</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Ka tīmata te momo tahora</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Ka mutu te momo tahora</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Tēnei whārangi me raro iho</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Te pae katoa</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Marama o mua</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Marama e haere ake nei</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Ināianei</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n kua whakaritea</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Nekehia</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Kua whakaritea</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Kāore he mea kua whakaritea i ēnei wiki.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Kāore te whakaputa i tētahi rā i whakaritea ki konei: kāore he takahanga "Wait until date" i te rerenga mahi content/publish.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Kāore te tango whārangi i tētahi rā i whakaritea ki konei: kāore a content.ini [HideSettings] e whakaingoa ana i tētahi akomanga, i tētahi node o runga rānei.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Kāore i whakaritea ki tēnei pae</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>tae noa ki %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>kua whakawetohia te ture</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Mō: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Tōia ki tētahi atu rā</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Nekehia "%name" (%kind) ki:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Ka whakaputaina he putanga hou o te whārangi me tēnei rā; tērā pea ka hāngai he whakaaetanga.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Ka neke tahi tōna mutunga.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Rā me te wā</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Kua nekehia. Kei te tatari te rā hou ki te whakaaetanga.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Kua nekehia.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Maramataka</translation>
+    </message>
 </context>
 </TS>

@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URLs</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Paw bere a ɛda so bɛba.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Wɔnhyehyɛɛ eyi bio.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Wontumi nyɛ krataafa yi foforɔ seesei.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Nsakraeɛ no bɛba awieeɛ ansa na ahyɛ aseɛ.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Yi fi so</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Nhyehyɛeɛ nsakraeɛ hyɛ aseɛ</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Nhyehyɛeɛ nsakraeɛ ba awieeɛ</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Krataafa yi ne deɛ ɛwɔ aseɛ</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Wɛbsaet no nyinaa</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Bosome a atwam</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Bosome a ɛreba</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Ɛnnɛ</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n ahyehyɛ</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Tu</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Ahyehyɛ</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Biribiara nni hyehyɛeɛ mu nnawɔtwe yi mu.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Wɔnhyehyɛɛ da so tintim wɔ ha: content/publish adwumayɛ kwan no nni "Wait until date" dwumadie biara.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Wɔnhyehyɛɛ krataafa yiyi da so wɔ ha: content.ini [HideSettings] mmɔ class anaa node a ɛwɔ soro din.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Wɔnhyehyɛɛ wɔ wɛbsaet yi so</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>kɔsi %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>mmara no adum</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Ma: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Twe kɔ da foforɔ so</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Tu "%name" (%kind) kɔ:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Wɔtintim krataafa no foforɔ a da yi wom; ebia mpenimdie bɛhia.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>N'awieeɛ nso tu ka ho.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Da ne berɛ</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Wɔatu. Da foforɔ no retwɛn mpenimdie.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Wɔatu.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalenda</translation>
+    </message>
 </context>
 </TS>

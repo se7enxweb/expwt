@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL мекенжайлары</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Әлі келмеген уақытты таңдаңыз.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Бұл енді жоспарланбаған.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Бұл беттің жаңа нұсқасын қазір жасау мүмкін емес.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Нұсқа басталмай жатып аяқталар еді.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Алып тастау</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Макет нұсқасы басталады</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Макет нұсқасы аяқталады</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Осы бет және төменгілер</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Бүкіл сайт</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Алдыңғы ай</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Келесі ай</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Бүгін</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>Жоспарланған: %n</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Жылжыту</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Жоспарланған</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Бұл апталарда ештеңе жоспарланбаған.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Күнге жариялау мұнда бапталмаған: content/publish жұмыс ағынында "Wait until date" оқиғасы жоқ.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Беттерді күнге алып тастау мұнда бапталмаған: content.ini [HideSettings] ешбір класты да, жоғарғы түйінді де атамайды.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Бұл сайтта бапталмаған</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>%time дейін</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>ереже өшірулі</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Кімге: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Басқа күнге сүйреңіз</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name" (%kind) жылжыту:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Беттің осы күнмен жаңа нұсқасы жарияланады; бекіту қажет болуы мүмкін.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Оның соңы да бірге жылжиды.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Күні мен уақыты</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Жылжытылды. Жаңа күн бекітуді күтуде.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Жылжытылды.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Күнтізбе</translation>
+    </message>
 </context>
 </TS>

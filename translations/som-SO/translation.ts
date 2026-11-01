@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL-yada</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Dooro waqti weli imanaya.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Tani mar dambe jadwal kuma jirto.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Nooc cusub oo boggan ah hadda lama samayn karo.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Kala duwanaanshuhu wuu dhammaan lahaa intuusan bilaabmin.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Ka qaad</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Kala duwanaanshaha qaabka wuu bilaabmayaa</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Kala duwanaanshaha qaabka wuu dhammaanayaa</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Boggan iyo hoostiisa</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Goobta oo dhan</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Bishii hore</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Bisha xigta</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Maanta</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n jadwalaysan</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Dhaqaaji</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Jadwalaysan</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Toddobaadyadan wax jadwalaysan ma jiraan.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Daabacaadda taariikh lama dejin halkan: socodka shaqada content/publish ma laha dhacdo "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Ka qaadista bogagga taariikh lama dejin halkan: content.ini [HideSettings] ma magacaabo fasal iyo noode sare midna.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Laguma dejin goobtan</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>ilaa %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>xeerka waa la damiyay</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Loogu talagalay: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>U jiid maalin kale</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>U dhaqaaji "%name" (%kind):</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Nooc cusub oo bogga ah oo taariikhdan leh ayaa la daabacayaa; ansixin ayaa lagama yaabaa inay khusayso.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Dhammaadkiisuna wuu la dhaqaaqaa.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Taariikh iyo waqti</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Waa la dhaqaajiyay. Taariikhda cusub waxay sugaysaa ansixin.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Waa la dhaqaajiyay.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalandar</translation>
+    </message>
 </context>
 </TS>

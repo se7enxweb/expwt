@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>اَکھ وَقٕت ژارِو یُس وُنہِ یِیُن چھُ.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>یہِ چھُ نہٕ وُنہِ شیڈول۔</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>یَتھ صفحس ہُنٛد نوٚو ورژن ہیٚکہِ نہٕ وُنہِ بَنِتھ۔</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>ویریئنٹ گژِھ شروٗع گژھنہٕ برونٛہہ ختم۔</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>ہٹاو</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>لےآؤٹ ویریئنٹ شروٗع</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>لےآؤٹ ویریئنٹ ختم</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>یہِ صفحہ تہٕ تَمِہ تَل</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>پوٗرٕ سائٹ</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>پَتِم رٕتھ</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>بییِم رٕتھ</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>اَز</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n شیڈول</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>پَکناو</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>شیڈول</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>یِمن ہفتن منٛز چھُ نہٕ کیٛنٛہہ شیڈول۔</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>تاریخس پیٹھ شایع کرُن چھُ نہٕ یتہِ سیٹ: content/publish ورک فلوس منٛز چھُ نہٕ کانٛہہ "Wait until date" واقعہ۔</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>تاریخس پیٹھ صفحہ ہٹاوُن چھُ نہٕ یتہِ سیٹ: content.ini [HideSettings] چھُ نہٕ کانٛہہ کلاس تہٕ ہیٚوٚر نوڈ ناو ہیوان۔</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>یَتھ سائٹس پیٹھ سیٹ نہٕ</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>%time تام</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>قانوٗن بنٛد</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>خٲطرٕ: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>بییِس دۄہس پیٹھ کھٕنٛزِو</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name" (%kind) یتہِ پَکناو:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>یَتھ تاریخس سٟتؠ صفحس ہُنٛد نوٚو ورژن چھُ شایع گژھان؛ منظوٗری ہیٚکہِ لاگوٗ گژھِتھ۔</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>تَمہِ ہُنٛد اَنٛد تہِ چھُ سٟتؠ پَکان۔</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>تاریخ تہٕ وَقٕت</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>پَکنوومُت۔ نٔو تاریخ چھےٚ منظوٗری ہٕنٛز پرارٕ۔</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>پَکنوومُت۔</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>کیلنڈر</translation>
+    </message>
 </context>
 </TS>

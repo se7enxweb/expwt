@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>ଏପର୍ଯ୍ୟନ୍ତ ଆସିବାକୁ ଥିବା ସମୟ ବାଛନ୍ତୁ।</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>ଏହା ଆଉ ନିର୍ଦ୍ଧାରିତ ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>ଏହି ପୃଷ୍ଠାର ନୂଆ ସଂସ୍କରଣ ଏବେ ତିଆରି ହୋଇପାରିବ ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>ଭାରିଆଣ୍ଟ ଆରମ୍ଭ ହେବା ପୂର୍ବରୁ ଶେଷ ହୋଇଯିବ।</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>ହଟାନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>ଲେଆଉଟ ଭାରିଆଣ୍ଟ ଆରମ୍ଭ</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>ଲେଆଉଟ ଭାରିଆଣ୍ଟ ଶେଷ</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>ଏହି ପୃଷ୍ଠା ଏବଂ ତଳେ</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>ସମ୍ପୂର୍ଣ୍ଣ ସାଇଟ</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>ପୂର୍ବ ମାସ</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>ପରବର୍ତ୍ତୀ ମାସ</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>ଆଜି</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n ନିର୍ଦ୍ଧାରିତ</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>ଘୁଞ୍ଚାନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>ନିର୍ଦ୍ଧାରିତ</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>ଏହି ସପ୍ତାହଗୁଡ଼ିକରେ କିଛି ନିର୍ଦ୍ଧାରିତ ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>ତାରିଖରେ ପ୍ରକାଶନ ଏଠାରେ ସେଟ ହୋଇନାହିଁ: content/publish ୱର୍କଫ୍ଲୋରେ କୌଣସି "Wait until date" ଇଭେଣ୍ଟ ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>ତାରିଖରେ ପୃଷ୍ଠା ହଟାଇବା ଏଠାରେ ସେଟ ହୋଇନାହିଁ: content.ini [HideSettings] କୌଣସି କ୍ଲାସ କି ଉପର ନୋଡର ନାମ ନିଏ ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>ଏହି ସାଇଟରେ ସେଟ ହୋଇନାହିଁ</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>%time ପର୍ଯ୍ୟନ୍ତ</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>ନିୟମ ବନ୍ଦ</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>ପାଇଁ: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>ଅନ୍ୟ ଦିନକୁ ଟାଣନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name" (%kind) ଏଠାକୁ ଘୁଞ୍ଚାନ୍ତୁ:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>ଏହି ତାରିଖ ସହ ପୃଷ୍ଠାର ନୂଆ ସଂସ୍କରଣ ପ୍ରକାଶିତ ହୁଏ; ଅନୁମୋଦନ ଲାଗୁ ହୋଇପାରେ।</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>ଏହାର ଶେଷ ମଧ୍ୟ ସାଙ୍ଗରେ ଘୁଞ୍ଚେ।</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>ତାରିଖ ଏବଂ ସମୟ</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>ଘୁଞ୍ଚାଗଲା। ନୂଆ ତାରିଖ ଅନୁମୋଦନ ଅପେକ୍ଷାରେ।</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>ଘୁଞ୍ଚାଗଲା।</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>କ୍ୟାଲେଣ୍ଡର</translation>
+    </message>
 </context>
 </TS>

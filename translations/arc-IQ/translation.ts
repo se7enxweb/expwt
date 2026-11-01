@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URLs</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>ܓܒܝ ܥܕܢܐ ܕܥܬܝܕ ܠܡܐܬܐ.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>ܗܢܐ ܠܐ ܡܛܟܣ ܬܘܒ.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>ܠܐ ܡܫܟܚܐ ܢܣܚܐ ܚܕܬܐ ܕܗܢܐ ܦܐܬܐ ܗܫܐ.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>ܫܘܚܠܦܐ ܢܫܠܡ ܩܕܡ ܕܢܫܪܐ.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>ܐܚܬ</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>ܫܘܚܠܦܐ ܕܬܘܩܢܐ ܫܪܐ</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>ܫܘܚܠܦܐ ܕܬܘܩܢܐ ܫܠܡ</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>ܗܢܐ ܦܐܬܐ ܘܕܠܬܚܬ</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>ܟܠܗ ܐܬܪܐ</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>ܝܪܚܐ ܕܥܒܪ</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>ܝܪܚܐ ܕܐܬܐ</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>ܝܘܡܢܐ</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n ܡܛܟܣܝܢ</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>ܫܢܝ</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>ܡܛܟܣ</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>ܡܕܡ ܠܐ ܡܛܟܣ ܒܗܠܝܢ ܫܒܘܥܐ.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>ܦܪܣܘܡܐ ܒܝܘܡܐ ܠܐ ܡܛܟܣ ܗܪܟܐ: ܫܘܓܢܐ ܕcontent/publish ܠܝܬ ܠܗ ܓܕܫܐ "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>ܐܚܬܘܬܐ ܕܦܐܬܐ ܒܝܘܡܐ ܠܐ ܡܛܟܣܐ ܗܪܟܐ: content.ini [HideSettings] ܠܐ ܩܪܐ ܠܐ ܙܢܐ ܘܠܐ ܩܛܪܐ ܥܠܝܐ.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>ܠܐ ܡܛܟܣ ܒܗܢܐ ܐܬܪܐ</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>ܥܕܡܐ ܠ%time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>ܢܡܘܣܐ ܕܥܝܟ</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>ܠ: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>ܓܪܘܫ ܠܝܘܡܐ ܐܚܪܢܐ</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>ܫܢܝ "%name" (%kind) ܠ:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>ܢܣܚܐ ܚܕܬܐ ܕܦܐܬܐ ܥܡ ܗܢܐ ܝܘܡܐ ܡܦܪܣܡ؛ ܡܫܟܚܐ ܕܬܬܒܥܐ ܫܘܪܪܐ.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>ܚܪܬܗ ܡܫܢܝܐ ܥܡܗ.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>ܝܘܡܐ ܘܥܕܢܐ</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>ܫܢܝ. ܝܘܡܐ ܚܕܬܐ ܡܣܟܐ ܠܫܘܪܪܐ.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>ܫܢܝ.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>ܣܕܪ ܝܘܡܬܐ</translation>
+    </message>
 </context>
 </TS>

@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL-oj</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Elektu tempon, kiu ankoraŭ venos.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Tio ne plu estas planita.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Nova versio de ĉi tiu paĝo ne povas esti farita nun.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>La varianto finiĝus antaŭ ol komenciĝi.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Malpublikigi</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Aranĝa varianto komenciĝas</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Aranĝa varianto finiĝas</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Ĉi tiu paĝo kaj sube</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>La tuta retejo</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Antaŭa monato</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Sekva monato</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Hodiaŭ</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n planitaj</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Movi</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Planita</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Nenio estas planita en ĉi tiuj semajnoj.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Publikigo je dato ne estas agordita ĉi tie: la laborfluo content/publish ne havas eventon "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Malpublikigo de paĝoj je dato ne estas agordita ĉi tie: content.ini [HideSettings] nomas nek klason nek supran nodon.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Ne agordita en ĉi tiu retejo</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>ĝis %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>regulo malŝaltita</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Por: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Trenu al alia tago</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Movi "%name" (%kind) al:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Nova versio de la paĝo kun ĉi tiu dato estas publikigata; aprobo eble validas.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Ĝia fino moviĝas kune.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Dato kaj horo</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Movita. La nova dato atendas aprobon.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Movita.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalendaro</translation>
+    </message>
 </context>
 </TS>

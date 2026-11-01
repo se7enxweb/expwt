@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URLs</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Họrọ oge ka na-abịa.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Ahaziteghị nke a ọzọ.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Enweghị ike ịme ụdị ọhụrụ nke ibe a ugbu a.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Ụdị ahụ ga-agwụ tupu ọ malite.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Wepụ</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Ụdị nhazi na-amalite</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Ụdị nhazi na-agwụ</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Ibe a na nke dị n'okpuru</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Saịtị ahụ niile</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Ọnwa gara aga</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Ọnwa na-abịa</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Taa</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n ahaziri</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Bugharịa</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Ahaziri</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Ọ dịghị ihe ahaziri n'izu ndị a.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Ebipụta n'ụbọchị ahazighị ebe a: usoro ọrụ content/publish enweghị ihe omume "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Iwepụ ibe n'ụbọchị ahazighị ebe a: content.ini [HideSettings] akpọghị klaasị ọ bụla na ọnụ elu ọ bụla.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Ahazighị na saịtị a</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>ruo %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>agbanyụọla iwu</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Maka: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Dọrọ gaa n'ụbọchị ọzọ</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Bugharịa "%name" (%kind) gaa:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>A na-ebipụta ụdị ọhụrụ nke ibe ahụ nwere ụbọchị a; nkwado nwere ike ịdị mkpa.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Njedebe ya na-esokwa ya.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Ụbọchị na oge</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Ebugharịrị. Ụbọchị ọhụrụ na-eche nkwado.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Ebugharịrị.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalenda</translation>
+    </message>
 </context>
 </TS>

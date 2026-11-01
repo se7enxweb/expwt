@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL-ууд</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Хараахан болоогүй цагийг сонгоно уу.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Энэ дахиж төлөвлөгдөөгүй.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Энэ хуудасны шинэ хувилбарыг одоо үүсгэх боломжгүй.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Хувилбар эхлэхээсээ өмнө дуусна.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Буулгах</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Байршлын хувилбар эхэлнэ</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Байршлын хувилбар дуусна</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Энэ хуудас ба доорх</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Бүх сайт</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Өмнөх сар</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Дараагийн сар</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Өнөөдөр</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>Төлөвлөсөн: %n</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Зөөх</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Төлөвлөсөн</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Эдгээр долоо хоногт юу ч төлөвлөөгүй.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Огноонд нийтлэх энд тохируулагдаагүй: content/publish ажлын урсгалд "Wait until date" үйл явдал алга.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Огноонд хуудас буулгах энд тохируулагдаагүй: content.ini [HideSettings] ямар ч анги, дээд зангилаа нэрлээгүй.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Энэ сайтад тохируулагдаагүй</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>%time хүртэл</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>дүрэм унтраалттай</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Хэнд: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Өөр өдөр рүү чирнэ үү</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name" (%kind)-г зөөх:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Энэ огноотой хуудасны шинэ хувилбар нийтлэгдэнэ; зөвшөөрөл шаардагдаж магадгүй.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Түүний төгсгөл ч хамт зөөгдөнө.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Огноо ба цаг</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Зөөгдсөн. Шинэ огноо зөвшөөрөл хүлээж байна.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Зөөгдсөн.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Хуанли</translation>
+    </message>
 </context>
 </TS>

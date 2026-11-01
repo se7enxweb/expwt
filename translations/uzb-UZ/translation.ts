@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL manzillar</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Hali kelmagan vaqtni tanlang.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Bu endi rejalashtirilmagan.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Bu sahifaning yangi versiyasini hozir yaratib bo'lmaydi.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Variant boshlanmasdan oldin tugagan bo'lardi.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Olib tashlash</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Maket varianti boshlanadi</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Maket varianti tugaydi</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Bu sahifa va pastdagilar</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Butun sayt</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Oldingi oy</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Keyingi oy</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Bugun</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n rejalashtirilgan</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Ko'chirish</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Rejalashtirilgan</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Bu haftalarda hech narsa rejalashtirilmagan.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Sanada nashr etish bu yerda sozlanmagan: content/publish ish oqimida "Wait until date" hodisasi yo'q.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Sahifalarni sanada olib tashlash bu yerda sozlanmagan: content.ini [HideSettings] hech qanday sinf va yuqori tugunni nomlamaydi.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Bu saytda sozlanmagan</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>%time gacha</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>qoida o'chirilgan</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Uchun: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Boshqa kunga suring</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name" (%kind) ni ko'chirish:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Sahifaning shu sanali yangi versiyasi nashr etiladi; tasdiq kerak bo'lishi mumkin.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Uning oxiri ham birga ko'chadi.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Sana va vaqt</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Ko'chirildi. Yangi sana tasdiqni kutmoqda.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Ko'chirildi.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Taqvim</translation>
+    </message>
 </context>
 </TS>

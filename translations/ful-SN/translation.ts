@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URLe</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Suɓo waktu mo arataako tawo.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Ɗum wonaani e laawol kadi.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Hollirde kesre ngoo hello waawaa waɗeede jooni.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Waylaare nde gasoto hade nde fuɗɗude.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Itta</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Waylaare taƴtorde fuɗɗii</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Waylaare taƴtorde gasii</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Ngoo hello e les mayru</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Lowre ndee fof</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Lewru ɓennuru</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Lewru arandeeru</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Hannde</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n e laawol</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Dirtin</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>E laawol</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Alaa ko woni e laawol e ndee yontere.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Yaltinde e ñalnde ndee teeltaaka ɗoo: laawol golle content/publish alaa huunde "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Ittude hello e ñalnde teeltaaka ɗoo: content.ini [HideSettings] innditaa heen fedde walla ɓalndi dow.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Teeltaaka e ndee lowre</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>haa %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>sariya ñifaa</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Ngam: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Ndaasu to ñalnde goɗnde</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Dirtin "%name" (%kind) to:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Hollirde kesre hello ndee e ndee ñalnde yaltinte; jaɓɓol ina waawi soklaade.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Gasirde mum dirtoto e mum.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Ñalnde e waktu</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Dirtinaama. Ñalnde kesre ndee ina habba jaɓɓol.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Dirtinaama.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalandiye</translation>
+    </message>
 </context>
 </TS>

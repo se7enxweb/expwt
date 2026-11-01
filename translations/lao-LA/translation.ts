@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>ເລືອກເວລາທີ່ຍັງບໍ່ທັນມາເຖິງ.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>ອັນນີ້ບໍ່ໄດ້ກຳນົດເວລາແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>ບໍ່ສາມາດສ້າງສະບັບໃໝ່ຂອງໜ້ານີ້ໄດ້ໃນຕອນນີ້.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>ຕົວແປຈະສິ້ນສຸດກ່ອນມັນເລີ່ມ.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>ເອົາລົງ</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>ຕົວແປໂຄງຮ່າງເລີ່ມ</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>ຕົວແປໂຄງຮ່າງສິ້ນສຸດ</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>ໜ້ານີ້ ແລະ ຂ້າງລຸ່ມ</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>ທັງເວັບໄຊ</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>ເດືອນກ່ອນ</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>ເດືອນໜ້າ</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>ມື້ນີ້</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>ກຳນົດແລ້ວ %n</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>ຍ້າຍ</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>ກຳນົດແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>ບໍ່ມີຫຍັງກຳນົດໄວ້ໃນອາທິດເຫຼົ່ານີ້.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>ການເຜີຍແຜ່ຕາມວັນທີຍັງບໍ່ໄດ້ຕັ້ງຢູ່ນີ້: ຂັ້ນຕອນວຽກ content/publish ບໍ່ມີເຫດການ "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>ການເອົາໜ້າລົງຕາມວັນທີຍັງບໍ່ໄດ້ຕັ້ງຢູ່ນີ້: content.ini [HideSettings] ບໍ່ໄດ້ລະບຸຄລາສ ຫຼື ໂນດເທິງສຸດ.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>ບໍ່ໄດ້ຕັ້ງຢູ່ເວັບໄຊນີ້</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>ຈົນເຖິງ %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>ກົດຖືກປິດ</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>ສຳລັບ: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>ລາກໄປມື້ອື່ນ</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>ຍ້າຍ "%name" (%kind) ໄປ:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>ສະບັບໃໝ່ຂອງໜ້າພ້ອມວັນທີນີ້ຈະຖືກເຜີຍແຜ່; ອາດຕ້ອງມີການອະນຸມັດ.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>ຈຸດສິ້ນສຸດກໍຍ້າຍນຳ.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>ວັນທີ ແລະ ເວລາ</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>ຍ້າຍແລ້ວ. ວັນທີໃໝ່ລໍຖ້າການອະນຸມັດ.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>ຍ້າຍແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>ປະຕິທິນ</translation>
+    </message>
 </context>
 </TS>

@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>これから来る日時を選んでください。</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>これはもう予定されていません。</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>今はこのページの新しいバージョンを作成できません。</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>バリアントが始まる前に終わってしまいます。</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>公開終了</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>レイアウトバリアント開始</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>レイアウトバリアント終了</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>このページと配下</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>サイト全体</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>前の月</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>次の月</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>今日</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n 件の予定</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>移動</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>予定</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>この数週間に予定はありません。</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>日時指定の公開はここでは設定されていません：ワークフロー content/publish に "Wait until date" イベントがありません。</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>日時指定でのページの公開終了はここでは設定されていません：content.ini [HideSettings] にクラスも最上位ノードも指定されていません。</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>このサイトでは未設定</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>%time まで</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>ルールはオフ</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>対象：%list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>別の日にドラッグ</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>"%name"（%kind）の移動先：</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>この日付でページの新しいバージョンが公開されます。承認が必要な場合があります。</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>終了もあわせて移動します。</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>日時</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>移動しました。新しい日付は承認待ちです。</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>移動しました。</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>カレンダー</translation>
+    </message>
 </context>
 </TS>

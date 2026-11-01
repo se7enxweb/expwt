@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Pilih waktu anu can datang.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Ieu geus teu dijadwalkeun deui.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Vérsi anyar kaca ieu teu bisa dijieun ayeuna.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Varian bakal réngsé saméméh dimimitian.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Turunkeun</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Varian tata perenah dimimitian</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Varian tata perenah réngsé</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Kaca ieu jeung di handapna</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Sakabéh situs</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Bulan saméméhna</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Bulan hareup</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Poé ieu</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n dijadwalkeun</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Pindahkeun</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Dijadwalkeun</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Euweuh anu dijadwalkeun dina minggu-minggu ieu.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Medalkeun dina tanggal can disetél di dieu: alur gawé content/publish teu boga kajadian "Wait until date".</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Nurunkeun kaca dina tanggal can disetél di dieu: content.ini [HideSettings] teu nyebut kelas jeung titik pangluhurna.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Can disetél di situs ieu</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>nepi ka %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>aturan dipareuman</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Pikeun: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Sered ka poé séjén</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Pindahkeun "%name" (%kind) ka:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>Vérsi anyar kaca kalawan tanggal ieu dimedalkeun; persetujuan bisa dipikabutuh.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Tungtungna ogé ngalih babarengan.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Tanggal jeung waktu</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Dipindahkeun. Tanggal anyar ngadagoan persetujuan.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Dipindahkeun.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalénder</translation>
+    </message>
 </context>
 </TS>

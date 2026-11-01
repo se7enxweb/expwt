@@ -1579,5 +1579,125 @@
         <source>URLs</source>
         <translation>URL's</translation>
     </message>
+    <message>
+        <source>Choose a time that is still to come.</source>
+        <translation>Kies 'n tyd wat nog moet kom.</translation>
+    </message>
+    <message>
+        <source>This is not scheduled any more.</source>
+        <translation>Dit is nie meer geskeduleer nie.</translation>
+    </message>
+    <message>
+        <source>No new version can be made of this page now.</source>
+        <translation>Geen nuwe weergawe van hierdie bladsy kan nou gemaak word nie.</translation>
+    </message>
+    <message>
+        <source>The variant would end before it starts.</source>
+        <translation>Die variant sou eindig voordat dit begin.</translation>
+    </message>
+    <message>
+        <source>Take down</source>
+        <translation>Haal af</translation>
+    </message>
+    <message>
+        <source>Layout variant starts</source>
+        <translation>Uitlegvariant begin</translation>
+    </message>
+    <message>
+        <source>Layout variant ends</source>
+        <translation>Uitlegvariant eindig</translation>
+    </message>
+    <message>
+        <source>This page and below</source>
+        <translation>Hierdie bladsy en onder</translation>
+    </message>
+    <message>
+        <source>The whole site</source>
+        <translation>Die hele werf</translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation>Vorige maand</translation>
+    </message>
+    <message>
+        <source>Next month</source>
+        <translation>Volgende maand</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Vandag</translation>
+    </message>
+    <message>
+        <source>%n scheduled</source>
+        <translation>%n geskeduleer</translation>
+    </message>
+    <message>
+        <source>Move</source>
+        <translation>Skuif</translation>
+    </message>
+    <message>
+        <source>Scheduled</source>
+        <translation>Geskeduleer</translation>
+    </message>
+    <message>
+        <source>Nothing is scheduled in these weeks.</source>
+        <translation>Niks is in hierdie weke geskeduleer nie.</translation>
+    </message>
+    <message>
+        <source>Publishing at a date is not set up here: the content/publish workflow has no "Wait until date" event.</source>
+        <translation>Publiseer op 'n datum is nie hier opgestel nie: die content/publish-werkvloei het geen "Wait until date"-gebeurtenis nie.</translation>
+    </message>
+    <message>
+        <source>Taking pages down at a date is not set up here: content.ini [HideSettings] names no class and no top node.</source>
+        <translation>Bladsye op 'n datum afhaal is nie hier opgestel nie: content.ini [HideSettings] noem geen klas en geen boonste nodus nie.</translation>
+    </message>
+    <message>
+        <source>Not set up on this site</source>
+        <translation>Nie op hierdie werf opgestel nie</translation>
+    </message>
+    <message>
+        <source>until %time</source>
+        <translation>tot %time</translation>
+    </message>
+    <message>
+        <source>rule switched off</source>
+        <translation>reël afgeskakel</translation>
+    </message>
+    <message>
+        <source>For: %list</source>
+        <translation>Vir: %list</translation>
+    </message>
+    <message>
+        <source>Drag to another day</source>
+        <translation>Sleep na 'n ander dag</translation>
+    </message>
+    <message>
+        <source>Move "%name" (%kind) to:</source>
+        <translation>Skuif "%name" (%kind) na:</translation>
+    </message>
+    <message>
+        <source>A new version of the page with this date is published; an approval may apply.</source>
+        <translation>'n Nuwe weergawe van die bladsy met hierdie datum word gepubliseer; 'n goedkeuring kan van toepassing wees.</translation>
+    </message>
+    <message>
+        <source>Its end moves with it.</source>
+        <translation>Die einde skuif saam.</translation>
+    </message>
+    <message>
+        <source>Date and time</source>
+        <translation>Datum en tyd</translation>
+    </message>
+    <message>
+        <source>Moved. The new date waits for its approval.</source>
+        <translation>Geskuif. Die nuwe datum wag vir goedkeuring.</translation>
+    </message>
+    <message>
+        <source>Moved.</source>
+        <translation>Geskuif.</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Kalender</translation>
+    </message>
 </context>
 </TS>
