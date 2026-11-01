@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Zonke izinhlaka ziyaboniswa.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Amaphaneli ebha eseceleni yewebhusayithi</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Yimaphi amaphaneli ebha eseceleni yewebhusayithi abonwa ngabasebenzisi bendima ethile, nangaluphi uhlelo, ku-siteaccess ngayinye. Lokho abasebenzisi abangakwenza kusanqunywa yizinqubomgomo zezindima zabo: iphaneli efihliwe ayiboniswa nje kuphela.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Ibha eseceleni ivuliwe</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Ibha eseceleni ivaliwe</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Indima</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Bonisa</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Elinye ifayela lezilungiselelo linquma lezi zilungiselelo ze-%siteaccess: okulondolozwe lapha kusebenza kuphela uma lingekho.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Izinguquko ezingalondoloziwe: zilondoloze noma uphume ekhasini.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Iphaneli</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Iyaboniswa</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Uhlelo</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Ihlala iboniswa</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Londoloza</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Susa amaphaneli ale ndima</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Izindima ezinamaphaneli azo</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Umsebenzisi onezindima eziningana kulezi uthola uhlelo lwendima yokuqala; iphaneli ihlala iboniswa uma enye yezindima zomsebenzisi iyibonisa.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Ayikho indima lapha enamaphaneli ayo: wonke umsebenzisi ubona amaphaneli ngohlelo lwebha eseceleni uqobo.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Umlando</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Izinguqulo zangaphambilini ze-%file, ezigcinwe ngaphambi koshintsho ngalunye.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Ibisebenza kuze kube</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Azikho izinguqulo zangaphambilini okwamanje.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Akulondolozwanga: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Akukho okushintshile.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Kulondolozwe ku-%file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Amaphaneli enguqulo ye-%time abuyisiwe.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Amaphaneli ebha eseceleni yewebhusayithi</translation>
+    </message>
 </context>
 </TS>

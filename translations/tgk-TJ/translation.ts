@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Ҳамаи чорчӯбаҳо нишон дода мешаванд.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Панелҳои панели паҳлӯии сомона</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Корбарони нақш дар ҳар siteaccess кадом панелҳои панели паҳлӯии сомонаро ва бо кадом тартиб мебинанд. Он чи корбарон карда метавонанд, мисли пештара аз сиёсатҳои нақшҳояшон вобаста аст: панели пинҳоншуда танҳо нишон дода намешавад.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Панели паҳлӯӣ фаъол</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Панели паҳлӯӣ хомӯш</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Нақш</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Нишон додан</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Ин танзимотро барои %siteaccess файли дигари танзимот муайян мекунад: он чи дар ин ҷо нигоҳ дошта мешавад, танҳо бе он амал мекунад.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Тағйироти нигоҳдоштанашуда: онҳоро нигоҳ доред ё саҳифаро тарк кунед.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Панел</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Намоён</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Тартиб</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Ҳамеша намоён</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Нигоҳ доштан</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Панелҳои ин нақшро хориҷ кардан</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Нақшҳо бо панелҳои худ</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Корбаре, ки якчанд нақши инҳоро дорад, тартиби аввалинро мегирад; агар яке аз нақшҳои корбар панелро нишон диҳад, он намоён мемонад.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Дар ин ҷо ягон нақш панелҳои худро надорад: ҳар корбар панелҳоро бо тартиби худи панели паҳлӯӣ мебинад.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Таърих</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Нусхаҳои пештараи %file, ки пеш аз ҳар тағйир нигоҳ дошта шудаанд.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Амал мекард то</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Ҳоло нусхаҳои пештара нестанд.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Нигоҳ дошта нашуд: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Ҳеҷ чиз тағйир наёфт.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Дар %file нигоҳ дошта шуд.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Панелҳои нусхаи %time барқарор шуданд.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Панелҳои панели паҳлӯии сомона</translation>
+    </message>
 </context>
 </TS>

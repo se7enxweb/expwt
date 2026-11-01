@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>सर्वे चौकटाः दर्शिताः।</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>जालस्थानस्य पार्श्वपट्टिकायाः फलकानि</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>प्रत्येकस्य siteaccess कृते, कस्यचित् भूमिकायाः उपयोक्तारः जालस्थानस्य पार्श्वपट्टिकायाः कानि फलकानि केन क्रमेण च पश्यन्ति। उपयोक्तारः किं कर्तुं शक्नुवन्ति इति तेषां भूमिकानां नीतिभिः एव निर्णीयते: गुप्तं फलकं केवलं न दर्श्यते।</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>पार्श्वपट्टिका सक्रिया</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>पार्श्वपट्टिका निष्क्रिया</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>भूमिका</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>दर्शय</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>%siteaccess कृते एतानि विन्यासानि अन्या विन्याससञ्चिका निर्धारयति: अत्र रक्षितं तया विना एव प्रभावि भवति।</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>अरक्षिताः परिवर्तनाः: तान् रक्ष अथवा पृष्ठं त्यज।</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>फलकम्</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>दर्शितम्</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>क्रमः</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>सर्वदा दर्शितम्</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>रक्ष</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>अस्याः भूमिकायाः फलकानि अपाकुरु</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>स्वफलकयुक्ताः भूमिकाः</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>एतासु बह्वीः भूमिकाः धारयन् उपयोक्ता प्रथमायाः क्रमं प्राप्नोति; उपयोक्तुः एका अपि भूमिका यदि फलकं दर्शयति तर्हि तत् दर्शितम् एव तिष्ठति।</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>अत्र कस्याः अपि भूमिकायाः स्वफलकानि न सन्ति: प्रत्येकः उपयोक्ता पार्श्वपट्टिकायाः स्वक्रमेण फलकानि पश्यति।</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>इतिहासः</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>%file इत्यस्य पूर्वसंस्करणानि, प्रत्येकपरिवर्तनात् पूर्वं रक्षितानि।</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>पर्यन्तं प्रवृत्तम्</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>अद्यापि पूर्वसंस्करणानि न सन्ति।</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>न रक्षितम्: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>किमपि न परिवर्तितम्।</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>%file मध्ये रक्षितम्।</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>%time संस्करणस्य फलकानि पुनःस्थापितानि।</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>जालस्थानस्य पार्श्वपट्टिकायाः फलकानि</translation>
+    </message>
 </context>
 </TS>

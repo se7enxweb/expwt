@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Allar rammur verða vístar.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Panelir í síðubjálkanum á heimasíðuni</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Hvørjar panelir í síðubjálkanum á heimasíðuni brúkararnir í einum leikluti síggja, og í hvørji raðfylgju, fyri hvørja heimasíðuatgongd. Hvat brúkarar mega gera, verður verandi í reglunum fyri leiklutir teirra: ein fjald panel verður bara ikki víst.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Heimasíðuatgongd</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Síðubjálki tendraður</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Síðubjálki sløktur</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Leiklutur</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Vís</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Ein onnur stillingarfíla avgerð hesar stillingar fyri %siteaccess: tað, ið verður goymt her, virkar bert uttan hana.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Ikki goymdar broytingar: goym tær ella far av síðuni.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Panel</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Víst</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Raðfylgja</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Altíð víst</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Goym</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Tak panelirnar hjá hesum leiklutinum burtur</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Leiklutir við egnum panelum</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Ein brúkari við fleiri av hesum leiklutunum fær raðfylgjuna hjá tí fyrsta; ein panel verður verandi víst, tá ein av leiklutunum hjá brúkaranum vísir hana.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Eingin leiklutur hevur egnar panelir her: allir brúkarar síggja panelirnar í raðfylgjuni hjá síðubjálkanum sjálvum.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Søga</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Eldri útgávur av %file, goymdar áðrenn hvørja broyting.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Galdandi til</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Enn ongar eldri útgávur.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Ikki goymt: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Einki broyttist.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Goymt í %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Panelirnar frá útgávuni frá %time eru endurstovnaðar.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Panelir í síðubjálkanum á heimasíðuni</translation>
+    </message>
 </context>
 </TS>

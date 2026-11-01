@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>ᱡᱚᱛᱚ ᱯᱷᱨᱮᱢ ᱠᱚ ᱩᱫᱩᱜ ᱠᱟᱱᱟ᱾</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>ᱣᱮᱵᱥᱟᱭᱤᱴ ᱫᱷᱟᱨᱮ ᱵᱟᱨ ᱨᱮᱱᱟᱜ ᱯᱮᱱᱮᱞ ᱠᱚ</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>ᱡᱚᱛᱚ siteaccess ᱞᱟᱹᱜᱤᱫ, ᱢᱤᱫ ᱦᱚᱨᱟ ᱨᱮᱱ ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱠᱚ ᱣᱮᱵᱥᱟᱭᱤᱴ ᱫᱷᱟᱨᱮ ᱵᱟᱨ ᱨᱮᱱᱟᱜ ᱚᱠᱟ ᱯᱮᱱᱮᱞ ᱠᱚ ᱟᱨ ᱚᱠᱟ ᱛᱷᱟᱨ ᱛᱮ ᱧᱮᱞᱚᱜ ᱠᱚᱣᱟ᱾ ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱠᱚ ᱪᱮᱫ ᱠᱚ ᱦᱩᱭ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ ᱚᱱᱟ ᱫᱚ ᱚᱱᱟ ᱠᱚᱣᱟᱜ ᱦᱚᱨᱟ ᱠᱚᱣᱟᱜ ᱱᱤᱛᱤ ᱛᱮ ᱜᱮ ᱛᱟᱦᱮᱸᱱᱟ: ᱪᱟᱯᱟᱜ ᱯᱮᱱᱮᱞ ᱫᱚ ᱵᱟᱝ ᱩᱫᱩᱜᱚᱜ ᱜᱮᱭᱟ᱾</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>ᱫᱷᱟᱨᱮ ᱵᱟᱨ ᱪᱟᱹᱞᱩ</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>ᱫᱷᱟᱨᱮ ᱵᱟᱨ ᱵᱚᱸᱫᱽ</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>ᱦᱚᱨᱟ</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ᱩᱫᱩᱜ ᱢᱮ</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>ᱮᱴᱟᱜ ᱥᱮᱴᱤᱝ ᱨᱮᱫ %siteaccess ᱞᱟᱹᱜᱤᱫ ᱱᱚᱶᱟ ᱥᱮᱴᱤᱝ ᱠᱚ ᱛᱷᱤᱠ ᱮᱫᱟᱭ: ᱱᱚᱸᱰᱮ ᱨᱟᱠᱷᱟᱣ ᱟᱠᱟᱱ ᱫᱚ ᱚᱱᱟ ᱵᱟᱹᱱᱩᱜ ᱠᱷᱟᱱ ᱜᱮ ᱞᱟᱹᱜᱩ ᱦᱩᱭᱩᱜᱼᱟ᱾</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>ᱵᱟᱝ ᱨᱟᱠᱷᱟᱣ ᱟᱠᱟᱱ ᱵᱚᱫᱚᱞ ᱠᱚ: ᱟᱠᱚ ᱨᱟᱠᱷᱟᱣ ᱢᱮ ᱟᱨᱵᱟᱝ ᱥᱟᱦᱴᱟ ᱵᱟᱹᱜᱤᱭᱟᱭ ᱢᱮ᱾</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>ᱯᱮᱱᱮᱞ</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>ᱩᱫᱩᱜ ᱟᱠᱟᱱ</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>ᱛᱷᱟᱨ</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>ᱥᱟᱱᱟᱢ ᱚᱠᱛᱚ ᱩᱫᱩᱜ</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>ᱨᱟᱠᱷᱟᱣ ᱢᱮ</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>ᱱᱚᱶᱟ ᱦᱚᱨᱟ ᱨᱮᱱᱟᱜ ᱯᱮᱱᱮᱞ ᱠᱚ ᱚᱪᱚᱜ ᱢᱮ</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>ᱟᱡᱟᱜ ᱯᱮᱱᱮᱞ ᱢᱮᱱᱟᱜ ᱦᱚᱨᱟ ᱠᱚ</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>ᱱᱚᱶᱟ ᱦᱚᱨᱟ ᱠᱚ ᱛᱷᱮᱱ ᱟᱭᱢᱟ ᱢᱮᱱᱟᱜ ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱫᱚ ᱯᱩᱭᱞᱩ ᱨᱮᱱᱟᱜ ᱛᱷᱟᱨ ᱧᱟᱢᱟᱭ; ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱨᱮᱱᱟᱜ ᱢᱤᱫ ᱦᱚᱨᱟ ᱩᱫᱩᱜ ᱠᱷᱟᱱ ᱯᱮᱱᱮᱞ ᱩᱫᱩᱜᱚᱜ ᱜᱮ ᱛᱟᱦᱮᱸᱱᱟ᱾</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>ᱱᱚᱸᱰᱮ ᱫᱚ ᱡᱟᱦᱟᱸᱱ ᱦᱚᱨᱟ ᱨᱮᱭᱟᱜ ᱟᱡᱟᱜ ᱯᱮᱱᱮᱞ ᱵᱟᱹᱱᱩᱜᱼᱟ: ᱡᱚᱛᱚ ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱫᱷᱟᱨᱮ ᱵᱟᱨ ᱨᱮᱱᱟᱜ ᱟᱡᱟᱜ ᱛᱷᱟᱨ ᱛᱮ ᱯᱮᱱᱮᱞ ᱠᱚ ᱧᱮᱞᱟ᱾</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>ᱱᱟᱜᱟᱢ</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>%file ᱨᱮᱱᱟᱜ ᱢᱟᱲᱟᱝ ᱵᱷᱟᱨᱥᱚᱱ ᱠᱚ, ᱡᱚᱛᱚ ᱵᱚᱫᱚᱞ ᱞᱟᱦᱟ ᱨᱟᱠᱷᱟᱣ ᱟᱠᱟᱱ᱾</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>ᱦᱟᱹᱵᱤᱡ ᱞᱟᱹᱜᱩ</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>ᱱᱤᱛ ᱦᱟᱹᱵᱤᱡ ᱢᱟᱲᱟᱝ ᱵᱷᱟᱨᱥᱚᱱ ᱵᱟᱹᱱᱩᱜᱼᱟ᱾</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>ᱵᱟᱝ ᱨᱟᱠᱷᱟᱣ ᱮᱱᱟ: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>ᱪᱮᱫ ᱦᱚᱸ ᱵᱟᱝ ᱵᱚᱫᱚᱞ ᱮᱱᱟ᱾</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>%file ᱨᱮ ᱨᱟᱠᱷᱟᱣ ᱮᱱᱟ᱾</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>%time ᱨᱮᱱᱟᱜ ᱵᱷᱟᱨᱥᱚᱱ ᱨᱮᱱᱟᱜ ᱯᱮᱱᱮᱞ ᱠᱚ ᱨᱩᱣᱟᱹᱲ ᱮᱱᱟ᱾</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>ᱣᱮᱵᱥᱟᱭᱤᱴ ᱫᱷᱟᱨᱮ ᱵᱟᱨ ᱨᱮᱱᱟᱜ ᱯᱮᱱᱮᱞ ᱠᱚ</translation>
+    </message>
 </context>
 </TS>

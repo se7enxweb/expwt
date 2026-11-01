@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>L-oqfsa kollha qed jintwerew.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Pannelli tal-faxxa tal-ġenb tas-sit</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Liema pannelli tal-faxxa tal-ġenb tas-sit jaraw l-utenti ta' rwol, u f'liema ordni, għal kull siteaccess. X'jistgħu jagħmlu l-utenti jibqa' f'idejn il-politiki tar-rwoli tagħhom: pannell moħbi sempliċement ma jintweriex.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Faxxa tal-ġenb mixgħula</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Faxxa tal-ġenb mitfija</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rwol</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Uri</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Fajl ieħor tas-settings jiddeċiedi dawn is-settings għal %siteaccess: dak li jiġi salvat hawn jidħol fis-seħħ biss mingħajru.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Bidliet mhux salvati: salvahom jew ħalli l-paġna.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Pannell</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Jidher</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Ordni</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Dejjem jidher</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Salva</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Neħħi l-pannelli ta' dan ir-rwol</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Rwoli b'pannelli tagħhom</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Utent b'diversi minn dawn ir-rwoli jieħu l-ordni tal-ewwel wieħed; pannell jibqa' jidher meta wieħed mir-rwoli tal-utent jurih.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Hawn l-ebda rwol m'għandu pannelli tiegħu: kull utent jara l-pannelli fl-ordni tal-faxxa tal-ġenb innifisha.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Storja</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Verżjonijiet preċedenti ta' %file, miżmuma qabel kull bidla.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Fis-seħħ sa</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Għad m'hemmx verżjonijiet preċedenti.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Mhux salvat: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Ma nbidel xejn.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Salvat f'%file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Il-pannelli tal-verżjoni ta' %time ġew irrestawrati.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Pannelli tal-faxxa tal-ġenb tas-sit</translation>
+    </message>
 </context>
 </TS>

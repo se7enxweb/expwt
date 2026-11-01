@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>سارے فریم وکھائے جا رہے نیں۔</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>ویب سائٹ سائیڈ بار دے پینل</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>ہر siteaccess لئی، کسے رول دے ورتن والے ویب سائٹ سائیڈ بار دے کہڑے پینل تے کس ترتیب نال ویکھدے نیں۔ ورتن والے کی کر سکدے نیں، ایہہ اوہناں دے رولاں دیاں پالیسیاں تے ای رہندا اے: لُکیا ہویا پینل بس وکھایا نئیں جاندا۔</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>سائیڈ بار چالو</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>سائیڈ بار بند</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>رول</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>وکھاؤ</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>%siteaccess لئی ایہہ سیٹنگاں اک ہور سیٹنگ فائل طے کردی اے: ایتھے سانبھیا گیا صرف اوہدے بنا لاگو ہوندا اے۔</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>نہ سانبھیاں تبدیلیاں: اوہناں نوں سانبھو یا صفحہ چھڈو۔</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>پینل</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>وکھایا جا رہیا</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>ترتیب</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>ہمیشہ وکھایا جاندا</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>سانبھو</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>ایس رول دے پینل ہٹاؤ</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>اپنے پینلاں والے رول</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>ایہناں وچوں کئی رولاں والے ورتن والے نوں پہلے دی ترتیب ملدی اے؛ جے ورتن والے دا کوئی اک رول پینل وکھائے تے اوہ وکھایا جاندا رہندا اے۔</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>ایتھے کسے رول دے اپنے پینل نئیں: ہر ورتن والا سائیڈ بار دی اپنی ترتیب نال پینل ویکھدا اے۔</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>تاریخ</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>%file دے پچھلے ورژن، ہر تبدیلی توں پہلاں رکھے گئے۔</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>تک لاگو</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>ہلے کوئی پچھلا ورژن نئیں۔</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>نئیں سانبھیا گیا: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>کجھ نئیں بدلیا۔</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>%file وچ سانبھیا گیا۔</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>%time دے ورژن دے پینل بحال کیتے گئے۔</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>ویب سائٹ سائیڈ بار دے پینل</translation>
+    </message>
 </context>
 </TS>

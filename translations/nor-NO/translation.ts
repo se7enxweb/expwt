@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Alle rammer vises.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Paneler i sidepanelet for nettstedet</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Hvilke paneler i sidepanelet for nettstedet brukerne av en rolle ser, og i hvilken rekkefølge, per siteaccess. Hva brukerne har lov til, styres fortsatt av rollenes regler: et skjult panel blir bare ikke vist.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Sidepanel på</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Sidepanel av</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rolle</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Vis</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>En annen innstillingsfil bestemmer disse innstillingene for %siteaccess: det som lagres her, gjelder bare uten den.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Ulagrede endringer: lagre dem eller forlat siden.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Panel</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Vises</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Rekkefølge</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Vises alltid</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Lagre</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Fjern panelene for denne rollen</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Roller med egne paneler</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>En bruker med flere av disse rollene får rekkefølgen til den første; et panel vises så lenge én av brukerens roller viser det.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Ingen roller har egne paneler her: alle brukere ser panelene i sidepanelets egen rekkefølge.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historikk</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Tidligere versjoner av %file, tatt vare på før hver endring.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Gjaldt til</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Ingen tidligere versjoner ennå.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Ikke lagret: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Ingenting ble endret.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Lagret i %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Panelene fra versjonen fra %time er gjenopprettet.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Paneler i sidepanelet for nettstedet</translation>
+    </message>
 </context>
 </TS>

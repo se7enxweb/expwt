@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Zobrazeny jsou všechny rámce.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Panely postranního panelu webu</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Které panely postranního panelu webu vidí uživatelé dané role a v jakém pořadí, pro každý přístup k webu. Co uživatelé smějí dělat, zůstává v pravidlech jejich rolí: skrytý panel se pouze nezobrazuje.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Přístup k webu</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Postranní panel zapnut</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Postranní panel vypnut</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Role</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Zobrazit</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Tato nastavení pro %siteaccess určuje jiný soubor nastavení: co se uloží zde, platí jen bez něj.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Neuložené změny: uložte je, nebo stránku opusťte.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Panel</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Zobrazen</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Pořadí</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Vždy zobrazen</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Uložit</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Odebrat panely této role</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Role s vlastními panely</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Uživatel s několika z těchto rolí dostane pořadí první z nich; panel zůstane zobrazen, pokud ho zobrazuje některá z rolí uživatele.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Žádná role zde nemá vlastní panely: každý uživatel vidí panely ve vlastním pořadí postranního panelu.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historie</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Dřívější verze souboru %file, uložené před každou změnou.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Platné do</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Zatím žádné dřívější verze.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Neuloženo: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Nic se nezměnilo.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Uloženo do %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Obnoveny panely verze z %time.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Panely postranního panelu webu</translation>
+    </message>
 </context>
 </TS>

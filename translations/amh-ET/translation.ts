@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>ሁሉም ፍሬሞች ይታያሉ።</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>የድር ጣቢያ የጎን አሞሌ ፓነሎች</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>የአንድ ሚና ተጠቃሚዎች የትኞቹን የድር ጣቢያ የጎን አሞሌ ፓነሎች እንደሚያዩ እና በምን ቅደም ተከተል፣ በየጣቢያ መዳረሻው። ተጠቃሚዎች ምን ማድረግ እንደሚችሉ በሚናዎቻቸው ፖሊሲዎች ይወሰናል፤ የተደበቀ ፓነል የሚታይ አለመሆኑ ብቻ ነው።</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>የጣቢያ መዳረሻ</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>የጎን አሞሌ በርቷል</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>የጎን አሞሌ ጠፍቷል</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>ሚና</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>አሳይ</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>ሌላ የቅንብሮች ፋይል እነዚህን ቅንብሮች ለ%siteaccess ይወስናል፤ እዚህ የሚቀመጠው ያለ እሱ ብቻ ይሠራል።</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>ያልተቀመጡ ለውጦች፤ አስቀምጧቸው ወይም ገጹን ይልቀቁ።</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>ፓነል</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>ይታያል</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>ቅደም ተከተል</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>ሁልጊዜ ይታያል</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>አስቀምጥ</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>የዚህን ሚና ፓነሎች አስወግድ</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>የራሳቸው ፓነሎች ያሏቸው ሚናዎች</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>ከእነዚህ ሚናዎች ብዙዎቹ ያሉት ተጠቃሚ የመጀመሪያውን ቅደም ተከተል ያገኛል፤ ከተጠቃሚው ሚናዎች አንዱ ካሳየው ፓነሉ እንደታየ ይቆያል።</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>እዚህ ምንም ሚና የራሱ ፓነሎች የሉትም፤ እያንዳንዱ ተጠቃሚ ፓነሎቹን በጎን አሞሌው የራሱ ቅደም ተከተል ያያል።</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>ታሪክ</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>ከእያንዳንዱ ለውጥ በፊት የተቀመጡ የ%file የቀድሞ ስሪቶች።</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>እስከ ድረስ በሥራ ላይ</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>እስካሁን ምንም የቀድሞ ስሪት የለም።</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>አልተቀመጠም፦ %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>ምንም አልተለወጠም።</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>ወደ %file ተቀምጧል።</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>የ%time ስሪት ፓነሎች ተመልሰዋል።</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>የድር ጣቢያ የጎን አሞሌ ፓነሎች</translation>
+    </message>
 </context>
 </TS>

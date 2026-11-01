@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>అన్ని ఫ్రేమ్‌లు చూపబడుతున్నాయి.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>వెబ్‌సైట్ సైడ్‌బార్ ప్యానెల్‌లు</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>ప్రతి siteaccess కోసం, ఒక పాత్రలోని వినియోగదారులు వెబ్‌సైట్ సైడ్‌బార్‌లోని ఏ ప్యానెల్‌లను ఏ క్రమంలో చూస్తారో. వినియోగదారులు ఏమి చేయవచ్చో వారి పాత్రల విధానాలే నిర్ణయిస్తాయి: దాచిన ప్యానెల్ కేవలం చూపబడదు.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>సైడ్‌బార్ ఆన్</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>సైడ్‌బార్ ఆఫ్</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>పాత్ర</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>చూపించు</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>%siteaccess కోసం ఈ సెట్టింగ్‌లను మరొక సెట్టింగ్‌ల ఫైల్ నిర్ణయిస్తుంది: ఇక్కడ సేవ్ చేసినది అది లేనప్పుడు మాత్రమే అమలులోకి వస్తుంది.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>సేవ్ చేయని మార్పులు: వాటిని సేవ్ చేయండి లేదా పేజీని వదిలివెళ్లండి.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>ప్యానెల్</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>చూపబడుతోంది</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>క్రమం</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>ఎల్లప్పుడూ చూపబడుతుంది</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>సేవ్ చేయి</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>ఈ పాత్ర ప్యానెల్‌లను తీసివేయి</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>సొంత ప్యానెల్‌లు ఉన్న పాత్రలు</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>వీటిలో అనేక పాత్రలు ఉన్న వినియోగదారుకు మొదటి దాని క్రమం లభిస్తుంది; వినియోగదారు పాత్రలలో ఏదైనా ఒకటి ప్యానెల్‌ను చూపిస్తే అది చూపబడుతూనే ఉంటుంది.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>ఇక్కడ ఏ పాత్రకూ సొంత ప్యానెల్‌లు లేవు: ప్రతి వినియోగదారు సైడ్‌బార్ సొంత క్రమంలో ప్యానెల్‌లను చూస్తారు.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>చరిత్ర</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>ప్రతి మార్పుకు ముందు ఉంచిన %file యొక్క మునుపటి వెర్షన్‌లు.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>వరకు అమలులో</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>ఇంకా మునుపటి వెర్షన్‌లు లేవు.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>సేవ్ కాలేదు: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>ఏమీ మారలేదు.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>%file లో సేవ్ చేయబడింది.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>%time వెర్షన్ ప్యానెల్‌లు పునరుద్ధరించబడ్డాయి.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>వెబ్‌సైట్ సైడ్‌బార్ ప్యానెల్‌లు</translation>
+    </message>
 </context>
 </TS>

@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Tut ils maletgs vegnan mussads.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Panels da la trav laterala da la website</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Tge panels da la trav laterala da la website ch'ils utilisaders d'ina rolla vesan, ed en tge urden, per mintga siteaccess. Tge ch'ils utilisaders dastgan far, decidan vinavant las directivas da lur rollas: in panel zuppà na vegn simplamain betg mussà.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Trav laterala activada</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Trav laterala deactivada</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rolla</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Mussar</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>In auter document da configuraziun decida questas configuraziuns per %siteaccess: quai che vegn memorisà qua ha effect mo senza el.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Midadas betg memorisadas: memorisai ellas u bandunai la pagina.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Panel</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Visibel</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Urden</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Adina visibel</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Memorisar</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Allontanar ils panels da questa rolla</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Rollas cun agens panels</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>In utilisader cun pliras da questas rollas survegn l'urden da l'emprima; in panel resta visibel, sch'ina da las rollas da l'utilisader al mussa.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Qua n'ha nagina rolla agens panels: mintga utilisader vesa ils panels en l'agen urden da la trav laterala.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Istorgia</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Versiuns pli veglias da %file, tegnidas avant mintga midada.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>En vigur fin</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Anc naginas versiuns pli veglias.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Betg memorisà: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Nagut midà.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Memorisà en %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Restaurà ils panels da la versiun da %time.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Panels da la trav laterala da la website</translation>
+    </message>
 </context>
 </TS>

@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Ffuleemu zonna zirabika.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Ebipande by'ekiwayi ky'ebbali eky'omukutu</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Ebipande ki eby'ekiwayi ky'ebbali eky'omukutu abakozesa b'omulimu ogumu bye balaba, era mu mutendera ki, ku buli siteaccess. Abakozesa bye bayinza okukola bisigala nga bisalibwawo amateeka g'emirimu gyabwe: ekipande ekikwekeddwa tekiragibwa kyokka.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Ekiwayi ky'ebbali kiggule</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Ekiwayi ky'ebbali kiggale</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Omulimu</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Laga</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Fayiro endala ey'ensengeka y'esalawo ensengeka zino eza %siteaccess: ebiterekeddwa wano bikola kyokka nga teriiwo.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Enkyukakyuka ezitaterekeddwa: zitereke oba ve ku lupapula.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Ekipande</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Kirabika</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Omutendera</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Kirabika bulijjo</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Tereka</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Ggyawo ebipande by'omulimu guno</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Emirimu egirina ebipande byagyo</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Omukozesa alina emirimu egiwerako ku gino afuna omutendera gw'ogusooka; ekipande kisigala nga kirabika singa omulimu gumu ku gy'omukozesa gukiraga.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Wano tewali mulimu gulina bipande byagwo: buli mukozesa alaba ebipande mu mutendera gw'ekiwayi ky'ebbali kyennyini.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Ebyafaayo</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Verisoni ez'edda eza %file, ezaterekebwa nga buli nkyukakyuka tennabaawo.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Yakola okutuusa</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Tewannabaawo verisoni ez'edda.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Tekiterekeddwa: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Tewali kikyuse.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Kiterekeddwa mu %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Ebipande bya verisoni ya %time bizziddwawo.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Ebipande by'ekiwayi ky'ebbali eky'omukutu</translation>
+    </message>
 </context>
 </TS>

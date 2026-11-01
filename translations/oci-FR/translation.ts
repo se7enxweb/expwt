@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Totes los quadres son afichats.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Panèls de la barra laterala del site</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Quins panèls de la barra laterala del site vesen los utilizaires d'un ròtle, e dins quin òrdre, per cada siteaccess. Çò que los utilizaires pòdon far demòra decidit per las politicas de lors ròtles: un panèl amagat es simplament pas mostrat.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Barra laterala activada</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Barra laterala desactivada</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Ròtle</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Mostrar</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Un autre fichièr de paramètres decidís aquestes paramètres per %siteaccess: çò qu'es enregistrat aquí a d'efièch sonque sens el.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Modificacions pas enregistradas: enregistratz-las o quitatz la pagina.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Panèl</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Visible</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Òrdre</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Totjorn visible</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Enregistrar</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Levar los panèls d'aqueste ròtle</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Ròtles amb lors pròpris panèls</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Un utilizaire amb mai d'un d'aquestes ròtles recep l'òrdre del primièr; un panèl demòra visible quand un dels ròtles de l'utilizaire lo mostra.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Aquí cap de ròtle a pas sos pròpris panèls: cada utilizaire vei los panèls dins l'òrdre pròpri de la barra laterala.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Istoric</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Versions precedentas de %file, gardadas abans cada modificacion.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>En vigor fins a</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Pas encara de version precedenta.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Pas enregistrat: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Res a pas cambiat.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Enregistrat dins %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Panèls de la version del %time restablits.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Panèls de la barra laterala del site</translation>
+    </message>
 </context>
 </TS>

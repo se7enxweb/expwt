@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Alle rammer vises.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Paneler i webstedets sidepanel</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Hvilke paneler i webstedets sidepanel brugerne af en rolle ser, og i hvilken rækkefølge, pr. siteadgang. Hvad brugerne må gøre, ligger fortsat i deres rollers politikker: et skjult panel bliver blot ikke vist.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteadgang</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Sidepanel til</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Sidepanel fra</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rolle</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Vis</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>En anden indstillingsfil bestemmer disse indstillinger for %siteaccess: det, der gemmes her, gælder kun uden den.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Ikke-gemte ændringer: gem dem, eller forlad siden.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Panel</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Vist</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Rækkefølge</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Altid vist</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Gem</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Fjern denne rolles paneler</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Roller med egne paneler</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>En bruger med flere af disse roller får rækkefølgen fra den første; et panel forbliver vist, når en af brugerens roller viser det.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Ingen rolle har egne paneler her: alle brugere ser panelerne i sidepanelets egen rækkefølge.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historik</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Tidligere versioner af %file, gemt før hver ændring.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Gældende indtil</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Ingen tidligere versioner endnu.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Ikke gemt: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Intet blev ændret.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Gemt i %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Panelerne fra versionen fra %time er gendannet.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Paneler i webstedets sidepanel</translation>
+    </message>
 </context>
 </TS>

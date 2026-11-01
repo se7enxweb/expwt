@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>সকলো ফ্ৰেম দেখুওৱা হৈছে।</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>ৱেবছাইট চাইডবাৰৰ পেনেলসমূহ</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>এটা ভূমিকাৰ ব্যৱহাৰকাৰীসকলে ৱেবছাইট চাইডবাৰৰ কোনবোৰ পেনেল দেখে আৰু কি ক্ৰমত, প্ৰতিটো ছাইটএক্সেছৰ বাবে। ব্যৱহাৰকাৰীসকলে কি কৰিব পাৰে সেয়া তেওঁলোকৰ ভূমিকাৰ নীতিত থাকে: লুকুওৱা পেনেল কেৱল দেখুওৱা নহয়।</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>ছাইটএক্সেছ</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>চাইডবাৰ অন</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>চাইডবাৰ অফ</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>ভূমিকা</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>দেখুৱাওক</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>আন এটা ছেটিংছ ফাইলে %siteaccessৰ বাবে এই ছেটিংছবোৰ নিৰ্ধাৰণ কৰে: ইয়াত সংৰক্ষণ কৰা কথা কেৱল সেইটো নাথাকিলেহে কাৰ্যকৰী হয়।</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>সংৰক্ষণ নকৰা সালসলনি: সেইবোৰ সংৰক্ষণ কৰক বা পৃষ্ঠাটো এৰক।</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>পেনেল</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>দেখুওৱা হৈছে</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>ক্ৰম</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>সদায় দেখুওৱা হয়</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>সংৰক্ষণ কৰক</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>এই ভূমিকাৰ পেনেলসমূহ আঁতৰাওক</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>নিজৰ পেনেল থকা ভূমিকাসমূহ</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>এই ভূমিকাসমূহৰ কেইবাটা থকা ব্যৱহাৰকাৰীয়ে প্ৰথমটোৰ ক্ৰম পায়; ব্যৱহাৰকাৰীৰ এটা ভূমিকাই দেখুৱালে পেনেলটো দেখুওৱা থাকে।</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>ইয়াত কোনো ভূমিকাৰ নিজৰ পেনেল নাই: প্ৰতিজন ব্যৱহাৰকাৰীয়ে চাইডবাৰৰ নিজৰ ক্ৰমত পেনেলসমূহ দেখে।</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>ইতিহাস</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>%fileৰ পূৰ্বৰ সংস্কৰণসমূহ, প্ৰতিটো সালসলনিৰ আগতে ৰখা।</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>এই সময়লৈকে প্ৰযোজ্য</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>এতিয়াও কোনো পূৰ্বৰ সংস্কৰণ নাই।</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>সংৰক্ষণ কৰা নহ'ল: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>একো সলনি হোৱা নাই।</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>%fileত সংৰক্ষণ কৰা হ'ল।</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>%timeৰ সংস্কৰণৰ পেনেলসমূহ পুনৰুদ্ধাৰ কৰা হ'ল।</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>ৱেবছাইট চাইডবাৰৰ পেনেলসমূহ</translation>
+    </message>
 </context>
 </TS>

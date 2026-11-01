@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Ibidodo vyose biragaragara.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Ibibaho vy'akabari ko ku ruhande k'urubuga</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Ibibaho vy'akabari ko ku ruhande k'urubuga abakoresha b'uruhara runaka babona, n'uko bikurikirana, kuri siteaccess yose. Ivyo abakoresha bashobora gukora biguma bigenwa n'amategeko y'uruhara rwabo: ikibaho canyegejwe ntikigaragazwa gusa.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Akabari ko ku ruhande kugurutse</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Akabari ko ku ruhande kugaye</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Uruhara</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Erekana</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Iyindi dosiye y'ingene ibintu bitunganijwe ni yo ifata ingingo kuri ivyo bitunganywa vya %siteaccess: ivyabitswe ng'aha bikora gusa iyo itariho.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Amahinduka atabitswe: uyabike canke uve kuri uru rupapuro.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Ikibaho</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Kiragaragara</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Uko bikurikirana</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Kiragaragara ibihe vyose</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Bika</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Kuraho ibibaho vy'uru ruhara</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Uruhara rufise ibibaho vyarwo</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Umukoresha afise uruhara rwinshi muri izi ahabwa uko urwa mbere rukurikiranya; ikibaho kiguma kigaragara iyo rumwe mu ruhara rw'umukoresha rucerekana.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Nta ruhara rufise ibibaho vyarwo ng'aha: umukoresha wese abona ibibaho uko akabari ko ku ruhande ubwako kabikurikiranya.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Kahise</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Verisiyo za kera za %file, zabitswe imbere ya buri hinduka.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Yakoze gushika</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Nta verisiyo za kera ziraboneka.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Ntivyabitswe: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Nta kintu cahindutse.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Vyabitswe muri %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Ibibaho vya verisiyo yo ku wa %time vyagarutse.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Ibibaho vy'akabari ko ku ruhande k'urubuga</translation>
+    </message>
 </context>
 </TS>

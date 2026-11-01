@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Ähli çarçuwalar görkezilýär.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Saýtyň gapdal panelindäki paneller</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Her siteaccess üçin bir rolüň ulanyjylary saýtyň gapdal panelindäki haýsy panelleri we haýsy tertipde görýär. Ulanyjylaryň näme edip biljekdigini öňküsi ýaly rollarynyň syýasatlary kesgitleýär: gizlenen panel diňe görkezilmeýär.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Gapdal panel açyk</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Gapdal panel ýapyk</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rol</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Görkez</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>%siteaccess üçin bu sazlamalary başga bir sazlamalar faýly kesgitleýär: şu ýerde saklanan diňe onsuz güýje girýär.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Saklanmadyk üýtgeşmeler: olary saklaň ýa-da sahypadan çykyň.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Panel</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Görünýär</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Tertip</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Elmydama görünýär</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Sakla</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Bu rolüň panellerini aýyr</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Öz panelleri bolan rollar</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Bu rollaryň birnäçesi bolan ulanyjy birinjisiniň tertibini alýar; ulanyjynyň rollarynyň biri görkezýän bolsa, panel görünmegini dowam edýär.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Bu ýerde hiç bir rolüň öz panelleri ýok: her ulanyjy panelleri gapdal paneliň öz tertibinde görýär.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Taryh</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>%file faýlynyň her üýtgeşmeden öň saklanan öňki wersiýalary.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Güýçde bolan soňky güni</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Entek öňki wersiýa ýok.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Saklanmady: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Hiç zat üýtgemedi.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>%file faýlyna saklandy.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>%time wersiýasynyň panelleri dikeldildi.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Saýtyň gapdal panelindäki paneller</translation>
+    </message>
 </context>
 </TS>

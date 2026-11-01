@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Kaadiriiji fof ina feeñi.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Panooji palal sera lowre</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Panooji palal sera lowre ɗi huutorɓe darnde woɗnde njiyata, e e toɗɗaaɗe ndeye, e kala naatirde lowre. Ko huutorɓe mbaawi waɗde heddii e dawrugol darnde maɓɓe: panoo suuɗaaɗo hollaaka tan.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Naatirde lowre</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Palal sera hurminaa</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Palal sera ñifaa</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Darnde</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Hollu</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Fiilde teelte goɗɗe ñiŋata ɗee teelte ngam %siteaccess: ko danndaa ɗoo golloto tan so alaa ndee.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Bayle ɗe danndaaka: danndu ɗe walla yaltu e hello ngo.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Panoo</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Hollaama</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Toɗɗaaɗe</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Hollaama sahaa kala</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Danndu</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Itto panooji ndee darnde</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Darnde jogiiɗe panooji mum'en</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Huutoro jogiiɗo ɗuuɗe e ɗee darnde heɓat toɗɗaaɗe arandeere; panoo heddotoo hollaaɗo so darnde huutoro gooto hollii mo.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Alaa darnde jogiinde panooji mum ɗoo: kala huutoro yiyat panooji ɗi e toɗɗaaɗe palal sera ngal e hoore mum.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Taariika</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Yamre arane %file, danndaama ado kala bayle.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Golliima haa</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Alaa yamre arane tawo.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Danndaaka: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Alaa ko waylii.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Danndaama e %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Panooji yamre %time ngarti.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Panooji palal sera lowre</translation>
+    </message>
 </context>
 </TS>

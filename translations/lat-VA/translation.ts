@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Omnes tabulae ostenduntur.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Tabulae tabulae lateralis situs</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Quas tabulas tabulae lateralis situs usores muneris videant, et quo ordine, pro singulis siteaccess. Quid usoribus liceat, regulis munerum suorum manet: tabula occulta tantum non ostenditur.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Tabula lateralis accensa</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Tabula lateralis exstincta</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Munus</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Ostende</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Alius fasciculus optionum has optiones pro %siteaccess statuit: quae hic servantur sine eo tantum valent.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Mutationes non servatae: serva eas aut paginam relinque.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Tabula</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Ostensa</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Ordo</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Semper ostensa</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Serva</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Tabulas huius muneris remove</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Munera tabulis propriis</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Usor pluribus horum munerum ordinem primi accipit; tabula ostensa manet, si unum e muneribus usoris eam ostendit.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Nullum munus hic tabulas proprias habet: omnes usores tabulas ordine proprio tabulae lateralis vident.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historia</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Versiones priores %file, ante omnem mutationem servatae.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Valuit usque ad</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Nullae adhuc versiones priores.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Non servatum: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Nihil mutatum.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>In %file servatum.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Tabulae versionis %time restitutae.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Tabulae tabulae lateralis situs</translation>
+    </message>
 </context>
 </TS>

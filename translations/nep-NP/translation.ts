@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>सबै फ्रेमहरू देखाइएका छन्।</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>वेबसाइट साइडबारका प्यानलहरू</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>प्रत्येक siteaccess का लागि, कुनै भूमिकाका प्रयोगकर्ताले वेबसाइट साइडबारका कुन प्यानलहरू र कुन क्रममा देख्छन्। प्रयोगकर्ताले के गर्न सक्छन् भन्ने कुरा उनीहरूका भूमिकाका नीतिहरूमै रहन्छ: लुकाइएको प्यानल केवल देखाइँदैन।</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>साइडबार खुला</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>साइडबार बन्द</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>भूमिका</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>देखाउनुहोस्</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>%siteaccess का लागि यी सेटिङहरू अर्को सेटिङ फाइलले निर्धारण गर्छ: यहाँ सुरक्षित गरिएको कुरा त्यसबिना मात्र लागू हुन्छ।</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>सुरक्षित नगरिएका परिवर्तनहरू: तिनलाई सुरक्षित गर्नुहोस् वा पृष्ठ छोड्नुहोस्।</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>प्यानल</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>देखाइएको</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>क्रम</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>सधैँ देखाइन्छ</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>सुरक्षित गर्नुहोस्</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>यो भूमिकाका प्यानलहरू हटाउनुहोस्</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>आफ्नै प्यानल भएका भूमिकाहरू</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>यीमध्ये धेरै भूमिका भएका प्रयोगकर्ताले पहिलोको क्रम पाउँछन्; प्रयोगकर्ताको कुनै एक भूमिकाले देखाएमा प्यानल देखिइरहन्छ।</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>यहाँ कुनै पनि भूमिकाका आफ्नै प्यानल छैनन्: हरेक प्रयोगकर्ताले साइडबारकै क्रममा प्यानलहरू देख्छन्।</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>इतिहास</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>हरेक परिवर्तनअघि राखिएका %file का अघिल्ला संस्करणहरू।</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>सम्म लागू</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>अहिलेसम्म कुनै अघिल्लो संस्करण छैन।</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>सुरक्षित भएन: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>केही परिवर्तन भएन।</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>%file मा सुरक्षित गरियो।</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>%time को संस्करणका प्यानलहरू पुनर्स्थापित गरियो।</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>वेबसाइट साइडबारका प्यानलहरू</translation>
+    </message>
 </context>
 </TS>

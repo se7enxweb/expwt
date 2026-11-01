@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>すべてのフレームを表示しています。</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>ウェブサイトのサイドバーのパネル</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>サイトアクセスごとに、ロールのユーザーにウェブサイトのサイドバーのどのパネルをどの順序で表示するかを設定します。ユーザーができることは引き続きロールのポリシーで決まります。非表示のパネルは表示されないだけです。</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>サイトアクセス</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>サイドバー オン</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>サイドバー オフ</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>ロール</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>表示</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>%siteaccess のこれらの設定は別の設定ファイルが決めています。ここで保存した内容は、そのファイルがない場合にのみ有効になります。</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>保存されていない変更があります。保存するか、このページから移動してください。</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>パネル</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>表示中</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>順序</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>常に表示</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>このロールのパネルを削除</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>独自のパネルを持つロール</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>これらのロールを複数持つユーザーには最初のロールの順序が適用されます。ユーザーのいずれかのロールが表示するパネルは表示されたままです。</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>ここには独自のパネルを持つロールはありません。すべてのユーザーにサイドバー本来の順序でパネルが表示されます。</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>履歴</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>変更のたびに保存された %file の以前のバージョン。</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>適用終了日</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>以前のバージョンはまだありません。</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>保存されませんでした: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>変更はありません。</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>%file に保存しました。</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>%time のバージョンのパネルを復元しました。</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>ウェブサイトのサイドバーのパネル</translation>
+    </message>
 </context>
 </TS>

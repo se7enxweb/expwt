@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>All Rumme ginn ugewisen.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Fënstere vun der Website-Säiteleescht</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Wéi eng Fënstere vun der Website-Säiteleescht d'Benotzer vun enger Roll gesinn, an an wéi enger Reiefolleg, pro Siteaccess. Wat d'Benotzer dierfen, bleift bei de Richtlinne vun hire Rollen: eng verstoppt Fënster gëtt just net gewisen.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Säiteleescht un</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Säiteleescht aus</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Roll</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Weisen</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>En anere Astellungsfichier decidéiert dës Astellunge fir %siteaccess: wat hei gespäichert gëtt, gëllt nëmmen ouni hien.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Net gespäichert Ännerungen: späichert se oder verloosst d'Säit.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Fënster</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Gewisen</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Reiefolleg</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Ëmmer gewisen</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Späicheren</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>D'Fënstere vun dëser Roll ewechhuelen</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Rollen mat eegene Fënsteren</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>E Benotzer mat e puer vun dëse Rolle kritt d'Reiefolleg vun der éischter; eng Fënster bleift gewisen, wann eng vun de Rolle vum Benotzer se weist.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Hei huet keng Roll eege Fënsteren: all Benotzer gesäit d'Fënsteren an der eegener Reiefolleg vun der Säiteleescht.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Verlaf</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Méi al Versioune vun %file, virun all Ännerung gehalen.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Gëlteg bis</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Nach keng méi al Versiounen.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Net gespäichert: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Näischt geännert.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>An %file gespäichert.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>D'Fënstere vun der Versioun vum %time restauréiert.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Fënstere vun der Website-Säiteleescht</translation>
+    </message>
 </context>
 </TS>

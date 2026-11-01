@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>गासै फ्रेमफोरखौ दिन्थिजादों।</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>वेबसाइट साइडबारनि पेनेलफोर</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>मोनसे बिहुमुनि बाहायगिरिफोरा वेबसाइट साइडबारनि बबे पेनेलफोरखौ नुयो आरो बबे फारियाव, साइटएक्सेस फोरनि थाखाय। बाहायगिरिफोरा मा मावनो हायो बेयो बिसोरनि बिहुमुनि नीतियाव थायो: गोपन पेनेलखौ बेखेवनो दिन्थिफुङा।</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>साइटएक्सेस</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>साइडबार खेव</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>साइडबार बन्द</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>बिहुमु</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>दिन्थि</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>गुबुन सेटिंस फाइल मोनसेआ %siteaccess नि थाखाय बे सेटिंसफोरखौ थिखा खालामो: बेयाव थिना दोनखानाया बेनि गैयाब्लासोल खामानि मावो।</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>थिना दोनाखै सोलायनायफोर: बिसोरखौ थिना दोन एबा बिलाइखौ नागार।</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>पेनेल</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>दिन्थिनाय</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>फारि</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>सबसमाव दिन्थिनाय</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>थिना दोन</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>बे बिहुमुनि पेनेलफोरखौ बोखार</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>गावनि पेनेल थानाय बिहुमुफोर</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>बे बिहुमुफोरनि बांसिन थानाय बाहायगिरिया गिबि बिहुमुनि फारिखौ मोनो; बाहायगिरिनि मोनसे बिहुमुआ दिन्थिब्ला पेनेला दिन्थिनाय थायो।</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>बेयाव जेबो बिहुमुनि गावनि पेनेल गैया: गासै बाहायगिरिया साइडबारनि गावनि फारियाव पेनेलफोरखौ नुयो।</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>जारिमिन</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>%file नि सिगांनि बिसानफोर, सोलायनाय गासैनि सिगां थिना दोनखानाय।</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>सिम खामानि मावदोंमोन</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>दासिमबो सिगांनि बिसान गैया।</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>थिना दोनाखै: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>जेबो सोलायाखै।</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>%file आव थिना दोनखानो।</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>%time नि बिसाननि पेनेलफोरखौ फिन लाबोनानै।</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>वेबसाइट साइडबारनि पेनेलफोर</translation>
+    </message>
 </context>
 </TS>

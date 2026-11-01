@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>সব ফ্রেম দেখানো হচ্ছে।</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>ওয়েবসাইট সাইডবারের প্যানেল</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>একটি ভূমিকার ব্যবহারকারীরা ওয়েবসাইট সাইডবারের কোন প্যানেলগুলো দেখেন এবং কোন ক্রমে, প্রতিটি সাইটঅ্যাক্সেসের জন্য। ব্যবহারকারীরা কী করতে পারেন তা তাদের ভূমিকার নীতিতেই থাকে: লুকানো প্যানেল কেবল দেখানো হয় না।</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>সাইটঅ্যাক্সেস</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>সাইডবার চালু</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>সাইডবার বন্ধ</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>ভূমিকা</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>দেখান</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>অন্য একটি সেটিংস ফাইল %siteaccess-এর জন্য এই সেটিংস নির্ধারণ করে: এখানে যা সংরক্ষণ করা হয় তা কেবল সেটি না থাকলেই কার্যকর হয়।</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>অসংরক্ষিত পরিবর্তন: সেগুলো সংরক্ষণ করুন অথবা পৃষ্ঠাটি ছেড়ে যান।</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>প্যানেল</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>দেখানো হয়</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>ক্রম</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>সবসময় দেখানো হয়</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>সংরক্ষণ করুন</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>এই ভূমিকার প্যানেলগুলো সরান</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>নিজস্ব প্যানেলসহ ভূমিকা</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>এই ভূমিকাগুলোর কয়েকটি থাকা ব্যবহারকারী প্রথমটির ক্রম পান; ব্যবহারকারীর কোনো একটি ভূমিকা দেখালে প্যানেলটি দেখানো থাকে।</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>এখানে কোনো ভূমিকার নিজস্ব প্যানেল নেই: প্রত্যেক ব্যবহারকারী সাইডবারের নিজস্ব ক্রমে প্যানেলগুলো দেখেন।</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>ইতিহাস</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>%file-এর আগের সংস্করণ, প্রতিটি পরিবর্তনের আগে রাখা।</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>কার্যকর ছিল পর্যন্ত</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>এখনও কোনো আগের সংস্করণ নেই।</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>সংরক্ষিত হয়নি: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>কিছুই পরিবর্তন হয়নি।</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>%file-এ সংরক্ষিত হয়েছে।</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>%time-এর সংস্করণের প্যানেলগুলো পুনরুদ্ধার করা হয়েছে।</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>ওয়েবসাইট সাইডবারের প্যানেল</translation>
+    </message>
 </context>
 </TS>

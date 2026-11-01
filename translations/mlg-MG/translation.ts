@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Aseho daholo ny rafitra rehetra.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Tontonana amin'ny tsipika anilan'ny tranonkala</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Ireo tontonana amin'ny tsipika anilan'ny tranonkala hitan'ny mpampiasa manana anjara asa iray, sy ny filaharany, isaky ny siteaccess. Ny zavatra azon'ny mpampiasa atao dia mbola voafaritry ny politikan'ny anjara asany: tontonana miafina dia tsy aseho fotsiny.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Tsipika anilana mandeha</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Tsipika anilana maty</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Anjara asa</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Asehoy</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Rakitra fandrindrana hafa no manapaka ireo fandrindrana ireo ho an'ny %siteaccess: izay voatahiry eto dia manan-kery raha tsy misy azy ihany.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Fanovana tsy voatahiry: tehirizo na ialao ny pejy.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Tontonana</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Aseho</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Filaharana</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Aseho foana</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Tehirizo</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Esory ny tontonan'ity anjara asa ity</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Anjara asa manana tontonana manokana</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Mpampiasa manana maromaro amin'ireo anjara asa ireo dia mahazo ny filaharan'ny voalohany; mijanona aseho ny tontonana raha misy anjara asan'ny mpampiasa iray maneho azy.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Tsy misy anjara asa manana tontonana manokana eto: ny mpampiasa rehetra dia mahita ny tontonana araka ny filaharan'ny tsipika anilana ihany.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Tantara</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Dikan-teny teo aloha amin'ny %file, notehirizina talohan'ny fanovana tsirairay.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Nanan-kery hatramin'ny</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Mbola tsy misy dikan-teny teo aloha.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Tsy voatahiry: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Tsy nisy niova.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Voatahiry ao amin'ny %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Naverina ny tontonan'ny dikan-teny tamin'ny %time.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Tontonana amin'ny tsipika anilan'ny tranonkala</translation>
+    </message>
 </context>
 </TS>

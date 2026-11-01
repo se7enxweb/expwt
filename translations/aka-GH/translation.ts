@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Wɔada frame no nyinaa adi.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Wɛbsaet sidebar panels</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Wɛbsaet sidebar no panels a wɔn a wɔwɔ role bi mu hu, ne nhyehyɛeɛ a ɛwɔ mu, wɔ siteaccess biara mu. Deɛ nnipa no tumi yɛ no gyina wɔn role no mmara so: panel a wɔde asie no, wɔnkyerɛ no kɛkɛ.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Sidebar abue</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Sidebar ato mu</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Role</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Kyerɛ</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Settings fael foforo na ɛkyerɛ settings yi ma %siteaccess: deɛ wɔakora wɔ ha no yɛ adwuma bere a ɛnni hɔ nko ara.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Nsakraeɛ a wɔnkoraeɛ: kora wɔn anaa fi krataafa no so.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Panel</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Ɛda adi</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Nhyehyɛeɛ</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Ɛda adi daa</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Kora</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Yi role yi panels no fi hɔ</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Roles a wɔwɔ wɔn ankasa panels</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Obi a ɔwɔ roles yi pii no nya deɛ ɛdi kan no nhyehyɛeɛ; panel da adi bere a obi role baako kyerɛ no.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Role biara nni ne ankasa panels wɔ ha: obiara hu panels no wɔ sidebar no ankasa nhyehyɛeɛ mu.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Abakɔsɛm</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>%file nkyerɛaseɛ a atwam, wɔkoraa ansa na nsakraeɛ biara aba.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Ɛyɛɛ adwuma kɔsi</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Nkyerɛaseɛ a atwam biara nni hɔ.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Wɔankora: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Biribiara ansesa.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Wɔakora wɔ %file mu.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Wɔasan de nkyerɛaseɛ a ɛfiri %time panels no aba.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Wɛbsaet sidebar panels</translation>
+    </message>
 </context>
 </TS>

@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Ipinapakita ang lahat ng frame.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Mga panel ng sidebar ng website</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Aling mga panel ng sidebar ng website ang nakikita ng mga user ng isang role, at sa anong pagkakasunod, bawat siteaccess. Ang maaaring gawin ng mga user ay nananatili sa mga patakaran ng kanilang mga role: ang nakatagong panel ay hindi lang ipinapakita.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Naka-on ang sidebar</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Naka-off ang sidebar</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Role</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Ipakita</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Ibang settings file ang nagpapasya sa mga setting na ito para sa %siteaccess: ang ini-save dito ay may bisa lamang kung wala iyon.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>May mga pagbabagong hindi naka-save: i-save ang mga ito o umalis sa pahina.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Panel</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Ipinapakita</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Pagkakasunod</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Laging ipinapakita</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>I-save</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Alisin ang mga panel ng role na ito</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Mga role na may sariling panel</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Ang user na may ilan sa mga role na ito ay nakukuha ang pagkakasunod ng una; nananatiling ipinapakita ang panel kapag ipinapakita ito ng isa sa mga role ng user.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Walang role dito na may sariling panel: nakikita ng bawat user ang mga panel sa sariling pagkakasunod ng sidebar.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Kasaysayan</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Mga naunang bersyon ng %file, itinatago bago ang bawat pagbabago.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>May bisa hanggang</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Wala pang naunang bersyon.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Hindi na-save: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Walang nagbago.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Na-save sa %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Naibalik ang mga panel ng bersyon ng %time.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Mga panel ng sidebar ng website</translation>
+    </message>
 </context>
 </TS>

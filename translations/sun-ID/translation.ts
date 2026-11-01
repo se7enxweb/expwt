@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Sadaya pigura dipidangkeun.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Panél bar sisi situs</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Panél bar sisi situs mana nu ditingali ku pamaké hiji peran, jeung dina urutan naon, pikeun unggal siteaccess. Naon nu meunang dilakukeun ku pamaké tetep ditangtukeun ku kawijakan peranna: panél nu disumputkeun ngan saukur teu dipintonkeun.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Bar sisi hurung</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Bar sisi pareum</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Peran</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Témbongkeun</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Berkas setélan séjén nu nangtukeun setélan ieu pikeun %siteaccess: naon nu disimpen di dieu ngan lumaku lamun euweuh éta berkas.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Parobahan can disimpen: simpen atawa tinggalkeun kaca ieu.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Panél</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Katémbong</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Urutan</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Salawasna katémbong</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Simpen</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Piceun panél peran ieu</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Peran nu boga panél sorangan</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Pamaké nu boga sababaraha peran ieu meunang urutan peran nu kahiji; panél tetep katémbong lamun salah sahiji peran pamaké némbongkeunana.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Di dieu euweuh peran nu boga panél sorangan: unggal pamaké ningali panél dumasar urutan bar sisi sorangan.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Sajarah</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Vérsi saméméhna tina %file, disimpen saméméh unggal parobahan.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Lumaku nepi ka</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Can aya vérsi saméméhna.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Teu disimpen: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Euweuh nu robah.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Disimpen ka %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Panél tina vérsi %time geus dibalikeun.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Panél bar sisi situs</translation>
+    </message>
 </context>
 </TS>

@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>سٲری فریم چھِ ہاونہٕ یِوان۔</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>ویب سائٹُک سائیڈ بار پینل</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>پرٛتھ siteaccess خٲطرٕ، کُنہِ رولُک یوزر ویب سائٹُک سائیڈ بارٕک کَم پینل وچھان چھِ، تہٕ کَتھ ترتیبس منٛز۔ یوزر کیا کٔرِتھ ہیکن، سُہ چھُ تِہندِ رولن ہٕنزٕ پالیسیو پیٚٹھ رُوزان: ژھوٚپٲمُت پینل چھُ صرف نہٕ ہاونہٕ یِوان۔</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>سائیڈ بار آن</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>سائیڈ بار آف</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>رول</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ہاو</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>اَکھ بیٚیہ سیٹنگز فائل چھےٚ %siteaccess خٲطرٕ یِم سیٹنگز طے کران: یتھ جاے محفوظ کرنہٕ آمُت چھُ صرف تمہِ ورٲے اثر کران۔</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>غیر محفوظ تبدیلیہٕ: یِم محفوظ کٔریو یا صفہٕ ترٛٲوِو۔</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>پینل</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>ہاونہٕ آمُت</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>ترتیب</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>ہمیشہ ہاونہٕ یِوان</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>محفوظ کٔریو</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>یمہِ رولُک پینل ہٹٲوِو</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>رول یِمن پنٕنۍ پینل چھِ</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>یُس یوزر یِمو منٛزٕ واریاہ رول تھاوان چھُ، تس میلان چھےٚ گۄڈنِکِس ہٕنز ترتیب؛ پینل رُوزان چھُ ہاونہٕ یِوان ییلہِ یوزرٕ سُند کانٛہہ رول تتھ ہاوان چھُ۔</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>یتھ جاے چھُنہٕ کانٛہہ رول پنٕنۍ پینل تھاوان: پرٛتھ یوزر وچھان چھُ پینل سائیڈ بارٕچہِ پنٕنہِ ترتیبہِ منٛز۔</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>تٲریخ</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>%file کہ پرٲنۍ ورژن، پرٛتھ تبدیلی برونٛہہ محفوظ تھاونہٕ آمٕتۍ۔</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>تام لاگو</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>وُنیک تام چھُنہٕ کانٛہہ پرون ورژن۔</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>محفوظ نہٕ کرنہٕ آمُت: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>کینٛہہ چھُنہٕ بدلیومُت۔</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>%file منٛز محفوظ کرنہٕ آمُت۔</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>%time کہ ورژنٕک پینل واپس آنہٕ آمٕتۍ۔</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>ویب سائٹُک سائیڈ بار پینل</translation>
+    </message>
 </context>
 </TS>

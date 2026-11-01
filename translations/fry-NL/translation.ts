@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Alle frames wurde toand.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Panielen fan de websidebalke</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Hokker panielen fan de websidebalke de brûkers fan in rol sjogge, en yn hokker folchoarder, per siteaccess. Wat brûkers dwaan meie, bliuwt by it belied fan harren rollen: in ferburgen paniel wurdt allinnich net toand.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Sidebalke oan</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Sidebalke út</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rol</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Toane</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>In oar ynstellingsbestân bepaalt dizze ynstellingen foar %siteaccess: wat hjir bewarre wurdt, wurket allinnich sûnder dat bestân.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Net bewarre wizigingen: bewarje se of ferlit de side.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Paniel</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Toand</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Folchoarder</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Altyd toand</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Bewarje</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>De panielen fan dizze rol fuortsmite</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Rollen mei eigen panielen</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>In brûker mei meardere fan dizze rollen krijt de folchoarder fan de earste; in paniel bliuwt toand as ien fan de rollen fan de brûker it toant.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Hjir hat gjin inkelde rol eigen panielen: elke brûker sjocht de panielen yn de eigen folchoarder fan de sidebalke.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Skiednis</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Eardere ferzjes fan %file, bewarre foar elke wiziging.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Fan krêft oant</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Noch gjin eardere ferzjes.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Net bewarre: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Der is neat feroare.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Bewarre yn %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>De panielen fan de ferzje fan %time binne wersteld.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Panielen fan de websidebalke</translation>
+    </message>
 </context>
 </TS>

@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>سڀ فريم ڏيکاريا پيا وڃن.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>ويب سائيٽ سائيڊ بار جا پينل</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>هر siteaccess لاءِ، ڪنهن ڪردار جا استعمال ڪندڙ ويب سائيٽ سائيڊ بار جا ڪهڙا پينل ۽ ڪهڙي ترتيب ۾ ڏسن ٿا. استعمال ڪندڙ ڇا ڪري سگهن ٿا، اهو اڃا به سندن ڪردارن جي پاليسين تي آهي: لڪايل پينل بس ڏيکاريو نٿو وڃي.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>سائيڊ بار چالو</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>سائيڊ بار بند</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>ڪردار</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ڏيکاريو</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>%siteaccess لاءِ اهي سيٽنگون ٻي سيٽنگ فائل طئي ڪري ٿي: هتي محفوظ ڪيل رڳو ان کان سواءِ لاڳو ٿئي ٿو.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>اڻ محفوظ تبديليون: انهن کي محفوظ ڪريو يا صفحو ڇڏيو.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>پينل</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>ڏيکاريل</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>ترتيب</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>هميشه ڏيکاريل</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>محفوظ ڪريو</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>هن ڪردار جا پينل هٽايو</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>پنهنجن پينلن وارا ڪردار</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>انهن مان ڪيترن ڪردارن وارو استعمال ڪندڙ پهرين جي ترتيب حاصل ڪري ٿو؛ جيڪڏهن استعمال ڪندڙ جو ڪو هڪ ڪردار پينل ڏيکاري ته اهو ڏيکاريل رهي ٿو.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>هتي ڪنهن به ڪردار جا پنهنجا پينل ناهن: هر استعمال ڪندڙ سائيڊ بار جي پنهنجي ترتيب ۾ پينل ڏسي ٿو.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>تاريخ</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>%file جا اڳوڻا نسخا، هر تبديلي کان اڳ رکيل.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>تائين لاڳو</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>اڃا ڪو اڳوڻو نسخو ناهي.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>محفوظ نه ٿيو: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>ڪجهه به نه بدليو.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>%file ۾ محفوظ ٿيو.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>%time جي نسخي جا پينل بحال ڪيا ويا.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>ويب سائيٽ سائيڊ بار جا پينل</translation>
+    </message>
 </context>
 </TS>

@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>אַלע ראַמען ווערן געוויזן.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>פּאַנעלן פֿון דער וועבזײַטל־זײַטבאַר</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>וועלכע פּאַנעלן פֿון דער וועבזײַטל־זײַטבאַר זעען די באַניצער פֿון אַ ראָלע, און אין וועלכן סדר, פֿאַר יעדן siteaccess. וואָס די באַניצער מעגן טאָן באַשליסן ווײַטער די פּאָליסיס פֿון זייערע ראָלעס: אַ באַהאַלטענער פּאַנעל ווערט נאָר נישט געוויזן.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>זײַטבאַר אָן</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>זײַטבאַר אויס</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>ראָלע</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ווײַזן</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>אַן אַנדער אײַנשטעלונג־טעקע באַשליסט די דאָזיקע אײַנשטעלונגען פֿאַר %siteaccess: וואָס מע היט דאָ אָפּ, ווירקט נאָר אָן איר.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>נישט־אָפּגעהיטע ענדערונגען: היט זיי אָפּ אָדער פֿאַרלאָזט דעם בלאַט.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>פּאַנעל</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>געוויזן</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>סדר</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>שטענדיק געוויזן</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>אָפּהיטן</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>אַוועקנעמען די פּאַנעלן פֿון דער ראָלע</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>ראָלעס מיט אייגענע פּאַנעלן</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>אַ באַניצער מיט עטלעכע פֿון די ראָלעס באַקומט דעם סדר פֿון דער ערשטער; אַ פּאַנעל בלײַבט געוויזן ווען איינע פֿון די באַניצערס ראָלעס ווײַזט אים.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>קיין ראָלע האָט דאָ נישט קיין אייגענע פּאַנעלן: יעדער באַניצער זעט די פּאַנעלן אינעם זײַטבאַרס אייגענעם סדר.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>געשיכטע</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>פֿריִערדיקע ווערסיעס פֿון %file, אָפּגעהיט פֿאַר יעדער ענדערונג.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>גילטיק ביז</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>נאָך קיין פֿריִערדיקע ווערסיעס נישטאָ.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>נישט אָפּגעהיט: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>גאָרנישט געענדערט.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>אָפּגעהיט אין %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>די פּאַנעלן פֿון דער ווערסיע פֿון %time זענען צוריקגעשטעלט.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>פּאַנעלן פֿון דער וועבזײַטל־זײַטבאַר</translation>
+    </message>
 </context>
 </TS>

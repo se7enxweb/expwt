@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Массо а рамкаш гойтуш ю.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Сайтан агӀонан панелан панелаш</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Ролан лелорхоша сайтан агӀонан панелан мел панелаш гуш ю, хӀун рогӀаллехь, хӀора сайтан тӀекхачаран. Лелорхошна хӀун дан мега, иза церан ролийн бакъонашкахь дуьсу: къайлаяьккхина панель гайта ца гайта бен яц.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Сайтан тӀекхачар</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>АгӀонан панель латийна</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>АгӀонан панель дӀайайина</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Роль</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Гайта</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Кхечу нисдаран файло %siteaccess-на хӀара нисдарш билгалдоху: кхузахь ӀалашдинаргӀа цуьнан доцуш бен ца лела.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Ӏалашйина йоцу хийцамаш: уьш Ӏалашбе я агӀо йита.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Панель</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Гойту</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>РогӀалла</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Даима гойту</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Ӏалашйан</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>ХӀокху ролан панелаш дӀаяха</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Шайн панелаш йолу ролаш</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>ХӀокху ролех масех йолчу лелорхочунна хьалхарчун рогӀалла кхочу; лелорхочун ролех цхьамма гойтуш хилча, панель гуш йиса.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Кхузахь цхьана а ролан шен панелаш яц: хӀора лелорхочо панелаш агӀонан панелан шен рогӀаллехь го.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Истори</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>%file-ан хьалхара версеш, хӀора хийцамал хьалха Ӏалашйина.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Лелла</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>ХӀинца а хьалхара версеш яц.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Ӏалашйина яц: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Цхьаъ а ца хийцира.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>%file-ехь Ӏалашйина.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>%time версин панелаш меттахӀоттайина.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Сайтан агӀонан панелан панелаш</translation>
+    </message>
 </context>
 </TS>

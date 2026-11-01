@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>แสดงเฟรมทั้งหมดแล้ว</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>แผงของแถบด้านข้างของเว็บไซต์</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>ผู้ใช้ในบทบาทหนึ่งเห็นแผงใดของแถบด้านข้างของเว็บไซต์ และเรียงลำดับอย่างไร สำหรับแต่ละ siteaccess สิ่งที่ผู้ใช้ทำได้ยังคงกำหนดโดยนโยบายของบทบาทของพวกเขา: แผงที่ซ่อนไว้เพียงแค่ไม่แสดงเท่านั้น</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>เปิดแถบด้านข้าง</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>ปิดแถบด้านข้าง</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>บทบาท</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>แสดง</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>ไฟล์การตั้งค่าอื่นเป็นตัวกำหนดการตั้งค่าเหล่านี้สำหรับ %siteaccess: สิ่งที่บันทึกที่นี่จะมีผลก็ต่อเมื่อไม่มีไฟล์นั้น</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>มีการเปลี่ยนแปลงที่ยังไม่ได้บันทึก: บันทึกหรือออกจากหน้านี้</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>แผง</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>แสดงอยู่</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>ลำดับ</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>แสดงเสมอ</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>บันทึก</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>ลบแผงของบทบาทนี้</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>บทบาทที่มีแผงของตนเอง</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>ผู้ใช้ที่มีหลายบทบาทในนี้จะได้ลำดับของบทบาทแรก แผงจะยังแสดงอยู่เมื่อบทบาทใดบทบาทหนึ่งของผู้ใช้แสดงแผงนั้น</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>ที่นี่ไม่มีบทบาทใดมีแผงของตนเอง: ผู้ใช้ทุกคนเห็นแผงตามลำดับของแถบด้านข้างเอง</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>ประวัติ</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>เวอร์ชันก่อนหน้าของ %file ที่เก็บไว้ก่อนการเปลี่ยนแปลงทุกครั้ง</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>ใช้จนถึง</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>ยังไม่มีเวอร์ชันก่อนหน้า</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>ไม่ได้บันทึก: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>ไม่มีอะไรเปลี่ยนแปลง</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>บันทึกลง %file แล้ว</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>กู้คืนแผงของเวอร์ชัน %time แล้ว</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>แผงของแถบด้านข้างของเว็บไซต์</translation>
+    </message>
 </context>
 </TS>

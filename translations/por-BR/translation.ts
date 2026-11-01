@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Todos os quadros estão exibidos.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Painéis da barra lateral do site</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Quais painéis da barra lateral do site os usuários de um papel veem, e em que ordem, por siteaccess. O que os usuários podem fazer continua definido pelas políticas dos seus papéis: um painel oculto apenas não é exibido.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Barra lateral ativada</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Barra lateral desativada</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Papel</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Mostrar</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Outro arquivo de configuração define estas configurações para %siteaccess: o que for salvo aqui só vale sem ele.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Alterações não salvas: salve-as ou saia da página.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Painel</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Visível</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Ordem</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Sempre visível</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Salvar</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Remover os painéis deste papel</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Papéis com painéis próprios</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Um usuário com vários destes papéis recebe a ordem do primeiro; um painel continua visível quando um dos papéis do usuário o mostra.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Nenhum papel tem painéis próprios aqui: todos os usuários veem os painéis na ordem própria da barra lateral.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Histórico</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Versões anteriores de %file, guardadas antes de cada alteração.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Em vigor até</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Ainda não há versões anteriores.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Não salvo: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Nada foi alterado.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Salvo em %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Painéis da versão de %time restaurados.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Painéis da barra lateral do site</translation>
+    </message>
 </context>
 </TS>

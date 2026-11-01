@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Wole ɖoɖoawo katã fiam.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Nyatakakadzraɖoƒe ƒe axadzimɔ ƒe kpɔɖeƒewo</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Kpɔɖeƒe kawoe dɔwɔƒe ɖeka ƒe zãlawo kpɔna le nyatakakadzraɖoƒe ƒe axadzimɔ la dzi, kple ɖoɖo si nu, le nyatakakadzraɖoƒe ƒe mɔ ɖesiaɖe nu. Nusi zãlawo ate ŋu awɔ la gakpɔtɔ le woƒe dɔwɔƒewo ƒe se me: kpɔɖeƒe si woɣla la, womeɖenɛ fia ko o.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Nyatakakadzraɖoƒe ƒe mɔ</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Axadzimɔ le dɔ wɔm</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Axadzimɔ mele dɔ wɔm o</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Dɔwɔƒe</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Ɖe fia</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Ɖoɖowɔɖi agbalẽ bubu aɖe ɖoa ɖoɖo siawo ɖe %siteaccess ŋu: nusi wodzra ɖo le afisia la wɔa dɔ ne meli o ko.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Tɔtrɔ siwo womedzra ɖo o: dzra wo ɖo alo dzo le axa la dzi.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Kpɔɖeƒe</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Woɖenɛ fia</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Ɖoɖo</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Woɖenɛ fiana ɣesiaɣi</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Dzra ɖo</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Ɖe dɔwɔƒe sia ƒe kpɔɖeƒewo ɖa</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Dɔwɔƒe siwo si woawo ŋutɔ ƒe kpɔɖeƒewo le</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Zãla si si dɔwɔƒe siawo dometɔ geɖe le la xɔa gbãtɔ ƒe ɖoɖo; kpɔɖeƒe aɖe nɔa dzedzem ne zãla la ƒe dɔwɔƒe ɖeka ɖenɛ fia.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Dɔwɔƒe aɖeke si eya ŋutɔ ƒe kpɔɖeƒewo le o le afisia: zãla ɖesiaɖe kpɔa kpɔɖeƒewo le axadzimɔ la ŋutɔ ƒe ɖoɖo nu.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Ŋutinya</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>%file ƒe tɔtrɔ xoxowo, siwo wodzra ɖo do ŋgɔ na tɔtrɔ ɖesiaɖe.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Ewɔ dɔ va se ɖe</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Tɔtrɔ xoxo aɖeke meli haɖe o.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Womedzrae ɖo o: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Naneke metrɔ o.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Wodzrae ɖo ɖe %file me.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Wogbugbɔ %time ƒe tɔtrɔ ƒe kpɔɖeƒewo vɛ.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Nyatakakadzraɖoƒe ƒe axadzimɔ ƒe kpɔɖeƒewo</translation>
+    </message>
 </context>
 </TS>

@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>બધી ફ્રેમ બતાવાઈ રહી છે.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>વેબસાઇટ સાઇડબારની પેનલ</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>કોઈ ભૂમિકાના વપરાશકર્તાઓ વેબસાઇટ સાઇડબારની કઈ પેનલ જુએ છે, અને કયા ક્રમમાં, દરેક સાઇટઍક્સેસ માટે. વપરાશકર્તાઓ શું કરી શકે છે તે તેમની ભૂમિકાઓની નીતિઓમાં જ રહે છે: છુપાયેલી પેનલ ફક્ત બતાવાતી નથી.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>સાઇટઍક્સેસ</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>સાઇડબાર ચાલુ</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>સાઇડબાર બંધ</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>ભૂમિકા</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>બતાવો</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>બીજી સેટિંગ્સ ફાઇલ %siteaccess માટે આ સેટિંગ્સ નક્કી કરે છે: અહીં સાચવેલું ફક્ત તેના વિના જ લાગુ પડે છે.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>ન સાચવેલા ફેરફારો: તેમને સાચવો અથવા પેજ છોડો.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>પેનલ</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>બતાવેલ</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>ક્રમ</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>હંમેશાં બતાવેલ</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>સાચવો</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>આ ભૂમિકાની પેનલ દૂર કરો</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>પોતાની પેનલ ધરાવતી ભૂમિકાઓ</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>આમાંથી ઘણી ભૂમિકાઓ ધરાવતા વપરાશકર્તાને પહેલીનો ક્રમ મળે છે; વપરાશકર્તાની કોઈ એક ભૂમિકા પેનલ બતાવે તો તે બતાવેલ રહે છે.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>અહીં કોઈ ભૂમિકાની પોતાની પેનલ નથી: દરેક વપરાશકર્તા સાઇડબારના પોતાના ક્રમમાં પેનલ જુએ છે.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>ઇતિહાસ</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>%file ના અગાઉના સંસ્કરણો, દરેક ફેરફાર પહેલાં રાખેલા.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>સુધી અમલમાં</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>હજી કોઈ અગાઉનું સંસ્કરણ નથી.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>સાચવાયું નહીં: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>કંઈ બદલાયું નથી.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>%file માં સાચવ્યું.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>%time ના સંસ્કરણની પેનલ પુનઃસ્થાપિત કરી.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>વેબસાઇટ સાઇડબારની પેનલ</translation>
+    </message>
 </context>
 </TS>

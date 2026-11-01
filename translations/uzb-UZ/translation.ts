@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Barcha ramkalar koʻrsatilmoqda.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Sayt yon panelidagi panellar</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Har bir siteaccess uchun rol foydalanuvchilari sayt yon panelining qaysi panellarini va qanday tartibda ko'radi. Foydalanuvchilar nima qila olishini avvalgidek ularning rollari siyosatlari belgilaydi: yashirilgan panel shunchaki ko'rsatilmaydi.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Yon panel yoqilgan</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Yon panel o'chirilgan</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rol</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Ko'rsatish</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>%siteaccess uchun bu sozlamalarni boshqa sozlamalar fayli belgilaydi: bu yerda saqlangan narsa faqat usiz kuchga kiradi.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Saqlanmagan o'zgarishlar: ularni saqlang yoki sahifani tark eting.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Panel</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Ko'rinadi</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Tartib</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Har doim ko'rinadi</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Saqlash</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Bu rolning panellarini olib tashlash</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>O'z panellari bor rollar</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Bu rollarning bir nechtasiga ega foydalanuvchi birinchisining tartibini oladi; foydalanuvchining rollaridan biri ko'rsatsa, panel ko'rinishda qoladi.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Bu yerda hech bir rolning o'z panellari yo'q: har bir foydalanuvchi panellarni yon panelning o'z tartibida ko'radi.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Tarix</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>%file faylining har bir o'zgarishdan oldin saqlangan avvalgi versiyalari.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Shu sanagacha amalda</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Hali avvalgi versiyalar yo'q.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Saqlanmadi: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Hech narsa o'zgarmadi.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>%file fayliga saqlandi.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>%time versiyasining panellari tiklandi.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Sayt yon panelidagi panellar</translation>
+    </message>
 </context>
 </TS>

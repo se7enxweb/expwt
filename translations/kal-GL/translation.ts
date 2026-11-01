@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Ilusaasat tamarmik takutinneqarput.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Nittartakkami saniatigut sanerussami allaffiit</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Atuisut inissisimaffimmi ataatsimi allaffiit suut, sumilu tulleriiaarlugit takusarneraat, siteaccess tamaasa. Atuisut suut iliuuserisinnaaneraat inissisimaffiisa malittarisassaannit aalajangerneqartuarpoq: allaffik isertorneqartoq takutinneqanngitsuinnaavoq.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Saniatigut sanerussaq ammasoq</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Saniatigut sanerussaq matoqqasoq</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Inissisimaffik</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Takutiguk</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Aaqqissuussinermut allagaq alla aaqqissuussinerit makku %siteaccess-imut aalajangertarpai: maani toqqorneqartut taassuma peqanngippat taamaallaat atuupput.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Allanngortitat toqqorneqanngitsut: toqqukkit imaluunniit qupperneq qimakkit.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Allaffik</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Takutinneqartoq</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Tulleriiaarneq</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Takutinneqartuaannartoq</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Toqqoruk</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Inissisimaffiup matuma allaffii peerukkit</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Inissisimaffiit nammineq allaffeqartut</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Atuisoq inissisimaffinnik arlalinnik makkuninnga pigisalik siulliup tulleriiaarneranik pisarpoq; allaffik takutinneqartuarpoq atuisup inissisimaffiisa arlaata takutippagu.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Maani inissisimaffik nammineq allaffeqanngilaq: atuisut tamarmik allaffiit saniatigut sanerussap nammineq tulleriiaarneratut takusarpaat.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Oqaluttuarisaaneq</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>%file-ip versionii siusinnerusut, allanngortitsinerit tamaasa sioqqullugit toqqorneqartut.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Atuuffia naaffia</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Suli versioneqanngilaq siusinnerusumik.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Toqqorneqanngilaq: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Allanngortitaqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>%file-imut toqqorneqarpoq.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Versionimi %time-imeersumi allaffiit uterteqqinneqarput.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Nittartakkami saniatigut sanerussami allaffiit</translation>
+    </message>
 </context>
 </TS>

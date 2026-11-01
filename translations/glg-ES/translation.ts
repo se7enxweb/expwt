@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Amósanse todos os marcos.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Paneis da barra lateral do sitio web</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Que paneis da barra lateral do sitio web ven os usuarios dun rol, e en que orde, por acceso ao sitio. O que os usuarios poden facer segue nas políticas dos seus roles: un panel oculto só non se mostra.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Acceso ao sitio</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Barra lateral activada</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Barra lateral desactivada</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rol</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Amosar</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Outro ficheiro de configuración decide estes axustes para %siteaccess: o que se garda aquí só ten efecto sen el.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Cambios sen gardar: gárdaos ou deixa a páxina.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Panel</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Amosado</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Orde</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Sempre amosado</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Gardar</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Quitar os paneis deste rol</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Roles con paneis propios</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Un usuario con varios destes roles recibe a orde do primeiro; un panel segue amosado cando un dos roles do usuario o amosa.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Aquí ningún rol ten paneis propios: todos os usuarios ven os paneis na orde propia da barra lateral.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historial</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Versións anteriores de %file, gardadas antes de cada cambio.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Vixente ata</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Aínda non hai versións anteriores.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Non se gardou: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Non cambiou nada.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Gardado en %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Restauráronse os paneis da versión de %time.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Paneis da barra lateral do sitio web</translation>
+    </message>
 </context>
 </TS>

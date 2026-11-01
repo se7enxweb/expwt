@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>ኩሎም ፍሬማት ይረኣዩ ኣለዉ።</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>መቓናት ናይ ጎኒ መቓን መርበብ</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>ተጠቀምቲ ሓደ ተራ ኣየኖት መቓናት ናይ ጎኒ መቓን መርበብ ብኸመይ ስርዓትን ከም ዝርእዩ፡ ንነፍሲ ወከፍ siteaccess። ተጠቀምቲ እንታይ ክገብሩ ከም ዝኽእሉ ሕጂ'ውን ብፖሊሲታት ተራታቶም እዩ ዝውሰን፦ ሕቡእ መቓን ጥራይ ኣይርአን እዩ።</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>ናይ ጎኒ መቓን ተወሊዑ</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>ናይ ጎኒ መቓን ጠፊኡ</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>ተራ</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ኣርኢ</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>ካልእ ፋይል ቅጥዕታት እዞም ቅጥዕታት ን %siteaccess ይውስኖም፦ ኣብዚ ዝተቐመጠ ብዘይ እቲ ፋይል ጥራይ ይሰርሕ።</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>ዘይተቐመጡ ለውጥታት፦ ኣቐምጦም ወይ ነዚ ገጽ ግደፎ።</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>መቓን</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>ይርአ ኣሎ</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>ስርዓት</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>ኩሉ ግዜ ይርአ</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>ኣቐምጥ</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>መቓናት ናይዚ ተራ ኣወግድ</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>ናይ ገዛእ ርእሶም መቓናት ዘለዎም ተራታት</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>ብዙሓት ካብዞም ተራታት ዘለዎ ተጠቃሚ ስርዓት ናይ እቲ ቀዳማይ ይረክብ፤ ሓደ ካብ ተራታት ተጠቃሚ እንተ ኣርእዩዎ መቓን ይርአ ይቕጽል።</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>ኣብዚ ናይ ገዛእ ርእሱ መቓናት ዘለዎ ተራ የለን፦ ነፍሲ ወከፍ ተጠቃሚ ነቶም መቓናት ብናይ ጎኒ መቓን ስርዓት ይርእዮም።</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>ታሪኽ</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>ቅድሚ ነፍሲ ወከፍ ለውጢ ዝተዓቀቡ ዝሓለፉ ዕትማት ናይ %file።</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>ክሳብ ይሰርሕ ነይሩ</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>ገና ዝሓለፉ ዕትማት የለዉን።</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>ኣይተቐመጠን፦ %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>ዋላ ሓንቲ ኣይተቐየረን።</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>ኣብ %file ተቐሚጡ።</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>መቓናት ናይ ዕትም %time ተመሊሶም።</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>መቓናት ናይ ጎኒ መቓን መርበብ</translation>
+    </message>
 </context>
 </TS>

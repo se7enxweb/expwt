@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>എല്ലാ ഫ്രെയിമുകളും കാണിക്കുന്നു.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>വെബ്‌സൈറ്റ് സൈഡ്‌ബാർ പാനലുകൾ</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>ഓരോ siteaccess-നും, ഒരു റോളിലെ ഉപയോക്താക്കൾ വെബ്‌സൈറ്റ് സൈഡ്‌ബാറിലെ ഏതൊക്കെ പാനലുകൾ ഏത് ക്രമത്തിൽ കാണുന്നു എന്ന്. ഉപയോക്താക്കൾക്ക് എന്ത് ചെയ്യാമെന്നത് അവരുടെ റോളുകളുടെ നയങ്ങൾ തന്നെ തീരുമാനിക്കുന്നു: മറച്ച പാനൽ കാണിക്കാതിരിക്കുന്നു എന്ന് മാത്രം.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>സൈഡ്‌ബാർ ഓൺ</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>സൈഡ്‌ബാർ ഓഫ്</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>റോൾ</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>കാണിക്കുക</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>%siteaccess-നുള്ള ഈ ക്രമീകരണങ്ങൾ മറ്റൊരു ക്രമീകരണ ഫയലാണ് തീരുമാനിക്കുന്നത്: ഇവിടെ സേവ് ചെയ്യുന്നത് അതില്ലാത്തപ്പോൾ മാത്രമേ പ്രാബല്യത്തിൽ വരൂ.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>സേവ് ചെയ്യാത്ത മാറ്റങ്ങൾ: അവ സേവ് ചെയ്യുക അല്ലെങ്കിൽ പേജ് വിടുക.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>പാനൽ</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>കാണിക്കുന്നു</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>ക്രമം</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>എപ്പോഴും കാണിക്കുന്നു</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>സേവ് ചെയ്യുക</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>ഈ റോളിന്റെ പാനലുകൾ നീക്കം ചെയ്യുക</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>സ്വന്തം പാനലുകളുള്ള റോളുകൾ</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>ഇവയിൽ പല റോളുകളുമുള്ള ഉപയോക്താവിന് ആദ്യത്തേതിന്റെ ക്രമം ലഭിക്കുന്നു; ഉപയോക്താവിന്റെ ഏതെങ്കിലും ഒരു റോൾ കാണിക്കുന്നുവെങ്കിൽ പാനൽ കാണിച്ചുകൊണ്ടിരിക്കും.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>ഇവിടെ ഒരു റോളിനും സ്വന്തം പാനലുകളില്ല: എല്ലാ ഉപയോക്താക്കളും സൈഡ്‌ബാറിന്റെ സ്വന്തം ക്രമത്തിൽ പാനലുകൾ കാണുന്നു.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>ചരിത്രം</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>ഓരോ മാറ്റത്തിനും മുമ്പ് സൂക്ഷിച്ച %file-ന്റെ മുൻ പതിപ്പുകൾ.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>വരെ പ്രാബല്യത്തിൽ</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>ഇതുവരെ മുൻ പതിപ്പുകളില്ല.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>സേവ് ചെയ്തില്ല: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>ഒന്നും മാറിയില്ല.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>%file-ലേക്ക് സേവ് ചെയ്തു.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>%time-ലെ പതിപ്പിന്റെ പാനലുകൾ പുനഃസ്ഥാപിച്ചു.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>വെബ്‌സൈറ്റ് സൈഡ്‌ബാർ പാനലുകൾ</translation>
+    </message>
 </context>
 </TS>

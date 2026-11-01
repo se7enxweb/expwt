@@ -290,6 +290,20 @@ class expwtGateway
             function ( $type, $file ) { return class_exists( 'ezjscPacker' ) ? expwtHook::packed( $type, array( $file ) ) : ''; } );
     }
 
+    /**
+     * The panel order and visibility of the user's roles on this siteaccess (E9): null for a visitor who is not
+     * signed in (the Welcome panel only) and for a user none of whose roles has its own panels.
+     *
+     * @return array|null order, hidden (expwtRolePanels::forCurrentUser())
+     */
+    public function panelRule()
+    {
+        $user = $this->currentUser();
+        if ( empty( $this->capabilities()['use'] ) || !$user->isRegistered() )
+            return null;
+        return expwtRolePanels::forCurrentUser( $user );
+    }
+
     /** @return bool the current user has the kernel policy module/function (for the registry and extensions) */
     public function mayDo( $module, $function )
     {

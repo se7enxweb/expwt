@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Wšykne ramiki se pokazuju.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Panele bocneje lejstwy websedła</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Kótare panele bocneje lejstwy websedła wužywarje roli wiźe a w kótarem pórěźe, za kuždy pśistup k sedłoju. Což wužywarje směju cyniś, wóstawa w pšawidłach jich rolow: schowany panel se jano njepokazujo.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Pśistup k sedłoju</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Bocna lejstwa zašaltowana</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Bocna lejstwa wušaltowana</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rola</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Pokazaś</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Druga dataja nastajenjow póstaja toś te nastajenja za %siteaccess: což se how składujo, płaśi jano bźeze njeje.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Njeskładowane změny: składujśo je abo spušćśo bok.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Panel</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Pokazany</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Pórěd</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Pśecej pokazany</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Składowaś</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Panele toś teje role wótwónoźeś</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Role ze swójskimi panelami</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Wužywaŕ z někotarymi z toś tych rolow dostanjo pórěd prědneje; panel wóstanjo pokazany, gaž jen jadna z rolow wužywarja pokazujo.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>How žedna rola njama swójske panele: kuždy wužywaŕ wiźi panele we swójskem pórěźe bocneje lejstwy.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historija</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Zachadne wersije dataje %file, składowane pśed kuždeju změnu.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Płaśeše až do</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Hyšći žedne zachadne wersije.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Njeskładowane: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Nic njejo se změniło.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Do %file składowane.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Panele wersije z %time su se wótnowili.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Panele bocneje lejstwy websedła</translation>
+    </message>
 </context>
 </TS>

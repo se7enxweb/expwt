@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>كل الإطارات معروضة.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>لوحات الشريط الجانبي للموقع</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>أي لوحات الشريط الجانبي للموقع يراها مستخدمو دور ما، وبأي ترتيب، لكل وصول للموقع. ما يحق للمستخدمين فعله يبقى خاضعًا لسياسات أدوارهم: اللوحة المخفية لا تُعرض فقط.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>وصول الموقع</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>الشريط الجانبي مفعّل</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>الشريط الجانبي معطّل</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>الدور</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>عرض</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>ملف إعدادات آخر يحدد هذه الإعدادات لـ %siteaccess: ما يُحفظ هنا لا يسري إلا بدونه.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>تغييرات غير محفوظة: احفظها أو غادر الصفحة.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>اللوحة</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>معروضة</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>الترتيب</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>معروضة دائمًا</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>حفظ</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>إزالة لوحات هذا الدور</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>أدوار لها لوحاتها الخاصة</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>المستخدم الذي لديه عدة أدوار من هذه يحصل على ترتيب أولها؛ وتبقى اللوحة معروضة إذا عرضها أحد أدوار المستخدم.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>لا يوجد هنا دور له لوحاته الخاصة: كل مستخدم يرى اللوحات بترتيب الشريط الجانبي نفسه.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>السجل</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>الإصدارات السابقة من %file، محفوظة قبل كل تغيير.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>ساري حتى</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>لا توجد إصدارات سابقة بعد.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>لم يُحفظ: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>لم يتغير شيء.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>حُفظ في %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>تمت استعادة لوحات الإصدار المؤرخ %time.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>لوحات الشريط الجانبي للموقع</translation>
+    </message>
 </context>
 </TS>

@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Marko guztiak erakusten dira.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Webgunearen alboko barraren panelak</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Rol bateko erabiltzaileek webgunearen alboko barrako zein panel ikusten dituzten, eta zein ordenatan, gune-sarbide bakoitzeko. Erabiltzaileek egin dezaketena beren rolen politiketan geratzen da: ezkutatutako panel bat ez da erakusten, besterik ez.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Gune-sarbidea</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Alboko barra aktibatuta</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Alboko barra desaktibatuta</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rola</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Erakutsi</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Beste ezarpen-fitxategi batek erabakitzen ditu ezarpen hauek %siteaccess-erako: hemen gordetakoak hura gabe soilik du eragina.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Gorde gabeko aldaketak: gorde itzazu edo irten orritik.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Panela</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Erakutsita</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Ordena</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Beti erakutsita</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Gorde</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Kendu rol honen panelak</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Panel propioak dituzten rolak</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Rol hauetako batzuk dituen erabiltzaileak lehenengoaren ordena jasotzen du; panel bat erakutsita geratzen da erabiltzailearen rol batek erakusten duenean.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Hemen ez dago panel propioak dituen rolik: erabiltzaile guztiek alboko barraren ordena propioan ikusten dituzte panelak.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historia</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>%file fitxategiaren aurreko bertsioak, aldaketa bakoitzaren aurretik gordeak.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Indarrean noiz arte</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Oraindik ez dago aurreko bertsiorik.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Ez da gorde: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Ez da ezer aldatu.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>%file fitxategian gorde da.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>%time bertsioko panelak leheneratu dira.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Webgunearen alboko barraren panelak</translation>
+    </message>
 </context>
 </TS>

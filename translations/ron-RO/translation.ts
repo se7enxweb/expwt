@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Toate cadrele sunt afișate.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Panourile barei laterale a site-ului</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Ce panouri ale barei laterale a site-ului văd utilizatorii unui rol și în ce ordine, pentru fiecare siteaccess. Ce pot face utilizatorii rămâne stabilit de politicile rolurilor lor: un panou ascuns doar nu este afișat.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Bară laterală activată</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Bară laterală dezactivată</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rol</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Arată</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Un alt fișier de setări decide aceste setări pentru %siteaccess: ce se salvează aici are efect doar fără el.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Modificări nesalvate: salvați-le sau părăsiți pagina.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Panou</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Afișat</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Ordine</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Afișat mereu</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Salvează</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Elimină panourile acestui rol</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Roluri cu panouri proprii</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Un utilizator cu mai multe dintre aceste roluri primește ordinea primului; un panou rămâne afișat dacă unul dintre rolurile utilizatorului îl afișează.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Aici niciun rol nu are panouri proprii: fiecare utilizator vede panourile în ordinea proprie a barei laterale.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Istoric</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Versiuni anterioare ale %file, păstrate înainte de fiecare modificare.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>În vigoare până la</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Încă nu există versiuni anterioare.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Nesalvat: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Nu s-a schimbat nimic.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Salvat în %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Au fost restaurate panourile versiunii din %time.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Panourile barei laterale a site-ului</translation>
+    </message>
 </context>
 </TS>

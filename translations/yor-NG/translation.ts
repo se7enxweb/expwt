@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Gbogbo férémù ni a ń fihàn.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Àwọn pánẹ́ẹ̀lì pẹpẹ ẹ̀gbẹ́ ojú òpó</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Àwọn pánẹ́ẹ̀lì pẹpẹ ẹ̀gbẹ́ ojú òpó wo ni àwọn olùlò ipa kan ń rí, àti ní ìtòlẹ́sẹẹsẹ wo, fún siteaccess kọ̀ọ̀kan. Ohun tí àwọn olùlò lè ṣe ṣì wà lábẹ́ àwọn ìlànà ipa wọn: pánẹ́ẹ̀lì tí a fi pamọ́ kàn kò hàn ni.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Pẹpẹ ẹ̀gbẹ́ wà ní títàn</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Pẹpẹ ẹ̀gbẹ́ wà ní pípa</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Ipa</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Fihàn</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Fáìlì ètò mìíràn ló ń pinnu àwọn ètò wọ̀nyí fún %siteaccess: ohun tí a fipamọ́ níbí máa ṣiṣẹ́ nìkan tí kò bá sí.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Àwọn àyípadà tí a kò tíì fipamọ́: fi wọ́n pamọ́ tàbí kúrò ní ojú-ìwé.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Pánẹ́ẹ̀lì</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Ó ń hàn</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Ìtòlẹ́sẹẹsẹ</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Máa ń hàn nígbà gbogbo</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Fipamọ́</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Yọ àwọn pánẹ́ẹ̀lì ipa yìí kúrò</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Àwọn ipa tí ó ní pánẹ́ẹ̀lì tiwọn</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Olùlò tí ó ní púpọ̀ nínú àwọn ipa wọ̀nyí ń gba ìtòlẹ́sẹẹsẹ ti àkọ́kọ́; pánẹ́ẹ̀lì kan ṣì ń hàn tí ọ̀kan nínú àwọn ipa olùlò bá fi í hàn.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Kò sí ipa kankan níbí tí ó ní pánẹ́ẹ̀lì tirẹ̀: gbogbo olùlò ń rí àwọn pánẹ́ẹ̀lì ní ìtòlẹ́sẹẹsẹ pẹpẹ ẹ̀gbẹ́ fúnra rẹ̀.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Ìtàn</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Àwọn ẹ̀dà àtijọ́ ti %file, tí a tọ́jú ṣáájú àyípadà kọ̀ọ̀kan.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Ó wúlò títí di</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Kò tíì sí ẹ̀dà àtijọ́ kankan.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>A kò fipamọ́: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Kò sí ohun tí ó yí padà.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>A ti fipamọ́ sí %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>A ti dá àwọn pánẹ́ẹ̀lì ẹ̀dà ti %time padà.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Àwọn pánẹ́ẹ̀lì pẹpẹ ẹ̀gbẹ́ ojú òpó</translation>
+    </message>
 </context>
 </TS>

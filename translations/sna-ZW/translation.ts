@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Mafuremu ese ari kuratidzwa.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Mapaneru ebhaa yeparutivi yewebhusaiti</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Mapaneru api ebhaa yeparutivi yewebhusaiti anoonekwa nevashandisi vebasa rimwe, uye nehurongwa hupi, pa siteaccess imwe neimwe. Zvinobvumirwa vashandisi kuita zvichiri kutemerwa nemitemo yemabasa avo: paneru rakavanzwa harisi kuratidzwa chete.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Bhaa yeparutivi yakabatidzwa</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Bhaa yeparutivi yakadzimwa</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Basa</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Ratidza</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Imwe faira yezvirongwa ndiyo inosarudza zvirongwa izvi zve %siteaccess: zvachengetwa pano zvinoshanda chete kana isipo.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Shanduko dzisina kuchengetwa: dzichengete kana kuti siya peji.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Paneru</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Rinoratidzwa</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Hurongwa</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Rinoratidzwa nguva dzose</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Chengeta</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Bvisa mapaneru ebasa iri</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Mabasa ane mapaneru awo</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Mushandisi ane akawanda emabasa aya anowana hurongwa hwerekutanga; paneru rinoramba richiratidzwa kana rimwe remabasa emushandisi richiriratidza.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Hapana basa rine mapaneru aro pano: mushandisi wese anoona mapaneru muhurongwa hwebhaa yeparutivi pachayo.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Nhoroondo</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Mavhezheni ekare e %file, akachengetwa pamberi peshanduko yega yega.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Yaishanda kusvika</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Hapasati paine mavhezheni ekare.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Hazvina kuchengetwa: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Hapana chachinja.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Zvachengetwa mu %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Mapaneru evhezheni ye %time adzoserwa.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Mapaneru ebhaa yeparutivi yewebhusaiti</translation>
+    </message>
 </context>
 </TS>

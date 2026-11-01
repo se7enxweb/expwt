@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Visi kadri tiek rādīti.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Vietnes sānjoslas paneļi</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Kurus vietnes sānjoslas paneļus lomas lietotāji redz un kādā secībā, katram siteaccess. Ko lietotāji drīkst darīt, joprojām nosaka viņu lomu politikas: paslēpts panelis vienkārši netiek rādīts.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Sānjosla ieslēgta</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Sānjosla izslēgta</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Loma</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Rādīt</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Šos iestatījumus vietnei %siteaccess nosaka cits iestatījumu fails: šeit saglabātais stājas spēkā tikai bez tā.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Nesaglabātas izmaiņas: saglabājiet tās vai pametiet lapu.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Panelis</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Redzams</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Secība</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Vienmēr redzams</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Saglabāt</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Noņemt šīs lomas paneļus</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Lomas ar saviem paneļiem</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Lietotājs ar vairākām no šīm lomām saņem pirmās secību; panelis paliek redzams, ja kāda no lietotāja lomām to rāda.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Šeit nevienai lomai nav savu paneļu: katrs lietotājs redz paneļus pašas sānjoslas secībā.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Vēsture</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Faila %file iepriekšējās versijas, saglabātas pirms katras izmaiņas.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Spēkā līdz</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Iepriekšējo versiju vēl nav.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Nav saglabāts: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Nekas nav mainīts.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Saglabāts failā %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Atjaunoti versijas %time paneļi.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Vietnes sānjoslas paneļi</translation>
+    </message>
 </context>
 </TS>

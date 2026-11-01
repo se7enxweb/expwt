@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Buot rámmat čájehuvvojit.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Neahttabáikki bálddasstoalpu panelat</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Guđe neahttabáikki bálddasstoalpu panelaid ovtta rolla geavaheaddjit oidnet, ja makkár ortnegis, juohke siteaccess várás. Maid geavaheaddjit besset dahkat, mearridit ain sin rollaid njuolggadusat: čihkkojuvvon panela dušše ii čájehuvvo.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Bálddasstoalpu lea alde</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Bálddasstoalpu lea jaddaduvvon</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rolla</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Čájet</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Eará heivehusfiila mearrida dáid heivehusaid %siteaccess várás: dat mii vurkejuvvo dáppe, doaibmá dušše dan haga.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Vurkekeahtes rievdadusat: vurke daid dahje guođe siiddu.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Panela</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Čájehuvvo</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Ortnet</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Čájehuvvo álo</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Vurke</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Sihko dán rolla panelaid</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Rollat main leat iežaset panelat</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Geavaheaddji geas leat máŋga dáin rollain oažžu vuosttaš rolla ortnega; panela čájehuvvo ain go okta geavaheaddji rollain čájeha dan.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Dáppe ii leat ovttage rollas iežas panelat: juohke geavaheaddji oaidná panelaid bálddasstoalpu iežas ortnegis.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historjá</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>%file ovddit veršuvnnat, vurkejuvvon ovdal juohke rievdadusa.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Fámus gitta</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Ii leat vel ovddit veršuvdna.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Ii vurkejuvvon: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Mihkkege ii rievdan.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Vurkejuvvon %file fiilii.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Veršuvnna %time panelat leat máhcahuvvon.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Neahttabáikki bálddasstoalpu panelat</translation>
+    </message>
 </context>
 </TS>

@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Ua hōʻike ʻia nā kiʻi-pā a pau.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Nā papa o ka pā ʻaoʻao o ka pūnaewele</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>ʻO nā papa hea o ka pā ʻaoʻao o ka pūnaewele e ʻike ai nā mea hoʻohana o kekahi kūlana, a ma ke kaʻina hea, no kēlā me kēia komo pūnaewele. Noho nō ka mea e ʻae ʻia ai nā mea hoʻohana e hana me nā kulekele o ko lākou mau kūlana: ʻaʻole wale e hōʻike ʻia kahi papa hūnā ʻia.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Komo pūnaewele</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Pā ʻaoʻao ʻā</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Pā ʻaoʻao pio</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Kūlana</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Hōʻike</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Na kekahi faila hoʻonohonoho ʻē aʻe e hoʻoholo i kēia mau hoʻonohonoho no %siteaccess: hana wale ka mea i mālama ʻia ma ʻaneʻi inā ʻaʻohe ia.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Nā loli i mālama ʻole ʻia: e mālama iā lākou a i ʻole e haʻalele i ka ʻaoʻao.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Papa</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Hōʻike ʻia</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Kaʻina</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Hōʻike mau ʻia</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Mālama</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Wehe i nā papa o kēia kūlana</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Nā kūlana me ko lākou mau papa ponoʻī</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Loaʻa i ka mea hoʻohana me kekahi mau kūlana o kēia ke kaʻina o ka mua; noho hōʻike ʻia kahi papa ke hōʻike kekahi kūlana o ka mea hoʻohana iā ia.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>ʻAʻohe kūlana me kona mau papa ponoʻī ma ʻaneʻi: ʻike nā mea hoʻohana a pau i nā papa ma ke kaʻina ponoʻī o ka pā ʻaoʻao.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Mōʻaukala</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Nā mana mua o %file, i mālama ʻia ma mua o kēlā me kēia loli.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Ma ka mana a hiki i</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>ʻAʻohe mana mua i kēia manawa.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>ʻAʻole i mālama ʻia: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>ʻAʻohe mea i loli.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Ua mālama ʻia ma %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Ua hoʻihoʻi ʻia nā papa o ka mana o %time.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Nā papa o ka pā ʻaoʻao o ka pūnaewele</translation>
+    </message>
 </context>
 </TS>

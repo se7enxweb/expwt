@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Rodomi visi rėmeliai.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Svetainės šoninės juostos skydeliai</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Kuriuos svetainės šoninės juostos skydelius mato vaidmens naudotojai ir kokia tvarka, kiekvienai siteaccess. Ką naudotojai gali daryti, ir toliau lemia jų vaidmenų politikos: paslėptas skydelis tiesiog nerodomas.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Šoninė juosta įjungta</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Šoninė juosta išjungta</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Vaidmuo</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Rodyti</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Šiuos %siteaccess nustatymus lemia kitas nustatymų failas: tai, kas išsaugota čia, galioja tik be jo.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Neišsaugoti pakeitimai: išsaugokite juos arba palikite puslapį.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Skydelis</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Rodomas</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Tvarka</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Visada rodomas</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Išsaugoti</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Pašalinti šio vaidmens skydelius</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Vaidmenys su savais skydeliais</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Naudotojas, turintis kelis iš šių vaidmenų, gauna pirmojo tvarką; skydelis lieka rodomas, jei jį rodo bent vienas naudotojo vaidmuo.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Čia jokis vaidmuo neturi savų skydelių: kiekvienas naudotojas mato skydelius pačios šoninės juostos tvarka.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Istorija</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Ankstesnės %file versijos, išsaugotos prieš kiekvieną pakeitimą.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Galiojo iki</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Ankstesnių versijų dar nėra.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Neišsaugota: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Niekas nepakeista.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Išsaugota į %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Atkurti %time versijos skydeliai.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Svetainės šoninės juostos skydeliai</translation>
+    </message>
 </context>
 </TS>

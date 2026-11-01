@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

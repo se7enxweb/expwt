@@ -127,6 +127,24 @@
   };
   window.ExpwtKeys = Keys;
 
+  /* The panel order and visibility of the user's roles (E9, boot.panels: order, hidden; set in Setup > Website sidebar
+     panels): the panels the rule orders first in its order, then the others in the sidebar's own order, without the
+     hidden ones. Page and Me are never hidden, and the list never ends up empty. As expwtRolePanels::apply(). */
+  var PanelOrder = {
+    always: ['page', 'me'],
+    apply: function (list, rule) {
+      if (!rule || !Array.isArray(rule.order) || !Array.isArray(rule.hidden)) { return list; }
+      var shown = list.filter(function (p) { return rule.hidden.indexOf(p.id) < 0 || PanelOrder.always.indexOf(p.id) >= 0; });
+      if (!shown.length) { shown = list.slice(); }
+      var byId = {};
+      shown.forEach(function (p) { byId[p.id] = p; });
+      var first = [];
+      rule.order.forEach(function (id) { if (byId[id] && first.indexOf(byId[id]) < 0) { first.push(byId[id]); } });
+      return first.concat(shown.filter(function (p) { return first.indexOf(p) < 0; }));
+    }
+  };
+  window.ExpwtPanelOrder = PanelOrder;
+
   /* a node into a parent: moveBefore() keeps a frame's page as it is (no reload) where the browser has it */
   function move(parent, node, before) {
     if (typeof parent.moveBefore === 'function' && node.isConnected && parent.isConnected && node.getRootNode() === parent.getRootNode()) {
@@ -637,7 +655,8 @@
         var at = list.map(function (x) { return x.id; }).indexOf(p.before);
         list.splice(at < 0 ? list.length : at, 0, { id: p.id, label: p.label });
       });
-      return list;
+      /* the order and visibility of the user's roles on this siteaccess (E9) */
+      return PanelOrder.apply(list, this.boot && this.boot.panels);
     }
 
     /* The number of notifications (F29: approvals waiting for the user, comments and mentions, publish results, failed

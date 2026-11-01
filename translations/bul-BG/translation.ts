@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Всички рамки са показани.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Панели на страничната лента на сайта</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Кои панели от страничната лента на сайта виждат потребителите на дадена роля и в какъв ред, за всеки достъп до сайта. Какво могат да правят потребителите остава в политиките на техните роли: скритият панел просто не се показва.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Достъп до сайта</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Странична лента включена</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Странична лента изключена</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Роля</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Покажи</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Друг файл с настройки определя тези настройки за %siteaccess: запазеното тук действа само без него.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Незапазени промени: запазете ги или напуснете страницата.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Панел</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Показан</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Ред</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Винаги показан</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Запази</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Премахни панелите на тази роля</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Роли със собствени панели</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Потребител с няколко от тези роли получава реда на първата; панелът остава показан, ако една от ролите на потребителя го показва.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Тук никоя роля няма собствени панели: всеки потребител вижда панелите в собствения ред на страничната лента.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>История</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>По-ранни версии на %file, запазени преди всяка промяна.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>В сила до</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Все още няма по-ранни версии.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Не е запазено: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Нищо не е променено.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Запазено в %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Възстановени са панелите на версията от %time.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Панели на страничната лента на сайта</translation>
+    </message>
 </context>
 </TS>

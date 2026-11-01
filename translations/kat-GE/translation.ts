@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>ყველა ჩარჩო ნაჩვენებია.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>საიტის გვერდითი პანელის პანელები</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>რომელ პანელებს ხედავენ როლის მომხმარებლები საიტის გვერდით პანელზე და რა თანმიმდევრობით, თითოეული siteaccess-ისთვის. რისი გაკეთება შეუძლიათ მომხმარებლებს, ისევ მათი როლების პოლიტიკები განსაზღვრავს: დამალული პანელი უბრალოდ არ ჩანს.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>გვერდითი პანელი ჩართულია</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>გვერდითი პანელი გამორთულია</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>როლი</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ჩვენება</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>ამ პარამეტრებს %siteaccess-ისთვის სხვა პარამეტრების ფაილი განსაზღვრავს: აქ შენახული მხოლოდ მის გარეშე ამოქმედდება.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>შეუნახავი ცვლილებები: შეინახეთ ან დატოვეთ გვერდი.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>პანელი</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>ჩანს</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>თანმიმდევრობა</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>ყოველთვის ჩანს</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>შენახვა</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>ამ როლის პანელების წაშლა</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>როლები საკუთარი პანელებით</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>მომხმარებელი, რომელსაც ამ როლებიდან რამდენიმე აქვს, პირველის თანმიმდევრობას იღებს; პანელი ჩანს, თუ მას მომხმარებლის ერთ-ერთი როლი აჩვენებს.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>აქ არცერთ როლს არ აქვს საკუთარი პანელები: ყველა მომხმარებელი პანელებს გვერდითი პანელის საკუთარი თანმიმდევრობით ხედავს.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>ისტორია</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>%file-ის წინა ვერსიები, შენახული ყოველი ცვლილების წინ.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>მოქმედების ბოლო თარიღი</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>წინა ვერსიები ჯერ არ არის.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>არ შეინახა: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>არაფერი შეცვლილა.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>შენახულია %file-ში.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>აღდგენილია %time-ის ვერსიის პანელები.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>საიტის გვერდითი პანელის პანელები</translation>
+    </message>
 </context>
 </TS>

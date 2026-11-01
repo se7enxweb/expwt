@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Паказаны ўсе рамкі.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Панэлі бакавой панэлі сайта</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Якія панэлі бакавой панэлі сайта бачаць карыстальнікі ролі і ў якім парадку, для кожнага доступу да сайта. Што карыстальнікам дазволена рабіць, вызначаюць палітыкі іх роляў: схаваная панэль проста не паказваецца.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Доступ да сайта</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Бакавая панэль уключана</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Бакавая панэль выключана</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Роля</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Паказаць</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Іншы файл налад вызначае гэтыя налады для %siteaccess: захаванае тут дзейнічае толькі без яго.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Незахаваныя змены: захавайце іх або пакіньце старонку.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Панэль</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Паказваецца</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Парадак</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Паказваецца заўсёды</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Захаваць</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Выдаліць панэлі гэтай ролі</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Ролі з уласнымі панэлямі</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Карыстальнік з некалькімі з гэтых роляў атрымлівае парадак першай; панэль паказваецца, калі яе паказвае адна з роляў карыстальніка.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Тут ніводная роля не мае ўласных панэляў: кожны карыстальнік бачыць панэлі ва ўласным парадку бакавой панэлі.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Гісторыя</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Ранейшыя версіі %file, захаваныя перад кожнай зменай.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Дзейнічала да</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Ранейшых версій пакуль няма.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Не захавана: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Нічога не змянілася.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Захавана ў %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Адноўлены панэлі версіі ад %time.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Панэлі бакавой панэлі сайта</translation>
+    </message>
 </context>
 </TS>

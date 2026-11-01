@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>모든 프레임이 보입니다.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>웹사이트 옆창의 패널</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>사이트접근마다 역할의 사용자들이 웹사이트 옆창의 어떤 패널을 어떤 순서로 보는가를 정합니다. 사용자들이 무엇을 할수 있는가는 계속 역할의 정책에 따릅니다. 숨긴 패널은 보이지 않을뿐입니다.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>사이트접근</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>옆창 켜기</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>옆창 끄기</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>역할</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>보기</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>다른 설정파일이 %siteaccess의 이 설정을 정합니다. 여기에 보관한것은 그 파일이 없을 때에만 효력을 가집니다.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>보관하지 않은 변경: 보관하거나 페지를 떠나십시오.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>패널</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>보임</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>순서</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>항상 보임</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>보관</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>이 역할의 패널 삭제</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>자체 패널이 있는 역할</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>이 역할들중 여러개를 가진 사용자는 첫번째 역할의 순서를 받습니다. 사용자의 역할중 하나가 보여주면 패널은 계속 보입니다.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>여기에는 자체 패널을 가진 역할이 없습니다. 모든 사용자는 옆창 자체의 순서로 패널을 봅니다.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>력사</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>변경할 때마다 그전에 보관한 %file의 이전 버전.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>효력 마감일</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>아직 이전 버전이 없습니다.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>보관하지 못했습니다: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>변경된것이 없습니다.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>%file에 보관했습니다.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>%time 버전의 패널을 복구했습니다.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>웹사이트 옆창의 패널</translation>
+    </message>
 </context>
 </TS>

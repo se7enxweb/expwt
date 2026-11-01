@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Εμφανίζονται όλα τα πλαίσια.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Πλαίσια πλαϊνής στήλης ιστότοπου</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Ποια πλαίσια της πλαϊνής στήλης του ιστότοπου βλέπουν οι χρήστες ενός ρόλου και με ποια σειρά, ανά πρόσβαση ιστότοπου. Το τι επιτρέπεται στους χρήστες παραμένει στις πολιτικές των ρόλων τους: ένα κρυφό πλαίσιο απλώς δεν εμφανίζεται.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Πρόσβαση ιστότοπου</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Πλαϊνή στήλη ενεργή</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Πλαϊνή στήλη ανενεργή</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Ρόλος</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Εμφάνιση</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Ένα άλλο αρχείο ρυθμίσεων ορίζει αυτές τις ρυθμίσεις για το %siteaccess: ό,τι αποθηκεύεται εδώ ισχύει μόνο χωρίς αυτό.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Μη αποθηκευμένες αλλαγές: αποθηκεύστε τις ή αποχωρήστε από τη σελίδα.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Πλαίσιο</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Εμφανίζεται</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Σειρά</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Εμφανίζεται πάντα</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Αποθήκευση</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Αφαίρεση των πλαισίων αυτού του ρόλου</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Ρόλοι με δικά τους πλαίσια</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Ένας χρήστης με πολλούς από αυτούς τους ρόλους παίρνει τη σειρά του πρώτου· ένα πλαίσιο παραμένει ορατό όταν το εμφανίζει ένας από τους ρόλους του χρήστη.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Κανένας ρόλος δεν έχει εδώ δικά του πλαίσια: κάθε χρήστης βλέπει τα πλαίσια με τη σειρά της ίδιας της πλαϊνής στήλης.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Ιστορικό</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Παλαιότερες εκδόσεις του %file, που φυλάσσονται πριν από κάθε αλλαγή.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Σε ισχύ έως</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Δεν υπάρχουν ακόμη παλαιότερες εκδόσεις.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Δεν αποθηκεύτηκε: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Δεν άλλαξε τίποτα.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Αποθηκεύτηκε στο %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Επαναφέρθηκαν τα πλαίσια της έκδοσης της %time.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Πλαίσια πλαϊνής στήλης ιστότοπου</translation>
+    </message>
 </context>
 </TS>

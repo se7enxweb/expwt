@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Shfaqen të gjitha kornizat.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Panelet e shiritit anësor të sajtit</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Cilat panele të shiritit anësor të sajtit shohin përdoruesit e një roli, dhe në çfarë rendi, për çdo siteaccess. Çfarë mund të bëjnë përdoruesit vazhdojnë ta përcaktojnë politikat e roleve të tyre: një panel i fshehur thjesht nuk shfaqet.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Shiriti anësor aktiv</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Shiriti anësor joaktiv</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Roli</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Shfaq</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Një skedar tjetër cilësimesh i përcakton këto cilësime për %siteaccess: ajo që ruhet këtu ka efekt vetëm pa të.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Ndryshime të paruajtura: ruajini ose largohuni nga faqja.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Paneli</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>I shfaqur</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Renditja</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Gjithmonë i shfaqur</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Ruaj</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Hiq panelet e këtij roli</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Role me panelet e veta</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Një përdorues me disa nga këto role merr renditjen e të parit; një panel mbetet i shfaqur kur e shfaq një nga rolet e përdoruesit.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Këtu asnjë rol nuk ka panelet e veta: çdo përdorues i sheh panelet në renditjen e vetë shiritit anësor.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historiku</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Versione të mëparshme të %file, të ruajtura para çdo ndryshimi.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Në fuqi deri më</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Ende nuk ka versione të mëparshme.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Nuk u ruajt: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Asgjë nuk ndryshoi.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>U ruajt në %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>U rikthyen panelet e versionit të %time.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Panelet e shiritit anësor të sajtit</translation>
+    </message>
 </context>
 </TS>

@@ -228,6 +228,53 @@ language). If the window closed, the connection dropped or the browser crashed b
 **Restore** (puts the text back and saves it to the draft) and **Discard**. A field someone else changed on the server
 in the meantime goes through the field by field merge (above). Publishing or discarding the draft removes the copy.
 
+### Panels per role (Setup > Website sidebar panels)
+
+Administrators decide, per siteaccess and role, which panels of the sidebar the users of a role see and in which
+order: **Setup > Website sidebar panels** (`expwt/panels`). Pick the siteaccess (the site's siteaccesses, each marked
+"Sidebar on" or "Sidebar off"; administrations are not listed) and the role, then:
+
+- tick **Shown** for the panels the role's users see, and move a panel with the up and down buttons; **Save** writes
+  it. Page and Me are always shown (Page is where editing on the page lands, Me holds the preferences and signing out).
+  Panels other extensions register (see "Adding to the sidebar from another extension") are listed with the sidebar's
+  own.
+- **Roles with panels of their own** lists the roles set up on this siteaccess. A user with several of them gets the
+  order of the first one (move a role up or down to change which); a panel stays shown when any of the user's roles in
+  the list shows it, so these settings never take away a panel another role of the same user shows. A user none of
+  whose roles is in the list sees the sidebar's own order. **Remove the panels of this role** returns the role to it.
+- Hiding is the sidebar's look only: what a user may do stays with the policies of their roles. A hidden panel's
+  actions still answer those allowed, and a panel a role's policies do not give is not shown whatever the list says.
+- The settings are written to `settings/siteaccess/<siteaccess>/expwt.ini.append.php` through the kernel's settings
+  editor, as `exp:ini` and Setup > Settings write: only the lines of these settings change, the file is backed up to
+  `var/backup/ini/<time>/` first, the change is audited (`system.setting.write`) and the INI cache is cleared.
+  **History** lists the earlier versions of the file (the last 20 backups) with the roles they had panels for;
+  **Restore** puts the role settings of one back (the rest of the file stays as it is, and the restore makes a backup
+  of its own, so it can be undone the same way).
+- When another settings file decides these settings for the siteaccess (an extension's
+  `settings/expwt.ini.append.php` or `settings/override/expwt.ini.append.php`, read after `settings/siteaccess/`), the
+  screen says so: what is saved there only takes effect without it.
+- Needs `expwt/admin` and the kernel's settings module: `settings/view` to see the screen, `settings/edit` to change
+  anything. The Setup menu shows the link to users with `expwt/admin` and `settings/view`; others are refused.
+
+The settings, for writing them by hand or with `exp:ini`:
+
+```ini
+[RolePanelSettings]
+RoleList[]
+RoleList[]=3                # role ids; the first decides the order
+RoleList[]=4
+
+[RolePanels_3]
+PanelOrder[]
+PanelOrder[]=calendar       # these first, in this order; the rest in the sidebar's own order
+PanelOrder[]=page
+HiddenPanelList[]
+HiddenPanelList[]=seo
+```
+
+The boot answer carries the rule of the user's roles (`panels`: `order`, `hidden`; null without one); the sidebar
+applies it to the tabs it builds (the shortcuts Alt+Shift+1 to 9 follow the new order).
+
 ## Fields and their editors
 
 The Page panel edits every field with the editor the administration has for its datatype; it never shows a field in
@@ -306,7 +353,8 @@ translation whose fields still hold the text of the main language.
 | `expwt/edit` | editing on a draft, preview, the device preview, publishing, soft locks, the SEO check |
 | `expwt/create` | the Create panel |
 | `expwt/structure` | the Structure panel |
-| `expwt/layouts`, `expwt/templates`, `expwt/shop`, `expwt/admin` | the panels of later phases (defined now) |
+| `expwt/admin` | Setup > Website sidebar panels (with the kernel's `settings/view`, and `settings/edit` to change them); the administration's panels of later phases |
+| `expwt/layouts`, `expwt/templates`, `expwt/shop` | the panels of later phases (defined now) |
 | `expwt/insights` | the Insights panel: the page's views and the site's searches for words of its title, from the kernel's own statistics |
 
 The expwt policies decide what the sidebar offers; every action also checks the kernel's policy of what it changes
@@ -360,6 +408,7 @@ sidebar is first opened. The closed tab (script and stylesheet) stays below 50 K
 | `[LockSettings] LockSeconds` | 300 | how long a soft lock lasts without a heartbeat |
 | `[DevicePreviewSettings] DeviceList[]` | iPhone 13, Pixel 7, tablet, 1920 at 200% zoom, desktop | the frames of the device preview, each `id;name;width;height` (CSS pixels, 240 to 2560 wide, 240 to 2400 high); the name is translated where the sidebar's catalogue has it |
 | `ShownDeviceList[]` | (empty) | the frames shown when the preview first opens in a browser (ids of `DeviceList[]`); empty: all of them. After that the browser remembers the toggles |
+| `[RolePanelSettings] RoleList[]`, `[RolePanels_<role id>] PanelOrder[]`, `HiddenPanelList[]` | (not set) | the panels per role, set in Setup > Website sidebar panels per siteaccess (see "Panels per role"); never set them in an extension's settings, which would decide for every siteaccess |
 | `[Comments] HideNew` | disabled | enabled: a comment (expservices.ini `[Community] CommentClass`, else `comment`) published for the first time is hidden right after publishing when its creator may not approve it (no `content/hide` of the comment); the Page panel lists it as waiting for moderation and **Approve** reveals it. Done by expwt's content edit handler (content.ini `[EditSettings] ExtensionDirectories[]=expwt`), which the kernel calls in every publish operation (the web, commands, cronjobs, workflows), through the kernel's hide; no workflow to set up |
 
 ## Adding to the sidebar from another extension

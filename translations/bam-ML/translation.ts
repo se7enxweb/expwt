@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Kadiriw bɛɛ jirala.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Siti kɛrɛfɛ barakɛlan panow</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Siti kɛrɛfɛ barakɛlan pan minnu bɛ jɔyɔrɔ dɔ ka baarakɛlaw ye, ani ɲɔgɔn kɔ cogo min na, siti donda kelen kelen bɛɛ la. Baarakɛlaw bɛ se ka min kɛ, o bɛ u ka jɔyɔrɔw ka sariyaw la: pan dogolen tɛ jira dɔrɔn.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siti donda</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Kɛrɛfɛ barakɛlan bɛ yen</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Kɛrɛfɛ barakɛlan tɛ yen</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Jɔyɔrɔ</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>A jira</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Labɛnni sɛbɛn wɛrɛ de bɛ nin labɛnniw latigɛ %siteaccess kama: min marala yan, o bɛ baara a tɛ yen tuma dɔrɔn.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Fɛn yɛlɛmana minnu ma mara: u mara walima ka bɔ ɲɛ in kan.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Pan</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>A bɛ jira</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Ɲɔgɔn kɔ cogo</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>A bɛ jira tuma bɛɛ</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>A mara</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Nin jɔyɔrɔ ka panow bɔ</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Jɔyɔrɔ minnu yɛrɛ ka panow bɛ yen</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Baarakɛla min ka nin jɔyɔrɔ caman bɛ yen, o bɛ fɔlɔ ta ɲɔgɔn kɔ cogo sɔrɔ; pan bɛ to ka jira ni baarakɛla ka jɔyɔrɔ kelen b'a jira.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Jɔyɔrɔ si yɛrɛ ka panow tɛ yan: baarakɛla bɛɛ bɛ panow ye kɛrɛfɛ barakɛlan yɛrɛ ka ɲɔgɔn kɔ cogo la.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Tariku</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>%file ka kɔrɔ kɔrɔw, minnu marala yɛlɛma o yɛlɛma ɲɛ.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>A tun bɛ baara fo</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Kɔrɔ si tɛ yen fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>A ma mara: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Foyi ma yɛlɛma.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>A marala %file kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>%time ka kɔrɔ panow seginna.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Siti kɛrɛfɛ barakɛlan panow</translation>
+    </message>
 </context>
 </TS>

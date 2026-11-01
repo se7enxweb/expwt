@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Alla ramar visas.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Paneler i webbplatsens sidofält</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Vilka paneler i webbplatsens sidofält användarna i en roll ser, och i vilken ordning, per siteaccess. Vad användarna får göra styrs fortfarande av rollernas policyer: en dold panel visas bara inte.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Sidofält på</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Sidofält av</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Roll</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Visa</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>En annan inställningsfil bestämmer de här inställningarna för %siteaccess: det som sparas här gäller bara utan den.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Osparade ändringar: spara dem eller lämna sidan.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Panel</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Visas</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Ordning</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Visas alltid</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Spara</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Ta bort panelerna för den här rollen</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Roller med egna paneler</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>En användare med flera av de här rollerna får den förstas ordning; en panel fortsätter att visas när en av användarens roller visar den.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Ingen roll har egna paneler här: alla användare ser panelerna i sidofältets egen ordning.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historik</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Tidigare versioner av %file, sparade före varje ändring.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Gällde till</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Inga tidigare versioner ännu.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Inte sparat: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Inget ändrades.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Sparat i %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Panelerna från versionen från %time har återställts.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Paneler i webbplatsens sidofält</translation>
+    </message>
 </context>
 </TS>

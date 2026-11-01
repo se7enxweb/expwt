@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Hemû çarçove tên nîşandan.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Panelên darika kêlekê ya malperê</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Bikarhênerên rolekê ji bo her siteaccessê kîjan panelên darika kêlekê ya malperê û bi kîjan rêzê dibînin. Tiştê ku bikarhêner dikarin bikin hîn bi polîtîkayên rolên wan ve girêdayî ye: panelek veşartî tenê nayê nîşandan.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Darika kêlekê vekirî</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Darika kêlekê girtî</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rol</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Nîşan bide</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Pelek din a mîhengan van mîhengan ji bo %siteaccess diyar dike: tiştê ku li vir tê tomarkirin tenê bêyî wê bandor dike.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Guhertinên netomarkirî: wan tomar bike an ji rûpelê derkeve.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Panel</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Xuya ye</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Rêz</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Her tim xuya ye</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Tomar bike</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Panelên vê rolê rake</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Rolên bi panelên xwe</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Bikarhênerê ku çend ji van rolan hene rêza ya yekem distîne; panelek xuya dimîne heke yek ji rolên bikarhêner wê nîşan bide.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Li vir tu rol xwedî panelên xwe nîne: her bikarhêner panelan bi rêza darika kêlekê bi xwe dibîne.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Dîrok</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Guhertoyên berê yên %file, berî her guhertinê hatine parastin.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Derbasdar heta</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Hîn guhertoyên berê tune ne.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Nehat tomarkirin: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Tiştek nehat guhertin.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Li %file hat tomarkirin.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Panelên guhertoya %time hatin vegerandin.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Panelên darika kêlekê ya malperê</translation>
+    </message>
 </context>
 </TS>

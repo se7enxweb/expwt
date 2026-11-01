@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Akk iɣraben ttwaskanen.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Igalisen n ufeggag n yidis n usmel web</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Anwi igalisen n ufeggag n yidis n usmel i walan iseqdacen n tmlilt, s wacu n umizwer, i yal siteaccess. Ayen i zemren ad t-xedmen iseqdacen yeqqim ɣer tsertiyin n temlilin-nsen: agalis yeffren ur d-yettban ara kan.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Afeggag n yidis yermed</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Afeggag n yidis yensa</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Tamlilt</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Sken</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Afaylu-nniḍen n yiɣewwaren i yettḥeddiden iɣewwaren-a i %siteaccess: ayen yettwaskelsen dagi ad yeddu kan war-s.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Isnifal ur yettwaskelsen ara: sekles-iten neɣ ffeɣ seg usebter.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Agalis</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Yettban</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Amizwer</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Yettban yal tikkelt</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Sekles</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Kkes igalisen n tmlilt-a</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Timlilin s yigalisen-nsent</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Aseqdac yesɛan aṭas seg temlilin-a ad yawi amizwer n tamezwarut; agalis ad yeqqim yettban ma yella yiwet seg temlilin n useqdac tesskan-it.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Ulac tamlilt s yigalisen-is dagi: yal aseqdac ad iwali igalisen s umizwer n ufeggag n yidis.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Amazray</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Ileqman yezrin n %file, yettwaḥerzen send yal asnifel.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Iteddu alamma</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Ulac ileqman yezrin akka tura.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Ur yettwasekles ara: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Ulac ayen yettusnifel.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Yettwasekles ɣer %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Igalisen n lqem n %time ttwarran-d.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Igalisen n ufeggag n yidis n usmel web</translation>
+    </message>
 </context>
 </TS>

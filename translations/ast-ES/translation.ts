@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Amuésense tolos marcos.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Paneles de la barra llateral del sitiu web</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Qué paneles de la barra llateral del sitiu web ven los usuarios d'un rol, y en qué orde, per accesu al sitiu. Lo que los usuarios puen facer sigue nes polítiques de los sos roles: un panel tapecíu namás nun se amuesa.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Accesu al sitiu</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Barra llateral activada</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Barra llateral desactivada</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rol</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Amosar</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Otru ficheru d'axustes decide estos axustes pa %siteaccess: lo que se guarda equí namás fai efeutu ensin él.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Cambeos ensin guardar: guárdalos o dexa la páxina.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Panel</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Amosáu</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Orde</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Siempre amosáu</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Guardar</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Desaniciar los paneles d'esti rol</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Roles con paneles propios</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Un usuariu con dellos d'estos roles tien l'orde del primeru; un panel sigue amosáu cuando unu de los roles del usuariu lu amuesa.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Equí nengún rol tien paneles propios: tolos usuarios ven los paneles nel orde propiu de la barra llateral.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historial</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Versiones anteriores de %file, guardaes enantes de cada cambéu.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>En vigor hasta</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Entá nun hai versiones anteriores.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Nun se guardó: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Nun camudó nada.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Guardáu en %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Restauráronse los paneles de la versión de %time.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Paneles de la barra llateral del sitiu web</translation>
+    </message>
 </context>
 </TS>

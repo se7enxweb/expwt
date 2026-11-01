@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Frame ciothe nī ciraonanio.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Mbaũ cia sidebar ya website</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Nĩ mbaũ irĩkũ cia sidebar ya website iria atũmĩri a wĩra ũmwe moonaga, na kũringana na mũtaratara ũrĩkũ, kwa o siteaccess. Ũrĩa atũmĩri mangĩhota gwĩka gũtũũraga kũringana na mawatho ma mawĩra mao: mbaũ ĩhithĩtwo no ĩtionanagio.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Sidebar ĩhingũrĩtwo</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Sidebar ĩhingĩtwo</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Wĩra</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Onania</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Faĩlo ĩngĩ ya mabangĩ nĩyo ĩtuaga mabangĩ macio ma %siteaccess: kĩrĩa kĩigĩtwo haha kĩrutaga wĩra o rĩrĩa ĩtarĩ ho.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Mĩgarũrũko ĩtaigĩtwo: ĩige kana ũtige karatathi gaka.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Mbaũ</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Nĩĩonekaga</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Mũtaratara</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Ĩonekaga hĩndĩ ciothe</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Iga</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Ehera mbaũ cia wĩra ũyũ</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Mawĩra marĩ na mbaũ ciao ene</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Mũtũmĩri ũrĩ na mawĩra maingĩ ma maya aheagwo mũtaratara wa wa mbere; mbaũ ĩtũũraga yonekaga rĩrĩa wĩra ũmwe wa mũtũmĩri ũrĩonania.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Gũkũ gũtirĩ wĩra ũrĩ na mbaũ ciaguo: o mũtũmĩri onaga mbaũ kũringana na mũtaratara wa sidebar ĩyo yene.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historĩ</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Verisio cia tene cia %file, iria ciigagwo mbere ya o mũgarũrũko.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Yarũmĩrĩtwo nginya</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Gũtirĩ verisio cia tene rĩu.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Ndĩigĩtwo: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Gũtirĩ kĩagarũrũka.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Nĩĩigĩtwo kũrĩ %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Mbaũ cia verisio ya %time nĩcicookio.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Mbaũ cia sidebar ya website</translation>
+    </message>
 </context>
 </TS>

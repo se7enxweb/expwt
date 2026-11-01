@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>All di frame dey show.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Website sidebar panels</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Which panels for the website sidebar the users of one role dey see, and for which order, for each siteaccess. Wetin users fit do still dey follow the policies of their roles: panel wey dem hide just no dey show.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Sidebar dey on</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Sidebar dey off</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Role</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Show am</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Another settings file dey decide these settings for %siteaccess: wetin you save here go only work if that file no dey.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Changes wey you never save: save dem or comot from the page.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Panel</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>E dey show</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Order</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>E dey show every time</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Save</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Comot the panels of this role</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Roles wey get their own panels</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>User wey get plenty of these roles go get the order of the first one; panel go still show if one of the user roles show am.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>No role get im own panels here: every user dey see the panels for the sidebar own order.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>History</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Old versions of %file, wey we keep before every change.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>E dey work until</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>No old version yet.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>E no save: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Nothing change.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>E don save for %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Don bring back the panels of the version of %time.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Website sidebar panels</translation>
+    </message>
 </context>
 </TS>

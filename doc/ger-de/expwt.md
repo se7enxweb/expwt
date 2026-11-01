@@ -250,6 +250,58 @@ Text wieder ein und speichert ihn in den Entwurf) und **Verwerfen**. Ein Feld, d
 Server geändert hat, geht durch die Zusammenführung Feld für Feld (oben). Veröffentlichen oder Verwerfen des Entwurfs
 entfernt die Kopie.
 
+### Bereiche je Rolle (Setup > Bereiche der Website-Seitenleiste)
+
+Administratoren legen je Siteaccess und Rolle fest, welche Bereiche der Seitenleiste die Benutzer einer Rolle sehen und
+in welcher Reihenfolge: **Setup > Bereiche der Website-Seitenleiste** (`expwt/panels`). Siteaccess (die Siteaccesses der Website, jeweils mit
+„Seitenleiste an" oder „Seitenleiste aus" markiert; Administrationen stehen nicht in der Liste) und Rolle wählen, dann:
+
+- **Angezeigt** ankreuzen für die Bereiche, die die Benutzer der Rolle sehen, und einen Bereich mit den Pfeilen nach
+  oben oder unten verschieben; **Speichern** schreibt es. Seite und Ich werden immer angezeigt (in Seite landet das
+  Bearbeiten auf der Seite, Ich enthält die Einstellungen und die Abmeldung). Bereiche, die andere Erweiterungen
+  registrieren (siehe „Erweiterungen fügen der Seitenleiste etwas hinzu"), stehen mit in der Liste.
+- **Rollen mit eigenen Bereichen** listet die Rollen, die in diesem Siteaccess eingerichtet sind. Ein Benutzer mit mehreren davon bekommt
+  die Reihenfolge der ersten (eine Rolle nach oben oder unten verschieben ändert, welche das ist); ein Bereich bleibt
+  sichtbar, wenn eine der Rollen des Benutzers in der Liste ihn zeigt. Diese Einstellungen nehmen also nie einen
+  Bereich weg, den eine andere Rolle desselben Benutzers zeigt. Ein Benutzer, von dessen Rollen keine in der Liste
+  steht, sieht die eigene Reihenfolge der Seitenleiste. **Bereiche dieser Rolle entfernen** stellt die Rolle darauf zurück.
+- Ausblenden betrifft nur das Aussehen der Seitenleiste: Was ein Benutzer tun darf, bestimmen weiter die Policies
+  seiner Rollen. Die Aktionen eines ausgeblendeten Bereichs antworten denen, die sie dürfen, weiter, und ein Bereich,
+  den die Policies einer Rolle nicht geben, erscheint nicht, was auch immer die Liste sagt.
+- Die Einstellungen werden über den Einstellungseditor des Kernels in
+  `settings/siteaccess/<siteaccess>/expwt.ini.append.php` geschrieben, so wie `exp:ini` und Setup > Einstellungen
+  schreiben: Nur die Zeilen dieser Einstellungen ändern sich, die Datei wird vorher nach `var/backup/ini/<Zeit>/`
+  gesichert, die Änderung wird protokolliert (`system.setting.write`) und der INI-Cache geleert. **Verlauf**
+  listet die früheren Fassungen der Datei (die letzten 20 Sicherungen) mit den Rollen, für die sie Bereiche hatten;
+  **Wiederherstellen** stellt deren Rolleneinstellungen wieder her (der Rest der Datei bleibt, wie er ist, und die
+  Wiederherstellung legt selbst eine Sicherung an, lässt sich also genauso rückgängig machen).
+- Bestimmt eine andere Einstellungsdatei diese Einstellungen für den Siteaccess (die
+  `settings/expwt.ini.append.php` einer Erweiterung oder `settings/override/expwt.ini.append.php`, die nach
+  `settings/siteaccess/` gelesen werden), sagt die Seite es: Was dort gespeichert wird, wirkt erst ohne sie.
+- Braucht `expwt/admin` und das Einstellungsmodul des Kernels: `settings/view`, um die Seite zu sehen, `settings/edit`,
+  um etwas zu ändern. Das Setup-Menü zeigt den Link Benutzern mit `expwt/admin` und `settings/view`; alle anderen
+  werden abgewiesen.
+
+Die Einstellungen, um sie von Hand oder mit `exp:ini` zu schreiben:
+
+```ini
+[RolePanelSettings]
+RoleList[]
+RoleList[]=3                # Rollen-IDs; die erste bestimmt die Reihenfolge
+RoleList[]=4
+
+[RolePanels_3]
+PanelOrder[]
+PanelOrder[]=calendar       # diese zuerst, in dieser Reihenfolge; der Rest in der eigenen Reihenfolge der Seitenleiste
+PanelOrder[]=page
+HiddenPanelList[]
+HiddenPanelList[]=seo
+```
+
+Die Startantwort enthält die Regel der Rollen des Benutzers (`panels`: `order`, `hidden`; null ohne eine); die
+Seitenleiste wendet sie auf die Reiter an, die sie baut (die Tastenkürzel Alt+Umschalt+1 bis 9 folgen der neuen
+Reihenfolge).
+
 ## Felder und ihre Editoren
 
 Der Bereich „Seite" bearbeitet jedes Feld mit dem Editor, den die Administration für seinen Datentyp hat; er zeigt nie
@@ -333,7 +385,8 @@ neue Übersetzung, deren Felder noch den Text der Hauptsprache enthalten.
 | `expwt/edit` | Bearbeiten im Entwurf, Vorschau, die Gerätevorschau, Veröffentlichen, weiche Sperren, die SEO-Prüfung |
 | `expwt/create` | den Bereich Anlegen |
 | `expwt/structure` | den Bereich Struktur |
-| `expwt/layouts`, `expwt/templates`, `expwt/shop`, `expwt/admin` | die Bereiche späterer Phasen (schon jetzt definiert) |
+| `expwt/admin` | Setup > Bereiche der Website-Seitenleiste (mit `settings/view` des Kernels, und `settings/edit`, um sie zu ändern); die Verwaltungsbereiche späterer Phasen |
+| `expwt/layouts`, `expwt/templates`, `expwt/shop` | die Bereiche späterer Phasen (schon jetzt definiert) |
 | `expwt/insights` | der Bereich „Einblicke": die Aufrufe der Seite und die Suchen der Website nach Wörtern ihres Titels, aus den eigenen Statistiken des Kernels |
 
 Die Policies von expwt entscheiden, was die Seitenleiste anbietet; jede Aktion prüft zusätzlich die Policy des Kernels
@@ -389,6 +442,7 @@ Stylesheet) bleibt unter 50 KB gzip; ein Test hält ihn dort.
 | `[LockSettings] LockSeconds` | 300 | wie lange eine weiche Sperre ohne Lebenszeichen hält |
 | `[DevicePreviewSettings] DeviceList[]` | iPhone 13, Pixel 7, Tablet, 1920 bei 200 % Zoom, Desktop | die Rahmen der Gerätevorschau, je `id;Name;Breite;Höhe` (CSS-Pixel, 240 bis 2560 breit, 240 bis 2400 hoch); der Name wird übersetzt, wo der Katalog der Seitenleiste ihn hat |
 | `ShownDeviceList[]` | (leer) | die Rahmen, die beim ersten Öffnen der Vorschau in einem Browser gezeigt werden (IDs aus `DeviceList[]`); leer: alle. Danach merkt sich der Browser die Umschalter |
+| `[RolePanelSettings] RoleList[]`, `[RolePanels_<Rollen-ID>] PanelOrder[]`, `HiddenPanelList[]` | (nicht gesetzt) | die Bereiche je Rolle, eingestellt unter Setup > Bereiche der Website-Seitenleiste je Siteaccess (siehe „Bereiche je Rolle"); nie in den Einstellungen einer Erweiterung setzen, die dann für jeden Siteaccess entscheiden würden |
 | `[Comments] HideNew` | disabled | enabled: Ein Kommentar (expservices.ini `[Community] CommentClass`, sonst `comment`), der zum ersten Mal veröffentlicht wird, wird gleich danach verborgen, wenn sein Ersteller ihn nicht freigeben darf (kein `content/hide` des Kommentars); der Bereich Seite listet ihn als wartend auf Moderation, **Freigeben** zeigt ihn. Das erledigt der Inhalts-Bearbeitungs-Handler von expwt (content.ini `[EditSettings] ExtensionDirectories[]=expwt`), den der Kernel in jeder Veröffentlichung aufruft (Web, Befehle, Cronjobs, Workflows), über das Verbergen des Kernels; kein Workflow einzurichten |
 
 ## Erweiterungen fügen der Seitenleiste etwas hinzu

@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Ĉiuj kadroj estas montrataj.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Paneloj de la flanka breto de la retejo</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Kiujn panelojn de la flanka breto de la retejo vidas la uzantoj de rolo, kaj en kiu ordo, po retejalirejo. Kion uzantoj rajtas fari restas en la politikoj de iliaj roloj: kaŝita panelo simple ne montriĝas.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Retejalirejo</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Flanka breto ŝaltita</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Flanka breto malŝaltita</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rolo</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Montri</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Alia agorda dosiero decidas ĉi tiujn agordojn por %siteaccess: kio estas konservita ĉi tie efikas nur sen ĝi.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Nekonservitaj ŝanĝoj: konservu ilin aŭ forlasu la paĝon.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Panelo</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Montrata</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Ordo</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Ĉiam montrata</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Konservi</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Forigi la panelojn de ĉi tiu rolo</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Roloj kun propraj paneloj</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Uzanto kun pluraj el ĉi tiuj roloj ricevas la ordon de la unua; panelo restas montrata, kiam unu el la roloj de la uzanto montras ĝin.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Neniu rolo havas proprajn panelojn ĉi tie: ĉiu uzanto vidas la panelojn en la propra ordo de la flanka breto.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historio</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Pli fruaj versioj de %file, konservitaj antaŭ ĉiu ŝanĝo.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Valida ĝis</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Ankoraŭ neniuj pli fruaj versioj.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Ne konservita: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Nenio ŝanĝiĝis.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Konservita en %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>La paneloj de la versio de %time estis restarigitaj.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Paneloj de la flanka breto de la retejo</translation>
+    </message>
 </context>
 </TS>

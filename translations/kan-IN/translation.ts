@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>ಎಲ್ಲಾ ಫ್ರೇಮ್‌ಗಳನ್ನು ತೋರಿಸಲಾಗುತ್ತಿದೆ.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>ವೆಬ್‌ಸೈಟ್ ಸೈಡ್‌ಬಾರ್ ಫಲಕಗಳು</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>ಪ್ರತಿ siteaccess ಗೆ, ಒಂದು ಪಾತ್ರದ ಬಳಕೆದಾರರು ವೆಬ್‌ಸೈಟ್ ಸೈಡ್‌ಬಾರ್‌ನ ಯಾವ ಫಲಕಗಳನ್ನು ಯಾವ ಕ್ರಮದಲ್ಲಿ ನೋಡುತ್ತಾರೆ. ಬಳಕೆದಾರರು ಏನು ಮಾಡಬಹುದು ಎಂಬುದನ್ನು ಅವರ ಪಾತ್ರಗಳ ನೀತಿಗಳೇ ನಿರ್ಧರಿಸುತ್ತವೆ: ಮರೆಮಾಡಿದ ಫಲಕವನ್ನು ಕೇವಲ ತೋರಿಸಲಾಗುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>ಸೈಡ್‌ಬಾರ್ ಆನ್</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>ಸೈಡ್‌ಬಾರ್ ಆಫ್</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>ಪಾತ್ರ</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ತೋರಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>%siteaccess ಗಾಗಿ ಈ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಇನ್ನೊಂದು ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಫೈಲ್ ನಿರ್ಧರಿಸುತ್ತದೆ: ಇಲ್ಲಿ ಉಳಿಸಿದ್ದು ಅದು ಇಲ್ಲದಿದ್ದಾಗ ಮಾತ್ರ ಜಾರಿಗೆ ಬರುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>ಉಳಿಸದ ಬದಲಾವಣೆಗಳು: ಅವುಗಳನ್ನು ಉಳಿಸಿ ಅಥವಾ ಪುಟವನ್ನು ಬಿಟ್ಟುಹೋಗಿ.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>ಫಲಕ</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>ತೋರಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>ಕ್ರಮ</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>ಯಾವಾಗಲೂ ತೋರಿಸಲಾಗುತ್ತದೆ</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>ಉಳಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>ಈ ಪಾತ್ರದ ಫಲಕಗಳನ್ನು ತೆಗೆದುಹಾಕಿ</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>ತಮ್ಮದೇ ಫಲಕಗಳಿರುವ ಪಾತ್ರಗಳು</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>ಈ ಪಾತ್ರಗಳಲ್ಲಿ ಹಲವನ್ನು ಹೊಂದಿರುವ ಬಳಕೆದಾರರಿಗೆ ಮೊದಲನೆಯದರ ಕ್ರಮ ಸಿಗುತ್ತದೆ; ಬಳಕೆದಾರರ ಯಾವುದಾದರೂ ಒಂದು ಪಾತ್ರ ಫಲಕವನ್ನು ತೋರಿಸಿದರೆ ಅದು ತೋರಿಸಲ್ಪಡುತ್ತಲೇ ಇರುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>ಇಲ್ಲಿ ಯಾವುದೇ ಪಾತ್ರಕ್ಕೆ ತನ್ನದೇ ಫಲಕಗಳಿಲ್ಲ: ಪ್ರತಿಯೊಬ್ಬ ಬಳಕೆದಾರರೂ ಸೈಡ್‌ಬಾರ್‌ನ ಸ್ವಂತ ಕ್ರಮದಲ್ಲಿ ಫಲಕಗಳನ್ನು ನೋಡುತ್ತಾರೆ.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>ಇತಿಹಾಸ</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>ಪ್ರತಿ ಬದಲಾವಣೆಗೆ ಮೊದಲು ಇರಿಸಿದ %file ನ ಹಿಂದಿನ ಆವೃತ್ತಿಗಳು.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>ಇಲ್ಲಿಯವರೆಗೆ ಜಾರಿಯಲ್ಲಿತ್ತು</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>ಇನ್ನೂ ಹಿಂದಿನ ಆವೃತ್ತಿಗಳಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>ಉಳಿಸಲಾಗಿಲ್ಲ: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>ಏನೂ ಬದಲಾಗಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>%file ಗೆ ಉಳಿಸಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>%time ರ ಆವೃತ್ತಿಯ ಫಲಕಗಳನ್ನು ಮರುಸ್ಥಾಪಿಸಲಾಗಿದೆ.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>ವೆಬ್‌ಸೈಟ್ ಸೈಡ್‌ಬಾರ್ ಫಲಕಗಳು</translation>
+    </message>
 </context>
 </TS>

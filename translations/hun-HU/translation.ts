@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Minden keret látható.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>A webhely oldalsávjának panelei</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>A webhely oldalsávjának mely paneljeit látják egy szerepkör felhasználói, és milyen sorrendben, webhely-hozzáférésenként. Hogy a felhasználók mit tehetnek, az a szerepköreik házirendjeiben marad: egy elrejtett panel csak nem jelenik meg.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Webhely-hozzáférés</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Oldalsáv be</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Oldalsáv ki</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Szerepkör</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Megjelenítés</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Egy másik beállításfájl határozza meg ezeket a beállításokat ehhez: %siteaccess; az itt mentett csak nélküle érvényes.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Nem mentett módosítások: mentse őket, vagy hagyja el az oldalt.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Panel</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Megjelenik</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Sorrend</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Mindig megjelenik</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Mentés</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>A szerepkör paneljeinek eltávolítása</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Saját panelekkel rendelkező szerepkörök</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Az e szerepkörök közül többel rendelkező felhasználó az elsőnek a sorrendjét kapja; egy panel látható marad, ha a felhasználó valamelyik szerepköre megjeleníti.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Itt egyik szerepkörnek sincsenek saját paneljei: minden felhasználó az oldalsáv saját sorrendjében látja a paneleket.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Előzmények</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>%file korábbi verziói, minden módosítás előtt megőrizve.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Érvényes eddig</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Még nincsenek korábbi verziók.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Nincs mentve: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Semmi sem változott.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Mentve ide: %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>A(z) %time időpontú verzió paneljei visszaállítva.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>A webhely oldalsávjának panelei</translation>
+    </message>
 </context>
 </TS>

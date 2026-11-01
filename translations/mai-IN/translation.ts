@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>सभ फ्रेम देखाओल जा रहल अछि।</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>वेबसाइट साइडबारक पैनल</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>प्रत्येक siteaccess लेल, कोनो भूमिकाक उपयोगकर्ता वेबसाइट साइडबारक कोन-कोन पैनल आ कोन क्रममे देखैत छथि। उपयोगकर्ता की कऽ सकैत छथि से हुनक भूमिका सभक नीतिए पर रहैत अछि: नुकाएल पैनल मात्र नहि देखाओल जाइत अछि।</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>साइडबार चालू</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>साइडबार बन्द</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>भूमिका</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>देखाउ</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>%siteaccess लेल ई सेटिंग दोसर सेटिंग फाइल तय करैत अछि: एतए सहेजल गेल मात्र ओकरा बिना लागू होइत अछि।</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>नहि सहेजल परिवर्तन: ओकरा सहेजू वा पृष्ठ छोड़ू।</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>पैनल</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>देखाओल</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>क्रम</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>सदिखन देखाओल</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>सहेजू</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>एहि भूमिकाक पैनल हटाउ</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>अपन पैनल बला भूमिका</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>जे उपयोगकर्ताक लग एहिमे सँ कतेको भूमिका अछि, हुनका पहिलक क्रम भेटैत छनि; जँ उपयोगकर्ताक कोनो एक भूमिका पैनल देखबैत अछि तँ ओ देखाओल रहैत अछि।</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>एतए कोनो भूमिकाक अपन पैनल नहि अछि: सभ उपयोगकर्ता साइडबारक अपन क्रममे पैनल देखैत छथि।</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>इतिहास</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>%file क पहिलुका संस्करण, प्रत्येक परिवर्तनसँ पहिने राखल।</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>एहि तिथि धरि लागू</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>एखन धरि कोनो पहिलुका संस्करण नहि।</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>नहि सहेजल गेल: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>किछु नहि बदलल।</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>%file मे सहेजल गेल।</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>%time क संस्करणक पैनल पुनर्स्थापित कएल गेल।</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>वेबसाइट साइडबारक पैनल</translation>
+    </message>
 </context>
 </TS>

@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>همهٔ قاب‌ها نمایش داده می‌شوند.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>پنل‌های نوار کناری وب‌سایت</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>کاربران یک نقش کدام پنل‌های نوار کناری وب‌سایت را و به چه ترتیبی می‌بینند، برای هر دسترسی سایت. آنچه کاربران مجازند انجام دهند در سیاست‌های نقش‌هایشان می‌ماند: پنل پنهان فقط نمایش داده نمی‌شود.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>دسترسی سایت</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>نوار کناری روشن</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>نوار کناری خاموش</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>نقش</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>نمایش</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>یک فایل تنظیمات دیگر این تنظیمات را برای %siteaccess تعیین می‌کند: آنچه اینجا ذخیره می‌شود فقط بدون آن اعمال می‌شود.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>تغییرات ذخیره‌نشده: آن‌ها را ذخیره کنید یا صفحه را ترک کنید.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>پنل</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>نمایش داده می‌شود</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>ترتیب</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>همیشه نمایش داده می‌شود</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>ذخیره</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>حذف پنل‌های این نقش</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>نقش‌های دارای پنل‌های خود</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>کاربری که چند نقش از این‌ها را دارد ترتیب اولی را می‌گیرد؛ پنل نمایش داده می‌ماند وقتی یکی از نقش‌های کاربر آن را نشان دهد.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>اینجا هیچ نقشی پنل‌های خودش را ندارد: هر کاربر پنل‌ها را به ترتیب خود نوار کناری می‌بیند.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>تاریخچه</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>نسخه‌های قبلی %file، نگه‌داشته‌شده پیش از هر تغییر.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>معتبر تا</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>هنوز نسخهٔ قبلی وجود ندارد.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>ذخیره نشد: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>چیزی تغییر نکرد.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>در %file ذخیره شد.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>پنل‌های نسخهٔ %time بازیابی شد.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>پنل‌های نوار کناری وب‌سایت</translation>
+    </message>
 </context>
 </TS>

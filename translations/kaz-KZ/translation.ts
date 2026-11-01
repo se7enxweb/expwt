@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Барлық кадрлар көрсетілді.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Сайттың бүйірлік панеліндегі панельдер</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Әр siteaccess үшін рөл пайдаланушылары сайттың бүйірлік панелінде қай панельдерді және қандай ретпен көретіні. Пайдаланушылардың не істей алатынын бұрынғыша олардың рөлдерінің саясаттары анықтайды: жасырылған панель тек көрсетілмейді.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Бүйірлік панель қосулы</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Бүйірлік панель өшірулі</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Рөл</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Көрсету</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>%siteaccess үшін бұл баптауларды басқа баптаулар файлы анықтайды: мұнда сақталғаны тек онсыз күшіне енеді.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Сақталмаған өзгерістер: оларды сақтаңыз немесе беттен шығыңыз.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Панель</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Көрінеді</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Рет</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Әрдайым көрінеді</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Сақтау</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Осы рөлдің панельдерін жою</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Өз панельдері бар рөлдер</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Осы рөлдердің бірнешеуі бар пайдаланушы біріншісінің ретін алады; пайдаланушының рөлдерінің бірі көрсетсе, панель көріне береді.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Мұнда ешбір рөлдің өз панельдері жоқ: әр пайдаланушы панельдерді бүйірлік панельдің өз ретімен көреді.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Тарих</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>%file файлының әр өзгеріс алдында сақталған бұрынғы нұсқалары.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Күшінде болған соңғы күн</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Әзірге бұрынғы нұсқалар жоқ.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Сақталмады: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Ештеңе өзгермеді.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>%file файлына сақталды.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>%time нұсқасының панельдері қалпына келтірілді.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Сайттың бүйірлік панеліндегі панельдер</translation>
+    </message>
 </context>
 </TS>

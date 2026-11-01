@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Kei te whakaaturia ngā anga katoa.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Ngā papa o te pae taha o te paetukutuku</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Ko ēhea papa o te pae taha o te paetukutuku ka kitea e ngā kaiwhakamahi o tētahi tūranga, ā, i tēhea raupapa, mō ia siteaccess. Ko ngā mea e āhei ana ngā kaiwhakamahi ki te mahi, kei ngā kaupapahere tonu o ō rātou tūranga: ko te papa huna kāore noa e whakaaturia.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Kua whakakāngia te pae taha</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Kua whakawetongia te pae taha</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Tūranga</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Whakaatu</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Mā tētahi atu kōnae tautuhinga ēnei tautuhinga e whakatau mō %siteaccess: ko ngā mea ka tiakina ki konei ka whai mana anake mēnā kāore taua kōnae.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Ngā panoni kāore anō kia tiakina: tiakina, kia wehe rānei i te whārangi.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Papa</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>E whakaaturia ana</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Raupapa</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Ka whakaaturia i ngā wā katoa</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Tiaki</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Tangohia ngā papa o tēnei tūranga</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Ngā tūranga he papa anō ō rātou</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Ko te kaiwhakamahi he maha ōna tūranga o ēnei ka whiwhi i te raupapa o te tuatahi; ka noho tonu te papa e whakaaturia ana mēnā ka whakaaturia e tētahi o ngā tūranga o te kaiwhakamahi.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Kāore he tūranga i konei he papa anō ōna: ka kite ia kaiwhakamahi i ngā papa i te raupapa ake o te pae taha.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Hītori</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Ngā putanga o mua o %file, i tiakina i mua i ia panoni.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>I whai mana tae noa ki</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Kāore anō he putanga o mua.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Kāore i tiakina: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Kāore he mea i panoni.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Kua tiakina ki %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Kua whakahokia ngā papa o te putanga o %time.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Ngā papa o te pae taha o te paetukutuku</translation>
+    </message>
 </context>
 </TS>

@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>所有框架皆已顯示。</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>網站側邊欄面板</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>依網站存取設定，某個角色的使用者可看到網站側邊欄中的哪些面板及其順序。使用者可以做什麼仍由其角色的原則決定：隱藏的面板只是不顯示。</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>網站存取</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>側邊欄開啟</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>側邊欄關閉</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>角色</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>顯示</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>另一個設定檔為 %siteaccess 決定這些設定：此處儲存的內容僅在沒有該檔案時生效。</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>有未儲存的變更：請儲存或離開此頁面。</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>面板</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>顯示</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>順序</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>一律顯示</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>儲存</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>移除此角色的面板</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>擁有自己面板的角色</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>擁有其中多個角色的使用者採用第一個角色的順序；只要使用者的某個角色顯示某面板，該面板就會顯示。</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>此處沒有角色擁有自己的面板：每位使用者都依側邊欄本身的順序看到面板。</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>歷史記錄</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>%file 的較早版本，每次變更前保存。</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>生效至</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>尚無較早版本。</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>未儲存：%message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>沒有任何變更。</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>已儲存至 %file。</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>已還原 %time 版本的面板。</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>網站側邊欄面板</translation>
+    </message>
 </context>
 </TS>

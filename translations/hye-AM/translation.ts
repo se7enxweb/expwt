@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Բոլոր շրջանակները ցուցադրված են։</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Կայքի կողագոտու վահանակներ</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Կայքի կողագոտու որ վահանակներն են տեսնում դերի օգտատերերը և ինչ հերթականությամբ՝ ըստ կայքի մուտքի։ Թե ինչ կարող են անել օգտատերերը, մնում է նրանց դերերի քաղաքականություններում․ թաքցված վահանակը պարզապես չի ցուցադրվում։</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Կայքի մուտք</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Կողագոտին միացված է</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Կողագոտին անջատված է</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Դեր</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Ցուցադրել</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Կարգավորումների մեկ այլ ֆայլ է որոշում այս կարգավորումները %siteaccess-ի համար․ այստեղ պահպանվածը գործում է միայն առանց դրա։</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Չպահպանված փոփոխություններ․ պահպանեք դրանք կամ լքեք էջը։</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Վահանակ</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Ցուցադրվում է</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Հերթականություն</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Միշտ ցուցադրվում է</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Պահպանել</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Հեռացնել այս դերի վահանակները</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Սեփական վահանակներով դերեր</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Այս դերերից մի քանիսն ունեցող օգտատերը ստանում է առաջինի հերթականությունը․ վահանակը մնում է ցուցադրված, երբ օգտատիրոջ դերերից մեկը ցուցադրում է այն։</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Այստեղ ոչ մի դեր սեփական վահանակներ չունի․ յուրաքանչյուր օգտատեր տեսնում է վահանակները կողագոտու սեփական հերթականությամբ։</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Պատմություն</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>%file-ի ավելի վաղ տարբերակներ՝ պահված յուրաքանչյուր փոփոխությունից առաջ։</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Գործում էր մինչև</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Դեռ ավելի վաղ տարբերակներ չկան։</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Չպահպանվեց․ %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Ոչինչ չփոխվեց։</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Պահպանվեց %file-ում։</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Վերականգնվեցին %time տարբերակի վահանակները։</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Կայքի կողագոտու վահանակներ</translation>
+    </message>
 </context>
 </TS>

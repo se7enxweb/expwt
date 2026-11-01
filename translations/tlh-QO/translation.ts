@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Hoch chel 'aghlu'.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Daq retlh beQ beQmey</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>siteaccess Hoch: Qu' lo'wI'pu' leghbogh Daq retlh beQ beQmey, mI'chaj je. lo'wI'pu' ta'laHbogh luwuq Qu'chaj chutmey: beQ So'lu'bogh 'anglu'be' neH.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Daq retlh beQ chu'lu'</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Daq retlh beQ chu'Ha'lu'</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Qu'</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>'ang</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>%siteaccess choHmey wuq latlh choHmey teywI': naDev pollu'bogh vay' teywI'vetlh tu'lu'be'chugh neH Qap.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>choHmey pollu'be'bogh: tIpol pagh nav Damej.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>beQ</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>'anglu'</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>mI'</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>reH 'anglu'</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>pol</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Qu'vam beQmey tIteq</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>beQmey ghajbogh Qu'mey</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Qu'meyvam law' ghajbogh lo'wI' wa'DIch Qu' mI' Hev; lo'wI' Qu' wa' 'angchugh beQ, 'anglu'taH.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>naDev beQmey ghajbogh Qu' tu'lu'be': Hoch lo'wI' beQmey legh Daq retlh beQ mI'Daq.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>qun</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>%file tlhegh ngo'mey, choH Hoch qaSpa' pollu'pu'bogh.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Qappu' ghorgh mojaq</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>tlhegh ngo' tu'lu'be'taH.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>pollu'be': %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>pagh choHlu'.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>%file Daq pollu'pu'.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>%time tlhegh beQmey chegh.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Daq retlh beQ beQmey</translation>
+    </message>
 </context>
 </TS>

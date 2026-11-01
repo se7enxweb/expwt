@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>An holl frammoù a zo diskouezet.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Panelloù barrenn-gostez al lec'hienn</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Peseurt panelloù eus barrenn-gostez al lec'hienn a wel implijerien ur rol, hag e peseurt urzh, evit pep tremen lec'hienn. Ar pezh a c'hall an implijerien ober a chom gant reolennoù o rolloù: ur panell kuzhet n'eo nemet diskouezet ket.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Tremen lec'hienn</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Barrenn-gostez enaouet</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Barrenn-gostez lazhet</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rol</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Diskouez</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Ur restr arventennoù all a ziviz an arventennoù-mañ evit %siteaccess: ar pezh a vez enrollet amañ ne dalvez nemet hepti.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Kemmoù n'int ket enrollet: enrollit anezho pe kuitait ar bajenn.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Panell</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Diskouezet</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Urzh</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Diskouezet bepred</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Enrollañ</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Dilemel panelloù ar rol-mañ</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Rolloù gant o fanelloù dezho</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Un implijer gant meur a hini eus ar rolloù-mañ a gav urzh an hini kentañ; ur panell a chom diskouezet pa vez diskouezet gant unan eus rolloù an implijer.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Rol ebet n'en deus e banelloù dezhañ amañ: pep implijer a wel ar panelloù en urzh ar varrenn-gostez he-unan.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Istor</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Stummoù kent %file, miret a-raok pep kemm.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>E talvoud betek</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Stumm kent ebet c'hoazh.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>N'eo ket enrollet: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Netra n'eo bet kemmet.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Enrollet e %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Assavet eo bet panelloù stumm %time.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Panelloù barrenn-gostez al lec'hienn</translation>
+    </message>
 </context>
 </TS>

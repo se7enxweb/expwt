@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>بارلىق رامكىلار كۆرسىتىلدى.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>تور بېكەت يان ستونىدىكى تاختىلار</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>ھەر بىر siteaccess ئۈچۈن، بىر رولنىڭ ئىشلەتكۈچىلىرى تور بېكەت يان ستونىنىڭ قايسى تاختىلىرىنى قانداق تەرتىپتە كۆرىدۇ. ئىشلەتكۈچىلەرنىڭ نېمە قىلالايدىغانلىقىنى يەنىلا ئۇلارنىڭ رول سىياسەتلىرى بەلگىلەيدۇ: يوشۇرۇلغان تاختا پەقەت كۆرسىتىلمەيدۇ.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>يان ستون ئوچۇق</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>يان ستون تاقاق</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>رول</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>كۆرسەت</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>%siteaccess نىڭ بۇ تەڭشەكلىرىنى باشقا بىر تەڭشەك ھۆججىتى بەلگىلەيدۇ: بۇ يەردە ساقلانغىنى پەقەت ئۇ بولمىغاندا كۈچكە ئىگە بولىدۇ.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>ساقلانمىغان ئۆزگىرىشلەر: ئۇلارنى ساقلاڭ ياكى بەتتىن ئايرىلىڭ.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>تاختا</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>كۆرسىتىلىۋاتىدۇ</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>تەرتىپ</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>ھەمىشە كۆرسىتىلىدۇ</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>ساقلا</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>بۇ رولنىڭ تاختىلىرىنى چىقىرىۋەت</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>ئۆز تاختىلىرى بار روللار</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>بۇ روللاردىن بىر قانچىسى بار ئىشلەتكۈچى بىرىنچىسىنىڭ تەرتىپىگە ئېرىشىدۇ؛ ئىشلەتكۈچىنىڭ رولىدىن بىرى كۆرسەتسە، تاختا كۆرسىتىلىۋېرىدۇ.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>بۇ يەردە ھېچقانداق رولنىڭ ئۆز تاختىسى يوق: ھەر بىر ئىشلەتكۈچى تاختىلارنى يان ستوننىڭ ئۆز تەرتىپىدە كۆرىدۇ.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>تارىخ</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>%file نىڭ ھەر بىر ئۆزگىرىشتىن ئىلگىرى ساقلانغان بۇرۇنقى نەشرى.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>غىچە كۈچكە ئىگە ئىدى</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>تېخى بۇرۇنقى نەشرى يوق.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>ساقلانمىدى: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>ھېچنېمە ئۆزگەرمىدى.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>%file غا ساقلاندى.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>%time نەشرىنىڭ تاختىلىرى ئەسلىگە كەلتۈرۈلدى.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>تور بېكەت يان ستونىدىكى تاختىلار</translation>
+    </message>
 </context>
 </TS>

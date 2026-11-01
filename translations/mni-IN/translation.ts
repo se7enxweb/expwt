@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>ফ্রেম পুম্নমক উৎলি।</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>ৱেবসাইত সাইদবারগী পেনেলশিং</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>siteaccess খুদিংমক্কীদমক, রোল অমগী শিজিন্নরিবশিংনা ৱেবসাইত সাইদবারগী পেনেল কয়া অমসুং করম্বা মথং মনাইদা উবা ফংবগে। শিজিন্নরিবশিংনা করি তৌবা য়াবগে হায়বসি মখোয়গী রোলশিংগী পোলিসিশিংদা লৈরি: লুমখ্রবা পেনেল অমা উৎতবা খক্তনি।</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>সাইদবার হাংদোকপা</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>সাইদবার থিংবা</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>রোল</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>উৎলু</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>অতোপ্পা সেত্তিংস ফাইল অমনা %siteaccess গী সেত্তিংস অসিশিং লেপ্পগে: মফম অসিদা থম্লবা অদু মদু য়াওদবা মতমদা খক্তা চলি।</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>থম্দ্রিবা অহোংবশিং: মখোয় থম্লু নত্রগা লমায় অসি থাদোকউ।</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>পেনেল</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>উরি</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>মথং মনাই</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>মতম পুম্বদা উরি</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>থম্লু</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>রোল অসিগী পেনেলশিং লৌথোকউ</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>মশাগী পেনেল লৈবা রোলশিং</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>রোল অসিশিংগী মরক্তগী কয়া অমা লৈবা শিজিন্নরিবনা অহানবা অদুগী মথং মনাই ফংই; শিজিন্নরিবগী রোল অমনা পেনেল অদু উৎলবদি মদু উরিবা মওংদা লৈই।</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>মফম অসিদা কনাগুম্বা রোল অমত্তা মশাগী পেনেল লৈতে: শিজিন্নরিবা খুদিংমক্না সাইদবার মশাগী মথং মনাইদা পেনেলশিং উই।</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>পুৱারী</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>অহোংবা খুদিংগী মমাংদা থম্লম্বা %file গী মমাংগী ভার্সনশিং।</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>চলিবা তারিখ ফাওবা</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>হৌজিক ফাওবা মমাংগী ভার্সন অমত্তা লৈতে।</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>থম্লমদে: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>করিসু অহোংখিদে।</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>%file দা থম্লে।</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>%time গী ভার্সনগী পেনেলশিং হন্দোকখ্রে।</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>ৱেবসাইত সাইদবারগী পেনেলশিং</translation>
+    </message>
 </context>
 </TS>

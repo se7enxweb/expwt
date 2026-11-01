@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Tüm çerçeveler gösteriliyor.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Web sitesi kenar çubuğu panelleri</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Bir rolün kullanıcılarının web sitesi kenar çubuğunun hangi panellerini ve hangi sırayla gördüğü, her siteaccess için. Kullanıcıların ne yapabileceğini yine rollerinin ilkeleri belirler: gizlenen bir panel yalnızca gösterilmez.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Kenar çubuğu açık</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Kenar çubuğu kapalı</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rol</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Göster</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>%siteaccess için bu ayarları başka bir ayar dosyası belirliyor: burada kaydedilen yalnızca o olmadan geçerli olur.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Kaydedilmemiş değişiklikler: kaydedin ya da sayfadan çıkın.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Panel</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Gösteriliyor</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Sıra</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Her zaman gösterilir</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Kaydet</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Bu rolün panellerini kaldır</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Kendi panelleri olan roller</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Bu rollerden birkaçına sahip bir kullanıcı ilkinin sırasını alır; kullanıcının rollerinden biri gösteriyorsa panel gösterilmeye devam eder.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Burada hiçbir rolün kendi panelleri yok: her kullanıcı panelleri kenar çubuğunun kendi sırasıyla görür.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Geçmiş</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>%file dosyasının her değişiklikten önce saklanan önceki sürümleri.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Geçerlilik bitişi</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Henüz önceki sürüm yok.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Kaydedilmedi: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Hiçbir şey değişmedi.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>%file dosyasına kaydedildi.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>%time sürümünün panelleri geri yüklendi.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Web sitesi kenar çubuğu panelleri</translation>
+    </message>
 </context>
 </TS>

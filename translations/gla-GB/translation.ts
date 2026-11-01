@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Tha gach frèam ga shealltainn.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Panailean bàr-taoibh na làraich-lìn</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Dè na panailean de bhàr-taoibh na làraich-lìn a chì luchd-cleachdaidh dreuchd, agus dè an t-òrdugh, airson gach inntrigeadh làraich. Tha na dh'fhaodas luchd-cleachdaidh a dhèanamh a' fuireach le poileasaidhean an dreuchdan: chan eil panail falaichte ach gun a shealltainn.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Inntrigeadh làraich</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Bàr-taoibh air</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Bàr-taoibh dheth</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Dreuchd</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Seall</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Tha faidhle roghainnean eile a' suidheachadh nan roghainnean seo airson %siteaccess: chan obraich na thèid a shàbhaladh an seo ach às aonais.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Atharraichean gun sàbhaladh: sàbhail iad no fàg an duilleag.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Panail</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Ga shealltainn</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Òrdugh</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Ga shealltainn an-còmhnaidh</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Sàbhail</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Thoir air falbh panailean na dreuchd seo</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Dreuchdan le panailean dhaibh fhèin</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Gheibh cleachdaiche le grunn de na dreuchdan seo òrdugh a' chiad tè; fanaidh panail ga shealltainn nuair a sheallas tè de dhreuchdan a' chleachdaiche e.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Chan eil panailean aig dreuchd sam bith dhi fhèin an seo: chì gach cleachdaiche na panailean ann an òrdugh a' bhàr-taoibh fhèin.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Eachdraidh</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Tionndaidhean nas tràithe de %file, air an cumail ro gach atharrachadh.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>An gnìomh gu</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Chan eil tionndaidhean nas tràithe ann fhathast.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Cha deach a shàbhaladh: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Cha do dh'atharraich dad.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Air a shàbhaladh ann an %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Chaidh panailean an tionndaidh bho %time aiseag.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Panailean bàr-taoibh na làraich-lìn</translation>
+    </message>
 </context>
 </TS>

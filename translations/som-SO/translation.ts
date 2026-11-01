@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Dhammaan fariimyada waa la muujiyay.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Guddiyada barta dhinaca ee goobta</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Guddiyada barta dhinaca ee goobta ee ay arkaan isticmaalayaasha door, iyo nidaamka ay ku yimaadaan, siteaccess kasta. Waxa isticmaalayaashu samayn karaan weli waxaa go'aamiya siyaasadaha doorarkooda: guddi la qariyay kaliya lama muujiyo.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Barta dhinaca waa shidan tahay</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Barta dhinaca waa dansan tahay</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Door</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Muuji</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Fayl kale oo dejimo ah ayaa go'aamiya dejimahan %siteaccess: waxa halkan lagu keydiyo wuxuu dhaqan galaa oo kaliya marka uusan jirin.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Isbeddello aan la keydin: keydi ama ka bax bogga.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Guddi</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Muuqda</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Nidaam</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Had iyo jeer muuqda</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Keydi</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Ka saar guddiyada doorkan</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Doorar leh guddiyo u gaar ah</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Isticmaale leh dhowr ka mid ah doorarkan wuxuu helaa nidaamka kan ugu horreeya; guddi wuu sii muuqdaa marka mid ka mid ah doorarka isticmaalaha uu muujiyo.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Halkan door ma laha guddiyo u gaar ah: isticmaale kastaa wuxuu guddiyada ku arkaa nidaamka barta dhinaca u gaarka ah.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Taariikh</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Noocyadii hore ee %file, la keydiyay isbeddel kasta ka hor.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Ku shaqaynayay ilaa</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Weli ma jiraan noocyo hore.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Lama keydin: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Waxba isma beddelin.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Waxaa lagu keydiyay %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Guddiyada nooca %time waa la soo celiyay.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Guddiyada barta dhinaca ee goobta</translation>
+    </message>
 </context>
 </TS>

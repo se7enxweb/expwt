@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Kaikki kehykset näytetään.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Sivuston sivupalkin paneelit</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Mitä sivuston sivupalkin paneeleja roolin käyttäjät näkevät ja missä järjestyksessä, sivustokäyttöä kohden. Se, mitä käyttäjät saavat tehdä, pysyy heidän roolien käytännöissä: piilotettua paneelia ei vain näytetä.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Sivustokäyttö</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Sivupalkki päällä</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Sivupalkki pois</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rooli</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Näytä</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Toinen asetustiedosto määrää nämä asetukset kohteelle %siteaccess: tänne tallennettu on voimassa vain ilman sitä.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Tallentamattomia muutoksia: tallenna ne tai poistu sivulta.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Paneeli</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Näytetään</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Järjestys</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Näytetään aina</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Tallenna</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Poista tämän roolin paneelit</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Roolit, joilla on omat paneelit</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Käyttäjä, jolla on useita näistä rooleista, saa ensimmäisen järjestyksen; paneeli pysyy näkyvissä, kun jokin käyttäjän rooleista näyttää sen.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Täällä millään roolilla ei ole omia paneeleja: jokainen käyttäjä näkee paneelit sivupalkin omassa järjestyksessä.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historia</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Tiedoston %file aiemmat versiot, tallennettu ennen jokaista muutosta.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Voimassa asti</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Aiempia versioita ei vielä ole.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Ei tallennettu: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Mikään ei muuttunut.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Tallennettu tiedostoon %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Palautettiin version %time paneelit.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Sivuston sivupalkin paneelit</translation>
+    </message>
 </context>
 </TS>

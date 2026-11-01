@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>A na-egosi ihe ókè niile.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Panel ogwe akụkụ weebụsaịtị</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Kedu panel nke ogwe akụkụ weebụsaịtị ndị ọrụ nke otu ọrụ na-ahụ, na n'usoro ole, maka ọnụ ụzọ saịtị ọ bụla. Ihe ndị ọrụ nwere ike ime ka dị na iwu nke ọrụ ha: panel ezoro ezo bụ naanị na egosighi ya.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Ọnụ ụzọ saịtị</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Ogwe akụkụ gbanyere</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Ogwe akụkụ gbanyụrụ</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Ọrụ</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Gosi</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Faịlụ ntọala ọzọ na-ekpebi ntọala ndị a maka %siteaccess: ihe echekwara ebe a na-arụ ọrụ naanị ma ọ bụrụ na ọ nọghị ya.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Mgbanwe echekwabeghị: chekwaa ha ma ọ bụ hapụ peeji ahụ.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Panel</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Egosiri</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Usoro</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Egosiri mgbe niile</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Chekwaa</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Wepụ panel nke ọrụ a</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Ọrụ nwere panel nke ha</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Onye ọrụ nwere ọtụtụ n'ime ọrụ ndị a na-enweta usoro nke mbụ; panel na-anọgide na-egosi mgbe otu n'ime ọrụ onye ọrụ ahụ gosiri ya.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Ọ dịghị ọrụ nwere panel nke ya ebe a: onye ọrụ ọ bụla na-ahụ panel ndị ahụ n'usoro nke ogwe akụkụ n'onwe ya.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Akụkọ ihe mere</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Ụdị %file ndị gara aga, echekwara tupu mgbanwe ọ bụla.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Na-arụ ọrụ ruo</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Enweghị ụdị gara aga ka.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Echekwabeghị: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Ọ dịghị ihe gbanwere.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Echekwara na %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Eweghachiri panel nke ụdị %time.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Panel ogwe akụkụ weebụsaịtị</translation>
+    </message>
 </context>
 </TS>

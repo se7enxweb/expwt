@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Kadar yépp a ngi wone.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Panno yi ci barru wetu dalu bi</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Ban panno ci barru wetu dalu bi la jëfandikukati benn wàll di gis, ak ci ban toftale, ngir siteaccess bu nekk. Li jëfandikukat yi mën a def, politigu seeni wàll ñoo koy dogal ba tey: panno bu ñu nëbb dañu ko wonul rekk.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Barru wet bi dafa taal</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Barru wet bi dafa fey</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Wàll</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Won</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Beneen dencukaayu pare moo dogal pare yii ngir %siteaccess: li ñu denc fii day dox rekk bu dencukaay boobu amul.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Coppite yu ñu dencagul: denc leen walla génn ci xët wi.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Panno</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Dañu koy won</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Toftale</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Ñu ngi koy won saa su nekk</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Denc</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Dindi panno yu wàll bii</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Wàll yu am seeni panno</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Jëfandikukat bu am ay wàll yu bare ci yii, toftaleg wàll bu jëkk bi lay jot; panno day wéy di feeñ bu benn ci wàlli jëfandikukat bi ko wonee.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Amul fii wàll bu am ay panno yu ko moom: jëfandikukat bu nekk day gis panno yi ci toftaleg barru wet bi ci boppam.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Jaar-jaar</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Versiyoŋ yu jiitu yu %file, yu ñu denc balaa coppite bu nekk.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Doxoon na ba</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Amagul versiyoŋ bu jiitu.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Dencuwul: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Dara soppikuwul.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Denc nañu ko ci %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Panno yu versiyoŋu %time delsi nañu.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Panno yi ci barru wetu dalu bi</translation>
+    </message>
 </context>
 </TS>

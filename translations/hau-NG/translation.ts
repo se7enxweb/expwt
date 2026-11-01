@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Ana nuna duk firam.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Fanonin labarun gefe na yanar gizo</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Waɗanne fanoni na labarun gefe na yanar gizo masu amfani da wani matsayi ke gani, kuma a wane tsari, ga kowace hanyar shiga shafi. Abin da masu amfani za su iya yi yana nan a cikin manufofin matsayinsu: fanon da aka ɓoye kawai ba a nuna shi.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Hanyar shiga shafi</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Labarun gefe a kunne</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Labarun gefe a kashe</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Matsayi</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Nuna</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Wani fayil na saituna ne ke yanke waɗannan saituna don %siteaccess: abin da aka adana a nan yana aiki ne kawai idan babu shi.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Canje-canje marasa adanawa: adana su ko bar shafin.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Fano</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Ana nunawa</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Tsari</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Ana nunawa koyaushe</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Adana</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Cire fanonin wannan matsayi</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Matsayoyi masu fanonin kansu</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Mai amfani da yawancin waɗannan matsayoyi yana samun tsarin na farkon; fano yana ci gaba da bayyana idan ɗaya daga cikin matsayoyin mai amfani ya nuna shi.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Babu matsayin da ke da fanonin kansa a nan: kowane mai amfani yana ganin fanonin a cikin tsarin labarun gefen kansa.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Tarihi</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Tsofaffin sigogi na %file, an adana su kafin kowane canji.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Yana aiki har zuwa</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Babu tsofaffin sigogi tukuna.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Ba a adana ba: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Babu abin da ya canza.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>An adana a %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>An maido da fanonin sigar %time.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Fanonin labarun gefe na yanar gizo</translation>
+    </message>
 </context>
 </TS>

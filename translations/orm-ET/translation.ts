@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Fireemonni hundi mul'ataniiru.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Gabateewwan barreessaa cinaa marsariitii</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Fayyadamtoonni gahee tokkoo gabateewwan barreessaa cinaa marsariitii kamfaa fi tartiiba kamiin akka argan, siteaccess hundaaf. Wanti fayyadamtoonni gochuu danda'an ammas imaammata gahee isaaniitiin murtaa'a: gabateen dhokfame qofa hin mul'atu.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Barreessaan cinaa banaa</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Barreessaan cinaa cufaa</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Gahee</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Agarsiisi</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Faayiliin qindaa'inaa biraa qindaa'ina kana %siteaccess dhaaf murteessa: wanti asitti olkaa'ame isa malee qofa hojii irra oola.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Jijjiiramoota hin olkaa'amne: olkaa'i ykn fuula kana dhiisi.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Gabatee</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Ni mul'ata</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Tartiiba</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Yeroo hunda mul'ata</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Olkaa'i</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Gabateewwan gahee kanaa haqi</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Gaheewwan gabatee mataa isaanii qaban</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Fayyadamaan gaheewwan kana keessaa hedduu qabu tartiiba isa jalqabaa argata; gabateen yoo gaheen fayyadamaa tokko agarsiise mul'achuu itti fufa.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Asitti gaheen gabatee mataa isaa qabu hin jiru: fayyadamaan hundi gabateewwan tartiiba barreessaa cinaa mataa isaatiin arga.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Seenaa</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Gosoota %file kanaan duraa, jijjiirama hunda dura kan olkaa'aman.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Hanga yeroo kanaatti hojii irra</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Ammaaf gosti kanaan duraa hin jiru.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Hin olkaa'amne: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Homtuu hin jijjiiramne.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>%file keessatti olkaa'ame.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Gabateewwan gosa %time deebi'aniiru.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Gabateewwan barreessaa cinaa marsariitii</translation>
+    </message>
 </context>
 </TS>

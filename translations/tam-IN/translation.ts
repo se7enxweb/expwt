@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>அனைத்து சட்டகங்களும் காட்டப்படுகின்றன.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>இணையதளப் பக்கப்பட்டியின் பலகங்கள்</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>ஒவ்வொரு siteaccess-க்கும், ஒரு பங்கின் பயனர்கள் இணையதளப் பக்கப்பட்டியின் எந்தப் பலகங்களை எந்த வரிசையில் பார்க்கிறார்கள். பயனர்கள் என்ன செய்யலாம் என்பதை அவர்களின் பங்குகளின் கொள்கைகளே தொடர்ந்து தீர்மானிக்கின்றன: மறைக்கப்பட்ட பலகம் காட்டப்படுவதில்லை, அவ்வளவுதான்.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>பக்கப்பட்டி இயக்கத்தில்</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>பக்கப்பட்டி அணைப்பில்</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>பங்கு</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>காட்டு</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>%siteaccess-க்கான இந்த அமைப்புகளை வேறொரு அமைப்புக் கோப்பு தீர்மானிக்கிறது: இங்கே சேமிப்பது அது இல்லாதபோது மட்டுமே நடைமுறைக்கு வரும்.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>சேமிக்கப்படாத மாற்றங்கள்: அவற்றைச் சேமிக்கவும் அல்லது பக்கத்தை விட்டு வெளியேறவும்.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>பலகம்</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>காட்டப்படுகிறது</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>வரிசை</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>எப்போதும் காட்டப்படும்</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>சேமி</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>இந்தப் பங்கின் பலகங்களை அகற்று</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>சொந்தப் பலகங்கள் கொண்ட பங்குகள்</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>இவற்றில் பல பங்குகளைக் கொண்ட பயனருக்கு முதல் பங்கின் வரிசை கிடைக்கும்; பயனரின் ஏதேனும் ஒரு பங்கு ஒரு பலகத்தைக் காட்டினால் அது காட்டப்பட்டுக்கொண்டே இருக்கும்.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>இங்கே எந்தப் பங்குக்கும் சொந்தப் பலகங்கள் இல்லை: ஒவ்வொரு பயனரும் பக்கப்பட்டியின் சொந்த வரிசையில் பலகங்களைப் பார்க்கிறார்.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>வரலாறு</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>ஒவ்வொரு மாற்றத்துக்கும் முன் வைக்கப்பட்ட %file-இன் முந்தைய பதிப்புகள்.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>வரை நடைமுறையில்</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>இன்னும் முந்தைய பதிப்புகள் இல்லை.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>சேமிக்கப்படவில்லை: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>எதுவும் மாறவில்லை.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>%file-இல் சேமிக்கப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>%time பதிப்பின் பலகங்கள் மீட்டமைக்கப்பட்டன.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>இணையதளப் பக்கப்பட்டியின் பலகங்கள்</translation>
+    </message>
 </context>
 </TS>

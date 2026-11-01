@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Alle rame word gewys.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Webwerf-kantbalkpanele</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Watter panele van die webwerf-kantbalk die gebruikers van 'n rol sien, en in watter volgorde, per werfstoegang. Wat gebruikers mag doen, bly by die beleide van hul rolle: 'n versteekte paneel word net nie gewys nie.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Werfstoegang</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Kantbalk aan</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Kantbalk af</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rol</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Wys</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>'n Ander instellingslêer bepaal hierdie instellings vir %siteaccess: wat hier gestoor word, geld net sonder dit.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Ongestoorde veranderinge: stoor hulle of verlaat die bladsy.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Paneel</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Gewys</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Volgorde</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Altyd gewys</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Stoor</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Verwyder die panele van hierdie rol</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Rolle met hul eie panele</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>'n Gebruiker met verskeie van hierdie rolle kry die volgorde van die eerste; 'n paneel bly gewys wanneer een van die gebruiker se rolle dit wys.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Geen rol het hier sy eie panele nie: elke gebruiker sien die panele in die kantbalk se eie volgorde.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Geskiedenis</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Vroeëre weergawes van %file, bewaar voor elke verandering.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Van krag tot</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Nog geen vroeëre weergawes nie.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Nie gestoor nie: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Niks het verander nie.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Gestoor in %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Die panele van die weergawe van %time is herstel.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Webwerf-kantbalkpanele</translation>
+    </message>
 </context>
 </TS>

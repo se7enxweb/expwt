@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>ʻOku fakahā ʻa e ngaahi fuʻu kotoa.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Ngaahi papa ʻo e kauʻi tafaʻaki ʻo e uepisaiti</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Ko e ngaahi papa fē ʻo e kauʻi tafaʻaki ʻo e uepisaiti ʻoku sio ki ai ʻa e kau fakaʻaongaʻi ʻo ha fatongia, pea ʻi he hokohoko fē, ki he siteaccess takitaha. Ko e meʻa ʻoku ngofua ke fai ʻe he kau fakaʻaongaʻí ʻoku kei fakapapauʻi ia ʻe he ngaahi tuʻutuʻuni ʻo honau ngaahi fatongiá: ko ha papa fufū ʻoku ʻikai pē fakahaaʻi.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Kauʻi tafaʻaki ʻoku ʻā</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Kauʻi tafaʻaki ʻoku tāmateʻi</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Fatongia</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Fakahaaʻi</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>ʻOku fakapapauʻi ʻe ha faile fokotuʻutuʻu kehe ʻa e ngaahi fokotuʻutuʻu ko ʻeni ki he %siteaccess: ko e meʻa ʻoku tauhi hení ʻoku ngāue pē ia ʻo kapau ʻoku ʻikai ke ʻi ai ʻa e faile ko iá.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Ngaahi liliu kei teʻeki tauhi: tauhi pe mavahe mei he peesí.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Papa</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>ʻOku hā</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Hokohoko</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Hā maʻu pē</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Tauhi</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Toʻo ʻa e ngaahi papa ʻo e fatongia ko ʻeni</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Ngaahi fatongia ʻoku ʻi ai honau papa pē ʻonautolu</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Ko ha fakaʻaongaʻi ʻoku ʻi ai ha ngaahi fatongia lahi ʻo ʻeni ʻoku ne maʻu ʻa e hokohoko ʻo e ʻuluaki; ʻoku kei hā ha papa ʻo kapau ʻoku fakahaaʻi ia ʻe ha taha ʻo e ngaahi fatongia ʻo e fakaʻaongaʻí.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>ʻOku ʻikai ha fatongia heni ʻoku ʻi ai hono papa pē ʻoʻona: ʻoku sio ʻa e fakaʻaongaʻi kotoa pē ki he ngaahi papá ʻi he hokohoko pē ʻa e kauʻi tafaʻakí.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Hisitōlia</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Ngaahi veesiona kimuʻa ʻo e %file, naʻe tauhi kimuʻa ʻi he liliu kotoa pē.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Naʻe ngāue ʻo aʻu ki he</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>ʻOku teʻeki ai ha ngaahi veesiona kimuʻa.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Naʻe ʻikai tauhi: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Naʻe ʻikai ha meʻa naʻe liliu.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Kuo tauhi ki he %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Kuo fakafoki ʻa e ngaahi papa ʻo e veesiona ʻo e %time.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Ngaahi papa ʻo e kauʻi tafaʻaki ʻo e uepisaiti</translation>
+    </message>
 </context>
 </TS>

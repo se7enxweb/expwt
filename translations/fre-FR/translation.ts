@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Tous les cadres sont affichés.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Panneaux de la barre latérale du site</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Quels panneaux de la barre latérale du site voient les utilisateurs d'un rôle, et dans quel ordre, par accès au site. Ce que les utilisateurs peuvent faire reste défini par les politiques de leurs rôles : un panneau masqué n'est simplement pas affiché.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Accès au site</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Barre latérale activée</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Barre latérale désactivée</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rôle</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Afficher</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Un autre fichier de configuration détermine ces réglages pour %siteaccess : ce qui est enregistré ici ne s'applique qu'en son absence.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Modifications non enregistrées : enregistrez-les ou quittez la page.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Panneau</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Affiché</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Ordre</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Toujours affiché</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Enregistrer</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Supprimer les panneaux de ce rôle</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Rôles avec leurs propres panneaux</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Un utilisateur ayant plusieurs de ces rôles reçoit l'ordre du premier ; un panneau reste affiché lorsqu'un des rôles de l'utilisateur l'affiche.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Aucun rôle n'a ici ses propres panneaux : chaque utilisateur voit les panneaux dans l'ordre propre de la barre latérale.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historique</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Versions antérieures de %file, conservées avant chaque modification.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>En vigueur jusqu'au</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Aucune version antérieure pour l'instant.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Non enregistré : %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Rien n'a changé.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Enregistré dans %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Les panneaux de la version du %time ont été restaurés.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Panneaux de la barre latérale du site</translation>
+    </message>
 </context>
 </TS>

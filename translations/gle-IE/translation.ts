@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Taispeántar gach fráma.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Painéil bharra taoibh an tsuímh</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Cé na painéil de bharra taoibh an tsuímh a fheiceann úsáideoirí róil, agus cén t-ord, in aghaidh an rochtana suímh. Fanann a bhfuil cead ag úsáideoirí a dhéanamh le polasaithe a ród: ní thaispeántar painéal folaithe, sin uile.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Rochtain suímh</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Barra taoibh ar siúl</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Barra taoibh múchta</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Ról</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Taispeáin</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Socraíonn comhad socruithe eile na socruithe seo do %siteaccess: ní bhíonn éifeacht leis an méid a shábháiltear anseo ach gan é.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Athruithe gan sábháil: sábháil iad nó fág an leathanach.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Painéal</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Taispeáinte</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Ord</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Taispeáinte i gcónaí</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Sábháil</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Bain painéil an róil seo</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Róil a bhfuil a bpainéil féin acu</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Faigheann úsáideoir a bhfuil roinnt de na róil seo aige ord an chéad cheann; fanann painéal taispeáinte nuair a thaispeánann ceann de róil an úsáideora é.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Níl a phainéil féin ag aon ról anseo: feiceann gach úsáideoir na painéil in ord an bharra taoibh féin.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Stair</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Leaganacha níos luaithe de %file, coinnithe roimh gach athrú.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>I bhfeidhm go dtí</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Níl aon leaganacha níos luaithe ann fós.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Níor sábháladh: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Níor athraíodh aon rud.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Sábháladh i %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Athchóiríodh painéil an leagain ó %time.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Painéil bharra taoibh an tsuímh</translation>
+    </message>
 </context>
 </TS>

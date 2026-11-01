@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>සියලු රාමු පෙන්වයි.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>වෙබ් අඩවි පැති තීරුවේ පුවරු</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>එක් එක් siteaccess සඳහා, භූමිකාවක පරිශීලකයින් වෙබ් අඩවි පැති තීරුවේ කුමන පුවරු කුමන අනුපිළිවෙළින් දකිනවාද යන්න. පරිශීලකයින්ට කළ හැකි දේ තවමත් ඔවුන්ගේ භූමිකාවල ප්‍රතිපත්ති මත රඳා පවතී: සඟවන ලද පුවරුවක් නොපෙන්වයි, එපමණයි.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>පැති තීරුව සක්‍රීයයි</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>පැති තීරුව අක්‍රීයයි</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>භූමිකාව</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>පෙන්වන්න</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>%siteaccess සඳහා මෙම සැකසුම් වෙනත් සැකසුම් ගොනුවක් තීරණය කරයි: මෙහි සුරකින දේ බලපාන්නේ එය නොමැති විට පමණි.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>නොසුරැකි වෙනස්කම්: ඒවා සුරකින්න හෝ පිටුවෙන් ඉවත් වන්න.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>පුවරුව</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>පෙන්වයි</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>අනුපිළිවෙළ</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>සැමවිටම පෙන්වයි</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>සුරකින්න</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>මෙම භූමිකාවේ පුවරු ඉවත් කරන්න</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>තමන්ගේම පුවරු ඇති භූමිකා</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>මෙම භූමිකා කිහිපයක් ඇති පරිශීලකයාට පළමු භූමිකාවේ අනුපිළිවෙළ ලැබේ; පරිශීලකයාගේ එක් භූමිකාවක් පෙන්වන්නේ නම් පුවරුව දිගටම පෙන්වයි.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>මෙහි කිසිදු භූමිකාවකට තමන්ගේම පුවරු නැත: සෑම පරිශීලකයෙකුම පැති තීරුවේම අනුපිළිවෙළින් පුවරු දකී.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>ඉතිහාසය</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>සෑම වෙනස්කමකටම පෙර තබාගත් %file හි පෙර අනුවාද.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>දක්වා බලපැවැත්විණි</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>තවම පෙර අනුවාද නැත.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>සුරැකුණේ නැත: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>කිසිවක් වෙනස් නොවීය.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>%file වෙත සුරැකිණි.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>%time අනුවාදයේ පුවරු ප්‍රතිසාධනය කෙරිණි.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>වෙබ් අඩවි පැති තීරුවේ පුවරු</translation>
+    </message>
 </context>
 </TS>

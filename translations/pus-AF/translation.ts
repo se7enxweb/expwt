@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>ټول چوکاټونه ښودل کېږي.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>د وېبسایټ اړخ پټې پینلونه</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>هر siteaccess لپاره، د یوه رول کاروونکي د وېبسایټ اړخ پټې کوم پینلونه او په کوم ترتیب ویني. کاروونکي څه کولی شي، دا لا هم د دوی د رولونو تګلارو پورې اړه لري: پټ شوی پینل یوازې نه ښودل کېږي.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>اړخ پټه روښانه</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>اړخ پټه بنده</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>رول</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ښودل</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>بله د تنظیماتو دوتنه د %siteaccess لپاره دا تنظیمات ټاکي: هغه څه چې دلته خوندي کېږي یوازې د هغې پرته اغېز کوي.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>ناخوندي بدلونونه: هغه خوندي کړئ یا پاڼه پرېږدئ.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>پینل</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>ښودل کېږي</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>ترتیب</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>تل ښودل کېږي</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>خوندي کول</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>د دې رول پینلونه لرې کړئ</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>هغه رولونه چې خپل پینلونه لري</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>هغه کاروونکی چې له دې رولونو څخه څو لري، د لومړي ترتیب ترلاسه کوي؛ پینل ښودل کېږي کله چې د کاروونکي یو رول یې وښيي.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>دلته هېڅ رول خپل پینلونه نه لري: هر کاروونکی پینلونه د اړخ پټې په خپل ترتیب ویني.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>تاریخچه</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>د %file پخوانۍ نسخې، چې د هر بدلون مخکې ساتل شوې.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>تر دې نېټې پورې نافذ</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>تر اوسه پخوانۍ نسخې نشته.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>خوندي نه شو: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>هېڅ بدلون ونه شو.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>په %file کې خوندي شو.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>د %time نسخې پینلونه بېرته راوستل شول.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>د وېبسایټ اړخ پټې پینلونه</translation>
+    </message>
 </context>
 </TS>

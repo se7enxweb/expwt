@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>כלהון מסגרתא מתחזין.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>לוחא דסטרא דגבא דאתרא</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>הנך לוחא דסטרא דגבא דאתרא חזו משתמשי דתפקידא, ובהי סדרא, לכל מיעלא דאתרא. מאי דשרי למשתמשי למיעבד קאי בנימוסי דתפקידייהו: לוחא דמטמרא לא מתחזיא בלחוד.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>מיעלא דאתרא</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>סטרא דגבא פתיחא</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>סטרא דגבא סגירא</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>תפקידא</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>אחזי</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>כתבא אחרינא דתיקונא פסיק הני תיקוני ל%siteaccess: מאי דמינטר הכא בלחוד בלעדיה עביד.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>שינויי דלא מינטרי: נטר להון או שבוק לדפא.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>לוחא</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>מתחזיא</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>סדרא</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>מתחזיא תדירא</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>נטר</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>סלק לוחי דהאי תפקידא</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>תפקידי דאית להון לוחי דידהון</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>משתמשא דאית ליה כמה מהני תפקידי נסיב סדרא דקמא; לוחא קאי מתחזיא כד חד מתפקידי דמשתמשא מחזי ליה.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>לית הכא תפקידא דאית ליה לוחי דידיה: כל משתמשא חזי ללוחי בסדרא דסטרא דגבא גופיה.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>תולדתא</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>נוסחי קדמאי ד%file, דמינטרי קמי כל שינויא.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>קאים עד</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>לית עדיין נוסחי קדמאי.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>לא אתנטר: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>מידי לא אשתני.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>אתנטר ב%file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>לוחי דנוסחא ד%time אהדרו.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>לוחא דסטרא דגבא דאתרא</translation>
+    </message>
 </context>
 </TS>

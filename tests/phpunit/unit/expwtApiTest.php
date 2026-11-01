@@ -99,6 +99,8 @@ class expwtApiTestGateway extends expwtGateway
     public function images( array $in ) { return $this->record( 'images', $in ); }
     public function imagesSave( array $in ) { return $this->record( 'imagesSave', $in ); }
     public function previewDevices( array $in ) { return $this->record( 'previewDevices', $in ); }
+    public $panels = null;
+    public function panelRule() { return $this->panels; }
     public $registered = array( 'panels' => array(), 'actions' => array(), 'highlights' => array(), 'search' => array() );
     public $policies = array();
     public function registeredActions() { return $this->registered['actions']; }
@@ -494,7 +496,7 @@ class expwtApiTest extends PHPUnit\Framework\TestCase
     {
         $r = $this->api()->call( 'boot', array(), 'GET' );
         $d = $r['body']['data'];
-        $this->assertSame( array( 'user', 'capabilities', 'state', 'theme', 'token', 'transport', 'urls', 'strings', 'inbox', 'newsletter', 'comments', 'migrations', 'registry', 'settings' ), array_keys( $d ) );
+        $this->assertSame( array( 'user', 'capabilities', 'state', 'theme', 'token', 'transport', 'urls', 'strings', 'inbox', 'newsletter', 'comments', 'migrations', 'registry', 'panels', 'settings' ), array_keys( $d ) );
         $this->assertSame( 'dark', $d['theme'], 'follows the administration (F10)' );
         $this->assertSame( 'tok', $d['token'] );
         $this->assertSame( 'Bearbeiten', $d['strings']['Edit'] );

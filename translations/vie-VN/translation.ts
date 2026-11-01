@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Tất cả các khung đang hiện.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Bảng của thanh bên trang web</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Người dùng của một vai trò thấy những bảng nào của thanh bên trang web và theo thứ tự nào, cho từng siteaccess. Những gì người dùng được phép làm vẫn do chính sách của vai trò họ quyết định: bảng bị ẩn chỉ đơn giản là không được hiển thị.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Thanh bên bật</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Thanh bên tắt</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Vai trò</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Hiển thị</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Một tệp cài đặt khác quyết định các cài đặt này cho %siteaccess: những gì được lưu ở đây chỉ có hiệu lực khi không có tệp đó.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Thay đổi chưa lưu: hãy lưu hoặc rời khỏi trang.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Bảng</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Đang hiển thị</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Thứ tự</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Luôn hiển thị</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Lưu</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Xóa các bảng của vai trò này</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Vai trò có bảng riêng</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Người dùng có nhiều vai trò trong số này nhận thứ tự của vai trò đầu tiên; một bảng vẫn hiển thị khi một trong các vai trò của người dùng hiển thị nó.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Ở đây không vai trò nào có bảng riêng: mọi người dùng thấy các bảng theo thứ tự riêng của thanh bên.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Lịch sử</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Các phiên bản trước của %file, được giữ lại trước mỗi thay đổi.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Có hiệu lực đến</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Chưa có phiên bản trước nào.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Chưa lưu: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Không có gì thay đổi.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Đã lưu vào %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Đã khôi phục các bảng của phiên bản lúc %time.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Bảng của thanh bên trang web</translation>
+    </message>
 </context>
 </TS>

@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Allir rammar sjást.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Spjöld í hliðarstiku vefsins</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Hvaða spjöld hliðarstiku vefsins notendur hlutverks sjá, og í hvaða röð, fyrir hvern aðgangsstað. Hvað notendur mega gera ræðst áfram af reglum hlutverka þeirra: falið spjald er aðeins ekki sýnt.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Aðgangsstaður</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Hliðarstika á</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Hliðarstika af</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Hlutverk</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Sýna</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Önnur stillingaskrá ræður þessum stillingum fyrir %siteaccess: það sem er vistað hér gildir aðeins án hennar.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Óvistaðar breytingar: vistaðu þær eða farðu af síðunni.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Spjald</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Sýnt</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Röð</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Alltaf sýnt</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Vista</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Fjarlægja spjöld þessa hlutverks</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Hlutverk með eigin spjöld</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Notandi með fleiri en eitt þessara hlutverka fær röð þess fyrsta; spjald er áfram sýnt ef eitt hlutverka notandans sýnir það.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Ekkert hlutverk hefur eigin spjöld hér: allir notendur sjá spjöldin í röð hliðarstikunnar sjálfrar.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Saga</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Eldri útgáfur af %file, geymdar fyrir hverja breytingu.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Í gildi til</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Engar eldri útgáfur enn.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Ekki vistað: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Engu var breytt.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Vistað í %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Spjöld útgáfunnar frá %time voru endurheimt.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Spjöld í hliðarstiku vefsins</translation>
+    </message>
 </context>
 </TS>

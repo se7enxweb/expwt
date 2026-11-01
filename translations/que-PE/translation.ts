@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Llapan markukunam rikuchisqa.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Web sitiop waqta barranpa panelninkuna</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Sapa siteaccess nisqapaq, huk ruraypa ruraqninkuna web sitiop waqta barranpa mayqin panelninkunata, ima ñiqinpitaq rikunku. Ruraqkuna ima ruwayta atisqankuqa rurayninkunap kamachiyninkunallapim kachkan: pakasqa panelqa manam rikuchisqachu, chaylla.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Waqta barra kichasqa</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Waqta barra wichqasqa</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Ruray</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Rikuchiy</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Huk churanakuna willañiqim %siteaccess nisqapaq kay churanakunata akllan: kaypi waqaychasqaqa chay mana kaptinlla llamkan.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Mana waqaychasqa tikraykuna: waqaychay utaq kay rapita saqiy.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Panel</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Rikuchisqa</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Ñiqin</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Sapa kuti rikuchisqa</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Waqaychay</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Kay ruraypa panelninkunata qichuy</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Kikin panelniyuq rurakuna</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Kay rurakunamanta achkayuq ruraqqa ñawpaq kaqpa ñiqinta chaskin; panelqa rikuchisqallam kachkan ruraqpa huk rurayninpas rikuchiptinqa.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Kaypi manam mayqin rurayllapas kikin panelniyuqchu: sapa ruraqmi panelkunata waqta barrap kikin ñiqinpi rikun.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Ñawpa willakuy</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>%file nisqap ñawpa versiónninkuna, sapa tikray ñawpaqta waqaychasqa.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Kaykama llamkarqa</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Manaraqmi ñawpa versiónkuna kanchu.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Mana waqaychasqachu: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Manam imapas tikrarqanchu.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>%file nisqapi waqaychasqa.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>%time versiónpa panelninkuna kutichisqa.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Web sitiop waqta barranpa panelninkuna</translation>
+    </message>
 </context>
 </TS>

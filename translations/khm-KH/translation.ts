@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>ស៊ុមទាំងអស់ត្រូវបានបង្ហាញ។</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>ផ្ទាំងនៃរបារចំហៀងគេហទំព័រ</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>ផ្ទាំងណាខ្លះនៃរបារចំហៀងគេហទំព័រដែលអ្នកប្រើនៃតួនាទីមួយមើលឃើញ និងតាមលំដាប់ណា សម្រាប់ siteaccess នីមួយៗ។ អ្វីដែលអ្នកប្រើអាចធ្វើបាន នៅតែកំណត់ដោយគោលការណ៍នៃតួនាទីរបស់ពួកគេ៖ ផ្ទាំងដែលលាក់ គ្រាន់តែមិនបង្ហាញប៉ុណ្ណោះ។</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>បើករបារចំហៀង</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>បិទរបារចំហៀង</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>តួនាទី</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>បង្ហាញ</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>ឯកសារការកំណត់មួយផ្សេងទៀតសម្រេចការកំណត់ទាំងនេះសម្រាប់ %siteaccess៖ អ្វីដែលរក្សាទុកនៅទីនេះមានប្រសិទ្ធភាពតែពេលគ្មានវាប៉ុណ្ណោះ។</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>ការផ្លាស់ប្ដូរមិនទាន់រក្សាទុក៖ សូមរក្សាទុក ឬចាកចេញពីទំព័រ។</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>ផ្ទាំង</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>កំពុងបង្ហាញ</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>លំដាប់</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>បង្ហាញជានិច្ច</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>រក្សាទុក</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>ដកផ្ទាំងនៃតួនាទីនេះចេញ</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>តួនាទីដែលមានផ្ទាំងផ្ទាល់ខ្លួន</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>អ្នកប្រើដែលមានតួនាទីទាំងនេះច្រើន ទទួលបានលំដាប់នៃតួនាទីទីមួយ។ ផ្ទាំងនៅតែបង្ហាញ នៅពេលតួនាទីមួយរបស់អ្នកប្រើបង្ហាញវា។</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>នៅទីនេះគ្មានតួនាទីណាមានផ្ទាំងផ្ទាល់ខ្លួនទេ៖ អ្នកប្រើគ្រប់រូបមើលឃើញផ្ទាំងតាមលំដាប់ផ្ទាល់របស់របារចំហៀង។</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>ប្រវត្តិ</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>កំណែមុនៗនៃ %file ដែលរក្សាទុកមុនការផ្លាស់ប្ដូរនីមួយៗ។</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>មានសុពលភាពរហូតដល់</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>មិនទាន់មានកំណែមុនៗនៅឡើយទេ។</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>មិនបានរក្សាទុក៖ %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>គ្មានអ្វីផ្លាស់ប្ដូរទេ។</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>បានរក្សាទុកទៅ %file។</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>បានស្ដារផ្ទាំងនៃកំណែ %time។</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>ផ្ទាំងនៃរបារចំហៀងគេហទំព័រ</translation>
+    </message>
 </context>
 </TS>

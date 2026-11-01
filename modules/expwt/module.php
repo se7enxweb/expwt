@@ -4,6 +4,7 @@
  *
  *   expwt/api              the sidebar's actions as JSON (GET: the reading ones, POST with the CSRF token: the others);
  *                          the REST data layer of the browser (expwtApi)
+ *   expwt/panels/<sa>/<role>  Setup > Website sidebar panels: order and visibility of the panels per role and siteaccess (E9)
  *   expwt/reauth/<action>  "Verify it's you" for an action, in a small window the sidebar opens; tells the sidebar
  *                          when the user has answered
  *
@@ -44,6 +45,15 @@ $ViewList['field'] = array(
     // which content/edit's discard and publish return to
     'ui_context' => 'ajax',
     'params' => array( 'ObjectID', 'Version', 'Language', 'Identifier' ) );
+
+// Setup > Website sidebar panels (E9): the panels of the sidebar per role and siteaccess, their order and which are
+// shown. Also needs the kernel's settings module (settings/view to see it, settings/edit to change it).
+$ViewList['panels'] = array(
+    'functions' => array( 'admin' ),
+    'script' => 'panels.php',
+    'default_navigation_part' => 'ezsetupnavigationpart',
+    'ui_context' => 'administration',
+    'params' => array( 'SiteAccess', 'RoleID' ) );
 
 $FunctionList = array();
 // The sidebar on the site: the tab, the Me panel and the Page panel (reading)

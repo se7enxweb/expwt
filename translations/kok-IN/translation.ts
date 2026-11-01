@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>सगळ्यो चौकटी दाखयल्ल्यो.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>वेबसायट साइडबारांतले फलक</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>दर siteaccess खातीर, एका भुमिकेचे वापरपी वेबसायट साइडबारांतले खंयचे फलक आनी कोणत्या क्रमान पळयतात. वापरपी कितें करूंक शकतात तें तांच्या भुमिकांच्या धोरणांचेरूच उरता: लिपयल्लो फलक फकत दाखयना.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>साइडबार चालू</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>साइडबार बंद</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>भुमिका</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>दाखय</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>%siteaccess खातीर हीं सेटिंगां आनीक एक सेटिंग फायल थारायता: हांगा सांबाळिल्लें तें फकत ती नासतना लागू जाता.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>सांबाळूंक नाशिल्ले बदल: ते सांबाळात वा पान सोडात.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>फलक</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>दिसता</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>क्रम</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>सदांच दिसता</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>सांबाळात</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>ह्या भुमिकेचे फलक काडात</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>स्वताचे फलक आशिल्ल्यो भुमिका</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>ह्यो चड भुमिका आशिल्ल्या वापरप्याक पयल्या भुमिकेचो क्रम मेळटा; वापरप्याच्या एका भुमिकेन फलक दाखयल्यार तो दिसतूच उरता.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>हांगा खंयच्याच भुमिकेक स्वताचे फलक नात: दरेक वापरपी साइडबाराच्या स्वताच्या क्रमान फलक पळयता.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>इतिहास</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>%file च्यो आदल्यो आवृत्ती, दर बदला आदीं सांबाळिल्ल्यो.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>मेरेन लागू</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>अजून आदल्यो आवृत्ती नात.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>सांबाळूंक ना: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>कांयच बदल ना.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>%file त सांबाळलें.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>%time च्या आवृत्तीचे फलक परत हाडले.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>वेबसायट साइडबारांतले फलक</translation>
+    </message>
 </context>
 </TS>

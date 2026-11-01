@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>ဘောင်အားလုံးကို ပြသထားသည်။</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>ဝဘ်ဆိုက် ဘေးဘား အကန့်များ</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>siteaccess တစ်ခုစီအတွက် အခန်းကဏ္ဍတစ်ခု၏ အသုံးပြုသူများ ဝဘ်ဆိုက်ဘေးဘား၏ မည်သည့်အကန့်များကို မည်သည့်အစီအစဉ်ဖြင့် မြင်ရသည်။ အသုံးပြုသူများ ဘာလုပ်နိုင်သည်ကို ၎င်းတို့၏ အခန်းကဏ္ဍ မူဝါဒများကသာ ဆက်လက်ဆုံးဖြတ်သည်- ဝှက်ထားသော အကန့်ကို မပြရုံသာ ဖြစ်သည်။</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>ဘေးဘား ဖွင့်</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>ဘေးဘား ပိတ်</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>အခန်းကဏ္ဍ</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ပြရန်</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>အခြားဆက်တင်ဖိုင်တစ်ခုက %siteaccess အတွက် ဤဆက်တင်များကို ဆုံးဖြတ်သည်- ဤနေရာတွင် သိမ်းထားသည်များသည် ၎င်းမရှိမှသာ အကျိုးသက်ရောက်သည်။</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>မသိမ်းရသေးသော ပြောင်းလဲမှုများ- သိမ်းပါ သို့မဟုတ် စာမျက်နှာမှ ထွက်ပါ။</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>အကန့်</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>ပြထားသည်</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>အစီအစဉ်</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>အမြဲပြထားသည်</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>သိမ်းရန်</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>ဤအခန်းကဏ္ဍ၏ အကန့်များကို ဖယ်ရှားရန်</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>ကိုယ်ပိုင်အကန့်များရှိသော အခန်းကဏ္ဍများ</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>ဤအခန်းကဏ္ဍများထဲမှ အများအပြားရှိသော အသုံးပြုသူသည် ပထမတစ်ခု၏ အစီအစဉ်ကို ရသည်။ အသုံးပြုသူ၏ အခန်းကဏ္ဍတစ်ခုက ပြလျှင် အကန့်သည် ပြထားဆဲ ဖြစ်သည်။</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>ဤနေရာတွင် ကိုယ်ပိုင်အကန့်ရှိသော အခန်းကဏ္ဍ မရှိပါ- အသုံးပြုသူတိုင်း ဘေးဘား၏ မူလအစီအစဉ်ဖြင့် အကန့်များကို မြင်ရသည်။</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>မှတ်တမ်း</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>ပြောင်းလဲမှုတိုင်းမတိုင်မီ သိမ်းထားသော %file ၏ ယခင်ဗားရှင်းများ။</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>အထိ အသက်ဝင်ခဲ့သည်</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>ယခင်ဗားရှင်း မရှိသေးပါ။</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>မသိမ်းရပါ- %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>ဘာမျှ မပြောင်းလဲပါ။</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>%file သို့ သိမ်းပြီးပါပြီ။</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>%time ဗားရှင်း၏ အကန့်များကို ပြန်ယူပြီးပါပြီ။</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>ဝဘ်ဆိုက် ဘေးဘား အကန့်များ</translation>
+    </message>
 </context>
 </TS>

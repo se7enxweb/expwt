@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>All frames are shown.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Website sidebar panels</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Sidebar on</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Sidebar off</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Role</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Show</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Unsaved changes: save them or leave the page.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Panel</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Shown</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Order</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Always shown</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Save</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Remove the panels of this role</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Roles with panels of their own</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>No role has panels of its own here: every user sees the panels in the sidebar's own order.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>History</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Earlier versions of %file, kept before every change.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>In place until</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>No earlier versions yet.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Not saved: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Nothing changed.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Saved to %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Restored the panels of the version of %time.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Website sidebar panels</translation>
+    </message>
 </context>
 </TS>

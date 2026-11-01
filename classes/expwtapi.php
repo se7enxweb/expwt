@@ -276,6 +276,9 @@ class expwtApi
             // what other extensions add and this user gets (decision 32): panels, highlights, search providers, and
             // which of their actions write
             'registry' => $g->registryForBoot(),
+            // the order and visibility of the panels for the user's roles on this siteaccess (E9, Setup > Website
+            // sidebar panels): order, hidden; null for the sidebar's own order
+            'panels' => $g->panelRule(),
             'settings' => array( 'minWidth' => $this->settings['min_width'], 'maxWidth' => $this->settings['max_width'],
                                  'minHeight' => $this->settings['min_height'], 'maxHeight' => $this->settings['max_height'],
                                  'overlayBelow' => $this->settings['overlay_below_width'] ),

@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Fremu zote zinaonyeshwa.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Paneli za upau wa pembeni wa tovuti</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Paneli zipi za upau wa pembeni wa tovuti watumiaji wa jukumu fulani wanaona, na kwa mpangilio upi, kwa kila siteaccess. Kile watumiaji wanaruhusiwa kufanya bado kinaamuliwa na sera za majukumu yao: paneli iliyofichwa haionyeshwi tu.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Upau wa pembeni umewashwa</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Upau wa pembeni umezimwa</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Jukumu</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Onyesha</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Faili nyingine ya mipangilio ndiyo inaamua mipangilio hii ya %siteaccess: kinachohifadhiwa hapa kinafanya kazi tu bila faili hiyo.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Mabadiliko ambayo hayajahifadhiwa: yahifadhi au uondoke kwenye ukurasa.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Paneli</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Inaonyeshwa</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Mpangilio</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Huonyeshwa kila wakati</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Hifadhi</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Ondoa paneli za jukumu hili</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Majukumu yenye paneli zao</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Mtumiaji mwenye majukumu kadhaa kati ya haya anapata mpangilio wa la kwanza; paneli inaendelea kuonyeshwa ikiwa mojawapo ya majukumu ya mtumiaji inaionyesha.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Hakuna jukumu lenye paneli zake hapa: kila mtumiaji anaona paneli kwa mpangilio wa upau wa pembeni wenyewe.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historia</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Matoleo ya awali ya %file, yaliyohifadhiwa kabla ya kila badiliko.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Ilitumika hadi</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Bado hakuna matoleo ya awali.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Haijahifadhiwa: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Hakuna kilichobadilika.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Imehifadhiwa kwenye %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Paneli za toleo la %time zimerejeshwa.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Paneli za upau wa pembeni wa tovuti</translation>
+    </message>
 </context>
 </TS>

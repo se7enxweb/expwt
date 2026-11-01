@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Semua bingkai ditampilkan.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Panel bilah samping situs web</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Panel bilah samping situs web mana yang dilihat pengguna suatu peran, dan dalam urutan apa, per akses situs. Apa yang boleh dilakukan pengguna tetap diatur oleh kebijakan peran mereka: panel yang disembunyikan hanya tidak ditampilkan.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Akses situs</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Bilah samping aktif</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Bilah samping nonaktif</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Peran</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Tampilkan</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>File pengaturan lain menentukan pengaturan ini untuk %siteaccess: yang disimpan di sini hanya berlaku tanpa file itu.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Perubahan belum disimpan: simpan atau tinggalkan halaman.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Panel</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Ditampilkan</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Urutan</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Selalu ditampilkan</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Simpan</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Hapus panel peran ini</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Peran dengan panel sendiri</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Pengguna dengan beberapa peran ini mendapat urutan peran pertama; panel tetap ditampilkan bila salah satu peran pengguna menampilkannya.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Di sini tidak ada peran dengan panel sendiri: setiap pengguna melihat panel dalam urutan bilah samping itu sendiri.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Riwayat</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Versi sebelumnya dari %file, disimpan sebelum setiap perubahan.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Berlaku hingga</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Belum ada versi sebelumnya.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Tidak disimpan: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Tidak ada yang berubah.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Disimpan ke %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Panel dari versi %time dipulihkan.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Panel bilah samping situs web</translation>
+    </message>
 </context>
 </TS>

@@ -1955,5 +1955,116 @@
         <source>All frames are shown.</source>
         <translation>Mae pob ffrâm yn cael ei dangos.</translation>
     </message>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Paneli bar ochr y wefan</translation>
+    </message>
+    <message>
+        <source>Which panels of the website sidebar the users of a role see, and in which order, per siteaccess. What users may do stays with the policies of their roles: a hidden panel is only not shown.</source>
+        <translation>Pa baneli o far ochr y wefan y mae defnyddwyr rôl yn eu gweld, ac ym mha drefn, ar gyfer pob mynediad safle. Mae'r hyn y caiff defnyddwyr ei wneud yn aros gyda pholisïau eu rolau: dim ond peidio â chael ei ddangos y mae panel cudd.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Mynediad safle</translation>
+    </message>
+    <message>
+        <source>Sidebar on</source>
+        <translation>Bar ochr ymlaen</translation>
+    </message>
+    <message>
+        <source>Sidebar off</source>
+        <translation>Bar ochr i ffwrdd</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rôl</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Dangos</translation>
+    </message>
+    <message>
+        <source>Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.</source>
+        <translation>Mae ffeil gosodiadau arall yn penderfynu'r gosodiadau hyn ar gyfer %siteaccess: dim ond hebddi y daw'r hyn a gedwir yma i rym.</translation>
+    </message>
+    <message>
+        <source>Unsaved changes: save them or leave the page.</source>
+        <translation>Newidiadau heb eu cadw: cadwch nhw neu gadewch y dudalen.</translation>
+    </message>
+    <message>
+        <source>Panel</source>
+        <translation>Panel</translation>
+    </message>
+    <message>
+        <source>Shown</source>
+        <translation>Yn cael ei ddangos</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation>Trefn</translation>
+    </message>
+    <message>
+        <source>Always shown</source>
+        <translation>Yn cael ei ddangos bob amser</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Cadw</translation>
+    </message>
+    <message>
+        <source>Remove the panels of this role</source>
+        <translation>Tynnu paneli'r rôl hon</translation>
+    </message>
+    <message>
+        <source>Roles with panels of their own</source>
+        <translation>Rolau gyda'u paneli eu hunain</translation>
+    </message>
+    <message>
+        <source>A user with several of these roles gets the order of the first one; a panel stays shown when one of the user's roles shows it.</source>
+        <translation>Mae defnyddiwr gyda sawl un o'r rolau hyn yn cael trefn y gyntaf; mae panel yn aros yn weladwy pan fydd un o rolau'r defnyddiwr yn ei ddangos.</translation>
+    </message>
+    <message>
+        <source>No role has panels of its own here: every user sees the panels in the sidebar's own order.</source>
+        <translation>Nid oes gan unrhyw rôl ei phaneli ei hun yma: mae pob defnyddiwr yn gweld y paneli yn nhrefn y bar ochr ei hun.</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Hanes</translation>
+    </message>
+    <message>
+        <source>Earlier versions of %file, kept before every change.</source>
+        <translation>Fersiynau cynharach o %file, wedi'u cadw cyn pob newid.</translation>
+    </message>
+    <message>
+        <source>In place until</source>
+        <translation>Mewn grym tan</translation>
+    </message>
+    <message>
+        <source>No earlier versions yet.</source>
+        <translation>Dim fersiynau cynharach eto.</translation>
+    </message>
+    <message>
+        <source>Not saved: %message</source>
+        <translation>Heb ei gadw: %message</translation>
+    </message>
+    <message>
+        <source>Nothing changed.</source>
+        <translation>Dim wedi newid.</translation>
+    </message>
+    <message>
+        <source>Saved to %file.</source>
+        <translation>Wedi'i gadw yn %file.</translation>
+    </message>
+    <message>
+        <source>Restored the panels of the version of %time.</source>
+        <translation>Adferwyd paneli fersiwn %time.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/parts/setup/menu</name>
+    <message>
+        <source>Website sidebar panels</source>
+        <translation>Paneli bar ochr y wefan</translation>
+    </message>
 </context>
 </TS>
