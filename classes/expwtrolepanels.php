@@ -278,6 +278,86 @@ class expwtRolePanels
     }
 
     /**
+     * The siteaccesses of the site for Setup > Website sidebar panels (never an administration), each with whether the
+     * sidebar is on there: name => array( name, on ), sorted by name. Reading every siteaccess's settings takes
+     * seconds, so the answer is kept in the cache directory (expwt/setup-siteaccesses.json) and used again while
+     * settingsFingerprint() is the same: no site.ini or expwt.ini of the installation added, removed or changed.
+     *
+     * @return array[]
+     */
+    public static function siteAccesses()
+    {
+        $key = self::settingsFingerprint( expIniEditor::root() );
+        $dir = eZSys::cacheDirectory() . '/expwt';
+        $file = $dir . '/setup-siteaccesses.json';
+        $cached = is_file( $file ) ? json_decode( (string)@file_get_contents( $file ), true ) : null;
+        if ( is_array( $cached ) && isset( $cached['key'], $cached['list'] ) && $cached['key'] === $key && is_array( $cached['list'] ) )
+            return $cached['list'];
+        $list = self::scanSiteAccesses();
+        if ( !eZFile::create( 'setup-siteaccesses.json', $dir, json_encode( array( 'key' => $key, 'list' => $list ) ), true ) )
+            eZDebug::writeWarning( "Could not write $file", __METHOD__ );
+        return $list;
+    }
+
+    /**
+     * What decides siteAccesses(): every site.ini and expwt.ini of the installation (settings/, its override and
+     * siteaccess directories, and the same in every extension) by path, time and size, and expwt's code that reads
+     * them. Not one file is opened.
+     *
+     * @param string $root the installation's root, with a trailing slash
+     * @return string
+     */
+    public static function settingsFingerprint( $root )
+    {
+        $names = '{site,expwt}.ini{,.append,.append.php,.php}';
+        $patterns = array( "settings/$names", "settings/override/$names", "settings/siteaccess/*/$names",
+                           "extension/*/settings/$names", "extension/*/settings/override/$names",
+                           "extension/*/settings/siteaccess/*/$names" );
+        $lines = array();
+        foreach ( $patterns as $pattern )
+            foreach ( glob( $root . $pattern, GLOB_BRACE | GLOB_NOSORT ) ?: array() as $path )
+                $lines[] = substr( $path, strlen( $root ) ) . ':' . (int)@filemtime( $path ) . ':' . (int)@filesize( $path );
+        foreach ( array( __FILE__, __DIR__ . '/expwtsettings.php' ) as $path )
+            $lines[] = basename( $path ) . ':' . (int)@filemtime( $path );
+        sort( $lines );
+        return sha1( implode( "\n", $lines ) );
+    }
+
+    /** @return array[] siteAccesses(), read from every siteaccess's settings */
+    private static function scanSiteAccesses()
+    {
+        $list = array();
+        foreach ( expIniEditor::scopes() as $scope )
+        {
+            $name = $scope->siteAccess();
+            if ( $scope->kind() !== expIniScope::KIND_SITEACCESS || $name === null || isset( $list[$name] ) )
+                continue;
+            try
+            {
+                $site = eZSiteAccess::getIni( $name, 'site.ini' );
+                $design = $site->hasVariable( 'DesignSettings', 'SiteDesign' ) ? (string)$site->variable( 'DesignSettings', 'SiteDesign' ) : '';
+                $info = array( 'site_design' => $design, 'site_designs' => array( $design ),
+                               'front_site_access' => $site->hasVariable( 'SiteSettings', 'FrontSiteAccess' ) ? (string)$site->variable( 'SiteSettings', 'FrontSiteAccess' ) : '' );
+                $administration = class_exists( 'ezpSiteAccessMenu' ) && method_exists( 'ezpSiteAccessMenu', 'isAdministration' )
+                    ? ezpSiteAccessMenu::isAdministration( $name, ezpSiteAccessMenu::settings()['admin'], $info )
+                    : in_array( strtolower( $design ), array( 'admin', 'admin2', 'admin3', 'admin4', 'admin4l', 'adminui', 'editor' ), true );
+                if ( $administration )
+                    continue;
+                $ini = new eZINI( 'expwt.ini', 'settings', null, false, true, false, false, false );
+                $ini->setOverrideDirs( $site->overrideDirs( false ) );
+                $ini->load();
+                $list[$name] = array( 'name' => $name, 'on' => expwtSettings::showHere( expwtSettings::fromIni( $ini ), $name, false ) );
+            }
+            catch ( Throwable $e )
+            {
+                eZDebug::writeError( get_class( $e ) . ': ' . $e->getMessage(), __METHOD__ );
+            }
+        }
+        ksort( $list );
+        return $list;
+    }
+
+    /**
      * The editor of a siteaccess's expwt.ini.append.php.
      *
      * @param string $siteAccess

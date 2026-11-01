@@ -164,4 +164,28 @@ class expwtRolePanelsTest extends PHPUnit\Framework\TestCase
         $this->assertNull( expwtRolePanels::backupRoles( $editor, '../../etc' ), 'only a backup stamp' );
         $this->assertNull( expwtRolePanels::backupRoles( $editor, '20200101-000000' ), 'no such backup' );
     }
+
+    /** The Setup screen's siteaccess list is kept while no site.ini or expwt.ini of the installation changes */
+    public function testTheSettingsFingerprintFollowsSiteAndExpwtIniOnly()
+    {
+        $root = $this->fixture();
+        $first = expwtRolePanels::settingsFingerprint( $root );
+        $this->assertSame( $first, expwtRolePanels::settingsFingerprint( $root ), 'the same files: the same key' );
+        file_put_contents( $root . 'settings/siteaccess/site/menu.ini.append.php', "<?php /*\n[X]\n*/ ?>\n" );
+        $this->assertSame( $first, expwtRolePanels::settingsFingerprint( $root ), 'another settings file does not count' );
+        $file = $root . 'settings/siteaccess/site/expwt.ini.append.php';
+        file_put_contents( $file, "<?php /*\n[ExpwtSettings]\nEnabled=enabled\n*/ ?>\n" );
+        $added = expwtRolePanels::settingsFingerprint( $root );
+        $this->assertNotSame( $first, $added, 'a siteaccess expwt.ini added' );
+        file_put_contents( $file, "<?php /*\n[ExpwtSettings]\nEnabled=disabled\n*/ ?>\n" );
+        $this->assertNotSame( $added, expwtRolePanels::settingsFingerprint( $root ), 'changed (another size)' );
+        $before = expwtRolePanels::settingsFingerprint( $root );
+        mkdir( $root . 'extension/other/settings', 0755, true );
+        file_put_contents( $root . 'extension/other/settings/expwt.ini.append.php', "<?php /*\n[ExpwtSettings]\n*/ ?>\n" );
+        $this->assertNotSame( $before, expwtRolePanels::settingsFingerprint( $root ), 'an extension\'s expwt.ini' );
+        $before = expwtRolePanels::settingsFingerprint( $root );
+        touch( $root . 'settings/site.ini', time() + 5 );
+        clearstatcache();
+        $this->assertNotSame( $before, expwtRolePanels::settingsFingerprint( $root ), 'site.ini touched' );
+    }
 }

@@ -278,6 +278,10 @@ in welcher Reihenfolge: **Setup > Bereiche der Website-Seitenleiste** (`expwt/pa
 - Bestimmt eine andere Einstellungsdatei diese Einstellungen für den Siteaccess (die
   `settings/expwt.ini.append.php` einer Erweiterung oder `settings/override/expwt.ini.append.php`, die nach
   `settings/siteaccess/` gelesen werden), sagt die Seite es: Was dort gespeichert wird, wirkt erst ohne sie.
+- Ob die Seitenleiste in einem Siteaccess an ist (die Auswahlliste), verlangt die Einstellungen jedes Siteaccess zu
+  lesen; die Antwort bleibt deshalb im Cache-Verzeichnis (`expwt/setup-siteaccesses.json`), bis eine `site.ini` oder
+  `expwt.ini` der Installation hinzukommt, wegfällt oder sich ändert. Bei jedem Aufruf gelesen werden nur die
+  Einstellungen des gewählten Siteaccess.
 - Braucht `expwt/admin` und das Einstellungsmodul des Kernels: `settings/view`, um die Seite zu sehen, `settings/edit`,
   um etwas zu ändern. Das Setup-Menü zeigt den Link Benutzern mit `expwt/admin` und `settings/view`; alle anderen
   werden abgewiesen.

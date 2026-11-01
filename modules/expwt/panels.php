@@ -34,33 +34,9 @@ if ( !$may( 'view' ) )
 $canEdit = $may( 'edit' );
 $t = function ( $text, array $args = array() ) { return ezpI18n::tr( 'extension/expwt', $text, null, $args ); };
 
-// the siteaccesses of the site (never an administration), each with whether the sidebar is on there
-$siteAccesses = array();
-foreach ( expIniEditor::scopes() as $scope )
-{
-    $name = $scope->siteAccess();
-    if ( $scope->kind() !== expIniScope::KIND_SITEACCESS || $name === null || isset( $siteAccesses[$name] ) )
-        continue;
-    try
-    {
-        $site = eZSiteAccess::getIni( $name, 'site.ini' );
-        $design = $site->hasVariable( 'DesignSettings', 'SiteDesign' ) ? (string)$site->variable( 'DesignSettings', 'SiteDesign' ) : '';
-        $info = array( 'site_design' => $design, 'site_designs' => array( $design ),
-                       'front_site_access' => $site->hasVariable( 'SiteSettings', 'FrontSiteAccess' ) ? (string)$site->variable( 'SiteSettings', 'FrontSiteAccess' ) : '' );
-        $administration = class_exists( 'ezpSiteAccessMenu' ) && method_exists( 'ezpSiteAccessMenu', 'isAdministration' )
-            ? ezpSiteAccessMenu::isAdministration( $name, ezpSiteAccessMenu::settings()['admin'], $info )
-            : in_array( strtolower( $design ), array( 'admin', 'admin2', 'admin3', 'admin4', 'admin4l', 'adminui', 'editor' ), true );
-        if ( $administration )
-            continue;
-        $chain = expSettingsPage::chainFor( 'expwt.ini', $name );
-        $siteAccesses[$name] = array( 'name' => $name, 'on' => expwtSettings::showHere( expwtSettings::fromIni( $chain['ini'] ), $name, false ),
-                                      'ini' => $chain['ini'] );
-    }
-    catch ( Throwable $e )
-    {
-        eZDebug::writeError( get_class( $e ) . ': ' . $e->getMessage(), __METHOD__ );
-    }
-}
+// the siteaccesses of the site (never an administration), each with whether the sidebar is on there (kept in the
+// cache while no site.ini or expwt.ini changes: reading every siteaccess's settings takes seconds)
+$siteAccesses = expwtRolePanels::siteAccesses();
 ksort( $siteAccesses );
 
 // the roles of the installation
@@ -88,6 +64,8 @@ if ( $siteAccess === null && $siteAccesses )
 }
 $roleId = isset( $Params['RoleID'] ) && isset( $roleNames[(int)$Params['RoleID']] ) ? (int)$Params['RoleID'] : null;
 $here = '/expwt/panels' . ( $siteAccess !== null ? '/' . $siteAccess . ( $roleId !== null ? '/' . $roleId : '' ) : '' );
+// expwt.ini as the chosen siteaccess reads it (every settings file), only for that one
+$siteIni = $siteAccess !== null ? expSettingsPage::chainFor( 'expwt.ini', $siteAccess )['ini'] : null;
 
 // every panel there is, in the sidebar's own order (the sidebar's own, then the registered ones before the panel
 // their registration names), with its label
@@ -97,7 +75,7 @@ $labels = array( 'page' => 'Page', 'create' => 'Create', 'structure' => 'Structu
 $panelLabels = array();
 foreach ( expwtState::PANELS as $id )
     $panelLabels[$id] = $t( isset( $labels[$id] ) ? $labels[$id] : $id );
-$registry = $siteAccess !== null ? expwtRegistry::fromIni( $siteAccesses[$siteAccess]['ini'] ) : expwtRegistry::EMPTY_REGISTRY;
+$registry = $siteAccess !== null ? expwtRegistry::fromIni( $siteIni ) : expwtRegistry::EMPTY_REGISTRY;
 foreach ( $registry['panels'] as $p )
 {
     $ids = array_keys( $panelLabels );
@@ -125,7 +103,7 @@ if ( $siteAccess !== null )
         $roles = expwtRolePanels::fromValues( $values );
         // what the siteaccess reads in the end (every settings file): another file decides when it differs
         $effective = array();
-        $ini = $siteAccesses[$siteAccess]['ini'];
+        $ini = $siteIni;
         if ( $ini->hasGroup( expwtRolePanels::BLOCK ) )
             $effective[expwtRolePanels::BLOCK] = (array)$ini->group( expwtRolePanels::BLOCK );
         foreach ( isset( $effective[expwtRolePanels::BLOCK]['RoleList'] ) ? (array)$effective[expwtRolePanels::BLOCK]['RoleList'] : array() as $id )

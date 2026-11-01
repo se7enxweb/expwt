@@ -253,6 +253,9 @@ order: **Setup > Website sidebar panels** (`expwt/panels`). Pick the siteaccess 
 - When another settings file decides these settings for the siteaccess (an extension's
   `settings/expwt.ini.append.php` or `settings/override/expwt.ini.append.php`, read after `settings/siteaccess/`), the
   screen says so: what is saved there only takes effect without it.
+- Whether the sidebar is on in each siteaccess (the list to choose from) takes reading every siteaccess's settings, so
+  the answer is kept in the cache directory (`expwt/setup-siteaccesses.json`) until a `site.ini` or `expwt.ini` of the
+  installation is added, removed or changed; only the chosen siteaccess's settings are read on every visit.
 - Needs `expwt/admin` and the kernel's settings module: `settings/view` to see the screen, `settings/edit` to change
   anything. The Setup menu shows the link to users with `expwt/admin` and `settings/view`; others are refused.
 
