@@ -1820,6 +1820,34 @@
         <translation>%n ghoSmey qImlu'nIS</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>qonlI'…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>choHmeylIj qonlu'taH, QIjmeH.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>choHmeywIj yIqon</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>qonghach yImev</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Hoch Daq qonghach poSmoHlu': Hoch choH qonlu'.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>qonghach mevpu'.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>DaH qonlaHbe'lu'.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>mIllogh Qonvammo' buSwI' Daq tu'lu'laHbe'.</translation>
     </message>

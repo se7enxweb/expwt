@@ -1820,6 +1820,34 @@
         <translation>%n migrācijām nepieciešama uzmanība</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Ieraksta…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Jūsu izmaiņas tiek ierakstītas migrācijai.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Ierakstīt manas izmaiņas</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Apturēt ierakstu</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Ir atvērts visas vietnes ieraksts: tiek ierakstīta katra izmaiņa.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Ieraksts apturēts.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Ierakstīšana pašlaik nav pieejama.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Šim attēlam nevar būt fokusa punkta.</translation>
     </message>

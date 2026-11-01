@@ -1820,6 +1820,34 @@
         <translation>Fifindrana %n mila jerena</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Mirakitra…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Voarakitra ho an'ny fifindrana ireo fanovanao.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Rakitrao ireo fanovako</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Ajanony ny firaketana</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Misokatra ny firaketana ny tranonkala manontolo: voarakitra ny fanovana rehetra.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Nijanona ny firaketana.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Tsy azo atao izao ny firaketana.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Tsy afaka manana teboka ifantohana ity sary ity.</translation>
     </message>

@@ -1820,6 +1820,34 @@
         <translation>%n عمليات ترحيل تحتاج إلى انتباه</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>جارٍ التسجيل…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>تُسجَّل تغييراتك من أجل ترحيل.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>سجّل تغييراتي</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>أوقف التسجيل</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>تسجيل على مستوى الموقع مفتوح: يُسجَّل كل تغيير.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>توقف التسجيل.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>التسجيل غير متاح الآن.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>لا يمكن أن تكون لهذه الصورة نقطة تركيز.</translation>
     </message>

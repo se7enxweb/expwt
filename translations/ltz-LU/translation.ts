@@ -1820,6 +1820,34 @@
         <translation>%n Migratioune brauchen Opmierksamkeet</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Gëtt opgeholl…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Är Ännerunge ginn fir eng Migratioun opgeholl.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Meng Ännerungen ophuelen</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Ophuelen stoppen</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Eng Opnam vum ganze Site ass op: all Ännerung gëtt opgeholl.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Ophuelen gestoppt.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Ophuelen ass elo net disponibel.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Dëst Bild kann kee Fokuspunkt hunn.</translation>
     </message>

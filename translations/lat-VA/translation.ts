@@ -1820,6 +1820,34 @@
         <translation>%n migrationes curam requirunt</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Notatur…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Mutationes tuae ad migrationem notantur.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Mutationes meas nota</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Notationem siste</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Notatio totius situs aperta est: omnis mutatio notatur.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Notatio desiit.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Notatio nunc non praesto est.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Haec imago punctum focale habere non potest.</translation>
     </message>

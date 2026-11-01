@@ -1820,6 +1820,34 @@
         <translation>%n ta migratsiya eʼtibor talab qiladi</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Yozib olinmoqda…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Oʻzgarishlaringiz migratsiya uchun yozib olinmoqda.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Oʻzgarishlarimni yozib ol</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Yozishni toʻxtatish</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Butun sayt yozuvi ochiq: har bir oʻzgarish yozib olinadi.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Yozish toʻxtatildi.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Yozish hozir mavjud emas.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Bu rasmda fokus nuqtasi bo'lishi mumkin emas.</translation>
     </message>

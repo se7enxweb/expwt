@@ -1820,6 +1820,34 @@
         <translation>%n migrasioŋ soxla nañu topptoo</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Mungiy bind…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Coppitéef yi nga def ñu ngi leen bind ngir benn tukki.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Bindal samay coppitéef</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Taxawal bind bi</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Bind bu dalu bépp dalu bi ubbiku na: coppite bu nekk ñu bind ko.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Bind bi taxaw na.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Bind amul léegi.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Nataal bii mënul am toombu xool.</translation>
     </message>

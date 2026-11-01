@@ -1820,6 +1820,34 @@
         <translation>%n миграцина тидам оьшу</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>ДӀаяздар…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Хьан хийцамаш миграцина дӀаяздо.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Сан хийцамаш дӀаязде</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>ДӀаяздар сацае</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Ерриге сайтан дӀаяздар диллина ду: хӀора хийцам дӀаяздо.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>ДӀаяздар сецна.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>ДӀаяздар хӀинца тӀекхочуш дац.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Кху суьртан фокусан тӀадам хила йиш яц.</translation>
     </message>

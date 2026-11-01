@@ -1820,6 +1820,34 @@
         <translation>%n flytingar krevja ans</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Upptekur…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Broytingar tínar verða upptiknar til eina flyting.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Tak upp mínar broytingar</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Steðga upptøkuni</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Ein upptøka av allari síðuni er opin: hvør broyting verður upptikin.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Upptøkan er steðgað.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Upptøka er ikki tøk nú.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Henda myndin kann ikki hava eitt brennidepil.</translation>
     </message>

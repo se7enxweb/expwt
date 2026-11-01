@@ -1820,6 +1820,34 @@
         <translation>%n migraties vragen aandacht</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Opnemen…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Uw wijzigingen worden opgenomen voor een migratie.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Mijn wijzigingen opnemen</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Opname stoppen</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Er loopt een opname van de hele site: elke wijziging wordt opgenomen.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Opname gestopt.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Opnemen is nu niet beschikbaar.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Deze afbeelding kan geen focuspunt hebben.</translation>
     </message>

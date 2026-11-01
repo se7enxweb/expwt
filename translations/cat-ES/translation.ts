@@ -1820,6 +1820,34 @@
         <translation>%n migracions requereixen atenció</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>S'està enregistrant…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Els vostres canvis s'enregistren per a una migració.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Enregistra els meus canvis</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Atura l'enregistrament</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Hi ha un enregistrament de tot el lloc obert: s'enregistra cada canvi.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Enregistrament aturat.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>L'enregistrament no està disponible ara.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Aquesta imatge no pot tenir un punt focal.</translation>
     </message>

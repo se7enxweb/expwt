@@ -1820,6 +1820,34 @@
         <translation>%n שוניא סניקין לחזיא</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>כתב…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>שוחלפיך מתכתבין לשנויא.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>כתוב שוחלפי</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>שבוק כתבא</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>כתבא דכלה אתרא פתיח: כל שוחלף מתכתב.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>כתבא אתשבק.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>כתבא לא איתוהי השא.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>לית אפשר לצורתא הדא נקודת חזוא.</translation>
     </message>

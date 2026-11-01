@@ -1820,6 +1820,34 @@
         <translation>%n migreringer kræver opmærksomhed</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Optager…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Dine ændringer optages til en migrering.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Optag mine ændringer</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Stop optagelsen</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>En optagelse af hele webstedet er åben: hver ændring optages.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Optagelsen er stoppet.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Optagelse er ikke tilgængelig nu.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Dette billede kan ikke have et fokuspunkt.</translation>
     </message>

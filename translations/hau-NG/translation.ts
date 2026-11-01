@@ -1820,6 +1820,34 @@
         <translation>Ƙaura %n na buƙatar kulawa</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Ana nadi…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Ana naɗar canje-canjenka don ƙaura.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Naɗi canje-canjena</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Dakatar da naɗi</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Naɗin dukan shafin a buɗe yake: ana naɗar kowane canji.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>An dakatar da naɗi.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Naɗi ba ya samuwa yanzu.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Wannan hoto ba zai iya samun wurin mayar da hankali ba.</translation>
     </message>

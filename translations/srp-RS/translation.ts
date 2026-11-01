@@ -1820,6 +1820,34 @@
         <translation>Миграција којима је потребна пажња: %n</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Снимање…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Ваше промене се снимају за миграцију.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Снимај моје промене</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Заустави снимање</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Отворено је снимање целог сајта: снима се свака промена.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Снимање је заустављено.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Снимање тренутно није доступно.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Ова слика не може имати жижну тачку.</translation>
     </message>

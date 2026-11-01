@@ -1820,6 +1820,34 @@
         <translation>%n migrasiýa üns talap edýär</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Ýazga alynýar…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Üýtgeşmeleriňiz göçürme üçin ýazga alynýar.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Üýtgeşmelerimi ýazga al</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Ýazgyny bes et</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Ähli saýtyň ýazgysy açyk: her üýtgeşme ýazga alynýar.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Ýazgy bes edildi.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Ýazgy häzir elýeterli däl.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Bu suratyň fokus nokady bolup bilmeýär.</translation>
     </message>

@@ -1820,6 +1820,34 @@
         <translation>ការផ្ទេរ %n ត្រូវការការយកចិត្តទុកដាក់</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>កំពុងកត់ត្រា…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>ការផ្លាស់ប្ដូររបស់អ្នកកំពុងត្រូវបានកត់ត្រាសម្រាប់ការធ្វើចំណាកស្រុកមួយ។</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>កត់ត្រាការផ្លាស់ប្ដូររបស់ខ្ញុំ</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>បញ្ឈប់ការកត់ត្រា</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>ការកត់ត្រាទូទាំងគេហទំព័របានបើក៖ ការផ្លាស់ប្ដូរនីមួយៗត្រូវបានកត់ត្រា។</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>បានបញ្ឈប់ការកត់ត្រា។</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>ការកត់ត្រាមិនអាចប្រើបានឥឡូវនេះទេ។</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>រូបភាពនេះមិនអាចមានចំណុចផ្ដោតបានទេ។</translation>
     </message>

@@ -1820,6 +1820,34 @@
         <translation>%n 个迁移需要注意</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>正在记录…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>您的更改正被记录用于迁移。</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>记录我的更改</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>停止记录</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>全站记录已开启：每项更改都会被记录。</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>记录已停止。</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>当前无法记录。</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>此图片不能设置焦点。</translation>
     </message>

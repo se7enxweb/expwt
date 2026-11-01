@@ -1820,6 +1820,34 @@
         <translation>การย้ายข้อมูล %n รายการต้องได้รับการดูแล</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>กำลังบันทึก…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>การเปลี่ยนแปลงของคุณกำลังถูกบันทึกเพื่อการย้ายข้อมูล</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>บันทึกการเปลี่ยนแปลงของฉัน</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>หยุดบันทึก</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>การบันทึกทั้งไซต์เปิดอยู่: ทุกการเปลี่ยนแปลงถูกบันทึก</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>หยุดบันทึกแล้ว</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>ไม่สามารถบันทึกได้ในขณะนี้</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>รูปภาพนี้ไม่สามารถมีจุดโฟกัสได้</translation>
     </message>

@@ -1820,6 +1820,34 @@
         <translation>%n миграция диққатро талаб мекунад</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Сабт мешавад…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Тағйироти шумо барои муҳоҷират сабт мешаванд.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Тағйироти маро сабт кун</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Сабтро қатъ кун</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Сабти тамоми сайт кушода аст: ҳар тағйирот сабт мешавад.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Сабт қатъ шуд.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Сабт ҳоло дастрас нест.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Ин тасвир нуқтаи фокус дошта наметавонад.</translation>
     </message>

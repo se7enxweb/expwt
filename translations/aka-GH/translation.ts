@@ -1820,6 +1820,34 @@
         <translation>Nsesamu %n hia adwene</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Ɛrekyerɛ…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Wɔrekyerɛ wo nsakrae ama migration bi.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Kyerɛ me nsakrae</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Gyae kyerɛ</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Wɔabue site no nyinaa kyerɛ: wɔrekyerɛ nsakrae biara.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Wɔagyae kyerɛ.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Kyerɛ nni hɔ seesei.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Mfonini yi ntumi nnya beaeɛ titiriw.</translation>
     </message>

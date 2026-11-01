@@ -1820,6 +1820,34 @@
         <translation>Pono ka nānā ʻana i nā neʻe he %n</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Ke hoʻopaʻa nei…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Ke hoʻopaʻa ʻia nei kāu mau loli no ka hoʻoneʻe.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>E hoʻopaʻa i kaʻu mau loli</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>E hoʻōki i ka hoʻopaʻa</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Ua wehe ʻia ka hoʻopaʻa o ka pūnaewele holoʻokoʻa: ua hoʻopaʻa ʻia kēlā me kēia loli.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Ua hoʻōki ʻia ka hoʻopaʻa.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>ʻAʻole hiki ke hoʻopaʻa i kēia manawa.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>ʻAʻole hiki i kēia kiʻi ke loaʻa he kiko nānā.</translation>
     </message>

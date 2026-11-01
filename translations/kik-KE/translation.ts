@@ -1820,6 +1820,34 @@
         <translation>Mĩthamĩo %n nĩ ĩbatairio kũmenyererwo</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Nĩkũandĩkwo…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Mũgarũrũko waku nĩũrandĩkwo nĩ ũndũ wa gũthamĩria.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Andĩka mũgarũrũko wakwa</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Tiga kwandĩka</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Kwandĩka kwa tovuti yothe nĩkũhingũre: o mũgarũrũko nĩũrandĩkwo.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Kwandĩka nĩgũtigĩtwo.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Kwandĩka gũtirĩ kuo rĩu.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Mbica ĩno ndĩngĩkorwo na kĩhinya kĩa kwĩrorera.</translation>
     </message>

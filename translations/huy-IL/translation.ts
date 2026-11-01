@@ -1820,6 +1820,34 @@
         <translation>%n שניותא בעיין עיונא</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>כתבנא…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>שנויאכון כתיבי לשום מיגרציה.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>כתוב שנויאי</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>שלוק כתבא</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>כתבא דכולה סייט פתיחא: כל שנויא כתיב.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>כתבא שלקה.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>כתבא לית השתא.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>לצורתא הדא לא מצי הוי נקודתא דעינא.</translation>
     </message>

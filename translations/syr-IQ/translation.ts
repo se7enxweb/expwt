@@ -1820,6 +1820,34 @@
         <translation>%n ܫܘܢܝ̈ܐ ܣܢܝܩܝܢ ܠܚܘܪܐ</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>ܟܬܒܐ…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>ܫܘܚܠܦܝܟ ܡܬܟܬܒܝܢ ܠܫܘܢܝܐ.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>ܟܬܘܒ ܫܘܚܠܦܝ</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>ܫܒܘܩ ܟܬܒܐ</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>ܟܬܒܐ ܕܟܠܗ ܐܬܪܐ ܦܬܝܚ: ܟܠ ܫܘܚܠܦ ܡܬܟܬܒ.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>ܟܬܒܐ ܐܫܬܒܩ.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>ܟܬܒܐ ܠܐ ܐܝܬܘܗܝ ܗܫܐ.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>ܨܘܪܬܐ ܗܕܐ ܠܐ ܡܨܝܐ ܕܢܗܘܐ ܠܗ ܢܘܩܙܐ ܕܚܘܪܐ.</translation>
     </message>

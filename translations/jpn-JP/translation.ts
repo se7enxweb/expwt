@@ -1820,6 +1820,34 @@
         <translation>%n 件のマイグレーションに対応が必要です</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>記録中…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>あなたの変更は移行のために記録されています。</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>自分の変更を記録</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>記録を停止</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>サイト全体の記録が開いています：すべての変更が記録されます。</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>記録を停止しました。</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>現在、記録は利用できません。</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>この画像にはフォーカルポイントを設定できません。</translation>
     </message>

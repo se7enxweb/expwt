@@ -1820,6 +1820,34 @@
         <translation>Ukufuduswa okungu %n kudinga ukunakwa</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Iyaqopha…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Izinguquko zakho ziyaqoshwa ukuze kuthuthwe.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Qopha izinguquko zami</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Misa ukuqopha</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Ukuqoshwa kwesayithi lonke kuvuliwe: lonke ushintsho luyaqoshwa.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Ukuqopha kumisiwe.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Ukuqopha akutholakali manje.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Lesi sithombe asikwazi ukuba nendawo yokugxila.</translation>
     </message>

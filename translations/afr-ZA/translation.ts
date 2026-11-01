@@ -1820,6 +1820,34 @@
         <translation>%n migrasies vra aandag</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Neem op…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Jou veranderinge word vir 'n migrasie opgeneem.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Neem my veranderinge op</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Stop opname</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>'n Werfwye opname is oop: elke verandering word opgeneem.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Opname gestop.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Opname is nou nie beskikbaar nie.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Hierdie prent kan nie 'n fokuspunt hê nie.</translation>
     </message>

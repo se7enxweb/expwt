@@ -1820,6 +1820,34 @@
         <translation>%n hekenga me aro atu</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>E hopu ana…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>E hopukina ana ō panonitanga mō tētahi hekenga.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Hopukina aku panonitanga</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Kati te hopu</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>E tuwhera ana te hopu o te paetukutuku katoa: ka hopukina ia panonitanga.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Kua kati te hopu.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Kāore e wātea te hopu ināianei.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Kāore e taea e tēnei atahanga te whai ira arotahi.</translation>
     </message>

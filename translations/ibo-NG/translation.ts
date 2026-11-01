@@ -1820,6 +1820,34 @@
         <translation>Mbugharị %n chọrọ nlebara anya</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Na-edekọ…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>A na-edekọ mgbanwe gị maka mbugharị.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Dekọọ mgbanwe m</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Kwụsị ndekọ</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Ndekọ saịtị niile mepere emepe: a na-edekọ mgbanwe ọ bụla.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Ndekọ kwụsịrị.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Ndekọ adịghị ugbu a.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Onyonyo a enweghị ike inwe ebe nlekwasị anya.</translation>
     </message>

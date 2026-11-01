@@ -1820,6 +1820,34 @@
         <translation>Migrácie vyžadujúce pozornosť: %n</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Nahrávanie…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Vaše zmeny sa nahrávajú pre migráciu.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Nahrávať moje zmeny</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Zastaviť nahrávanie</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Je otvorené nahrávanie celého webu: nahráva sa každá zmena.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Nahrávanie zastavené.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Nahrávanie teraz nie je k dispozícii.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Tento obrázok nemôže mať ohniskový bod.</translation>
     </message>

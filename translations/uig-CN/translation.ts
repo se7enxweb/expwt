@@ -1820,6 +1820,34 @@
         <translation>%n كۆچۈش دىققەت تەلەپ قىلىدۇ</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>خاتىرىلىنىۋاتىدۇ…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>ئۆزگىرىشلىرىڭىز يۆتكەش ئۈچۈن خاتىرىلىنىۋاتىدۇ.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>ئۆزگىرىشلىرىمنى خاتىرىلە</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>خاتىرىلەشنى توختات</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>پۈتۈن تور بېكەتنىڭ خاتىرىسى ئوچۇق: ھەر بىر ئۆزگىرىش خاتىرىلىنىدۇ.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>خاتىرىلەش توختىدى.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>خاتىرىلەش ھازىر ئىشلەتكىلى بولمايدۇ.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>بۇ رەسىمنىڭ فوكۇس نۇقتىسى بولالمايدۇ.</translation>
     </message>

@@ -35,6 +35,10 @@ same('attention: pending, those not listed, failed, orphans',
 same('attention of nothing', M.attention({}), 0);
 same('no time is nothing', M.at(null, 'en-US'), '');
 same('a time that is not one is shown as it is', M.at('soon', 'en-US'), 'soon');
+same('no recording offered: nothing shown', [M.recording(null), M.recording(undefined), M.recording('x')], ['none', 'none', 'none']);
+same('the user records', M.recording({ active: true, since: '2026-11-01T10:00:00Z', site: false }), 'on');
+same('the user can record', M.recording({ active: false, since: null, site: false }), 'off');
+same('a site-wide window alone is not the user\'s recording', M.recording({ active: false, site: true }), 'off');
 same('a time in the language given', M.at('2026-10-31T10:00:00Z', 'en-US').indexOf('2026') >= 0, true);
 
 process.exit(failed ? 1 : 0);

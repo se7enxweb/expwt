@@ -3369,6 +3369,12 @@
       var d = new Date(iso);
       if (isNaN(d.getTime())) { return String(iso); }
       try { return new Intl.DateTimeFormat(lang, { dateStyle: 'medium', timeStyle: 'short' }).format(d); } catch (e) { return d.toLocaleString(); }
+    },
+    /* The recording of the user's own changes (WP13): 'none' (not offered: no kernel support, no migration/edit,
+       switched off), 'on' (the user's changes are recorded), 'off' (they can be). */
+    recording: function (rec) {
+      if (!rec || typeof rec !== 'object') { return 'none'; }
+      return rec.active ? 'on' : 'off';
     }
   };
 
@@ -3404,10 +3410,47 @@
     function row(label, value) {
       return value ? [h('dt', { text: label }), h('dd', {}, [value])] : [];
     }
+    /* The recording of the user's own changes (WP13): the state with Start or Stop; the site-wide window is only
+       shown. Each answer redraws the block and the mark on the tab. */
+    function recording(rec) {
+      var state = Migrations.recording(rec);
+      if (ctx.recording) { ctx.recording(rec); }
+      if (state === 'none') { return null; }
+      var box = h('section', { class: 'wt-section wt-rec' + (state === 'on' ? ' is-on' : ''), 'aria-labelledby': 'wt-mig-rec' });
+      function draw(r) {
+        box.textContent = '';
+        var on = Migrations.recording(r) === 'on';
+        box.className = 'wt-section wt-rec' + (on ? ' is-on' : '');
+        var button = h('button', { type: 'button', class: 'wt-btn' + (on ? '' : ' is-primary'), text: on ? t('Stop recording') : t('Record my changes') });
+        button.addEventListener('click', function () {
+          button.disabled = true;
+          ctx.call(on ? 'migrations.record.stop' : 'migrations.record.start', {}).then(function (answer) {
+            if (ctx.recording) { ctx.recording(answer); }
+            if (Migrations.recording(answer) === 'none') { box.remove(); return; }
+            draw(answer);
+            ctx.say(Migrations.recording(answer) === 'on' ? t('Your changes are recorded for a migration.') : t('Recording stopped.'), 'ok');
+          }, function (err) { button.disabled = false; failure(ctx, err); });
+        });
+        box.appendChild(h('h3', { id: 'wt-mig-rec', class: 'wt-rec-title' }, [
+          on ? h('span', { class: 'wt-rec-dot', 'aria-hidden': 'true' }) : null,
+          h('span', { text: on ? t('Recording…') : t('Record my changes') })
+        ]));
+        if (on) {
+          box.appendChild(h('p', { role: 'status', text: t('Your changes are recorded for a migration.') }));
+          if (r.since) { box.appendChild(h('p', { class: 'wt-muted', text: Migrations.at(r.since, lang) })); }
+        }
+        if (r.site) { box.appendChild(h('p', { class: 'wt-notice is-warn', role: 'status', text: t('A site-wide recording is open: every change is recorded.') })); }
+        box.appendChild(h('div', { class: 'wt-row' }, [button]));
+      }
+      draw(rec);
+      return box;
+    }
     root.appendChild(h('p', { class: 'wt-muted', text: t('Loading ...') }));
     ctx.call('migrations.load', {}).then(function (r) {
       root.textContent = '';
       if (ctx.migrations) { ctx.migrations(r.attention); }
+      var rec = recording(r.recording);
+      if (rec) { root.appendChild(rec); }
       root.appendChild(h('p', { class: 'wt-muted', text: t('Read only: running and rolling back stay in the administration.') }));
       if (!r.table) {
         root.appendChild(h('div', { class: 'wt-notice is-warn', role: 'status', text: t('The migration tables do not exist yet: exp:upgrade --apply makes them.') }));

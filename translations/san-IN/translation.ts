@@ -1820,6 +1820,34 @@
         <translation>%n स्थानान्तरणेषु ध्यानम् आवश्यकम्</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>अभिलिख्यते…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>भवतः परिवर्तनानि एकस्मै स्थानान्तरणाय अभिलिख्यन्ते।</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>मम परिवर्तनानि अभिलिख</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>अभिलेखनं विरम</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>सम्पूर्णस्य जालस्थानस्य अभिलेखनम् उद्घाटितम् अस्ति: प्रत्येकं परिवर्तनम् अभिलिख्यते।</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>अभिलेखनं विरतम्।</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>अभिलेखनम् इदानीं न उपलभ्यते।</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>अस्य चित्रस्य केन्द्रबिन्दुः न भवितुम् अर्हति।</translation>
     </message>

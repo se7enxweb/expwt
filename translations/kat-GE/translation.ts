@@ -1820,6 +1820,34 @@
         <translation>%n მიგრაციას ყურადღება სჭირდება</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>ჩაწერა…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>თქვენი ცვლილებები იწერება მიგრაციისთვის.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>ჩემი ცვლილებების ჩაწერა</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>ჩაწერის შეწყვეტა</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>მთელი საიტის ჩაწერა ღიაა: ყოველი ცვლილება იწერება.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>ჩაწერა შეწყდა.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>ჩაწერა ახლა მიუწვდომელია.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>ამ სურათს არ შეიძლება ჰქონდეს ფოკუსის წერტილი.</translation>
     </message>

@@ -1820,6 +1820,34 @@
         <translation>%n מיגראַציעס דאַרפֿן אויפֿמערקזאַמקייט</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>רעקאָרדירט…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>דײַנע ענדערונגען ווערן רעקאָרדירט פֿאַר אַ מיגראַציע.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>רעקאָרדיר מײַנע ענדערונגען</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>שטעל אָפּ דאָס רעקאָרדירן</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>אַ רעקאָרדירונג פֿון דעם גאַנצן זײַטל איז אָפֿן: יעדע ענדערונג ווערט רעקאָרדירט.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>דאָס רעקאָרדירן איז אָפּגעשטעלט.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>רעקאָרדירן איז איצט נישט פֿאַראַן.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>דאָס בילד קען נישט האָבן קיין פֿאָקוס־פּונקט.</translation>
     </message>

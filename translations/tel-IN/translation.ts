@@ -1820,6 +1820,34 @@
         <translation>%n మైగ్రేషన్‌లకు శ్రద్ధ అవసరం</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>రికార్డ్ అవుతోంది…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>మీ మార్పులు ఒక మైగ్రేషన్ కోసం రికార్డ్ అవుతున్నాయి.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>నా మార్పులను రికార్డ్ చేయి</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>రికార్డింగ్ ఆపు</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>మొత్తం సైట్ రికార్డింగ్ తెరిచి ఉంది: ప్రతి మార్పు రికార్డ్ అవుతుంది.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>రికార్డింగ్ ఆగింది.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>రికార్డింగ్ ఇప్పుడు అందుబాటులో లేదు.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>ఈ చిత్రానికి ఫోకల్ పాయింట్ ఉండకూడదు.</translation>
     </message>

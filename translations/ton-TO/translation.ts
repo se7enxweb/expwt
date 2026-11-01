@@ -1820,6 +1820,34 @@
         <translation>Hiki ʻe %n ʻoku fiemaʻu ke tokangaʻi</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>ʻOku lekooti…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>ʻOku lekooti hoʻo ngaahi liliú ki ha hiki.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Lekooti ʻeku ngaahi liliú</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Taʻofi ʻa e lekootí</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>ʻOku ava ha lekooti ʻo e saiti kotoa: ʻoku lekooti ʻa e liliu kotoa pē.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Kuo taʻofi ʻa e lekootí.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>ʻOku ʻikai ala maʻu ʻa e lekootí he taimí ni.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>'Oku 'ikai lava ke ma'u 'e he fakatātā ni ha poini fakatokanga.</translation>
     </message>

@@ -1820,6 +1820,34 @@
         <translation>Bambongwana %n esengeli kokebama</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Ezali kokoma…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Mbongwana na yo ezali kokomama mpo na mobembo moko.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Koma mbongwana na ngai</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Telemisa bokomi</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Bokomi ya site mobimba efungwami: mbongwana nyonso ezali kokomama.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Bokomi etelemi.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Bokomi ezali te sikoyo.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Elilingi oyo ekoki kozala na esika ya ntina te.</translation>
     </message>

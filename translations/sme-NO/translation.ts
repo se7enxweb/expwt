@@ -1820,6 +1820,34 @@
         <translation>%n migrašuvnna dárbbašit fuomášumi</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Báddemin…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Du rievdadusat báddejuvvojit sirdima várás.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Bádde mu rievdadusaid</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Bisset báddema</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Olles neahttabáikki báddi lea rabas: juohke rievdadus báddejuvvo.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Báddeme bisánii.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Báddeme ii leat dál olámuttus.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Dán govas ii sáhte leat fokusčuokkis.</translation>
     </message>

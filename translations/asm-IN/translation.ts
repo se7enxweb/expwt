@@ -1820,6 +1820,34 @@
         <translation>%n টা মাইগ্ৰেচনত মনোযোগ লাগে</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>ৰেকৰ্ড কৰি আছে…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>আপোনাৰ সলনিবোৰ এটা মাইগ্ৰেচনৰ বাবে ৰেকৰ্ড কৰা হৈছে।</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>মোৰ সলনিবোৰ ৰেকৰ্ড কৰক</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>ৰেকৰ্ডিং বন্ধ কৰক</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>গোটেই ছাইটৰ ৰেকৰ্ডিং খোলা আছে: প্ৰতিটো সলনি ৰেকৰ্ড কৰা হৈছে।</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>ৰেকৰ্ডিং বন্ধ হ'ল।</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>ৰেকৰ্ডিং এতিয়া উপলব্ধ নহয়।</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>এই ছবিখনৰ ফ'কাল পইণ্ট থাকিব নোৱাৰে।</translation>
     </message>

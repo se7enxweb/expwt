@@ -1820,6 +1820,34 @@
         <translation>Ìṣípò %n nílò àkíyèsí</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Ń gbasilẹ̀…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Àwọn àyípadà rẹ ń jẹ́ gbígbasilẹ̀ fún ìṣípòpadà kan.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Gba àwọn àyípadà mi sílẹ̀</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Dá gbígbasilẹ̀ dúró</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Gbígbasilẹ̀ gbogbo ojúlé wà ní ṣíṣí: gbogbo àyípadà ni a ń gbasilẹ̀.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Gbígbasilẹ̀ ti dúró.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Gbígbasilẹ̀ kò sí báyìí.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Àwòrán yìí kò lè ní ojú-àfiyèsí.</translation>
     </message>

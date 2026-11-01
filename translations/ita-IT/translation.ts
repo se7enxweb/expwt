@@ -1820,6 +1820,34 @@
         <translation>%n migrazioni richiedono attenzione</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Registrazione…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Le tue modifiche vengono registrate per una migrazione.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Registra le mie modifiche</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Ferma la registrazione</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>È aperta una registrazione di tutto il sito: ogni modifica viene registrata.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Registrazione fermata.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>La registrazione non è disponibile ora.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Questa immagine non può avere un punto focale.</translation>
     </message>

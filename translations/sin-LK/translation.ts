@@ -1820,6 +1820,34 @@
         <translation>සංක්‍රමණ %n කට අවධානය අවශ්‍යයි</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>පටිගත වෙමින්…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>ඔබේ වෙනස්කම් සංක්‍රමණයක් සඳහා පටිගත වෙමින් පවතී.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>මගේ වෙනස්කම් පටිගත කරන්න</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>පටිගත කිරීම නවත්වන්න</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>මුළු අඩවියේම පටිගත කිරීම විවෘතයි: සෑම වෙනසක්ම පටිගත වේ.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>පටිගත කිරීම නැවතිණි.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>පටිගත කිරීම දැන් ලබා ගත නොහැක.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>මෙම රූපයට නාභිගත ලක්ෂ්‍යයක් තිබිය නොහැක.</translation>
     </message>

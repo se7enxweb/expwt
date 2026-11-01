@@ -1820,6 +1820,34 @@
         <translation>Міграцый, якія патрабуюць увагі: %n</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Запіс…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Вашы змены запісваюцца для міграцыі.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Запісваць мае змены</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Спыніць запіс</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Адкрыты запіс па ўсім сайце: запісваецца кожная змена.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Запіс спынены.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Запіс зараз недаступны.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Гэта выява не можа мець пункт фокусу.</translation>
     </message>

@@ -1820,6 +1820,34 @@
         <translation>Dėmesio reikia migracijoms: %n</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Įrašoma…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Jūsų pakeitimai įrašomi migracijai.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Įrašyti mano pakeitimus</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Stabdyti įrašymą</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Atidarytas visos svetainės įrašymas: įrašomas kiekvienas pakeitimas.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Įrašymas sustabdytas.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Įrašymas dabar negalimas.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Šis vaizdas negali turėti židinio taško.</translation>
     </message>

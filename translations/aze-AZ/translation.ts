@@ -1820,6 +1820,34 @@
         <translation>%n miqrasiya diqqət tələb edir</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Qeydə alınır…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Dəyişiklikləriniz miqrasiya üçün qeydə alınır.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Dəyişikliklərimi qeydə al</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Qeydiyyatı dayandır</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Bütün sayt üzrə qeydiyyat açıqdır: hər dəyişiklik qeydə alınır.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Qeydiyyat dayandırıldı.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Qeydiyyat indi mümkün deyil.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Bu şəklin fokus nöqtəsi ola bilməz.</translation>
     </message>

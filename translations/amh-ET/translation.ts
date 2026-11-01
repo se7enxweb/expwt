@@ -1820,6 +1820,34 @@
         <translation>%n ፍልሰቶች ትኩረት ይፈልጋሉ</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>በመቅዳት ላይ…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>ለውጦችዎ ለፍልሰት እየተቀዱ ነው።</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>ለውጦቼን ቅዳ</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>መቅዳት አቁም</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>በጣቢያው ሁሉ ቀረጻ ክፍት ነው፦ እያንዳንዱ ለውጥ ይቀዳል።</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>መቅዳት ቆሟል።</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>መቅዳት አሁን አይገኝም።</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>ይህ ምስል የትኩረት ነጥብ ሊኖረው አይችልም።</translation>
     </message>

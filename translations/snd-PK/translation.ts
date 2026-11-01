@@ -1820,6 +1820,34 @@
         <translation>%n مائگريشنن کي ڌيان جي ضرورت آهي</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>رڪارڊ ٿي رهيو آهي…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>توهان جون تبديليون هڪ لڏپلاڻ لاءِ رڪارڊ ٿي رهيون آهن.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>منهنجون تبديليون رڪارڊ ڪريو</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>رڪارڊنگ روڪيو</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>سڄي سائيٽ جي رڪارڊنگ کليل آهي: هر تبديلي رڪارڊ ٿئي ٿي.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>رڪارڊنگ رڪجي وئي.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>رڪارڊنگ هاڻي موجود ناهي.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>هن تصوير جو فوڪل پوائنٽ نٿو ٿي سگهي.</translation>
     </message>

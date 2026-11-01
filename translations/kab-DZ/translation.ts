@@ -1820,6 +1820,34 @@
         <translation>%n n tunigin ḥwaǧent ɛinayen</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Asekles…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Ibeddilen-ik ttwaskelsen i usmutti.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Sekles ibeddilen-iw</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Seḥbes asekles</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Asekles n usmel akk yeldi: yal abeddel yettwasekles.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Asekles yeḥbes.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Asekles ulac-it tura.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Tugna-a ur tezmir ara ad tesɛu tanqiḍt n usaḍas.</translation>
     </message>

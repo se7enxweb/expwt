@@ -1820,6 +1820,34 @@
         <translation>%n ମାଇଗ୍ରେସନ ଧ୍ୟାନ ଆବଶ୍ୟକ କରେ</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>ରେକର୍ଡ ହେଉଛି…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>ଆପଣଙ୍କ ପରିବର୍ତ୍ତନଗୁଡ଼ିକ ଏକ ମାଇଗ୍ରେସନ ପାଇଁ ରେକର୍ଡ ହେଉଛି।</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>ମୋ ପରିବର୍ତ୍ତନଗୁଡ଼ିକ ରେକର୍ଡ କରନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>ରେକର୍ଡିଂ ବନ୍ଦ କରନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>ସମଗ୍ର ସାଇଟର ରେକର୍ଡିଂ ଖୋଲା ଅଛି: ପ୍ରତ୍ୟେକ ପରିବର୍ତ୍ତନ ରେକର୍ଡ ହେଉଛି।</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>ରେକର୍ଡିଂ ବନ୍ଦ ହେଲା।</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>ରେକର୍ଡିଂ ବର୍ତ୍ତମାନ ଉପଲବ୍ଧ ନାହିଁ।</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>ଏହି ଚିତ୍ରରେ ଫୋକାଲ ପଏଣ୍ଟ ରହିପାରିବ ନାହିଁ।</translation>
     </message>

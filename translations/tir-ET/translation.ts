@@ -1820,6 +1820,34 @@
         <translation>%n ማይግሬሽናት ኣቓልቦ የድልዮም</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>ይምዝገብ ኣሎ…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>ለውጥታትካ ንሓደ ምግዓዝ ይምዝገብ ኣሎ።</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>ለውጥታተይ መዝግብ</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>ምምዝጋብ ኣቋርጽ</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>ናይ ብምሉኡ መርበብ ምምዝጋብ ክፉት እዩ፡ ነፍሲ ወከፍ ለውጢ ይምዝገብ።</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>ምምዝጋብ ተቋሪጹ።</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>ምምዝጋብ ሕጂ የለን።</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>እዚ ስእሊ እዚ ማእከላይ ነጥቢ ክህልዎ ኣይክእልን።</translation>
     </message>

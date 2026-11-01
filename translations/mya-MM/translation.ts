@@ -1820,6 +1820,34 @@
         <translation>ရွှေ့ပြောင်းမှု %n ခု အာရုံစိုက်ရန် လိုအပ်သည်</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>မှတ်တမ်းတင်နေသည်…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>သင်၏ပြောင်းလဲမှုများကို ရွှေ့ပြောင်းမှုတစ်ခုအတွက် မှတ်တမ်းတင်နေသည်။</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>ကျွန်ုပ်၏ပြောင်းလဲမှုများကို မှတ်တမ်းတင်ပါ</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>မှတ်တမ်းတင်ခြင်းကို ရပ်ပါ</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>ဆိုက်တစ်ခုလုံး မှတ်တမ်းတင်ခြင်း ဖွင့်ထားသည်- ပြောင်းလဲမှုတိုင်းကို မှတ်တမ်းတင်သည်။</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>မှတ်တမ်းတင်ခြင်း ရပ်လိုက်ပြီ။</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>မှတ်တမ်းတင်ခြင်း ယခု မရနိုင်ပါ။</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>ဤပုံတွင် အာရုံစိုက်အမှတ် မထားနိုင်ပါ။</translation>
     </message>

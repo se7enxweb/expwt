@@ -1820,6 +1820,34 @@
         <translation>Nuutsinerit %n isiginiarneqartariaqarput</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Immiussivoq…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Allannguutitit nuussinissamut immiunneqarput.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Allannguutikka immiukkit</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Immiussineq unitsiguk</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Nittartagaq tamarmi immiunneqarpoq: allannguut tamarmi immiunneqarpoq.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Immiussineq unitsinneqarpoq.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Immiussineq maanna atorneqarsinnaanngilaq.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Assi una qiterlersuiffissaqarsinnaanngilaq.</translation>
     </message>

@@ -1820,6 +1820,34 @@
         <translation>%n ਮਾਈਗ੍ਰੇਸ਼ਨਾਂ ਵੱਲ ਧਿਆਨ ਦੀ ਲੋੜ ਹੈ</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>ਰਿਕਾਰਡ ਹੋ ਰਿਹਾ ਹੈ…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>ਤੁਹਾਡੀਆਂ ਤਬਦੀਲੀਆਂ ਇੱਕ ਮਾਈਗ੍ਰੇਸ਼ਨ ਲਈ ਰਿਕਾਰਡ ਹੋ ਰਹੀਆਂ ਹਨ।</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>ਮੇਰੀਆਂ ਤਬਦੀਲੀਆਂ ਰਿਕਾਰਡ ਕਰੋ</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>ਰਿਕਾਰਡਿੰਗ ਰੋਕੋ</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>ਪੂਰੀ ਸਾਈਟ ਦੀ ਰਿਕਾਰਡਿੰਗ ਖੁੱਲ੍ਹੀ ਹੈ: ਹਰ ਤਬਦੀਲੀ ਰਿਕਾਰਡ ਹੁੰਦੀ ਹੈ।</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>ਰਿਕਾਰਡਿੰਗ ਰੁਕ ਗਈ।</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>ਰਿਕਾਰਡਿੰਗ ਹੁਣ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>ਇਸ ਚਿੱਤਰ ਦਾ ਫੋਕਲ ਪੁਆਇੰਟ ਨਹੀਂ ਹੋ ਸਕਦਾ।</translation>
     </message>

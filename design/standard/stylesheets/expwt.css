@@ -979,6 +979,22 @@ button.wt-seo-item:hover { border-color: var(--a4-accent); }
 .wt-mig-run { display: grid; grid-template-columns: minmax(0, max-content) minmax(0, 1fr); gap: var(--a4-space-1) var(--a4-space-3); margin: 0 0 var(--a4-space-2); }
 .wt-mig-run dt { color: var(--a4-muted); font-size: var(--a4-text-s); }
 .wt-mig-run dd { margin: 0; min-inline-size: 0; overflow-wrap: anywhere; }
+/* the recording of the user's own changes (WP13): the block with Start or Stop, marked while it records; a red dot
+   on the Migrations tab (the badge without its fill) */
+.wt-rec { padding: var(--a4-space-2) var(--a4-space-3); border: 1px solid var(--a4-line); border-radius: var(--a4-radius-s); overflow-wrap: anywhere; }
+.wt-rec.is-on { border-color: var(--a4-bad-line); border-inline-start: 4px solid var(--a4-bad); background: var(--a4-bad-bg); color: var(--a4-bad); }
+.wt-rec > p { margin: var(--a4-space-1) 0; }
+.wt-rec-title { display: flex; align-items: center; gap: var(--a4-space-2); }
+.wt-rec-dot { display: inline-block; inline-size: var(--a4-space-2); block-size: var(--a4-space-2); border-radius: 50%; background: var(--a4-bad); box-shadow: 0 0 0 3px var(--a4-bad-bg); }
+.wt-badge.wt-rec-badge, :host([data-theme="dark"]) .wt-badge.wt-rec-badge,
+.wt-tabs [role="tab"][aria-selected="true"] .wt-badge.wt-rec-badge { min-inline-size: 0; padding: 0 var(--a4-space-1); background: transparent; }
+@media (prefers-reduced-motion: no-preference) {
+  .wt-rec-dot { animation: wt-rec-pulse 1.4s ease-in-out infinite; }
+}
+@keyframes wt-rec-pulse { 0%, 100% { opacity: 1; } 50% { opacity: .35; } }
+@media (forced-colors: active) {
+  .wt-rec-dot { background: CanvasText; }
+}
 /* The Export panel (E13): the share links (each a column: its state, who and how often, the
    address with Copy, Withdraw), the address field taking what room the row has. */
 .wt-exp-links { margin-block-start: var(--a4-space-3); }

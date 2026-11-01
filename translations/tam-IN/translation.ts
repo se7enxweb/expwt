@@ -1820,6 +1820,34 @@
         <translation>%n இடம்பெயர்வுகளுக்கு கவனம் தேவை</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>பதிவாகிறது…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>உங்கள் மாற்றங்கள் ஒரு இடப்பெயர்வுக்காகப் பதிவு செய்யப்படுகின்றன.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>என் மாற்றங்களைப் பதிவு செய்</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>பதிவை நிறுத்து</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>முழுத் தளத்தின் பதிவு திறந்துள்ளது: ஒவ்வொரு மாற்றமும் பதிவு செய்யப்படுகிறது.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>பதிவு நிறுத்தப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>பதிவு இப்போது கிடைக்கவில்லை.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>இந்தப் படத்திற்குக் குவியப் புள்ளி இருக்க முடியாது.</translation>
     </message>

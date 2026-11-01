@@ -1820,6 +1820,34 @@
         <translation>%n migration ang nangangailangan ng pansin</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Nagre-record…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Nire-record ang iyong mga pagbabago para sa isang migration.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>I-record ang aking mga pagbabago</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Ihinto ang pag-record</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Bukas ang pag-record sa buong site: nire-record ang bawat pagbabago.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Huminto ang pag-record.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Hindi available ang pag-record ngayon.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Hindi maaaring magkaroon ng focal point ang larawang ito.</translation>
     </message>

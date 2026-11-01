@@ -1820,6 +1820,34 @@
         <translation>%n migradoj bezonas atenton</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Registrado…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Viaj ŝanĝoj estas registrataj por migrado.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Registri miajn ŝanĝojn</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Ĉesigi registradon</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Registrado de la tuta retejo estas malfermita: ĉiu ŝanĝo estas registrata.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Registrado ĉesis.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Registrado nun ne disponeblas.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Ĉi tiu bildo ne povas havi fokuspunkton.</translation>
     </message>

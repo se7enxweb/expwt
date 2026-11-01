@@ -1820,6 +1820,34 @@
         <translation>%n ka migration nanginahanglan og pagtagad</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Nagrekord…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Ang imong mga kausaban girekord alang sa usa ka migration.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Irekord ang akong mga kausaban</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Hunonga ang pagrekord</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Bukas ang pagrekord sa tibuok site: girekord ang matag kausaban.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Nahunong ang pagrekord.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Dili magamit karon ang pagrekord.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Kining hulagway dili makabaton og focal point.</translation>
     </message>

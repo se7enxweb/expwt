@@ -1820,6 +1820,34 @@
         <translation>Uhamishaji %n unahitaji uangalifu</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Inarekodi…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Mabadiliko yako yanarekodiwa kwa ajili ya uhamishaji.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Rekodi mabadiliko yangu</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Simamisha kurekodi</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Kurekodi kwa tovuti nzima kuko wazi: kila badiliko linarekodiwa.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Kurekodi kumesimama.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Kurekodi hakupatikani sasa.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Picha hii haiwezi kuwa na sehemu ya kulenga.</translation>
     </message>

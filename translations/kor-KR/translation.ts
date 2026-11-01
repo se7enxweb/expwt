@@ -1820,6 +1820,34 @@
         <translation>마이그레이션 %n개에 조치가 필요합니다</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>기록 중…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>변경 사항이 마이그레이션을 위해 기록되고 있습니다.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>내 변경 사항 기록</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>기록 중지</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>사이트 전체 기록이 열려 있습니다: 모든 변경이 기록됩니다.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>기록이 중지되었습니다.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>지금은 기록할 수 없습니다.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>이 이미지에는 초점을 지정할 수 없습니다.</translation>
     </message>

@@ -100,6 +100,8 @@ class expwtApiTestGateway extends expwtGateway
     public $migrations = array( 'attention' => 2 );
     public function migrationsOffer() { return $this->migrations; }
     public function migrations() { return $this->record( 'migrations', array() ); }
+    public function recordStart( array $in ) { return $this->record( 'recordStart', $in ); }
+    public function recordStop( array $in ) { return $this->record( 'recordStop', $in ); }
     public function images( array $in ) { return $this->record( 'images', $in ); }
     public function imagesSave( array $in ) { return $this->record( 'imagesSave', $in ); }
     public function previewDevices( array $in ) { return $this->record( 'previewDevices', $in ); }
@@ -494,6 +496,28 @@ class expwtApiTest extends PHPUnit\Framework\TestCase
         $this->assertSame( 403, $this->api( array() )->call( 'migrations.load', array(), 'GET' )['status'], 'without expwt/use' );
         $this->assertContains( 'migrations', expwtState::PANELS );
         $this->assertContains( 'migrations', expwtRegistry::CORE_PANELS, 'no extension takes the id' );
+    }
+
+    /**
+     * WP13: the recording of the user's own changes is started and stopped by POST (writes: the CSRF token), as
+     * Setup > Migrations > Recording; the gateway decides by the kernel's migration/edit. Only a label reaches it.
+     */
+    public function testTheRecordingIsStartedAndStoppedByPost()
+    {
+        foreach ( array( 'migrations.record.start' => 'StartButton', 'migrations.record.stop' => 'StopButton' ) as $action => $button )
+        {
+            $this->assertTrue( expwtAccess::writes( $action ), $action );
+            $this->assertSame( 'use', expwtAccess::functionFor( $action ) );
+            $this->assertSame( array( 'module' => 'migration', 'view' => 'recording', 'post' => array( $button => '1' ) ), expwtAccess::kernelView( $action ),
+                               'the view of the administration it stands for (never the site-wide window\'s StartSiteButton)' );
+            $this->assertSame( 405, $this->api()->call( $action, array(), 'GET' )['status'], "$action is not sent by GET" );
+        }
+        $api = $this->api();
+        $this->assertSame( 200, $api->call( 'migrations.record.start', array( 'label' => '  news  ', 'site' => 1, 'userId' => 99 ) )['status'] );
+        $this->assertSame( array( 'recordStart', array( 'label' => 'news' ) ), $this->gateway->calls[0], 'only the label: never the site-wide window or another user' );
+        $this->assertSame( 200, $api->call( 'migrations.record.stop', array( 'recordingId' => 'x' ) )['status'] );
+        $this->assertSame( array( 'recordStop', array() ), $this->gateway->calls[1] );
+        $this->assertSame( 403, $this->api( array() )->call( 'migrations.record.start', array() )['status'], 'without expwt/use' );
     }
 
     public function testBootTellsTheSidebarEverythingOnce()

@@ -1820,6 +1820,34 @@
         <translation>%n migrations need attention</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>E dey record…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Dem dey record your changes for one migration.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Record my changes</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Stop di recording</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Recording for di whole site dey open: dem dey record every change.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Recording don stop.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Recording no dey available now.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Dis picture no fit get focal point.</translation>
     </message>

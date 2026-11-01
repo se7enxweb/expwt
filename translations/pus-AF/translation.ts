@@ -1820,6 +1820,34 @@
         <translation>%n مهاجرتونه پاملرنې ته اړتیا لري</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>ثبتېږي…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>ستاسو بدلونونه د یوې کډوالۍ لپاره ثبتېږي.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>زما بدلونونه ثبت کړه</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>ثبتول ودروه</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>د ټول سایټ ثبتول پرانیستي دي: هر بدلون ثبتېږي.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>ثبتول ودرول شول.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>ثبتول اوس شتون نه لري.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>دا انځور فوکل ټکی نشي لرلی.</translation>
     </message>

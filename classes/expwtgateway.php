@@ -2440,7 +2440,7 @@ class expwtGateway
         $kept = $http->hasSessionVariable( 'expwtMigrations' ) ? $http->sessionVariable( 'expwtMigrations' ) : null;
         if ( is_array( $kept ) && isset( $kept['user'], $kept['count'], $kept['at'] )
              && (int)$kept['user'] === $userId && time() - (int)$kept['at'] < self::MIGRATIONS_SECONDS )
-            return array( 'attention' => (int)$kept['count'] );
+            return array( 'attention' => (int)$kept['count'], 'recording' => $this->recording() );
         try
         {
             $count = self::migrationsView( expMigrationStatus::report( array( 'runs' => 1 ) ), null )['attention'];
@@ -2451,7 +2451,132 @@ class expwtGateway
             $count = 0;
         }
         $http->setSessionVariable( 'expwtMigrations', array( 'user' => $userId, 'count' => $count, 'at' => time() ) );
-        return array( 'attention' => $count );
+        return array( 'attention' => $count, 'recording' => $this->recording() );
+    }
+
+    /**
+     * Whether the kernel can record changes for migrations (expMigrationRecording and expMigrationRecorder,
+     * Exponential 6.0.15) with the module migration's policy function edit. Without them the sidebar offers no
+     * recording at all.
+     *
+     * @return bool
+     */
+    public static function recordingKernel()
+    {
+        if ( !class_exists( 'expMigrationRecording' ) || !class_exists( 'expMigrationRecorder' ) )
+            return false;
+        foreach ( array( 'forUser', 'start', 'stop', 'runningFor', 'tablesExist' ) as $method )
+            if ( !method_exists( 'expMigrationRecording', $method ) )
+                return false;
+        if ( !method_exists( 'expMigrationRecorder', 'settings' ) || !defined( 'expMigrationRecording::MODE_SESSION' ) || !class_exists( 'eZModule' ) )
+            return false;
+        $module = eZModule::exists( 'migration' );
+        if ( !$module instanceof eZModule )
+            return false;
+        $functions = $module->attribute( 'available_functions' );
+        return is_array( $functions ) && isset( $functions['edit'] );
+    }
+
+    /** @return bool the user may record their own changes: a user of the sidebar with the kernel's migration/edit */
+    public function recordsMigrations()
+    {
+        $caps = $this->capabilities();
+        return !empty( $caps['use'] ) && self::recordingKernel() && $this->may( 'migration', 'edit' );
+    }
+
+    /**
+     * The recording of the user's own changes, as the Migrations panel and its tab show it: null without the kernel's
+     * recording, without migration/edit or with recording switched off ([RecordingSettings] Recording=disabled).
+     * Reads a small file of the kernel (expMigrationRecording::forUser()), no query.
+     *
+     * @return array|null recordingView()
+     */
+    public function recording()
+    {
+        if ( !$this->recordsMigrations() )
+            return null;
+        try
+        {
+            $settings = expMigrationRecorder::settings();
+            return self::recordingView( !empty( $settings['enabled'] ), expMigrationRecording::forUser( $this->userId() ) );
+        }
+        catch ( Throwable $e )
+        {
+            eZDebug::writeError( get_class( $e ) . ': ' . $e->getMessage(), __METHOD__ );
+            return null;
+        }
+    }
+
+    /**
+     * What the sidebar shows of the recordings that run for a user (expMigrationRecording::forUser()). Pure.
+     *
+     * Only the session recording of the user can be started or stopped from the sidebar; the site-wide window is
+     * only shown (every change is recorded while it is open) and stays in the administration.
+     *
+     * @param bool $enabled [RecordingSettings] Recording
+     * @param array $forUser mine (recording_id, started_at, or null), site (or null)
+     * @return array|null active (the user's changes are recorded), since (the start, ISO 8601, or null), site (a
+     *                    site-wide window is open); null when recording is switched off
+     */
+    public static function recordingView( $enabled, array $forUser )
+    {
+        if ( !$enabled )
+            return null;
+        $mine = isset( $forUser['mine'] ) && is_array( $forUser['mine'] ) ? $forUser['mine'] : null;
+        $site = isset( $forUser['site'] ) && is_array( $forUser['site'] );
+        return array( 'active' => $mine !== null,
+                      'since' => $mine !== null && !empty( $mine['started_at'] ) ? date( 'c', (int)$mine['started_at'] ) : null,
+                      'site' => $site );
+    }
+
+    /**
+     * Starts the recording of the user's own changes (a session recording of the kernel; Setup > Migrations >
+     * Recording, "Start recording my changes"). The kernel audits it.
+     *
+     * @return array recordingView()
+     * @throws expwtApiError 403 without migration/edit or the kernel's recording, 409 when it cannot start
+     */
+    public function recordStart( array $in )
+    {
+        $state = $this->recording();
+        if ( $state === null )
+            throw new expwtApiError( 403, 'forbidden', 'You may not do this.' );
+        if ( !$state['active'] )
+        {
+            $db = eZDB::instance();
+            $errors = array();
+            $label = isset( $in['label'] ) ? substr( trim( (string)$in['label'] ), 0, 255 ) : '';
+            if ( expMigrationRecording::tablesExist( $db ) !== true
+                 || !expMigrationRecording::start( $db, expMigrationRecording::MODE_SESSION, $this->userId(), $label, $errors ) )
+            {
+                if ( $errors )
+                    eZDebug::writeNotice( implode( '; ', $errors ), __METHOD__ );
+                throw new expwtApiError( 409, 'recording_unavailable', 'Recording is not available now.' );
+            }
+        }
+        return $this->recording();
+    }
+
+    /**
+     * Stops the recording of the user's own changes; what it captured stays for Setup > Migrations > Recording.
+     *
+     * @return array recordingView()
+     * @throws expwtApiError 403 without migration/edit or the kernel's recording, 409 when it cannot stop
+     */
+    public function recordStop( array $in )
+    {
+        if ( $this->recording() === null )
+            throw new expwtApiError( 403, 'forbidden', 'You may not do this.' );
+        $db = eZDB::instance();
+        $row = expMigrationRecording::tablesExist( $db ) === true ? expMigrationRecording::runningFor( $db, $this->userId() ) : null;
+        if ( $row !== null )
+        {
+            $errors = array();
+            expMigrationRecording::stop( $db, $row['recording_id'], $errors );
+            if ( $errors )
+                throw new expwtApiError( 409, 'recording_unavailable', 'Recording is not available now.' );
+        }
+        return $this->recording();
     }
 
     /**
@@ -2477,6 +2602,8 @@ class expwtGateway
         }
         $view = self::migrationsView( $report, $this->migrationsAdmin() );
         eZHTTPTool::instance()->setSessionVariable( 'expwtMigrations', array( 'user' => $this->userId(), 'count' => $view['attention'], 'at' => time() ) );
+        // the recording of the user's own changes (null: not offered)
+        $view['recording'] = $this->recording();
         return $view;
     }
 

@@ -1820,6 +1820,34 @@
         <translation>%n eggi ina njiɗi reentaade</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Nana winndita…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Waylitaaɗe maa ena winndee ngam eggol.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Winndito waylitaaɗe am</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Daro winndugol</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Winndugol lowre ndee fof ena udditii: kala waylitaare ena winndee.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Winndugol darii.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Winndugol alaa jooni.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Natal ngal waawaa jogaade tonngoode hakkille.</translation>
     </message>

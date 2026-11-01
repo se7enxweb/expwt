@@ -1820,6 +1820,34 @@
         <translation>Migration %n hiã ŋkuléleɖeŋu</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Le eŋlɔm…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Wole wò tɔtrɔwo ŋlɔm na migration aɖe.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Ŋlɔ nye tɔtrɔwo</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Dzudzɔ ŋlɔŋlɔ</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Nyatakakadzraɖoƒe blibo ƒe ŋlɔŋlɔ le ʋuʋu: wole tɔtrɔ ɖe sia ɖe ŋlɔm.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Ŋlɔŋlɔ dzudzɔ.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Ŋlɔŋlɔ meli fifia o.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Nɔnɔmetata sia mate ŋu akpɔ teƒe vevitɔ o.</translation>
     </message>

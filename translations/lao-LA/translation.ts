@@ -1820,6 +1820,34 @@
         <translation>%n ການຍ້າຍຂໍ້ມູນຕ້ອງການຄວາມສົນໃຈ</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>ກຳລັງບັນທຶກ…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>ການປ່ຽນແປງຂອງທ່ານກຳລັງຖືກບັນທຶກສຳລັບການຍ້າຍ.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>ບັນທຶກການປ່ຽນແປງຂອງຂ້ອຍ</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>ຢຸດບັນທຶກ</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>ການບັນທຶກທົ່ວທັງເວັບໄຊເປີດຢູ່: ທຸກການປ່ຽນແປງຖືກບັນທຶກ.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>ຢຸດບັນທຶກແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>ການບັນທຶກບໍ່ສາມາດໃຊ້ໄດ້ຕອນນີ້.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>ຮູບນີ້ບໍ່ສາມາດມີຈຸດໂຟກັສໄດ້.</translation>
     </message>

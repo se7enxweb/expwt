@@ -1820,6 +1820,34 @@
         <translation>%n ⵏ ⵜⵎⵓⵙⵙⵓⵜⵉⵏ ⵃⵜⴰⵊⵏⵜ ⴰⵙⵙⵎⵓⵜⵜⴳ</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>ⴰⵙⵎⵎⵓⵔⵙ…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>ⵜⵜⵓⵙⵎⵎⵓⵔⵙⵏⵜ ⵉⵙⵏⴼⵍⵏ ⵏⵏⴽ ⵉ ⵓⵙⵎⴰⵜⵜⵉ.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>ⵙⵎⵎⵓⵔⵙ ⵉⵙⵏⴼⵍⵏ ⵉⵏⵓ</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>ⵙⵃⴱⵙ ⴰⵙⵎⵎⵓⵔⵙ</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>ⴰⵙⵎⵎⵓⵔⵙ ⵏ ⵓⵙⵎⵍ ⴰⴽⴽ ⵉⵕⵥⵎ: ⴽⵓ ⴰⵙⵏⴼⵍ ⵉⵜⵜⵓⵙⵎⵎⵓⵔⵙ.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>ⵉⵃⴱⵙ ⵓⵙⵎⵎⵓⵔⵙ.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>ⴰⵙⵎⵎⵓⵔⵙ ⵓⵔ ⵉⵍⵍⵉ ⴷⵖⵉ.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>ⵓⵔ ⵜⵥⴹⴰⵕ ⵜⵡⵍⴰⴼⵜ ⴰ ⴰⴷ ⵜⵙⵄⵓ ⵜⵉⵏⵇⵉⴹⵜ ⵏ ⵓⵙⵎⵓⵏ.</translation>
     </message>

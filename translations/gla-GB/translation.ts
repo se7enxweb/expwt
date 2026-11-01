@@ -1820,6 +1820,34 @@
         <translation>Feumaidh %n imrichean aire</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>A' clàradh…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Tha na h-atharrachaidhean agad gan clàradh airson imrich.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Clàraich na h-atharrachaidhean agam</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Sguir dhen chlàradh</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Tha clàradh na làraich gu lèir fosgailte: thèid gach atharrachadh a chlàradh.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Sguir an clàradh.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Chan eil clàradh ri fhaighinn an-dràsta.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Chan urrainn puing-fòcais a bhith aig an dealbh seo.</translation>
     </message>

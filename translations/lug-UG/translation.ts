@@ -1820,6 +1820,34 @@
         <translation>Enkyukakyuka %n zeetaaga okufiibwako</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Kuwandiikibwa…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Enkyukakyuka zo ziwandiikibwa olw'okusenguka.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Wandiika enkyukakyuka zange</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Lekera okuwandiika</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Okuwandiika kwa siti yonna kuggule: buli nkyukakyuka ewandiikibwa.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Okuwandiika kukomye.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Okuwandiika tekuliiwo kati.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Ekifaananyi kino tekiyinza kuba na kifo kikulu.</translation>
     </message>

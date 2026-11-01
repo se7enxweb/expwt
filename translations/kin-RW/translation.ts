@@ -1820,6 +1820,34 @@
         <translation>Iyimurwa %n rikeneye kwitabwaho</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Birandikwa…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Impinduka zawe ziri kwandikwa ku bw'iyimurwa.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Andika impinduka zanjye</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Hagarika kwandika</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Kwandika urubuga rwose birafunguye: buri mpinduka irandikwa.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Kwandika byahagaze.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Kwandika ntibiboneka ubu.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Iyi shusho ntishobora kugira akadomo k'ingenzi.</translation>
     </message>

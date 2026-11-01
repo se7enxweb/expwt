@@ -1820,6 +1820,34 @@
         <translation>%n migradur o deus ezhomm a evezh</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>O enrollañ…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Enrollet eo ho kemmoù evit ur migradur.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Enrollañ ma c'hemmoù</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Paouez da enrollañ</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Digor eo un enrolladur evit al lec'hienn a-bezh: enrollet eo pep kemm.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Enrolladur paouezet.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>N'eus ket tu da enrollañ bremañ.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>N'hall ket ar skeudenn-mañ kaout ur poent fokus.</translation>
     </message>

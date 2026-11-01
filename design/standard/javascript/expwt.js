@@ -757,6 +757,7 @@
       if (this.waiting) { this.setWaiting(this.waiting); }
       if (this.commentsWaiting) { this.setComments(this.commentsWaiting); }
       if (this.migrationsAttention) { this.setMigrations(this.migrationsAttention); }
+      if (this.migrationsRecording) { this.setRecording(this.migrationsRecording); }
     }
 
     /* The migrations that need attention (R4.5: pending, failed, recorded without their file): a badge on the
@@ -772,6 +773,22 @@
           el.appendChild(h('span', { class: 'wt-badge', 'data-badge': 'migrations' }, [
             h('span', { 'aria-hidden': 'true', text: String(self.migrationsAttention) }),
             h('span', { class: 'wt-sr', text: ' ' + self.t('%n migrations need attention').replace('%n', self.migrationsAttention) })]));
+        }
+      });
+    }
+
+    /* The recording of the user's own changes (WP13): while it records, a red dot on the Migrations panel's tab;
+       screen readers hear "Recording…". The boot answer and every answer of the panel set it. */
+    setRecording(rec) {
+      var self = this;
+      this.migrationsRecording = rec && rec.active ? rec : null;
+      (this.tabButtons || []).filter(function (b) { return b.getAttribute('data-panel') === 'migrations'; }).forEach(function (el) {
+        var old = el.querySelector('[data-badge="recording"]');
+        if (old) { old.remove(); }
+        if (self.migrationsRecording) {
+          el.appendChild(h('span', { class: 'wt-badge wt-rec-badge', 'data-badge': 'recording' }, [
+            h('span', { class: 'wt-rec-dot', 'aria-hidden': 'true' }),
+            h('span', { class: 'wt-sr', text: ' ' + self.t('Recording…') })]));
         }
       });
     }
@@ -1344,6 +1361,7 @@
         self.setWaiting(self.boot.inbox ? self.boot.inbox.count : 0);
         self.setComments(self.boot.comments ? self.boot.comments.waiting : 0);
         self.setMigrations(self.boot.migrations ? self.boot.migrations.attention : 0);
+        self.setRecording(self.boot.migrations ? self.boot.migrations.recording : null);
         /* changes of this page kept on this device only (F28): a mark on the tab; opened, the Page panel offers them */
         var local = null;
         try { local = window.localStorage; } catch (e) { local = null; }
@@ -1709,6 +1727,7 @@
         setState: function (change) { self.setState(change); },
         waiting: function (n) { self.setWaiting(n); },
         migrations: function (n) { self.setMigrations(n); },
+        recording: function (rec) { self.setRecording(rec); },
         render: this.renderData,
         registry: function () { return self.registry(); },
         deviceOnly: function (on) {

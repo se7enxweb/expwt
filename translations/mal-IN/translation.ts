@@ -1820,6 +1820,34 @@
         <translation>%n മൈഗ്രേഷനുകൾക്ക് ശ്രദ്ധ ആവശ്യമാണ്</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>റെക്കോർഡ് ചെയ്യുന്നു…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>നിങ്ങളുടെ മാറ്റങ്ങൾ ഒരു മൈഗ്രേഷനായി റെക്കോർഡ് ചെയ്യുന്നു.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>എന്റെ മാറ്റങ്ങൾ റെക്കോർഡ് ചെയ്യുക</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>റെക്കോർഡിംഗ് നിർത്തുക</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>സൈറ്റ് മുഴുവനുമുള്ള റെക്കോർഡിംഗ് തുറന്നിരിക്കുന്നു: ഓരോ മാറ്റവും റെക്കോർഡ് ചെയ്യുന്നു.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>റെക്കോർഡിംഗ് നിർത്തി.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>റെക്കോർഡിംഗ് ഇപ്പോൾ ലഭ്യമല്ല.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>ഈ ചിത്രത്തിന് ഫോക്കൽ പോയിന്റ് ഉണ്ടാകാൻ കഴിയില്ല.</translation>
     </message>

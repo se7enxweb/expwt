@@ -1820,6 +1820,34 @@
         <translation>%n माइग्रेशन पर ध्यान देना ज़रूरी है</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>रिकॉर्ड हो रहा है…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>आपके बदलाव एक माइग्रेशन के लिए रिकॉर्ड किए जा रहे हैं।</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>मेरे बदलाव रिकॉर्ड करें</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>रिकॉर्डिंग रोकें</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>पूरी साइट की रिकॉर्डिंग खुली है: हर बदलाव रिकॉर्ड हो रहा है।</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>रिकॉर्डिंग रुक गई।</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>रिकॉर्डिंग अभी उपलब्ध नहीं है।</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>इस छवि में फ़ोकल पॉइंट नहीं हो सकता।</translation>
     </message>

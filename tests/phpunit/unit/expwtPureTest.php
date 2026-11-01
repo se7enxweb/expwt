@@ -942,6 +942,57 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
         $this->assertFalse( expwtGateway::migrationKernel() );
     }
 
+    /** WP13: what the sidebar shows of the recordings that run for the user, and nothing when recording is off */
+    public function testTheRecordingViewOfTheUsersRecordings()
+    {
+        $this->assertNull( expwtGateway::recordingView( false, array( 'mine' => array( 'recording_id' => 'r', 'started_at' => 1 ), 'site' => null ) ),
+                           'switched off: not offered' );
+        $this->assertSame( array( 'active' => false, 'since' => null, 'site' => false ), expwtGateway::recordingView( true, array( 'mine' => null, 'site' => null ) ) );
+        $this->assertSame( array( 'active' => true, 'since' => date( 'c', 1793000000 ), 'site' => false ),
+                           expwtGateway::recordingView( true, array( 'mine' => array( 'recording_id' => '20261101-120000-a1b2c3', 'kind' => 'session', 'user_id' => 14, 'started_at' => 1793000000 ), 'site' => null ) ),
+                           'no recording id, no user id' );
+        $this->assertSame( array( 'active' => false, 'since' => null, 'site' => true ),
+                           expwtGateway::recordingView( true, array( 'mine' => null, 'site' => array( 'recording_id' => 'x', 'started_at' => 5 ) ) ),
+                           'the site-wide window is only shown' );
+        $this->assertSame( array( 'active' => false, 'since' => null, 'site' => false ), expwtGateway::recordingView( true, array() ) );
+    }
+
+    /**
+     * Without expMigrationRecording (a kernel before the recording of changes) nothing about recording is offered: the
+     * sidebar degrades to the read-only panel, and no write reaches the kernel.
+     */
+    public function testNoRecordingWithoutTheKernelsRecording()
+    {
+        if ( class_exists( 'expMigrationRecording' ) )
+            $this->markTestSkipped( 'this kernel can record changes' );
+        $this->assertFalse( expwtGateway::recordingKernel() );
+        $gateway = new class extends expwtGateway {
+            public function __construct() {}
+            public function capabilities() { return array_fill_keys( expwtAccess::FUNCTIONS, true ); }
+            protected function may( $module, $function ) { return true; }
+        };
+        $this->assertFalse( $gateway->recordsMigrations() );
+        $this->assertNull( $gateway->recording() );
+        try
+        {
+            $gateway->recordStart( array() );
+            $this->fail( 'refused' );
+        }
+        catch ( expwtApiError $e )
+        {
+            $this->assertSame( 403, $e->status );
+        }
+        try
+        {
+            $gateway->recordStop( array() );
+            $this->fail( 'refused' );
+        }
+        catch ( expwtApiError $e )
+        {
+            $this->assertSame( 403, $e->status );
+        }
+    }
+
     /** E8: the devices of the preview from the settings, what the preview gets, and its frames without a sidebar */
     public function testTheDevicesOfThePreview()
     {

@@ -1820,6 +1820,34 @@
         <translation>%n guurin ayaa u baahan fiiro</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Waa la duubayaa…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Isbeddelladaada waxaa loo duubayaa guuritaan.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Duub isbeddelladayda</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Jooji duubista</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Duubista goobta oo dhan waa furan tahay: isbeddel kasta waa la duubayaa.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Duubistii waa la joojiyay.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Duubistu hadda ma diyaarsana.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Sawirkan ma yeelan karo bar diiradeed.</translation>
     </message>

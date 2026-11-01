@@ -1820,6 +1820,34 @@
         <translation>%n migrime kërkojnë vëmendje</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Po regjistrohet…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Ndryshimet tuaja regjistrohen për një migrim.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Regjistro ndryshimet e mia</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Ndalo regjistrimin</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Është hapur një regjistrim i gjithë sajtit: regjistrohet çdo ndryshim.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Regjistrimi u ndal.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Regjistrimi nuk është i disponueshëm tani.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Kjo figurë nuk mund të ketë pikë fokale.</translation>
     </message>

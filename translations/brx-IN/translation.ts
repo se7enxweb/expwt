@@ -1820,6 +1820,34 @@
         <translation>%n माइग्रेसनआव गोसो होनांगौ</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>रेकर्ड जागासिनो दं…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>नोंथांनि सोलायनायफोर माइग्रेसन आन्थाय रेकर्ड जागासिनो दं।</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>आंनि सोलायनायफोर रेकर्ड खालाम</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>रेकर्ड खालामनाय थाद</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>गासै साइटनि रेकर्ड खेवनाय दं: गासै सोलायनाय रेकर्ड जागासिनो दं।</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>रेकर्ड खालामनाय थादखांबाय।</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>रेकर्ड खालामनाय दानो मोननो हाया।</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>बे सावगारिआव फकाल पइन्ट थानो हाया।</translation>
     </message>

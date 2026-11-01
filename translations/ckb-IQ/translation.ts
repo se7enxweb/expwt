@@ -1820,6 +1820,34 @@
         <translation>%n کۆچ پێویستیان بە سەرنجە</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>تۆمارکردن…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>گۆڕانکارییەکانت بۆ کۆچکردنێک تۆمار دەکرێن.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>گۆڕانکارییەکانم تۆمار بکە</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>تۆمارکردن ڕابگرە</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>تۆمارکردنی هەموو ماڵپەڕ کراوەیە: هەموو گۆڕانکارییەک تۆمار دەکرێت.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>تۆمارکردن ڕاگیرا.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>تۆمارکردن ئێستا بەردەست نییە.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>ئەم وێنەیە ناتوانێت خاڵی سەرنجی هەبێت.</translation>
     </message>

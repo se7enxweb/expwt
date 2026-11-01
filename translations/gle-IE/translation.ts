@@ -1820,6 +1820,34 @@
         <translation>Tá aird ag teastáil ó %n imirce</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Ag taifeadadh…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Tá d'athruithe á dtaifeadadh le haghaidh imirce.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Taifead m'athruithe</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Stop an taifeadadh</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Tá taifeadadh an tsuímh ar fad oscailte: taifeadtar gach athrú.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Stopadh an taifeadadh.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Níl taifeadadh ar fáil anois.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Ní féidir fócasphointe a bheith ag an íomhá seo.</translation>
     </message>

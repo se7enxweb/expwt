@@ -1820,6 +1820,34 @@
         <translation>%n migraatiota vaatii huomiota</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Tallennetaan…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Muutoksesi tallennetaan siirtoa varten.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Tallenna muutokseni</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Lopeta tallennus</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Koko sivuston tallennus on auki: jokainen muutos tallennetaan.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Tallennus lopetettu.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Tallennus ei ole nyt käytettävissä.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Tälle kuvalle ei voi asettaa polttopistettä.</translation>
     </message>

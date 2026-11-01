@@ -1820,6 +1820,34 @@
         <translation>སྤོ་སྒྱུར་ %n ལུ་ དོ་སྣང་དགོ།</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>ཐོ་བཀོད་འབད་དོ…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>ཁྱོད་ཀྱི་བསྒྱུར་བཅོས་ཚུ་ གནས་སོར་ཅིག་གི་དོན་ལུ་ ཐོ་བཀོད་འབད་དོ།</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>ངེའི་བསྒྱུར་བཅོས་ཐོ་བཀོད་འབད།</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>ཐོ་བཀོད་བཀག</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>ས་ཁོངས་ཧྲིལ་བུམ་གྱི་ཐོ་བཀོད་ཁ་ཕྱེ་ཡོད། བསྒྱུར་བཅོས་རེ་རེ་ཐོ་བཀོད་འབད་དོ།</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>ཐོ་བཀོད་བཀག་ཡི།</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>ཐོ་བཀོད་ད་ལྟོ་མི་འཐོབ།</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>པར་འདི་ལུ་ དམིགས་ཚད་ཡོད་མི་ཚུགས།</translation>
     </message>

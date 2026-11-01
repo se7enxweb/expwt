@@ -1820,6 +1820,34 @@
         <translation>%n मायग्रेशनांक लक्ष दिवपाचें आसा</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>रेकॉर्ड जाता…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>तुमचे बदल एका स्थलांतरा खातीर रेकॉर्ड जातात.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>म्हजे बदल रेकॉर्ड करात</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>रेकॉर्डिंग थांबयात</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>पुराय सायटीचें रेकॉर्डिंग उगडें आसा: दर एक बदल रेकॉर्ड जाता.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>रेकॉर्डिंग थांबलें.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>रेकॉर्डिंग आतां उपलब्ध ना.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>ह्या चित्राक फोकल पॉइंट आसूंक शकना.</translation>
     </message>

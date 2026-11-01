@@ -1820,6 +1820,34 @@
         <translation>%n flutningar þarfnast athygli</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Tekur upp…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Breytingar þínar eru teknar upp fyrir flutning.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Taka upp breytingarnar mínar</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Stöðva upptöku</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Upptaka alls vefsins er opin: hver breyting er tekin upp.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Upptaka stöðvuð.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Upptaka er ekki tiltæk núna.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Þessi mynd getur ekki haft brennipunkt.</translation>
     </message>

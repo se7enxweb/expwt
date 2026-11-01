@@ -227,6 +227,10 @@ class expwtApi
                 return $g->shareRevoke( self::ids( $input, array( 'objectId' ) ) + self::strings( $input, array( 'id' ) ) );
             case 'migrations.load':
                 return $g->migrations();
+            case 'migrations.record.start':
+                return $g->recordStart( self::strings( $input, array( 'label' ) ) );
+            case 'migrations.record.stop':
+                return $g->recordStop( array() );
             case 'images.load':
                 return $g->images( self::ids( $input, array( 'objectId', 'version' ) ) + self::strings( $input, array( 'language', 'field' ) ) );
             case 'images.save':

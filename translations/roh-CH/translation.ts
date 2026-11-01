@@ -1820,6 +1820,34 @@
         <translation>%n migraziuns dovran attenziun</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Registraziun…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Vossas midadas vegnan registradas per ina migraziun.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Registrar mias midadas</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Fermar la registraziun</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Ina registraziun da l'entira website è averta: mintga midada vegn registrada.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Registraziun fermada.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>La registraziun n'è ussa betg disponibla.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Quest maletg na po betg avair in punct focal.</translation>
     </message>

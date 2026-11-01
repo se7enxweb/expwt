@@ -1820,6 +1820,34 @@
         <translation>%n mudiad angen sylw</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Yn recordio…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Mae eich newidiadau'n cael eu recordio ar gyfer mudo.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Recordio fy newidiadau</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Stopio recordio</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Mae recordiad ar draws y wefan ar agor: mae pob newid yn cael ei recordio.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Recordio wedi stopio.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Nid yw recordio ar gael nawr.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Ni all y ddelwedd hon gael canolbwynt.</translation>
     </message>

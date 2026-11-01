@@ -1820,6 +1820,34 @@
         <translation>%n migracijow trjeba kedźbnosć</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Nagrawa se…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Wašne změny se za migraciju nagrawaju.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Moje změny nagrawaś</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Nagrawanje zastajiś</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Nagrawanje cełego sedła jo wótwórjone: kužda změna se nagrawa.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Nagrawanje zastajone.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Nagrawanje něnto njejo k dispoziciji.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Toś ten wobraz njamóžo měś fokusowy dypk.</translation>
     </message>

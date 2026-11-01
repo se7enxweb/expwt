@@ -1820,6 +1820,34 @@
         <translation>%n הגירות דורשות תשומת לב</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>מקליט…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>השינויים שלך מוקלטים עבור הגירה.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>הקלט את השינויים שלי</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>עצור הקלטה</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>הקלטה של כל האתר פתוחה: כל שינוי מוקלט.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>ההקלטה נעצרה.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>הקלטה אינה זמינה כעת.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>לתמונה זו לא ניתן להגדיר נקודת מוקד.</translation>
     </message>

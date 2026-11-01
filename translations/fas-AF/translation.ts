@@ -1820,6 +1820,34 @@
         <translation>%n مهاجرت نیاز به توجه دارد</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>در حال ثبت…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>تغییرات شما برای یک مهاجرت ثبت می‌شود.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>تغییراتم را ثبت کن</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>توقف ثبت</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>ثبت سراسر سایت باز است: هر تغییر ثبت می‌شود.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>ثبت متوقف شد.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>ثبت اکنون در دسترس نیست.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>این تصویر نمی‌تواند نقطهٔ کانونی داشته باشد.</translation>
     </message>

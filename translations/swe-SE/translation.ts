@@ -1820,6 +1820,34 @@
         <translation>%n migreringar behöver åtgärdas</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Spelar in…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Dina ändringar spelas in för en migrering.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Spela in mina ändringar</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Stoppa inspelningen</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>En inspelning av hela webbplatsen är öppen: varje ändring spelas in.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Inspelningen har stoppats.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Inspelning är inte tillgänglig nu.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Den här bilden kan inte ha någon fokuspunkt.</translation>
     </message>

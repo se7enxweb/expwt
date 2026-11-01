@@ -1820,6 +1820,34 @@
         <translation>%n миграция игътибар сорый</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Язып алына…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Сезнең үзгәрешләр миграция өчен язып алына.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Минем үзгәрешләрне язып ал</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Язуны туктат</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Бөтен сайтның язуы ачык: һәр үзгәреш язып алына.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Язу туктатылды.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Язу хәзер мөмкин түгел.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Бу рәсемнең фокус ноктасы була алмый.</translation>
     </message>

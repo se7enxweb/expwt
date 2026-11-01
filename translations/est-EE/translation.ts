@@ -1820,6 +1820,34 @@
         <translation>%n migratsiooni vajavad tähelepanu</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Salvestamine…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Teie muudatusi salvestatakse migratsiooni jaoks.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Salvesta minu muudatused</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Peata salvestamine</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Kogu saidi salvestamine on avatud: iga muudatus salvestatakse.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Salvestamine peatatud.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Salvestamine pole praegu saadaval.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Sellel pildil ei saa olla fookuspunkti.</translation>
     </message>

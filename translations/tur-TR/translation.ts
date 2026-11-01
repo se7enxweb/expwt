@@ -1820,6 +1820,34 @@
         <translation>%n geçiş dikkat gerektiriyor</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Kaydediliyor…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Değişiklikleriniz bir taşıma için kaydediliyor.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Değişikliklerimi kaydet</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Kaydı durdur</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Tüm sitenin kaydı açık: her değişiklik kaydediliyor.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Kayıt durduruldu.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Kayıt şu anda kullanılamıyor.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Bu görselin odak noktası olamaz.</translation>
     </message>

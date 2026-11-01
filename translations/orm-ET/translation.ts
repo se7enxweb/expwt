@@ -1820,6 +1820,34 @@
         <translation>Godaansonni %n xiyyeeffannaa barbaadu</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Galmeessaa jira…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Jijjiiramni kee godaansa tokkoof galmeeffamaa jira.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Jijjiirama koo galmeessi</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Galmeessuu dhaabi</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Galmeessi marsariitii guutuu banaadha: jijjiiramni hundi ni galmeeffama.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Galmeessuun dhaabbate.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Galmeessuun amma hin jiru.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Suuraan kun qabxii xiyyeeffannaa qabaachuu hin danda'u.</translation>
     </message>

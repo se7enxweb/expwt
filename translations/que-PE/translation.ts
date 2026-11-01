@@ -1820,6 +1820,34 @@
         <translation>%n migracionkuna qhawanata munanku</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Qillqakuchkan…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Tikraykunaykiqa huk astakunapaq qillqakuchkan.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Tikraykunayta qillqay</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Qillqayta sayachiy</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Llapan sitiop qillqaynin kichasqa kachkan: sapa tikraymi qillqakun.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Qillqay sayarqan.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Qillqayqa manam kunan kanchu.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Kay rikchayqa manam focal puntoyuq kayta atinchu.</translation>
     </message>

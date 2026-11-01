@@ -1820,6 +1820,34 @@
         <translation>%n шилжүүлэгт анхаарал шаардлагатай</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Бичиж байна…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Таны өөрчлөлтүүд шилжүүлгийн төлөө бичигдэж байна.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Миний өөрчлөлтийг бич</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Бичлэгийг зогсоох</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Бүх сайтын бичлэг нээлттэй байна: өөрчлөлт бүр бичигдэнэ.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Бичлэг зогслоо.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Бичлэг одоогоор боломжгүй.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Энэ зураг фокусын цэгтэй байж болохгүй.</translation>
     </message>

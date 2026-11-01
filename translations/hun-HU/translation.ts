@@ -1820,6 +1820,34 @@
         <translation>%n migráció figyelmet igényel</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Rögzítés…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>A módosításai rögzítésre kerülnek egy migrációhoz.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Módosításaim rögzítése</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Rögzítés leállítása</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>A teljes webhely rögzítése nyitva van: minden módosítás rögzül.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>A rögzítés leállt.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>A rögzítés most nem érhető el.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Ennek a képnek nem lehet fókuszpontja.</translation>
     </message>

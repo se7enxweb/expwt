@@ -1820,6 +1820,34 @@
         <translation>이행 %n개에 주의가 필요합니다</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>기록중…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>당신의 변경들이 이행을 위하여 기록되고있습니다.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>나의 변경을 기록</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>기록 중지</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>전체 싸이트 기록이 열려있습니다: 모든 변경이 기록됩니다.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>기록이 중지되였습니다.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>지금은 기록할수 없습니다.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>이 화상에는 초점을 둘수 없습니다.</translation>
     </message>

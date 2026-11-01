@@ -1820,6 +1820,34 @@
         <translation>Iimfuduko ezi %n zifuna ingqalelo</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Iyarekhoda…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Utshintsho lwakho lurekhodwa ukuze kufuduswe.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Rekhoda utshintsho lwam</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Yeka ukurekhoda</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Ukurekhodwa kwesiza sonke kuvuliwe: lonke utshintsho luyarekhodwa.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Ukurekhoda kumisiwe.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Ukurekhoda akufumaneki ngoku.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Lo mfanekiso awunakuba nendawo yokugxila.</translation>
     </message>

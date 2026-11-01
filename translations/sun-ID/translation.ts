@@ -1820,6 +1820,34 @@
         <translation>%n migrasi butuh perhatian</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Ngarékam…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Parobahan anjeun dirékam pikeun hiji migrasi.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Rékam parobahan abdi</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Eureunkeun ngarékam</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Rékaman sakumna situs keur dibuka: unggal parobahan dirékam.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Ngarékam dieureunkeun.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Ngarékam teu sayogi ayeuna.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Gambar ieu teu tiasa gaduh titik fokus.</translation>
     </message>

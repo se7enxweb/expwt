@@ -1820,6 +1820,34 @@
         <translation>%n migrări necesită atenție</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Se înregistrează…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Modificările tale sunt înregistrate pentru o migrare.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Înregistrează modificările mele</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Oprește înregistrarea</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Este deschisă o înregistrare a întregului site: fiecare modificare este înregistrată.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Înregistrarea s-a oprit.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Înregistrarea nu este disponibilă acum.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Această imagine nu poate avea un punct focal.</translation>
     </message>

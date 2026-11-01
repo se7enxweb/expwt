@@ -1820,6 +1820,34 @@
         <translation>%n ಮೈಗ್ರೇಶನ್‌ಗಳಿಗೆ ಗಮನ ಬೇಕು</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>ದಾಖಲಿಸಲಾಗುತ್ತಿದೆ…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>ನಿಮ್ಮ ಬದಲಾವಣೆಗಳನ್ನು ಒಂದು ವಲಸೆಗಾಗಿ ದಾಖಲಿಸಲಾಗುತ್ತಿದೆ.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>ನನ್ನ ಬದಲಾವಣೆಗಳನ್ನು ದಾಖಲಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>ದಾಖಲಿಸುವುದನ್ನು ನಿಲ್ಲಿಸಿ</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>ಇಡೀ ಸೈಟ್‌ನ ದಾಖಲಾತಿ ತೆರೆದಿದೆ: ಪ್ರತಿಯೊಂದು ಬದಲಾವಣೆಯನ್ನೂ ದಾಖಲಿಸಲಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>ದಾಖಲಿಸುವುದು ನಿಂತಿದೆ.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>ದಾಖಲಿಸುವುದು ಈಗ ಲಭ್ಯವಿಲ್ಲ.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>ಈ ಚಿತ್ರಕ್ಕೆ ಕೇಂದ್ರಬಿಂದು ಇರಲು ಸಾಧ್ಯವಿಲ್ಲ.</translation>
     </message>

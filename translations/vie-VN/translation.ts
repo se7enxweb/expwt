@@ -1820,6 +1820,34 @@
         <translation>%n bản di chuyển cần chú ý</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Đang ghi lại…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Các thay đổi của bạn đang được ghi lại cho một lần di chuyển.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Ghi lại thay đổi của tôi</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Dừng ghi</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Đang mở ghi lại toàn trang: mọi thay đổi đều được ghi lại.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Đã dừng ghi.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Hiện không thể ghi lại.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Ảnh này không thể có điểm lấy nét.</translation>
     </message>

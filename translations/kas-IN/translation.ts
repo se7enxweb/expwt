@@ -1820,6 +1820,34 @@
         <translation>%n مایگریشنن چھےٚ توجہٕ ہٕنز ضرورت</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>ریکارڈ گژھان…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>تُہٕنٛدۍ تبدیلی چھےٚ اکِس مائیگریشن خٲطرٕ ریکارڈ گژھان۔</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>میٲنۍ تبدیلی کٔرِو ریکارڈ</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>ریکارڈنگ کٔرِو بند</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>پورٕ سائٹٕچ ریکارڈنگ چھےٚ کھولمٕژ: پرٛتھ تبدیلی چھےٚ ریکارڈ گژھان۔</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>ریکارڈنگ گیہِ بند۔</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>ریکارڈنگ چھنہٕ وۄنہِ دستیاب۔</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>یَتھ تصویرِ ہُند فوکل پوائنٹ ہیٚکہٕ نہٕ آسِتھ۔</translation>
     </message>

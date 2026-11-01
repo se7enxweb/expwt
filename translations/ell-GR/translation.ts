@@ -1820,6 +1820,34 @@
         <translation>%n μεταναστεύσεις χρειάζονται προσοχή</translation>
     </message>
     <message>
+        <source>Recording…</source>
+        <translation>Καταγραφή…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Οι αλλαγές σας καταγράφονται για μια μετάπτωση.</translation>
+    </message>
+    <message>
+        <source>Record my changes</source>
+        <translation>Κατάγραψε τις αλλαγές μου</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Διακοπή καταγραφής</translation>
+    </message>
+    <message>
+        <source>A site-wide recording is open: every change is recorded.</source>
+        <translation>Είναι ανοιχτή καταγραφή όλου του ιστότοπου: καταγράφεται κάθε αλλαγή.</translation>
+    </message>
+    <message>
+        <source>Recording stopped.</source>
+        <translation>Η καταγραφή σταμάτησε.</translation>
+    </message>
+    <message>
+        <source>Recording is not available now.</source>
+        <translation>Η καταγραφή δεν είναι διαθέσιμη τώρα.</translation>
+    </message>
+    <message>
         <source>This image cannot have a focal point.</source>
         <translation>Αυτή η εικόνα δεν μπορεί να έχει σημείο εστίασης.</translation>
     </message>
