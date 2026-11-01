@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Chan eil bloca co-dhealbhachd air an duilleag seo.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Às-phortaich</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Clò-bhuail no sàbhail mar PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Clò-bhuailidh seo an duilleag mar a tha i an-dràsta. Airson PDF fhaighinn, tagh “Sàbhail mar PDF” sa chòmhradh clò-bhualaidh.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>An t-susbaint a-mhàin, gun bhann-cinn, chlàran-taghaidh is bhann-coise</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Seòlaidhean nan ceanglaichean às dèidh nan ceanglaichean</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Raointean mar fhaidhle</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Co-roinn an dreachd airson lèirmheas</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Chì neach sam bith aig a bheil an ceangal an dreachd agad gun chunntas gus an ruig an ceangal an ceann-ama aige. Na cuir e ach gu na lèirmheasaichean agad.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Sàbhail dreachd an toiseach: seallaidh ceangal co-roinnidh an dreachd agad.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Chan fhaod thu an dreachd seo a cho-roinneadh.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Feumaidh ceanglaichean co-roinnidh Exponential 6.0.15 no nas ùire, leis an stòras dhìomhaireachdan.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Obraichidh e fad</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Cò dha (roghainneil)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Cruthaich ceangal</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Dèan lethbhreac dhen cheangal</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Chaidh lethbhreac a dhèanamh.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Obraichidh e gu %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Dh’fhalbh an ùine air</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Tarraing air ais</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Air a tharraing air ais</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Air fhosgladh: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Dreachd, tionndadh %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Tionndadh foillsichte %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Air às-phortadh %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Chan eil dreachd agad dhen duilleag seo.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Tha uiread de cheanglaichean beò aig an dreachd seo ’s a tha ceadaichte. Tarraing fear air ais an toiseach.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Chan fhaod thu an ceangal seo a tharraing air ais.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Dè am fòrmat?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Dè an ceangal?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

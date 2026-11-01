@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Дар ин саҳифа блоки тарҳбандӣ нест.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Содирот</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Чоп кардан ё ҳамчун PDF нигоҳ доштан</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Саҳифаро ҳамон тавре ки ҳоло ҳаст, чоп мекунад. Барои гирифтани PDF, дар равзанаи чоп «Ҳамчун PDF нигоҳ доштан»-ро интихоб кунед.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Танҳо мундариҷа, бе сарлавҳа, менюҳо ва поёнвараққа</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Суроғаҳои пайвандҳо пас аз пайвандҳо</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Майдонҳо ҳамчун файл</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Сиёҳнависро барои баррасӣ мубодила кунед</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Ҳар касе ки пайванд дорад, сиёҳнависи шуморо бе ҳисоб то ба охир расидани мӯҳлати пайванд мебинад. Онро танҳо ба баррасикунандагони худ фиристед.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Аввал сиёҳнависро нигоҳ доред: пайванди мубодила сиёҳнависи шуморо нишон медиҳад.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Шумо ҳуқуқи мубодилаи ин сиёҳнависро надоред.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Пайвандҳои мубодила Exponential 6.0.15 ё навтарро бо анбори асрор талаб мекунанд.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Амал мекунад</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Барои кӣ (ихтиёрӣ)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Эҷоди пайванд</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Нусхабардории пайванд</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Нусха бардошта шуд.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>То %time амал мекунад</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Мӯҳлаташ гузашт</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Бозхонд</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Бозхондашуда</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Кушода шуд: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Сиёҳнавис, нусхаи %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Нусхаи нашршуда %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Содир шуд %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Шумо сиёҳнависи ин саҳифаро надоред.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Ин сиёҳнавис ба қадри иҷозатдодашуда пайвандҳои фаъол дорад. Аввал якеро бозхонед.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Шумо ҳуқуқи бозхонди ин пайвандро надоред.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Кадом формат?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Кадом пайванд?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Nessun blocco di layout in questa pagina.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Esportazione</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Stampa o salva come PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Stampa la pagina così com'è ora. Per ottenere un PDF, scegli «Salva come PDF» nella finestra di stampa.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Solo il contenuto, senza intestazione, menu e piè di pagina</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Indirizzi dei link dopo i link</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Campi come file</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Condividi la bozza per la revisione</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Chiunque abbia il link vede la tua bozza senza un account finché il link non scade. Invialo solo ai tuoi revisori.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Salva prima una bozza: un link di condivisione mostra la tua bozza.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Non puoi condividere questa bozza.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>I link di condivisione richiedono Exponential 6.0.15 o successivo, con l'archivio dei segreti.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Valido per</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Per chi (facoltativo)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Crea link</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Copia link</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Copiato.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Valido fino a %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Scaduto</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Revoca</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Revocato</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Aperto: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Bozza, versione %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Versione pubblicata %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Esportato %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Non hai una bozza di questa pagina.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Questa bozza ha già tutti i link attivi consentiti. Revocane prima uno.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Non puoi revocare questo link.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Quale formato?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Quale link?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

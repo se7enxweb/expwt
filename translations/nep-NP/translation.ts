@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>यो पृष्ठमा कुनै लेआउट ब्लक छैन।</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>निर्यात</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>प्रिन्ट गर्नुहोस् वा PDF को रूपमा सेभ गर्नुहोस्</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>पृष्ठलाई अहिले जस्तो छ त्यस्तै प्रिन्ट गर्छ। PDF पाउन प्रिन्ट संवादमा "PDF को रूपमा सेभ गर्नुहोस्" छान्नुहोस्।</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>सामग्री मात्र, हेडर, मेनु र फुटर बिना</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>लिङ्कहरूपछि लिङ्क ठेगानाहरू</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>फिल्डहरू फाइलको रूपमा</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>समीक्षाका लागि मस्यौदा साझा गर्नुहोस्</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>लिङ्क भएको जो कोहीले लिङ्कको म्याद नसकिँदासम्म खाताबिना तपाईंको मस्यौदा हेर्न सक्छ। यसलाई आफ्ना समीक्षकहरूलाई मात्र पठाउनुहोस्।</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>पहिले मस्यौदा सेभ गर्नुहोस्: साझा लिङ्कले तपाईंको मस्यौदा देखाउँछ।</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>तपाईंलाई यो मस्यौदा साझा गर्ने अनुमति छैन।</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>साझा लिङ्कहरूलाई गोप्य भण्डारसहित Exponential 6.0.15 वा पछिको संस्करण चाहिन्छ।</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>काम गर्ने अवधि</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>कसका लागि (ऐच्छिक)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>लिङ्क बनाउनुहोस्</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>लिङ्क प्रतिलिपि गर्नुहोस्</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>प्रतिलिपि गरियो।</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>%time सम्म काम गर्छ</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>म्याद सकियो</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>फिर्ता लिनुहोस्</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>फिर्ता लिइयो</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>खोलियो: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>मस्यौदा, संस्करण %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>प्रकाशित संस्करण %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>निर्यात गरियो %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>तपाईंसँग यो पृष्ठको कुनै मस्यौदा छैन।</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>यो मस्यौदामा अनुमति भएजति सक्रिय लिङ्कहरू छन्। पहिले एउटा फिर्ता लिनुहोस्।</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>तपाईंलाई यो लिङ्क फिर्ता लिने अनुमति छैन।</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>कुन ढाँचा?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>कुन लिङ्क?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

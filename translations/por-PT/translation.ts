@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Nenhum bloco de esquema nesta página.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Exportar</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Imprimir ou guardar como PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Imprime a página tal como está agora. Para obter um PDF, escolha "Guardar como PDF" na caixa de diálogo de impressão.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Apenas o conteúdo, sem cabeçalho, menus e rodapé</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Endereços das ligações após as ligações</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Campos como ficheiro</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Partilhar o rascunho para revisão</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Qualquer pessoa com a ligação vê o seu rascunho sem conta até a ligação expirar. Envie-a apenas aos seus revisores.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Guarde primeiro um rascunho: uma ligação de partilha mostra o seu rascunho.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Não tem permissão para partilhar este rascunho.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>As ligações de partilha requerem o Exponential 6.0.15 ou posterior, com o armazenamento de segredos.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Válida durante</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Para quem (opcional)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Criar ligação</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Copiar ligação</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Copiado.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Válida até %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Expirada</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Revogar</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Revogada</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Aberta: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Rascunho, versão %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Versão publicada %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Exportado %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Não tem nenhum rascunho desta página.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Este rascunho já tem o máximo de ligações ativas permitido. Revogue uma primeiro.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Não tem permissão para revogar esta ligação.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Que formato?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Que ligação?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

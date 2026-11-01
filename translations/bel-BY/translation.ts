@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>На гэтай старонцы няма блокаў макета.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Экспарт</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Надрукаваць або захаваць як PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Друкуе старонку ў цяперашнім выглядзе. Каб атрымаць PDF, выберыце «Захаваць як PDF» у дыялогу друку.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Толькі змесціва, без загалоўка, меню і ніжняга калантытула</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Адрасы спасылак пасля спасылак</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Палі як файл</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Падзяліцца чарнавіком для праверкі</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Любы, у каго ёсць спасылка, бачыць ваш чарнавік без уліковага запісу, пакуль спасылка не скончыцца. Адпраўляйце яе толькі рэцэнзентам.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Спачатку захавайце чарнавік: спасылка для доступу паказвае ваш чарнавік.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Вам нельга дзяліцца гэтым чарнавіком.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Спасылкам для доступу патрэбны Exponential 6.0.15 або навейшы, са сховішчам сакрэтаў.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Дзейнічае</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Для каго (неабавязкова)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Стварыць спасылку</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Скапіраваць спасылку</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Скапіравана.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Дзейнічае да %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Скончылася</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Адклікаць</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Адклікана</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Адкрыта: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Чарнавік, версія %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Апублікаваная версія %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Экспартавана %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>У вас няма чарнавіка гэтай старонкі.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>У гэтага чарнавіка ўжо столькі дзейных спасылак, колькі дазволена. Спачатку адклічце адну.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Вам нельга адклікаць гэту спасылку.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Які фармат?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Якая спасылка?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

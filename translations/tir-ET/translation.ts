@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>ኣብዚ ገጽ ብሎክ ኣቀማምጣ የለን።</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>ምውጻእ</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>ሕተም ወይ ከም PDF ኣቐምጥ</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>ነቲ ገጽ ከም ዘለዎ ሕጂ ይሓትሞ። PDF ንምርካብ፡ ኣብቲ መዘራረቢ ሕትመት «ከም PDF ኣቐምጥ» ምረጹ።</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>ትሕዝቶ ጥራይ፡ ብዘይ ርእሲ፡ ምናሌታትን ታሕተዋይ ክፋልን</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>ኣድራሻታት መላግቦ ድሕሪ መላግቦታት</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>ሜዳታት ከም ፋይል</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>ንድፊ ንምርመራ ኣካፍሉ</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>ዝኾነ መላግቦ ዘለዎ ሰብ ብዘይ ሕሳብ ክሳብ እቲ መላግቦ ግዜኡ ዝውዳእ ንድፍኹም ይርኢ። ንገምገምትኹም ጥራይ ስደድዎ።</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>መጀመርያ ንድፊ ኣቐምጡ፡ መላግቦ ምክፋል ንድፍኹም የርኢ።</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>ነዚ ንድፊ ከተካፍሉ ኣይፍቀደልኩምን።</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>መላግቦታት ምክፋል Exponential 6.0.15 ወይ ዝሓደሰ፡ ምስ መዕቈሪ ምስጢራት የድልዮም።</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>ዝሰርሓሉ ግዜ</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>ንመን (ኣማራጺ)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>መላግቦ ፍጠር</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>መላግቦ ቅዳሕ</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>ተቐዲሑ።</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>ክሳብ %time ይሰርሕ</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>ግዜኡ ወዲኡ</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>ስሓብ</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>ተሰሒቡ</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>ተኸፊቱ፡ %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>ንድፊ፡ ዕትም %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>ዝተሓትመ ዕትም %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>ተወጺኡ %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>ናይዚ ገጽ ንድፊ የብልኩምን።</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>እዚ ንድፊ ዝፍቀድ ክንደይ ዝሰርሑ መላግቦታት ኣለዎ። መጀመርያ ሓደ ስሓቡ።</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>ነዚ መላግቦ ክትስሕቡ ኣይፍቀደልኩምን።</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>ኣየናይ ቅርጺ?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>ኣየናይ መላግቦ?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

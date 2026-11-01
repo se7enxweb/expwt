@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>此页面没有布局区块。</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>导出</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>打印或另存为 PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>按页面当前的样子打印。要得到 PDF，请在打印对话框中选择“另存为 PDF”。</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>仅内容，不含页眉、菜单和页脚</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>在链接后显示链接地址</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>字段导出为文件</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>共享草稿以供审阅</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>任何拥有该链接的人在链接过期前无需账户即可看到你的草稿。请只发给你的审阅者。</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>请先保存草稿：共享链接显示的是你的草稿。</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>你无权共享此草稿。</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>共享链接需要 Exponential 6.0.15 或更高版本，并配有密钥存储。</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>有效期</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>给谁（可选）</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>创建链接</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>复制链接</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>已复制。</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>有效至 %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>已过期</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>撤回</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>已撤回</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>打开次数：%count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>草稿，版本 %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>已发布版本 %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>导出于 %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>你没有此页面的草稿。</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>此草稿的有效链接已达上限。请先撤回一个。</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>你无权撤回此链接。</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>哪种格式？</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>哪个链接？</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

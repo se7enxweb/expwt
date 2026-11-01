@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Nagin bloc da layout sin questa pagina.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Exportar</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Stampar u memorisar sco PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Stampa la pagina sco ch'ella è ussa. Per survegnir in PDF, tscherna «Memorisar sco PDF» en il dialog da stampa.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Mo il cuntegn, senza chau, menus e pe</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Adressas da las colliaziuns suenter las colliaziuns</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Champs sco datoteca</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Parter il sboz per la revisiun</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Mintgin che ha la colliaziun vesa Voss sboz senza conto fin che la colliaziun scada. Tramettai ella mo a Voss revisurs.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Memorisai l'emprim in sboz: ina colliaziun da parter mussa Voss sboz.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Vus na dastgais betg parter quest sboz.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Colliaziuns da parter dovran Exponential 6.0.15 u pli nov, cun l'archiv da secrets.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Valaivla per</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Per tgi (facultativ)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Crear ina colliaziun</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Copiar la colliaziun</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Copià.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Valaivla fin %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Scadida</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Revocar</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Revocada</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Averta: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Sboz, versiun %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Versiun publitgada %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Exportà %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Vus n'avais nagin sboz da questa pagina.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Quest sboz ha gia uschè bleras colliaziuns activas sco lubì. Revocai l'emprim ina.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Vus na dastgais betg revocar questa colliaziun.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Tge format?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Tge colliaziun?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

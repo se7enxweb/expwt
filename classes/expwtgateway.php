@@ -262,6 +262,201 @@ class expwtGateway
     }
 
 
+    // ------------------------------------------------------------------------------------------------ export (E13)
+
+    /**
+     * The version an export or a share link is of: the user's own draft ("draft", the version asked for or the newest in
+     * the language) or the published version ("published", for a user who may read it).
+     *
+     * @return array object, version, language, draft (bool)
+     */
+    protected function exportVersion( array $in )
+    {
+        $object = $this->readableObject( $in );
+        $language = isset( $in['language'] ) && preg_match( '/^[a-z]{3}-[A-Z]{2}(@[a-z]+)?$/', $in['language'] ) ? $in['language']
+                  : (string)$object->attribute( 'initial_language_code' );
+        if ( isset( $in['which'] ) && $in['which'] === 'draft' )
+        {
+            $version = isset( $in['version'] ) ? $this->ownDraft( $object, $in['version'] ) : $this->latestOwnDraft( $object, $language );
+            if ( !$version instanceof eZContentObjectVersion )
+                throw new expwtApiError( 404, 'no_draft', 'You have no draft of this page.' );
+            return array( 'object' => $object, 'version' => $version, 'language' => $language, 'draft' => true );
+        }
+        if ( (int)$object->attribute( 'status' ) !== eZContentObject::STATUS_PUBLISHED || !$object->canRead() )
+            throw new expwtApiError( 404, 'not_found', 'This page is not there, or you may not read it.' );
+        $version = $object->version( (int)$object->attribute( 'current_version' ) );
+        if ( !$version instanceof eZContentObjectVersion )
+            throw new expwtApiError( 404, 'not_found', 'This page is not there, or you may not read it.' );
+        if ( !in_array( $language, array_map( 'strval', (array)$version->translationList( false, false ) ), true ) )
+            $language = (string)$object->attribute( 'initial_language_code' );
+        return array( 'object' => $object, 'version' => $version, 'language' => $language, 'draft' => false );
+    }
+
+    /**
+     * The fields of the page as a file (E13): Markdown or Word, of the published version or the user's own draft.
+     *
+     * @param array $in objectId, which (published or draft), version, language, format (md or docx)
+     * @return array fileName, mime, data (base64), size
+     */
+    public function exportFields( array $in )
+    {
+        $format = isset( $in['format'] ) ? (string)$in['format'] : '';
+        if ( !isset( expwtExport::FORMATS[$format] ) )
+            throw new expwtApiError( 400, 'bad_input', 'Which format?' );
+        $found = $this->exportVersion( $in );
+        /** @var eZContentObject $object */
+        $object = $found['object'];
+        /** @var eZContentObjectVersion $version */
+        $version = $found['version'];
+        $language = $found['language'];
+        $fields = array();
+        foreach ( (array)$version->contentObjectAttributes( $language ) as $attribute )
+        {
+            $kind = expwtFields::describe( (string)$attribute->attribute( 'data_type_string' ) );
+            if ( $kind['input'] === 'hidden' )
+                continue;
+            $shown = expwtFieldValue::of( $attribute, $kind['input'] );
+            $value = $shown['value'];
+            // what the Page panel shows no text of (images, the datatypes edited in the full editor): their search text
+            if ( $value === '' && $attribute->attribute( 'has_content' ) )
+            {
+                $meta = $attribute->metaData();
+                $value = is_string( $meta ) ? trim( $meta ) : '';
+            }
+            if ( in_array( $kind['input'], array( 'date', 'datetime' ), true ) && ctype_digit( $value ) && (int)$value > 0 )
+                $value = $kind['input'] === 'date' ? date( 'Y-m-d', (int)$value ) : date( 'Y-m-d H:i', (int)$value );
+            $fields[] = array( 'name' => self::fieldName( $attribute->contentClassAttribute(), (string)$attribute->attribute( 'contentclass_attribute_identifier' ) ),
+                               'input' => $kind['input'], 'value' => $value );
+        }
+        $versionNumber = (int)$version->attribute( 'version' );
+        $name = (string)$object->versionLanguageName( $versionNumber, $language );
+        if ( $name === '' )
+            $name = (string)$object->attribute( 'name' );
+        $now = time();
+        $meta = array(
+            (string)$object->attribute( 'class_name' ) . ' · ' . $language,
+            str_replace( '%number', (string)$versionNumber, expwtStrings::tr( $found['draft'] ? 'Draft, version %number' : 'Published version %number' ) )
+                . ' · ' . str_replace( '%time', date( 'Y-m-d H:i', $now ), expwtStrings::tr( 'Exported %time' ) ),
+        );
+        $blocks = expwtExport::blocks( $name, $meta, $fields, function ( $text ) { return expwtStrings::tr( $text ); } );
+        $bytes = $format === 'md' ? expwtExport::markdown( $blocks ) : expwtExport::docx( $blocks, $name, $now );
+        return array( 'fileName' => expwtExport::fileName( $name, $format ), 'mime' => expwtExport::FORMATS[$format]['mime'],
+                      'data' => base64_encode( $bytes ), 'size' => strlen( $bytes ) );
+    }
+
+    /**
+     * The share links of the page (E13): whether they are there (a kernel with expContentPreviewLink, switched on), the
+     * user's draft they would show, the lifetimes to choose from, and the page's links.
+     *
+     * @param array $in objectId, language
+     * @return array available, draft (version, language) or null, canShare, lifetimes, links
+     */
+    public function shareLinks( array $in )
+    {
+        $object = $this->readableObject( $in );
+        if ( !class_exists( 'expContentPreviewLink' ) || !expContentPreviewLink::available() )
+            return array( 'available' => false, 'draft' => null, 'canShare' => false, 'lifetimes' => array(), 'links' => array() );
+        $language = isset( $in['language'] ) && preg_match( '/^[a-z]{3}-[A-Z]{2}(@[a-z]+)?$/', $in['language'] ) ? $in['language']
+                  : (string)$object->attribute( 'initial_language_code' );
+        $draft = $this->latestOwnDraft( $object, $language );
+        $settings = expContentPreviewLink::settings();
+        return array(
+            'available' => true,
+            'draft' => $draft ? array( 'version' => (int)$draft->attribute( 'version' ), 'language' => $language ) : null,
+            'canShare' => $draft ? expContentPreviewLink::mayShare( $draft ) : false,
+            'lifetimes' => self::shareLifetimes( $settings['maxLifetime'], $settings['defaultLifetime'] ),
+            'links' => $this->shareLinkList( (int)$object->attribute( 'id' ) ),
+        );
+    }
+
+    /**
+     * Pure: the lifetimes the panel offers (an hour, a day, three days, a week) up to the longest the kernel allows,
+     * the default first chosen.
+     *
+     * @return array[] seconds, chosen
+     */
+    public static function shareLifetimes( $max, $default )
+    {
+        $out = array();
+        foreach ( array( 3600, 86400, 259200, 604800 ) as $seconds )
+            if ( $seconds <= (int)$max )
+                $out[] = array( 'seconds' => $seconds, 'chosen' => $seconds === (int)$default );
+        if ( !$out )
+            $out[] = array( 'seconds' => max( 300, (int)$max ), 'chosen' => true );
+        return $out;
+    }
+
+    /** @return array[] the object's links for the panel: never a token of an ended link */
+    protected function shareLinkList( $objectId )
+    {
+        $out = array();
+        foreach ( expContentPreviewLink::listFor( $objectId ) as $link )
+        {
+            $token = $link['state'] === 'active' ? expContentPreviewLink::tokenFor( $link ) : null;
+            $creator = eZContentObject::fetch( $link['creator'] );
+            $out[] = array( 'id' => $link['id'], 'version' => $link['version'], 'language' => $link['language'], 'state' => $link['state'],
+                            'created' => $link['created'], 'expires' => $link['expires'], 'revoked' => $link['revoked'],
+                            'opened' => $link['opened'], 'lastOpened' => $link['lastOpened'], 'note' => $link['note'],
+                            'by' => $creator instanceof eZContentObject ? (string)$creator->attribute( 'name' ) : '',
+                            'mine' => $link['creator'] === $this->userId(),
+                            'url' => $token !== null ? self::absoluteUrl( '/content/sharedpreview/' . $token ) : null );
+        }
+        return $out;
+    }
+
+    /**
+     * A share link to the user's draft (E13), behind "Verify it's you" (the export group).
+     *
+     * @param array $in objectId, version, language, lifetime (seconds), note
+     * @return array url, link; and the page's links
+     */
+    public function shareCreate( array $in )
+    {
+        if ( !class_exists( 'expContentPreviewLink' ) || !expContentPreviewLink::available() )
+            throw new expwtApiError( 409, 'unavailable', 'Share links need Exponential 6.0.15 or later, with the secret store.' );
+        $found = $this->exportVersion( array( 'which' => 'draft' ) + $in );
+        $made = expContentPreviewLink::create( $found['version'], $found['language'], isset( $in['lifetime'] ) ? (int)$in['lifetime'] : null,
+                                               isset( $in['note'] ) ? (string)$in['note'] : '' );
+        if ( isset( $made['error'] ) )
+        {
+            $messages = array( 'not_allowed' => array( 403, 'You may not share this draft.' ),
+                               'too_many' => array( 409, 'This draft has as many working links as allowed. Withdraw one first.' ),
+                               'not_draft' => array( 409, 'You have no draft of this page.' ),
+                               'language' => array( 409, 'You have no draft of this page.' ) );
+            $m = isset( $messages[$made['error']] ) ? $messages[$made['error']] : array( 409, 'Share links need Exponential 6.0.15 or later, with the secret store.' );
+            throw new expwtApiError( $m[0], (string)$made['error'], $m[1] );
+        }
+        return array( 'url' => self::absoluteUrl( '/' . $made['path'] ), 'id' => $made['link']['id'],
+                      'expires' => $made['link']['expires'], 'links' => $this->shareLinkList( (int)$found['object']->attribute( 'id' ) ) );
+    }
+
+    /**
+     * Withdraws a share link (E13): the maker, or a user who may share its draft.
+     *
+     * @param array $in objectId, id
+     * @return array links
+     */
+    public function shareRevoke( array $in )
+    {
+        $object = $this->readableObject( $in );
+        if ( !class_exists( 'expContentPreviewLink' ) || !isset( $in['id'] ) || !preg_match( '/^[0-9a-f]{24}$/', (string)$in['id'] ) )
+            throw new expwtApiError( 400, 'bad_input', 'Which link?' );
+        $mine = false;
+        foreach ( expContentPreviewLink::listFor( (int)$object->attribute( 'id' ) ) as $link )
+            if ( $link['id'] === $in['id'] )
+                $mine = true;
+        if ( !$mine || !expContentPreviewLink::revoke( (string)$in['id'] ) )
+            throw new expwtApiError( 403, 'not_allowed', 'You may not withdraw this link.' );
+        return array( 'links' => $this->shareLinkList( (int)$object->attribute( 'id' ) ) );
+    }
+
+    /** @return string an address of this siteaccess with the scheme and host, for a link that leaves the site */
+    protected static function absoluteUrl( $path )
+    {
+        $url = self::url( $path );
+        return eZSys::serverURL() . $url;
+    }
+
     // ------------------------------------------------------------------------------- what extensions add (32)
 
     /** @var array|null */

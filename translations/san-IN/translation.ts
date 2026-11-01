@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>अस्मिन् पृष्ठे विन्यासखण्डः नास्ति।</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>निर्यातः</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>मुद्रयतु अथवा PDF रूपेण रक्षतु</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>पृष्ठं यथा अधुना अस्ति तथा मुद्रयति। PDF प्राप्तुं मुद्रणसंवादे "PDF रूपेण रक्षतु" इति चिनोतु।</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>केवलं विषयः, शीर्षकं, सूचीः पादलेखं च विना</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>सम्बन्धानां पश्चात् सम्बन्धसङ्केताः</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>क्षेत्राणि सञ्चिकारूपेण</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>समीक्षार्थं प्रारूपं साझां करोतु</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>यस्य समीपे सम्बन्धः अस्ति सः कोऽपि सम्बन्धस्य अवधिसमाप्तिपर्यन्तं खातं विना भवतः प्रारूपं पश्यति। केवलं स्वसमीक्षकेभ्यः प्रेषयतु।</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>प्रथमं प्रारूपं रक्षतु: साझासम्बन्धः भवतः प्रारूपं दर्शयति।</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>भवान् इदं प्रारूपं साझां कर्तुं न अनुमतः।</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>साझासम्बन्धेभ्यः गुप्तभाण्डारेण सह Exponential 6.0.15 अथवा परवर्ति संस्करणम् आवश्यकम्।</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>कार्यावधिः</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>कस्मै (वैकल्पिकम्)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>सम्बन्धं रचयतु</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>सम्बन्धं प्रतिलिखतु</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>प्रतिलिखितम्।</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>%time पर्यन्तं कार्यं करोति</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>अवधिः समाप्ता</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>प्रत्याहरतु</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>प्रत्याहृतः</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>उद्घाटितः: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>प्रारूपम्, संस्करणम् %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>प्रकाशितं संस्करणम् %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>निर्यातितम् %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>अस्य पृष्ठस्य भवतः प्रारूपं नास्ति।</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>अस्मिन् प्रारूपे अनुमताः यावन्तः सक्रियसम्बन्धाः सन्ति। प्रथमम् एकं प्रत्याहरतु।</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>भवान् इमं सम्बन्धं प्रत्याहर्तुं न अनुमतः।</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>कतमं स्वरूपम्?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>कतमः सम्बन्धः?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

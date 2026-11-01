@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>লমায় অসিদা লেআউত ব্লোক অমত্তা লৈতে।</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>এক্সপোর্ত</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>প্রিন্ত তৌবা নত্রগা PDF ওইনা সেভ তৌবা</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>লমায় অসি হৌজিক লৈবা মতৌ অদুম প্রিন্ত তৌই। PDF ফংনবা, প্রিন্ত দাইলগদা "PDF ওইনা সেভ তৌবা" খনবীয়ু।</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>কন্তেন্ত খক্তা, হেদর, মেনু অমসুং ফুতর য়াওদনা</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>লিংকশিংগী মতুংদা লিংকগী এদ্রেস</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>ফিল্দশিং ফাইল ওইনা</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>ড্রাফ্ট অসি য়েংশিনবগীদমক শেয়র তৌবা</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>লিংক অসি লৈবা কনাগুম্বা অমনা লিংক অসিগী মতম লোইদ্রিফাওবা একাউন্ত য়াওদনা নহাক্কী ড্রাফ্ট য়েংবা ঙম্মি। মসি নহাক্কী য়েংশিনবশিংদা খক্তা থাবীয়ু।</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>অহানবদা ড্রাফ্ট অমা সেভ তৌবীয়ু: শেয়র লিংক অমনা নহাক্কী ড্রাফ্ট উৎলি।</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>নহাক্না ড্রাফ্ট অসি শেয়র তৌবা য়াদে।</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>শেয়র লিংকশিংগীদমক Exponential 6.0.15 নত্রগা মতুংগী ভর্সন, সিক্রেত স্তোর য়াওনা মথৌ তাই।</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>থবক তৌবগী মতম</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>কনাগী (অপশনেল)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>লিংক শেম্বা</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>লিংক কোপি তৌবা</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>কোপি তৌখ্রে।</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>%time ফাওবা থবক তৌই</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>মতম লোইরে</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>লৌথোকপা</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>লৌথোকখ্রে</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>হাংদোকখিবা: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>ড্রাফ্ট, ভর্সন %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>প্রকাশ তৌরবা ভর্সন %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>এক্সপোর্ত তৌখিবা %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>লমায় অসিগী নহাক্কী ড্রাফ্ট অমত্তা লৈতে।</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>ড্রাফ্ট অসিদা য়াবা মশিং অদুগী থবক তৌরিবা লিংকশিং লৈরে। অহানবদা অমা লৌথোকপীয়ু।</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>নহাক্না লিংক অসি লৌথোকপা য়াদে।</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>ফোর্মেত করি?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>লিংক করি?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

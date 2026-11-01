@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>या पृष्ठावर कोणताही लेआउट ब्लॉक नाही.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>निर्यात</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>प्रिंट करा किंवा PDF म्हणून सेव्ह करा</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>पृष्ठ आत्ता जसे आहे तसे प्रिंट करते. PDF मिळवण्यासाठी, प्रिंट संवादात "PDF म्हणून सेव्ह करा" निवडा.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>फक्त आशय, शीर्षलेख, मेनू आणि तळटीपेशिवाय</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>लिंकनंतर लिंकचे पत्ते</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>फील्ड फाइल म्हणून</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>पुनरावलोकनासाठी मसुदा शेअर करा</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>लिंक असलेली कोणीही व्यक्ती लिंकची मुदत संपेपर्यंत खात्याशिवाय तुमचा मसुदा पाहू शकते. तो फक्त तुमच्या पुनरावलोकनकर्त्यांना पाठवा.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>आधी मसुदा सेव्ह करा: शेअर लिंक तुमचा मसुदा दाखवते.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>तुम्हाला हा मसुदा शेअर करण्याची परवानगी नाही.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>शेअर लिंकसाठी गुप्त संचयासह Exponential 6.0.15 किंवा नंतरची आवृत्ती आवश्यक आहे.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>वैधता कालावधी</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>कोणासाठी (पर्यायी)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>लिंक तयार करा</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>लिंक कॉपी करा</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>कॉपी केले.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>%time पर्यंत वैध</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>मुदत संपली</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>मागे घ्या</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>मागे घेतली</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>उघडली: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>मसुदा, आवृत्ती %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>प्रकाशित आवृत्ती %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>%time ला निर्यात केले</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>तुमच्याकडे या पृष्ठाचा मसुदा नाही.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>या मसुद्याकडे परवानगी असलेल्या संख्येइतक्या सक्रिय लिंक आधीच आहेत. आधी एक मागे घ्या.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>तुम्हाला ही लिंक मागे घेण्याची परवानगी नाही.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>कोणता फॉरमॅट?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>कोणती लिंक?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

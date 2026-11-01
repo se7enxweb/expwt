@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Bu sayfada düzen bloğu yok.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Dışa aktar</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Yazdır veya PDF olarak kaydet</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Sayfayı şu anki hâliyle yazdırır. PDF almak için yazdırma penceresinde “PDF olarak kaydet” seçeneğini seçin.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Yalnızca içerik; üst bilgi, menüler ve alt bilgi olmadan</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Bağlantılardan sonra bağlantı adresleri</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Dosya olarak alanlar</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Taslağı inceleme için paylaş</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Bağlantıya sahip olan herkes, bağlantının süresi dolana kadar hesap olmadan taslağınızı görür. Yalnızca inceleyicilerinize gönderin.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Önce bir taslak kaydedin: paylaşım bağlantısı taslağınızı gösterir.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Bu taslağı paylaşamazsınız.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Paylaşım bağlantıları, gizli bilgi deposuyla birlikte Exponential 6.0.15 veya üstünü gerektirir.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Geçerlilik süresi</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Kimin için (isteğe bağlı)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Bağlantı oluştur</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Bağlantıyı kopyala</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Kopyalandı.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>%time tarihine kadar geçerli</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Süresi doldu</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Geri çek</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Geri çekildi</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Açılma: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Taslak, sürüm %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Yayımlanan sürüm %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Dışa aktarıldı %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Bu sayfanın taslağı sizde yok.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Bu taslağın izin verilen sayıda geçerli bağlantısı var. Önce birini geri çekin.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Bu bağlantıyı geri çekemezsiniz.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Hangi biçim?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Hangi bağlantı?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

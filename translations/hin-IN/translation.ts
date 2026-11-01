@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>इस पेज पर कोई लेआउट ब्लॉक नहीं है।</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>निर्यात</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>प्रिंट करें या PDF के रूप में सहेजें</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>पेज को अभी जैसा है वैसा प्रिंट करता है। PDF पाने के लिए प्रिंट डायलॉग में "PDF के रूप में सहेजें" चुनें।</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>केवल सामग्री, हेडर, मेनू और फ़ुटर के बिना</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>लिंक के बाद लिंक के पते</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>फ़ील्ड फ़ाइल के रूप में</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>समीक्षा के लिए ड्राफ़्ट साझा करें</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>लिंक वाला कोई भी व्यक्ति लिंक की अवधि समाप्त होने तक बिना खाते के आपका ड्राफ़्ट देख सकता है। इसे केवल अपने समीक्षकों को भेजें।</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>पहले एक ड्राफ़्ट सहेजें: साझा लिंक आपका ड्राफ़्ट दिखाता है।</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>आपको यह ड्राफ़्ट साझा करने की अनुमति नहीं है।</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>साझा लिंक के लिए Exponential 6.0.15 या बाद का संस्करण, सीक्रेट स्टोर के साथ, आवश्यक है।</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>मान्य अवधि</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>किसके लिए (वैकल्पिक)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>लिंक बनाएं</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>लिंक कॉपी करें</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>कॉपी हो गया।</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>%time तक मान्य</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>समाप्त</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>वापस लें</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>वापस लिया गया</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>खोला गया: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>ड्राफ़्ट, संस्करण %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>प्रकाशित संस्करण %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>निर्यात किया गया %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>आपके पास इस पेज का कोई ड्राफ़्ट नहीं है।</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>इस ड्राफ़्ट के पास अनुमत संख्या जितने सक्रिय लिंक हैं। पहले एक वापस लें।</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>आपको यह लिंक वापस लेने की अनुमति नहीं है।</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>कौन-सा फ़ॉर्मेट?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>कौन-सा लिंक?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

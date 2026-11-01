@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>هیچ بلۆکێکی دیزاین لەم پەڕەیەدا نییە.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>هەناردە</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>چاپکردن یان پاشەکەوتکردن وەک PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>پەڕەکە وەک ئێستا هەیە چاپ دەکات. بۆ وەرگرتنی PDF، لە پەنجەرەی چاپدا «پاشەکەوتکردن وەک PDF» هەڵبژێرە.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>تەنها ناوەڕۆک، بەبێ سەرپەڕە، لیستەکان و ژێرپەڕە</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>ناونیشانی بەستەرەکان لە دوای بەستەرەکان</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>خانەکان وەک فایل</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>ڕەشنووسەکە بۆ پێداچوونەوە هاوبەش بکە</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>هەر کەسێک بەستەرەکەی هەبێت تا بەستەرەکە بەسەردەچێت بەبێ هەژمار ڕەشنووسەکەت دەبینێت. تەنها بۆ پێداچووەرەکانت بینێرە.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>سەرەتا ڕەشنووسێک پاشەکەوت بکە: بەستەری هاوبەشکردن ڕەشنووسەکەت پیشان دەدات.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>ڕێگەت پێ نەدراوە ئەم ڕەشنووسە هاوبەش بکەیت.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>بەستەرەکانی هاوبەشکردن پێویستیان بە Exponential 6.0.15 یان نوێترە، لەگەڵ کۆگای نهێنییەکان.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>کار دەکات بۆ</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>بۆ کێ (ئارەزوومەندانە)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>دروستکردنی بەستەر</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>لەبەرگرتنەوەی بەستەر</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>لەبەرگیرایەوە.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>تا %time کار دەکات</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>بەسەرچووە</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>کشاندنەوە</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>کشێنراوەتەوە</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>کراوەتەوە: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>ڕەشنووس، وەشانی %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>وەشانی بڵاوکراوە %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>هەناردەکرا %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>هیچ ڕەشنووسێکت بۆ ئەم پەڕەیە نییە.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>ئەم ڕەشنووسە ئەوەندە بەستەری کارای هەیە کە ڕێگەپێدراوە. سەرەتا یەکێک بکشێنەوە.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>ڕێگەت پێ نەدراوە ئەم بەستەرە بکشێنیتەوە.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>کام فۆرمات؟</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>کام بەستەر؟</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

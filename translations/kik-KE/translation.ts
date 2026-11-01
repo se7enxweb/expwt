@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Gũtirĩ layout block ngurumo-inĩ ĩno.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Kũruta na nja</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Cabithia kana ũige ta PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Ĩracabithia rũrũ o ta ũrĩa rũtariĩ rĩu. Nĩguo ũgĩe na PDF, thuura "Iga ta PDF" thĩinĩ wa ndirica ya gũcabithia.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Maũndũ ma thĩinĩ moiki, hatarĩ mũtwe, menu na gĩtina</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Aterethi cia link thutha wa link</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Mĩena ta faili</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Gayana ndrafti nĩguo ĩthuthurio</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Mũndũ o wothe ũrĩ na link nĩ onaga ndrafti yaku atarĩ na akaunti nginya link ĩthire ihinda. Ĩtũme o kũrĩ athuthuria aku.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Iga ndrafti mbere: link ya kũgayana nĩ ĩonanagia ndrafti yaku.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Ndwĩtĩkĩrĩtio kũgayana ndrafti ĩno.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Link cia kũgayana nĩ ibataraga Exponential 6.0.15 kana ya thutha, ĩrĩ na kĩigĩro kĩa hitho.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Ĩrarũta wĩra ihinda rĩa</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Nĩ ya ũ (ti ya kwenda)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Thondeka link</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Kobĩa link</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Nĩ yakobĩo.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Ĩrarũta wĩra nginya %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Ĩthirĩte ihinda</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Ehereria</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Nĩ yeheretio</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Ĩhingũrĩtwo: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Ndrafti, version %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Version ĩrĩa yacabithirio %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Yarutirwo na nja %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Ndũrĩ na ndrafti ya rũrũ.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Ndrafti ĩno ĩrĩ na link iria irarũta wĩra nyingĩ o ta ũrĩa gwĩtĩkĩrĩtio. Ehereria ĩmwe mbere.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Ndwĩtĩkĩrĩtio kweheria link ĩno.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Mũhiano ũrĩkũ?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Link ĩrĩkũ?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

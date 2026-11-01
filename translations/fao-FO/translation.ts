@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Eingin uppsetingarblokkur á hesi síðuni.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Útflyt</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Prenta ella goym sum PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Prentar síðuna, sum hon er nú. Fyri at fáa ein PDF, vel „Goym sum PDF“ í prentivindeyganum.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Bara innihaldið, uttan høvd, valmyndir og fót</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Leinkjubústaðir aftaná leinkjurnar</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Teigar sum fíla</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Deil kladduna til eftirmeting</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Øll við leinkjuni síggja kladduna hjá tær uttan konto, til leinkjan gongur út. Send hana bara til tínar eftirmetarar.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Goym eina kladdu fyrst: ein deilingarleinkja vísir kladduna hjá tær.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Tú hevur ikki loyvi at deila hesa kladduna.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Deilingarleinkjur krevja Exponential 6.0.15 ella nýggjari, við loyndargoymsluni.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Galdandi í</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Til hvønn (valfrítt)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Ger leinkju</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Avrita leinkju</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Avritað.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Galdandi til %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Útgingin</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Tak aftur</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Tikin aftur</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Latin upp: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Kladda, útgáva %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Útgivin útgáva %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Útflutt %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Tú hevur onga kladdu av hesi síðuni.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Henda kladdan hevur so nógvar virknar leinkjur, sum loyvt er. Tak eina aftur fyrst.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Tú hevur ikki loyvi at taka hesa leinkjuna aftur.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Hvat snið?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Hvør leinkja?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

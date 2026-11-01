@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Alikho ibhulokhi lesakhiwo kuleli khasi.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Thekelisa</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Phrinta noma londoloza njenge-PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Iphrinta ikhasi njengoba linjalo manje. Ukuze uthole i-PDF, khetha “Londoloza njenge-PDF” ebhokisini lengxoxo yokuphrinta.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Okuqukethwe kuphela, ngaphandle kwesihloko, amamenyu nonyawo</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Amakheli ezixhumanisi ngemva kwezixhumanisi</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Izinkambu njengefayela</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Yabelana ngesiqeshana ukuze sibuyekezwe</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Noma ubani onesixhumanisi ubona isiqeshana sakho ngaphandle kwe-akhawunti kuze kube yilapho isixhumanisi siphelelwa yisikhathi. Sithumele kubabuyekezi bakho kuphela.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Londoloza isiqeshana kuqala: isixhumanisi sokwabelana sibonisa isiqeshana sakho.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Awuvunyelwe ukwabelana ngalesi siqeshana.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Izixhumanisi zokwabelana zidinga i-Exponential 6.0.15 noma kamuva, enesitolo sezimfihlo.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Sisebenza isikhathi</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Kubani (akuphoqelekile)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Dala isixhumanisi</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Kopisha isixhumanisi</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Kukopishiwe.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Sisebenza kuze kube ngu-%time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Siphelelwe yisikhathi</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Hoxisa</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Sihoxisiwe</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Sivuliwe: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Isiqeshana, inguqulo %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Inguqulo eshicilelwe %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Kuthekeliswe %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Awunaso isiqeshana saleli khasi.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Lesi siqeshana sinezixhumanisi ezisebenzayo eziningi ngangokuvunyelwe. Hoxisa esisodwa kuqala.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Awuvunyelwe ukuhoxisa lesi sixhumanisi.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Iyiphi ifomethi?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Isiphi isixhumanisi?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

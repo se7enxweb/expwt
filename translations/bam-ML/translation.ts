@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Layout-buloki si tɛ nin ɲɛ in kan.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Ka bɔ kɛnɛma</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Ka a gane walima ka a mara PDF ye</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>A bɛ ɲɛ in gane i n'a fɔ a bɛ cogo min na sisan. Walasa ka PDF sɔrɔ, “Enregistrer au format PDF” sugandi ka gane fenɛtiri kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Kɔnɔkow dɔrɔn, kunkolo, menuw ani sentɛmɛ tɛ</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Jɛɲɔgɔnyasiraw ka adiresiw u kɔfɛ</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Fɛnw i n'a fɔ dosiye</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Bruyɔn tila ka a lajɛ</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Mɔgɔ o mɔgɔ ye jɛɲɔgɔnyasira sɔrɔ, o bɛ i ka bruyɔn ye konti tɛ fo jɛɲɔgɔnyasira waati ka ban. A ci i ka lajɛbagaw dɔrɔn ma.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Bruyɔn mara fɔlɔ: tilali jɛɲɔgɔnyasira bɛ i ka bruyɔn jira.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>I tɛ se ka bruyɔn in tila.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Tilali jɛɲɔgɔnyasiraw mago bɛ Exponential 6.0.15 walima min bɛ a kɔfɛ la, gundo maralan fana.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>A bɛ baara kɛ</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Jɔn ye (n'i b'a fɛ)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Jɛɲɔgɔnyasira dilan</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Jɛɲɔgɔnyasira kopi</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>A kopira.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>A bɛ baara kɛ fo %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>A waati banna</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>A segin</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>A seginna</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>A dayɛlɛla: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Bruyɔn, bɔcogo %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Bɔcogo bilalen kɛnɛ kan %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>A bɔra kɛnɛma %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Ɲɛ in bruyɔn si tɛ i fɛ.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Jɛɲɔgɔnyasira minnu bɛ baara kɛ, olu hakɛ dafara bruyɔn in na. Kelen segin fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>I tɛ se ka jɛɲɔgɔnyasira in segin.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Cogo jumɛn?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Jɛɲɔgɔnyasira jumɛn?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

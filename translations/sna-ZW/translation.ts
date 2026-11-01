@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Hapana bhuroko re layout papeji rino.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Kuburitsa</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Dhinda kana chengetedza se PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Inodhinda peji sezvaririli izvozvi. Kuti uwane PDF, sarudza "Chengetedza se PDF" muhwindo rekudhinda.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Zviri mukati chete, pasina musoro, mamenyu netsoka</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Kero dzemalink mushure memalink</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Minda sefaira</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Govera dhirafiti kuti riongororwe</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Ani nani ane link anoona dhirafiti rako pasina akaundi kusvikira link yapera nguva. Itumire kuvaongorori vako chete.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Tanga wachengetedza dhirafiti: link yekugovera inoratidza dhirafiti rako.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Haubvumirwi kugovera dhirafiti iri.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Malink ekugovera anoda Exponential 6.0.15 kana inotevera, ine dura rezvakavanzika.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Inoshanda kwe</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Kuna ani (sarudzo)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Gadzira link</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Kopa link</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Yakopwa.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Inoshanda kusvika %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Yapera nguva</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Bvisa</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Yabviswa</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Yakavhurwa: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Dhirafiti, shanduro %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Shanduro yakaburitswa %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Yakaburitswa kunze %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Hauna dhirafiti repeji rino.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Dhirafiti iri rine malink anoshanda akawanda sezvinobvumirwa. Tanga wabvisa imwe.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Haubvumirwi kubvisa link iyi.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Fomati ipi?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Link ipi?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

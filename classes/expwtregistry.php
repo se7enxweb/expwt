@@ -56,7 +56,7 @@
 class expwtRegistry
 {
     /** The panels of the sidebar itself: no extension takes their ids */
-    const CORE_PANELS = array( 'welcome', 'page', 'create', 'structure', 'seo', 'sites', 'forms', 'newsletter', 'urls', 'calendar', 'insights', 'inbox', 'migrations', 'performance', 'me' );
+    const CORE_PANELS = array( 'welcome', 'page', 'create', 'structure', 'seo', 'sites', 'forms', 'newsletter', 'urls', 'calendar', 'export', 'insights', 'inbox', 'migrations', 'performance', 'me' );
 
     /** kinds => the list setting of [RegistrySettings] and the prefix of their groups */
     const KINDS = array( 'panels' => array( 'PanelList', 'Panel_' ), 'actions' => array( 'ActionList', 'Action_' ),

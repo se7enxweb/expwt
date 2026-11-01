@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>На тази страница няма блок от оформлението.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Експорт</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Печат или запазване като PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Отпечатва страницата такава, каквато е сега. За PDF изберете „Запазване като PDF“ в прозореца за печат.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Само съдържанието, без заглавна част, менюта и долен колонтитул</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Адресите на връзките след връзките</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Полетата като файл</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Споделяне на черновата за преглед</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Всеки с връзката вижда черновата ви без профил, докато връзката не изтече. Изпращайте я само на рецензентите си.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Първо запазете чернова: връзката за споделяне показва черновата ви.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Нямате право да споделяте тази чернова.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Връзките за споделяне изискват Exponential 6.0.15 или по-нова версия, с хранилището за тайни.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Валидна за</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>За кого (по избор)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Създаване на връзка</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Копиране на връзката</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Копирано.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Валидна до %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Изтекла</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Оттегляне</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Оттеглена</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Отваряния: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Чернова, версия %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Публикувана версия %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Експортирано %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Нямате чернова на тази страница.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Тази чернова има толкова активни връзки, колкото е позволено. Първо оттеглете една.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Нямате право да оттеглите тази връзка.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Кой формат?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Коя връзка?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

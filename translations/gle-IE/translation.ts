@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Níl aon bhloc leagain amach ar an leathanach seo.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Easpórtáil</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Priontáil nó sábháil mar PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Priontálann sé an leathanach mar atá sé anois. Chun PDF a fháil, roghnaigh “Sábháil mar PDF” sa dialóg phriontála.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>An t-ábhar amháin, gan cheanntásc, roghchláir ná buntásc</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Seoltaí na nasc i ndiaidh na nasc</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Réimsí mar chomhad</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Comhroinn an dréacht le haghaidh athbhreithnithe</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Feiceann aon duine a bhfuil an nasc aige do dhréacht gan chuntas go dtí go rachaidh an nasc as feidhm. Ná seol é ach chuig d’athbhreithneoirí.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Sábháil dréacht ar dtús: taispeánann nasc comhroinnte do dhréacht.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Níl cead agat an dréacht seo a chomhroinnt.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Teastaíonn Exponential 6.0.15 nó níos déanaí, leis an stóras rúin, ó naisc chomhroinnte.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Bailí ar feadh</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Cé dó (roghnach)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Cruthaigh nasc</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Cóipeáil an nasc</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Cóipeáilte.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Bailí go dtí %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>As feidhm</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Tarraing siar</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Tarraingthe siar</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Oscailte: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Dréacht, leagan %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Leagan foilsithe %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Easpórtáilte %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Níl aon dréacht agat den leathanach seo.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Tá an oiread nasc gníomhach ag an dréacht seo agus a cheadaítear. Tarraing ceann siar ar dtús.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Níl cead agat an nasc seo a tharraingt siar.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Cén fhormáid?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Cén nasc?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

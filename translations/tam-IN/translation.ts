@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>இந்தப் பக்கத்தில் தளவமைப்புத் தொகுதி இல்லை.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>ஏற்றுமதி</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>அச்சிடு அல்லது PDF ஆகச் சேமி</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>பக்கத்தை இப்போது உள்ளபடியே அச்சிடுகிறது. PDF பெற, அச்சு உரையாடலில் “PDF ஆகச் சேமி” என்பதைத் தேர்ந்தெடுக்கவும்.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>உள்ளடக்கம் மட்டும், தலைப்பு, மெனுக்கள் மற்றும் அடிக்குறிப்பு இல்லாமல்</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>இணைப்புகளுக்குப் பின் இணைப்பு முகவரிகள்</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>புலங்கள் கோப்பாக</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>மதிப்பாய்வுக்காக வரைவைப் பகிர்</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>இணைப்பு உள்ள எவரும் கணக்கு இல்லாமல் இணைப்பு காலாவதியாகும் வரை உங்கள் வரைவைப் பார்க்கலாம். உங்கள் மதிப்பாய்வாளர்களுக்கு மட்டுமே அனுப்பவும்.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>முதலில் ஒரு வரைவைச் சேமிக்கவும்: பகிர்வு இணைப்பு உங்கள் வரைவைக் காட்டும்.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>இந்த வரைவைப் பகிர உங்களுக்கு அனுமதி இல்லை.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>பகிர்வு இணைப்புகளுக்கு ரகசியச் சேமிப்பகத்துடன் Exponential 6.0.15 அல்லது அதற்குப் பிந்தையது தேவை.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>செயல்படும் காலம்</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>யாருக்காக (விருப்பத்தேர்வு)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>இணைப்பை உருவாக்கு</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>இணைப்பை நகலெடு</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>நகலெடுக்கப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>%time வரை செயல்படும்</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>காலாவதியானது</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>திரும்பப் பெறு</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>திரும்பப் பெறப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>திறக்கப்பட்டது: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>வரைவு, பதிப்பு %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>வெளியிடப்பட்ட பதிப்பு %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>ஏற்றுமதி செய்யப்பட்டது %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>இந்தப் பக்கத்தின் வரைவு உங்களிடம் இல்லை.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>இந்த வரைவில் அனுமதிக்கப்பட்ட அளவு செயலில் உள்ள இணைப்புகள் உள்ளன. முதலில் ஒன்றைத் திரும்பப் பெறவும்.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>இந்த இணைப்பைத் திரும்பப் பெற உங்களுக்கு அனுமதி இல்லை.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>எந்த வடிவம்?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>எந்த இணைப்பு?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

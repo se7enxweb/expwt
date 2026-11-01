@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Layout block aɖeke mele axa sia dzi o.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Ɖo do</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Ta alo dzra ɖo abe PDF ene</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Ewɔa axa la ƒe tata abe ale si wòle fifia ene. Be nàxɔ PDF, tia "Dzra ɖo abe PDF ene" le tata ƒe nuɖoɖoa me.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Emenyawo ɖeɖeko, tanyawo, menuwo kple afɔ manɔmee</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Kadodowo ƒe adrɛswo le kadodowo megbe</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Teƒewo abe faɛl ene</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Ma ŋɔŋlɔ gbãtɔ la be woalé ŋku ɖe eŋu</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Ame sia ame si si kadodoa le la kpɔa wò ŋɔŋlɔ gbãtɔ akɔnta manɔmee va se ɖe esime kadodoa ƒe ɣeyiɣi nawu enu. Ɖoe ɖe wò ŋkuléɖeŋutɔwo ɖeɖeko.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Dzra ŋɔŋlɔ gbãtɔ aɖe ɖo gbã: mamakadodo ɖea wò ŋɔŋlɔ gbãtɔ fiana.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Womeɖe mɔ na wò be nàma ŋɔŋlɔ gbãtɔ sia o.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Mamakadodowo hiã Exponential 6.0.15 alo esi yeye wu, kple adzamenudzraɖoƒea.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Ewɔa dɔ hena</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Ame ka ta (ne èdi)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Wɔ kadodo</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Kɔpi kadodo</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Wokɔpii.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Ewɔa dɔ va se ɖe %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Eƒe ɣeyiɣi wu enu</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Ɖe asi le eŋu</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Woɖe asi le eŋu</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Woʋui: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Ŋɔŋlɔ gbãtɔ, tɔtrɔ %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Tɔtrɔ si woɖe ɖe dutoƒo %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Woɖoe do %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Ŋɔŋlɔ gbãtɔ aɖeke mele asiwò na axa sia o.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Kadodo siwo le dɔ wɔm le ŋɔŋlɔ gbãtɔ sia ŋu sɔ gbɔ abe ale si woɖe mɔ ɖo ene. Ɖe asi le ɖeka ŋu gbã.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Womeɖe mɔ na wò be nàɖe asi le kadodo sia ŋu o.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Nɔnɔme kae?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Kadodo kae?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

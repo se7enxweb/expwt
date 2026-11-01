@@ -58,6 +58,14 @@ class expwtAccess
         // how the page was rendered (E12): the figures come in the page itself, this adds the server's time and what the
         // kernel collects; for admins and developers (expwt/performance)
         'performance.load' => array( 'performance', false, '', '', '' ),
+        // the page as a file (E13): its fields as Markdown or Word, of the published version or one's own draft; a POST,
+        // so it asks "Verify it's you" as the administration's exports do (REAUTH_GROUPS)
+        'export.fields'   => array( 'use', true, '', '', '' ),
+        // share links to one's draft for reviewers without an account (E13, the kernel's expContentPreviewLink): making
+        // one asks "Verify it's you" (export); the kernel checks content/versionread and content/edit
+        'share.load'      => array( 'edit', false, '', '', '' ),
+        'share.create'    => array( 'edit', true, '', '', '' ),
+        'share.revoke'    => array( 'edit', true, '', '', '' ),
         // the SEO check of the page (F26): read-only, for those who edit with the sidebar
         'seo.check'       => array( 'edit', false, '', '', '' ),
         // the page on the other sites and in its other languages (F27)
@@ -114,7 +122,7 @@ class expwtAccess
      * Actions that ask "Verify it's you" in a group of their own, whatever the administration's view asks: the real
      * send of a newsletter (E3). action => the group of site.ini [ReauthSettings] Groups[] (settings/site.ini.append.php).
      */
-    const REAUTH_GROUPS = array( 'newsletter.send' => 'newsletter' );
+    const REAUTH_GROUPS = array( 'newsletter.send' => 'newsletter', 'export.fields' => 'export', 'share.create' => 'export' );
 
     /** @return bool */
     public static function exists( $action )

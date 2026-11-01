@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>ਇਸ ਪੰਨੇ ਉੱਤੇ ਕੋਈ ਲੇਆਉਟ ਬਲਾਕ ਨਹੀਂ ਹੈ।</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>ਨਿਰਯਾਤ</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>ਪ੍ਰਿੰਟ ਕਰੋ ਜਾਂ PDF ਵਜੋਂ ਸੇਵ ਕਰੋ</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>ਪੰਨੇ ਨੂੰ ਜਿਵੇਂ ਉਹ ਹੁਣ ਹੈ ਉਵੇਂ ਪ੍ਰਿੰਟ ਕਰਦਾ ਹੈ। PDF ਲੈਣ ਲਈ ਪ੍ਰਿੰਟ ਡਾਇਲਾਗ ਵਿੱਚ "PDF ਵਜੋਂ ਸੇਵ ਕਰੋ" ਚੁਣੋ।</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>ਸਿਰਫ਼ ਸਮੱਗਰੀ, ਹੈਡਰ, ਮੀਨੂ ਅਤੇ ਫੁੱਟਰ ਤੋਂ ਬਿਨਾਂ</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>ਲਿੰਕਾਂ ਤੋਂ ਬਾਅਦ ਲਿੰਕ ਪਤੇ</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>ਖੇਤਰ ਫ਼ਾਈਲ ਵਜੋਂ</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>ਸਮੀਖਿਆ ਲਈ ਖਰੜਾ ਸਾਂਝਾ ਕਰੋ</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>ਲਿੰਕ ਵਾਲਾ ਕੋਈ ਵੀ ਵਿਅਕਤੀ ਲਿੰਕ ਦੀ ਮਿਆਦ ਖ਼ਤਮ ਹੋਣ ਤੱਕ ਖਾਤੇ ਤੋਂ ਬਿਨਾਂ ਤੁਹਾਡਾ ਖਰੜਾ ਦੇਖ ਸਕਦਾ ਹੈ। ਇਸਨੂੰ ਸਿਰਫ਼ ਆਪਣੇ ਸਮੀਖਿਅਕਾਂ ਨੂੰ ਭੇਜੋ।</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>ਪਹਿਲਾਂ ਇੱਕ ਖਰੜਾ ਸੇਵ ਕਰੋ: ਸਾਂਝਾ ਲਿੰਕ ਤੁਹਾਡਾ ਖਰੜਾ ਦਿਖਾਉਂਦਾ ਹੈ।</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>ਤੁਹਾਨੂੰ ਇਹ ਖਰੜਾ ਸਾਂਝਾ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਹੈ।</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>ਸਾਂਝੇ ਲਿੰਕਾਂ ਲਈ ਗੁਪਤ ਸਟੋਰ ਸਮੇਤ Exponential 6.0.15 ਜਾਂ ਨਵਾਂ ਸੰਸਕਰਣ ਲੋੜੀਂਦਾ ਹੈ।</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>ਕੰਮ ਕਰਨ ਦੀ ਮਿਆਦ</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>ਕਿਸ ਲਈ (ਵਿਕਲਪਿਕ)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>ਲਿੰਕ ਬਣਾਓ</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>ਲਿੰਕ ਕਾਪੀ ਕਰੋ</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>ਕਾਪੀ ਹੋ ਗਿਆ।</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>%time ਤੱਕ ਕੰਮ ਕਰਦਾ ਹੈ</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>ਮਿਆਦ ਖ਼ਤਮ</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>ਵਾਪਸ ਲਓ</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>ਵਾਪਸ ਲਿਆ ਗਿਆ</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>ਖੋਲ੍ਹਿਆ ਗਿਆ: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>ਖਰੜਾ, ਸੰਸਕਰਣ %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>ਪ੍ਰਕਾਸ਼ਿਤ ਸੰਸਕਰਣ %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>ਨਿਰਯਾਤ ਕੀਤਾ %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>ਤੁਹਾਡੇ ਕੋਲ ਇਸ ਪੰਨੇ ਦਾ ਕੋਈ ਖਰੜਾ ਨਹੀਂ ਹੈ।</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>ਇਸ ਖਰੜੇ ਦੇ ਇਜਾਜ਼ਤ ਜਿੰਨੇ ਸਰਗਰਮ ਲਿੰਕ ਹਨ। ਪਹਿਲਾਂ ਇੱਕ ਵਾਪਸ ਲਓ।</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>ਤੁਹਾਨੂੰ ਇਹ ਲਿੰਕ ਵਾਪਸ ਲੈਣ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਹੈ।</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>ਕਿਹੜਾ ਫਾਰਮੈਟ?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>ਕਿਹੜਾ ਲਿੰਕ?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

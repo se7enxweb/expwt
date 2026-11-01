@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>No hi ha cap bloc de disseny en aquesta pàgina.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Exportació</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Imprimeix o desa com a PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Imprimeix la pàgina tal com és ara. Per obtenir un PDF, tria «Desa com a PDF» al diàleg d'impressió.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Només el contingut, sense capçalera, menús ni peu</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Adreces dels enllaços després dels enllaços</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Camps com a fitxer</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Comparteix l'esborrany per revisar-lo</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Qualsevol persona amb l'enllaç veu el teu esborrany sense compte fins que l'enllaç caduqui. Envia'l només als teus revisors.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Desa primer un esborrany: un enllaç compartit mostra el teu esborrany.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>No pots compartir aquest esborrany.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Els enllaços compartits necessiten Exponential 6.0.15 o posterior, amb el magatzem de secrets.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Funciona durant</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Per a qui (opcional)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Crea l'enllaç</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Copia l'enllaç</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Copiat.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Funciona fins a %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Caducat</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Retira</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Retirat</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Obert: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Esborrany, versió %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Versió publicada %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Exportat %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>No tens cap esborrany d'aquesta pàgina.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Aquest esborrany té tants enllaços actius com es permeten. Retira'n un primer.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>No pots retirar aquest enllaç.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Quin format?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Quin enllaç?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>ამ გვერდზე განლაგების ბლოკი არ არის.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>ექსპორტი</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>ამობეჭდვა ან PDF-ად შენახვა</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>ბეჭდავს გვერდს ისე, როგორც ახლაა. PDF-ის მისაღებად ბეჭდვის დიალოგში აირჩიეთ „PDF-ად შენახვა“.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>მხოლოდ შიგთავსი, თავსართის, მენიუებისა და ქვედა კოლონტიტულის გარეშე</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>ბმულების მისამართები ბმულების შემდეგ</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>ველები ფაილად</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>მონახაზის გაზიარება განსახილველად</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>ბმულის მქონე ნებისმიერი ადამიანი ანგარიშის გარეშე ხედავს თქვენს მონახაზს, სანამ ბმულს ვადა არ გაუვა. გაუგზავნეთ ის მხოლოდ თქვენს რეცენზენტებს.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>ჯერ შეინახეთ მონახაზი: გაზიარების ბმული თქვენს მონახაზს აჩვენებს.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>თქვენ არ შეგიძლიათ ამ მონახაზის გაზიარება.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>გაზიარების ბმულებს სჭირდება Exponential 6.0.15 ან უფრო ახალი, საიდუმლოებების საცავით.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>მოქმედების ვადა</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>ვისთვის (არასავალდებულო)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>ბმულის შექმნა</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>ბმულის კოპირება</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>დაკოპირდა.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>მოქმედებს %time-მდე</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>ვადაგასულია</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>გაუქმება</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>გაუქმებულია</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>გახსნილია: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>მონახაზი, ვერსია %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>გამოქვეყნებული ვერსია %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>ექსპორტირებულია %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>ამ გვერდის მონახაზი არ გაქვთ.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>ამ მონახაზს უკვე აქვს დაშვებული რაოდენობის მოქმედი ბმული. ჯერ ერთი გააუქმეთ.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>თქვენ არ შეგიძლიათ ამ ბმულის გაუქმება.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>რომელი ფორმატი?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>რომელი ბმული?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

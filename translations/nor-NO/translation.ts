@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Ingen layoutblokk på denne siden.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Eksport</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Skriv ut eller lagre som PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Skriver ut siden slik den er nå. For å få en PDF velger du «Lagre som PDF» i utskriftsdialogen.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Bare innholdet, uten topptekst, menyer og bunntekst</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Lenkeadresser etter lenkene</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Felt som fil</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Del utkastet for gjennomgang</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Alle som har lenken, ser utkastet ditt uten konto til lenken utløper. Send den bare til dem som skal gå gjennom det.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Lagre et utkast først: en delingslenke viser utkastet ditt.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Du har ikke lov til å dele dette utkastet.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Delingslenker krever Exponential 6.0.15 eller nyere, med hemmelighetslageret.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Virker i</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>For hvem (valgfritt)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Opprett lenke</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Kopier lenke</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Kopiert.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Virker til %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Utløpt</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Trekk tilbake</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Trukket tilbake</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Åpnet: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Utkast, versjon %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Publisert versjon %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Eksportert %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Du har ikke noe utkast av denne siden.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Dette utkastet har så mange aktive lenker som tillatt. Trekk tilbake én først.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Du har ikke lov til å trekke tilbake denne lenken.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Hvilket format?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Hvilken lenke?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

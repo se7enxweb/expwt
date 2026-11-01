@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>ह्या पानार खंयचोच लेआउट ब्लॉक ना.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>निर्यात</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>छापात वा PDF म्हूण सांबाळात</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>पान आतां आसा तशें छापता. PDF मेळोवंक, छपाय संवादांत "PDF म्हूण सांबाळात" वेंचात.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>फकत आशय, शीर्षलेख, मेनू आनी तळटीप बगर</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>दुव्यां उपरांत दुव्यांचे पत्ते</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>फील्डां फायल म्हूण</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>पुनरावलोकनाखातीर मसुदो वांटात</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>दुवो आशिल्लो कोणूय खातें नासतना दुव्याची मुदत सोंपसर तुमचो मसुदो पळोवंक शकता. तो फकत तुमच्या पुनरावलोककांक धाडात.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>पयलीं मसुदो सांबाळात: वांटपाचो दुवो तुमचो मसुदो दाखयता.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>तुमकां हो मसुदो वांटपाची परवानगी ना.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>वांटपाच्या दुव्यांक गुपीत भांडारा सयत Exponential 6.0.15 वा ताचे उपरांतची आवृत्ती जाय.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>चलता इतलो वेळ</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>कोणाखातीर (पर्यायी)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>दुवो तयार करात</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>दुवो प्रत करात</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>प्रत केलो.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>%time मेरेन चलता</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>मुदत सोंपल्या</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>परत घेयात</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>परत घेतला</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>उगडलो: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>मसुदो, आवृत्ती %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>प्रकाशीत आवृत्ती %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>निर्यात केलें %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>तुमचे कडेन ह्या पानाचो मसुदो ना.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>ह्या मसुद्याक परवानगी आशिल्ले इतले चालू दुवे आसात. पयलीं एक परत घेयात.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>तुमकां हो दुवो परत घेवपाची परवानगी ना.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>खंयचो स्वरूप?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>खंयचो दुवो?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>このページにはレイアウトブロックがありません。</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>エクスポート</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>印刷または PDF として保存</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>現在の状態のページを印刷します。PDF を作成するには、印刷ダイアログで「PDF に保存」を選択してください。</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>コンテンツのみ（ヘッダー、メニュー、フッターなし）</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>リンクの後にリンク先アドレスを表示</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>フィールドをファイルで</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>レビュー用に下書きを共有</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>リンクを知っている人は誰でも、リンクの有効期限が切れるまでアカウントなしであなたの下書きを閲覧できます。レビュー担当者にのみ送信してください。</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>まず下書きを保存してください：共有リンクはあなたの下書きを表示します。</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>この下書きを共有する権限がありません。</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>共有リンクには、シークレットストアを備えた Exponential 6.0.15 以降が必要です。</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>有効期間</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>共有相手（任意）</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>リンクを作成</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>リンクをコピー</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>コピーしました。</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>%time まで有効</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>期限切れ</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>取り消す</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>取り消し済み</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>開かれた回数：%count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>下書き、バージョン %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>公開バージョン %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>%time にエクスポート</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>このページの下書きはありません。</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>この下書きには許可された数の有効なリンクがすでにあります。先に 1 つ取り消してください。</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>このリンクを取り消す権限がありません。</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>どの形式にしますか？</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>どのリンクですか？</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

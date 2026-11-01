@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>ఈ పేజీలో లేఅవుట్ బ్లాక్ ఏదీ లేదు.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>ఎగుమతి</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>ముద్రించండి లేదా PDFగా సేవ్ చేయండి</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>పేజీని ఇప్పుడు ఉన్నట్లుగానే ముద్రిస్తుంది. PDF పొందడానికి, ముద్రణ డైలాగ్‌లో “PDFగా సేవ్ చేయి” ఎంచుకోండి.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>కంటెంట్ మాత్రమే, హెడర్, మెనూలు మరియు ఫుటర్ లేకుండా</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>లింక్‌ల తర్వాత లింక్ చిరునామాలు</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>ఫీల్డ్‌లు ఫైల్‌గా</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>సమీక్ష కోసం డ్రాఫ్ట్‌ను షేర్ చేయండి</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>లింక్ ఉన్న ఎవరైనా ఖాతా లేకుండానే లింక్ గడువు ముగిసే వరకు మీ డ్రాఫ్ట్‌ను చూడగలరు. దీన్ని మీ సమీక్షకులకు మాత్రమే పంపండి.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>ముందుగా డ్రాఫ్ట్‌ను సేవ్ చేయండి: షేర్ లింక్ మీ డ్రాఫ్ట్‌ను చూపుతుంది.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>ఈ డ్రాఫ్ట్‌ను షేర్ చేయడానికి మీకు అనుమతి లేదు.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>షేర్ లింక్‌లకు రహస్యాల నిల్వతో Exponential 6.0.15 లేదా తర్వాతిది అవసరం.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>పనిచేసే వ్యవధి</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>ఎవరి కోసం (ఐచ్ఛికం)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>లింక్ సృష్టించండి</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>లింక్ కాపీ చేయండి</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>కాపీ చేయబడింది.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>%time వరకు పనిచేస్తుంది</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>గడువు ముగిసింది</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>ఉపసంహరించండి</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>ఉపసంహరించబడింది</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>తెరవబడింది: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>డ్రాఫ్ట్, వెర్షన్ %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>ప్రచురించబడిన వెర్షన్ %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>ఎగుమతి చేయబడింది %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>ఈ పేజీకి మీ డ్రాఫ్ట్ లేదు.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>ఈ డ్రాఫ్ట్‌కు అనుమతించినన్ని పనిచేసే లింక్‌లు ఉన్నాయి. ముందుగా ఒకదాన్ని ఉపసంహరించండి.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>ఈ లింక్‌ను ఉపసంహరించడానికి మీకు అనుమతి లేదు.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>ఏ ఫార్మాట్?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>ఏ లింక్?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

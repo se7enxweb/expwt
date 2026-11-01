@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>اس صفحے پر کوئی لے آؤٹ بلاک نہیں ہے۔</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>برآمد</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>پرنٹ کریں یا PDF کے بطور محفوظ کریں</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>صفحے کو اسی طرح پرنٹ کرتا ہے جیسا وہ اس وقت ہے۔ PDF حاصل کرنے کے لیے پرنٹ ڈائیلاگ میں ”PDF کے بطور محفوظ کریں“ منتخب کریں۔</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>صرف مواد، ہیڈر، مینیوز اور فوٹر کے بغیر</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>لنکس کے بعد لنک کے پتے</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>فیلڈز بطور فائل</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>جائزے کے لیے مسودہ شیئر کریں</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>لنک رکھنے والا کوئی بھی شخص اکاؤنٹ کے بغیر آپ کا مسودہ دیکھ سکتا ہے جب تک لنک کی میعاد ختم نہ ہو۔ اسے صرف اپنے جائزہ کاروں کو بھیجیں۔</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>پہلے مسودہ محفوظ کریں: شیئر لنک آپ کا مسودہ دکھاتا ہے۔</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>آپ کو یہ مسودہ شیئر کرنے کی اجازت نہیں۔</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>شیئر لنکس کے لیے خفیہ اسٹور کے ساتھ Exponential 6.0.15 یا بعد کا ورژن درکار ہے۔</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>کارآمد مدت</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>کس کے لیے (اختیاری)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>لنک بنائیں</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>لنک کاپی کریں</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>کاپی ہو گیا۔</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>%time تک کارآمد</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>میعاد ختم</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>واپس لیں</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>واپس لیا گیا</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>کھولا گیا: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>مسودہ، ورژن %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>شائع شدہ ورژن %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>برآمد کیا گیا %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>آپ کے پاس اس صفحے کا کوئی مسودہ نہیں۔</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>اس مسودے کے اتنے فعال لنکس ہیں جتنے کی اجازت ہے۔ پہلے ایک واپس لیں۔</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>آپ کو یہ لنک واپس لینے کی اجازت نہیں۔</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>کون سا فارمیٹ؟</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>کون سا لنک؟</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

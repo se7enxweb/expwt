@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>ʻOku ʻikai ha poloka fokotuʻutuʻu ʻi he peesi ko ʻeni.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Hiki atu</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Paaki pe tauhi ko e PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>ʻOku ne paaki ʻa e peesí ʻo hangē ko ia ʻoku ʻi ai he taimí ni. Ke maʻu ha PDF, fili ʻa e “Tauhi ko e PDF” ʻi he puha paakí.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Ko e kakanó pē, ʻikai ha ʻulu, ngaahi lisi mo e lalo</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Ngaahi tuʻasila ʻo e fehokotaki hili ʻa e ngaahi fehokotakí</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Ngaahi fēlti ko ha faile</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Vahevahe ʻa e tohi fakataimí ke vakaiʻi</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Ko ha taha pē ʻoku ʻi ai ʻa e fehokotakí ʻoku ne sio ki hoʻo tohi fakataimí taʻe ha ʻakauni kae ʻoua kuo ngata ʻa e fehokotakí. Fekauʻi pē ki hoʻo kau vakaiʻí.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Tauhi ʻuluaki ha tohi fakataimi: ʻoku fakahaaʻi ʻe ha fehokotaki vahevahe ʻa hoʻo tohi fakataimí.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>ʻOku ʻikai ke ke ngofua ʻo vahevahe ʻa e tohi fakataimí ni.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>ʻOku fiemaʻu ʻe he ngaahi fehokotaki vahevahé ʻa Exponential 6.0.15 pe hoko mai, mo e tukuʻanga fakapulipuli.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>ʻAonga ki he</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Maʻa hai (fili pē)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Faʻu fehokotaki</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Hiki tatau ʻa e fehokotaki</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Kuo hiki tatau.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>ʻAonga ki he %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Kuo ngata</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Toʻo</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Kuo toʻo</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Kuo fakaava: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Tohi fakataimi, veesiona %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Veesiona kuo pulusi %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Kuo hiki atu %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>ʻOku ʻikai haʻo tohi fakataimi ʻo e peesí ni.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>ʻOku ʻi he tohi fakataimí ni ʻa e lahi taha ʻo e ngaahi fehokotaki ngāue ʻoku ngofua. Toʻo ʻuluaki ha taha.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>ʻOku ʻikai ke ke ngofua ʻo toʻo ʻa e fehokotakí ni.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Ko e fōmati fē?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Ko e fehokotaki fē?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Alaa layout block e ngoo hello.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Yaltin</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Winndu walla danndu no PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Ɗum winndat hello ngo no ngon jooni. Ngam heɓde PDF, suɓo "Danndu no PDF" e kaaldigal winndugol ngal.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Loowdi tan, tawa alaa hoore, cuɓe e lekkol</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Ñiiɓirde jokkorde ɓaawo jokkorde ɗe</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Ɗiɗi no fiilde</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Lollin daartol ngol ngam ƴeewndaade</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Kala mo jogii jokkorde nde yiyat daartol maa tawa alaa konte, haa jokkorde nde gasa. Neldu nde tan e ƴeewnooɓe maa.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Danndu daartol adan: jokkorde lollingol ina hollira daartol maa.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>A yamiraaka lollinde daartol ngol.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Jokkorde lollingol ina njiɗi Exponential 6.0.15 walla ɓurɗo hesɗude, e ndesgu sirruuji.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Ina golla ngam</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Ngam moy (suɓotoondi)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Sos jokkorde</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Natto jokkorde</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Nattaama.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Ina golla haa %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Gasii</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Ittu</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Ittaama</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Udditaama: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Daartol, yamre %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Yamre yaltinaande %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Yaltinaama %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>A alaa daartol hello ngo.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Daartol ngol ina jogii jokkorde gollooje no yamiraa nii. Ittu gooto adan.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>A yamiraaka ittude jokkorde nde.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Mbaydi honde?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Jokkorde honde?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

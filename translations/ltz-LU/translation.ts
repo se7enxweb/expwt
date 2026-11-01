@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Kee Layout-Block op dëser Säit.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Export</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Drécken oder als PDF späicheren</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Dréckt d'Säit esou, wéi se elo ass. Fir e PDF ze kréien, wielt am Drockdialog „Als PDF späicheren“.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Nëmmen den Inhalt, ouni Kappzeil, Menüen a Fousszeil</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Linkadressen no de Linken</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Felder als Fichier</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Den Entworf fir d'Iwwerpréiwung deelen</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Jiddereen mam Link gesäit Ären Entworf ouni Kont, bis de Link ofleeft. Schéckt en nëmmen un Är Iwwerpréiwer.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Späichert fir d'éischt en Entworf: en Deelungslink weist Ären Entworf.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Dir däerft dësen Entworf net deelen.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Deelungslinke brauchen Exponential 6.0.15 oder méi nei, mam Geheimnisspäicher.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Gëlteg fir</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Fir wien (fakultativ)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Link erstellen</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Link kopéieren</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Kopéiert.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Gëlteg bis %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Ofgelaf</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Zréckzéien</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Zréckgezunn</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Opgemaach: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Entworf, Versioun %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Publizéiert Versioun %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Exportéiert %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Dir hutt keen Entworf vun dëser Säit.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Dësen Entworf huet schonn esou vill aktiv Linken, wéi erlaabt. Zitt fir d'éischt een zréck.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Dir däerft dëse Link net zréckzéien.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Wéi ee Format?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Wéi ee Link?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

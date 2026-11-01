@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Inget layoutblock på den här sidan.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Exportera</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Skriv ut eller spara som PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Skriver ut sidan som den ser ut nu. Välj ”Spara som PDF” i utskriftsdialogen för att få en PDF.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Bara innehållet, utan sidhuvud, menyer och sidfot</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Länkadresser efter länkarna</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Fält som fil</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Dela utkastet för granskning</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Alla som har länken ser ditt utkast utan konto tills länken slutar gälla. Skicka den bara till dina granskare.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Spara ett utkast först: en delningslänk visar ditt utkast.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Du får inte dela det här utkastet.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Delningslänkar kräver Exponential 6.0.15 eller senare, med hemlighetslagret.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Gäller i</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>För vem (valfritt)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Skapa länk</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Kopiera länk</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Kopierad.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Gäller till %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Har gått ut</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Dra tillbaka</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Tillbakadragen</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Öppnad: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Utkast, version %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Publicerad version %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Exporterad %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Du har inget utkast av den här sidan.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Det här utkastet har så många aktiva länkar som tillåts. Dra tillbaka en först.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Du får inte dra tillbaka den här länken.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Vilket format?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Vilken länk?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

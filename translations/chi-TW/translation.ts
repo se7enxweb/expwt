@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>此頁面沒有版面區塊。</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>匯出</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>列印或另存為 PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>依頁面目前的樣子列印。若要取得 PDF，請在列印對話方塊中選擇「另存為 PDF」。</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>僅內容，不含頁首、選單和頁尾</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>在連結後顯示連結網址</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>欄位匯出為檔案</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>分享草稿以供審閱</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>任何擁有此連結的人在連結過期前無需帳號即可看到你的草稿。請只傳給你的審閱者。</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>請先儲存草稿：分享連結顯示的是你的草稿。</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>你無權分享此草稿。</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>分享連結需要 Exponential 6.0.15 或更新版本，並具備密鑰儲存區。</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>有效期限</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>給誰（選填）</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>建立連結</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>複製連結</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>已複製。</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>有效至 %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>已過期</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>撤回</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>已撤回</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>開啟次數：%count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>草稿，版本 %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>已發佈版本 %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>匯出於 %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>你沒有此頁面的草稿。</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>此草稿的有效連結已達上限。請先撤回一個。</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>你無權撤回此連結。</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>哪種格式？</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>哪個連結？</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

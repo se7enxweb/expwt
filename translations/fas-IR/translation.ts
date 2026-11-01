@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>هیچ بلوک چیدمانی در این صفحه نیست.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>برون‌بری</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>چاپ یا ذخیره به‌صورت PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>صفحه را همان‌طور که اکنون هست چاپ می‌کند. برای دریافت PDF، در پنجرهٔ چاپ «ذخیره به‌صورت PDF» را برگزینید.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>فقط محتوا، بدون سرصفحه، منوها و پاصفحه</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>نشانی پیوندها پس از پیوندها</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>فیلدها به‌صورت پرونده</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>هم‌رسانی پیش‌نویس برای بازبینی</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>هر کسی که پیوند را دارد، بدون حساب کاربری پیش‌نویس شما را تا پایان اعتبار پیوند می‌بیند. آن را فقط برای بازبین‌های خود بفرستید.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>ابتدا یک پیش‌نویس ذخیره کنید: پیوند هم‌رسانی پیش‌نویس شما را نشان می‌دهد.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>شما اجازهٔ هم‌رسانی این پیش‌نویس را ندارید.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>پیوندهای هم‌رسانی به Exponential 6.0.15 یا جدیدتر، همراه با مخزن رازها، نیاز دارند.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>اعتبار به مدت</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>برای چه کسی (اختیاری)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>ایجاد پیوند</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>رونوشت پیوند</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>رونوشت شد.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>معتبر تا %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>منقضی‌شده</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>لغو</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>لغوشده</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>بازشده: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>پیش‌نویس، نگارش %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>نگارش منتشرشدهٔ %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>برون‌بری‌شده %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>شما پیش‌نویسی از این صفحه ندارید.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>این پیش‌نویس به اندازهٔ مجاز پیوند فعال دارد. ابتدا یکی را لغو کنید.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>شما اجازهٔ لغو این پیوند را ندارید.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>کدام قالب؟</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>کدام پیوند؟</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

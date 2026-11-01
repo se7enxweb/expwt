@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Ii oktage hábmenblohkka dán siiddus.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Olggosfievrrideapmi</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Čálit dahje vurke PDF:in</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Čáliha siiddu nugo dat lea dál. PDF oažžuma várás vállje «Vurke PDF:in» čálihanláses.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Dušše sisdoallu, almmá oaivegeaži, fálaldagaid ja vuolleriikka haga</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Liŋkačujuhusat liŋkkaid maŋŋá</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Gieddeguovllut fiilan</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Juogát luonosa geahčadeapmái</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Juohkehaš geas lea liŋka oaidná du luonosa almmá kontu haga dassážii go liŋka nohká. Sádde dan dušše iežat geahčadeddjiide.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Vurke vuos luonosa: juohkinliŋka čájeha du luonosa.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Don it oaččo juogadit dán luonosa.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Juohkinliŋkkat gáibidit Exponential 6.0.15 dahje ođđasut, čiegusvurkkiin.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Doaibmá</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Geasa (eaktodáhtolaš)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Ráhkat liŋkka</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Máŋge liŋkka</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Máŋgejuvvon.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Doaibmá %time rádjái</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Nohkan</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Geassit ruovttoluotta</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Gessojuvvon ruovttoluotta</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Rahpojuvvon: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Luonos, veršuvdna %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Almmuhuvvon veršuvdna %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Olggosfievrriduvvon %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Dus ii leat luonos dán siiddus.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Dán luonosis leat juo nu ollu doaibmi liŋkkat go lea lohpi. Gease vuos ovtta ruovttoluotta.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Don it oaččo geassit dán liŋkka ruovttoluotta.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Makkár formáhtta?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Guhte liŋka?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

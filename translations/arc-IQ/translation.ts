@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>לית פלגותא דסדורא בדפא הנא.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>אפקא</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>טבע או נטר איך PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>טבע לפתורא איך דאיתיה השא. למסב PDF, גבי «נטר איך PDF» בכוותא דטבעא.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>תוכנא בלחוד, דלא רישא, תפריטא ושולא</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>מואני דקשרא בתר קשרא</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>שדא איך פתקא</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>שותף לסורטא לבחינא</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>כל מן דאית לה קשרא חזא לסורטא דילך דלא חושבנא עדמא דקשרא נשלם. שדר לה לבחוני דילך בלחוד.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>נטר סורטא לקדמין: קשרא דשותפותא מחוא לסורטא דילך.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>לא שליט לך לשותפא לסורטא הנא.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>קשרא דשותפותא סניקין לExponential 6.0.15 או בתרה, עם אוצרא דרזא.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>עבד למשחתא</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>למנו (צביונאית)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>ברי קשרא</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>פסוק קשרא</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>אתפסק.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>עבד עדמא ל%time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>שלם זבנה</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>שקול</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>אשתקל</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>אתפתח: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>סורטא, נוסחא %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>נוסחא פריסא %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>אתפק %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>לית לך סורטא דפתורא הנא.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>לסורטא הנא אית קשרא עבדין כמא דשליט. שקול חד לקדמין.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>לא שליט לך למשקל קשרא הנא.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>איזא צורתא?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>איזא קשרא?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

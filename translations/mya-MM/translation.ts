@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>ဤစာမျက်နှာတွင် layout ဘလောက် မရှိပါ။</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>ထုတ်ယူရန်</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>ပရင့်ထုတ်ရန် သို့မဟုတ် PDF အဖြစ် သိမ်းရန်</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>စာမျက်နှာကို လက်ရှိအတိုင်း ပရင့်ထုတ်သည်။ PDF ရယူရန် ပရင့်ဒိုင်ယာလော့ဂ်တွင် "PDF အဖြစ် သိမ်းဆည်းရန်" ကို ရွေးပါ။</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>အကြောင်းအရာသာ၊ ခေါင်းစီး၊ မီနူးနှင့် အောက်ခြေမပါ</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>လင့်ခ်များနောက်တွင် လင့်ခ်လိပ်စာများ</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>အကွက်များကို ဖိုင်အဖြစ်</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>မူကြမ်းကို စစ်ဆေးရန် မျှဝေရန်</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>လင့်ခ်ရှိသူမည်သူမဆို လင့်ခ်သက်တမ်းကုန်သည်အထိ အကောင့်မလိုဘဲ သင့်မူကြမ်းကို မြင်နိုင်သည်။ သင့်စစ်ဆေးသူများထံသာ ပို့ပါ။</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>ဦးစွာ မူကြမ်းတစ်ခု သိမ်းပါ- မျှဝေလင့်ခ်သည် သင့်မူကြမ်းကို ပြသည်။</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>ဤမူကြမ်းကို သင် မျှဝေခွင့်မရှိပါ။</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>မျှဝေလင့်ခ်များအတွက် လျှို့ဝှက်သိုလှောင်ရာပါသော Exponential 6.0.15 သို့မဟုတ် နောက်ပိုင်းဗားရှင်း လိုအပ်သည်။</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>အလုပ်လုပ်မည့်ကာလ</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>မည်သူ့အတွက် (ရွေးချယ်နိုင်)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>လင့်ခ် ဖန်တီးရန်</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>လင့်ခ် ကူးရန်</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>ကူးပြီး။</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>%time အထိ အလုပ်လုပ်သည်</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>သက်တမ်းကုန်</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>ရုပ်သိမ်းရန်</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>ရုပ်သိမ်းပြီး</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>ဖွင့်ခဲ့သည်- %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>မူကြမ်း၊ ဗားရှင်း %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>ထုတ်ဝေပြီး ဗားရှင်း %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>ထုတ်ယူခဲ့သည် %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>ဤစာမျက်နှာ၏ မူကြမ်း သင့်တွင် မရှိပါ။</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>ဤမူကြမ်းတွင် ခွင့်ပြုထားသလောက် အလုပ်လုပ်သော လင့်ခ်များ ရှိပြီးဖြစ်သည်။ ဦးစွာ တစ်ခုကို ရုပ်သိမ်းပါ။</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>ဤလင့်ခ်ကို သင် ရုပ်သိမ်းခွင့်မရှိပါ။</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>မည်သည့်ဖော်မတ်နည်း။</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>မည်သည့်လင့်ခ်နည်း။</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

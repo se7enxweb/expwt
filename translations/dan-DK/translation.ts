@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Ingen layoutblok på denne side.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Eksport</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Udskriv eller gem som PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Udskriver siden, som den er nu. For at få en PDF skal du vælge “Gem som PDF” i udskrivningsdialogen.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Kun indholdet, uden sidehoved, menuer og sidefod</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Linkadresser efter linkene</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Felter som fil</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Del udkastet til gennemsyn</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Alle med linket kan se dit udkast uden en konto, indtil linket udløber. Send det kun til dine korrekturlæsere.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Gem et udkast først: et delingslink viser dit udkast.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Du må ikke dele dette udkast.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Delingslinks kræver Exponential 6.0.15 eller nyere med hemmelighedslageret.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Gælder i</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Til hvem (valgfrit)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Opret link</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Kopiér link</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Kopieret.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Gælder til %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Udløbet</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Træk tilbage</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Trukket tilbage</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Åbnet: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Udkast, version %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Udgivet version %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Eksporteret %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Du har intet udkast til denne side.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Dette udkast har så mange aktive links, som det er tilladt. Træk et tilbage først.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Du må ikke trække dette link tilbage.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Hvilket format?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Hvilket link?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

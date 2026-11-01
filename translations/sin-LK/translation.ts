@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>මෙම පිටුවේ පිරිසැලසුම් කොටසක් නැත.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>අපනයනය</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>මුද්‍රණය කරන්න හෝ PDF ලෙස සුරකින්න</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>පිටුව දැන් පවතින ආකාරයටම මුද්‍රණය කරයි. PDF එකක් ලබා ගැනීමට, මුද්‍රණ සංවාදයේ "PDF ලෙස සුරකින්න" තෝරන්න.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>අන්තර්ගතය පමණි, ශීර්ෂකය, මෙනු සහ පාදකය නොමැතිව</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>සබැඳිවලට පසුව සබැඳි ලිපින</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>ක්ෂේත්‍ර ගොනුවක් ලෙස</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>සමාලෝචනය සඳහා කෙටුම්පත බෙදා ගන්න</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>සබැඳිය ඇති ඕනෑම අයෙකුට සබැඳිය කල් ඉකුත් වන තුරු ගිණුමක් නොමැතිව ඔබේ කෙටුම්පත දැකිය හැක. එය ඔබේ සමාලෝචකයින්ට පමණක් යවන්න.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>පළමුව කෙටුම්පතක් සුරකින්න: බෙදාගැනීමේ සබැඳියක් ඔබේ කෙටුම්පත පෙන්වයි.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>මෙම කෙටුම්පත බෙදා ගැනීමට ඔබට අවසර නැත.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>බෙදාගැනීමේ සබැඳි සඳහා රහස් ගබඩාව සමඟ Exponential 6.0.15 හෝ නවතම අනුවාදයක් අවශ්‍ය වේ.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>ක්‍රියා කරන කාලය</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>කා සඳහාද (විකල්ප)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>සබැඳිය සාදන්න</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>සබැඳිය පිටපත් කරන්න</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>පිටපත් කළා.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>%time දක්වා ක්‍රියා කරයි</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>කල් ඉකුත් විය</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>ඉවත් කර ගන්න</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>ඉවත් කර ගන්නා ලදී</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>විවෘත කළ වාර: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>කෙටුම්පත, අනුවාදය %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>ප්‍රකාශිත අනුවාදය %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>අපනයනය කළේ %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>ඔබට මෙම පිටුවේ කෙටුම්පතක් නැත.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>මෙම කෙටුම්පතට ඉඩ දී ඇති තරම් ක්‍රියාකාරී සබැඳි ඇත. පළමුව එකක් ඉවත් කර ගන්න.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>මෙම සබැඳිය ඉවත් කර ගැනීමට ඔබට අවසර නැත.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>කුමන ආකෘතියද?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>කුමන සබැඳියද?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

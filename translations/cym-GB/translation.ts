@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Dim bloc cynllun ar y dudalen hon.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Allforio</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Argraffu neu gadw fel PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Yn argraffu'r dudalen fel y mae nawr. I gael PDF, dewiswch “Cadw fel PDF” yn y blwch argraffu.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Y cynnwys yn unig, heb bennyn, dewislenni na throedyn</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Cyfeiriadau'r dolenni ar ôl y dolenni</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Meysydd fel ffeil</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Rhannu'r drafft i'w adolygu</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Mae unrhyw un sydd â'r ddolen yn gweld eich drafft heb gyfrif nes i'r ddolen ddod i ben. Anfonwch hi at eich adolygwyr yn unig.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Cadwch ddrafft yn gyntaf: mae dolen rannu yn dangos eich drafft.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Ni chewch rannu'r drafft hwn.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Mae dolenni rhannu angen Exponential 6.0.15 neu'n ddiweddarach, gyda'r storfa gyfrinachau.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Yn gweithio am</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>I bwy (dewisol)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Creu dolen</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Copïo'r ddolen</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Wedi'i chopïo.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Yn gweithio tan %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Wedi dod i ben</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Tynnu'n ôl</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Wedi'i thynnu'n ôl</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Wedi'i hagor: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Drafft, fersiwn %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Fersiwn wedi'i chyhoeddi %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Wedi'i allforio %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Does gennych chi ddim drafft o'r dudalen hon.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Mae gan y drafft hwn gymaint o ddolenni gweithredol ag a ganiateir. Tynnwch un yn ôl yn gyntaf.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Ni chewch dynnu'r ddolen hon yn ôl.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Pa fformat?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Pa ddolen?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

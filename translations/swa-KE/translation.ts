@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Hakuna kizuizi cha mpangilio kwenye ukurasa huu.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Hamisha</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Chapisha au hifadhi kama PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Huchapisha ukurasa jinsi ulivyo sasa. Ili kupata PDF, chagua “Hifadhi kama PDF” kwenye kidirisha cha kuchapisha.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Maudhui tu, bila kichwa, menyu na kijachini</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Anwani za viungo baada ya viungo</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Sehemu kama faili</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Shiriki rasimu kwa ukaguzi</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Mtu yeyote mwenye kiungo anaona rasimu yako bila akaunti hadi muda wa kiungo uishe. Kitume kwa wakaguzi wako tu.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Hifadhi rasimu kwanza: kiungo cha kushiriki kinaonyesha rasimu yako.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Huruhusiwi kushiriki rasimu hii.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Viungo vya kushiriki vinahitaji Exponential 6.0.15 au mpya zaidi, pamoja na hifadhi ya siri.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Kinafanya kazi kwa</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Kwa ajili ya nani (si lazima)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Unda kiungo</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Nakili kiungo</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Kimenakiliwa.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Kinafanya kazi hadi %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Muda umeisha</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Ondoa</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Kimeondolewa</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Kimefunguliwa: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Rasimu, toleo %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Toleo lililochapishwa %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Imehamishwa %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Huna rasimu ya ukurasa huu.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Rasimu hii ina viungo hai vingi kadiri inavyoruhusiwa. Ondoa kimoja kwanza.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Huruhusiwi kuondoa kiungo hiki.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Muundo upi?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Kiungo kipi?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

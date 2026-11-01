@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>No layout block dey dis page.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Export</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Print am or save am as PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>E go print di page as e be now. To get PDF, choose "Save as PDF" for di print dialog.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Na only di content, without header, menu and footer</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Link address after di links</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Fields as file</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Share di draft make dem review am</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Anybody wey get di link go see your draft without account until di link expire. Send am only to di people wey go review am.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Save draft first: share link dey show your draft.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>You no fit share dis draft.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Share link need Exponential 6.0.15 or di one wey come after, with di secret store.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>E go work for</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>For who (no be must)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Create link</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Copy link</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>E don copy.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>E go work reach %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>E don expire</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Withdraw am</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Dem don withdraw am</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Dem don open am: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Draft, version %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Version wey don publish %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Dem export am %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>You no get draft of dis page.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Dis draft don get all di working links wey dem allow. Withdraw one first.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>You no fit withdraw dis link.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Which format?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Which link?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

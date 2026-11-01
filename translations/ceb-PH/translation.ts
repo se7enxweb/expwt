@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Walay layout block niini nga panid.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>I-export</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>I-print o i-save isip PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Gi-print ang panid sama sa iyang hitsura karon. Aron makakuha og PDF, pilia ang “Save as PDF” sa print dialog.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Ang sulod lamang, walay header, menu ug footer</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Mga address sa link human sa mga link</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Mga field isip file</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Ipaambit ang draft para sa pagrepaso</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Bisan kinsa nga adunay link makakita sa imong draft bisan walay account hangtod ma-expire ang link. Ipadala lang kini sa imong mga tigrepaso.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>I-save una ang usa ka draft: ang share link nagpakita sa imong draft.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Dili ka tugotan nga ipaambit kini nga draft.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Ang mga share link nagkinahanglan og Exponential 6.0.15 o mas bag-o, uban ang secret store.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Molihok sulod sa</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Para kang kinsa (opsyonal)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Paghimo og link</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Kopyaha ang link</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Nakopya na.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Molihok hangtod %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Na-expire na</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Bawia</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Gibawi na</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Naablihan: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Draft, bersyon %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Napatik nga bersyon %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Na-export %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Wala kay draft niini nga panid.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Kini nga draft adunay pinakadaghang aktibong link nga gitugot. Bawia una ang usa.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Dili ka tugotan nga bawion kini nga link.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Unsang format?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Unsang link?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Layout block biara nni krataafa yi so.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Export</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Print anaa sie no sɛ PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Ɛprint krataafa no sɛnea ɛte seesei. Sɛ wopɛ PDF a, paw “Save as PDF” wɔ print dialog no mu.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Content no nko ara, a header, menus ne footer nni mu</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Link address wɔ links no akyi</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Fields sɛ file</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Kyɛ draft no ma nhwehwɛmu</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Obiara a ɔwɔ link no hu wo draft no a account nhia kosi sɛ link no bere bɛtwa. Fa kɔma wo reviewers nko ara.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Sie draft kan: share link kyerɛ wo draft.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Wontumi nkyɛ draft yi.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Share links hia Exponential 6.0.15 anaa nea ɛba akyi, ne secret store no.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Ɛyɛ adwuma kosi</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Ma hwan (wopɛ a)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Yɛ link</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Copy link</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Wɔacopy.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Ɛyɛ adwuma kosi %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Ne bere atwa</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Twe san</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Wɔatwe asan</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Wɔabue: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Draft, version %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Version a wɔatintim %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Wɔaexport %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Wonni krataafa yi draft biara.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Draft yi wɔ links a ɛyɛ adwuma dodow a wɔma kwan. Twe baako san kan.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Wontumi ntwe link yi nsan.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Format bɛn?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Link bɛn?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

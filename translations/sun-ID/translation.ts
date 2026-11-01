@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Teu aya blok tata letak dina kaca ieu.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Ékspor</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Citak atawa simpen jadi PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Nyitak kaca sakumaha ayeuna. Pikeun meunangkeun PDF, pilih “Simpen salaku PDF” dina dialog citak.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Ngan eusina, tanpa lulugu, ménu jeung suku kaca</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Alamat tautan sanggeus tautanana</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Widang jadi berkas</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Bagikeun draf pikeun ditinjau</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Saha waé anu boga tautanna bisa ningali draf anjeun tanpa akun nepi ka tautanna kadaluwarsa. Kirimkeun ngan ka para pamariksa anjeun.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Simpen heula draf: tautan bagi mintonkeun draf anjeun.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Anjeun teu meunang ngabagikeun draf ieu.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Tautan bagi merlukeun Exponential 6.0.15 atawa nu leuwih anyar, kalayan panyimpenan rusiah.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Lumaku salila</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Pikeun saha (pilihan)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Jieun tautan</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Tiron tautan</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Geus ditiron.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Lumaku nepi ka %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Kadaluwarsa</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Tarik deui</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Ditarik deui</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Dibuka: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Draf, vérsi %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Vérsi nu diterbitkeun %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Diékspor %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Anjeun teu boga draf kaca ieu.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Draf ieu geus boga tautan aktip saloba nu diidinan. Tarik deui hiji heula.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Anjeun teu meunang narik deui tautan ieu.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Format nu mana?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Tautan nu mana?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

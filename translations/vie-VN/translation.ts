@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Không có khối bố cục nào trên trang này.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Xuất</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>In hoặc lưu dưới dạng PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>In trang như hiện tại. Để có PDF, hãy chọn “Lưu dưới dạng PDF” trong hộp thoại in.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Chỉ nội dung, không có đầu trang, menu và chân trang</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Địa chỉ liên kết sau các liên kết</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Các trường dưới dạng tệp</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Chia sẻ bản nháp để xem xét</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Bất kỳ ai có liên kết đều xem được bản nháp của bạn mà không cần tài khoản cho đến khi liên kết hết hạn. Chỉ gửi cho những người xem xét của bạn.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Hãy lưu bản nháp trước: liên kết chia sẻ hiển thị bản nháp của bạn.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Bạn không được phép chia sẻ bản nháp này.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Liên kết chia sẻ cần Exponential 6.0.15 trở lên, có kho bí mật.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Hiệu lực trong</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Dành cho ai (tùy chọn)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Tạo liên kết</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Sao chép liên kết</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Đã sao chép.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Hiệu lực đến %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Đã hết hạn</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Thu hồi</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Đã thu hồi</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Đã mở: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Bản nháp, phiên bản %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Phiên bản đã xuất bản %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Đã xuất %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Bạn không có bản nháp của trang này.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Bản nháp này đã có số liên kết hoạt động tối đa cho phép. Hãy thu hồi một liên kết trước.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Bạn không được phép thu hồi liên kết này.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Định dạng nào?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Liên kết nào?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

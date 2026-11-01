@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>هن صفحي تي ڪو ليآئوٽ بلاڪ ناهي.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>ايڪسپورٽ</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>ڇاپيو يا PDF طور محفوظ ڪريو</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>صفحي کي جيئن هاڻي آهي تيئن ڇاپي ٿو. PDF حاصل ڪرڻ لاءِ، ڇاپي واري ڊائلاگ ۾ ”PDF طور محفوظ ڪريو“ چونڊيو.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>رڳو مواد، هيڊر، مينيو ۽ فوٽر کان سواءِ</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>لنڪن کان پوءِ لنڪ پتا</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>فيلڊ فائل طور</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>مسودو جائزي لاءِ شيئر ڪريو</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>لنڪ رکندڙ ڪو به ماڻهو اڪائونٽ کان سواءِ توهان جو مسودو ڏسي ٿو جيستائين لنڪ ختم نه ٿئي. اهو رڳو پنهنجن جائزو وٺندڙن ڏانهن موڪليو.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>پهرين مسودو محفوظ ڪريو: شيئر لنڪ توهان جو مسودو ڏيکاري ٿي.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>توهان هي مسودو شيئر نٿا ڪري سگهو.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>شيئر لنڪن کي رازن جي اسٽور سان Exponential 6.0.15 يا ان کان پوءِ جو نسخو گهرجي.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>ڪم ڪري ٿي</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>ڪنهن لاءِ (اختياري)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>لنڪ ٺاهيو</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>لنڪ ڪاپي ڪريو</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>ڪاپي ٿي وئي.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>%time تائين ڪم ڪري ٿي</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>ختم ٿي وئي</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>واپس وٺو</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>واپس ورتل</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>کوليو ويو: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>مسودو، نسخو %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>شايع ٿيل نسخو %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>ايڪسپورٽ ٿيو %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>توهان وٽ هن صفحي جو ڪو مسودو ناهي.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>هن مسودي وٽ اجازت جيتريون ڪم ڪندڙ لنڪون آهن. پهرين هڪ واپس وٺو.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>توهان هي لنڪ واپس نٿا وٺي سگهو.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>ڪهڙو فارميٽ؟</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>ڪهڙي لنڪ؟</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Amul benn blok layout ci xët wii.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Génne</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Móol walla denc ni PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Day móol xët bi ni mu nekke léegi. Ngir am PDF, tànnal “Denc ni PDF” ci palanteeru móol bi.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Li ci biir rekk, amul bopp, menu ak tànk</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Adrees yu lëkkalekaay yi ginnaaw lëkkalekaay yi</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Toolu yi ni dossier</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Séddoo brouyoŋ bi ngir ñu xool ko</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Ku am lëkkalekaay bi gis na sa brouyoŋ te soxlawul kontaa ba lëkkalekaay bi jeex. Yónneel ko sa xoolkat yi rekk.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Dencal benn brouyoŋ jëkk: lëkkalekaayu séddoo bi day wone sa brouyoŋ.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Amuloo sañ-sañ séddoo brouyoŋ bii.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Lëkkalekaayi séddoo yi soxla nañu Exponential 6.0.15 walla gu ko gën a bees, ak dencukaayu mbóot yi.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Mu ngi dox diir</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Ngir kan (bu la neexee)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Sos lëkkalekaay</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Duppi lëkkalekaay</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Dupp nañu ko.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Mu ngi dox ba %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Jeex na</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Dindi</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Dindi nañu ko</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Ubbi nañu ko: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Brouyoŋ, versiyoŋ %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Versiyoŋ bu ñu siiwal %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Génne nañu ko %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Amuloo brouyoŋu xët bii.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Brouyoŋ bii am na lëkkalekaay yu dox yi ñu ko may lépp. Dindil benn jëkk.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Amuloo sañ-sañ dindi lëkkalekaay bii.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Ban format?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Ban lëkkalekaay?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

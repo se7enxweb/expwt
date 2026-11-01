@@ -70,7 +70,7 @@ $siteIni = $siteAccess !== null ? expSettingsPage::chainFor( 'expwt.ini', $siteA
 // every panel there is, in the sidebar's own order (the sidebar's own, then the registered ones before the panel
 // their registration names), with its label
 $labels = array( 'page' => 'Page', 'create' => 'Create', 'structure' => 'Structure', 'seo' => 'SEO', 'sites' => 'Sites',
-                 'forms' => 'Forms', 'newsletter' => 'Newsletter', 'urls' => 'URLs', 'calendar' => 'Calendar',
+                 'forms' => 'Forms', 'newsletter' => 'Newsletter', 'urls' => 'URLs', 'calendar' => 'Calendar', 'export' => 'Export',
                  'insights' => 'Insights', 'inbox' => 'Inbox', 'migrations' => 'Migrations', 'performance' => 'Performance', 'me' => 'Me' );
 $panelLabels = array();
 foreach ( expwtState::PANELS as $id )

@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Nta gice c'imiterere kiri kuri uru rupapuro.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Kurungika hanze</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Gucapa canke kubika nka PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Bicapa urupapuro uko ruri ubu. Kugira uronke PDF, hitamwo "Kubika nka PDF" mu kiyago co gucapa.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Ibirimwo gusa, ata mutwe, ama menu n'ihasi</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Aderese z'imihuza inyuma y'imihuza</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Ibibanza nk'idosiye</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Sangiza intango kugira isuzumwe</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Uwo ari we wese afise umuhuza abona intango yawe ata konti gushika umuhuza uheze igihe. Urarungikira gusa abagusuzumira.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Banza ubike intango: umuhuza wo gusangiza werekana intango yawe.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Ntiwemerewe gusangiza iyi ntango.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Imihuza yo gusangiza isaba Exponential 6.0.15 canke iyiheruka, irimwo ububiko bw'amabanga.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Ikora mu kiringo ca</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Ku bw'iki (si itegeko)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Rema umuhuza</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Kopora umuhuza</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Vyakoporowe.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Ikora gushika %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Yaheze igihe</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Kwisubiza</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Yisubijwe</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Yuguruwe: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Intango, verisiyo %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Verisiyo yasohowe %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Vyarungitswe hanze %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Nta ntango y'uru rupapuro ufise.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Iyi ntango ifise imihuza ikora ingana n'iyemewe. Banza wisubize umwe.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Ntiwemerewe kwisubiza uyu muhuza.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Ubuhe buryo?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Uwuhe muhuza?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

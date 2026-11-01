@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Neniu aranĝa bloko en ĉi tiu paĝo.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Eksporti</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Presi aŭ konservi kiel PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Presas la paĝon kiel ĝi estas nun. Por ricevi PDF, elektu „Konservi kiel PDF“ en la presa dialogo.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Nur la enhavo, sen kaplinio, menuoj kaj piedlinio</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Ligilaj adresoj post la ligiloj</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Kampoj kiel dosiero</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Kunhavigi la malneton por revizio</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Ĉiu kun la ligilo vidas vian malneton sen konto, ĝis la ligilo eksvalidiĝas. Sendu ĝin nur al viaj reviziantoj.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Unue konservu malneton: kunhaviga ligilo montras vian malneton.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Vi ne rajtas kunhavigi ĉi tiun malneton.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Kunhavigaj ligiloj bezonas Exponential 6.0.15 aŭ pli novan, kun la sekreta konservejo.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Validas dum</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Por kiu (nedeviga)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Krei ligilon</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Kopii ligilon</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Kopiita.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Validas ĝis %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Eksvalidiĝinta</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Retiri</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Retirita</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Malfermita: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Malneto, versio %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Publikigita versio %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Eksportita %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Vi ne havas malneton de ĉi tiu paĝo.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Ĉi tiu malneto havas tiom da validaj ligiloj kiom permesitas. Unue retiru unu.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Vi ne rajtas retiri ĉi tiun ligilon.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Kiu formato?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Kiu ligilo?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

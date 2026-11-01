@@ -303,6 +303,18 @@
 
   /* The page's own stylesheet: the push of the page and the outlines of inline editing (never an attribute style). */
   var pageSheet = null;
+
+  /* Printing and saving as a PDF (E13): the sidebar, its spacers and the room it takes are never printed; while the
+     Export panel prints, data-expwt-print on <html> carries its choices: "content" leaves out the site's header,
+     menus, aside and footer (those inside the main content stay), "urls" writes the address after each link. */
+  var PRINT_CONTENT = ['body header:not(main header, article header)', 'nav', '[role="banner"]', '[role="navigation"]',
+    'body footer:not(main footer, article footer)', '[role="contentinfo"]', 'aside:not(main aside, article aside)'];
+  var PRINT_RULES = '@media print{exp-wt,[data-expwt-spacer]{display:none}'
+    + 'html[data-expwt-push="right"],html[data-expwt-push="left"]{padding:0}'
+    + PRINT_CONTENT.map(function (s) { return 'html[data-expwt-print~="content"] ' + s; }).join(',') + '{display:none}'
+    + 'html[data-expwt-print~="urls"] a[href]:not([href^="#"]):not([href^="javascript:"])::after{content:" (" attr(href) ")";overflow-wrap:anywhere}'
+    + 'html[data-expwt-print] img,html[data-expwt-print] figure,html[data-expwt-print] table,html[data-expwt-print] pre{break-inside:avoid}'
+    + 'html[data-expwt-print] h1,html[data-expwt-print] h2,html[data-expwt-print] h3{break-after:avoid}}';
   function pageCss(text) {
     if (!canAdopt) {
       return;
@@ -687,6 +699,8 @@
       if (c.edit) { list.push({ id: 'urls', label: this.t('URLs') }); }
       /* everything scheduled for the page, its subtree or the site (E6): publish, take-down, layout variants */
       if (c.edit) { list.push({ id: 'calendar', label: this.t('Calendar') }); }
+      /* the page as a file (E13): print and PDF, its fields as Markdown or Word, a share link to one's draft */
+      list.push({ id: 'export', label: this.t('Export') });
       if (c.insights) { list.push({ id: 'insights', label: this.t('Insights') }); }
       /* the approvals waiting for the user (F29), for a user of the kernel's collaboration */
       if (this.boot && this.boot.inbox) { list.push({ id: 'inbox', label: this.t('Inbox') }); }
@@ -928,7 +942,7 @@
         + '[data-expwt-spacer]{display:block;block-size:' + h + 'px;margin:0;padding:0;border:0}'
         + 'html[data-expwt-push="top"]{--expwt-push-top:' + h + 'px;scroll-padding-block-start:' + ((this.top || 0) + h) + 'px}'
         + 'html[data-expwt-push="bottom"]{--expwt-push-bottom:' + h + 'px;scroll-padding-block-end:' + ((this.bottom || 0) + h) + 'px}'
-        + (this.inlineRules || '') + (this.registryRules || '') + (this.flashRules || '');
+        + (this.inlineRules || '') + (this.registryRules || '') + (this.flashRules || '') + PRINT_RULES;
       pageCss(this.pageRules);
     }
 
@@ -1382,7 +1396,7 @@
       var t = this.boot.transport;
       var registered = this.registry().actions || {};
       var write = Object.prototype.hasOwnProperty.call(registered, action) ? !!registered[action].writes
-        : ['me', 'page.load', 'create.classes', 'tree.children', 'inbox.load', 'insights.load', 'seo.check', 'newsletter.load', 'comments.load', 'urls.load', 'calendar.load', 'migrations.load', 'performance.load', 'images.load', 'preview.devices', 'boot'].indexOf(action) < 0;
+        : ['me', 'page.load', 'create.classes', 'tree.children', 'inbox.load', 'insights.load', 'seo.check', 'newsletter.load', 'comments.load', 'urls.load', 'calendar.load', 'migrations.load', 'performance.load', 'share.load', 'images.load', 'preview.devices', 'boot'].indexOf(action) < 0;
       var json = JSON.stringify(input || {});
       var headers = { 'X-CSRF-Token': this.boot.token || '' };
       var p;

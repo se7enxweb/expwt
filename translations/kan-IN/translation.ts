@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>ಈ ಪುಟದಲ್ಲಿ ಯಾವುದೇ ಲೇಔಟ್ ಬ್ಲಾಕ್ ಇಲ್ಲ.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>ರಫ್ತು</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>ಮುದ್ರಿಸಿ ಅಥವಾ PDF ಆಗಿ ಉಳಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>ಪುಟವನ್ನು ಈಗ ಇರುವಂತೆಯೇ ಮುದ್ರಿಸುತ್ತದೆ. PDF ಪಡೆಯಲು, ಮುದ್ರಣ ಸಂವಾದದಲ್ಲಿ "PDF ಆಗಿ ಉಳಿಸಿ" ಆಯ್ಕೆಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>ವಿಷಯ ಮಾತ್ರ, ಹೆಡರ್, ಮೆನುಗಳು ಮತ್ತು ಫೂಟರ್ ಇಲ್ಲದೆ</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>ಲಿಂಕ್‌ಗಳ ನಂತರ ಲಿಂಕ್ ವಿಳಾಸಗಳು</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>ಫೀಲ್ಡ್‌ಗಳು ಫೈಲ್ ಆಗಿ</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>ವಿಮರ್ಶೆಗಾಗಿ ಕರಡನ್ನು ಹಂಚಿಕೊಳ್ಳಿ</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>ಲಿಂಕ್ ಇರುವ ಯಾರಾದರೂ ಲಿಂಕ್ ಅವಧಿ ಮುಗಿಯುವವರೆಗೆ ಖಾತೆ ಇಲ್ಲದೆ ನಿಮ್ಮ ಕರಡನ್ನು ನೋಡಬಹುದು. ಅದನ್ನು ನಿಮ್ಮ ವಿಮರ್ಶಕರಿಗೆ ಮಾತ್ರ ಕಳುಹಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>ಮೊದಲು ಕರಡನ್ನು ಉಳಿಸಿ: ಹಂಚಿಕೆ ಲಿಂಕ್ ನಿಮ್ಮ ಕರಡನ್ನು ತೋರಿಸುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>ಈ ಕರಡನ್ನು ಹಂಚಿಕೊಳ್ಳಲು ನಿಮಗೆ ಅನುಮತಿ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>ಹಂಚಿಕೆ ಲಿಂಕ್‌ಗಳಿಗೆ ರಹಸ್ಯ ಸಂಗ್ರಹದೊಂದಿಗೆ Exponential 6.0.15 ಅಥವಾ ನಂತರದ ಆವೃತ್ತಿ ಬೇಕು.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>ಮಾನ್ಯತೆಯ ಅವಧಿ</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>ಯಾರಿಗಾಗಿ (ಐಚ್ಛಿಕ)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>ಲಿಂಕ್ ರಚಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>ಲಿಂಕ್ ನಕಲಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>ನಕಲಿಸಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>%time ವರೆಗೆ ಮಾನ್ಯ</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>ಅವಧಿ ಮುಗಿದಿದೆ</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>ಹಿಂತೆಗೆದುಕೊಳ್ಳಿ</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>ಹಿಂತೆಗೆದುಕೊಳ್ಳಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>ತೆರೆಯಲಾಗಿದೆ: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>ಕರಡು, ಆವೃತ್ತಿ %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>ಪ್ರಕಟಿತ ಆವೃತ್ತಿ %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>%time ರಂದು ರಫ್ತು ಮಾಡಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>ಈ ಪುಟದ ಯಾವುದೇ ಕರಡು ನಿಮ್ಮ ಬಳಿ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>ಈ ಕರಡಿಗೆ ಅನುಮತಿಸಿದಷ್ಟು ಸಕ್ರಿಯ ಲಿಂಕ್‌ಗಳು ಈಗಾಗಲೇ ಇವೆ. ಮೊದಲು ಒಂದನ್ನು ಹಿಂತೆಗೆದುಕೊಳ್ಳಿ.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>ಈ ಲಿಂಕ್ ಅನ್ನು ಹಿಂತೆಗೆದುಕೊಳ್ಳಲು ನಿಮಗೆ ಅನುಮತಿ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>ಯಾವ ಫಾರ್ಮ್ಯಾಟ್?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>ಯಾವ ಲಿಂಕ್?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

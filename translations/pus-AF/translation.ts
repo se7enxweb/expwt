@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>په دې پاڼه کې د ترتیب بلاک نشته.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>صادرول</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>چاپ یا د PDF په توګه خوندي کول</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>پاڼه هماغسې چاپوي لکه اوس چې ده. د PDF د ترلاسه کولو لپاره د چاپ په ډیالوګ کې "د PDF په توګه خوندي کړئ" وټاکئ.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>یوازې منځپانګه، له سرپاڼې، مینوګانو او پښتپاڼې پرته</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>له لینکونو وروسته د لینکونو پتې</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>ساحې د دوتنې په توګه</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>مسوده د بیاکتنې لپاره شریکه کړئ</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>هر څوک چې لینک لري تر هغه چې لینک پای ته رسېږي پرته له حساب ستاسو مسوده لیدلی شي. یوازې خپلو بیاکتونکو ته یې ولېږئ.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>لومړی یوه مسوده خوندي کړئ: د شریکولو لینک ستاسو مسوده ښيي.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>تاسو د دې مسودې د شریکولو اجازه نه لرئ.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>د شریکولو لینکونه د پټ زېرمتون سره Exponential 6.0.15 یا وروسته نسخې ته اړتیا لري.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>د کار موده</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>د چا لپاره (اختیاري)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>لینک جوړ کړئ</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>لینک کاپي کړئ</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>کاپي شو.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>تر %time پورې کار کوي</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>پای ته رسېدلی</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>بېرته اخیستل</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>بېرته اخیستل شوی</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>پرانیستل شوی: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>مسوده، نسخه %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>خپره شوې نسخه %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>صادر شوی %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>تاسو د دې پاڼې مسوده نه لرئ.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>دا مسوده د اجازې هومره فعال لینکونه لري. لومړی یو بېرته واخلئ.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>تاسو د دې لینک د بېرته اخیستلو اجازه نه لرئ.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>کومه بڼه؟</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>کوم لینک؟</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

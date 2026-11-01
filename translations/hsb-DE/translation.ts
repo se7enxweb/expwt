@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Na tutej stronje žadyn blok wuhotowanja.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Eksport</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Ćišćeć abo jako PDF składować</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Ćišći stronu tak, kaž je nětko. Zo byšće PDF dóstał, wubjerće „Jako PDF składować“ w ćišćerskim dialogu.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Jenož wobsah, bjez hłowy, menijow a nohi</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Adresy wotkazow za wotkazami</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Pola jako dataja</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Naćisk za přepruwowanje dźělić</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Štóž ma wotkaz, widźi waš naćisk bjez konta, doniž wotkaz njespadnje. Pósćelće jón jenož swojim přepruwowarjam.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Składujće najprjedy naćisk: dźělenski wotkaz pokazuje waš naćisk.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Njesměće tutón naćisk dźělić.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Dźělenske wotkazy trjebaja Exponential 6.0.15 abo nowši, ze składom potajnosćow.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Płaćiwy za</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Za koho (opcionalnje)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Wotkaz wutworić</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Wotkaz kopěrować</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Kopěrowany.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Płaćiwy hač do %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Spadnjeny</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Wróćo ćahnyć</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Wróćo ćehnjeny</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Wočinjeny: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Naćisk, wersija %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Wozjewjena wersija %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Eksportowany %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Nimaće naćisk tuteje strony.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Tutón naćisk ma hižo tak wjele płaćiwych wotkazow, kaž je dowolene. Ćehńće najprjedy jedyn wróćo.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Njesměće tutón wotkaz wróćo ćahnyć.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Kotry format?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Kotry wotkaz?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

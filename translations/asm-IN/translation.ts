@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>এই পৃষ্ঠাত কোনো লেআউট ব্লক নাই।</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>ৰপ্তানি</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>প্ৰিণ্ট কৰক বা PDF হিচাপে সাঁচি থওক</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>পৃষ্ঠাটো এতিয়া যিদৰে আছে সেইদৰে প্ৰিণ্ট কৰে। PDF পাবলৈ প্ৰিণ্ট ডায়ল'গত “PDF হিচাপে ছেভ কৰক” বাছনি কৰক।</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>কেৱল সমল, হেডাৰ, মেনু আৰু ফুটাৰ অবিহনে</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>লিংকৰ পিছত লিংকৰ ঠিকনা</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>ফিল্ডসমূহ এটা ফাইল হিচাপে</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>পৰ্যালোচনাৰ বাবে খচৰা শ্বেয়াৰ কৰক</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>লিংকটো থকা যিকোনো লোকে লিংকৰ ম্যাদ উকলি নোযোৱালৈকে একাউণ্ট অবিহনে আপোনাৰ খচৰা দেখে। ইয়াক কেৱল আপোনাৰ পৰ্যালোচকসকললৈ পঠিয়াওক।</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>প্ৰথমে এটা খচৰা সাঁচি থওক: শ্বেয়াৰ লিংকে আপোনাৰ খচৰা দেখুৱায়।</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>আপুনি এই খচৰা শ্বেয়াৰ কৰিব নোৱাৰে।</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>শ্বেয়াৰ লিংকৰ বাবে গোপন ভঁৰালৰ সৈতে Exponential 6.0.15 বা তাতকৈ নতুন সংস্কৰণ লাগে।</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>কাম কৰে</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>কাৰ বাবে (ঐচ্ছিক)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>লিংক সৃষ্টি কৰক</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>লিংক কপি কৰক</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>কপি কৰা হ'ল।</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>%time লৈকে কাম কৰে</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>ম্যাদ উকলিল</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>উঠাই লওক</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>উঠাই লোৱা হৈছে</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>খোলা হৈছে: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>খচৰা, সংস্কৰণ %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>প্ৰকাশিত সংস্কৰণ %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>%time ত ৰপ্তানি কৰা হৈছে</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>এই পৃষ্ঠাৰ আপোনাৰ কোনো খচৰা নাই।</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>এই খচৰাত অনুমোদিত সংখ্যক সক্ৰিয় লিংক আছে। প্ৰথমে এটা উঠাই লওক।</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>আপুনি এই লিংক উঠাই ল'ব নোৱাৰে।</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>কোন ফৰ্মেট?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>কোন লিংক?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Manam kay paginapi layout rak'i kanchu.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Hawaman apachiy</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Imprimiy otaq PDF hina waqaychay</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Kunan kasqanman hina rapita imprimin. PDF hap'inaykipaq, imprimiy willakuypi "PDF hina waqaychay" nisqata akllay.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Ukhunlla, uma, menu, chaki ima mana kaspa</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Tinkiykunap qhepanpi tinkiy tiyay</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Pampakuna willañiqi hina</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Qillqa kaqta qhawarinapaq rakinakuy</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Tinkiyta hap'iq mayqenpas mana yupaywan qillqa kaqniykita rikunqa tinkiy tukukunankama. Qhawariqniykikunallaman apachiy.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Ñawpaqta huk qillqa kaqta waqaychay: rakinakuy tinkiyqa qillqa kaqniykita rikuchin.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Kay qillqa kaqta mana rakinakuyta atinkichu.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Rakinakuy tinkiykunaqa Exponential 6.0.15 otaq qhepa kaqta, pakasqa waqaychanawan, munanku.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Llank'an</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Pipaq (munaspa)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Tinkiyta kamay</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Tinkiyta qillqay</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Qillqasqa.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>%time kama llank'an</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Tukukusqa</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Kutichiy</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Kutichisqa</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Kichasqa: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Qillqa kaq, kaq %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Rakinasqa kaq %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Apachisqa %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Kay rapimanta mana qillqa kaqniyki kanchu.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Kay qillqa kaqqa saqesqa hina llank'aq tinkiykunayoqña. Ñawpaqta hukta kutichiy.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Kay tinkiyta mana kutichiyta atinkichu.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Mayqen sami?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Mayqen tinkiy?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>ཤོག་ལེབ་འདི་ནང་ སྒྲིག་བཀོད་དུམ་བུ་མེད།</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>ཕྱིར་འདྲེན།</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>དཔར་བསྐྲུན་ ཡང་ན་ PDF སྦེ་སྲུང་།</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>ཤོག་ལེབ་འདི་ ད་ལྟོ་ཡོད་དོ་བཟུམ་སྦེ་ དཔར་བསྐྲུན་འབདཝ་ཨིན། PDF ཅིག་འཐོབ་ནིའི་དོན་ལུ་ དཔར་བསྐྲུན་གྱི་ཌའི་ལོག་ནང་ "PDF སྦེ་སྲུང་" གདམ་ཁ་རྐྱབ།</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>ནང་དོན་རྐྱངམ་ཅིག མགོ་ཡིག་དང་ ཐོ་ཡིག་ མཇུག་ཡིག་མེདཔ་སྦེ།</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>འབྲེལ་མཐུད་ཚུ་གི་ཤུལ་ལས་ འབྲེལ་མཐུད་ཁ་བྱང་།</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>ས་སྒོ་ཚུ་ ཡིག་སྣོད་ཅིག་སྦེ།</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>ཟིན་བྲིས་འདི་ བསྐྱར་ཞིབ་ཀྱི་དོན་ལུ་ བགོ་བཤའ་རྐྱབ།</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>འབྲེལ་མཐུད་ཡོད་མི་ག་ར་གིས་ རྩིས་ཐོ་མེད་རུང་ འབྲེལ་མཐུད་དུས་ཡོལ་མ་འགྱོ་ཚུན་ ཁྱོད་ཀྱི་ཟིན་བྲིས་བལྟ་ཚུགས། བསྐྱར་ཞིབ་པ་ཚུ་ལུ་རྐྱངམ་ཅིག་གཏང་།</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>ཧེ་མ་ ཟིན་བྲིས་ཅིག་སྲུང་། བགོ་བཤའ་འབྲེལ་མཐུད་གིས་ ཁྱོད་ཀྱི་ཟིན་བྲིས་སྟོནམ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>ཁྱོད་ཀྱིས་ ཟིན་བྲིས་འདི་ བགོ་བཤའ་རྐྱབ་མི་ཆོག</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>བགོ་བཤའ་འབྲེལ་མཐུད་ཚུ་ལུ་ Exponential 6.0.15 ཡང་ན་ དེ་ལས་གསརཔ་དང་ གསང་བའི་མཛོད་དགོ།</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>ལཱ་འབད་ནིའི་ཡུན་ཚད།</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>ག་གི་དོན་ལུ (གདམ་ཁ)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>འབྲེལ་མཐུད་གསར་བསྐྲུན།</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>འབྲེལ་མཐུད་འདྲ་བཤུས།</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>འདྲ་བཤུས་རྐྱབ་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>%time ཚུན་ ལཱ་འབདཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>དུས་ཡོལ་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>ཕྱིར་འཐེན།</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>ཕྱིར་འཐེན་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>ཁ་ཕྱེ་ཡོདཔ། %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>ཟིན་བྲིས་ ཐོན་རིམ་ %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>དཔེ་སྐྲུན་འབད་ཡོད་པའི་ཐོན་རིམ་ %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>%time ལུ་ ཕྱིར་འདྲེན་འབད་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>ཁྱོད་ལུ་ ཤོག་ལེབ་འདི་གི་ཟིན་བྲིས་མེད།</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>ཟིན་བྲིས་འདི་ལུ་ ཆོག་ཐམ་ཡོད་ཚད་ཀྱི་ ལཱ་འབད་བའི་འབྲེལ་མཐུད་ཡོདཔ་ཨིན། ཧེ་མ་ གཅིག་ཕྱིར་འཐེན་འབད།</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>ཁྱོད་ཀྱིས་ འབྲེལ་མཐུད་འདི་ ཕྱིར་འཐེན་འབད་མི་ཆོག</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>རྣམ་པ་ག་ཅི་ཨིན?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>འབྲེལ་མཐུད་ག་ཅི་ཨིན?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

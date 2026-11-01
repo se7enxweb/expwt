@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Cap de blòc de disposicion sus aquesta pagina.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Exportar</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Imprimir o enregistrar en PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Imprimís la pagina coma es ara. Per obténer un PDF, causissètz « Enregistrar en PDF » dins la fenèstra d'impression.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Sonque lo contengut, sens entèsta, menús e pè de pagina</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Adreças dels ligams aprèp los ligams</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Camps coma fichièr</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Partejar lo borrolhon per relectura</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Qual que siá qu'a lo ligam vei vòstre borrolhon sens compte fins que lo ligam expire. Mandatz-lo sonque a vòstres relectors.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Enregistratz d'en primièr un borrolhon: un ligam de partiment mòstra vòstre borrolhon.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Avètz pas lo dreit de partejar aqueste borrolhon.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Los ligams de partiment demandan Exponential 6.0.15 o mai recent, amb l'emmagazinatge secret.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Valid per</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Per qual (opcional)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Crear un ligam</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Copiar lo ligam</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Copiat.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Valid fins a %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Expirat</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Retirar</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Retirat</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Dobèrt : %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Borrolhon, version %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Version publicada %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Exportat %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Avètz pas cap de borrolhon d'aquesta pagina.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Aqueste borrolhon a ja tant de ligams actius coma es permés. Retiratz-ne un d'en primièr.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Avètz pas lo dreit de retirar aqueste ligam.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Quin format ?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Quin ligam ?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

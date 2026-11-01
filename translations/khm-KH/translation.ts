@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>គ្មានប្លុកប្លង់នៅលើទំព័រនេះទេ។</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>នាំចេញ</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>បោះពុម្ព ឬរក្សាទុកជា PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>បោះពុម្ពទំព័រដូចដែលវាមានឥឡូវនេះ។ ដើម្បីទទួលបាន PDF សូមជ្រើសរើស «រក្សាទុកជា PDF» នៅក្នុងប្រអប់បោះពុម្ព។</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>តែខ្លឹមសារប៉ុណ្ណោះ គ្មានក្បាលទំព័រ ម៉ឺនុយ និងបាតទំព័រ</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>អាសយដ្ឋានតំណបន្ទាប់ពីតំណ</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>វាលជាឯកសារ</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>ចែករំលែកសេចក្តីព្រាងសម្រាប់ការពិនិត្យ</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>អ្នកណាក៏ដោយដែលមានតំណ អាចមើលសេចក្តីព្រាងរបស់អ្នកដោយគ្មានគណនី រហូតដល់តំណផុតកំណត់។ សូមផ្ញើវាទៅអ្នកពិនិត្យរបស់អ្នកតែប៉ុណ្ណោះ។</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>សូមរក្សាទុកសេចក្តីព្រាងជាមុនសិន៖ តំណចែករំលែកបង្ហាញសេចក្តីព្រាងរបស់អ្នក។</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>អ្នកមិនអាចចែករំលែកសេចក្តីព្រាងនេះបានទេ។</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>តំណចែករំលែកត្រូវការ Exponential 6.0.15 ឬថ្មីជាងនេះ ជាមួយឃ្លាំងសម្ងាត់។</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>មានសុពលភាពរយៈពេល</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>សម្រាប់អ្នកណា (ស្រេចចិត្ត)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>បង្កើតតំណ</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>ចម្លងតំណ</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>បានចម្លង។</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>មានសុពលភាពរហូតដល់ %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>ផុតកំណត់</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>ដកហូត</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>បានដកហូត</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>បានបើក៖ %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>សេចក្តីព្រាង កំណែ %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>កំណែដែលបានបោះពុម្ពផ្សាយ %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>បាននាំចេញ %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>អ្នកមិនមានសេចក្តីព្រាងនៃទំព័រនេះទេ។</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>សេចក្តីព្រាងនេះមានតំណដែលកំពុងដំណើរការច្រើនតាមដែលអនុញ្ញាតហើយ។ សូមដកហូតមួយជាមុនសិន។</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>អ្នកមិនអាចដកហូតតំណនេះបានទេ។</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>ទម្រង់មួយណា?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>តំណមួយណា?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -3567,6 +3567,202 @@
     }, function (err) { root.textContent = ''; failure(ctx, err); });
   }
 
+  /* ------------------------------------------------------------------ export (E13) */
+
+  /* The Export panel's pure parts (E13), for the tests (tests/js/export.test.js).
+       printTokens()  the value of data-expwt-print on <html> while printing: "content" leaves out the site's header,
+                      menus and footer, "urls" writes each link's address after it (expwt.js has the print rules)
+       bytes()        the bytes of a base64 text, for the downloaded file
+       lifetime()     a lifetime in the user's language: "1 hour", "3 days" (Intl, no strings of our own)
+       state()        a link's chip: its class and its text key */
+  var Export = {
+    printTokens: function (content, urls) {
+      return ['print'].concat(content ? ['content'] : [], urls ? ['urls'] : []).join(' ');
+    },
+    bytes: function (base64) {
+      var raw = window.atob(base64 || '');
+      var out = new Uint8Array(raw.length);
+      for (var i = 0; i < raw.length; i++) { out[i] = raw.charCodeAt(i); }
+      return out;
+    },
+    lifetime: function (seconds, lang) {
+      var unit = seconds % 86400 === 0 ? 'day' : seconds % 3600 === 0 ? 'hour' : 'minute';
+      var n = seconds / (unit === 'day' ? 86400 : unit === 'hour' ? 3600 : 60);
+      try { return new Intl.NumberFormat(lang, { style: 'unit', unit: unit, unitDisplay: 'long' }).format(n); } catch (e) { return n + ' ' + unit + (n === 1 ? '' : 's'); }
+    },
+    state: function (link) {
+      if (link.state === 'active') { return { cls: 'wt-chip is-ok', key: 'Works until %time' }; }
+      return { cls: 'wt-chip', key: link.state === 'revoked' ? 'Withdrawn' : 'Expired' };
+    }
+  };
+
+  /* The page as a file (E13): print it or save it as a PDF (the browser's print dialog, with a print layout), its
+     fields as Markdown or Word (the published version or the user's draft), and a signed, expiring share link to the
+     user's draft for reviewers without an account (the kernel's expContentPreviewLink, with expwt/edit). Making a file
+     or a link asks "Verify it's you" first (the export group), as the administration's exports do. */
+  function exportPanel(ctx, root) {
+    var h = ctx.h;
+    var t = ctx.t;
+    var lang = (document.documentElement && document.documentElement.lang) || undefined;
+    function section(id, title, children) {
+      return h('section', { class: 'wt-section', 'aria-labelledby': id }, [h('h3', { id: id, text: title })].concat(children));
+    }
+    function when(ts) {
+      try { return new Intl.DateTimeFormat(lang, { dateStyle: 'medium', timeStyle: 'short' }).format(new Date(ts * 1000)); } catch (e) { return new Date(ts * 1000).toLocaleString(); }
+    }
+
+    /* print and PDF: the choices become data-expwt-print on <html> while the dialog is open */
+    var onlyContent = h('input', { type: 'checkbox', id: 'wt-exp-content' });
+    var urls = h('input', { type: 'checkbox', id: 'wt-exp-urls' });
+    var html = document.documentElement;
+    function print() {
+      html.setAttribute('data-expwt-print', Export.printTokens(onlyContent.checked, urls.checked));
+      var done = function () { html.removeAttribute('data-expwt-print'); window.removeEventListener('afterprint', done); };
+      window.addEventListener('afterprint', done);
+      window.print();
+      /* a browser without afterprint, or a dialog that does not block: the attribute goes with the next frame after it */
+      window.setTimeout(done, 1000);
+    }
+    root.appendChild(section('wt-exp-p', t('Print or save as PDF'), [
+      h('p', { class: 'wt-muted', text: t('Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.') }),
+      h('label', { class: 'wt-check', for: 'wt-exp-content' }, [onlyContent, h('span', { text: t('Only the content, without header, menus and footer') })]),
+      h('label', { class: 'wt-check', for: 'wt-exp-urls' }, [urls, h('span', { text: t('Link addresses after the links') })]),
+      h('div', { class: 'wt-row' }, [h('button', { type: 'button', class: 'wt-btn is-primary', text: t('Print or save as PDF'), onclick: print })])
+    ]));
+
+    var fileBox = h('div', {}, [h('p', { class: 'wt-muted', text: t('Loading ...') })]);
+    var shareBox = h('div', {});
+    root.appendChild(section('wt-exp-f', t('Fields as a file'), [fileBox]));
+    root.appendChild(section('wt-exp-s', t('Share the draft for review'), [shareBox]));
+
+    if (!ctx.node) {
+      fileBox.textContent = '';
+      fileBox.appendChild(h('p', { class: 'wt-muted', text: t('This page is not there, or you may not read it.') }));
+      shareBox.parentNode.parentNode.removeChild(shareBox.parentNode);
+      return;
+    }
+    ctx.call('page.load', { nodeId: ctx.node }).then(function (page) {
+      fileBox.textContent = '';
+      var which = page.draft ? 'draft' : 'published';
+      if (page.draft && page.publishedVersion) {
+        var name = 'wt-exp-which';
+        fileBox.appendChild(h('fieldset', { class: 'wt-section wt-choice' }, [h('legend', { text: t('Version') }),
+          h('label', { class: 'wt-check' }, [h('input', { type: 'radio', name: name, checked: true, onchange: function () { which = 'draft'; } }), h('span', { text: t('Draft') })]),
+          h('label', { class: 'wt-check' }, [h('input', { type: 'radio', name: name, onchange: function () { which = 'published'; } }), h('span', { text: t('Published') })])
+        ]));
+      }
+      function download(format, button) {
+        button.disabled = true;
+        ctx.call('export.fields', { objectId: page.objectId, which: which, version: which === 'draft' && page.draft ? page.draft.version : undefined,
+          language: page.language, format: format }).then(function (file) {
+          var url = URL.createObjectURL(new Blob([Export.bytes(file.data)], { type: file.mime }));
+          var a = document.createElement('a');
+          a.href = url;
+          a.download = file.fileName;
+          document.body.appendChild(a);
+          a.click();
+          document.body.removeChild(a);
+          window.setTimeout(function () { URL.revokeObjectURL(url); }, 10000);
+          ctx.say(file.fileName, 'ok');
+          button.disabled = false;
+        }, function (err) { button.disabled = false; failure(ctx, err); });
+      }
+      var md = h('button', { type: 'button', class: 'wt-btn', text: 'Markdown (.md)' });
+      var docx = h('button', { type: 'button', class: 'wt-btn', text: 'Word (.docx)' });
+      md.onclick = function () { download('md', md); };
+      docx.onclick = function () { download('docx', docx); };
+      fileBox.appendChild(h('div', { class: 'wt-row' }, [md, docx]));
+      if (!ctx.boot || !ctx.boot.capabilities || !ctx.boot.capabilities.edit) {
+        shareBox.parentNode.parentNode.removeChild(shareBox.parentNode);
+        return;
+      }
+      share(page);
+    }, function (err) { fileBox.textContent = ''; failure(ctx, err); });
+
+    /* the share links: the user's draft, a lifetime and a note, the link to copy, and the page's links to withdraw */
+    function share(page) {
+      shareBox.appendChild(h('p', { class: 'wt-muted', text: t('Loading ...') }));
+      ctx.call('share.load', { objectId: page.objectId, language: page.language }).then(function (s) {
+        shareBox.textContent = '';
+        if (!s.available) {
+          shareBox.appendChild(h('div', { class: 'wt-notice', role: 'status', text: t('Share links need Exponential 6.0.15 or later, with the secret store.') }));
+          return;
+        }
+        var made = h('div', { 'aria-live': 'polite' });
+        if (!s.draft) {
+          shareBox.appendChild(h('p', { class: 'wt-muted', text: t('Save a draft first: a share link shows your draft.') }));
+        } else if (!s.canShare) {
+          shareBox.appendChild(h('p', { class: 'wt-muted', text: t('You may not share this draft.') }));
+        } else {
+          var lifetime = h('select', { id: 'wt-exp-life' }, s.lifetimes.map(function (l) {
+            return h('option', { value: String(l.seconds), selected: l.chosen, text: Export.lifetime(l.seconds, lang) });
+          }));
+          var note = h('input', { type: 'text', id: 'wt-exp-note', maxlength: '100', autocomplete: 'off' });
+          var create = h('button', { type: 'button', class: 'wt-btn is-primary', text: t('Create link') });
+          create.onclick = function () {
+            create.disabled = true;
+            ctx.call('share.create', { objectId: page.objectId, version: s.draft.version, language: s.draft.language,
+              lifetime: parseInt(lifetime.value, 10), note: note.value }).then(function (r) {
+              create.disabled = false;
+              note.value = '';
+              made.textContent = '';
+              made.appendChild(linkField(r.url, 'wt-exp-new'));
+              made.appendChild(h('p', { class: 'wt-muted', text: t('Works until %time').replace('%time', when(r.expires)) }));
+              list(r.links);
+            }, function (err) { create.disabled = false; failure(ctx, err); });
+          };
+          shareBox.appendChild(h('p', { class: 'wt-muted', text: t('Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.') }));
+          shareBox.appendChild(h('label', { class: 'wt-field', for: 'wt-exp-life' }, [h('span', { text: t('Works for') }), lifetime]));
+          shareBox.appendChild(h('label', { class: 'wt-field', for: 'wt-exp-note' }, [h('span', { text: t('For whom (optional)') }), note]));
+          shareBox.appendChild(h('div', { class: 'wt-row' }, [create]));
+          shareBox.appendChild(made);
+        }
+        var listBox = h('ul', { class: 'wt-list wt-exp-links' });
+        shareBox.appendChild(listBox);
+        function list(links) {
+          listBox.textContent = '';
+          links.forEach(function (link) {
+            var st = Export.state(link);
+            var parts = [h('span', { class: st.cls, text: t(st.key).replace('%time', when(link.expires)) }),
+              h('span', { class: 'wt-exp-what', text: [link.note, link.by, t('Opened: %count').replace('%count', link.opened)].filter(Boolean).join(' · ') })];
+            if (link.url) { parts.push(linkField(link.url, 'wt-exp-l' + link.id)); }
+            if (link.state === 'active') {
+              var withdraw = h('button', { type: 'button', class: 'wt-btn is-danger', text: t('Withdraw') });
+              withdraw.onclick = function () {
+                withdraw.disabled = true;
+                ctx.call('share.revoke', { objectId: page.objectId, id: link.id }).then(function (r) {
+                  ctx.say(t('Withdrawn'), 'ok');
+                  made.textContent = '';
+                  list(r.links);
+                }, function (err) { withdraw.disabled = false; failure(ctx, err); });
+              };
+              parts.push(h('div', { class: 'wt-row' }, [withdraw]));
+            }
+            listBox.appendChild(h('li', { class: 'wt-exp-link' }, parts));
+          });
+        }
+        list(s.links);
+      }, function (err) { shareBox.textContent = ''; failure(ctx, err); });
+    }
+
+    /* a link to copy: the address in a read-only field (selected on focus) and a button that copies it */
+    function linkField(url, id) {
+      var input = h('input', { type: 'text', id: id, readonly: true, value: url, 'aria-label': t('Share the draft for review') });
+      input.onfocus = function () { input.select(); };
+      var copy = h('button', { type: 'button', class: 'wt-btn', text: t('Copy link') });
+      copy.onclick = function () {
+        var ok = function () { ctx.say(t('Copied.'), 'ok'); };
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(url).then(ok, function () { input.select(); });
+        } else {
+          input.select();
+          try { if (document.execCommand('copy')) { ok(); } } catch (e) { /* selected for the user to copy */ }
+        }
+      };
+      return h('div', { class: 'wt-exp-url' }, [input, copy]);
+    }
+  }
+
   /* ------------------------------------------------------------------ the device preview (E8) */
 
   /* Pure (tests/js/devices.test.js): how the frames of the device preview fit the window, the width typed for a frame
@@ -3875,6 +4071,7 @@
 
   window.ExpwtMigrations = Migrations;
   window.ExpwtPerformance = Performance;
+  window.ExpwtExport = Export;
   window.ExpwtSeo = SEO;
   window.ExpwtA11y = A11y;
   window.ExpwtComments = { actions: commentActions };
@@ -3882,5 +4079,5 @@
   window.ExpwtCalendar = Calendar;
   window.ExpwtFocal = Focal;
   window.ExpwtDevices = Devices;
-  window.ExpwtPanels = { page: page, create: create, structure: structure, seo: seo, sites: sites, forms: forms, newsletter: newsletter, urls: urls, calendar: calendar, insights: insights, inbox: inbox, migrations: migrations, performance: performance, me: me, shortcuts: shortcuts };
+  window.ExpwtPanels = { page: page, create: create, structure: structure, seo: seo, sites: sites, forms: forms, newsletter: newsletter, urls: urls, calendar: calendar, export: exportPanel, insights: insights, inbox: inbox, migrations: migrations, performance: performance, me: me, shortcuts: shortcuts };
 }());

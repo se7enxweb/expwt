@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Ez dago diseinu-blokerik orri honetan.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Esportatu</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Inprimatu edo gorde PDF gisa</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Orria orain dagoen bezala inprimatzen du. PDF bat lortzeko, aukeratu «Gorde PDF gisa» inprimatzeko elkarrizketa-koadroan.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Edukia bakarrik, goiburu, menu eta orri-oinik gabe</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Esteken helbideak esteken ondoren</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Eremuak fitxategi gisa</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Partekatu zirriborroa berrikusteko</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Esteka duen edonork ikusten du zure zirriborroa konturik gabe, esteka iraungi arte. Bidali zure berrikusleei bakarrik.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Gorde lehenik zirriborro bat: partekatzeko estekak zure zirriborroa erakusten du.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Ezin duzu zirriborro hau partekatu.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Partekatzeko estekek Exponential 6.0.15 edo berriagoa behar dute, sekretuen biltegiarekin.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Iraupena</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Norentzat (aukerakoa)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Sortu esteka</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Kopiatu esteka</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Kopiatuta.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>%time arte balio du</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Iraungita</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Kendu</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Kenduta</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Irekita: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Zirriborroa, %number bertsioa</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Argitaratutako %number bertsioa</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Esportatua %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Ez duzu orri honen zirriborrorik.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Zirriborro honek baimendutako adina esteka aktibo ditu. Kendu bat lehenik.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Ezin duzu esteka hau kendu.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Zein formatu?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Zein esteka?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>L-ebda blokk tat-tqassim f'din il-paġna.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Esportazzjoni</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Ipprintja jew issejvja bħala PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Jipprintja l-paġna kif inhi issa. Biex ikollok PDF, agħżel “Issejvja bħala PDF” fid-djalogu tal-ipprintjar.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Il-kontenut biss, mingħajr intestatura, menù u qiegħ il-paġna</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Indirizzi tal-links wara l-links</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Għelieqi bħala fajl</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Aqsam l-abbozz għar-reviżjoni</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Kulmin għandu l-link jara l-abbozz tiegħek mingħajr kont sakemm il-link jiskadi. Ibagħtu biss lir-reviżuri tiegħek.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>L-ewwel issejvja abbozz: link ta' qsim juri l-abbozz tiegħek.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>M'għandekx permess taqsam dan l-abbozz.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Il-links ta' qsim jeħtieġu Exponential 6.0.15 jew aktar ġdid, bil-maħżen tas-sigrieti.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Jaħdem għal</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Għal min (mhux obbligatorju)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Oħloq link</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Ikkopja l-link</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Ikkopjat.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Jaħdem sa %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Skada</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Irtira</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Irtirat</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Miftuħ: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Abbozz, verżjoni %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Verżjoni ppubblikata %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Esportat %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>M'għandekx abbozz ta' din il-paġna.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Dan l-abbozz diġà għandu daqs kemm hu permess links attivi. L-ewwel irtira wieħed.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>M'għandekx permess tirtira dan il-link.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Liema format?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Liema link?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

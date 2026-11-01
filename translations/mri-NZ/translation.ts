@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Kāore he paraka tahora i tēnei whārangi.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Kaweake</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Tāngia, tiakina rānei hei PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Ka tāngia te whārangi pērā i tōna āhua ināianei. Kia whiwhi PDF, kōwhiria te "Tiaki hei PDF" i te matapihi tā.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Ko te ihirangi anake, kāore he pane, he tahua, he hiku</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Ngā wāhitau hono i muri i ngā hono</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Ngā āpure hei kōnae</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Tohaina te tauira kia arotakea</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Ka kite te tangata whai hono i tō tauira me te kore pūkete, kia pau rā anō te hono. Tukuna ki ō kaiarotake anake.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Tiakina he tauira i te tuatahi: ka whakaatu te hono tiri i tō tauira.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Kāore koe e whakaaetia ki te tiri i tēnei tauira.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Me whai Exponential 6.0.15, he putanga hou ake rānei, me te pātaka huna, kia whai hono tiri.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Ka mahi mō</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Mā wai (kōwhiri noa)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Waihanga hono</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Tāruatia te hono</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Kua tāruatia.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Ka mahi tae noa ki %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Kua pau</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Unuhia</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Kua unuhia</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>I whakatuwheratia: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Tauira, putanga %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Putanga kua whakaputaina %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>I kaweakehia %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Kāore ō tauira mō tēnei whārangi.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Kua tae tēnei tauira ki te nui rawa o ngā hono e mahi ana. Unuhia tētahi i te tuatahi.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Kāore koe e whakaaetia ki te unu i tēnei hono.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Ko tēhea hōputu?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Ko tēhea hono?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

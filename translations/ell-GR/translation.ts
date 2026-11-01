@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Κανένα μπλοκ διάταξης σε αυτή τη σελίδα.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Εξαγωγή</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Εκτύπωση ή αποθήκευση ως PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Εκτυπώνει τη σελίδα όπως είναι τώρα. Για να πάρετε PDF, επιλέξτε «Αποθήκευση ως PDF» στο παράθυρο εκτύπωσης.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Μόνο το περιεχόμενο, χωρίς κεφαλίδα, μενού και υποσέλιδο</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Διευθύνσεις συνδέσμων μετά τους συνδέσμους</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Πεδία ως αρχείο</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Κοινοποίηση του προσχεδίου για έλεγχο</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Όποιος έχει τον σύνδεσμο βλέπει το προσχέδιό σας χωρίς λογαριασμό, μέχρι να λήξει ο σύνδεσμος. Στείλτε τον μόνο στους ελεγκτές σας.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Αποθηκεύστε πρώτα ένα προσχέδιο: ο σύνδεσμος κοινοποίησης δείχνει το προσχέδιό σας.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Δεν επιτρέπεται να κοινοποιήσετε αυτό το προσχέδιο.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Οι σύνδεσμοι κοινοποίησης χρειάζονται Exponential 6.0.15 ή νεότερο, με το χρηματοκιβώτιο μυστικών.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Ισχύει για</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Για ποιον (προαιρετικό)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Δημιουργία συνδέσμου</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Αντιγραφή συνδέσμου</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Αντιγράφηκε.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Ισχύει έως %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Έληξε</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Ανάκληση</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Ανακλήθηκε</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Ανοίχτηκε: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Προσχέδιο, έκδοση %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Δημοσιευμένη έκδοση %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Εξήχθη %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Δεν έχετε προσχέδιο αυτής της σελίδας.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Αυτό το προσχέδιο έχει όσους ενεργούς συνδέσμους επιτρέπονται. Ανακαλέστε πρώτα έναν.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Δεν επιτρέπεται να ανακαλέσετε αυτόν τον σύνδεσμο.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Ποια μορφή;</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Ποιος σύνδεσμος;</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

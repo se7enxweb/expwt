@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Այս էջում դասավորության բլոկ չկա։</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Արտահանում</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Տպել կամ պահել որպես PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Տպում է էջը այնպես, ինչպես այն հիմա է։ PDF ստանալու համար տպման պատուհանում ընտրեք «Պահել որպես PDF»։</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Միայն բովանդակությունը՝ առանց գլխագրի, ընտրացանկերի և էջատակի</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Հղումների հասցեները հղումներից հետո</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Դաշտերը որպես ֆայլ</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Կիսվել սևագրով՝ ստուգման համար</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Հղումն ունեցող ցանկացած ոք առանց հաշվի տեսնում է ձեր սևագիրը, մինչև հղման ժամկետը լրանա։ Ուղարկեք այն միայն ձեր ստուգողներին։</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Նախ պահեք սևագիր․ կիսվելու հղումը ցույց է տալիս ձեր սևագիրը։</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Դուք չեք կարող կիսվել այս սևագրով։</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Կիսվելու հղումների համար անհրաժեշտ է Exponential 6.0.15 կամ ավելի նոր՝ գաղտնիքների պահոցով։</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Գործում է</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Ում համար (ըստ ցանկության)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Ստեղծել հղում</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Պատճենել հղումը</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Պատճենվեց։</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Գործում է մինչև %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Ժամկետանց</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Հետ կանչել</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Հետ կանչված</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Բացվել է՝ %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Սևագիր, տարբերակ %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Հրապարակված տարբերակ %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Արտահանված՝ %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Դուք այս էջի սևագիր չունեք։</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Այս սևագիրն արդեն ունի թույլատրված քանակով գործող հղումներ։ Նախ հետ կանչեք մեկը։</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Դուք չեք կարող հետ կանչել այս հղումը։</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Ո՞ր ձևաչափը</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Ո՞ր հղումը</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

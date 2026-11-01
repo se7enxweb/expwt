@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Bloc'h pajennaozañ ebet war ar bajenn-mañ.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Ezporzhiañ</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Moullañ pe enrollañ e PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Moullañ a ra ar bajenn evel m'emañ bremañ. Evit kaout ur PDF, dibabit « Enrollañ e PDF » er voestad moullañ.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>An endalc'had hepken, hep talbenn, lañserioù ha traoñ ar bajenn</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Chomlec'hioù al liammoù goude al liammoù</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Maeziennoù evel ur restr</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Rannañ ar brouilhed evit adlenn</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>An holl re o deus al liamm a wel ho prouilhed hep kont betek ma tremen deiziad al liamm. Kasit anezhañ d'hoc'h adlennerien hepken.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Enrollit ur brouilhed da gentañ: ul liamm rannañ a ziskouez ho prouilhed.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>N'oc'h ket aotreet da rannañ ar brouilhed-mañ.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Al liammoù rannañ o deus ezhomm eus Exponential 6.0.15 pe nevesoc'h, gant ar stal sekredoù.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Mat e-pad</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Evit piv (diret)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Krouiñ ul liamm</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Eilañ al liamm</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Eilet.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Mat betek %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Tremenet</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Tennañ en-dro</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Tennet en-dro</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Digoret: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Brouilhed, stumm %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Stumm embannet %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Ezporzhiet %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>N'hoc'h eus brouilhed ebet eus ar bajenn-mañ.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Ar brouilhed-mañ en deus kement a liammoù oberiant ha ma 'z eo aotreet. Tennit unan en-dro da gentañ.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>N'oc'h ket aotreet da dennañ al liamm-mañ en-dro.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Peseurt furmad?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Peseurt liamm?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

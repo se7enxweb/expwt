@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Ora ana blok tata letak ing kaca iki.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Ekspor</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Cetak utawa simpen dadi PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Nyetak kaca kaya saiki. Kanggo entuk PDF, pilih "Simpen minangka PDF" ing dialog cetak.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Mung isi, tanpa header, menu lan footer</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Alamat pranala sawise pranala-pranala</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Kolom minangka file</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Bagekake draf kanggo ditinjau</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Sapa wae sing duwe pranala bisa ndeleng draf sampeyan tanpa akun nganti pranalane kadaluwarsa. Kirimake mung marang peninjau sampeyan.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Simpen draf dhisik: pranala bagi nuduhake draf sampeyan.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Sampeyan ora kena mbagekake draf iki.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Pranala bagi butuh Exponential 6.0.15 utawa luwih anyar, kanthi panyimpenan rahasia.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Laku kanggo</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Kanggo sapa (opsional)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Gawe pranala</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Salin pranala</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Wis disalin.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Laku nganti %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Kadaluwarsa</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Tarik</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Ditarik</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Dibukak: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Draf, versi %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Versi sing diterbitake %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Diekspor %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Sampeyan ora duwe draf kaca iki.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Draf iki wis duwe pranala aktif sakehe sing diidinake. Tarik siji dhisik.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Sampeyan ora kena narik pranala iki.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Format apa?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Pranala sing endi?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

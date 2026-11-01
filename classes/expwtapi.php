@@ -217,6 +217,14 @@ class expwtApi
                 return $g->calendarVariant( self::ids( $input, array( 'conditionId' ) ) + self::strings( $input, array( 'which', 'at' ) ) );
             case 'performance.load':
                 return expwtPerformance::status();
+            case 'export.fields':
+                return $g->exportFields( self::ids( $input, array( 'objectId', 'version' ) ) + self::strings( $input, array( 'which', 'language', 'format' ) ) );
+            case 'share.load':
+                return $g->shareLinks( self::ids( $input, array( 'objectId' ) ) + self::strings( $input, array( 'language' ) ) );
+            case 'share.create':
+                return $g->shareCreate( self::ids( $input, array( 'objectId', 'version', 'lifetime' ) ) + self::strings( $input, array( 'language', 'note' ) ) );
+            case 'share.revoke':
+                return $g->shareRevoke( self::ids( $input, array( 'objectId' ) ) + self::strings( $input, array( 'id' ) ) );
             case 'migrations.load':
                 return $g->migrations();
             case 'images.load':

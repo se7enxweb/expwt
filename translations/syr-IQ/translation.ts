@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>ܠܝܬ ܦܠܓܘܬܐ ܕܣܘܕܪܐ ܒܦܐܬܐ ܗܕܐ.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>ܐܦܩܬܐ</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>ܛܒܘܥ ܐܘ ܢܛܘܪ ܐܝܟ PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>ܛܒܥ ܠܦܐܬܐ ܐܝܟ ܕܐܝܬܝܗ̇ ܗܫܐ. ܕܬܣܒ PDF، ܓܒܝ «ܢܛܘܪ ܐܝܟ PDF» ܒܕܘܪܫܐ ܕܛܒܥܐ.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>ܡܕܡ ܕܒܓܘ ܒܠܚܘܕ، ܕܠܐ ܪܫܐ، ܡܢܝܘ̈ܐ ܘܥܩܒܐ</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>ܡܘܢܥ̈ܐ ܕܐܣܘܪ̈ܐ ܒܬܪ ܐܣܘܪ̈ܐ</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>ܚܩܠ̈ܐ ܐܝܟ ܦܘܪܣܐ</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>ܫܘܬܦ ܠܣܘܪܛܐ ܠܒܘܚܪܢܐ</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>ܟܠ ܡܢ ܕܐܝܬ ܠܗ ܐܣܘܪܐ ܚܙܐ ܠܣܘܪܛܟ ܕܠܐ ܚܘܫܒܢܐ ܥܕܡܐ ܕܥܒܪ ܙܒܢܐ ܕܐܣܘܪܐ. ܫܕܪܝܗܝ ܠܒܚܘܪ̈ܐ ܕܝܠܟ ܒܠܚܘܕ.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>ܢܛܘܪ ܣܘܪܛܐ ܩܕܡܝܐ: ܐܣܘܪܐ ܕܫܘܬܦܘܬܐ ܡܚܘܐ ܠܣܘܪܛܟ.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>ܠܐ ܫܠܝܛ ܠܟ ܠܫܘܬܦܘ ܣܘܪܛܐ ܗܢܐ.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>ܐܣܘܪ̈ܐ ܕܫܘܬܦܘܬܐ ܣܢܝܩܝܢ ܠ Exponential 6.0.15 ܐܘ ܒܬܪܝܐ، ܥܡ ܒܝܬ ܓܙܐ ܕܐܪ̈ܙܐ.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>ܦܠܚ ܠ</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>ܠܡܢ (ܓܒܝܝܐ)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>ܥܒܕ ܐܣܘܪܐ</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>ܢܣܘܚ ܐܣܘܪܐ</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>ܐܬܢܣܚ.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>ܦܠܚ ܥܕܡܐ ܠ %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>ܥܒܪ ܙܒܢܗ</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>ܣܚܘܒ</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>ܐܣܬܚܒ</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>ܐܬܦܬܚ: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>ܣܘܪܛܐ، ܢܘܣܚܐ %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>ܢܘܣܚܐ ܦܪܝܣܐ %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>ܐܦܝܩ %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>ܠܝܬ ܠܟ ܣܘܪܛܐ ܕܦܐܬܐ ܗܕܐ.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>ܣܘܪܛܐ ܗܢܐ ܐܝܬ ܠܗ ܐܣܘܪ̈ܐ ܦܠܚ̈ܐ ܐܝܟ ܡܐ ܕܡܦܣ. ܣܚܘܒ ܚܕ ܩܕܡܝܐ.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>ܠܐ ܫܠܝܛ ܠܟ ܠܡܣܚܒ ܐܣܘܪܐ ܗܢܐ.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>ܐܝܢܐ ܐܣܟܝܡܐ؟</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>ܐܝܢܐ ܐܣܘܪܐ؟</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

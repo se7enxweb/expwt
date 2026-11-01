@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Geen layoutblok op deze pagina.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Exporteren</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Afdrukken of opslaan als PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Drukt de pagina af zoals die nu is. Kies voor een PDF „Opslaan als PDF” in het afdrukvenster.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Alleen de inhoud, zonder kop, menu's en voettekst</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Linkadressen achter de links</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Velden als bestand</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Het concept delen ter beoordeling</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Iedereen met de link ziet je concept zonder account tot de link verloopt. Stuur hem alleen naar je beoordelaars.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Sla eerst een concept op: een deellink toont je concept.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Je mag dit concept niet delen.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Deellinks vereisen Exponential 6.0.15 of later, met de geheimenopslag.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Geldig voor</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Voor wie (optioneel)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Link maken</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Link kopiëren</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Gekopieerd.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Geldig tot %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Verlopen</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Intrekken</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Ingetrokken</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Geopend: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Concept, versie %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Gepubliceerde versie %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Geëxporteerd %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Je hebt geen concept van deze pagina.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Dit concept heeft al zoveel werkende links als toegestaan. Trek er eerst een in.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Je mag deze link niet intrekken.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Welk formaat?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Welke link?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

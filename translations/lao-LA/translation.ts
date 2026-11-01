@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>ບໍ່ມີບລັອກໂຄງຮ່າງໃນໜ້ານີ້.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>ສົ່ງອອກ</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>ພິມ ຫຼື ບັນທຶກເປັນ PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>ພິມໜ້ານີ້ຕາມທີ່ມັນເປັນຢູ່ຕອນນີ້. ເພື່ອໃຫ້ໄດ້ PDF, ເລືອກ "ບັນທຶກເປັນ PDF" ໃນກ່ອງໂຕ້ຕອບການພິມ.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>ສະເພາະເນື້ອຫາ, ບໍ່ມີສ່ວນຫົວ, ເມນູ ແລະ ສ່ວນທ້າຍ</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>ທີ່ຢູ່ລິ້ງຫຼັງລິ້ງ</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>ຊ່ອງຂໍ້ມູນເປັນໄຟລ໌</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>ແບ່ງປັນສະບັບຮ່າງເພື່ອກວດທານ</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>ທຸກຄົນທີ່ມີລິ້ງຈະເຫັນສະບັບຮ່າງຂອງທ່ານໂດຍບໍ່ຕ້ອງມີບັນຊີ ຈົນກວ່າລິ້ງຈະໝົດອາຍຸ. ສົ່ງມັນໃຫ້ສະເພາະຜູ້ກວດທານຂອງທ່ານເທົ່ານັ້ນ.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>ບັນທຶກສະບັບຮ່າງກ່ອນ: ລິ້ງແບ່ງປັນຈະສະແດງສະບັບຮ່າງຂອງທ່ານ.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>ທ່ານບໍ່ສາມາດແບ່ງປັນສະບັບຮ່າງນີ້ໄດ້.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>ລິ້ງແບ່ງປັນຕ້ອງການ Exponential 6.0.15 ຫຼື ໃໝ່ກວ່າ, ພ້ອມບ່ອນເກັບຄວາມລັບ.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>ໃຊ້ໄດ້ເປັນເວລາ</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>ສຳລັບໃຜ (ບໍ່ບັງຄັບ)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>ສ້າງລິ້ງ</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>ສຳເນົາລິ້ງ</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>ສຳເນົາແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>ໃຊ້ໄດ້ຮອດ %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>ໝົດອາຍຸແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>ຖອນຄືນ</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>ຖອນຄືນແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>ເປີດແລ້ວ: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>ສະບັບຮ່າງ, ເວີຊັນ %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>ເວີຊັນທີ່ເຜີຍແຜ່ %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>ສົ່ງອອກ %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>ທ່ານບໍ່ມີສະບັບຮ່າງຂອງໜ້ານີ້.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>ສະບັບຮ່າງນີ້ມີລິ້ງທີ່ໃຊ້ງານໄດ້ຄົບຕາມຈຳນວນທີ່ອະນຸຍາດແລ້ວ. ຖອນຄືນໜຶ່ງລິ້ງກ່ອນ.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>ທ່ານບໍ່ສາມາດຖອນຄືນລິ້ງນີ້ໄດ້.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>ຮູບແບບໃດ?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>ລິ້ງໃດ?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

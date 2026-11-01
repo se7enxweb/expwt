@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Bu sahifada maket bloki yo‘q.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Eksport</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Chop etish yoki PDF sifatida saqlash</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Sahifani hozirgi holatida chop etadi. PDF olish uchun chop etish oynasida “PDF sifatida saqlash” bandini tanlang.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Faqat kontent, sarlavha, menyular va pastki qismsiz</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Havolalardan keyin havola manzillari</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Maydonlar fayl sifatida</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Qoralamani ko‘rib chiqish uchun ulashish</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Havolaga ega har kim havolaning muddati tugaguncha hisobsiz qoralamangizni ko‘radi. Uni faqat taqrizchilaringizga yuboring.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Avval qoralamani saqlang: ulashish havolasi qoralamangizni ko‘rsatadi.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Bu qoralamani ulashishga ruxsatingiz yo‘q.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Ulashish havolalari maxfiy ma’lumotlar ombori bilan Exponential 6.0.15 yoki undan yangisini talab qiladi.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Amal qilish muddati</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Kim uchun (ixtiyoriy)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Havola yaratish</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Havolani nusxalash</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Nusxalandi.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>%time gacha amal qiladi</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Muddati tugagan</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Qaytarib olish</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Qaytarib olingan</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Ochilgan: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Qoralama, versiya %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Nashr qilingan versiya %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Eksport qilindi %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Sizda bu sahifaning qoralamasi yo‘q.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Bu qoralamada ruxsat etilgancha amaldagi havolalar bor. Avval bittasini qaytarib oling.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Bu havolani qaytarib olishga ruxsatingiz yo‘q.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Qaysi format?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Qaysi havola?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

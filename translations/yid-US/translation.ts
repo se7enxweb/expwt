@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>קיין אויסלייג־בלאָק אויף דער בלאַט.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>עקספּאָרט</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>דרוקן אָדער אָפּהיטן ווי PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>דרוקט די זײַט ווי זי איז איצט. כּדי צו באַקומען אַ PDF, קלײַבט אויס „אָפּהיטן ווי PDF“ אינעם דרוק־דיאַלאָג.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>נאָר דער אינהאַלט, אָן קאָפּ, מעניוען און פֿוס</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>לינק־אַדרעסן נאָך די לינקען</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>פֿעלדער ווי אַ טעקע</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>טיילט דעם שׂרטוט פֿאַר אַ רעצענזיע</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>יעדער וואָס האָט דעם לינק זעט אײַער שׂרטוט אָן אַ קאָנטע ביז דער לינק גייט אויס. שיקט אים נאָר צו אײַערע רעצענזענטן.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>היט פֿריִער אָפּ אַ שׂרטוט: אַ טייל־לינק ווײַזט אײַער שׂרטוט.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>איר טאָרט נישט טיילן דעם שׂרטוט.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>טייל־לינקען דאַרפֿן Exponential 6.0.15 אָדער שפּעטער, מיט דעם סודות־שפּייכלער.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>גילטיק פֿאַר</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>פֿאַר וועמען (ברירהדיק)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>שאַפֿן לינק</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>קאָפּירן לינק</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>קאָפּירט.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>גילטיק ביז %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>אויסגעגאַנגען</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>צוריקציִען</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>צוריקגעצויגן</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>געעפֿנט: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>שׂרטוט, ווערסיע %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>פֿאַרעפֿנטלעכטע ווערסיע %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>עקספּאָרטירט %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>איר האָט נישט קיין שׂרטוט פֿון דער זײַט.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>דער שׂרטוט האָט שוין אַזוי פֿיל גילטיקע לינקען ווי ערלויבט. ציט פֿריִער איינעם צוריק.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>איר טאָרט נישט צוריקציִען דעם לינק.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>וועלכער פֿאָרמאַט?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>וועלכער לינק?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>אין בלוק פריסה בעמוד זה.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>ייצוא</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>הדפסה או שמירה כ־PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>מדפיס את הדף כפי שהוא עכשיו. כדי לקבל PDF, בחרו „שמירה כ־PDF“ בחלון ההדפסה.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>רק התוכן, בלי כותרת עליונה, תפריטים וכותרת תחתונה</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>כתובות הקישורים אחרי הקישורים</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>שדות כקובץ</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>שיתוף הטיוטה לבדיקה</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>כל מי שיש לו את הקישור רואה את הטיוטה שלכם בלי חשבון, עד שתוקף הקישור יפוג. שלחו אותו רק לבודקים שלכם.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>שמרו קודם טיוטה: קישור שיתוף מציג את הטיוטה שלכם.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>אין לכם הרשאה לשתף את הטיוטה הזו.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>קישורי שיתוף דורשים Exponential 6.0.15 ואילך, עם מאגר הסודות.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>תקף למשך</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>למי (רשות)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>יצירת קישור</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>העתקת קישור</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>הועתק.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>תקף עד %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>פג תוקף</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>ביטול</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>בוטל</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>נפתח: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>טיוטה, גרסה %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>גרסה שפורסמה %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>יוצא %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>אין לכם טיוטה של הדף הזה.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>לטיוטה הזו כבר יש את מספר הקישורים הפעילים המותר. בטלו קודם אחד.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>אין לכם הרשאה לבטל את הקישור הזה.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>איזה פורמט?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>איזה קישור?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>बे बिलाइआव जेबो लेआउट ब्लक गैया।</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>दैथाय होनाय</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>प्रिन्ट खालाम एबा PDF महरै थिना दो</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>बिखं खौ दा जेरै दं बेयावनो प्रिन्ट खालामो। PDF मोनथिनो प्रिन्ट डायलगआव “PDF महरै थिना दो” सायख।</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>मोनसे बिबुं, हेडार, मेनु आरो फुटार गैयि</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>लिंकफोरनि उनाव लिंकनि ठिकाना</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>फिल्डफोर मोनसे फाइल महरै</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>नायफिननायनि थाखाय खस्रा रान</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>लिंक दङो जेबो लिंकनि समाव जोबनो सिम एकाउन्ट गैयैनो नों-नि खस्रा नुयो। बेखौ नों-नि नायफिननायफोरनो साबायखिनो दैथि।</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>गिबियावनो मोनसे खस्रा थिना दो: रानलायनाय लिंकआ नों-नि खस्रा दिन्थियो।</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>नोंथाङा बे खस्रा रानलायनो हाया।</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>रानलायनाय लिंकनि थाखाय गुपुत जमानि सिम Exponential 6.0.15 एबा बेनि उनावनि नांगौ।</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>खामानि मावो</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>सोरनि थाखाय (गोसोखांनाय)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>लिंक सोरजि</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>लिंक कपि खालाम</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>कपि जादों।</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>%time सिम खामानि मावो</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>समाव जोबबाय</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>फिन ला</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>फिन लाखानाय</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>खेवनाय: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>खस्रा, बिदिन्थि %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>फोसावजानाय बिदिन्थि %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>दैथाय होनाय %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>नोंथांहा बे बिखंनि जेबो खस्रा गैया।</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>बे खस्राआव गनायथि होनाय बायदि खामानि मावग्रा लिंक दं। गिबियावनो मोनसे फिन ला।</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>नोंथाङा बे लिंकखौ फिन लानो हाया।</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>माबे फरमेट?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>माबे लिंक?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

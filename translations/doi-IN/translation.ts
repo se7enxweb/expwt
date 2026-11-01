@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>इस सफे पर कोई लेआउट ब्लॉक नेईं ऐ।</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>निर्यात</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>प्रिंट करो जां PDF दे रूप च सेव करो</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>पन्ने गी हुन जिʼयां ऐ उʼयां गै प्रिंट करदा ऐ। PDF पाने आस्तै प्रिंट डायलॉग च “PDF दे रूप च सेव करो” चुनो।</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>सिर्फ सामग्री, हेडर, मेनू ते फ़ुटर दे बगैर</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>लिंकें दे बाद लिंकें दे पते</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>फ़ील्ड इक फ़ाइल दे रूप च</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>समीक्षा आस्तै मसौदा सांझा करो</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>जिसदे कोल लिंक ऐ ओह् लिंक दी मेआद खत्म होने तगर बिना खाते दे तुंदा मसौदा दिक्खी सकदा ऐ। इसगी सिर्फ अपने समीक्षकें गी भेजो।</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>पैह्लें इक मसौदा सेव करो: सांझा लिंक तुंदा मसौदा दसदा ऐ।</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>तुसें गी एह् मसौदा सांझा करने दी अजाजत नेईं।</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>सांझा लिंकें आस्तै गुप्त भंडार कन्नै Exponential 6.0.15 जां इसदे बाद दा संस्करण चाहिदा।</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>चलदा ऐ</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>कुसदे आस्तै (वैकल्पिक)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>लिंक बनाओ</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>लिंक कॉपी करो</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>कॉपी होई गेआ।</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>%time तगर चलदा ऐ</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>मेआद खत्म</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>वापस लैओ</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>वापस लैता गेआ</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>खोह्लेआ गेआ: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>मसौदा, संस्करण %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>छपेआ संस्करण %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>निर्यात कीता गेआ %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>तुंदे कोल इस पन्ने दा कोई मसौदा नेईं।</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>इस मसौदे कोल जिन्ने चालू लिंकें दी अजाजत ऐ उन्ने न। पैह्लें इक वापस लैओ।</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>तुसें गी एह् लिंक वापस लैने दी अजाजत नेईं।</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>केह्ड़ा फ़ॉर्मेट?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>केह्ड़ा लिंक?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

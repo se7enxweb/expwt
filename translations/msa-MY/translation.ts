@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Tiada blok susun atur pada halaman ini.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Eksport</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Cetak atau simpan sebagai PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Mencetak halaman seperti keadaannya sekarang. Untuk mendapatkan PDF, pilih "Simpan sebagai PDF" dalam dialog cetak.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Kandungan sahaja, tanpa pengepala, menu dan pengaki</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Alamat pautan selepas pautan</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Medan sebagai fail</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Kongsi draf untuk semakan</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Sesiapa yang mempunyai pautan dapat melihat draf anda tanpa akaun sehingga pautan tamat tempoh. Hantar hanya kepada penyemak anda.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Simpan draf dahulu: pautan kongsi menunjukkan draf anda.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Anda tidak dibenarkan berkongsi draf ini.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Pautan kongsi memerlukan Exponential 6.0.15 atau lebih baharu, dengan stor rahsia.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Berfungsi selama</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Untuk siapa (pilihan)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Cipta pautan</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Salin pautan</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Disalin.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Berfungsi hingga %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Tamat tempoh</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Tarik balik</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Ditarik balik</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Dibuka: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Draf, versi %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Versi diterbitkan %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Dieksport %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Anda tiada draf halaman ini.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Draf ini sudah mempunyai seberapa banyak pautan aktif yang dibenarkan. Tarik balik satu dahulu.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Anda tidak dibenarkan menarik balik pautan ini.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Format yang mana?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Pautan yang mana?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

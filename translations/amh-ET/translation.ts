@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>በዚህ ገጽ ላይ ምንም የአቀማመጥ ብሎክ የለም።</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>ወደ ውጭ መላክ</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>ያትሙ ወይም እንደ PDF ያስቀምጡ</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>ገጹን አሁን ባለበት ሁኔታ ያትማል። PDF ለማግኘት በማተሚያ መስኮቱ ውስጥ «እንደ PDF አስቀምጥ»ን ይምረጡ።</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>ይዘቱ ብቻ፣ ያለ ራስጌ፣ ምናሌዎች እና ግርጌ</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>የአገናኝ አድራሻዎች ከአገናኞቹ በኋላ</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>መስኮች እንደ ፋይል</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>ረቂቁን ለግምገማ ያጋሩ</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>አገናኙ ያለው ማንኛውም ሰው አገናኙ እስኪያበቃ ድረስ ያለ መለያ ረቂቅዎን ያያል። ለገምጋሚዎችዎ ብቻ ይላኩት።</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>መጀመሪያ ረቂቅ ያስቀምጡ፦ የማጋሪያ አገናኝ ረቂቅዎን ያሳያል።</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>ይህን ረቂቅ ማጋራት አይፈቀድልዎትም።</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>የማጋሪያ አገናኞች Exponential 6.0.15 ወይም ከዚያ በኋላ ያለውን ከሚስጥር ማከማቻው ጋር ይፈልጋሉ።</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>የሚሰራበት ጊዜ</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>ለማን (አማራጭ)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>አገናኝ ፍጠር</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>አገናኝ ቅዳ</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>ተቀድቷል።</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>እስከ %time ይሰራል</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>ጊዜው አልፏል</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>አንሳ</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>ተነስቷል</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>የተከፈተው፦ %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>ረቂቅ፣ ስሪት %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>የታተመ ስሪት %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>የተላከው %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>የዚህ ገጽ ረቂቅ የለዎትም።</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>ይህ ረቂቅ የተፈቀደውን ያህል የሚሰሩ አገናኞች አሉት። መጀመሪያ አንዱን ያንሱ።</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>ይህን አገናኝ ማንሳት አይፈቀድልዎትም።</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>የትኛው ቅርጸት?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>የትኛው አገናኝ?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

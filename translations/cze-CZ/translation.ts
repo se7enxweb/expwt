@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Na této stránce není žádný blok rozvržení.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Export</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Tisk nebo uložení jako PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Vytiskne stránku tak, jak je teď. Chcete-li PDF, zvolte v dialogu tisku „Uložit jako PDF“.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Jen obsah, bez záhlaví, nabídek a zápatí</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Adresy odkazů za odkazy</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Pole jako soubor</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Sdílet koncept ke kontrole</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Kdokoli s odkazem uvidí váš koncept bez účtu, dokud platnost odkazu nevyprší. Pošlete ho jen svým recenzentům.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Nejprve uložte koncept: odkaz ke sdílení ukazuje váš koncept.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Tento koncept nesmíte sdílet.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Odkazy ke sdílení vyžadují Exponential 6.0.15 nebo novější s úložištěm tajemství.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Platí</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Pro koho (nepovinné)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Vytvořit odkaz</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Kopírovat odkaz</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Zkopírováno.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Platí do %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Vypršel</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Odvolat</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Odvolán</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Otevřen: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Koncept, verze %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Zveřejněná verze %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Exportováno %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Nemáte koncept této stránky.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Tento koncept má tolik platných odkazů, kolik je povoleno. Nejprve jeden odvolejte.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Tento odkaz nesmíte odvolat.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Jaký formát?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Který odkaz?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

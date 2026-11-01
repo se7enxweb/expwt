@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>navvamDaq mIllogh ghom tu'lu'be'.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>lup</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>ghItlh pagh PDF Dapol</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>DaH nav ghItlh, ghaH ngeD Dotlh. PDF DaneHchugh, ghItlhmeH QIn DaH “PDF Dapol” yIwIv.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>De' neH, nach, HIDjolev 'ej 'em Hutlh</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>rarwI'mey ghItlh rarwI'mey Qav Daq</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>De'mey teywI' rur</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>nab yIngeH, 'ar yInuD</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>rarwI' ghajbogh Hoch nablIj legh, mI' Hutlh, rarwI' Doq poH. bInuDwI'pu'lIj neH ngeH.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>wa'DIch nab yIpol: nablIj 'agh ngeHmeH rarwI'.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>nab DangeHlaHbe'.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>ngeHmeH rarwI'mey Exponential 6.0.15 pagh ghIq poQ, pegh De' polmeH Daq je.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Qap poH</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>'Iv (DaneHchugh)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>rarwI' chenmoH</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>rarwI' velqa'</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>velqa'pu'.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>%time Qap</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Doqpu'</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>teq</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>teqpu'</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>poSmoHpu': %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>nab, tlhegh %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>tlhegh 'anglu'pu' %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>lup %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>nav nab Daghajbe'.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>nab rarwI'mey Qapbogh law' tu'lu'. wa' yIteq wa'DIch.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>rarwI' DateqlaHbe'.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>ghItlh mIw 'Iv?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>rarwI' 'Iv?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

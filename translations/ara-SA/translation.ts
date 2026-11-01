@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>لا توجد كتلة تخطيط في هذه الصفحة.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>تصدير</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>الطباعة أو الحفظ بتنسيق PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>يطبع الصفحة كما هي الآن. للحصول على ملف PDF، اختر «حفظ كملف PDF» في نافذة الطباعة.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>المحتوى فقط، بدون الترويسة والقوائم والتذييل</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>عناوين الروابط بعد الروابط</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>الحقول كملف</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>مشاركة المسودة للمراجعة</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>يرى كل من لديه الرابط مسودتك دون حساب حتى تنتهي صلاحية الرابط. أرسله إلى المراجعين فقط.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>احفظ مسودة أولًا: يعرض رابط المشاركة مسودتك.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>لا يُسمح لك بمشاركة هذه المسودة.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>تتطلب روابط المشاركة Exponential 6.0.15 أو أحدث، مع مخزن الأسرار.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>صالح لمدة</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>لمن (اختياري)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>إنشاء رابط</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>نسخ الرابط</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>تم النسخ.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>صالح حتى %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>منتهي الصلاحية</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>سحب</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>مسحوب</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>مرات الفتح: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>مسودة، الإصدار %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>الإصدار المنشور %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>صُدِّر في %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>ليست لديك مسودة لهذه الصفحة.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>لدى هذه المسودة الحد الأقصى المسموح به من الروابط الصالحة. اسحب واحدًا أولًا.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>لا يُسمح لك بسحب هذا الرابط.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>أي تنسيق؟</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>أي رابط؟</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

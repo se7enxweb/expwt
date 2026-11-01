@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Tewali kitundu kya layout ku lupapula luno.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Okufulumya ebweru</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Kuba oba tereka nga PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Kikuba olupapula nga bwe luli kati. Okufuna PDF, londa "Tereka nga PDF" mu kadirisa k'okukuba.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Ebirimu byokka, awatali mutwe, menyu ne ntobo</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Endagiriro z'enkolagana oluvannyuma lw'enkolagana</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Ebifo nga fayiro</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Gabana ddulaafuti okwekebejjebwa</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Buli alina enkolagana alaba ddulaafuti yo awatali akawunti okutuusa enkolagana lw'eggwaako. Gisindike eri abakebera bo bokka.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Sooka otereke ddulaafuti: enkolagana ey'okugabana eraga ddulaafuti yo.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Tokkirizibwa kugabana ddulaafuti eno.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Enkolagana ez'okugabana zeetaaga Exponential 6.0.15 oba empya okusingawo, n'etterekero ly'ebyama.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Ekola okumala</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Kya ani (si kya tteeka)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Kola enkolagana</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Koppa enkolagana</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Kikoppeddwa.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Ekola okutuusa %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Eggwaako</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Ggyawo</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Eggyiddwawo</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Eggulwawo: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Ddulaafuti, enkyusa %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Enkyusa efulumiziddwa %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Kyafulumizibwa ebweru %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Tolina ddulaafuti ya lupapula luno.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Ddulaafuti eno erina enkolagana ezikola nga bwe kikkirizibwa. Sooka oggyewo emu.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Tokkirizibwa kuggyawo nkolagana eno.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Nkola ki?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Nkolagana ki?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

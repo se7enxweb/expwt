@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Qayb qaabeyn ah kuma jirto boggan.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Dhoofin</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Daabac ama u kaydi PDF ahaan</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Wuxuu daabacaa bogga sida uu hadda yahay. Si aad PDF u hesho, ka dooro “U kaydi PDF ahaan” sanduuqa daabacaadda.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Nuxurka oo keliya, la'aanta madaxa, liisaska iyo cagta</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Cinwaannada xiriirka kadib xiriirrada</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Goobaha oo fayl ah</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>La wadaag qabyada si dib loogu eego</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Qof kasta oo haysta xiriirka wuxuu arkaa qabyadaada isagoon akoon lahayn ilaa xiriirku ka dhacayo. U dir dib-u-eegayaashaada oo keliya.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Marka hore kaydi qabyo: xiriirka wadaaggu wuxuu muujiyaa qabyadaada.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Ma wadaagi kartid qabyadan.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Xiriirrada wadaaggu waxay u baahan yihiin Exponential 6.0.15 ama ka dambe, oo leh kaydka sirta.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Wuu shaqeeyaa muddo</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Yaa loogu talagalay (ikhtiyaari)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Samee xiriir</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Koobiyee xiriirka</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Waa la koobiyeeyay.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Wuu shaqeeyaa ilaa %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Wuu dhacay</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Ka noqo</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Laga noqday</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>La furay: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Qabyo, nooca %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Nooca la daabacay %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>La dhoofiyay %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Ma lihid qabyo boggan ah.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Qabyadani waxay leedahay inta xiriir ee shaqeeya ee la oggol yahay. Marka hore mid ka noqo.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Kama noqon kartid xiriirkan.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Qaabkee?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Xiriirkee?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

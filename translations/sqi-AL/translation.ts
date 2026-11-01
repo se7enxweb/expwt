@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Asnjë bllok faqosjeje në këtë faqe.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Eksporto</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Printo ose ruaj si PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Printon faqen ashtu siç është tani. Për të marrë një PDF, zgjidhni „Ruaje si PDF“ në dialogun e printimit.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Vetëm përmbajtja, pa kokë, menu dhe fund faqeje</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Adresat e lidhjeve pas lidhjeve</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Fushat si skedar</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Ndani skicën për rishikim</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Kushdo që ka lidhjen e sheh skicën tuaj pa llogari derisa lidhja të skadojë. Dërgojeni vetëm te rishikuesit tuaj.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Ruani fillimisht një skicë: një lidhje ndarjeje tregon skicën tuaj.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Nuk mund ta ndani këtë skicë.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Lidhjet e ndarjes kërkojnë Exponential 6.0.15 ose më të ri, me depon e sekreteve.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Vlen për</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Për kë (opsionale)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Krijo lidhje</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Kopjo lidhjen</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>U kopjua.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Vlen deri më %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Ka skaduar</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Tërhiq</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>E tërhequr</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Hapur: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Skicë, versioni %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Versioni i publikuar %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Eksportuar %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Nuk keni skicë të kësaj faqeje.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Kjo skicë ka aq lidhje aktive sa lejohen. Tërhiqni fillimisht një.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Nuk mund ta tërhiqni këtë lidhje.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Cili format?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Cila lidhje?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

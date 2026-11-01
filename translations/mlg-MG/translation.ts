@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Tsy misy sakana layout eto amin'ity pejy ity.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Fanondranana</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Atonta na tehirizo ho PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Manonta ny pejy araka ny toetrany ankehitriny. Raha te hahazo PDF, safidio ny «Tehirizo ho PDF» ao amin'ny varavarankelin'ny fanontana.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Ny votoaty ihany, tsy misy lohapejy, menio ary tongotra</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Adiresin'ny rohy aorian'ny rohy</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Saha ho rakitra</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Zarao ny drafitra mba hodinihina</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Izay rehetra manana ny rohy dia mahita ny drafitrao tsy mila kaonty mandra-pahatapitry ny rohy. Alefaso amin'ireo mpandinika anao ihany izany.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Tehirizo aloha ny drafitra: ny rohy fizarana dia mampiseho ny drafitrao.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Tsy azonao zaraina ity drafitra ity.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Mila Exponential 6.0.15 na vaovao kokoa, miaraka amin'ny fitehirizana tsiambaratelo, ny rohy fizarana.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Mandeha mandritra ny</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Ho an'iza (tsy voatery)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Mamorona rohy</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Adikao ny rohy</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Voadika.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Mandeha hatramin'ny %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Lany daty</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Esory</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Nesorina</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Nosokafana: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Drafitra, dikan-teny %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Dikan-teny navoaka %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Naondrana %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Tsy manana drafitr'ity pejy ity ianao.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Efa manana rohy miasa araka izay avela ity drafitra ity. Esory aloha ny iray.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Tsy azonao esorina ity rohy ity.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Endrika inona?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Rohy inona?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

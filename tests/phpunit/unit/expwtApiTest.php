@@ -93,6 +93,10 @@ class expwtApiTestGateway extends expwtGateway
     public function calendarPublish( array $in ) { return $this->record( 'calendarPublish', $in ); }
     public function calendarTakeDown( array $in ) { return $this->record( 'calendarTakeDown', $in ); }
     public function calendarVariant( array $in ) { return $this->record( 'calendarVariant', $in ); }
+    public function exportFields( array $in ) { return $this->record( 'exportFields', $in ); }
+    public function shareLinks( array $in ) { return $this->record( 'shareLinks', $in ); }
+    public function shareCreate( array $in ) { return $this->record( 'shareCreate', $in ); }
+    public function shareRevoke( array $in ) { return $this->record( 'shareRevoke', $in ); }
     public $migrations = array( 'attention' => 2 );
     public function migrationsOffer() { return $this->migrations; }
     public function migrations() { return $this->record( 'migrations', array() ); }

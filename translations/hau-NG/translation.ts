@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Babu tubalin tsari a wannan shafi.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Fitarwa</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Buga ko adana a matsayin PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Yana buga shafin kamar yadda yake yanzu. Don samun PDF, zaɓi "Adana a matsayin PDF" a cikin akwatin bugu.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Abun ciki kawai, ba tare da kai, menu da ƙafa ba</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Adireshin mahaɗi bayan mahaɗin</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Filaye a matsayin fayil</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Raba daftarin don dubawa</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Duk wanda ke da mahaɗin yana ganin daftarinka ba tare da asusu ba har sai mahaɗin ya ƙare. Aika shi ga masu dubawa kawai.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Fara adana daftari: mahaɗin rabawa yana nuna daftarinka.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Ba a ba ka izinin raba wannan daftarin ba.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Mahaɗan rabawa suna buƙatar Exponential 6.0.15 ko sabo, tare da ma'ajiyar sirri.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Yana aiki na</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Ga wa (na zaɓi)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Ƙirƙiri mahaɗi</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Kwafi mahaɗi</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>An kwafa.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Yana aiki har %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Ya ƙare</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Janye</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>An janye</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>An buɗe: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Daftari, siga %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Sigar da aka wallafa %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>An fitar %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Ba ka da daftarin wannan shafin.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Wannan daftarin yana da mahaɗai masu aiki gwargwadon yadda aka yarda. Fara janye ɗaya.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Ba a ba ka izinin janye wannan mahaɗin ba.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Wane tsari?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Wane mahaɗi?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

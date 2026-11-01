@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Šiame puslapyje nėra maketo bloko.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Eksportas</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Spausdinti arba išsaugoti kaip PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Išspausdina puslapį tokį, koks jis yra dabar. Norėdami gauti PDF, spausdinimo dialogo lange pasirinkite „Išsaugoti kaip PDF“.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Tik turinys, be antraštės, meniu ir poraštės</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Nuorodų adresai po nuorodų</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Laukai kaip failas</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Bendrinti juodraštį peržiūrai</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Kiekvienas, turintis nuorodą, be paskyros mato jūsų juodraštį, kol nuoroda nebegalioja. Siųskite ją tik savo peržiūrėtojams.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Pirmiausia išsaugokite juodraštį: bendrinimo nuoroda rodo jūsų juodraštį.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Jums neleidžiama bendrinti šio juodraščio.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Bendrinimo nuorodoms reikia Exponential 6.0.15 ar naujesnės versijos su paslapčių saugykla.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Galioja</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Kam (neprivaloma)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Sukurti nuorodą</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Kopijuoti nuorodą</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Nukopijuota.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Galioja iki %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Nebegalioja</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Atšaukti</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Atšaukta</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Atidaryta: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Juodraštis, versija %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Paskelbta versija %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Eksportuota %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Neturite šio puslapio juodraščio.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Šis juodraštis jau turi tiek veikiančių nuorodų, kiek leidžiama. Pirmiausia atšaukite vieną.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Jums neleidžiama atšaukti šios nuorodos.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Kuris formatas?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Kuri nuoroda?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>ߛߊ߲߬ߞߊ߬ߙߊ߬ ߓߟߐߞߌ ߛߌ߫ ߕߍ߫ ߞߐߜߍ ߣߌ߲߬ ߞߊ߲߬.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>ߟߊߓߐߟߌ</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>ߛߓߍߟߌ ߥߟߊ߫ ߟߊߓߊ߲ߓߊ߲ ߞߵߊ߬ ߞߍ߫ PDF ߘߌ߫</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>ߞߐߜߍ ߛߓߍߣߍ߲߫ ߦߋ߫ ߊ߬ ߟߊ߬ߓߊ߲߬ ߦߙߍ߲߬ ߘߐ߫ ߟߋ߬. ߞߊ߬ PDF ߛߐ߬ߘߐ߲߬߸ ߊ߬ ߘߐߞߏߟߏ߲ ߛߓߍߟߌ ߝߊ߲ߓߊ ߘߐ߫ "ߊ߬ ߟߊߓߊ߲ߓߊ߲ ߞߵߊ߬ ߞߍ߫ PDF ߘߌ߫".</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>ߞߣߐߘߐ ߘߐߙߐ߲߫߸ ߞߎ߲ߠߊ߫ ߣߌ߫ ߛߎ߬ߥߊ߲߬ߘߌ߫ ߣߌ߫ ߛߋ߲ߠߊ߫ ߕߍ߫ ߊ߬ ߘߐ߫</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>ߛߘߌ߬ߜߋ߲ ߘߊߞߎ߲ ߛߘߌ߬ߜߋ߲ ߠߎ߬ ߞߐ߫</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>ߝߊ߲ߓߊ ߟߎ߬ ߞߊ߬ ߞߍ߫ ߞߐߕߐ߮ ߘߌ߫</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>ߓߙߎߦߐ߲ ߟߊߘߍ߬ ߟߊ߬ߓߍ߲߬ߢߐ߲߰ߦߊ ߘߐ߫</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>ߡߍ߲ ߓߍ߯ ߛߘߌ߬ߜߋ߲ ߘߌ߫߸ ߏ߬ ߘߌ߫ ߌ ߟߊ߫ ߓߙߎߦߐ߲ ߘߐߜߍ߫ ߖߊ߯ߓߌ߬ ߕߍ߫ ߛߘߌ߬ߜߋ߲ ߕߎ߬ߡߊ ߓߊ߲ ߕߍ߫ ߤߊ߲߯. ߊ߬ ߗߋ߫ ߌ ߟߊ߫ ߟߊ߬ߓߍ߲߬ߢߐ߲߰ߦߊߟߊ ߟߎ߬ ߘߐߙߐ߲߫ ߡߊ߬.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>ߓߙߎߦߐ߲ ߘߏ߫ ߟߊߓߊ߲ߓߊ߲ ߝߟߐ߫: ߟߊ߬ߘߍ߬ ߛߘߌ߬ߜߋ߲ ߦߋ߫ ߌ ߟߊ߫ ߓߙߎߦߐ߲ ߟߊߓߊ߯ߙߊ߫ ߟߋ߬.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>ߌ ߡߊ߫ ߟߊߘߌ߬ߢߍ߬ ߞߊ߬ ߓߙߎߦߐ߲ ߣߌ߲߬ ߟߊߘߍ߬.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>ߟߊ߬ߘߍ߬ ߛߘߌ߬ߜߋ߲ ߠߎ߬ ߦߋ߫ Exponential 6.0.15 ߥߟߊ߫ ߡߍ߲ ߠߎ߬ ߓߘߊ߫ ߘߏ߲߬ ߊ߬ ߞߐ߫ ߟߋ߬ ߝߍ߬ߓߊ߮߸ ߛߌ߬ߟߊ߲߬ߠߊ߲߬ ߟߊߓߊ߲ߓߊ߲ߦߙߐ ߣߌ߫.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>ߊ߬ ߓߍ߯ ߓߊ߯ߙߊ ߞߍ߫ ߕߎ߬ߡߊ ߡߍ߲ ߠߎ߬</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>ߡߍ߲ ߦߋ߫ (ߣߊ߬ߕߊ߲߬ߓߊ߯ߟߌ)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>ߛߘߌ߬ߜߋ߲ ߛߌ߲ߘߌ߫</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>ߛߘߌ߬ߜߋ߲ ߓߊߓߌ߬ߟߊ߬</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>ߊ߬ ߓߊߓߌ߬ߟߊ߬ ߘߊ߫.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>ߊ߬ ߓߍ߯ ߓߊ߯ߙߊ ߞߍ߫ ߝߏ߫ %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>ߕߎ߬ߡߊ ߓߊ߲߫ ߘߊ߫</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>ߓߐ߫ ߊ߬ ߟߊ߫</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>ߓߐ߫ ߘߊ߫ ߊ߬ ߟߊ߫</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>ߟߊߞߊ߬ߙߊ߲߬ ߘߊ߫: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>ߓߙߎߦߐ߲߸ ߦߌߟߡߊ %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>ߦߌߟߡߊ ߓߌߟߊߟߍ߲ %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>ߟߊߓߐ߬ ߘߊ߫ %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>ߓߙߎߦߐ߲߫ ߕߍ߫ ߌ ߓߟߏ߫ ߞߐߜߍ ߣߌ߲߬ ߠߊ߫.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>ߛߘߌ߬ߜߋ߲ ߡߍ߲ ߠߎ߬ ߓߍ߯ ߓߊ߯ߙߊ ߞߍ߫ ߟߊ߫߸ ߓߙߎߦߐ߲ ߣߌ߲߬ ߓߟߏ߫ ߏ߬ ߓߍ߯ ߢߊ߫ ߛߊ߫. ߞߋߟߋ߲߫ ߓߐ߫ ߊ߬ ߟߊ߫ ߝߟߐ߫.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>ߌ ߡߊ߫ ߟߊߘߌ߬ߢߍ߬ ߞߊ߬ ߛߘߌ߬ߜߋ߲ ߣߌ߲߬ ߓߐ߫ ߊ߬ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>ߞߎ߲߬ߠߊ߬ߘߐ ߖߐ߲߫؟</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>ߛߘߌ߬ߜߋ߲ ߖߐ߲߫؟</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

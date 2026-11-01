@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>ଏହି ପୃଷ୍ଠାରେ କୌଣସି ଲେଆଉଟ୍ ବ୍ଲକ ନାହିଁ।</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>ରପ୍ତାନି</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>ପ୍ରିଣ୍ଟ କରନ୍ତୁ କିମ୍ବା PDF ଭାବରେ ସେଭ କରନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>ପୃଷ୍ଠାକୁ ବର୍ତ୍ତମାନ ଯେପରି ଅଛି ସେପରି ପ୍ରିଣ୍ଟ କରେ। PDF ପାଇବା ପାଇଁ ପ୍ରିଣ୍ଟ ଡାୟଲଗରେ "PDF ଭାବରେ ସେଭ କରନ୍ତୁ" ବାଛନ୍ତୁ।</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>କେବଳ ବିଷୟବସ୍ତୁ, ହେଡର, ମେନୁ ଓ ଫୁଟର ବିନା</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>ଲିଙ୍କ ପରେ ଲିଙ୍କ ଠିକଣା</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>ଫିଲ୍ଡଗୁଡ଼ିକ ଫାଇଲ ଭାବରେ</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>ସମୀକ୍ଷା ପାଇଁ ଖସଡ଼ା ସେୟାର କରନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>ଲିଙ୍କ ଥିବା ଯେକେହି ଲିଙ୍କର ମିଆଦ ଶେଷ ହେବା ପର୍ଯ୍ୟନ୍ତ ଆକାଉଣ୍ଟ ବିନା ଆପଣଙ୍କ ଖସଡ଼ା ଦେଖିପାରିବେ। ଏହାକୁ କେବଳ ଆପଣଙ୍କ ସମୀକ୍ଷକମାନଙ୍କୁ ପଠାନ୍ତୁ।</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>ପ୍ରଥମେ ଏକ ଖସଡ଼ା ସେଭ କରନ୍ତୁ: ସେୟାର ଲିଙ୍କ ଆପଣଙ୍କ ଖସଡ଼ା ଦେଖାଏ।</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>ଆପଣ ଏହି ଖସଡ଼ା ସେୟାର କରିପାରିବେ ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>ସେୟାର ଲିଙ୍କ ପାଇଁ ଗୋପନ ଷ୍ଟୋର ସହ Exponential 6.0.15 କିମ୍ବା ପରବର୍ତ୍ତୀ ସଂସ୍କରଣ ଆବଶ୍ୟକ।</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>କାମ କରିବା ଅବଧି</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>କାହା ପାଇଁ (ବୈକଳ୍ପିକ)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>ଲିଙ୍କ ତିଆରି କରନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>ଲିଙ୍କ କପି କରନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>କପି ହେଲା।</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>%time ପର୍ଯ୍ୟନ୍ତ କାମ କରେ</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>ମିଆଦ ଶେଷ</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>ପ୍ରତ୍ୟାହାର କରନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>ପ୍ରତ୍ୟାହୃତ</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>ଖୋଲାଯାଇଛି: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>ଖସଡ଼ା, ସଂସ୍କରଣ %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>ପ୍ରକାଶିତ ସଂସ୍କରଣ %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>ରପ୍ତାନି ହୋଇଛି %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>ଏହି ପୃଷ୍ଠାର ଆପଣଙ୍କ କୌଣସି ଖସଡ଼ା ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>ଏହି ଖସଡ଼ାରେ ଅନୁମତି ଥିବା ସମସ୍ତ ସକ୍ରିୟ ଲିଙ୍କ ଅଛି। ପ୍ରଥମେ ଗୋଟିଏ ପ୍ରତ୍ୟାହାର କରନ୍ତୁ।</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>ଆପଣ ଏହି ଲିଙ୍କ ପ୍ରତ୍ୟାହାର କରିପାରିବେ ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>କେଉଁ ଫର୍ମାଟ?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>କେଉଁ ଲିଙ୍କ?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

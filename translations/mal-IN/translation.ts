@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>ഈ പേജിൽ ലേഔട്ട് ബ്ലോക്കില്ല.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>എക്സ്പോർട്ട്</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>പ്രിന്റ് ചെയ്യുക അല്ലെങ്കിൽ PDF ആയി സംരക്ഷിക്കുക</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>പേജ് ഇപ്പോഴുള്ളതുപോലെ പ്രിന്റ് ചെയ്യുന്നു. PDF ലഭിക്കാൻ, പ്രിന്റ് ഡയലോഗിൽ "PDF ആയി സംരക്ഷിക്കുക" തിരഞ്ഞെടുക്കുക.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>ഉള്ളടക്കം മാത്രം, ഹെഡർ, മെനുകൾ, ഫൂട്ടർ എന്നിവയില്ലാതെ</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>ലിങ്കുകൾക്ക് ശേഷം ലിങ്ക് വിലാസങ്ങൾ</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>ഫീൽഡുകൾ ഫയലായി</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>അവലോകനത്തിനായി ഡ്രാഫ്റ്റ് പങ്കിടുക</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>ലിങ്കുള്ള ആർക്കും ലിങ്ക് കാലഹരണപ്പെടുന്നതുവരെ അക്കൗണ്ട് ഇല്ലാതെ നിങ്ങളുടെ ഡ്രാഫ്റ്റ് കാണാം. ഇത് നിങ്ങളുടെ അവലോകകർക്ക് മാത്രം അയയ്ക്കുക.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>ആദ്യം ഒരു ഡ്രാഫ്റ്റ് സംരക്ഷിക്കുക: പങ്കിടൽ ലിങ്ക് നിങ്ങളുടെ ഡ്രാഫ്റ്റ് കാണിക്കുന്നു.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>ഈ ഡ്രാഫ്റ്റ് പങ്കിടാൻ നിങ്ങൾക്ക് അനുമതിയില്ല.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>പങ്കിടൽ ലിങ്കുകൾക്ക് രഹസ്യ സംഭരണിയോടുകൂടിയ Exponential 6.0.15 അല്ലെങ്കിൽ പുതിയത് ആവശ്യമാണ്.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>സാധുതാ കാലയളവ്</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>ആർക്കുവേണ്ടി (ഓപ്ഷണൽ)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>ലിങ്ക് സൃഷ്ടിക്കുക</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>ലിങ്ക് പകർത്തുക</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>പകർത്തി.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>%time വരെ സാധുവാണ്</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>കാലഹരണപ്പെട്ടു</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>പിൻവലിക്കുക</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>പിൻവലിച്ചു</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>തുറന്നത്: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>ഡ്രാഫ്റ്റ്, പതിപ്പ് %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>പ്രസിദ്ധീകരിച്ച പതിപ്പ് %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>%time-ന് എക്സ്പോർട്ട് ചെയ്തു</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>ഈ പേജിന്റെ ഡ്രാഫ്റ്റ് നിങ്ങൾക്കില്ല.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>ഈ ഡ്രാഫ്റ്റിന് അനുവദനീയമായത്രയും സജീവ ലിങ്കുകൾ ഇതിനകം ഉണ്ട്. ആദ്യം ഒന്ന് പിൻവലിക്കുക.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>ഈ ലിങ്ക് പിൻവലിക്കാൻ നിങ്ങൾക്ക് അനുമതിയില്ല.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>ഏത് ഫോർമാറ്റ്?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>ഏത് ലിങ്ക്?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

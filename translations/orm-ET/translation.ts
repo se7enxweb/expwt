@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Fuula kana irratti kutaan qindaa'inaa hin jiru.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Erguu</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Maxxansi ykn akka PDF tti olkaa'i</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Fuula akkuma amma jirutti maxxansa. PDF argachuuf, foddaa maxxansaa keessatti "Akka PDF tti olkaa'i" filadhu.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Qabiyyee qofa, mataa, baafataa fi miila malee</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Teessoo geessituu geessituuwwan booda</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Dirreewwan akka faayilaatti</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Wixinee gamaaggamaaf qoodi</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Namni geessituu qabu kamiyyuu hanga yeroon geessituu dhumutti herrega malee wixinee kee ni arga. Gamaaggamtoota kee qofaaf ergi.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Dura wixinee olkaa'i: geessituun qoodinsaa wixinee kee agarsiisa.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Wixinee kana qooduuf hin hayyamamu.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Geessituuwwan qoodinsaa Exponential 6.0.15 ykn isaa ol, kuusaa iccitii waliin, barbaadu.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Kan hojjetu</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Eenyuuf (filannoo)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Geessituu uumi</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Geessituu garagalchi</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Garagalfameera.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Hanga %time tti hojjeta</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Yeroon isaa darbeera</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Deebisi</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Deebifameera</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Banameera: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Wixinee, gosa %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Gosa maxxanfame %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Ergameera %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Wixinee fuula kanaa hin qabdu.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Wixineen kun geessituuwwan hojjetan hamma hayyamamee qaba. Dura tokko deebisi.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Geessituu kana deebisuuf hin hayyamamu.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Bifa kami?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Geessituu kami?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

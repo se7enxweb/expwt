@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Brak bloków układu na tej stronie.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Eksport</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Drukuj lub zapisz jako PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Drukuje stronę w obecnej postaci. Aby uzyskać plik PDF, wybierz „Zapisz jako PDF” w oknie drukowania.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Tylko treść, bez nagłówka, menu i stopki</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Adresy linków za linkami</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Pola jako plik</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Udostępnij wersję roboczą do recenzji</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Każdy, kto ma link, widzi Twoją wersję roboczą bez konta, dopóki link nie wygaśnie. Wyślij go tylko recenzentom.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Najpierw zapisz wersję roboczą: link udostępniania pokazuje Twoją wersję roboczą.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Nie możesz udostępnić tej wersji roboczej.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Linki udostępniania wymagają Exponential 6.0.15 lub nowszego z magazynem sekretów.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Ważny przez</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Dla kogo (opcjonalnie)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Utwórz link</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Kopiuj link</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Skopiowano.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Ważny do %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Wygasł</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Wycofaj</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Wycofany</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Otwarto: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Wersja robocza, wersja %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Opublikowana wersja %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Wyeksportowano %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Nie masz wersji roboczej tej strony.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Ta wersja robocza ma już maksymalną dozwoloną liczbę aktywnych linków. Najpierw wycofaj jeden.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Nie możesz wycofać tego linku.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Który format?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Który link?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

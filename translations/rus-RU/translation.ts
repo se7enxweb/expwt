@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>На этой странице нет блоков макета.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Экспорт</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Печать или сохранение в PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Печатает страницу в её текущем виде. Чтобы получить PDF, выберите «Сохранить как PDF» в диалоге печати.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Только содержимое, без шапки, меню и подвала</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Адреса ссылок после ссылок</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Поля в виде файла</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Поделиться черновиком для проверки</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Любой, у кого есть ссылка, видит ваш черновик без учётной записи, пока срок действия ссылки не истечёт. Отправляйте её только проверяющим.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Сначала сохраните черновик: ссылка для доступа показывает ваш черновик.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Вам не разрешено делиться этим черновиком.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Для ссылок доступа нужен Exponential 6.0.15 или новее, с хранилищем секретов.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Действует</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Для кого (необязательно)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Создать ссылку</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Копировать ссылку</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Скопировано.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Действует до %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Истекла</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Отозвать</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Отозвана</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Открыта: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Черновик, версия %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Опубликованная версия %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Экспортировано %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>У вас нет черновика этой страницы.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>У этого черновика уже максимально допустимое число действующих ссылок. Сначала отзовите одну.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Вам не разрешено отзывать эту ссылку.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Какой формат?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Какая ссылка?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

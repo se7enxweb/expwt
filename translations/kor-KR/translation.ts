@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>이 페이지에는 레이아웃 블록이 없습니다.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>내보내기</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>인쇄 또는 PDF로 저장</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>페이지를 현재 상태 그대로 인쇄합니다. PDF를 만들려면 인쇄 대화상자에서 “PDF로 저장”을 선택하세요.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>머리글, 메뉴, 바닥글 없이 콘텐츠만</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>링크 뒤에 링크 주소 표시</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>필드를 파일로</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>검토용으로 초안 공유</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>링크가 있는 사람은 누구나 링크가 만료될 때까지 계정 없이 내 초안을 볼 수 있습니다. 검토자에게만 보내세요.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>먼저 초안을 저장하세요. 공유 링크는 내 초안을 보여 줍니다.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>이 초안을 공유할 권한이 없습니다.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>공유 링크를 사용하려면 비밀 저장소가 있는 Exponential 6.0.15 이상이 필요합니다.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>유효 기간</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>받는 사람(선택 사항)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>링크 만들기</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>링크 복사</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>복사했습니다.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>%time까지 유효</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>만료됨</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>철회</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>철회됨</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>열람 횟수: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>초안, 버전 %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>게시된 버전 %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>%time에 내보냄</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>이 페이지의 초안이 없습니다.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>이 초안에는 허용된 수만큼 유효한 링크가 이미 있습니다. 먼저 하나를 철회하세요.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>이 링크를 철회할 권한이 없습니다.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>어떤 형식인가요?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>어떤 링크인가요?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

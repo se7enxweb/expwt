@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Aucun bloc de mise en page sur cette page.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Exporter</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Imprimer ou enregistrer en PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Imprime la page telle qu'elle est maintenant. Pour obtenir un PDF, choisissez « Enregistrer au format PDF » dans la boîte de dialogue d'impression.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Seulement le contenu, sans en-tête, menus ni pied de page</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Adresses des liens après les liens</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Champs dans un fichier</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Partager le brouillon pour relecture</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Toute personne disposant du lien voit votre brouillon sans compte jusqu'à l'expiration du lien. Envoyez-le uniquement à vos relecteurs.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Enregistrez d'abord un brouillon : un lien de partage affiche votre brouillon.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Vous n'êtes pas autorisé à partager ce brouillon.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Les liens de partage nécessitent Exponential 6.0.15 ou une version ultérieure, avec le coffre de secrets.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Valable</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Pour qui (facultatif)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Créer un lien</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Copier le lien</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Copié.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Valable jusqu'à %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Expiré</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Retirer</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Retiré</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Ouvert : %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Brouillon, version %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Version publiée %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Exporté %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Vous n'avez aucun brouillon de cette page.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Ce brouillon a déjà autant de liens actifs qu'autorisé. Retirez-en un d'abord.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Vous n'êtes pas autorisé à retirer ce lien.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Quel format ?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Quel lien ?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

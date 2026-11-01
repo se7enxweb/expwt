@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>ایس صفحے تے کوئی لے آؤٹ بلاک نئیں۔</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>برآمد</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>پرنٹ کرو یا PDF وجوں محفوظ کرو</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>صفحے نوں جیویں اوہ ہُݨ اے اوویں پرنٹ کردا اے۔ PDF لین لئی پرنٹ ڈائیلاگ وچ "PDF وجوں محفوظ کرو" چُݨو۔</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>صرف مواد، ہیڈر، مینو تے فُٹر توں بغیر</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>لنکاں توں بعد لنک دے پتے</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>خانے فائل وجوں</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>جائزے لئی مسودہ سانجھا کرو</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>جیہدے کول وی لنک ہووے اوہ لنک دی میعاد مُکن تک کھاتے توں بغیر تہاڈا مسودہ ویکھ سکدا اے۔ اینوں صرف اپنے جائزہ لین والیاں نوں گھلو۔</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>پہلاں اک مسودہ محفوظ کرو: سانجھا لنک تہاڈا مسودہ وکھاندا اے۔</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>تسیں ایہ مسودہ سانجھا نہیں کر سکدے۔</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>سانجھے لنکاں لئی خفیہ سٹور نال Exponential 6.0.15 یا نواں ورژن چاہیدا اے۔</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>کم کرن دی مدت</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>کیہدے لئی (اختیاری)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>لنک بݨاؤ</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>لنک کاپی کرو</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>کاپی ہو گیا۔</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>%time تک کم کردا اے</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>میعاد مُک گئی</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>واپس لوو</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>واپس لے لیا گیا</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>کھولیا گیا: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>مسودہ، ورژن %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>چھپیا ہویا ورژن %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>برآمد کیتا %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>تہاڈے کول ایس صفحے دا کوئی مسودہ نہیں۔</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>ایس مسودے دے اجازت جِنّے چالو لنک ہو گئے نیں۔ پہلاں اک واپس لوو۔</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>تسیں ایہ لنک واپس نہیں لے سکدے۔</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>کیہڑا فارمیٹ؟</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>کیہڑا لنک؟</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

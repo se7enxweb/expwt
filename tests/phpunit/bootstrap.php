@@ -20,6 +20,7 @@ $expwtClasses = array(
     'expwtRegistry' => 'expwtregistry.php', 'expwtCalendar' => 'expwtcalendar.php',
     'expwtCommentModeration' => 'expwtcommentmoderation.php', 'expwtImages' => 'expwtimages.php',
     'expwtRolePanels' => 'expwtrolepanels.php', 'expwtBranding' => 'expwtbranding.php', 'expwtPerformance' => 'expwtperformance.php',
+    'expwtExport' => 'expwtexport.php',
 );
 foreach ( $expwtClasses as $expwtClass => $expwtFile )
 {

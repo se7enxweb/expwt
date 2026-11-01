@@ -116,6 +116,10 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
                                 'rules' => array( 'content/removeobject ConfirmButton', 'content/edit PublishButton PublishNotNotifyButton' ) ) ) );
         $this->assertSame( 'content', expwtReauthTriggerHandler::groupOf( 'draft.publish', $settings ) );
         $this->assertSame( 'content', expwtReauthTriggerHandler::groupOf( 'tree.trash', $settings ) );
+        // a share link to a draft and the fields as a file ask as the administration's exports do (E13)
+        $this->assertSame( 'export', expwtReauthTriggerHandler::groupOf( 'share.create', $settings ) );
+        $this->assertSame( 'export', expwtReauthTriggerHandler::groupOf( 'export.fields', $settings ) );
+        $this->assertNull( expwtReauthTriggerHandler::groupOf( 'share.load', $settings ) );
         $this->assertNull( expwtReauthTriggerHandler::groupOf( 'draft.save', $settings ), 'StoreButton is not in the rules' );
         $this->assertNull( expwtReauthTriggerHandler::groupOf( 'boot', $settings ) );
         $settings['groups']['content']['enabled'] = false;

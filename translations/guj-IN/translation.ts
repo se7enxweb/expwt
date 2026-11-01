@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>આ પેજ પર કોઈ લેઆઉટ બ્લોક નથી.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>નિકાસ</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>પ્રિન્ટ કરો અથવા PDF તરીકે સાચવો</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>પેજને અત્યારે જેવું છે તેવું પ્રિન્ટ કરે છે. PDF મેળવવા માટે, પ્રિન્ટ સંવાદમાં "PDF તરીકે સાચવો" પસંદ કરો.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>ફક્ત સામગ્રી, હેડર, મેનુ અને ફૂટર વિના</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>લિંક પછી લિંકના સરનામાં</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>ફીલ્ડ્સ ફાઇલ તરીકે</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>સમીક્ષા માટે ડ્રાફ્ટ શેર કરો</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>લિંક ધરાવનાર કોઈ પણ વ્યક્તિ લિંકની મુદત પૂરી થાય ત્યાં સુધી એકાઉન્ટ વિના તમારો ડ્રાફ્ટ જુએ છે. તેને ફક્ત તમારા સમીક્ષકોને જ મોકલો.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>પહેલા એક ડ્રાફ્ટ સાચવો: શેર લિંક તમારો ડ્રાફ્ટ બતાવે છે.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>તમને આ ડ્રાફ્ટ શેર કરવાની પરવાનગી નથી.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>શેર લિંક માટે Exponential 6.0.15 અથવા પછીનું સંસ્કરણ, સિક્રેટ સ્ટોર સાથે, જરૂરી છે.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>માન્ય સમય</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>કોના માટે (વૈકલ્પિક)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>લિંક બનાવો</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>લિંક કૉપિ કરો</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>કૉપિ થયું.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>%time સુધી માન્ય</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>મુદત પૂરી</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>પાછી ખેંચો</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>પાછી ખેંચાઈ</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>ખોલાઈ: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>ડ્રાફ્ટ, સંસ્કરણ %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>પ્રકાશિત સંસ્કરણ %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>નિકાસ થયું %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>તમારી પાસે આ પેજનો કોઈ ડ્રાફ્ટ નથી.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>આ ડ્રાફ્ટ પાસે મંજૂર હોય તેટલી સક્રિય લિંક છે. પહેલા એક પાછી ખેંચો.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>તમને આ લિંક પાછી ખેંચવાની પરવાનગી નથી.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>કયું ફોર્મેટ?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>કઈ લિંક?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

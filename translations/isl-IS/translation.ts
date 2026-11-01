@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Engin útlitsblokk á þessari síðu.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Útflutningur</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Prenta eða vista sem PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Prentar síðuna eins og hún er núna. Til að fá PDF skaltu velja „Vista sem PDF“ í prentglugganum.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Aðeins efnið, án síðuhauss, valmynda og síðufótar</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Slóðir tengla á eftir tenglunum</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Svæði sem skrá</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Deila drögunum til yfirlestrar</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Hver sem er með tengilinn sér drögin þín án aðgangs þar til tengillinn rennur út. Sendu hann aðeins yfirlesurum þínum.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Vistaðu fyrst drög: deilitengill sýnir drögin þín.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Þú mátt ekki deila þessum drögum.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Deilitenglar krefjast Exponential 6.0.15 eða nýrra, með leynigeymslunni.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Gildir í</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Fyrir hvern (valfrjálst)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Búa til tengil</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Afrita tengil</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Afritað.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Gildir til %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Útrunninn</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Afturkalla</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Afturkallaður</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Opnaður: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Drög, útgáfa %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Birt útgáfa %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Flutt út %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Þú átt engin drög af þessari síðu.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Þessi drög hafa eins marga virka tengla og leyft er. Afturkallaðu einn fyrst.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Þú mátt ekki afturkalla þennan tengil.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Hvaða snið?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Hvaða tengil?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

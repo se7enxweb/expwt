@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Ulac iḥder n tneɣruft deg usebter-a.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Asifeḍ</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Siggez neɣ sekles d PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Yessiggiz asebter akken yella tura. Akken ad d-tawiḍ PDF, fren «Sekles d PDF» deg udiwenni n usiggez.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>D agbur kan, war aqerru, umuɣen d uḍar</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Tansiwin n yiseɣwan deffir n yiseɣwan</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Urtan d afaylu</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Bḍu arewway i weselken</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Yal win yesɛan aseɣwen ad iwali arewway-ik war amiḍan alamma yemmut useɣwen. Azen-it kan i yimselken-ik.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Sekles arewway qbel: aseɣwen n beṭṭu ad d-isken arewway-ik.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Ur tezmireḍ ara ad tebḍuḍ arewway-a.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Iseɣwan n beṭṭu sran Exponential 6.0.15 neɣ ugar, s uḥraz n tuffirin.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Ileḥḥu i</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>I wumi (d afrayan)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Snulfu-d aseɣwen</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Nɣel aseɣwen</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Yettwanɣel.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Ileḥḥu alamma %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Yemmut</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Kkes</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Yettwakkes</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Yeldi: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Arewway, lqem %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Lqem yettwasiẓregen %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Yettwasifeḍ %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Ur tesɛiḍ ara arewway n usebter-a.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Arewway-a yesɛa aṭas n yiseɣwan yettemhalen akken yettusireg. Kkes yiwen qbel.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Ur tezmireḍ ara ad tekkseḍ aseɣwen-a.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Anwa amasal?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Anwa aseɣwen?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

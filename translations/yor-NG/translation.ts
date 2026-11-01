@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Kò sí búlọ́ọ̀kù ìfilélẹ̀ lórí ojú-ìwé yìí.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Gbé jáde</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Tẹ̀ tàbí fipamọ́ bí PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Ó ń tẹ ojú ìwé náà bí ó ṣe rí báyìí. Láti gba PDF, yan “Fipamọ́ bí PDF” nínú àpótí ìtẹ̀wé.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Àkóónú nìkan, láìsí àkọlé, àwọn àkójọ àṣàyàn àti ẹsẹ̀ ojú ìwé</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Àdírẹ́sì ìjápọ̀ lẹ́yìn àwọn ìjápọ̀</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Àwọn pápá bí fáìlì</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Pín àkọsílẹ̀ àkọ́kọ́ fún àyẹ̀wò</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Ẹnikẹ́ni tó ní ìjápọ̀ náà máa rí àkọsílẹ̀ àkọ́kọ́ rẹ láìsí àkáǹtì títí ìjápọ̀ náà yóò fi parí. Fi ránṣẹ́ sí àwọn olùyẹ̀wò rẹ nìkan.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Kọ́kọ́ fipamọ́ àkọsílẹ̀ àkọ́kọ́ kan: ìjápọ̀ ìpín ń fi àkọsílẹ̀ àkọ́kọ́ rẹ hàn.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>A kò gbà ọ́ láàyè láti pín àkọsílẹ̀ àkọ́kọ́ yìí.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Àwọn ìjápọ̀ ìpín nílò Exponential 6.0.15 tàbí èyí tó tẹ̀lé e, pẹ̀lú ibi ìpamọ́ àṣírí.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Ó ń ṣiṣẹ́ fún</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Fún ta ni (àṣàyàn)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Ṣẹ̀dá ìjápọ̀</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Ṣe àdàkọ ìjápọ̀</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>A ti ṣe àdàkọ.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Ó ń ṣiṣẹ́ títí di %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Ó ti parí</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Fà á padà</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>A ti fà á padà</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Ìgbà tí a ṣí i: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Àkọsílẹ̀ àkọ́kọ́, ẹ̀dà %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Ẹ̀dà tí a tẹ̀jáde %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>A gbé e jáde %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>O kò ní àkọsílẹ̀ àkọ́kọ́ ojú ìwé yìí.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Àkọsílẹ̀ àkọ́kọ́ yìí ní iye ìjápọ̀ tó ń ṣiṣẹ́ tí a gbà láàyè. Kọ́kọ́ fa ọ̀kan padà.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>A kò gbà ọ́ láàyè láti fa ìjápọ̀ yìí padà.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Ọ̀nà kíkọ wo?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Ìjápọ̀ wo?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

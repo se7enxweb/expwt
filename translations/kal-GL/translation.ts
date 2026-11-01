@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Quppernermi uani layout-blokeqanngilaq.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Avammut nuussineq</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Naqiteruk imaluunniit PDF-itut toqqoruk</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Quppernermik maannakkutut ittumik naqiterivoq. PDF-imik pissarsiniaruit, naqiterinermi igalaami "PDF-itut toqqoruk" toqqaruk.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Imai kisimik, qulequtaq, menuit atuanilu ilanngunnagit</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Innersuussutit najugaat innersuussutit kingornanni</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Immersugassat fiilitut</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Missingiut misissortitsiniarlugu avitseqatigiissaaruk</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Kinaluunniit innersuussummik pigisalik missingiutit konto-qanngikkaluarluni takusinnaavaa innersuussut atorunnaarnissaata tungaanut. Misissuisutinnut kisimi nassiutiguk.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Siullermik missingiut toqqoruk: avitseqatigiinnermut innersuussut missingiutit takutippaa.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Missingiut una avitseqatigiissaarsinnaanngilat.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Avitseqatigiinnermut innersuussutit Exponential 6.0.15 imaluunniit nutaanerusoq, isertuussanik toqqorsivilik, pisariaqartippaat.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Atuuffia</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Kimut (piumasaqaataanngitsoq)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Innersuussut pilersiguk</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Innersuussut assiliiguk</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Assilineqarpoq.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>%time ilanngullugu atuuppoq</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Atorunnaarsimasoq</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Tunuartiguk</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Tunuartinneqarsimasoq</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Ammarneqarsimavoq: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Missingiut, version %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Saqqummiunneqarsimasoq version %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Avammut nuunneqarpoq %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Quppernermut matumunnga missingiuteqanngilatit.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Missingiut una innersuussutinik atuuttunik akuerisat tamaasa pigereerpai. Siullermik ataaseq tunuartiguk.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Innersuussut una tunuartissinnaanngilat.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Qanoq ilusilik?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Innersuussut sorleq?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

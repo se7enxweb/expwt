@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Akukho bhloko yoyilo kweli phepha.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Thumela ngaphandle</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Shicilela okanye gcina njenge-PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Ishicilela iphepha njengoko linjalo ngoku. Ukufumana i-PDF, khetha “Gcina njenge-PDF” kwibhokisi yencoko yokushicilela.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Umxholo kuphela, ngaphandle kwentloko, iimenyu nonyawo</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Iidilesi zamakhonkco emva kwamakhonkco</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Iindawo njengefayile</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Yabelana ngoyilo ukuze luphononongwe</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Nabani na onekhonkco ubona uyilo lwakho engenayo iakhawunti de ikhonkco liphelelwe lixesha. Lithumele kubaphononongi bakho kuphela.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Gcina uyilo kuqala: ikhonkco lokwabelana libonisa uyilo lwakho.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Awuvumelekanga ukwabelana ngolu yilo.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Amakhonkco okwabelana afuna i-Exponential 6.0.15 okanye kamva, enendawo yokugcina iimfihlo.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Lisebenza ixesha</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Kubani (ayinyanzelekanga)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Yenza ikhonkco</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Kopa ikhonkco</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Ikopiwe.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Lisebenza kude kube ngu-%time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Liphelelwe lixesha</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Rhoxisa</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Lirhoxisiwe</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Livuliwe: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Uyilo, uguqulelo %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Uguqulelo olushicilelweyo %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Kuthunyelwe ngaphandle %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Awunalo uyilo lweli phepha.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Olu yilo lunamakhonkco asebenzayo amaninzi kangangoko kuvumelekileyo. Rhoxisa elinye kuqala.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Awuvumelekanga ukurhoxisa eli khonkco.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Yeyiphi ifomathi?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Leliphi ikhonkco?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>No hay ningún bloque de diseño en esta página.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Exportar</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Imprimir o guardar como PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Imprime la página tal como está ahora. Para obtener un PDF, elija «Guardar como PDF» en el cuadro de diálogo de impresión.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Solo el contenido, sin cabecera, menús ni pie de página</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Direcciones de los enlaces tras los enlaces</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Campos como archivo</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Compartir el borrador para revisión</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Cualquiera con el enlace ve su borrador sin cuenta hasta que el enlace caduque. Envíelo solo a sus revisores.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Guarde primero un borrador: un enlace para compartir muestra su borrador.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>No puede compartir este borrador.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Los enlaces para compartir necesitan Exponential 6.0.15 o posterior, con el almacén de secretos.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Válido durante</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Para quién (opcional)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Crear enlace</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Copiar enlace</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Copiado.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Válido hasta %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Caducado</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Retirar</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Retirado</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Abierto: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Borrador, versión %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Versión publicada %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Exportado %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>No tiene ningún borrador de esta página.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Este borrador ya tiene tantos enlaces activos como se permiten. Retire uno primero.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>No puede retirar este enlace.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>¿Qué formato?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>¿Qué enlace?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

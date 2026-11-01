@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Tällä sivulla ei ole asettelulohkoja.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Vienti</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Tulosta tai tallenna PDF:nä</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Tulostaa sivun sellaisena kuin se nyt on. Saat PDF:n valitsemalla tulostusikkunassa ”Tallenna PDF:nä”.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Vain sisältö, ilman ylätunnistetta, valikoita ja alatunnistetta</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Linkkien osoitteet linkkien perässä</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Kentät tiedostona</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Jaa luonnos tarkastettavaksi</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Kuka tahansa, jolla on linkki, näkee luonnoksesi ilman tiliä, kunnes linkki vanhenee. Lähetä se vain tarkastajillesi.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Tallenna ensin luonnos: jakolinkki näyttää luonnoksesi.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Sinulla ei ole oikeutta jakaa tätä luonnosta.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Jakolinkit edellyttävät Exponential 6.0.15:tä tai uudempaa sekä salaisuusvarastoa.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Voimassa</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Kenelle (valinnainen)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Luo linkki</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Kopioi linkki</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Kopioitu.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Voimassa %time asti</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Vanhentunut</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Peru</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Peruttu</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Avattu: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Luonnos, versio %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Julkaistu versio %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Viety %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Sinulla ei ole tämän sivun luonnosta.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Tällä luonnoksella on jo sallittu määrä voimassa olevia linkkejä. Peru ensin yksi.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Sinulla ei ole oikeutta perua tätä linkkiä.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Mikä muoto?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Mikä linkki?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

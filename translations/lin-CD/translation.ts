@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Eteni ya layout ezali na lokasa oyo te.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Kobimisa libanda</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Imprimer to bomba lokola PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Ekoimprimer lokasa ndenge ezali sikoyo. Mpo na kozwa PDF, pona «Bomba lokola PDF» na fenêtre ya impression.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Kaka makambo ya kati, kozanga motó, ba menu mpe nsuka</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Ba adresse ya ba lien nsima ya ba lien</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Ba champ lokola fisye</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Kabola brouillon mpo na botaleli</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Moto nyonso oyo azali na lien akoki komona brouillon na yo kozanga compte tii lien ekosila. Tinda yango kaka epai ya batáleli na yo.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Bomba brouillon liboso: lien ya kokabola emonisaka brouillon na yo.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Ozali na ndingisa te ya kokabola brouillon oyo.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Ba lien ya kokabola esengaka Exponential 6.0.15 to oyo ya sika, na ebombelo ya basekele.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Esalaka mpo na</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Mpo na nani (ya kopona)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Sala lien</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Kopi lien</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Ekopiami.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Esalaka tii %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Esili</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Longola</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Elongolami</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Efungwami: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Brouillon, version %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Version ebimisami %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Ebimisami libanda %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Ozali na brouillon ya lokasa oyo te.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Brouillon oyo ezali na ba lien oyo esalaka ndenge ndingisa epesami. Longola moko liboso.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Ozali na ndingisa te ya kolongola lien oyo.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Format nini?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Lien nini?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Bu sahypada ýerleşiş bloky ýok.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Eksport</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Çap et ýa-da PDF hökmünde sakla</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Sahypany häzirki ýagdaýynda çap edýär. PDF almak üçin çap penjiresinde „PDF hökmünde sakla“ saýlaň.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Diňe mazmun, sözbaşysyz, menýularsyz we aşaky bölümsiz</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Salgylanmalardan soň salgylanma adresleri</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Meýdanlar faýl hökmünde</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Garalamany gözden geçirmek üçin paýlaş</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Salgylanmasy bolan islendik adam salgylanmanyň möhleti gutarýança hasapsyz siziň garalamaňyzy görýär. Ony diňe öz gözden geçirijileriňize iberiň.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Ilki garalamany saklaň: paýlaşma salgylanmasy siziň garalamaňyzy görkezýär.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Bu garalamany paýlaşmaga rugsadyňyz ýok.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Paýlaşma salgylanmalary gizlinler ammary bilen Exponential 6.0.15 ýa-da täzesini talap edýär.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Işleýän möhleti</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Kim üçin (hökmany däl)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Salgylanma döret</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Salgylanmany göçür</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Göçürildi.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>%time çenli işleýär</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Möhleti gutardy</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Yzyna al</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Yzyna alnan</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Açyldy: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Garalama, wersiýa %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Neşir edilen wersiýa %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Eksport edildi %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Bu sahypanyň garalamasy sizde ýok.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Bu garalamada rugsat berlen mukdarda işleýän salgylanma bar. Ilki birini yzyna alyň.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Bu salgylanmany yzyna almaga rugsadyňyz ýok.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Haýsy format?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Haýsy salgylanma?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

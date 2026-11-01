@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>ʻAʻohe poloka hoʻonohonoho ma kēia ʻaoʻao.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Hoʻopuka i waho</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Paʻi a mālama paha ma ke ʻano he PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Paʻi ʻia ka ʻaoʻao e like me kona ʻano i kēia manawa. No ka loaʻa ʻana o kahi PDF, koho iā “Mālama ma ke ʻano he PDF” ma ka pukaaniani paʻi.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Ka ʻikepili wale nō, ʻaʻohe poʻo, papa koho a me ka wāwae</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Nā helu wahi loulou ma hope o nā loulou</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Nā kahua ma ke ʻano he faila</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Kaʻana like i ke kāmua no ka loiloi</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>ʻIke ka mea me ka loulou i kou kāmua me ka ʻole o ka moʻokāki a hiki i ka pau ʻana o ka loulou. E hoʻouna wale nō i kou poʻe loiloi.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>E mālama mua i kahi kāmua: hōʻike ka loulou kaʻana like i kou kāmua.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>ʻAʻole ʻae ʻia ʻoe e kaʻana like i kēia kāmua.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Pono nā loulou kaʻana like iā Exponential 6.0.15 a i ʻole ka mea hou aʻe, me ka waihona huna.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Hana no</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>No wai (koho)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Hana i ka loulou</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Kope i ka loulou</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Ua kope ʻia.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Hana a hiki i %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Ua pau</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Hoʻihoʻi</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Ua hoʻihoʻi ʻia</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Ua wehe ʻia: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Kāmua, mana %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Mana i hoʻopuka ʻia %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Ua hoʻopuka ʻia i waho %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>ʻAʻohe ou kāmua o kēia ʻaoʻao.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Ua piha kēia kāmua i nā loulou e hana ana e like me ka mea i ʻae ʻia. E hoʻihoʻi mua i hoʻokahi.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>ʻAʻole ʻae ʻia ʻoe e hoʻihoʻi i kēia loulou.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>ʻO ke ʻano hea?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>ʻO ka loulou hea?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

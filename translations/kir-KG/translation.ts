@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Бул бетте макет блогу жок.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Экспорт</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Басып чыгаруу же PDF катары сактоо</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Баракты азыркы абалында басып чыгарат. PDF алуу үчүн басып чыгаруу терезесинен «PDF катары сактоо» дегенди тандаңыз.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Мазмуну гана, баш жазуусуз, менюларсыз жана төмөнкү колонтитулсуз</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Шилтемелерден кийин шилтеме даректери</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Талаалар файл катары</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Долбоорду кароого бөлүшүү</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Шилтемеси бар ар бир адам шилтеменин мөөнөтү бүткөнгө чейин аккаунтсуз сиздин долбооруңузду көрөт. Аны текшерүүчүлөрүңүзгө гана жөнөтүңүз.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Адегенде долбоорду сактаңыз: бөлүшүү шилтемеси сиздин долбооруңузду көрсөтөт.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Бул долбоорду бөлүшүүгө уруксатыңыз жок.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Бөлүшүү шилтемелерине жашыруун сактагычы бар Exponential 6.0.15 же андан жаңысы керек.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Жарактуулук мөөнөтү</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Ким үчүн (милдеттүү эмес)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Шилтеме түзүү</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Шилтемени көчүрүү</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Көчүрүлдү.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>%time чейин жарактуу</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Мөөнөтү бүткөн</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Кайтарып алуу</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Кайтарылып алынган</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Ачылды: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Долбоор, %number-версия</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Жарыяланган %number-версия</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Экспорттолду %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Сизде бул барактын долбоору жок.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Бул долбоордо уруксат берилген сандагы иштеген шилтемелер бар. Адегенде бирөөнү кайтарып алыңыз.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Бул шилтемени кайтарып алууга уруксатыңыз жок.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Кайсы формат?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Кайсы шилтеме?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

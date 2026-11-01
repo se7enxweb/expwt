@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Бу биттә макет блогы юк.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Экспорт</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Бастыру яки PDF итеп саклау</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Битне хәзер ничек булса, шулай бастыра. PDF алу өчен, бастыру тәрәзәсендә «PDF итеп саклау» дигәнне сайлагыз.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Эчтәлек кенә, баш өлеш, менюлар һәм аскы өлешсез</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Сылтамалардан соң сылтама адреслары</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Кырлар файл итеп</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Караламаны карап чыгу өчен бүлешү</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Сылтамасы булган һәркем сезнең караламаны хисап язмасыз, сылтаманың вакыты чыкканчы күрә. Аны үз рецензентларыгызга гына җибәрегез.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Башта караламаны саклагыз: бүлешү сылтамасы сезнең караламаны күрсәтә.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Сезгә бу караламаны бүлешергә ярамый.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Бүлешү сылтамаларына серләр саклагычы белән Exponential 6.0.15 яки яңарак кирәк.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Эшләү вакыты</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Кем өчен (теләк буенча)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Сылтама ясау</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Сылтаманы күчереп алу</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Күчереп алынды.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>%time кадәр эшли</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Вакыты чыккан</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Кайтарып алу</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Кайтарып алынган</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Ачылды: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Каралама, версия %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Бастырылган версия %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Экспортланды %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Сездә бу битнең караламасы юк.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Бу караламада рөхсәт ителгән кадәр эшләүче сылтама бар. Башта берсен кайтарып алыгыз.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Сезгә бу сылтаманы кайтарып алырга ярамый.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Кайсы формат?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Кайсы сылтама?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>Enweghị mgbochi nhazi na ibe a.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Mbupụ</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Bipụta ma ọ bụ chekwaa dị ka PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Ọ na-ebipụta ibe a otú ọ dị ugbu a. Iji nweta PDF, họrọ "Chekwaa dị ka PDF" na igbe mkparịta ụka mbipụta.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Naanị ọdịnaya, na-enweghị isi, menu na ụkwụ</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Adreesị njikọ n'azụ njikọ ndị ahụ</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Mpaghara dị ka faịlụ</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Kesaa ndepụta mbụ maka nyocha</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Onye ọ bụla nwere njikọ ahụ na-ahụ ndepụta mbụ gị na-enweghị akaụntụ ruo mgbe njikọ ahụ gwụrụ. Zitere ya naanị ndị nyocha gị.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Buru ụzọ chekwaa ndepụta mbụ: njikọ nkesa na-egosi ndepụta mbụ gị.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Enweghị ikike ịkesa ndepụta mbụ a.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Njikọ nkesa chọrọ Exponential 6.0.15 ma ọ bụ nke ọhụrụ karị, ya na ụlọ nchekwa nzuzo.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Ọ na-arụ ọrụ maka</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Maka onye (nhọrọ)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Mepụta njikọ</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Detuo njikọ</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>E detuola.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Ọ na-arụ ọrụ ruo %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Agwụla</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Wepụ</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>E wepụla</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>E meghere: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Ndepụta mbụ, ụdị %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Ụdị ebipụtara %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>E bupụrụ %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>Ị nweghị ndepụta mbụ nke ibe a.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Ndepụta mbụ a nwere njikọ na-arụ ọrụ dị ka e kwere. Buru ụzọ wepụ otu.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Enweghị ikike iwepụ njikọ a.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Kedu usoro?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Kedu njikọ?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

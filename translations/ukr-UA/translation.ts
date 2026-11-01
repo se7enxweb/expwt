@@ -2191,6 +2191,122 @@
         <source>No layout block on this page.</source>
         <translation>На цій сторінці немає блоків макета.</translation>
     </message>
+    <message>
+        <source>Export</source>
+        <translation>Експорт</translation>
+    </message>
+    <message>
+        <source>Print or save as PDF</source>
+        <translation>Друкувати або зберегти як PDF</translation>
+    </message>
+    <message>
+        <source>Prints the page as it is now. To get a PDF, choose "Save as PDF" in the print dialog.</source>
+        <translation>Друкує сторінку в її поточному вигляді. Щоб отримати PDF, виберіть «Зберегти як PDF» у діалоговому вікні друку.</translation>
+    </message>
+    <message>
+        <source>Only the content, without header, menus and footer</source>
+        <translation>Лише вміст, без заголовка, меню та нижнього колонтитула</translation>
+    </message>
+    <message>
+        <source>Link addresses after the links</source>
+        <translation>Адреси посилань після посилань</translation>
+    </message>
+    <message>
+        <source>Fields as a file</source>
+        <translation>Поля як файл</translation>
+    </message>
+    <message>
+        <source>Share the draft for review</source>
+        <translation>Поділитися чернеткою для рецензування</translation>
+    </message>
+    <message>
+        <source>Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.</source>
+        <translation>Будь-хто, хто має посилання, бачить вашу чернетку без облікового запису, доки термін дії посилання не закінчиться. Надсилайте його лише своїм рецензентам.</translation>
+    </message>
+    <message>
+        <source>Save a draft first: a share link shows your draft.</source>
+        <translation>Спершу збережіть чернетку: посилання для спільного доступу показує вашу чернетку.</translation>
+    </message>
+    <message>
+        <source>You may not share this draft.</source>
+        <translation>Вам не дозволено ділитися цією чернеткою.</translation>
+    </message>
+    <message>
+        <source>Share links need Exponential 6.0.15 or later, with the secret store.</source>
+        <translation>Посилання для спільного доступу потребують Exponential 6.0.15 або новішої версії зі сховищем секретів.</translation>
+    </message>
+    <message>
+        <source>Works for</source>
+        <translation>Діє протягом</translation>
+    </message>
+    <message>
+        <source>For whom (optional)</source>
+        <translation>Для кого (необов’язково)</translation>
+    </message>
+    <message>
+        <source>Create link</source>
+        <translation>Створити посилання</translation>
+    </message>
+    <message>
+        <source>Copy link</source>
+        <translation>Копіювати посилання</translation>
+    </message>
+    <message>
+        <source>Copied.</source>
+        <translation>Скопійовано.</translation>
+    </message>
+    <message>
+        <source>Works until %time</source>
+        <translation>Діє до %time</translation>
+    </message>
+    <message>
+        <source>Expired</source>
+        <translation>Термін дії минув</translation>
+    </message>
+    <message>
+        <source>Withdraw</source>
+        <translation>Відкликати</translation>
+    </message>
+    <message>
+        <source>Withdrawn</source>
+        <translation>Відкликано</translation>
+    </message>
+    <message>
+        <source>Opened: %count</source>
+        <translation>Відкрито: %count</translation>
+    </message>
+    <message>
+        <source>Draft, version %number</source>
+        <translation>Чернетка, версія %number</translation>
+    </message>
+    <message>
+        <source>Published version %number</source>
+        <translation>Опублікована версія %number</translation>
+    </message>
+    <message>
+        <source>Exported %time</source>
+        <translation>Експортовано %time</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page.</source>
+        <translation>У вас немає чернетки цієї сторінки.</translation>
+    </message>
+    <message>
+        <source>This draft has as many working links as allowed. Withdraw one first.</source>
+        <translation>Ця чернетка вже має стільки дійсних посилань, скільки дозволено. Спершу відкличте одне.</translation>
+    </message>
+    <message>
+        <source>You may not withdraw this link.</source>
+        <translation>Вам не дозволено відкликати це посилання.</translation>
+    </message>
+    <message>
+        <source>Which format?</source>
+        <translation>Який формат?</translation>
+    </message>
+    <message>
+        <source>Which link?</source>
+        <translation>Яке посилання?</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>
