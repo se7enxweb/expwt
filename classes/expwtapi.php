@@ -229,6 +229,10 @@ class expwtApi
                 return $g->shareCreate( self::ids( $input, array( 'objectId', 'version', 'lifetime' ) ) + self::strings( $input, array( 'language', 'note' ) ) );
             case 'share.revoke':
                 return $g->shareRevoke( self::ids( $input, array( 'objectId' ) ) + self::strings( $input, array( 'id' ) ) );
+            case 'static.load':
+                return $g->staticLoad( self::ids( $input, array( 'nodeId' ) ) );
+            case 'static.publish':
+                return $g->staticPublish( self::ids( $input, array( 'nodeId' ) ) + self::strings( $input, array( 'target' ) ) );
             case 'migrations.load':
                 return $g->migrations();
             case 'migrations.record.start':
@@ -291,6 +295,9 @@ class expwtApi
             // the Migrations panel (R4.5): with the kernel's migration/read, how many migrations need attention (the
             // badge on its tab); null without the policy or without the migrations in the kernel (no panel)
             'migrations' => $g->migrationsOffer(),
+            // the Static panel (static publishing, Exponential 6.0.15): its label in the kernel's words; null without
+            // staticpublish/read or the kernel's static publishing (no panel)
+            'static' => $g->staticOffer(),
             // what other extensions add and this user gets (decision 32): panels, highlights, search providers, and
             // which of their actions write
             'registry' => $g->registryForBoot(),

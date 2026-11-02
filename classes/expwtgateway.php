@@ -2412,6 +2412,54 @@ class expwtGateway
                 'before' => $before, 'after' => array( 'kind' => $kind ) + $after ) );
     }
 
+    // ------------------------------------------------------------------------------------ static publishing (S6)
+
+    /**
+     * The Static panel in the boot answer (expwtStatic::offer()): null for a user without the sidebar, without
+     * staticpublish/read or on a kernel without static publishing.
+     *
+     * @return array|null label
+     */
+    public function staticOffer()
+    {
+        $caps = $this->capabilities();
+        // class_exists: a server whose autoload does not know the class yet shows no panel instead of failing
+        return !empty( $caps['use'] ) && class_exists( 'expwtStatic' ) ? expwtStatic::offer() : null;
+    }
+
+    /**
+     * The Static panel: the page on every target the user may read (expwtStatic::load()).
+     *
+     * @param array $in nodeId
+     * @return array
+     * @throws expwtApiError 404 for a page that is not there or not readable, 403 without the policy
+     */
+    public function staticLoad( array $in )
+    {
+        return expwtStatic::load( $this->staticNode( $in ), self::adminUrl() );
+    }
+
+    /**
+     * "Publish" in the Static panel: the kernel's publish job for this page on one target (expwtStatic::publish()).
+     *
+     * @param array $in nodeId, target
+     * @return array id, target, url, message
+     */
+    public function staticPublish( array $in )
+    {
+        return expwtStatic::publish( $this->staticNode( $in ), isset( $in['target'] ) ? (string)$in['target'] : '',
+                                     (string)$this->currentUser()->attribute( 'login' ), self::adminUrl() );
+    }
+
+    /** @return eZContentObjectTreeNode the page of the input, which the user may read */
+    protected function staticNode( array $in )
+    {
+        $node = isset( $in['nodeId'] ) ? eZContentObjectTreeNode::fetch( (int)$in['nodeId'] ) : null;
+        if ( !$node instanceof eZContentObjectTreeNode || !$node->canRead() )
+            throw new expwtApiError( 404, 'not_found', 'This page is not there, or you may not read it.' );
+        return $node;
+    }
+
     // ---------------------------------------------------------------------------------------- the migrations
 
     /** How long the number on the Migrations tab is kept in the user's session, in seconds */

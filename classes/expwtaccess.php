@@ -118,6 +118,12 @@ class expwtAccess
         // (expwtGateway::recordsMigrations()); the site-wide window stays in the administration
         'migrations.record.start' => array( 'use', true, 'migration', 'recording', 'StartButton' ),
         'migrations.record.stop'  => array( 'use', true, 'migration', 'recording', 'StopButton' ),
+        // the page in the kernel's static publishing (S6): read-only with staticpublish/read; "Publish" starts the
+        // kernel's publish job for this page (an incremental build of its node, then the publish) with
+        // staticpublish/publish of the target (expwtStatic), and asks "Verify it's you" as Setup > Static publishing's
+        // Publish does (staticpublish/preview with PublishButton, site.ini [ReauthGroup_system])
+        'static.load'       => array( 'use', false, '', '', '' ),
+        'static.publish'    => array( 'use', true, 'staticpublish', 'preview', 'PublishButton' ),
         // an image field's focal point and crop (E7, with a kernel that stores them): its aliases previewed, and the
         // focal point and crop written into the user's draft as content/edit saves a field (content/edit of the page)
         'images.load'       => array( 'edit', false, '', '', '' ),

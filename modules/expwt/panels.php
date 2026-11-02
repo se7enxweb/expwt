@@ -74,7 +74,8 @@ $labels = array( 'page' => 'Page', 'create' => 'Create', 'structure' => 'Structu
                  'insights' => 'Insights', 'inbox' => 'Inbox', 'migrations' => 'Migrations', 'performance' => 'Performance', 'me' => 'Me' );
 $panelLabels = array();
 foreach ( expwtState::PANELS as $id )
-    $panelLabels[$id] = $t( isset( $labels[$id] ) ? $labels[$id] : $id );
+    $panelLabels[$id] = $id === 'static' && class_exists( 'expwtStatic' ) ? ezpI18n::tr( expwtStatic::CONTEXT, expwtStatic::LABELS['title'] ) // the kernel's own words
+                      : $t( isset( $labels[$id] ) ? $labels[$id] : $id );
 $registry = $siteAccess !== null ? expwtRegistry::fromIni( $siteIni ) : expwtRegistry::EMPTY_REGISTRY;
 foreach ( $registry['panels'] as $p )
 {

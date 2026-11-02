@@ -114,6 +114,7 @@ extensions. A dry run lists the changes first.
 | Insights | `expwt/insights` | read-only, from the kernel's own statistics, no third-party tracking: the page's views (the view counter the cronjob `updateviewcount` fills from the access log; where it is off the panel says so), the searches on this site for words of the page's title (the kernel's search log, with how often and how many results), and that the kernel records no referrers |
 | Inbox | `expwt/use` (approving also the kernel's `collaboration` policy) | the approvals of the publishing workflow that wait for you (the kernel's approve event): each page with its author and last comment, **Open the draft**, and for its approvers a comment with **Approve** or **Deny**, decided through the kernel's own `collaboration/action` view, exactly as in the administration (the workflow publishes an approved page on its next run; a denied one is a draft of its author again). Beside them the other notifications, from the kernel's own collaboration and workflow (no extra mail): **Comments and mentions** (items with a comment of someone else you have not read, "Mentions you" where the last one names you as @login), **Your pages** (your pages an approver approved or denied since you last looked, within 30 days) and **Scheduled tasks that failed** (your workflow processes that stopped with an error within 30 days, with the full editor of the page). Comments and results are shown to every user who takes part in the item (an author without the `collaboration` policy, as in the shipped Editor role, too). **Mark as read** does what opening the item in the administration does; **Open in the administration** (for users with the `collaboration` policy) opens it there. Their number together (each item once) is a badge on the closed tab and on the panel's tab ("3 new in your inbox"), counted with a few queries and kept for a minute; opening the panel, marking as read or deciding counts again at once |
 | Migrations | `expwt/use` and the kernel's `migration/read` (Exponential 6.0.15 and later); without that policy, or on a kernel without migrations, there is no Migrations tab | read-only: the state of the installation's migrations as Setup > Migrations in the administration shows it, on every page. A run that is active now (the installation lock: what it does, who started it and since when), the **failed** migrations (each with its source and description), the **pending** ones (id, source, description; the first 50, the rest counted), the migrations **recorded, but whose file is gone**, and the **last run**: its state, when it started and finished, who ran it, its caption, tag and push state (a failed run with its message). Each item has **Open in the administration** (the status, or the log of its run), where running, resuming and rolling back stay: the sidebar runs nothing here. The number of pending, failed and recorded-without-file migrations is a badge on the panel's tab, counted once a minute at most. **Recording** (with the kernel's `migration/edit` and a kernel that records changes, Exponential 6.0.15 and later): **Record my changes** starts a recording of the user's own changes for a migration, as Setup > Migrations > Recording does, and **Stop recording** ends it; while it records, the panel shows **Recording…** with a red dot and the panel's tab carries a red dot too. What the user changes on the site, in the sidebar or in the administration is kept as the steps of a migration until it is stopped; the account and the fields of users are never recorded. A site-wide recording window is only shown here (opening and closing it stays in the administration). Without the policy, with recording switched off (`migration.ini [RecordingSettings] Recording=disabled`) or on a kernel without it, the panel has no recording part |
+| Static publishing | `expwt/use` and the kernel's `staticpublish/read` (Exponential 6.0.15 and later); **Publish** also `staticpublish/publish` of the target; without `staticpublish/read`, or on a kernel without static publishing, there is no tab | this page in the kernel's static publishing (Setup > Static publishing): per target its last publish, whether this page is stale there and its public address there; **Publish** publishes this page only. See "Static publishing panel" |
 | Performance | `expwt/performance` (administrators and developers) | read-only: how this page was rendered, from the kernel's debug bar data of the render itself (not of the sidebar's requests): the render time, the SQL statements and their time, peak memory, the content view cache (from the cache, generated, off), the cache-blocks (how many came from the cache, the slowest ones) and the time of every layout block, a block inside a container indented. A page that came from a cache was not rendered for this view: the panel says so and names the time of the render its figures are of. See "Performance panel" |
 | Me | `expwt/use` | your account at a glance and the kernel's own pages for it (account, password, passkeys, sessions and devices, security, notifications, drafts, bookmarks), the sidebar's preferences, sign out |
 
@@ -397,6 +398,30 @@ The Export panel gives the page in other forms:
   ends one at once. Making, withdrawing and opening a link are recorded in the audit (`content.previewlink.*`). On an
   older kernel the panel says that share links need Exponential 6.0.15. Guide of the kernel's part:
   `doc/eng-us/features/6.0/preview-links.md`.
+
+### Static publishing panel
+
+With the kernel's static publishing (Exponential 6.0.15, Setup > Static publishing: a site published as static files
+to GitHub Pages or any git host), the panel **Static publishing** shows this page on every target the user may read
+(`staticpublish/read` with its Target limitation):
+
+- **Last publish:** when, and whether it was pushed, not pushed, failed or changed nothing; **never** before the first.
+- **Stale pages:** **Yes** when content of this page was published after the page was built for that target (the
+  static copy is out of date), **No** when it is current, **Not in the build.** when the last publish has no page of
+  it.
+- **Public address:** the address of this page on the target (its `PublicURL` or own domain), opened in a new window.
+- **Publish** (with `staticpublish/publish` of the target): starts the kernel's publish job for this page only, an
+  incremental build of its node into the last build, then the commit, tag and push (`exp:static:publish <target>
+  --nodes=<node>`). It asks "Verify it's you" as Publish in Setup > Static publishing does (`[ReauthGroup_system]`).
+  The job runs in the background as the user; the panel links its page in the administration. While a job of the
+  target runs, the panel says so and offers no Publish. Static publishing switched off: the panel says so.
+- **History** opens the target's history in the administration, where rollbacks stay.
+- **No target yet:** "No target yet."; users with `staticpublish/setup` get **Make a target** and **Read the
+  tutorial**.
+
+Every text of the panel is the kernel's own (Setup > Static publishing), so the sidebar adds nothing to translate. On a
+kernel without static publishing there is no panel; on a kernel whose publish job cannot build single nodes yet, the
+panel is read-only. Guide of the kernel's part: Help > Static publishing, "The website sidebar panel".
 
 ### Performance panel
 

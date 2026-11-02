@@ -3582,6 +3582,104 @@
     }, function (err) { root.textContent = ''; failure(ctx, err); });
   }
 
+  /* -------------------------------------------------------------------------------------------------- static */
+
+  /* The Static panel's pure parts (S6), for the tests (tests/js/static.test.js): the text and chip of the page's state
+     on a target, and of the target's last publish, from the kernel's words the action sends (r.labels). */
+  var Static = {
+    page: function (state, L) {
+      if (state === 'stale') { return { text: L.yes, chip: 'is-warn' }; }
+      if (state === 'current') { return { text: L.no, chip: 'is-ok' }; }
+      return { text: L.missing, chip: '' };
+    },
+    last: function (last, L) {
+      if (!last) { return { text: L.never, chip: '' }; }
+      var map = { failed: [L.failed, 'is-bad'], unchanged: [L.unchanged, ''], pushed: [L.pushed, 'is-ok'], 'not-pushed': [L.notPushed, 'is-warn'] };
+      var m = map[last.state] || [last.state, ''];
+      return { text: m[0], chip: m[1] };
+    },
+    fill: function (text, values) {
+      return Object.keys(values).reduce(function (s, k) { return s.split(k).join(values[k]); }, String(text || ''));
+    }
+  };
+
+  /* The page in the kernel's static publishing (S6), for a user with staticpublish/read: per target the last publish,
+     whether this page is stale there, its public address there and the job going on. "Publish" (staticpublish/publish
+     of the target, "Verify it's you") starts the kernel's publish job for this page only: an incremental build of its
+     node, then the publish; the job's page in the administration follows it. Every text is the kernel's own. */
+  function staticPanel(ctx, root) {
+    var h = ctx.h;
+    var t = ctx.t;
+    var lang = (document.documentElement && document.documentElement.lang) || undefined;
+    if (!ctx.node) {
+      root.appendChild(h('p', { text: t('This page is not content of the site. Open a page of the site to edit it.') }));
+      return;
+    }
+    function row(label, value) {
+      return value ? [h('dt', { text: label }), h('dd', {}, [value])] : [];
+    }
+    function chip(v) {
+      return h('span', { class: 'wt-chip' + (v.chip ? ' ' + v.chip : ''), text: v.text });
+    }
+    function jobLink(L, job) {
+      var text = Static.fill(L.job, { '%id': job.id });
+      return job.url ? h('a', { href: job.url, text: text }) : h('span', { text: text });
+    }
+    function target(r, x) {
+      var L = r.labels;
+      var id = 'wt-static-' + x.id;
+      var box = h('section', { class: 'wt-section wt-static', 'aria-labelledby': id }, [h('h3', { id: id, text: x.name })]);
+      var last = Static.last(x.last, L);
+      var lastValue = x.last ? h('span', {}, [h('span', { text: Migrations.at(new Date(x.last.at * 1000).toISOString(), lang) + ' ' }), chip(last)])
+        : h('span', { class: 'wt-muted', text: last.text });
+      var facts = [].concat(
+        row(L.lastPublish, lastValue),
+        row(L.stale, chip(Static.page(x.page.state, L))),
+        row(L.address, x.page.url ? h('a', { href: x.page.url, rel: 'noopener', target: '_blank', text: x.page.url }) : null)
+      );
+      box.appendChild(h('dl', { class: 'wt-static-run' }, facts));
+      var status = h('div', { role: 'status' });
+      box.appendChild(status);
+      if (x.job) {
+        status.appendChild(h('p', { class: 'wt-notice is-warn' }, [h('span', { text: Static.fill(L.going, { '%user': x.job.user }) + ' ' }), jobLink(L, x.job)]));
+      }
+      var actions = [];
+      if (x.publish && !x.job) {
+        var button = h('button', { type: 'button', class: 'wt-btn is-primary', text: L.publish });
+        button.addEventListener('click', function () {
+          button.disabled = true;
+          ctx.call('static.publish', { nodeId: ctx.node, target: x.id }).then(function (answer) {
+            status.textContent = '';
+            status.appendChild(h('p', { class: 'wt-notice is-ok' }, [h('span', { text: answer.message + ' ' }), jobLink(L, answer)]));
+            ctx.say(answer.message, 'ok');
+            button.remove();
+          }, function (err) { button.disabled = false; failure(ctx, err); });
+        });
+        actions.push(button);
+      }
+      if (x.history) { actions.push(h('a', { class: 'wt-btn', href: x.history, text: L.history })); }
+      if (actions.length) { box.appendChild(h('div', { class: 'wt-row' }, actions)); }
+      return box;
+    }
+    root.appendChild(h('p', { class: 'wt-muted', text: t('Loading ...') }));
+    ctx.call('static.load', { nodeId: ctx.node }).then(function (r) {
+      var L = r.labels;
+      root.textContent = '';
+      if (!r.enabled) { root.appendChild(h('p', { class: 'wt-notice is-warn', role: 'status', text: L.off })); }
+      if (!r.targets.length) {
+        root.appendChild(h('p', { class: 'wt-muted', text: L.noTarget }));
+        if (r.setup) {
+          root.appendChild(h('div', { class: 'wt-row' }, [
+            r.setup.make ? h('a', { class: 'wt-btn', href: r.setup.make, text: L.make }) : null,
+            r.setup.tutorial ? h('a', { class: 'wt-btn', href: r.setup.tutorial, text: L.tutorial }) : null
+          ]));
+        }
+        return;
+      }
+      r.targets.forEach(function (x) { root.appendChild(target(r, x)); });
+    }, function (err) { root.textContent = ''; failure(ctx, err); });
+  }
+
   /* --------------------------------------------------------------------------------------------- performance */
 
   /* The Performance panel's pure parts (E12), for the tests (tests/js/performance.test.js).
@@ -4194,6 +4292,7 @@
 
   window.ExpwtMigrations = Migrations;
   window.ExpwtPerformance = Performance;
+  window.ExpwtStatic = Static;
   window.ExpwtExport = Export;
   window.ExpwtHold = Hold;
   window.ExpwtSeo = SEO;
@@ -4203,5 +4302,5 @@
   window.ExpwtCalendar = Calendar;
   window.ExpwtFocal = Focal;
   window.ExpwtDevices = Devices;
-  window.ExpwtPanels = { page: page, create: create, structure: structure, seo: seo, sites: sites, forms: forms, newsletter: newsletter, urls: urls, calendar: calendar, export: exportPanel, insights: insights, inbox: inbox, migrations: migrations, performance: performance, me: me, shortcuts: shortcuts };
+  window.ExpwtPanels = { page: page, create: create, structure: structure, seo: seo, sites: sites, forms: forms, newsletter: newsletter, urls: urls, calendar: calendar, export: exportPanel, insights: insights, inbox: inbox, migrations: migrations, static: staticPanel, performance: performance, me: me, shortcuts: shortcuts };
 }());

@@ -796,6 +796,8 @@
       if (this.boot && this.boot.inbox) { list.push({ id: 'inbox', label: this.t('Inbox') }); }
       /* the installation's migrations, read-only (R4.5), for a user with the kernel's migration/read */
       if (this.boot && this.boot.migrations) { list.push({ id: 'migrations', label: this.t('Migrations') }); }
+      /* the page in the kernel's static publishing (S6), for a user with staticpublish/read; the label is the kernel's */
+      if (this.boot && this.boot.static) { list.push({ id: 'static', label: this.boot.static.label || 'Static publishing' }); }
       /* how this page was rendered (E12): time, SQL, caches and the layout blocks, for admins and developers */
       if (c.performance) { list.push({ id: 'performance', label: this.t('Performance') }); }
       list.push({ id: 'me', label: this.t('Me') });
@@ -1504,7 +1506,7 @@
       var t = this.boot.transport;
       var registered = this.registry().actions || {};
       var write = Object.prototype.hasOwnProperty.call(registered, action) ? !!registered[action].writes
-        : ['me', 'page.load', 'create.classes', 'tree.children', 'inbox.load', 'insights.load', 'seo.check', 'newsletter.load', 'comments.load', 'urls.load', 'calendar.load', 'migrations.load', 'performance.load', 'share.load', 'images.load', 'preview.devices', 'boot'].indexOf(action) < 0;
+        : ['me', 'page.load', 'create.classes', 'tree.children', 'inbox.load', 'insights.load', 'seo.check', 'newsletter.load', 'comments.load', 'urls.load', 'calendar.load', 'migrations.load', 'static.load', 'performance.load', 'share.load', 'images.load', 'preview.devices', 'boot'].indexOf(action) < 0;
       var json = JSON.stringify(input || {});
       var headers = { 'X-CSRF-Token': this.boot.token || '' };
       var p;

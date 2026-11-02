@@ -102,6 +102,9 @@ class expwtApiTestGateway extends expwtGateway
     public $migrations = array( 'attention' => 2 );
     public function migrationsOffer() { return $this->migrations; }
     public function migrations() { return $this->record( 'migrations', array() ); }
+    public function staticOffer() { return null; }
+    public function staticLoad( array $in ) { return $this->record( 'staticLoad', $in ); }
+    public function staticPublish( array $in ) { return $this->record( 'staticPublish', $in ); }
     public function recordStart( array $in ) { return $this->record( 'recordStart', $in ); }
     public function recordStop( array $in ) { return $this->record( 'recordStop', $in ); }
     public function images( array $in ) { return $this->record( 'images', $in ); }
@@ -526,7 +529,7 @@ class expwtApiTest extends PHPUnit\Framework\TestCase
     {
         $r = $this->api()->call( 'boot', array(), 'GET' );
         $d = $r['body']['data'];
-        $this->assertSame( array( 'user', 'capabilities', 'state', 'theme', 'token', 'transport', 'urls', 'strings', 'inbox', 'newsletter', 'comments', 'migrations', 'registry', 'panels', 'settings' ), array_keys( $d ) );
+        $this->assertSame( array( 'user', 'capabilities', 'state', 'theme', 'token', 'transport', 'urls', 'strings', 'inbox', 'newsletter', 'comments', 'migrations', 'static', 'registry', 'panels', 'settings' ), array_keys( $d ) );
         $this->assertSame( 'dark', $d['theme'], 'follows the administration (F10)' );
         $this->assertSame( 'tok', $d['token'] );
         $this->assertSame( 'Bearbeiten', $d['strings']['Edit'] );
