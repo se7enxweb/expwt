@@ -92,6 +92,11 @@ der Stelle von ezwt in den aktiven Erweiterungen. Ein Probelauf listet die Ände
   dunkel werden für den Benutzer auf dem Server gehalten (sie folgen auf jedes Gerät) oder nur auf diesem Gerät
   („Diese Einstellungen nur auf diesem Gerät behalten"). Ein nicht angemeldeter Besucher behält sie im Browser. Eine
   Position, die gespeichert wurde, bevor es oben und unten gab (links oder rechts), gilt als dieser Rand.
+- **Das zuletzt gewählte Panel** (Ich, Performance, Einblicke, das Panel einer Erweiterung ...) ist nach dem Neuladen
+  wieder offen, auch wenn direkt nach dem Klick neu geladen wird: der Browser behält es sofort und schickt es dem
+  Server, wenn die Seite verlassen wird, und eine Änderung, die der Server noch nicht bestätigt hat, gilt auf der
+  nächsten Seite vor der Kopie des Servers. Ausnahmen: mit ungespeicherten Änderungen der Seite und beim Bearbeiten auf
+  der Seite öffnet sich das Panel Seite; ein Panel, das der Benutzer nicht mehr hat, öffnet das erste.
 - **Hell oder dunkel:** die Wahl des Benutzers für die Seitenleiste, sonst seine Wahl für die Administration (hell
   oder dunkel: sie gilt auf jedem Design), sonst die der Seite: auf einem Website-Design mit eigenem Hell/Dunkel-
   Schalter (die Media-Designs: site, smarty, twig) der Modus dieses Schalters, dem sie beim Umschalten sofort folgt;

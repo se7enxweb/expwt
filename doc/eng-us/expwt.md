@@ -85,6 +85,11 @@ extensions. A dry run lists the changes first.
   kept for the user on the server (they follow to every device), or only on this device ("Keep these settings only on
   this device"). A visitor who is not signed in keeps them in the browser. A position saved before the top and bottom
   edges existed (left or right) is read as that edge.
+- **The panel pushed last** (Me, Performance, Insights, an extension's panel ...) is open again after a reload, also
+  a reload right after the click: the browser keeps it at once and sends it to the server when the page is left, and a
+  change the server has not confirmed yet wins over the server's copy on the next page. Exceptions: with unsaved
+  changes of the page, and while editing on the page, the Page panel opens; a panel the user no longer has opens the
+  first one.
 - **Light or dark:** the user's choice for the sidebar, else their choice for the administration (light or dark: it
   wins on every design), else the page's: on a site design with its own light/dark switch (the media designs:
   site, smarty, twig) the mode that switch shows, followed at once when it is flipped; elsewhere the system's.

@@ -28,6 +28,9 @@
 
   var DEVICE = 'expwt.device';
   var CACHE = 'expwt.cache';
+  /* The state this device changed that the server has not confirmed yet (a reload before the save went out, or while
+     it was on its way): { user, at, state }. The next boot takes it over the server's and sends it again. */
+  var UNSENT = 'expwt.unsent';
   /* The light or dark mode the server last gave this device for the signed-in user (boot.theme), so a reload is
      drawn in it from the first frame instead of in the system's mode until the deferred boot request answers. */
   var THEME = 'expwt.theme';
@@ -144,6 +147,31 @@
     }
   };
   window.ExpwtPanelOrder = PanelOrder;
+
+  /* The panel pushed last is open again after a reload. pick(): the panel asked for when the user has it, else the
+     first one. keep(): until the boot answer is there the list is not complete (the panels of the user's rights and of
+     other extensions come with it), so a panel not in it yet is kept, not replaced. unsent(): what this device saved
+     and the server never confirmed counts for the same user (or one not known yet) for UNSENT_FOR ms. onBoot(): the
+     state after the boot answer: the server's, this device's unsent one over it, open or closed from this device. */
+  var PanelMemory = {
+    UNSENT_FOR: 10 * 60000,
+    pick: function (ids, wanted) {
+      return ids.indexOf(wanted) >= 0 ? wanted : (ids.length ? ids[0] : 'page');
+    },
+    keep: function (ids, wanted, complete) {
+      return complete ? PanelMemory.pick(ids, wanted) : wanted;
+    },
+    unsent: function (entry, user, now) {
+      if (!entry || typeof entry !== 'object' || !entry.state || typeof entry.state !== 'object') { return null; }
+      if (entry.user !== null && entry.user !== undefined && entry.user !== user) { return null; }
+      var at = parseInt(entry.at, 10) || 0;
+      return at <= now && now - at < PanelMemory.UNSENT_FOR ? entry.state : null;
+    },
+    onBoot: function (server, unsent, open) {
+      return Object.assign({}, server || {}, unsent || {}, { open: open });
+    }
+  };
+  window.ExpwtPanelMemory = PanelMemory;
 
   /* The branding of the siteaccess (E10, cfg.brand from expwt.ini [BrandingSettings], checked on the server): the
      name in place of "Website sidebar", a logo beside it, and the accent tokens for light and dark as a stylesheet of
@@ -470,6 +498,15 @@
       }
       document.addEventListener('keydown', function (e) { self.shortcut(e); });
       window.addEventListener('message', function (e) { self.message(e); });
+      /* a reload or leaving right after a change (another panel, the width ...): the save waiting for its 400 ms goes
+         out now, as a request that outlives the page */
+      var leave = function () { if (self.saveTimer) { self.send(true); } };
+      window.addEventListener('pagehide', leave);
+      document.addEventListener('visibilitychange', function () { if (document.visibilityState === 'hidden') { leave(); } });
+      /* a visitor's sidebar left open: its panel drawn again (there is no boot answer to wait for) */
+      if (this.anonymous && this.state.open) {
+        this.show(this.state.panel);
+      }
       if (!this.anonymous && this.cfg.boot) {
         var start = function () { setTimeout(function () { self.loadBoot(); }, 0); };
         if (document.readyState === 'complete') {
@@ -831,14 +868,16 @@
     buildTabs() {
       var self = this;
       var list = this.available();
-      if (!list.some(function (p) { return p.id === self.state.panel; })) {
-        this.state.panel = list[0].id;
-      }
+      var ids = list.map(function (p) { return p.id; });
+      /* a panel the user does not have opens the first one; before the boot answer the list is not complete, and the
+         panel pushed last stays what is asked for (PanelMemory.keep) */
+      this.state.panel = PanelMemory.keep(ids, this.state.panel, !!this.boot || this.anonymous);
+      var current = PanelMemory.pick(ids, this.state.panel);
       this.tablist.textContent = '';
       this.tabButtons = list.map(function (p) {
         var b = h('button', {
           type: 'button', role: 'tab', id: 'wt-tab-' + p.id, 'aria-controls': 'wt-body', 'data-panel': p.id,
-          'aria-selected': p.id === self.state.panel ? 'true' : 'false', tabindex: p.id === self.state.panel ? '0' : '-1',
+          'aria-selected': p.id === current ? 'true' : 'false', tabindex: p.id === current ? '0' : '-1',
           onclick: function () { self.show(p.id); },
           onkeydown: function (e) { self.tabsKey(e); }
         }, [p.label]);
@@ -1170,19 +1209,32 @@
       this.drawPill();
     }
 
+    /* This device keeps the change at once (a reload right after it finds it); the server gets it after 400 ms of
+       quiet, or at once when the page is left (send(true)). Until the server confirms it, it is UNSENT. */
     save() {
       var self = this;
       clearTimeout(this.saveTimer);
-      this.saveTimer = setTimeout(function () {
-        if (self.deviceOnly) {
-          store(DEVICE, { only: true, state: self.state });
-          return;
-        }
-        store(CACHE, self.state);
-        if (self.boot) {
-          self.call('state.save', { state: self.state }).catch(function () {});
-        }
-      }, 400);
+      this.saveTimer = null;
+      if (this.deviceOnly) {
+        store(DEVICE, { only: true, state: this.state });
+        return;
+      }
+      store(CACHE, this.state);
+      store(UNSENT, { user: this.boot && this.boot.user ? this.boot.user.id : null, at: Date.now(), state: this.state });
+      if (this.boot) {
+        this.saveTimer = setTimeout(function () { self.send(false); }, 400);
+      }
+    }
+
+    send(leaving) {
+      clearTimeout(this.saveTimer);
+      this.saveTimer = null;
+      var unsent = store(UNSENT);
+      if (!this.boot || this.deviceOnly || !unsent) { return; }
+      this.call('state.save', { state: unsent.state }, false, leaving ? { keepalive: true } : null).then(function () {
+        var now = store(UNSENT);
+        if (now && now.at === unsent.at) { store(UNSENT, null); }
+      }).catch(function () {});
     }
 
     setState(change, keep) {
@@ -1444,11 +1496,17 @@
         self.say('');
         store(THEME, self.boot.theme || null);
         var device = store(DEVICE);
+        var unsent = null;
         if (!(device && device.only)) {
-          self.state = self.normalize(Object.assign({}, self.boot.state, { open: self.state.open }));
+          /* what this device changed and the server never got (a reload right after it) wins over the server's */
+          unsent = PanelMemory.unsent(store(UNSENT), self.boot.user ? self.boot.user.id : null, Date.now());
+          self.state = self.normalize(PanelMemory.onBoot(self.boot.state, unsent, self.state.open));
           store(CACHE, self.state);
+          if (!unsent) { store(UNSENT, null); }
         }
         self.buildTabs();
+        /* and goes to the server now (a panel the user no longer has: the first one) */
+        if (unsent) { self.save(); }
         self.labelKeys();
         self.setWaiting(self.boot.inbox ? self.boot.inbox.count : 0);
         self.setComments(self.boot.comments ? self.boot.comments.waiting : 0);
@@ -1475,10 +1533,14 @@
       });
     }
 
-    request(method, url, body, headers) {
+    request(method, url, body, headers, opts) {
       var init = { method: method, credentials: 'same-origin', headers: Object.assign({ 'X-Requested-With': 'XMLHttpRequest', Accept: 'application/json' }, headers || {}) };
       if (body !== null) {
         init.body = body;
+      }
+      /* a save sent as the page is left: it goes out even though the page goes away */
+      if (opts && opts.keepalive) {
+        init.keepalive = true;
       }
       return (method === 'GET' ? fetchRetry(url, init) : fetch(url, init)).then(function (res) {
         return res.text().then(function (text) {
@@ -1501,7 +1563,7 @@
     }
 
     /* An action through the installation's data layer; "Verify it's you" first when the administration would ask. */
-    call(action, input, retried) {
+    call(action, input, retried, opts) {
       var self = this;
       var t = this.boot.transport;
       var registered = this.registry().actions || {};
@@ -1512,7 +1574,7 @@
       var p;
       if (t.layer === 'graphql') {
         p = (write ? fetch : fetchRetry)(t.graphql, {
-          method: 'POST', credentials: 'same-origin',
+          method: 'POST', credentials: 'same-origin', keepalive: !!(opts && opts.keepalive),
           headers: Object.assign({ 'Content-Type': 'application/json', 'X-Requested-With': 'XMLHttpRequest', Accept: 'application/json' }, headers),
           body: JSON.stringify({ id: write ? 'expwt-write' : 'expwt-read', variables: { action: action, input: json } })
         }).then(function (res) {
@@ -1544,7 +1606,7 @@
         form.set('action', action);
         form.set('input', json);
         form.set('ezxform_token', this.boot.token || '');
-        p = this.request('POST', t.rest, form.toString(), Object.assign({ 'Content-Type': 'application/x-www-form-urlencoded' }, headers));
+        p = this.request('POST', t.rest, form.toString(), Object.assign({ 'Content-Type': 'application/x-www-form-urlencoded' }, headers), opts);
       } else {
         p = this.request('GET', t.rest + '?action=' + encodeURIComponent(action) + '&input=' + encodeURIComponent(json), null);
       }

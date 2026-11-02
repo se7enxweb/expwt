@@ -410,6 +410,30 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
         $this->assertFalse( expwtState::defaults( $s )['open'], 'decision 4: closed on the first visit' );
     }
 
+    /** The panel pushed last is kept whatever it is: every panel of the sidebar and an extension's panel, through a save */
+    public function testStateKeepsEveryPanelPushedLast()
+    {
+        $s = self::settings();
+        foreach ( array_merge( expwtState::PANELS, array( 'shop', 'my_panel2' ) ) as $panel )
+        {
+            $saved = expwtState::normalize( array( 'panel' => $panel ), $s );
+            $this->assertSame( $panel, expwtState::decode( json_encode( $saved ), $s )['panel'], $panel );
+        }
+        foreach ( array( '', 'Me', '1me', 'me-too', '<x>', str_repeat( 'a', 41 ), array( 'me' ) ) as $bad )
+            $this->assertSame( 'page', expwtState::normalize( array( 'panel' => $bad ), $s )['panel'], json_encode( $bad ) );
+    }
+
+    /** The panel pushed last is open again after a reload (tests/js/panelmemory.test.js, Node) */
+    public function testThePanelPushedLastIsOpenAgainAfterAReload()
+    {
+        $node = trim( (string)shell_exec( 'command -v node 2>&1' ) );
+        if ( $node === '' || !is_executable( $node ) )
+            $this->markTestSkipped( 'Node is not installed' );
+        exec( escapeshellarg( $node ) . ' ' . escapeshellarg( dirname( __DIR__, 2 ) . '/js/panelmemory.test.js' ) . ' 2>&1', $out, $status );
+        $this->assertSame( 0, $status, implode( "\n", $out ) );
+        $this->assertStringStartsWith( 'PASS', (string)end( $out ) );
+    }
+
     public function testVisitorsOnlyByShowToAnonymousOrTheAnonymousRole()
     {
         $this->assertSame( 'disabled', expwtSettings::anonymousMode( null ) );
