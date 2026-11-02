@@ -80,9 +80,12 @@ class expwtStatic
      *
      * @param array[] $rows path => row (node_id, stale)
      * @param int $nodeId
+     * @param string[] $folders the folders of the target's siteaccesses in the copy (bold, bold_ger; '' at the root)
+     * @param string|null $folder the folder of the siteaccess the page is viewed in: only its pages count (a whole
+     *                            path segment: bold_ger/ is not in bold/); null for every page of the node
      * @return array state (stale, current, missing: not in the last publish), path (the page's file, '' when missing)
      */
-    public static function pageState( array $rows, $nodeId )
+    public static function pageState( array $rows, $nodeId, array $folders = array(), $folder = null )
     {
         $path = '';
         $stale = false;
@@ -95,12 +98,67 @@ class expwtStatic
             // a node changed before any page of it was published: queued, not a page yet
             if ( strpos( $rowPath, $queue ) === 0 )
                 continue;
+            if ( $folder !== null && self::folderOf( $rowPath, $folders ) !== trim( (string)$folder, '/' ) )
+                continue;
             if ( $path === '' || strlen( $rowPath ) < strlen( $path ) )
                 $path = $rowPath;
             if ( !empty( $row['stale'] ) )
                 $stale = true;
         }
         return array( 'state' => $path === '' ? 'missing' : ( $stale ? 'stale' : 'current' ), 'path' => $path );
+    }
+
+    /**
+     * The folder of the siteaccess a file of the copy belongs to: the longest of the folders that is a whole leading
+     * path segment of it (bold_ger/team/index.html: bold_ger, not bold), '' at the root. Pure.
+     *
+     * @param string $path
+     * @param string[] $folders
+     * @return string
+     */
+    public static function folderOf( $path, array $folders )
+    {
+        $path = trim( str_replace( '\\', '/', (string)$path ), '/' );
+        $best = '';
+        foreach ( $folders as $candidate )
+        {
+            $candidate = trim( (string)$candidate, '/' );
+            if ( $candidate !== '' && ( $path === $candidate || strpos( $path, $candidate . '/' ) === 0 ) && strlen( $candidate ) > strlen( $best ) )
+                $best = $candidate;
+        }
+        return $best;
+    }
+
+    /**
+     * Where the siteaccess the panel is viewed in is in a target's copy: the folders of all its siteaccesses and its
+     * own (null when the target does not publish it, or the kernel cannot say: then every page of the node counts).
+     *
+     * @param expStaticTarget $target
+     * @param string $siteaccess
+     * @return array folders, folder
+     */
+    protected static function siteAccessFolder( $target, $siteaccess )
+    {
+        $out = array( 'folders' => array(), 'folder' => null );
+        if ( !method_exists( $target, 'members' ) || !method_exists( 'expStaticTarget', 'siteAccessContext' ) )
+            return $out;
+        try
+        {
+            $members = $target->members( expStaticTarget::siteAccessContext() );
+        }
+        catch ( Throwable $e )
+        {
+            return $out;
+        }
+        if ( count( $members ) < 2 )
+            return $out;
+        foreach ( $members as $member )
+        {
+            $out['folders'][] = (string)$member['prefix'];
+            if ( (string)$member['siteaccess'] === (string)$siteaccess )
+                $out['folder'] = (string)$member['prefix'];
+        }
+        return $out;
     }
 
     /**
@@ -167,12 +225,15 @@ class expwtStatic
         $nodeId = (int)$node->attribute( 'node_id' );
         $enabled = (bool)expStaticTarget::enabled();
         $nodes = self::publishesNodes();
+        $siteaccess = isset( $GLOBALS['eZCurrentAccess']['name'] ) ? (string)$GLOBALS['eZCurrentAccess']['name'] : '';
         $targets = array();
         foreach ( expStaticAdmin::readableTargets() as $target )
         {
             $id = $target->id();
             $runs = expStaticStatus::runs( $db, $id, 1 );
-            $page = self::pageState( expStaticStatus::pages( $db, $id ), $nodeId );
+            // a target of several siteaccesses: the page in the siteaccess the panel is viewed in (bold_ger, not bold)
+            $where = self::siteAccessFolder( $target, $siteaccess );
+            $page = self::pageState( expStaticStatus::pages( $db, $id ), $nodeId, $where['folders'], $where['folder'] );
             $job = null;
             try
             {

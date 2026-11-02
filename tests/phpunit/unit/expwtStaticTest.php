@@ -28,6 +28,27 @@ class expwtStaticTest extends PHPUnit\Framework\TestCase
         $this->assertSame( 'missing', expwtStatic::pageState( array(), 2 )['state'] );
     }
 
+    /** A target of several siteaccesses (one at the root, bold in bold/, bold_ger in bold_ger/): the page of the one viewed */
+    public function testPageStateOfASiteaccessInAFolder()
+    {
+        $rows = array(
+            'bold/team/index.html' => array( 'path' => 'bold/team/index.html', 'node_id' => 60, 'stale' => 0 ),
+            'bold_ger/team/index.html' => array( 'path' => 'bold_ger/team/index.html', 'node_id' => 60, 'stale' => 1730000000 ),
+            'team/index.html' => array( 'path' => 'team/index.html', 'node_id' => 60, 'stale' => 0 ),
+        );
+        $folders = array( '', 'bold', 'bold_ger' );
+        $this->assertSame( array( 'state' => 'stale', 'path' => 'bold_ger/team/index.html' ), expwtStatic::pageState( $rows, 60, $folders, 'bold_ger' ) );
+        $this->assertSame( array( 'state' => 'current', 'path' => 'bold/team/index.html' ), expwtStatic::pageState( $rows, 60, $folders, 'bold' ) );
+        $this->assertSame( array( 'state' => 'current', 'path' => 'team/index.html' ), expwtStatic::pageState( $rows, 60, $folders, '' ) );
+        $this->assertSame( 'missing', expwtStatic::pageState( $rows, 60, array( '', 'bold' ), 'smarty' )['state'] );
+        $this->assertSame( 'https://sites.example.com/bold_ger/team/',
+                           expwtStatic::pageUrl( 'https://sites.example.com/', expwtStatic::pageState( $rows, 60, $folders, 'bold_ger' )['path'] ) );
+        $this->assertSame( 'bold_ger', expwtStatic::folderOf( 'bold_ger/index.html', array( 'bold', 'bold_ger' ) ) );
+        $this->assertSame( 'bold', expwtStatic::folderOf( 'bold/index.html', array( 'bold_ger', 'bold' ) ) );
+        $this->assertSame( '', expwtStatic::folderOf( 'boldness/index.html', array( 'bold' ) ), 'a whole segment, not a prefix' );
+        $this->assertSame( 'bold', expwtStatic::folderOf( 'bold', array( 'bold' ) ) );
+    }
+
     public function testPageUrl()
     {
         $this->assertSame( 'https://owner.github.io/site/', expwtStatic::pageUrl( 'https://owner.github.io/site/', 'index.html' ) );
