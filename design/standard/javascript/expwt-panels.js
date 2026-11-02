@@ -3455,6 +3455,10 @@
     recording: function (rec) {
       if (!rec || typeof rec !== 'object') { return 'none'; }
       return rec.active ? 'on' : 'off';
+    },
+    /* The chip of a deploy's or a remote's state, from the kind the kernel's words come with (WP18). */
+    deployChip: function (kind) {
+      return { ok: 'is-ok', warn: 'is-warn', bad: 'is-bad' }[kind] || '';
     }
   };
 
@@ -3579,7 +3583,32 @@
       if (last.message) { children.push(h('p', { class: 'wt-notice is-bad', text: last.message })); }
       if (last.url) { children.push(h('div', { class: 'wt-row' }, [open(last.url)])); }
       root.appendChild(section('wt-mig-l', t('Last run'), children));
+      deploys(r.deploys);
     }, function (err) { root.textContent = ''; failure(ctx, err); });
+    /* The latest deploys to remotes (WP18), read-only, in the kernel's words (d.labels): each with its state, whether
+       the remotes are in sync, every remote's state, and a link to its page in the administration. */
+    function deploys(d) {
+      if (!d) { return; }
+      var L = d.labels || {};
+      var children = d.items.length ? [h('ul', { class: 'wt-list wt-mig-list' }, d.items.map(function (x) {
+        var meta = [h('span', { class: 'wt-chip' + (Migrations.deployChip(x.kind) ? ' ' + Migrations.deployChip(x.kind) : ''), text: x.text })];
+        if (x.in_sync === false) { meta.push(h('span', { class: 'wt-chip is-bad', text: L.outOfSync })); }
+        if (x.transfer_only) { meta.push(h('span', { class: 'wt-chip', text: L.transferOnly })); }
+        x.remotes.forEach(function (rm) {
+          meta.push(h('span', { class: 'wt-chip' + (Migrations.deployChip(rm.kind) ? ' ' + Migrations.deployChip(rm.kind) : ''), text: rm.id + ': ' + rm.text }));
+        });
+        return h('li', { class: 'wt-mig' }, [
+          h('div', { class: 'wt-mig-info' }, [
+            h('span', { class: 'wt-mig-id', text: x.id }),
+            h('span', { class: 'wt-url-meta' }, meta),
+            h('span', { class: 'wt-muted wt-mig-desc', text: [Migrations.at(x.started, lang), x.by].filter(Boolean).join(' \u00b7 ') })
+          ]),
+          open(x.url)
+        ]);
+      }))] : [h('p', { class: 'wt-muted', text: L.none })];
+      if (d.url) { children.push(h('div', { class: 'wt-row' }, [open(d.url)])); }
+      root.appendChild(section('wt-mig-d', L.title, children));
+    }
   }
 
   /* -------------------------------------------------------------------------------------------------- static */

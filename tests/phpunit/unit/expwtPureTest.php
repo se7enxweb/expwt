@@ -958,6 +958,33 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
         $this->assertSame( expwtGateway::MIGRATIONS_LISTED + 5, $v['attention'] );
     }
 
+    /** The deploys of the Migrations panel (WP18): the kernel's words, kinds, links; never an address. */
+    public function testDeploysView()
+    {
+        $history = array(
+            array( 'deploy_id' => '20261102-120000-a1b2c3', 'mode' => 'apply', 'state' => 'rolled-back', 'in_sync' => true, 'started_at' => '2026-11-02T12:00:00+00:00',
+                   'remotes' => array( 'stage' => 'rolled-back', 'prod' => 'restored' ), 'user' => 'admin', 'address' => 'ssh://deploy@node1:22/srv' ),
+            array( 'deploy_id' => '20261101-090000-d4e5f6', 'mode' => 'transfer-only', 'state' => 'out-of-sync', 'in_sync' => false, 'started_at' => null,
+                   'remotes' => array( 'ftp1' => 'out-of-sync' ), 'user' => '' ),
+        );
+        $tr = function ( $text ) { return "[$text]"; };
+        $v = expwtGateway::deploysView( $history, '/admin/', $tr );
+        $this->assertCount( 2, $v['items'] );
+        $first = $v['items'][0];
+        $this->assertSame( array( 'id', 'state', 'text', 'kind', 'in_sync', 'transfer_only', 'remotes', 'by', 'started', 'url' ), array_keys( $first ), 'no address' );
+        $this->assertSame( '[rolled back]', $first['text'] );
+        $this->assertSame( 'ok', $first['kind'] );
+        $this->assertSame( array( 'id' => 'prod', 'state' => 'restored', 'text' => '[failed, restored itself]', 'kind' => 'warn' ), $first['remotes'][1] );
+        $this->assertSame( '/admin/migration/deployment/20261102-120000-a1b2c3', $first['url'] );
+        $this->assertTrue( $v['items'][1]['transfer_only'] );
+        $this->assertSame( 'bad', $v['items'][1]['kind'] );
+        $this->assertSame( '[Deploys]', $v['labels']['title'] );
+        $this->assertSame( '/admin/migration/deploy', $v['url'] );
+        $none = expwtGateway::deploysView( array(), null, $tr );
+        $this->assertSame( array(), $none['items'] );
+        $this->assertNull( $none['url'] );
+    }
+
     /** Without expMigrationStatus (a kernel before 6.0.15) the panel is never offered */
     public function testNoMigrationsPanelWithoutTheKernelsMigrations()
     {

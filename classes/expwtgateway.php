@@ -2673,7 +2673,106 @@ class expwtGateway
         eZHTTPTool::instance()->setSessionVariable( 'expwtMigrations', array( 'user' => $this->userId(), 'count' => $view['attention'], 'at' => time() ) );
         // the recording of the user's own changes (null: not offered)
         $view['recording'] = $this->recording();
+        // the latest deploys to remotes (null: not offered)
+        $view['deploys'] = $this->deploys();
         return $view;
+    }
+
+    /** How many of the latest deploys the panel lists */
+    const DEPLOYS_LISTED = 5;
+
+    /** The kernel's texts of the deploy section (context design/admin/migration, translated in every kernel catalogue) */
+    const DEPLOY_LABELS = array( 'title' => 'Deploys', 'none' => 'No deploy yet.', 'outOfSync' => 'out of sync', 'transferOnly' => 'transfer only',
+                                 'remotes' => 'Remotes', 'started' => 'Started', 'state' => 'State', 'by' => 'By' );
+
+    /** The kernel's words of the states of a deploy and of a remote in it (design:migration/parts/deploy_state_text.tpl) */
+    const DEPLOY_STATES = array( 'planned' => 'planned', 'transferred' => 'transferred', 'deployed' => 'deployed', 'gated' => 'waits at a gate',
+                                 'rolled-back' => 'rolled back', 'out-of-sync' => 'out of sync', 'failed' => 'failed', 'refused' => 'refused',
+                                 'selected' => 'selected', 'prepared' => 'prepared', 'ready' => 'ready', 'waiting' => 'waits for its stage',
+                                 'sent' => 'files sent', 'verified' => 'verified', 'applied' => 'applied', 'restored' => 'failed, restored itself',
+                                 'unchanged' => 'unchanged', 'skipped' => 'not deployed', 'unreachable' => 'not reachable', 'unknown' => 'unknown' );
+
+    /**
+     * Whether the kernel keeps deploys to remotes (expMigrationRemoteDeploy::history(), Exponential 6.0.15 WP18) and
+     * the user may see them: the kernel's migration/deploy, as Setup > Migrations > Deploys asks.
+     *
+     * @return bool
+     */
+    public function readsDeploys()
+    {
+        return $this->readsMigrations() && class_exists( 'expMigrationRemoteDeploy' ) && method_exists( 'expMigrationRemoteDeploy', 'history' )
+            && $this->may( 'migration', 'deploy' );
+    }
+
+    /**
+     * The latest deploys for the Migrations panel: null when not offered.
+     *
+     * @return array|null deploysView()
+     */
+    public function deploys()
+    {
+        if ( !$this->readsDeploys() )
+            return null;
+        try
+        {
+            $history = expMigrationRemoteDeploy::history( self::DEPLOYS_LISTED );
+        }
+        catch ( Throwable $e )
+        {
+            eZDebug::writeError( get_class( $e ) . ': ' . $e->getMessage(), __METHOD__ );
+            return null;
+        }
+        $tr = function ( $text ) { return ezpI18n::tr( 'design/admin/migration', $text ); };
+        return self::deploysView( $history, $this->migrationsAdmin(), $tr );
+    }
+
+    /**
+     * What the panel shows of the deploy history (expMigrationRemoteDeploy::history()). Pure.
+     *
+     * Only what a reader of Setup > Migrations > Deploys sees there: the deploy id, its state, the remotes by id with
+     * their states, who started it and when; never an address, host or credential.
+     *
+     * @param array[] $history the newest first
+     * @param string|null $admin the administration's base address, null for no links
+     * @param callable $tr text => translated text
+     * @return array items (id, state, text, kind, in_sync, transfer_only, remotes (id, state, text, kind), by, started,
+     *               url), labels, url (the Deploys page)
+     */
+    public static function deploysView( array $history, $admin, callable $tr )
+    {
+        $kind = function ( $state ) {
+            if ( in_array( $state, array( 'deployed', 'applied', 'planned', 'transferred', 'ready', 'verified', 'sent', 'rolled-back', 'unchanged' ), true ) )
+                return 'ok';
+            if ( in_array( $state, array( 'gated', 'waiting', 'skipped', 'restored' ), true ) )
+                return 'warn';
+            if ( in_array( $state, array( 'failed', 'refused', 'out-of-sync', 'unreachable', 'unknown' ), true ) )
+                return 'bad';
+            return '';
+        };
+        $text = function ( $state ) use ( $tr ) {
+            return isset( self::DEPLOY_STATES[$state] ) ? call_user_func( $tr, self::DEPLOY_STATES[$state] ) : (string)$state;
+        };
+        $items = array();
+        foreach ( array_slice( $history, 0, self::DEPLOYS_LISTED ) as $deploy )
+        {
+            $id = isset( $deploy['deploy_id'] ) ? (string)$deploy['deploy_id'] : '';
+            if ( $id === '' )
+                continue;
+            $state = isset( $deploy['state'] ) ? (string)$deploy['state'] : '';
+            $remotes = array();
+            foreach ( isset( $deploy['remotes'] ) ? (array)$deploy['remotes'] : array() as $remote => $remoteState )
+                $remotes[] = array( 'id' => (string)$remote, 'state' => (string)$remoteState, 'text' => $text( (string)$remoteState ), 'kind' => $kind( (string)$remoteState ) );
+            $items[] = array( 'id' => $id, 'state' => $state, 'text' => $text( $state ), 'kind' => $kind( $state ),
+                              'in_sync' => isset( $deploy['in_sync'] ) ? $deploy['in_sync'] : null,
+                              'transfer_only' => isset( $deploy['mode'] ) && $deploy['mode'] === 'transfer-only',
+                              'remotes' => $remotes, 'by' => isset( $deploy['user'] ) ? (string)$deploy['user'] : '',
+                              'started' => isset( $deploy['started_at'] ) ? $deploy['started_at'] : null,
+                              'url' => $admin ? $admin . 'migration/deployment/' . rawurlencode( $id ) : null );
+        }
+        $labels = array();
+        foreach ( self::DEPLOY_LABELS as $key => $source )
+            $labels[$key] = call_user_func( $tr, $source );
+        return array( 'items' => $items, 'labels' => $labels, 'url' => $admin ? $admin . 'migration/deploy' : null );
     }
 
     /**
