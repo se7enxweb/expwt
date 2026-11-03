@@ -993,6 +993,16 @@
       });
     }
 
+    /* The closed tab follows the choice of the tab labels (the stylesheet, data-labels); a changed choice draws the
+       panel tabs anew at once, their badges with them (buildTabs) */
+    applyLabels() {
+      var labels = this.labelMode();
+      if (this.getAttribute('data-labels') === labels) { return; }
+      var redraw = this.hasAttribute('data-labels');
+      this.setAttribute('data-labels', labels);
+      if (redraw && this.tabButtons) { this.buildTabs(); }
+    }
+
     /* icons, both or text: the user's choice, else the installation's */
     labelMode() {
       return TabLabels.mode(this.state.labels, this.cfg.labels);
@@ -1249,13 +1259,7 @@
       this.setAttribute('data-open', this.state.open ? 'true' : 'false');
       this.setAttribute('data-overlay', this.overlay() ? 'true' : 'false');
       this.tab.setAttribute('aria-expanded', this.state.open ? 'true' : 'false');
-      /* the closed tab follows the choice of the tab labels (the stylesheet); the panel tabs are drawn anew */
-      var labels = this.labelMode();
-      if (this.getAttribute('data-labels') !== labels) {
-        var redraw = this.hasAttribute('data-labels');
-        this.setAttribute('data-labels', labels);
-        if (redraw && this.tabButtons) { this.buildTabs(); }
-      }
+      this.applyLabels();
       this.panel.hidden = !this.state.open;
       /* the panel's edge: a vertical separator sizes the width, a horizontal one the height of the bar */
       this.resizer.setAttribute('aria-orientation', hz ? 'horizontal' : 'vertical');

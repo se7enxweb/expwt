@@ -14,7 +14,7 @@ var path = require('path');
 var vm = require('vm');
 
 var source = fs.readFileSync(path.join(__dirname, '../../design/standard/javascript/expwt.js'), 'utf8');
-var win = { customElements: { get: function () { return undefined; }, define: function () {} } };
+var win = { customElements: { get: function () { return undefined; }, define: function (name, cls) { win.ExpWtClass = cls; } } };
 var sandbox = { window: win, document: {}, HTMLElement: function () {}, Document: function () {}, CSSStyleSheet: function () {}, Element: function () {} };
 sandbox.HTMLElement.prototype = {};
 vm.createContext(sandbox);
@@ -149,6 +149,74 @@ var s = M.onBoot({ labels: 'text', theme: 'dark' }, { labels: 'both' }, false);
 check('onBoot: this device\'s unsent choice over the server\'s', s.labels === 'both' && s.theme === 'dark');
 s = M.onBoot({ labels: 'text' }, null, false);
 check('onBoot: the server\'s choice on another device', s.labels === 'text');
+
+// the sidebar's element: keys on icon tabs, the chooser, and a changed choice drawn at once
+var W = win.ExpWtClass;
+check('the element is defined', !!W);
+if (W) {
+  // a document for the element factory: just what h() uses
+  sandbox.document.createElement = function (tag) {
+    var el = fake(tag);
+    el.listeners = {};
+    el.addEventListener = function (type, fn) { el.listeners[type] = fn; };
+    Object.defineProperty(el, 'textContent', { set: function (v) { el.text = v; }, get: function () { return el.text; } });
+    return el;
+  };
+  sandbox.document.createTextNode = function (text) { return { tag: '#text', text: text }; };
+  sandbox.getComputedStyle = function () { return { direction: 'ltr' }; };
+
+  // Keys unchanged: the right arrow selects the next icon tab and shows its panel
+  var shown = [];
+  var buttons = ['page', 'sites', 'me'].map(function (id) {
+    var bt = fake('button', { 'data-panel': id });
+    bt.focused = false;
+    bt.focus = function () { bt.focused = true; };
+    L.fill(bt, L.parts({ id: id, label: id }, 'icons', B), fake);
+    return bt;
+  });
+  W.prototype.tabsKey.call({ tabButtons: buttons, show: function (id) { shown.push(id); } },
+    { key: 'ArrowRight', target: buttons[0], preventDefault: function () {} });
+  check('keys on icon tabs: the right arrow goes to the next tab', buttons[1].focused && shown.join() === 'sites');
+  shown = [];
+  W.prototype.tabsKey.call({ tabButtons: buttons, show: function (id) { shown.push(id); } },
+    { key: 'End', target: buttons[0], preventDefault: function () {} });
+  check('keys on icon tabs: End goes to the last tab', buttons[2].focused && shown.join() === 'me');
+
+  // the chooser: three radios, the choice in effect checked, a change kept with the sidebar's settings
+  var changes = [];
+  var host = { state: { labels: '' }, cfg: { labels: 'text' }, t: function (s) { return s; }, labelMode: W.prototype.labelMode,
+    setState: function (c) { changes.push(c); } };
+  var fs2 = W.prototype.labelChooser.call(host);
+  var legend = fs2.children.filter(function (c) { return c.tag === 'legend'; });
+  check('chooser: its legend', legend.length === 1 && legend[0].text === 'Tab labels');
+  var radios = fs2.children.filter(function (c) { return c.tag === 'label'; }).map(function (l) { return l.children[0]; });
+  check('chooser: three radios in the order icons, both, text', radios.map(function (r) { return r.value; }).join() === 'icons,both,text');
+  check('chooser: the installation\'s choice is checked without one of the user\'s', radios[2].checked === true && !radios[0].checked && !radios[1].checked);
+  check('chooser: the words', fs2.children.filter(function (c) { return c.tag === 'label'; }).map(function (l) { return l.children[1].text; }).join('|') === 'Icons|Icons and text|Text');
+  radios[0].listeners.change();
+  check('chooser: picking icons keeps it with the settings', changes.length === 1 && changes[0].labels === 'icons');
+  host.state.labels = 'both';
+  radios = W.prototype.labelChooser.call(host).children.filter(function (c) { return c.tag === 'label'; }).map(function (l) { return l.children[0]; });
+  check('chooser: the user\'s choice is checked', radios[1].checked === true && !radios[2].checked);
+
+  // Choice takes effect at once: a changed choice sets data-labels and draws the tabs anew; the first draw does not
+  function hostFor(labels) {
+    var o = { attrs: {}, built: 0, tabButtons: [], state: { labels: labels }, cfg: { labels: 'icons' }, labelMode: W.prototype.labelMode };
+    o.getAttribute = function (k) { return Object.prototype.hasOwnProperty.call(o.attrs, k) ? o.attrs[k] : null; };
+    o.hasAttribute = function (k) { return Object.prototype.hasOwnProperty.call(o.attrs, k); };
+    o.setAttribute = function (k, v) { o.attrs[k] = v; };
+    o.buildTabs = function () { o.built++; };
+    return o;
+  }
+  var ho = hostFor('');
+  W.prototype.applyLabels.call(ho);
+  check('applyLabels: the first draw sets the choice without drawing twice', ho.attrs['data-labels'] === 'icons' && ho.built === 0);
+  ho.state.labels = 'text';
+  W.prototype.applyLabels.call(ho);
+  check('applyLabels: a changed choice draws the tabs at once', ho.attrs['data-labels'] === 'text' && ho.built === 1);
+  W.prototype.applyLabels.call(ho);
+  check('applyLabels: the same choice draws nothing', ho.built === 1);
+}
 
 console.log(failed ? 'FAIL ' + failed + ' failed' : 'PASS all');
 process.exit(failed ? 1 : 0);
