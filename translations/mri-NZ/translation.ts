@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Mō ngā kaiwhakamahi kāore anō kia kōwhiri: ka kōwhiri ia kaiwhakamahi i te papa "Ahau", te manuhiri i te papa "Nau mai".</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Whakaputaina te ihirangi o te hukihuki e whakatikahia ana. Ka noho te hukihuki hei putanga kua whakaputaina o te ahanoa.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Tuku kia whakaputaina</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Tiakina te ihirangi o te hukihuki e whakatikahia ana, ka haere tonu ai te whakatika. Whakamahia tēnei pātene hei tiaki i ō mahi i ia wā i a koe e whakatika ana.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Tiaki i te hukihuki</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Tiakina te hukihuki e whakatikahia ana, ka puta ai i te aratau whakatika. Whakamahia ina me wehe koe i ō mahi, ā, ka hoki mai ā muri ake nei.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Tiaki i te hukihuki ka puta</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>E tino hiahia ana koe ki te whakarere i te hukihuki?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Whakarerea te hukihuki e whakatikahia ana. Ka tangohia hoki ngā whakamāoritanga nō te hukihuki (mēnā he mea anō).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Whakahaere putanga</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

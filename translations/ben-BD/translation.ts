@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>যে ব্যবহারকারীরা বেছে নেননি তাদের জন্য: প্রত্যেক ব্যবহারকারী "আমি" প্যানেলে বেছে নেন, দর্শনার্থী "স্বাগতম" প্যানেলে।</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>সম্পাদনাধীন খসড়ার কনটেন্ট প্রকাশ করুন। খসড়াটি অবজেক্টের প্রকাশিত সংস্করণ হয়ে যাবে।</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>প্রকাশের জন্য পাঠান</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>সম্পাদনাধীন খসড়ার বিষয়বস্তু সংরক্ষণ করে সম্পাদনা চালিয়ে যান। সম্পাদনার সময় নিয়মিত আপনার কাজ সংরক্ষণ করতে এই বাটন ব্যবহার করুন।</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>খসড়া সংরক্ষণ করুন</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>সম্পাদনাধীন খসড়া সংরক্ষণ করুন এবং সম্পাদনা মোড থেকে প্রস্থান করুন। কাজ থামিয়ে পরে আবার চালিয়ে যেতে চাইলে এটি ব্যবহার করুন।</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>খসড়া সংরক্ষণ করুন এবং প্রস্থান করুন</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>আপনি কি নিশ্চিত যে খসড়াটি বাতিল করতে চান?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>সম্পাদনাধীন খসড়াটি বাতিল করুন। এটি খসড়ার অন্তর্ভুক্ত অনুবাদগুলিও (যদি থাকে) অপসারণ করবে।</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>সংস্করণ পরিচালনা করুন</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

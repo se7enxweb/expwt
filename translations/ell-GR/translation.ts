@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Για χρήστες που δεν έχουν επιλέξει: κάθε χρήστης επιλέγει στο πλαίσιο «Εγώ», ένας επισκέπτης στο πλαίσιο «Καλώς ορίσατε».</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Δημοσίευση του περιεχομένου του προσχεδίου που επεξεργάζεστε. Το προσχέδιο θα γίνει η δημοσιευμένη έκδοση του αντικειμένου.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Αποστολή για δημοσίευση</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Αποθήκευση του περιεχομένου του προσχεδίου που επεξεργάζεστε και συνέχιση της επεξεργασίας. Χρησιμοποιήστε αυτό το κουμπί για να αποθηκεύετε τακτικά την εργασία σας κατά την επεξεργασία.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Αποθήκευση προσχεδίου</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Αποθήκευση του προσχεδίου που επεξεργάζεστε και έξοδος από τη λειτουργία επεξεργασίας. Χρησιμοποιήστε το όταν θέλετε να διακόψετε την εργασία σας και να τη συνεχίσετε αργότερα.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Αποθήκευση προσχεδίου και έξοδος</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Θέλετε σίγουρα να απορρίψετε το προσχέδιο;</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Απόρριψη του προσχεδίου που επεξεργάζεστε. Αφαιρούνται επίσης οι μεταφράσεις που ανήκουν στο προσχέδιο (αν υπάρχουν).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Διαχείριση εκδόσεων</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Naudotojams, kurie nepasirinko: kiekvienas naudotojas renkasi skydelyje „Aš“, lankytojas – skydelyje „Sveiki“.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Publikuoti redaguojamo juodraščio turinį. Juodraštis taps publikuota objekto versija.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Siųsti publikuoti</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Įrašyti redaguojamo juodraščio turinį ir tęsti redagavimą. Naudokite šį mygtuką, kad redaguodami periodiškai įrašytumėte savo darbą.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Įrašyti juodraštį</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Įrašyti redaguojamą juodraštį ir išeiti iš redagavimo režimo. Naudokite, kai reikia baigti darbą ir vėliau grįžti jo tęsti.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Įrašyti juodraštį ir išeiti</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Ar tikrai norite atmesti juodraštį?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Atmesti redaguojamą juodraštį. Taip pat bus pašalinti juodraščiui priklausantys vertimai (jei yra).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Tvarkyti versijas</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

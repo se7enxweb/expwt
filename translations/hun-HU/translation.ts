@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Azoknak a felhasználóknak, akik nem választottak: minden felhasználó az „Én” panelen választ, a látogató az „Üdvözöljük” panelen.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>A szerkesztett piszkozat tartalmának közzététele. A piszkozat lesz az objektum közzétett verziója.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Küldés közzétételre</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>A szerkesztett piszkozat tartalmának mentése és a szerkesztés folytatása. Ezzel a gombbal szerkesztés közben rendszeresen mentheti a munkáját.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Piszkozat mentése</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>A szerkesztett piszkozat mentése és kilépés a szerkesztési módból. Akkor használja, ha abba kell hagynia a munkát, és később folytatná.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Piszkozat mentése és kilépés</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Biztosan el szeretné vetni a piszkozatot?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>A szerkesztett piszkozat elvetése. Ezzel a piszkozathoz tartozó fordítások is eltávolításra kerülnek (ha vannak).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Verziók kezelése</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

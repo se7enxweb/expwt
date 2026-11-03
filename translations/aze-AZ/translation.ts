@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Seçim etməmiş istifadəçilər üçün: hər istifadəçi "Mən" panelində, ziyarətçi isə "Xoş gəlmisiniz" panelində seçir.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Redaktə olunan qaralamanın məzmununu dərc edin. Qaralama obyektin dərc edilmiş versiyası olacaq.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Dərc üçün göndər</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Redaktə olunan qaralamanın məzmununu yadda saxlayın və redaktəyə davam edin. Redaktə zamanı işinizi vaxtaşırı yadda saxlamaq üçün bu düymədən istifadə edin.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Qaralamanı yadda saxla</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Redaktə olunan qaralamanı yadda saxlayın və redaktə rejimindən çıxın. İşinizi dayandırıb sonra davam etmək üçün qayıtmaq lazım olduqda istifadə edin.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Qaralamanı yadda saxla və çıx</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Qaralamanı atmaq istədiyinizə əminsinizmi?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Redaktə olunan qaralamanı atın. Bu, qaralamaya aid tərcümələri də (varsa) çıxarır.</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Versiyaları idarə et</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

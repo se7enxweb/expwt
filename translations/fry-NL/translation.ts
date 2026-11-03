@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Foar brûkers dy't net sels keazen hawwe: elke brûker kiest yn it paniel "Ik", in besiker yn it paniel "Wolkom".</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>De ynhâld fan it konsept dat bewurke wurdt publisearje. It konsept wurdt de publisearre ferzje fan it objekt.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Ferstjoere foar publikaasje</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>De ynhâld fan it konsept dat bewurke wurdt bewarje en fierder bewurkje. Brûk dizze knop om jo wurk by it bewurkjen geregeld te bewarjen.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Konsept bewarje</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>It konsept dat bewurke wurdt bewarje en de bewurkingsmodus ferlitte. Brûk dit as jo jo wurk ûnderbrekke en letter fierder gean wolle.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Konsept bewarje en ôfslute</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Binne jo wis dat jo it konsept ferwerpe wolle?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>It konsept dat bewurke wurdt ferwerpe. Dêrmei wurde ek de oersettingen dy't by it konsept hearre fuorthelle (as dy der binne).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Ferzjes beheare</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Mpo na basaleli oyo baponi te: mosaleli nyonso aponaka na panneau "Ngai", mopaya na panneau "Boyei malamu".</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Bimisá makambo ya brouillon ezali kobongisama. Brouillon ekokoma version ebimisami ya eloko.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Tindá mpo ebimisama</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Bómbá makambo ya brouillon oyo ezali kobongisama mpe kokoba kobongisa. Salelá libaku oyo mpo na kobómba mosala na yo mbala na mbala ntango ozali kobongisa.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Bómbá brouillon</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Bómbá brouillon ezali kobongisama mpe bimá na mode ya kobongisa. Salelá ntango osengeli kotika mosala mpe kozonga na nsima mpo na kokoba.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Bómbá brouillon mpe bimá</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Olingi solo kobwaka brouillon?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Bwaká brouillon ezali kobongisama. Yango ekolongola mpe mabongoli oyo etali brouillon (soki ezali).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Kamba bamversion</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

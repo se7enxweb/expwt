@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Ngir jëfandikukat yi tànnul: jëfandikukat bu nekk dafay tànn ci panno "Man", ganaa ci panno "Dalal ak jàmm".</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Siiwal li ci biir brouyoŋ bi ñuy soppi. Brouyoŋ bi dina nekk wersiyoŋ bu ñu siiwal bu objee bi.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Yónne ngir siiwal</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Denc li ci biir brouyoŋ bi ñuy soppi te kontinuwaat soppi. Jëfandikool butoŋ bii ci diir ba diir ngir denc sa liggéey bu nga di soppi.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Denc brouyoŋ bi</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Denc brouyoŋ bi ñuy soppi te génn ci anamu soppi. Jëfandikool ko bu soxlaa bàyyi sa liggéey te dellusi ca ginnaaw.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Denc brouyoŋ bi te génn</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Ndax wóor na la ne bëgg nga sànni brouyoŋ bi?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Sànni brouyoŋ bi ñuy soppi. Loolu dina dindi it tekki yi bokk ak brouyoŋ bi (su ñu amee).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Saytu wersiyoŋ yi</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

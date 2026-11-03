@@ -9,6 +9,9 @@ replaces ezwt, the website toolbar.
 - The package replaces `se7enxweb/ezwt` (Composer `replace`): the two are never installed together, and a
   `require` of ezwt is met by expwt. Composer removes `extension/ezwt` when expwt comes in, so run the migration
   first or right after, before `ActiveExtensions[]=ezwt` is taken out of the settings.
+- Designs include `design:parts/expwt_edit_actions.tpl` (the edit form's Send for publishing, Store draft, Discard draft),
+  `expwt_versionview_actions.tpl` and `expwt_page_toolbar.tpl` in place of ezwt's templates; ezwt's own include names
+  (`parts/website_toolbar*.tpl`) answer with these for designs not yet moved (guide: "Designs").
 - Guide: [doc/eng-us/expwt.md](doc/eng-us/expwt.md) (Deutsch: [doc/ger-de/expwt.md](doc/ger-de/expwt.md)).
 - Requires Exponential 6.0.15 or later (the pagelayout hook, GraphQL mutation extensions, the move from ezwt) and
   ezjscore; PHP 7.4 or later.

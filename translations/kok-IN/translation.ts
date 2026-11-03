@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>जांणी वेंचून काडूंक ना त्या वापरप्यांखातीर: दरेक वापरपी "हांव" फलकांत वेंचता, भेट दिवपी "येवकार" फलकांत.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>संपादन जावपी मसुद्याचो आशय प्रकाशीत करात. मसुदो ऑब्जेक्टाची प्रकाशीत आवृत्ती जातलो.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>प्रकाशनाक धाडात</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>संपादन जावपी मसुद्याचो आशय जतन करात आनी संपादन फुडें चालू दवरात. संपादन करतना तुमचें काम वेळो वेळार जतन करपाक हें बटण वापरात.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>मसुदो जतन करात</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>संपादन जावपी मसुदो जतन करात आनी संपादन मोडांतल्यान भायर सरात. तुमचें काम थांबोवन उपरांत परत सुरू करपाचें आसल्यार हें वापरात.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>मसुदो जतन करात आनी भायर सरात</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>तुमकां खरेंच मसुदो सोडून दिवपाक जाय?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>संपादन जावपी मसुदो सोडून दियात. हातूंतल्यान मसुद्याचीं भाशांतरां (आसल्यार) लेगीत काडटलीं.</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>आवृत्ती व्यवस्थापन करात</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

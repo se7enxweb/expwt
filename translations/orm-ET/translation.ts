@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Fayyadamtoota hin filanneef: fayyadamaan hundi gabatee "Ana" keessatti, daawwataan gabatee "Baga nagaan dhufte" keessatti filata.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Qabiyyee wixinee gulaalamaa jiru maxxansi. Wixineen sun fooyya'iinsa maxxanfame wanta sanaa ta'a.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Maxxansaaf ergi</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Qabiyyee wixinee gulaalamaa jiru olkaa'iitii gulaaluu itti fufi. Yeroo gulaaltan hojii keessan yeroo yeroon olkaa'uuf button kana fayyadamaa.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Wixinee olkaa'i</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Wixinee gulaalamaa jiru olkaa'iitii haala gulaalaa keessaa ba'i. Hojii keessan dhiisanii booda itti fufuuf yeroo barbaadan fayyadamaa.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Wixinee olkaa'iitii ba'i</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Dhuguma wixinee gatuu barbaaddanii?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Wixinee gulaalamaa jiru gatadhu. Kunis hiikkaawwan wixinee kanaa (yoo jiraate) ni baasa.</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Fooyya'iinsota bulchi</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

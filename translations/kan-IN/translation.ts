@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>ಆಯ್ಕೆ ಮಾಡದ ಬಳಕೆದಾರರಿಗೆ: ಪ್ರತಿ ಬಳಕೆದಾರರು "ನಾನು" ಫಲಕದಲ್ಲಿ ಆಯ್ಕೆ ಮಾಡುತ್ತಾರೆ, ಸಂದರ್ಶಕರು "ಸ್ವಾಗತ" ಫಲಕದಲ್ಲಿ.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>ಸಂಪಾದಿಸಲಾಗುತ್ತಿರುವ ಕರಡಿನ ವಿಷಯಗಳನ್ನು ಪ್ರಕಟಿಸಿ. ಕರಡು ವಸ್ತುವಿನ ಪ್ರಕಟಿತ ಆವೃತ್ತಿಯಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>ಪ್ರಕಟಣೆಗಾಗಿ ಕಳುಹಿಸು</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>ಸಂಪಾದಿಸಲಾಗುತ್ತಿರುವ ಕರಡಿನ ವಿಷಯವನ್ನು ಸಂಗ್ರಹಿಸಿ ಸಂಪಾದನೆಯನ್ನು ಮುಂದುವರಿಸಿ. ಸಂಪಾದಿಸುವಾಗ ನಿಮ್ಮ ಕೆಲಸವನ್ನು ಆಗಾಗ್ಗೆ ಉಳಿಸಲು ಈ ಬಟನ್ ಬಳಸಿ.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>ಕರಡನ್ನು ಸಂಗ್ರಹಿಸು</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>ಸಂಪಾದಿಸಲಾಗುತ್ತಿರುವ ಕರಡನ್ನು ಸಂಗ್ರಹಿಸಿ ಸಂಪಾದನೆ ಮೋಡ್‌ನಿಂದ ನಿರ್ಗಮಿಸಿ. ನಿಮ್ಮ ಕೆಲಸವನ್ನು ಬಿಟ್ಟು ನಂತರ ಮುಂದುವರಿಸಲು ಬಯಸಿದಾಗ ಬಳಸಿ.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>ಕರಡನ್ನು ಸಂಗ್ರಹಿಸಿ ನಿರ್ಗಮಿಸು</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>ನೀವು ಕರಡನ್ನು ತ್ಯಜಿಸಲು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>ಸಂಪಾದಿಸಲಾಗುತ್ತಿರುವ ಕರಡನ್ನು ತ್ಯಜಿಸಿ. ಇದು ಕರಡಿಗೆ ಸೇರಿದ ಅನುವಾದಗಳನ್ನು (ಯಾವುದಾದರೂ ಇದ್ದರೆ) ಸಹ ತೆಗೆದುಹಾಕುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>ಆವೃತ್ತಿಗಳನ್ನು ನಿರ್ವಹಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

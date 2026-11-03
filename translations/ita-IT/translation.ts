@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Per gli utenti che non hanno scelto: ogni utente sceglie nel pannello «Io», un visitatore nel pannello «Benvenuto».</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Pubblica i contenuti della bozza in fase di modifica. La bozza diverrà la versione pubblicata dell'oggetto.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Pubblica</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Salva i contenuti della bozza in fase di modifica e continua a modificare. Usa questo pulsante per salvare periodicamente il tuo lavoro mentre modifichi.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Salva bozza</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Salva la bozza in fase di modifica ed esci dalla modifica. Usa questo pulsante per uscire dal tuo lavoro e tornare successivamente per continuare.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Salva bozza ed esci</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Sei sicuro di voler annullare la bozza?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Annulla la bozza in fase di modifica. Rimuoverai anche le traduzioni appartenenti alla bozza (se ve ne sono).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Gestisci versioni</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

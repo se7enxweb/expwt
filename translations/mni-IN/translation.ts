@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>খনদ্রবা শিজিন্নরিবশিংগীদমক: শিজিন্নরিবা খুদিংমক্না "ঐ" পেনেলদা খনই, লাকপা মীনা "তরাম্না ওকচরি" পেনেলদা।</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>এডিট তৌরিবা ড্রাফ্টকী কন্টেন্ট প্রকাশ তৌবা. ড্রাফ্ট অদু অবজেক্টকী প্রকাশ তৌরবা ভর্সন ওইগনি.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>প্রকাশগী ৱাংবা পাঠাবা</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>এডিট তৌরিবা ড্রাফ্টকী কন্টেন্ট থম্লগা এডিট তৌবা মখা চৎপা. এডিট তৌরিবদা নঙ্গী ৱারোল মসময় মসময়দা থম্বগী বটন অসি ইশ্তেমাল তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>ড্রাফ্ট থম্বা</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>এডিট তৌরিবা ড্রাফ্ট থম্লগা এডিট মোদদগী থোকপা. ৱারোল লোইনা মখা লেপ্লগা চৎপগী ফংবদা ইশ্তেমাল তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>ড্রাফ্ট থম্লগা থোকপা</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>নঙ্গীনা ড্রাফ্ট ফাহনবগী ঠিকনি গা ?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>এডিট তৌরিবা ড্রাফ্ট অসি ফাহনবা. অসিনা ড্রাফ্টকী অনুবাদশিং (লৈরবদা) সুসু থোক্কনি.</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>ভর্সনশিং মেনেজ তৌবা</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

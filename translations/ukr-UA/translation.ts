@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Для користувачів, які не вибрали: кожен користувач вибирає на панелі «Я», відвідувач — на панелі «Ласкаво просимо».</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Опублікувати вміст чернетки, що редагується. Чернетка стане опублікованою версією об'єкта.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Надіслати на публікацію</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Зберегти вміст чернетки, що редагується, і продовжити редагування. Використовуйте цю кнопку, щоб періодично зберігати свою роботу під час редагування.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Зберегти чернетку</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Зберегти чернетку, що редагується, і вийти з режиму редагування. Використовуйте, коли потрібно перервати роботу і повернутися до неї пізніше.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Зберегти чернетку і вийти</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Ви впевнені, що хочете відхилити чернетку?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Відхилити чернетку, що редагується. Також буде вилучено переклади, які належать до чернетки (якщо такі є).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Керувати версіями</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

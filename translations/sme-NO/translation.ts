@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Geavaheddjiide geat eai leat válljen: juohke geavaheaddji vállje panelas «Mun», guossi panelas «Bures boahtin».</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Almmuha luonosa sisdoalu maid rievdadat. Luonos šaddá objeavtta almmuhuvvon veršuvdnan.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Sáddet almmuhussii</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Vurke luonosa sisdoalu maid rievdadat ja joatke rievdadeami. Geavat dán boalu áiggi mielde vurket du bargu rievdadeami botta.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Vurket luonosa</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Vurke luonosa maid rievdadat ja mana olggos rievdadantilas. Geavat go dárbbat guođđit barggu ja máhccat maŋŋelaš joatkit.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Vurket luonosa ja mannat olggos</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Háliidatgo duođas hilgut luonosa?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Hilge luonosa maid rievdadat. Dát maiddái váldá eret jorgalusaid mat gullet luonosii (jus leat).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Hálddašit veršuvnnaid</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

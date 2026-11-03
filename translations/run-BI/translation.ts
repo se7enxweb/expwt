@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Ku bakoresha batarahitamo: umukoresha wese ahitamo mu gice "Jewe", umushitsi mu gice "Kaze".</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Gusohora ibirimwo vy'umushinga uriko uhindurwa. Umushinga uzoba verisiyo yasohowe y'ikintu.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Kurungika ngo bisohorwe</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Kubika ibirimwo vy'umushinga uriko uhindurwa no gukomeza guhindura. Mukoreshe iyi buto kugira mubike akazi kanyu rimwe na rimwe mu gihe muhindura.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Kubika umushinga</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Kubika umushinga uriko uhindurwa no gusohoka mu buryo bwo guhindura. Mukoreshe igihe mukeneye guhagarika akazi kanyu mukagaruka nyuma kugira mukomeze.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Kubika umushinga no gusohoka</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Murizeye ko mushaka guta umushinga?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Guta umushinga uriko uhindurwa. Ivyo bizokuraho kandi ubuhinduzi bujanye n'umushinga (nimba buriho).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Gucunga verisiyo</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

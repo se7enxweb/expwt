@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Pour les utilisateurs qui n'ont pas choisi : chaque utilisateur choisit dans le panneau « Moi », un visiteur dans le panneau « Bienvenue ».</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Publier le contenu du brouillon en cours de modification. Ce brouillon sera la version publiée de l'objet.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Envoyer pour publication</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Sauvegarder le contenu du brouillon qui est actuellement modifié et continuer la modification. Utilisez ce bouton périodiquement pour sauvegarder votre travail tout en le modifiant.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Enregistrer le brouillon</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Enregistrer le brouillon en cours de modification et quitter le mode modification. Utilisez ce bouton pour enregistrer votre travail pour revenir plus tard.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Enregistrer le brouillon et quitter</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Voulez-vous vraiment supprimer le brouillon ?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Supprimer le brouillon actuellement modifié. Cette action supprimera aussi les traductions qui appartiennent au brouillon (si elles existent).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Gérer les versions</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

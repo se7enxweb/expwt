@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>सायखनो हायाखै बाहायगिरिफोरनि थाखाय: बाहायगिरि गासैबो "आं" पेनेलआव सायखो, नायगिरिया "बरायबाय" पेनेलआव।</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>सोलोंथाय जानाय खस्रानि बिषयबस्तुखौ फोरमाय. खस्रा आ बस्तुनि फोरमायनाय भार्सन जायो.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>फोरमायनो फै</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>सोलोंथाय जानाय खस्रानि बिषयबस्तुखौ रैखा आरो सोलोंथायनायखौ बांसिन खालाम. सोलोंथाय खालायनि उनाव नोंनि खामाखौ सोमोय सोमोयआव रैखानो बे बाथुनखौ बेबहार खालाम.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>खस्रा रैखा</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>सोलोंथाय जानाय खस्राखौ रैखा आरो सोलोंथाय मोडफ्राय थां. नोंनि खामाखौ थाफाय आरो उननि फिन बांसिन खालानो खेबसे जानो गोनांनायाव बेबहार खालाम.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>खस्रा रैखा आरो थां</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>खस्राखौ नायजा खालानो गोनां नाला?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>सोलोंथाय जानाय खस्राखौ नायजा खालाम. बेयाव खस्रानि अनुबादफोर (दंखाय) बो आगाय जायो.</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>भार्सनफोरखौ जिम्मा खालाम</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

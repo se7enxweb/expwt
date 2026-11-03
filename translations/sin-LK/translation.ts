@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>තෝරා නොගත් පරිශීලකයින් සඳහා: සෑම පරිශීලකයෙක්ම "මම" පුවරුවේ තෝරයි, අමුත්තා "සාදරයෙන් පිළිගනිමු" පුවරුවේ.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>සංස්කරණය කරමින් සිටින කෙටුම්පතේ අන්තර්ගතය ප්‍රකාශනය කරන්න. කෙටුම්පත වස්තුවේ ප්‍රකාශිත අනුවාදය බවට පත් වේ.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>ප්‍රකාශනයට යවන්න</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>සංස්කරණය කරමින් සිටින කෙටුම්පතේ අන්තර්ගතය සුරකිමින් සංස්කරණය දිගටම කරගෙන යන්න. සංස්කරණයේදී ඔබේ වැඩ කලින් කලට සුරැකීමට මෙම බොත්තම භාවිත කරන්න.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>කෙටුම්පත සුරකින්න</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>සංස්කරණය කරමින් සිටින කෙටුම්පත සුරකින්න සහ සංස්කරණ ප්‍රකාරයෙන් ඉවත් වන්න. ඔබේ වැඩ නවතා පසුව දිගටම කිරීමට අවශ්‍ය විට මෙය භාවිත කරන්න.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>කෙටුම්පත සුරකින්න සහ ඉවත් වන්න</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>ඔබට කෙටුම්පත ඉවතලීමට අවශ්‍ය බව විශ්වාසද?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>සංස්කරණය කරමින් සිටින කෙටුම්පත ඉවතලන්න. මෙය කෙටුම්පතට අයත් පරිවර්තන (තිබේ නම්) ද ඉවත් කරයි.</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>අනුවාද කළමනාකරණය කරන්න</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

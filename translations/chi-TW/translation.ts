@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>適用於尚未自行選擇的使用者：每位使用者在「我」面板中選擇，訪客在「歡迎」面板中選擇。</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>發佈正在編輯的草稿內容。此草稿將成為物件的已發佈版本。</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>送出發佈</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>儲存正在編輯的草稿內容並繼續編輯。編輯時請定期使用此按鈕儲存您的工作。</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>儲存草稿</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>儲存正在編輯的草稿並離開編輯模式。需要先離開、稍後再繼續時請使用。</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>儲存草稿並離開</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>確定要捨棄草稿嗎？</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>捨棄正在編輯的草稿。屬於此草稿的翻譯（如果有的話）也會一併移除。</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>管理版本</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

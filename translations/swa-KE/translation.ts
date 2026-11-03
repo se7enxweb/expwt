@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Kwa watumiaji ambao hawajachagua: kila mtumiaji huchagua kwenye paneli ya "Mimi", mgeni kwenye paneli ya "Karibu".</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Chapisha maudhui ya rasimu inayohaririwa. Rasimu itakuwa toleo lililochapishwa la kitu.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Tuma ili kuchapishwa</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Hifadhi maudhui ya rasimu inayohaririwa na uendelee kuhariri. Tumia kitufe hiki kuhifadhi kazi yako mara kwa mara unapohariri.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Hifadhi rasimu</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Hifadhi rasimu inayohaririwa na utoke kwenye hali ya kuhariri. Tumia unapohitaji kuacha kazi yako na kurudi baadaye kuendelea.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Hifadhi rasimu na utoke</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Una uhakika kwamba unataka kutupa rasimu?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Tupa rasimu inayohaririwa. Hii pia itaondoa tafsiri zinazohusiana na rasimu (ikiwa zipo).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Simamia matoleo</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

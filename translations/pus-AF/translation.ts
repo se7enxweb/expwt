@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>د هغو کاروونکو لپاره چې یې نه دي ټاکلي: هر کاروونکی په «زه» پینل کې ټاکي، لیدونکی په «ښه راغلاست» پینل کې.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>د هغې مسودې منځپانګه خپرول چې سمول کېږي. مسوده به د څیز خپره شوې نسخه شي.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>د خپرولو لپاره لېږل</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>د هغې مسودې منځپانګه خوندي کول چې سمول کېږي او سمولو ته دوام ورکول. د سمولو پر مهال د خپل کار د وخت په وخت خوندي کولو لپاره دغه تڼۍ وکاروئ.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>مسوده خوندي کول</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>هغه مسوده خوندي کول چې سمول کېږي او د سمولو له حالت څخه وتل. هغه وخت یې وکاروئ چې غواړئ کار پرېږدئ او وروسته د دوام لپاره بېرته راشئ.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>مسوده خوندي کول او وتل</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>ایا تاسو ډاډه یاست چې غواړئ مسوده پرېږدئ؟</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>هغه مسوده پرېښودل چې سمول کېږي. دا به هغه ژباړې هم لرې کړي چې په مسوده پورې اړه لري (که وي).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>د نسخو مدیریت</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

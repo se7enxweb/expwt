@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Evit an implijerien n'o deus ket dibabet: pep implijer a zibab er panell "Me", ur weladenner er panell "Donemat".</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Embann endalc'had ar brouilhed a vez kemmet. Ar brouilhed a zeuio da vezañ handelv embannet an objed.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Kas da embann</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Enrollañ endalc'had ar brouilhed a vez kemmet ha kenderc'hel da gemmañ. Implijit ar bouton-mañ a-wechoù evit enrollañ ho labour e-keit ma kemmit.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Enrollañ ar brouilhed</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Enrollañ ar brouilhed a vez kemmet ha kuitaat ar mod kemmañ. Implijit anezhañ pa fell deoc'h paouez gant ho labour ha distreiñ diwezhatoc'h evit kenderc'hel.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Enrollañ ar brouilhed ha kuitaat</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Ha sur oc'h e fell deoc'h dilezel ar brouilhed?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Dilezel ar brouilhed a vez kemmet. Lemel kuit a raio ivez an troidigezhioù a zo ouzh ar brouilhed (mar bez).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Merañ an handelvoù</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

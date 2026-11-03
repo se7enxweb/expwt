@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>ان صارفین کے لیے جنہوں نے انتخاب نہیں کیا: ہر صارف "میں" پینل میں، مہمان "خوش آمدید" پینل میں انتخاب کرتا ہے۔</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>زیر ترمیم مسودے کے مواد کو شائع کریں۔ یہ مسودہ آبجیکٹ کا شائع شدہ ورژن بن جائے گا۔</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>اشاعت کے لیے بھیجیں</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>زیر ترمیم مسودے کا مواد محفوظ کریں اور ترمیم جاری رکھیں۔ ترمیم کے دوران اپنا کام وقتاً فوقتاً محفوظ کرنے کے لیے یہ بٹن استعمال کریں۔</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>مسودہ محفوظ کریں</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>زیر ترمیم مسودہ محفوظ کریں اور ترمیمی موڈ سے باہر نکلیں۔ جب آپ کو اپنا کام چھوڑ کر بعد میں جاری رکھنا ہو تو اسے استعمال کریں۔</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>مسودہ محفوظ کریں اور باہر نکلیں</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>کیا آپ واقعی مسودہ رد کرنا چاہتے ہیں؟</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>زیر ترمیم مسودہ رد کریں۔ اس سے مسودے سے متعلق تراجم (اگر ہوں) بھی ہٹا دیے جائیں گے۔</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>ورژنز کا نظم کریں</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>ສຳລັບຜູ້ໃຊ້ທີ່ຍັງບໍ່ໄດ້ເລືອກ: ຜູ້ໃຊ້ແຕ່ລະຄົນເລືອກໃນແຜງ "ຂ້ອຍ", ຜູ້ມາຢ້ຽມຢາມເລືອກໃນແຜງ "ຍິນດີຕ້ອນຮັບ".</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>ເຜີຍແຜ່ເນື້ອຫາຂອງສະບັບຮ່າງທີ່ກຳລັງແກ້ໄຂ. ສະບັບຮ່າງຈະກາຍເປັນເວີຊັນທີ່ເຜີຍແຜ່ແລ້ວຂອງອອບເຈັກ.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>ສົ່ງເພື່ອເຜີຍແຜ່</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>ບັນທຶກເນື້ອຫາຂອງສະບັບຮ່າງທີ່ກຳລັງແກ້ໄຂ ແລະ ແກ້ໄຂຕໍ່. ໃຊ້ປຸ່ມນີ້ເພື່ອບັນທຶກວຽກຂອງທ່ານເປັນໄລຍະໃນລະຫວ່າງການແກ້ໄຂ.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>ບັນທຶກສະບັບຮ່າງ</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>ບັນທຶກສະບັບຮ່າງທີ່ກຳລັງແກ້ໄຂ ແລະ ອອກຈາກໂໝດແກ້ໄຂ. ໃຊ້ເມື່ອທ່ານຕ້ອງການອອກຈາກວຽກ ແລະ ກັບມາເຮັດຕໍ່ພາຍຫຼັງ.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>ບັນທຶກສະບັບຮ່າງ ແລະ ອອກ</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>ທ່ານຕ້ອງການປະຖິ້ມສະບັບຮ່າງບໍ່?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>ປະຖິ້ມສະບັບຮ່າງທີ່ກຳລັງແກ້ໄຂ. ການນີ້ຈະເອົາການແປທີ່ເປັນຂອງສະບັບຮ່າງອອກນຳ (ຖ້າມີ).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>ຈັດການເວີຊັນ</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Ki he kau ngāue ʻoku teʻeki ke nau fili: ʻoku fili ʻa e kau ngāue taki taha ʻi he papa "Ko au", ʻa e kau ʻaʻahi ʻi he papa "Talitali lelei".</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Pulusi ʻa e meʻa ʻi loto ʻo e tohi fakataimi ʻoku fakatonutonu. ʻE hoko ʻa e tohi fakataimi ko e vēsiona kuo pulusi ʻo e ʻōpeki.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Fekau ke pulusi</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Tauhi ʻa e meʻa ʻi loto ʻo e tohi fakataimi ʻoku fakatonutonu pea hoko atu ʻa e fakatonutonu. Ngāue ʻaki ʻa e puha ni ke tauhi tuʻo lahi ho ngāue lolotonga ʻa e fakatonutonu.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Tauhi ʻa e tohi fakataimi</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Tauhi ʻa e tohi fakataimi ʻoku fakatonutonu pea ʻalu mei he founga fakatonutonu. Ngāue ʻaki ʻi he taimi ʻoku fiemaʻu ke ke tuku ho ngāue pea toe foki mai ke hoko atu.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Tauhi ʻa e tohi fakataimi pea ʻalu</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>ʻOku ke fakapapauʻi ʻoku ke loto ke liʻaki ʻa e tohi fakataimi?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Liʻaki ʻa e tohi fakataimi ʻoku fakatonutonu. ʻE toʻo foki ʻa e ngaahi liliu lea ʻo e tohi fakataimi (kapau ʻoku ʻi ai).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Pule ʻa e ngaahi vēsiona</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Saýlamadyk ulanyjylar üçin: her ulanyjy «Men» panelinde, myhman «Hoş geldiňiz» panelinde saýlaýar.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Redaktirlenýän garalamanyň mazmunyny neşir ediň. Garalama obýektiň neşir edilen wersiýasy bolar.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Neşir etmäge iber</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Redaktirlenýän garalamanyň mazmunyny ýatda saklaň we redaktirlemegi dowam ediň. Redaktirleýän wagtyňyz işiňizi wagtal-wagtal ýatda saklamak üçin şu düwmäni ulanyň.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Garalamany ýatda sakla</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Redaktirlenýän garalamany ýatda saklaň we redaktirlemek režiminden çykyň. Işiňizden çykyp, soň dowam etmeli bolanyňyzda ulanyň.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Garalamany ýatda sakla we çyk</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Garalamany hakykatdan hem taşlamak isleýärsiňizmi?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Redaktirlenýän garalamany taşlaň. Bu garalama degişli terjimeleri hem (bar bolsa) aýyrar.</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Wersiýalary dolandyr</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

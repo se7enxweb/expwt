@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>തിരഞ്ഞെടുക്കാത്ത ഉപയോക്താക്കൾക്ക്: ഓരോ ഉപയോക്താവും "ഞാൻ" പാനലിൽ, സന്ദർശകൻ "സ്വാഗതം" പാനലിൽ തിരഞ്ഞെടുക്കുന്നു.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>എഡിറ്റ് ചെയ്യുന്ന ഡ്രാഫ്റ്റിന്റെ ഉള്ളടക്കം പ്രസിദ്ധീകരിക്കുക. ഡ്രാഫ്റ്റ് ഒബ്ജക്റ്റിന്റെ പ്രസിദ്ധീകരിച്ച പതിപ്പായി മാറും.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>പ്രസിദ്ധീകരണത്തിനായി അയയ്ക്കുക</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>എഡിറ്റ് ചെയ്യുന്ന ഡ്രാഫ്റ്റിന്റെ ഉള്ളടക്കം സംഭരിച്ച് എഡിറ്റിംഗ് തുടരുക. എഡിറ്റ് ചെയ്യുന്നതിനിടയിൽ ഇടയ്ക്കിടെ നിങ്ങളുടെ ജോലി സംരക്ഷിക്കാൻ ഈ ബട്ടൺ ഉപയോഗിക്കുക.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>ഡ്രാഫ്റ്റ് സംഭരിക്കുക</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>എഡിറ്റ് ചെയ്യുന്ന ഡ്രാഫ്റ്റ് സംഭരിച്ച് എഡിറ്റ് മോഡിൽ നിന്ന് പുറത്തുകടക്കുക. നിങ്ങളുടെ ജോലി നിർത്തി പിന്നീട് തുടരേണ്ടിവരുമ്പോൾ ഉപയോഗിക്കുക.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>ഡ്രാഫ്റ്റ് സംഭരിച്ച് പുറത്തുകടക്കുക</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>ഡ്രാഫ്റ്റ് ഉപേക്ഷിക്കണമെന്ന് നിങ്ങൾക്ക് ഉറപ്പാണോ?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>എഡിറ്റ് ചെയ്തുകൊണ്ടിരിക്കുന്ന ഡ്രാഫ്റ്റ് ഉപേക്ഷിക്കുക. ഇത് ഡ്രാഫ്റ്റിന്റെ വിവർത്തനങ്ങളും (ഉണ്ടെങ്കിൽ) നീക്കം ചെയ്യും.</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>പതിപ്പുകൾ നിയന്ത്രിക്കുക</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

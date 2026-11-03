@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>För användare som inte har valt: varje användare väljer i panelen ”Jag”, en besökare i panelen ”Välkommen”.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Publicera det redigerade utkastets innehåll. Utkastet kommer bli den publicerade versionen av objektet.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Skicka för publicering</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Spara innehållet av utkastet som håller på att bli redigerat och forsätt redigera utkastet. Använd den här knappen ofta för att spara tid lagd på att redigera.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Spara utkast</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Spara utkastet som redigeras och stäng från redigeringsläget. Använd när du behöver stänga ditt arbete och fortsätta vid senare tillfälle.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Spara och stäng utkast</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Är du säker på att du vill kasta utkastet?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Kasta utkastet som redigeras. Detta tar också bort översättningarna som hör till utkastet (om några).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Hantera versioner</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

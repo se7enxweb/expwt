@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>ଯେଉଁ ଉପଯୋଗକର୍ତ୍ତା ବାଛି ନାହାଁନ୍ତି ସେମାନଙ୍କ ପାଇଁ: ପ୍ରତ୍ୟେକ ଉପଯୋଗକର୍ତ୍ତା "ମୁଁ" ପ୍ୟାନେଲରେ ବାଛନ୍ତି, ଅତିଥି "ସ୍ୱାଗତ" ପ୍ୟାନେଲରେ।</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>ସମ୍ପାଦିତ ହେଉଥିବା ଖସଡ଼ାର ବିଷୟବସ୍ତୁ ପ୍ରକାଶ କରନ୍ତୁ। ଖସଡ଼ାଟି ଅବଜେକ୍ଟର ପ୍ରକାଶିତ ସଂସ୍କରଣ ହେବ।</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>ପ୍ରକାଶନ ପାଇଁ ପଠାନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>ସମ୍ପାଦିତ ହେଉଥିବା ଖସଡ଼ାର ବିଷୟବସ୍ତୁ ସଞ୍ଚୟ କରି ସମ୍ପାଦନା ଜାରି ରଖନ୍ତୁ। ସମ୍ପାଦନା ସମୟରେ ଆପଣଙ୍କ କାମ ନିୟମିତ ସଞ୍ଚୟ କରିବାକୁ ଏହି ବଟନ୍ ବ୍ୟବହାର କରନ୍ତୁ।</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>ଖସଡ଼ା ସଞ୍ଚୟ କରନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>ସମ୍ପାଦିତ ହେଉଥିବା ଖସଡ଼ା ସଞ୍ଚୟ କରି ସମ୍ପାଦନ ମୋଡ୍‌ରୁ ବାହାରି ଯାଆନ୍ତୁ। ଆପଣ ନିଜ କାମ ଛାଡ଼ି ପରେ ଫେରି ଜାରି ରଖିବାକୁ ଚାହିଁଲେ ଏହା ବ୍ୟବହାର କରନ୍ତୁ।</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>ଖସଡ଼ା ସଞ୍ଚୟ କରି ବାହାରି ଯାଆନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>ଆପଣ ଖସଡ଼ାକୁ ପରିତ୍ୟାଗ କରିବାକୁ ଚାହୁଁଛନ୍ତି ବୋଲି ନିଶ୍ଚିତ କି?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>ସମ୍ପାଦିତ ହେଉଥିବା ଖସଡ଼ାକୁ ପରିତ୍ୟାଗ କରନ୍ତୁ। ଏହା ଖସଡ଼ାର ଅନୁବାଦଗୁଡ଼ିକୁ (ଯଦି ଥାଏ) ମଧ୍ୟ ହଟାଇଦେବ।</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>ସଂସ୍କରଣଗୁଡ଼ିକୁ ପରିଚାଳନା କରନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>छनोट नगरेका प्रयोगकर्ताहरूका लागि: प्रत्येक प्रयोगकर्ताले "म" प्यानलमा छान्छन्, आगन्तुकले "स्वागत छ" प्यानलमा।</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>सम्पादन गरिरहेको मस्यौदाको सामग्री प्रकाशित गर्नुहोस्। मस्यौदा वस्तुको प्रकाशित संस्करण बन्नेछ।</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>प्रकाशनका लागि पठाउनुहोस्</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>सम्पादन गरिरहेको मस्यौदाको सामग्री सुरक्षित गरी सम्पादन जारी राख्नुहोस्। सम्पादन गर्दै गर्दा आफ्नो काम समय-समयमा सुरक्षित गर्न यो बटन प्रयोग गर्नुहोस्।</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>मस्यौदा सुरक्षित गर्नुहोस्</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>सम्पादन गरिरहेको मस्यौदा सुरक्षित गरी सम्पादन मोडबाट बाहिर निस्कनुहोस्। आफ्नो काम छोडेर पछि जारी राख्न फर्कनुपर्दा प्रयोग गर्नुहोस्।</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>मस्यौदा सुरक्षित गरी बाहिर निस्कनुहोस्</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>के तपाईं मस्यौदा त्याग्न निश्चित हुनुहुन्छ?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>सम्पादन गरिरहेको मस्यौदा त्याग्नुहोस्। यसले मस्यौदासँग सम्बन्धित अनुवादहरू (भए) पनि हटाउँछ।</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>संस्करणहरू व्यवस्थापन गर्नुहोस्</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

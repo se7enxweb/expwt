@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>تِمن صارفن خٲطرٕ یِمو نہٕ ژٲرِتھ: پرٛتھ صارف ژارِ "بہٕ" پینلس منز، مہمان "خوش آمدید" پینلس منز۔</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>تَرمیم کرنہٕ آمتس مَسوٗدس ہُنٛد مَواد شایع کٔرِو۔ یہ مَسوٗدہٕ گَژھہِ آبجیکٹہٕ ہُنٛد شایع شُدٕہ ؤرژَن۔</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>شایع کرنہٕ خاطرٕ روانہ کٔرِو</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>تَرمیم کرنہٕ آمتس مَسوٗدس ہُنٛد مَواد محفوظ کٔرِو تہٕ تَرمیم جاری ریٚتِو۔ تَرمیمہٕ دوران پَنُن کٲم وَقتاً فَوَقتاً محفوظ کرنہٕ خاطرٕ ورتٲوِو یہ بَٹَن۔</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>مَسوٗدہٕ محفوظ کٔرِو</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>تَرمیم کرنہٕ آمُت مَسوٗدہٕ محفوظ کٔرِو تہٕ تَرمیم موڈہٕ منزہٕ نیرِو۔ ورتٲوِو ییلہِ توٚہہ پَنُن کٲم چھوڑِتھ پَتہٕ جاری تھاوُن چھِو۔</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>مَسوٗدہٕ محفوظ کٔرِو تہٕ نیرِو</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>کیا توٚہہ چھِو پَکہٕ مَسوٗدہٕ رَد کرنہٕ خاطرٕ تیار؟</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>تَرمیم کرنہٕ آمُت مَسوٗدہٕ رَد کٔرِو۔ یمہِ سٍتۍ گَژھن مَسوٗدس سٍتۍ مُتَعَلِق ترجمہ تہِ (اگر آسن) ہٹاونہٕ۔</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>ؤرژَن سَنبھالِو</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

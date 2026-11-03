@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Fir Benotzer, déi net gewielt hunn: all Benotzer wielt an der Fënster „Ech“, e Besucher an der Fënster „Wëllkomm“.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Den Inhalt vum Entworf publizéieren, deen geännert gëtt. Den Entworf gëtt déi publizéiert Versioun vum Objet.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Fir d'Publikatioun schécken</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Den Inhalt vum Entworf, deen am Moment geännert gëtt, späicheren a mam Änneren weiderfueren. Benotzt dëse Knäppchen regelméisseg, fir Är Aarbecht beim Änneren ze späicheren.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Entworf späicheren</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Den Entworf, deen geännert gëtt, späicheren an de Beaarbechtungsmodus verloossen. Benotzt dëst, wann Dir Är Aarbecht ofbrieche wëllt a méi spéit weiderfueren.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Entworf späicheren a verloossen</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Sidd Dir sécher, datt Dir den Entworf wëllt verwerfen?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Den Entworf verwerfen, deen geännert gëtt. Dat hëlt och d'Iwwersetzungen ewech, déi zum Entworf gehéieren (wann et der gëtt).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Versiounen verwalten</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

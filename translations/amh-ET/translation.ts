@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>ላልመረጡ ተጠቃሚዎች፦ እያንዳንዱ ተጠቃሚ በ"እኔ" ፓነል ይመርጣል፣ ጎብኚ ደግሞ በ"እንኳን ደህና መጡ" ፓነል።</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>በመታረም ላይ ያለውን የረቂቅ ይዘት ያትሙ። ረቂቁ የነገሩ የታተመ ስሪት ይሆናል።</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>ለሕትመት ላክ</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>በመታረም ላይ ያለውን የረቂቅ ይዘት አስቀምጥና ማረምዎን ይቀጥሉ። በሚያርሙበት ጊዜ ሥራዎን በየጊዜው ለማስቀመጥ ይህን አዝራር ይጠቀሙ።</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>ረቂቅ አስቀምጥ</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>በመታረም ላይ ያለውን ረቂቅ አስቀምጠው ከአርትዖት ሁነታ ይውጡ። ሥራዎን አቁመው በኋላ ለመቀጠል ሲፈልጉ ይጠቀሙ።</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>ረቂቁን አስቀምጥና ውጣ</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>ረቂቁን መተው እንደሚፈልጉ እርግጠኛ ነዎት?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>በማርትዕ ላይ ያለውን ረቂቅ ተው። ይህ የረቂቁ ንብረት የሆኑ ትርጉሞችንም (ካሉ) ያስወግዳል።</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>ስሪቶችን ያስተዳድሩ</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

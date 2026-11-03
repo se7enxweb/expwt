@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>សម្រាប់អ្នកប្រើដែលមិនទាន់បានជ្រើសរើស៖ អ្នកប្រើម្នាក់ៗជ្រើសរើសក្នុងផ្ទាំង "ខ្ញុំ" ភ្ញៀវក្នុងផ្ទាំង "សូមស្វាគមន៍"។</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>បោះពុម្ពផ្សាយមាតិកានៃសេចក្តីព្រាងដែលកំពុងកែសម្រួល។ សេចក្តីព្រាងនឹងក្លាយជាកំណែដែលបានបោះពុម្ពផ្សាយនៃវត្ថុ។</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>ផ្ញើដើម្បីបោះពុម្ពផ្សាយ</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>រក្សាទុកមាតិកានៃសេចក្តីព្រាងដែលកំពុងកែសម្រួល ហើយបន្តកែសម្រួល។ សូមប្រើប៊ូតុងនេះដើម្បីរក្សាទុកការងាររបស់អ្នកជាប្រចាំពេលកំពុងកែសម្រួល។</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>រក្សាទុកសេចក្តីព្រាង</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>រក្សាទុកសេចក្តីព្រាងដែលកំពុងកែសម្រួល ហើយចាកចេញពីរបៀបកែសម្រួល។ សូមប្រើនៅពេលអ្នកត្រូវការឈប់ធ្វើការ ហើយត្រឡប់មកបន្តនៅពេលក្រោយ។</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>រក្សាទុកសេចក្តីព្រាង ហើយចាកចេញ</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>តើអ្នកប្រាកដថាចង់បោះចោលសេចក្តីព្រាងទេ?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>បោះចោលសេចក្តីព្រាងដែលកំពុងកែសម្រួល។ វានឹងដកការបកប្រែដែលជារបស់សេចក្តីព្រាងចេញដែរ (ប្រសិនបើមាន)។</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>គ្រប់គ្រងកំណែ</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

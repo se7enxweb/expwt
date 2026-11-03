@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>За кориснике који нису изабрали: сваки корисник бира у панелу „Ја“, посетилац у панелу „Добродошли“.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Објавите садржај скице која се уређује. Скица ће постати објављена верзија објекта.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Пошаљи на објављивање</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Сачувајте садржај скице која се мења и наставите са изменом. Користите ово дугме да повремено сачувате свој рад током измене.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Сачувај скицу</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Сачувајте скицу која се мења и изађите из режима измене. Користите када треба да прекинете рад и наставите касније.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Сачувај скицу и изађи</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Да ли сте сигурни да желите да одбаците скицу?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Одбаците скицу која се измења. Ово ће такође уклонити преводе који припадају скици (ако их има).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Управљај верзијама</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

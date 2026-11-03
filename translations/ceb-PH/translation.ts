@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Para sa mga user nga wala pa mopili: ang matag user mopili sa panel nga "Ako", ang bisita sa panel nga "Maayong pag-abot".</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>I-publish ang sulod sa draft nga giusab. Ang draft mahimong napublikar nga bersyon sa butang.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Ipadala aron i-publish</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Tipigi ang sulod sa draft nga giusab ug ipadayon ang pag-usab. Gamita kini nga button aron kanunay nga tipigan ang imong trabaho samtang nag-usab.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Tipigi ang draft</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Tipigi ang draft nga giusab ug gawas sa edit mode. Gamita kon kinahanglan nimong hunongon ang imong trabaho ug mobalik sa ulahi aron ipadayon.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Tipigi ang draft ug gawas</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Sigurado ka ba nga gusto nimong isalikway ang draft?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Isalikway ang draft nga giusab. Kuhaon usab niini ang mga hubad nga sakop sa draft (kon aduna).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Dumalahon ang mga bersyon</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

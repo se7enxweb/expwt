@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>जे उपयोगकर्ता ना चुनले बा उनका खातिर: हर उपयोगकर्ता "हम" पैनल में चुनेला, आगंतुक "स्वागत बा" पैनल में।</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>बदलल जा रहल ड्राफ़्ट के सामग्री प्रकाशित करीं। ड्राफ़्ट ऑब्जेक्ट के प्रकाशित संस्करण बन जाई।</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>प्रकाशन खातिर भेजीं</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>बदलल जा रहल ड्राफ़्ट के सामग्री सहेजीं आ बदलाव जारी रखीं। बदलाव के दौरान आपन काम बीच-बीच में सहेजे खातिर ई बटन इस्तेमाल करीं।</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>ड्राफ़्ट सहेजीं</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>बदलल जा रहल ड्राफ़्ट के सहेजीं आ बदलाव मोड से बाहर निकलीं। एकर इस्तेमाल तब करीं जब रउआ आपन काम छोड़ के बाद में जारी रखे खातिर लवटल चाहत बानी।</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>ड्राफ़्ट सहेजीं आ बाहर निकलीं</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>का रउआ सचहूँ ड्राफ़्ट छोड़ दिहल चाहत बानी?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>बदलल जा रहल ड्राफ़्ट के छोड़ दीं। एहसे ड्राफ़्ट से जुड़ल अनुवाद (अगर कवनो होखे) भी हट जाई।</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>संस्करण के प्रबंध करीं</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

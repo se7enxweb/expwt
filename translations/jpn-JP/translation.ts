@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>自分で選んでいないユーザー向け：各ユーザーは「自分」パネルで、訪問者は「ようこそ」パネルで選びます。</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>編集中の下書きの内容を公開します。下書きはオブジェクトの公開済みバージョンになります。</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>公開に送信</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>編集中の下書きの内容を保存して、編集を続けます。編集中に作業内容を定期的に保存するには、このボタンを使用します。</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>下書きの保存</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>編集中の下書きを保存して、編集モードを終了します。作業を中断して後で再開する場合に使用します。</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>下書きを保存して終了</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>下書きを破棄してもよろしいですか？</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>編集中の下書きを破棄します。下書きに属する翻訳がある場合は、それも削除されます。</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>バージョンの管理</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

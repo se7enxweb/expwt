@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>انهن استعمال ڪندڙن لاءِ جن نه چونڊيو آهي: هر استعمال ڪندڙ "مان" پينل ۾ چونڊي ٿو، مهمان "ڀلي ڪري آيا" پينل ۾.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>تبديل ٿي رهيل مسودي جو مواد شايع ڪريو. اهو مسودو شيءِ جو شايع ٿيل ورزن بڻجي ويندو.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>اشاعت لاءِ موڪليو</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>تبديل ٿي رهيل مسودي جو مواد محفوظ ڪريو ۽ ترميم جاري رکو. ترميم دوران پنهنجو ڪم وقت بوقت محفوظ ڪرڻ لاءِ هي بٽڻ استعمال ڪريو.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>مسودو محفوظ ڪريو</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>تبديل ٿي رهيل مسودو محفوظ ڪريو ۽ ترميمي موڊ مان نڪرو. تڏهن استعمال ڪريو جڏهن توهان کي پنهنجو ڪم ڇڏي بعد ۾ جاري رکڻو هجي.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>مسودو محفوظ ڪريو ۽ نڪرو</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>ڇا توهان واقعي مسودو ڇڏي ڏيڻ چاهيو ٿا؟</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>تبديل ٿي رهيل مسودو ڇڏي ڏيو. ان سان مسودي سان تعلق رکندڙ ترجما (جيڪڏهن هجن) به هٽجي ويندا.</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>ورزن سنڀاليو</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

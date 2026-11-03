@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Ma wɔn a wɔnnpaw biribi: ɔdefoɔ biara paw wɔ "Me" panel no mu, ɔsrafoɔ wɔ "Akwaaba" panel no mu.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Tintim draft a woresesa no emu nsɛm. Draft no bɛyɛ adeɛ no nsakraeɛ a wɔatintim.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Soma kɔ ntintimiɛ</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Sie draft a woresesa no emu nsɛm na toa sesa so. Fa button yi sie wo adwuma daa bere a woresesa no.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Sie draft no</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Sie draft a woresesa no na fi sesa kwan no mu. Fa di dwuma bere a wopɛ sɛ wogyae wo adwuma na wosan ba akɔ so akyire.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Sie draft no na fi mu</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Wo ani gye sɛ wopɛ sɛ wuto draft no gu anaa?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>To draft a woresesa no gu. Eyi bɛyi nkyerɛaseɛ a ɛka draft no ho nso afi mu (sɛ ɛwɔ hɔ a).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Hwɛ nsakraeɛ so</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

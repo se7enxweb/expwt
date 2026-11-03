@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Pentru utilizatorii care nu au ales: fiecare utilizator alege în panoul „Eu”, un vizitator în panoul „Bun venit”.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Publicați conținutul ciornei editate. Ciorna va deveni versiunea publicată a obiectului.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Trimitere spre publicare</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Salvați conținutul ciornei editate și continuați editarea. Folosiți acest buton pentru a vă salva periodic munca în timpul editării.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Salvare ciornă</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Salvați ciorna editată și ieșiți din modul de editare. Folosiți această opțiune când trebuie să întrerupeți lucrul și să reveniți mai târziu pentru a continua.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Salvare ciornă și ieșire</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Sigur doriți să renunțați la ciornă?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Renunțați la ciorna editată. Vor fi eliminate și traducerile care aparțin ciornei (dacă există).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Gestionare versiuni</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

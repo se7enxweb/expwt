@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>اوہناں ورتن والیاں لئی جنہاں نے نئیں چُنیا: ہر ورتن والا "میں" پینل وچ چُن دا اے، مہمان "جی آیاں نوں" پینل وچ۔</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>سودھے جا رہے مسودے دا مواد شائع کرو۔ ایہہ مسودہ آبجیکٹ دا شائع شدہ ورژن بݨ جائے گا۔</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>اشاعت لئی گھلو</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>سودھے جا رہے مسودے دا مواد محفوظ کرو تے سودھݨ جاری رکھو۔ سودھݨ دوران اپݨا کم ویلے ویلے سر محفوظ کرݨ لئی ایہہ بٹن ورتو۔</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>مسودہ محفوظ کرو</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>سودھے جا رہے مسودے نوں محفوظ کرو تے سودھݨ موڈ توں باہر نکلو۔ جدوں تہانوں اپݨا کم چھڈ کے بعد وچ جاری رکھݨا ہووے تے ایہنوں ورتو۔</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>مسودہ محفوظ کرو تے باہر نکلو</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>کیہ تسیں سچی مسودہ چھڈنا چاہندے او؟</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>سودھے جا رہے مسودے نوں چھڈو۔ ایس نال مسودے نال جڑے ترجمے (جے ہون) وی ہٹ جاݨگے۔</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>ورژن سانبھو</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>بۆ ئەو بەکارهێنەرانەی هەڵیان نەبژاردووە: هەر بەکارهێنەرێک لە پانێڵی «من» هەڵدەبژێرێت، میوان لە پانێڵی «بەخێربێیت».</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>ناوەڕۆکی ئەو ڕەشنووسە بڵاو بکەرەوە کە دەستکاری دەکرێت. ڕەشنووسەکە دەبێتە وەشانی بڵاوکراوەی ئۆبجێکتەکە.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>ناردن بۆ بڵاوکردنەوە</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>ناوەڕۆکی ئەو ڕەشنووسە پاشەکەوت بکە کە دەستکاری دەکرێت و دەستکاریکردن بەردەوام بکە. ئەم دوگمەیە بەکاربهێنە بۆ پاشەکەوتکردنی کارەکەت بە ماوە لە کاتی دەستکاریکردندا.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>ڕەشنووس پاشەکەوت بکە</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>ئەو ڕەشنووسەی دەستکاری دەکرێت پاشەکەوت بکە و لە دۆخی دەستکاریکردن بچۆرە دەرەوە. بەکاری بهێنە کاتێک دەتەوێت واز لە کارەکەت بهێنیت و دواتر بگەڕێیتەوە بۆ بەردەوامبوون.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>ڕەشنووس پاشەکەوت بکە و دەربچۆ</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>دڵنیان کە دەتانەوێت ڕەشنووسەکە فڕێ بدەن؟</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>ئەو ڕەشنووسەی دەستکاری دەکرێت فڕێ بدە. ئەمە هەروەها ئەو وەرگێڕانانە لادەبات کە سەر بە ڕەشنووسەکەن (ئەگەر هەبن).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>بەڕێوەبردنی وەشانەکان</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

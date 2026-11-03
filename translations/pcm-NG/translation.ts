@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>For users wey never choose: every user dey choose for the "Me" panel, visitor for the "Welcome" panel.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Publish di contents of di draft wey you dey edit. Di draft go become di published version of di object.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Send am make dem publish am</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Save di contents of di draft wey you dey edit and continue to edit. Use dis button to dey save your work from time to time as you dey edit.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Save di draft</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Save di draft wey you dey edit and comot from edit mode. Use am wen you need to stop your work and come back later to continue.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Save di draft and comot</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>You sure say you wan throw di draft away?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Throw away di draft wey you dey edit. Dis one go comot di translations wey belong to di draft too (if dem dey).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Manage versions</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

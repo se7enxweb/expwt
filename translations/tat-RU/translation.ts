@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Сайламаган кулланучылар өчен: һәр кулланучы «Мин» панелендә, килүче «Рәхим итегез» панелендә сайлый.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Төзәтелә торган караламаның эчтәлеген бастыру. Каралама объектның бастырылган версиясе буласы.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Бастыруга җибәрү</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Төзәтелә торган караламаның эчтәлеген саклау һәм төзәтүне дәвам итү. Төзәтү вакытында эшегезне вакыт-вакыт саклау өчен бу төймәне кулланыгыз.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Караламаны саклау</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Төзәтелә торган караламаны саклау һәм төзәтү режимыннан чыгу. Эштән чыгып соңрак дәвам итү өчен кайту кирәк булганда кулланыгыз.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Караламаны саклау һәм чыгу</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Караламаны чыннан да ташларга телисезме?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Төзәтелә торган караламаны ташлау. Бу шулай ук караламага караган тәрҗемәләрне дә (булса) алып ташлый.</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Версияләрне идарә итү</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

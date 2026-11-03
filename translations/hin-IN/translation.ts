@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>जिन उपयोगकर्ताओं ने नहीं चुना है उनके लिए: हर उपयोगकर्ता "मैं" पैनल में चुनता है, आगंतुक "स्वागत है" पैनल में।</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>संपादित किए जा रहे ड्राफ़्ट की सामग्री प्रकाशित करें। ड्राफ़्ट ऑब्जेक्ट का प्रकाशित संस्करण बन जाएगा।</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>प्रकाशन के लिए भेजें</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>संपादित किए जा रहे ड्राफ़्ट की सामग्री सहेजें और संपादन जारी रखें। संपादन के दौरान अपना काम समय-समय पर सहेजने के लिए इस बटन का उपयोग करें।</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>ड्राफ़्ट सहेजें</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>संपादित किए जा रहे ड्राफ़्ट को सहेजें और संपादन मोड से बाहर निकलें। इसका उपयोग तब करें जब आपको अपना काम छोड़कर बाद में जारी रखने के लिए लौटना हो।</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>ड्राफ़्ट सहेजें और बाहर निकलें</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>क्या आप वाकई ड्राफ़्ट त्यागना चाहते हैं?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>संपादित किए जा रहे ड्राफ़्ट को त्यागें। इससे ड्राफ़्ट से संबंधित अनुवाद (यदि कोई हों) भी निकल जाएँगे।</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>संस्करण प्रबंधित करें</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

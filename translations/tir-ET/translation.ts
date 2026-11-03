@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>ንዘይመረጹ ተጠቀምቲ፦ ነፍሲ ወከፍ ተጠቃሚ ኣብ "ኣነ" መቓን ይመርጽ፣ በጻሒ ድማ ኣብ "እንቋዕ ብደሓን መጻእካ" መቓን።</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>ትሕዝቶ ናይቲ ዝኣረትዕ ዘሎ ንድፊ ኣሕትም። እቲ ንድፊ ዝተሓተመ ሕታም ናይቲ ኣቕሓ ክኸውን እዩ።</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>ንሕትመት ስደድ</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>ትሕዝቶ ናይቲ ዝኣረትዕ ዘሎ ንድፊ ኣቐምጥ እሞ ምርታዕ ቀጽል። ኣብ እዋን ምርታዕ ስራሕኩም ብግዜ ንምቕማጥ እዚ ኣዝራር ተጠቐሙ።</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>ንድፊ ኣቐምጥ</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>ነቲ ዝኣረትዕ ዘሎ ንድፊ ኣቐምጥ እሞ ካብ ኣገባብ ምርታዕ ውጻእ። ካብ ስራሕኩም ወጺኹም ደሓር ክትቅጽሉ ምስ ዘድልየኩም ተጠቐሙ።</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>ንድፊ ኣቐምጥ እሞ ውጻእ</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>ብርግጽ ነቲ ንድፊ ክትደርብዎ ትደልዩ ዶ?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>ነቲ ዝኣረትዕ ዘሎ ንድፊ ደርብ። እዚ እውን ነቶም ናይቲ ንድፊ ትርጉማት (እንተ ኣለዉ) የውጽኦም።</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>ሕታማት ኣመሓድር</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

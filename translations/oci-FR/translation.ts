@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Pels utilizaires qu'an pas causit: cada utilizaire causís dins lo panèl « Ieu », un visitaire dins lo panèl « Benvenguda ».</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Publicar lo contengut del borrolhon en cors de modificacion. Lo borrolhon vendrà la version publicada de l'objècte.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Mandar per publicacion</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Enregistrar lo contengut del borrolhon que s'es a modificar e contunhar la modificacion. Utilizatz aqueste boton de temps en temps per enregistrar vòstre trabalh pendent la modificacion.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Enregistrar lo borrolhon</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Enregistrar lo borrolhon en cors de modificacion e quitar lo mòde de modificacion. Utilizatz aquò quand vos cal quitar vòstre trabalh e tornar mai tard per contunhar.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Enregistrar lo borrolhon e quitar</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Volètz vertadièrament abandonar lo borrolhon ?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Abandonar lo borrolhon en cors de modificacion. Aquò levarà tanben las traduccions que pertòcan al borrolhon (s'i n'a).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Gerir las versions</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

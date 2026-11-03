@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>ਜਿਨ੍ਹਾਂ ਵਰਤੋਂਕਾਰਾਂ ਨੇ ਨਹੀਂ ਚੁਣਿਆ ਉਨ੍ਹਾਂ ਲਈ: ਹਰ ਵਰਤੋਂਕਾਰ "ਮੈਂ" ਪੈਨਲ ਵਿੱਚ ਚੁਣਦਾ ਹੈ, ਮਹਿਮਾਨ "ਜੀ ਆਇਆਂ ਨੂੰ" ਪੈਨਲ ਵਿੱਚ।</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>ਸੋਧੇ ਜਾ ਰਹੇ ਖਰੜੇ ਦੀ ਸਮੱਗਰੀ ਨੂੰ ਛਾਪੋ। ਖਰੜਾ ਆਬਜੈਕਟ ਦਾ ਛਾਪਿਆ ਗਿਆ ਵਰਜ਼ਨ ਬਣ ਜਾਵੇਗਾ।</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>ਛਾਪਣ ਲਈ ਭੇਜੋ</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>ਸੋਧੇ ਜਾ ਰਹੇ ਖਰੜੇ ਦੀ ਸਮੱਗਰੀ ਸਟੋਰ ਕਰੋ ਅਤੇ ਸੋਧ ਜਾਰੀ ਰੱਖੋ। ਸੋਧ ਦੌਰਾਨ ਆਪਣਾ ਕੰਮ ਸਮੇਂ-ਸਮੇਂ ਤੇ ਸੰਭਾਲਣ ਲਈ ਇਸ ਬਟਨ ਦੀ ਵਰਤੋਂ ਕਰੋ।</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>ਖਰੜਾ ਸਟੋਰ ਕਰੋ</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>ਸੋਧੇ ਜਾ ਰਹੇ ਖਰੜੇ ਨੂੰ ਸਟੋਰ ਕਰੋ ਅਤੇ ਸੋਧ ਮੋਡ ਤੋਂ ਬਾਹਰ ਜਾਓ। ਇਸ ਨੂੰ ਉਦੋਂ ਵਰਤੋ ਜਦੋਂ ਤੁਹਾਨੂੰ ਆਪਣਾ ਕੰਮ ਛੱਡ ਕੇ ਬਾਅਦ ਵਿੱਚ ਜਾਰੀ ਰੱਖਣਾ ਹੋਵੇ।</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>ਖਰੜਾ ਸਟੋਰ ਕਰੋ ਅਤੇ ਬਾਹਰ ਜਾਓ</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>ਕੀ ਤੁਸੀਂ ਯਕੀਨੀ ਤੌਰ 'ਤੇ ਖਰੜਾ ਰੱਦ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>ਸੋਧੇ ਜਾ ਰਹੇ ਖਰੜੇ ਨੂੰ ਰੱਦ ਕਰੋ। ਇਸ ਨਾਲ ਖਰੜੇ ਨਾਲ ਸੰਬੰਧਿਤ ਅਨੁਵਾਦ (ਜੇ ਕੋਈ ਹੋਣ) ਵੀ ਹਟਾ ਦਿੱਤੇ ਜਾਣਗੇ।</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>ਵਰਜਨ ਪ੍ਰਬੰਧਿਤ ਕਰੋ</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

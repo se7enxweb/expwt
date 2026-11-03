@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Na zãla siwo metia naneke o: zãla ɖesiaɖe tiana le "Nye" kpɔɖeƒe me, amedzro le "Woezɔ" kpɔɖeƒe me.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Ɖe ŋɔŋlɔ gbãtɔ si le trɔasi me la ƒe emenu ɖe dutoƒo. Ŋɔŋlɔ gbãtɔ la ana nu la ƒe ʋɛsiɔn si woɖe ɖe dutoƒo.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Ɖo ɖa be woaɖe ɖe dutoƒo</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Dzra ŋɔŋlɔ gbãtɔ si le trɔasi me la ƒe emenu ɖo, eye nàyi edzi atrɔ asi le eŋu. Zã ʋɔtru sia ɣeyiɣi ɣeyiɣi be nàdzra wò dɔ ɖo ne èle trɔasi wɔm.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Dzra ŋɔŋlɔ gbãtɔ ɖo</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Dzra ŋɔŋlɔ gbãtɔ si le trɔasi me ɖo eye nàdo le trɔasi ƒe mɔ me. Zãe ne èdi be yeadzudzɔ dɔ la eye yeagatrɔ avɛ edzi emegbe.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Dzra ŋɔŋlɔ gbãtɔ ɖo eye nàdo le eme</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Ɖe nèka ɖe edzi be yeadi be yeatsɔ ŋɔŋlɔ gbãtɔ la aƒu gbe?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Tsɔ ŋɔŋlɔ gbãtɔ si le trɔasi me la ƒu gbe. Esia hã aɖe gbegɔmeɖeɖe siwo le ŋɔŋlɔ gbãtɔ la si ɖa (ne eli).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Dzrae ʋɛsiɔnwo</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

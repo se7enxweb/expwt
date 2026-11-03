@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Za korisnike koji nisu odabrali: svaki korisnik bira na ploči „Ja”, posjetitelj na ploči „Dobro došli”.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Objavite sadržaj skice koju uređujete. Skica će postati objavljena verzija objekta.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Pošalji na objavljivanje</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Spremite sadržaj skice koju uređujete i nastavite s uređivanjem. Ovim gumbom povremeno spremajte svoj rad tijekom uređivanja.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Spremi skicu</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Spremite skicu koju uređujete i izađite iz načina uređivanja. Upotrijebite ovo kada želite prekinuti rad i kasnije nastaviti.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Spremi skicu i izađi</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Jeste li sigurni da želite odbaciti skicu?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Odbacite skicu koju uređujete. Time će se ukloniti i prijevodi koji pripadaju skici (ako postoje).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Upravljanje verzijama</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

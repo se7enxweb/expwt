@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>For brugere, der ikke har valgt: hver bruger vælger i panelet "Mig", en besøgende i panelet "Velkommen".</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Publicer indholdet af det udkast, der redigeres. Udkastet bliver den publicerede version af objektet.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Send til publicering</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Gem indholdet af det udkast, der redigeres, og fortsæt redigeringen. Brug denne knap til jævnligt at gemme dit arbejde under redigeringen.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Gem udkast</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Gem det udkast, der redigeres, og forlad redigeringstilstanden. Brug den, når du skal afbryde dit arbejde og vende tilbage senere for at fortsætte.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Gem udkast, og afslut</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Er du sikker på, at du vil kassere udkastet?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Kasser det udkast, der redigeres. Dette fjerner også de oversættelser, der hører til udkastet (hvis der er nogen).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Administrer versioner</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

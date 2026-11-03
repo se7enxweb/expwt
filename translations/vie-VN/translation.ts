@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Dành cho người dùng chưa chọn: mỗi người dùng chọn trong bảng "Tôi", khách truy cập chọn trong bảng "Chào mừng".</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Xuất bản nội dung của bản nháp đang chỉnh sửa. Bản nháp sẽ trở thành phiên bản đã xuất bản của đối tượng.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Gửi để xuất bản</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Lưu nội dung của bản nháp đang chỉnh sửa và tiếp tục chỉnh sửa. Dùng nút này để lưu công việc định kỳ trong khi chỉnh sửa.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Lưu bản nháp</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Lưu bản nháp đang chỉnh sửa và thoát chế độ chỉnh sửa. Dùng khi bạn cần dừng công việc và quay lại sau để tiếp tục.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Lưu bản nháp và thoát</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Bạn có chắc chắn muốn hủy bỏ bản nháp không?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Hủy bỏ bản nháp đang chỉnh sửa. Thao tác này cũng gỡ bỏ các bản dịch thuộc bản nháp (nếu có).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Quản lý phiên bản</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

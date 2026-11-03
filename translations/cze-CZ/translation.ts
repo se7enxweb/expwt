@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Pro uživatele, kteří si nevybrali: každý uživatel volí v panelu „Já“, návštěvník v panelu „Vítejte“.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Publikovat obsah upravovaného konceptu. Koncept se stane publikovanou verzí objektu.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Odeslat k publikování</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Uložit obsah upravovaného konceptu a pokračovat v úpravách. Pomocí tohoto tlačítka můžete během úprav průběžně ukládat svou práci.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Uložit koncept</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Uložit upravovaný koncept a ukončit úpravy. Použijte, když potřebujete práci přerušit a později v ní pokračovat.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Uložit koncept a ukončit</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Opravdu chcete koncept zahodit?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Zahodit upravovaný koncept. Odstraní se tím také překlady, které ke konceptu patří (pokud existují).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Spravovat verze</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

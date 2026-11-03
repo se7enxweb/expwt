@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Сонголт хийгээгүй хэрэглэгчдэд: хэрэглэгч бүр «Би» самбарт, зочин «Тавтай морил» самбарт сонгоно.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Засаж буй ноорогийн агуулгыг нийтлэх. Ноорог нь объектын нийтлэгдсэн хувилбар болно.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Нийтлэхээр илгээх</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Засаж буй ноорогийн агуулгыг хадгалаад засварлахаа үргэлжлүүлэх. Засварлах явцдаа ажлаа үе үе хадгалахын тулд энэ товчийг ашиглана уу.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Ноорог хадгалах</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Засаж буй ноорогийг хадгалаад засах горимоос гарах. Ажлаа орхиод дараа нь үргэлжлүүлэх шаардлагатай үед ашиглана уу.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Ноорог хадгалаад гарах</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Та ноорогийг хаяхдаа итгэлтэй байна уу?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Засаж буй ноорогийг хаях. Энэ нь ноорогт хамаарах орчуулгуудыг (байвал) мөн хасна.</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Хувилбар удирдах</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

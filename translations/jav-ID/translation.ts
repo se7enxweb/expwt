@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Kanggo pangguna sing durung milih: saben pangguna milih ing panel "Aku", pengunjung ing panel "Sugeng rawuh".</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Terbitake isi draf sing lagi disunting. Draf bakal dadi versi objek sing diterbitake.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Kirim kanggo diterbitake</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Simpen isi draf sing lagi disunting lan terusake panyuntingan. Gunakake tombol iki kanggo nyimpen gaweyan panjenengan kanthi periodik nalika nyunting.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Simpen draf</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Simpen draf sing lagi disunting lan metu saka mode panyuntingan. Gunakake yen panjenengan kudu mandhegake gaweyan lan bali mengko kanggo nerusake.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Simpen draf lan metu</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Apa panjenengan yakin arep mbuang draf iki?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Buang draf sing lagi disunting. Iki uga bakal mbusak terjemahan sing dadi duweke draf kasebut (yen ana).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Kelola versi</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

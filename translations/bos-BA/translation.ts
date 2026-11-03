@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Za korisnike koji nisu odabrali: svaki korisnik bira na panelu „Ja“, posjetilac na panelu „Dobro došli“.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Objavi sadržaj nacrta koji se uređuje. Nacrt će postati objavljena verzija objekta.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Pošalji na objavljivanje</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Sačuvaj sadržaj nacrta koji se uređuje i nastavi uređivanje. Koristite ovo dugme da biste povremeno sačuvali svoj rad tokom uređivanja.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Sačuvaj nacrt</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Sačuvaj nacrt koji se uređuje i izađi iz načina uređivanja. Koristite kada želite prekinuti rad i kasnije se vratiti da ga nastavite.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Sačuvaj nacrt i izađi</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Da li ste sigurni da želite odbaciti nacrt?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Odbaci nacrt koji se uređuje. Time se uklanjaju i prijevodi koji pripadaju nacrtu (ako postoje).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Upravljaj verzijama</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

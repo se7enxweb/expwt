@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>ఎంచుకోని వినియోగదారుల కోసం: ప్రతి వినియోగదారు "నేను" ప్యానెల్‌లో, సందర్శకులు "స్వాగతం" ప్యానెల్‌లో ఎంచుకుంటారు.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>సవరిస్తున్న డ్రాఫ్ట్ యొక్క కంటెంట్‌లను ప్రచురించండి. ఈ డ్రాఫ్ట్ ఆబ్జెక్ట్ యొక్క ప్రచురించబడిన వెర్షన్ అవుతుంది.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>ప్రచురణ కోసం పంపండి</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>సవరిస్తున్న డ్రాఫ్ట్ యొక్క కంటెంట్‌ను నిల్వ చేసి, సవరణను కొనసాగించండి. సవరిస్తున్నప్పుడు మీ పనిని క్రమానుగతంగా సేవ్ చేయడానికి ఈ బటన్‌ను ఉపయోగించండి.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>డ్రాఫ్ట్ నిల్వ చేయండి</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>సవరిస్తున్న డ్రాఫ్ట్‌ను సేవ్ చేసి సవరణ మోడ్ నుండి నిష్క్రమించండి. మీ పనిని ఆపి, తర్వాత కొనసాగించాలనుకున్నప్పుడు దీన్ని ఉపయోగించండి.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>డ్రాఫ్ట్‌ను సేవ్ చేసి నిష్క్రమించండి</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>మీరు ఖచ్చితంగా డ్రాఫ్ట్‌ను విస్మరించాలనుకుంటున్నారా?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>సవరిస్తున్న డ్రాఫ్ట్‌ను విస్మరించండి. ఇది డ్రాఫ్ట్‌కు చెందిన అనువాదాలను (ఏవైనా ఉంటే) కూడా తీసివేస్తుంది.</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>వెర్షన్‌లను నిర్వహించండి</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

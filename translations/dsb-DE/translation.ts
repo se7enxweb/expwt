@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Za wužywarjow, kótarež njejsu wubrali: kuždy wužywaŕ wuběrajo w panelu „Ja“, woglědowaŕ w panelu „Witajśo“.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Wopśimjeśe wobźěłanego nacerjenja wózjawiś. Nacerjenje se stanjo wózjawjona wersija objekta.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>K wózjawjenju pósłaś</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Wopśimjeśe wobźěłanego nacerjenja składowaś a dalej wobźěłaś. Wužywajśo toś ten tłocašk za wótergowne składowanje swójogo źěła pśi wobźěłowanju.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Nacerjenje składowaś</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Wobźěłane nacerjenje składowaś a modus wobźěłowanja spušćiś. Wužywajśo to, gaž cośo źěło pśetergnuś a pózdźej pókšacowaś.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Nacerjenje składowaś a skóńcyś</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Cośo nacerjenje napšawdu zachyśiś?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Wobźěłane nacerjenje zachyśiś. To wótpórajo teke pśełožki, kótarež k nacerjenjeju słušaju (jolic su).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Wersije zastojaś</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

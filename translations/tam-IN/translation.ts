@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>தேர்வு செய்யாத பயனர்களுக்கு: ஒவ்வொரு பயனரும் "நான்" பலகத்தில், பார்வையாளர் "வரவேற்கிறோம்" பலகத்தில் தேர்வு செய்கிறார்.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>திருத்தப்படும் வரைவின் உள்ளடக்கத்தை வெளியிடுங்கள். இந்த வரைவு பொருளின் வெளியிடப்பட்ட பதிப்பாக மாறும்.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>வெளியிடுவதற்கு அனுப்பு</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>திருத்திக்கொண்டிருக்கும் வரைவின் உள்ளடக்கத்தைச் சேமித்து, தொடர்ந்து திருத்துங்கள். திருத்தும்போது உங்கள் பணியை அவ்வப்போது சேமிக்க இந்தப் பொத்தானைப் பயன்படுத்துங்கள்.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>வரைவைச் சேமி</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>திருத்தப்படும் வரைவைச் சேமித்து திருத்தும் பயன்முறையிலிருந்து வெளியேறுங்கள். உங்கள் பணியை நிறுத்திவிட்டுப் பின்னர் தொடர வேண்டியிருக்கும்போது இதைப் பயன்படுத்துங்கள்.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>வரைவைச் சேமித்து வெளியேறு</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>வரைவை நிராகரிக்க விரும்புகிறீர்களா?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>திருத்தப்பட்டு வரும் வரைவை நிராகரிக்கவும். இது வரைவுக்குரிய மொழிபெயர்ப்புகளையும் (இருந்தால்) நீக்கும்.</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>பதிப்புகளை நிர்வகி</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

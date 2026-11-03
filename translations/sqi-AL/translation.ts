@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Për përdoruesit që nuk kanë zgjedhur: çdo përdorues zgjedh te paneli "Unë", një vizitor te paneli "Mirë se vini".</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Publiko përmbajtjen e skicës që po redaktohet. Skica do të bëhet versioni i publikuar i objektit.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Dërgo për publikim</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Ruaj përmbajtjen e skicës që po redaktohet dhe vazhdo redaktimin. Përdoreni këtë buton për të ruajtur periodikisht punën tuaj gjatë redaktimit.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Ruaj skicën</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Ruaj skicën që po redaktohet dhe dil nga modaliteti i redaktimit. Përdoreni kur duhet ta ndërprisni punën dhe të ktheheni më vonë për ta vazhduar.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Ruaj skicën dhe dil</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Dëshironi vërtet ta hidhni poshtë skicën?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Hidh poshtë skicën që po redaktohet. Kjo do të heqë edhe përkthimet që i përkasin skicës (nëse ka).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Menaxho versionet</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

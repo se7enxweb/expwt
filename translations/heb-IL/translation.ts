@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>למשתמשים שלא בחרו: כל משתמש בוחר בחלונית "אני", מבקר בחלונית "ברוכים הבאים".</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>פרסום תוכן הטיוטה הנערכת. הטיוטה תהפוך לגרסה המפורסמת של האובייקט.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>שליחה לפרסום</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>שמירת תוכן הטיוטה הנערכת והמשך העריכה. מומלץ להשתמש בכפתור זה מדי פעם כדי לשמור את העבודה במהלך העריכה.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>שמירת טיוטה</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>שמירת הטיוטה הנערכת ויציאה ממצב עריכה. לשימוש כאשר יש לעצור את העבודה ולחזור אליה מאוחר יותר.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>שמירת טיוטה ויציאה</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>האם למחוק את הטיוטה?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>מחיקת הטיוטה הנערכת. פעולה זו תסיר גם את התרגומים השייכים לטיוטה (אם יש).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>ניהול גרסאות</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

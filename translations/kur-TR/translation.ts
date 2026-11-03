@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Ji bo bikarhênerên ku hilnebijartine: her bikarhêner di panela "Ez" de, mêvan di panela "Bi xêr hatî" de hildibijêre.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Naveroka reşnivîsa ku tê sererastkirin weşandin. Reşnivîs dê bibe guhertoya weşandî ya heyberê.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Ji bo weşandinê şandin</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Naveroka reşnivîsa ku tê sererastkirin tomar kirin û sererastkirinê domandin. Vê bişkokê bi kar bînin da ku dema sererastkirinê karê xwe car bi car tomar bikin.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Reşnivîs tomar kirin</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Reşnivîsa ku tê sererastkirin tomar kirin û ji moda sererastkirinê derketin. Bi kar bînin dema ku hûn dixwazin karê xwe rawestînin û paşê vegerin da ku bidomînin.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Reşnivîs tomar kirin û derketin</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Hûn piştrast in ku hûn dixwazin reşnivîsê bavêjin?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Reşnivîsa ku tê sererastkirin avêtin. Ev ê herwiha wergerên ku girêdayî reşnivîsê ne (heke hebin) jî rake.</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Rêveberiya guhertoyan</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

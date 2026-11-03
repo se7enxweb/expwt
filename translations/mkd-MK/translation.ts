@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>За корисници кои не избрале: секој корисник избира во панелот „Јас“, посетителот во панелот „Добредојдовте“.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Објави ја содржината на нацртот што се уредува. Нацртот ќе стане објавена верзија на објектот.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Испрати за објавување</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Зачувај ја содржината на нацртот што се уредува и продолжи со уредување. Користете го ова копче за периодично да ја зачувувате Вашата работа додека уредувате.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Зачувај нацрт</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Зачувај го нацртот што се уредува и излези од режимот на уредување. Користете го кога треба да ја прекинете работата и да се вратите подоцна за да продолжите.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Зачувај нацрт и излези</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Дали сте сигурни дека сакате да го отфрлите нацртот?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Отфрли го нацртот што се уредува. Со тоа ќе се отстранат и преводите што му припаѓаат на нацртот (ако ги има).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Управувај со верзиите</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

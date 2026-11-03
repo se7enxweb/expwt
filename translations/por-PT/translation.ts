@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Para utilizadores que não escolheram: cada utilizador escolhe no painel «Eu», um visitante no painel «Bem-vindo».</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Publicar o conteúdo do rascunho que está a ser editado. O rascunho passará a ser a versão publicada do objeto.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Enviar para publicação</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Guarda o conteúdo do rascunho que está a ser editado e continua a edição. Utilize este botão para guardar periodicamente o trabalho durante a edição.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Guardar rascunho</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Guardar o rascunho que está a ser editado e sair do modo de edição. Utilizar quando é necessário interromper o trabalho e continuar mais tarde.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Guardar rascunho e sair</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Tem a certeza de que pretende descartar o rascunho?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Descartar o rascunho que está a ser editado. Isto também irá remover as traduções que pertencem ao rascunho (se existirem).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Gerir versões</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

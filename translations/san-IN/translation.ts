@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>ये उपयोक्तारः न अवृणत तेभ्यः: प्रत्येकः उपयोक्ता "अहम्" फलके वृणोति, आगन्तुकः "स्वागतम्" फलके।</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>सम्पाद्यमानस्य प्रारूपस्य विषयवस्तु प्रकाशयतु। प्रारूपं पदार्थस्य प्रकाशितं संस्करणं भविष्यति।</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>प्रकाशनाय प्रेषणम्</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>सम्पाद्यमानस्य प्रारूपस्य विषयवस्तु संरक्षतु सम्पादनं च अनुवर्तताम्। सम्पादनसमये स्वकार्यं नियतकालं संरक्षितुम् इदं बटनम् उपयुङ्क्ताम्।</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>प्रारूपसंरक्षणम्</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>सम्पाद्यमानं प्रारूपं संरक्षतु सम्पादनस्थितितः निर्गच्छतु च। यदा कार्यं त्यक्त्वा पश्चात् अनुवर्तितुं प्रत्यागन्तव्यं तदा उपयुङ्क्ताम्।</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>प्रारूपसंरक्षणं निर्गमनं च</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>किं प्रारूपं परित्यजनीयम्?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>सम्पाद्यमानं प्रारूपं परित्यजतु। एतेन प्रारूपस्य अनुवादाः (यदि सन्ति) अपि अपसार्यन्ते।</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>संस्करणप्रबन्धनम्</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

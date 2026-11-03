@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Харжам ца бинчу декъашхошна: хӀора декъашхочо «Со» панелехь харжа, хьешо — «Марша догӀийла» панелехь.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Нисдаш йолу черновикан чулацам арахеца. Черновик объектан арахецна верси хира ю.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Арахецархьама дӀахьийта</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Нисдаш йолу черновикан чулацам Ӏалашдан а, нисдар дӀахьо а. ХӀара тӀетаӀар нисдарехь шун болх йолуш-йолуш Ӏалашдархьама лелае.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Черновик Ӏалашдан</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Нисдаш йолу черновик Ӏалашдан а, нисдаран хьалера ара ала а. Шу болх бан сацийна, тӀаьхьа дӀахьо еза хьо лелае.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Черновик Ӏалашдан а, арабала а</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Шуна баккъалла а черновик дӀатасса лаьий?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Нисдаш йолу черновик дӀатасса. Иза черновикана хьажош йолу гочдарш а (церан хилча) дӀадоккху.</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Версеш урхалла яр</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

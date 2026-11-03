@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>မရွေးရသေးသော အသုံးပြုသူများအတွက်- အသုံးပြုသူတိုင်း "ကျွန်ုပ်" အကန့်တွင် ရွေးပြီး ဧည့်သည်က "ကြိုဆိုပါသည်" အကန့်တွင် ရွေးသည်။</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>တည်းဖြတ်နေသော မူကြမ်း၏ အကြောင်းအရာကို ထုတ်ဝေရန်။ မူကြမ်းသည် အရာဝတ္ထု၏ ထုတ်ဝေပြီးဗားရှင်း ဖြစ်လာမည်။</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>ထုတ်ဝေရန် ပို့ရန်</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>တည်းဖြတ်နေသော မူကြမ်း၏ အကြောင်းအရာကို သိမ်းပြီး ဆက်လက်တည်းဖြတ်ရန်။ တည်းဖြတ်နေစဉ် သင်၏ လုပ်ငန်းကို အခါအားလျော်စွာ သိမ်းရန် ဤခလုတ်ကို အသုံးပြုပါ။</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>မူကြမ်းသိမ်းရန်</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>တည်းဖြတ်နေသော မူကြမ်းကို သိမ်းပြီး တည်းဖြတ်မုဒ်မှ ထွက်ရန်။ သင်၏လုပ်ငန်းမှ ထွက်ပြီး နောက်မှ ပြန်လာ၍ ဆက်လုပ်လိုသည့်အခါ အသုံးပြုပါ။</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>မူကြမ်းသိမ်းပြီး ထွက်ရန်</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>မူကြမ်းကို စွန့်ပစ်ရန် သေချာပါသလား။</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>တည်းဖြတ်နေသော မူကြမ်းကို စွန့်ပစ်ရန်။ မူကြမ်းနှင့် သက်ဆိုင်သော ဘာသာပြန်ချက်များ (ရှိလျှင်) ကိုလည်း ဖယ်ရှားမည်။</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>ဗားရှင်းများ စီမံရန်</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

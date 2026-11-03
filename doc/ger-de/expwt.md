@@ -676,6 +676,27 @@ dieser Reihenfolge, und den Wert, der gilt.
 | `AccentColor`, `AccentColorDark` | (leer) | der Akzent im hellen und dunklen Modus, `#rrggbb`, geprüft nach WCAG 2.2 AA (4,5:1 für den Text darauf, 3:1 gegen die Leiste); eine Farbe, die durchfällt, wird nicht verwendet, und Setup sagt warum; eine leere dunkle wird aus der hellen abgeleitet |
 | `[Comments] HideNew` | disabled | enabled: Ein Kommentar (expservices.ini `[Community] CommentClass`, sonst `comment`), der zum ersten Mal veröffentlicht wird, wird gleich danach verborgen, wenn sein Ersteller ihn nicht freigeben darf (kein `content/hide` des Kommentars); der Bereich Seite listet ihn als wartend auf Moderation, **Freigeben** zeigt ihn. Das erledigt der Inhalts-Bearbeitungs-Handler von expwt (content.ini `[EditSettings] ExtensionDirectories[]=expwt`), den der Kernel in jeder Veröffentlichung aufruft (Web, Befehle, Cronjobs, Workflows), über das Verbergen des Kernels; kein Workflow einzurichten |
 
+## Designs: die Bearbeitungsaktionen und die Seiten-Toolbar
+
+Ein Site-Design bindet die Templates von expwt dort ein, wo ein ezwt-Design die von ezwt einband. Sie sind
+designneutral (einfache Schaltflächen, die Klassen `expwt-actions*`, gezeichnet von `expwt-actions.css` aus ihren
+Tokens `--expwt-act-*`, die ein Design auf `.expwt-actions` setzen kann, um sie an sein Aussehen anzupassen; dunkel,
+wenn die Seite `data-theme`, `data-a4-theme` oder `data-bs-theme` auf `dark` gesetzt hat), senden die Aktionen des
+Kernels und enthalten kein Inline-CSS und kein Inline-Skript:
+
+| Include | Anstelle von | Was es zeichnet |
+| --- | --- | --- |
+| `design:parts/expwt_edit_actions.tpl` | `parts/website_toolbar_edit.tpl` | im Formular `content/edit` des Designs: **Zur Veröffentlichung schicken**, **Entwurf speichern**, **Entwurf speichern und beenden**, **Entwurf verwerfen** (fragt vorher, `expwt-actions.js`), **Versionen verwalten**, **Vorschau**, **Übersetzen von** (ein veröffentlichtes Objekt in mehr als einer Sprache). `{include uri='design:parts/expwt_edit_actions.tpl' expwt_versions=false()}` lässt die zweite Zeile weg |
+| `design:parts/expwt_versionview_actions.tpl` | `parts/website_toolbar_versionview.tpl` | auf `content/versionview`: **Bearbeiten**, **Veröffentlichen**, **Versionen verwalten** (ein eigenes Formular) |
+| `design:parts/expwt_page_toolbar.tpl` | `parts/website_toolbar.tpl` | nichts, wo die Seitenleiste an ist (die Seitenaktionen sind in ihr); wo sie aus ist (`Enabled`), **Bearbeiten** für einen Bearbeiter der Seite |
+
+Für noch nicht umgestellte Designs beantwortet expwt auch die drei Namen von ezwt (`parts/website_toolbar.tpl`,
+`website_toolbar_edit.tpl`, `website_toolbar_versionview.tpl`) mit diesen Includes, sodass ein Design eines Dritten,
+das sie noch einbindet, seine Bearbeitungsschaltflächen behält, wenn ezwt nicht mehr da ist. Beide werden nie
+zusammen installiert (Composer `replace`). Die Plug-in-Templates von ezwt in `parts/websitetoolbar/` (RSS, Push,
+Timeline, Multiupload, Newsletter) werden nicht gezeichnet: ihre Aktionen sind in den Bereichen der Seitenleiste
+oder in der Administration.
+
 ## Erweiterungen fügen der Seitenleiste etwas hinzu
 
 Eine andere Erweiterung fügt der Seitenleiste Bereiche, Server-Aktionen, Markierungen auf der Seite und Suchquellen

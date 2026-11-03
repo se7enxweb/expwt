@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Ho an'ireo mpampiasa tsy mbola nisafidy: ny mpampiasa tsirairay dia misafidy ao amin'ny tontonana "Izaho", ny mpitsidika ao amin'ny tontonana "Tongasoa".</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Avoaka ny votoatin'ny drafitra ovaina. Ho lasa dikan-teny navoaka amin'ilay zavatra ilay drafitra.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Alefaso hivoaka</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Tehirizo ny votoatin'ny drafitra ovaina ary tohizo ny fanovana. Ampiasao ity bokotra ity hitahirizana ny asanao tsindraindray rehefa manova.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Tehirizo ny drafitra</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Tehirizo ny drafitra ovaina ary mivoaha amin'ny fomba fanovana. Ampiasao rehefa mila miala ianao dia hiverina hanohy any aoriana.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Tehirizo ny drafitra ary mivoaha</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Tena tianao ve ny hanary ny drafitra?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Ario ny drafitra ovaina. Esorina ihany koa ny fandikana mifandray amin'ny drafitra (raha misy).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Tantano ny dikan-teny</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

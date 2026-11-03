@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>D'úsáideoirí nár roghnaigh: roghnaíonn gach úsáideoir sa phainéal "Mise", cuairteoir sa phainéal "Fáilte".</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Foilsigh ábhar an dréachta atá á chur in eagar. Beidh an dréacht ina leagan foilsithe den oibiacht.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Seol lena fhoilsiú</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Sábháil ábhar an dréachta atá á chur in eagar agus lean ar aghaidh ag cur in eagar. Úsáid an cnaipe seo chun do chuid oibre a shábháil ó am go chéile agus tú ag cur in eagar.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Sábháil an dréacht</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Sábháil an dréacht atá á chur in eagar agus scoir den mhód eagarthóireachta. Úsáid é nuair is gá duit d’obair a fhágáil agus filleadh níos déanaí chun leanúint ar aghaidh.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Sábháil an dréacht agus scoir</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>An bhfuil tú cinnte gur mian leat an dréacht a chuileáil?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Cuileáil an dréacht atá á chur in eagar. Bainfear freisin na haistriúcháin a bhaineann leis an dréacht (más ann dóibh).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Bainistigh leaganacha</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

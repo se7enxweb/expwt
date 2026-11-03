@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Ar gyfer defnyddwyr sydd heb ddewis: mae pob defnyddiwr yn dewis yn y panel "Fi", ac ymwelydd yn y panel "Croeso".</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Cyhoeddi cynnwys y drafft sy'n cael ei olygu. Bydd y drafft yn dod yn fersiwn gyhoeddedig y gwrthrych.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Anfon i'w gyhoeddi</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Cadw cynnwys y drafft sy'n cael ei olygu a pharhau i olygu. Defnyddiwch y botwm hwn i gadw eich gwaith o bryd i'w gilydd wrth olygu.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Cadw'r drafft</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Cadw'r drafft sy'n cael ei olygu a gadael y modd golygu. Defnyddiwch hwn pan fydd angen i chi adael eich gwaith a dychwelyd yn nes ymlaen i barhau.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Cadw'r drafft a gadael</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Ydych chi'n siŵr eich bod am waredu'r drafft?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Gwaredu'r drafft sy'n cael ei olygu. Bydd hyn hefyd yn tynnu'r cyfieithiadau sy'n perthyn i'r drafft (os oes rhai).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Rheoli fersiynau</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

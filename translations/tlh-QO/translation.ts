@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>lo'wI' wIvbe'ta'bogh: "jIH" beQDaq wIv Hoch lo'wI', "bImaS" beQDaq wIv SuchwI'.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>choHlu'taHbogh nab De' HochvaD yI'ang. Doch chovnatlh 'anglu'ta'bogh moj nab.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>'anglu'meH yIngeH</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>choHlu'taHbogh nab De' yIpol 'ej yIchoHtaH. bIchoHtaHvIS Qu'lIj DapolmeH leQvam yIlo', pIj.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>nab yIpol</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>choHlu'taHbogh nab yIpol 'ej choHmeH Qorwagh yImej. Qu'lIj DamejnIS 'ej ghIq DataHmeH bIcheghnISchugh, yIlo'.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>nab yIpol 'ej yImej</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>nab DawoDqang'a'?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>choHlu'taHbogh nab yIwoD. nab mughghachmey teqlu' je (tu'lu'chugh).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>chovnatlhmey tISeH</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

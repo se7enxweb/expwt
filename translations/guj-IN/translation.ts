@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>જે વપરાશકર્તાઓએ પસંદ કર્યું નથી તેમના માટે: દરેક વપરાશકર્તા "હું" પેનલમાં પસંદ કરે છે, મુલાકાતી "સ્વાગત છે" પેનલમાં.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>સંપાદિત થઈ રહેલા ડ્રાફ્ટની સામગ્રી પ્રકાશિત કરો. ડ્રાફ્ટ ઑબ્જેક્ટની પ્રકાશિત આવૃત્તિ બની જશે.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>પ્રકાશન માટે મોકલો</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>સંપાદિત થઈ રહેલા ડ્રાફ્ટની સામગ્રી સાચવો અને સંપાદન ચાલુ રાખો. સંપાદન દરમિયાન આપનું કાર્ય સમયાંતરે સાચવવા માટે આ બટનનો ઉપયોગ કરો.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>ડ્રાફ્ટ સાચવો</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>સંપાદિત થઈ રહેલો ડ્રાફ્ટ સાચવો અને સંપાદન મોડમાંથી બહાર નીકળો. જ્યારે આપને કામ છોડીને પછીથી ચાલુ રાખવું હોય ત્યારે ઉપયોગ કરો.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>ડ્રાફ્ટ સાચવો અને બહાર નીકળો</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>શું આપ ખરેખર ડ્રાફ્ટ છોડી દેવા માગો છો?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>જે ડ્રાફ્ટ સંપાદિત થઈ રહ્યો છે તેને છોડી દો. આનાથી ડ્રાફ્ટના અનુવાદો (જો હોય તો) પણ દૂર થશે.</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>સંસ્કરણો સંચાલિત કરો</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

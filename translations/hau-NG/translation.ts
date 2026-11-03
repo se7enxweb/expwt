@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Ga masu amfani da ba su zaɓa ba: kowane mai amfani yana zaɓa a fanon "Ni", baƙo a fanon "Barka da zuwa".</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Wallafa abubuwan da ke cikin daftarin da ake gyarawa. Daftarin zai zama sigar abun da aka wallafa.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Aika don wallafawa</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Ajiye abubuwan da ke cikin daftarin da ake gyarawa kuma a ci gaba da gyarawa. A yi amfani da wannan maɓalli don ajiye aikin lokaci-lokaci yayin gyarawa.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Ajiye daftari</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Ajiye daftarin da ake gyarawa kuma fita daga yanayin gyara. Ana amfani da shi idan ana buƙatar fita daga aiki a koma a ci gaba daga baya.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Ajiye daftari kuma fita</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Ko tabbas ana son a yar da daftari?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Yar da daftarin da ake gyarawa. Wannan zai kuma cire fassarorin da suka shafi daftarin (idan akwai).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Sarrafa juzu'i</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

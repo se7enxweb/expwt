@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Za wužiwarjow, kotřiž njejsu wubrali: kóždy wužiwar wubjera w panelu „Ja“, wopytowar w panelu „Witajće“.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Wobsah wobdźěłaneho naćiska wozjewić. Naćisk budźe wozjewjena wersija objekta.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>K wozjewjenju pósłać</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Wobsah wobdźěłaneho naćiska składować a dale wobdźěłać. Wužiwajće tute tłóčatko, zo byšće swoje dźěło při wobdźěłanju pravidłownje składowali.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Naćisk składować</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Wobdźěłany naćisk składować a modus wobdźěłanja wopušćić. Wužiwajće to, hdyž chceće dźěło přetorhnyć a pozdźišo pokročować.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Naćisk składować a skónčić</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Chceće naćisk woprawdźe zaćisnyć?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Wobdźěłany naćisk zaćisnyć. To wotstroni tež přełožki, kotrež k naćiskej słušeja (jeli su).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Wersije rjadować</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

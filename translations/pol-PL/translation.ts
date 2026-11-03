@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Dla użytkowników, którzy nie wybrali: każdy użytkownik wybiera w panelu „Ja”, odwiedzający w panelu „Witaj”.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Opublikować zawartość edytowanej wersji roboczej. Wersja robocza stanie się opublikowaną wersją obiektu.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Wysłać do publikacji</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Zapisać zawartość edytowanej wersji roboczej i kontynuować edycję. Tego przycisku warto używać regularnie podczas edycji, aby zapisywać postęp pracy.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Zapisać wersję roboczą</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Zapisać edytowaną wersję roboczą i zakończyć edycję. Przydatne, gdy pracę trzeba przerwać i dokończyć później.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Zapisać wersję roboczą i zakończyć</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Czy na pewno odrzucić wersję roboczą?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Odrzucić edytowaną wersję roboczą. Zostaną także usunięte tłumaczenia należące do tej wersji roboczej (jeśli istnieją).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Zarządzać wersjami</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

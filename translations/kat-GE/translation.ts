@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>მომხმარებლებისთვის, რომლებსაც არ აურჩევიათ: თითოეული მომხმარებელი ირჩევს პანელში „მე“, სტუმარი — პანელში „მოგესალმებით“.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>რედაქტირებადი მონახაზის შიგთავსის გამოქვეყნება. მონახაზი გახდება ობიექტის გამოქვეყნებული ვერსია.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>გამოსაქვეყნებლად გაგზავნა</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>რედაქტირებადი მონახაზის შიგთავსის შენახვა და რედაქტირების გაგრძელება. ამ ღილაკით რედაქტირებისას პერიოდულად შეინახეთ თქვენი სამუშაო.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>მონახაზის შენახვა</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>რედაქტირებადი მონახაზის შენახვა და რედაქტირების რეჟიმიდან გასვლა. გამოიყენეთ, როცა სამუშაოს შეწყვეტა და მოგვიანებით გაგრძელება გჭირდებათ.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>მონახაზის შენახვა და გასვლა</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>ნამდვილად გსურთ მონახაზის უარყოფა?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>რედაქტირებადი მონახაზის უარყოფა. ეს ასევე მოაცილებს მონახაზის თარგმანებს (თუ ასეთი არსებობს).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>ვერსიების მართვა</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

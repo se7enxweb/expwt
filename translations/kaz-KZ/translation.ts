@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Таңдамаған пайдаланушылар үшін: әр пайдаланушы «Мен» панелінде, келуші «Қош келдіңіз» панелінде таңдайды.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Өңделіп жатқан жобаның мазмұнын жариялау. Жоба нысанның жарияланған нұсқасына айналады.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Жариялауға жіберу</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Өңделіп жатқан жобаның мазмұнын сақтап, өңдеуді жалғастыру. Өңдеу кезінде жұмысыңызды мезгіл-мезгіл сақтау үшін осы түймені пайдаланыңыз.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Жобаны сақтау</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Өңделіп жатқан жобаны сақтап, өңдеу режимінен шығу. Жұмысты тоқтатып, кейін қайта оралу қажет болғанда пайдаланыңыз.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Жобаны сақтап, шығу</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Жобадан шынымен бас тартқыңыз келе ме?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Өңделіп жатқан жобадан бас тарту. Бұл жобаға тиесілі аудармаларды да (бар болса) алып тастайды.</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Нұсқаларды басқару</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

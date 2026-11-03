@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Para sa mga user na hindi pa pumipili: bawat user ay pumipili sa panel na "Ako", ang bisita sa panel na "Maligayang pagdating".</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>I-publish ang nilalaman ng draft na ine-edit. Magiging na-publish na bersyon ng object ang draft.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Ipadala para i-publish</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>I-save ang nilalaman ng draft na ine-edit at ipagpatuloy ang pag-edit. Gamitin ang button na ito para pana-panahong i-save ang iyong gawa habang nag-e-edit.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>I-save ang draft</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>I-save ang draft na ine-edit at lumabas sa edit mode. Gamitin kapag kailangan mong ihinto ang iyong gawa at bumalik mamaya para ipagpatuloy.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>I-save ang draft at lumabas</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Sigurado ka bang gusto mong itapon ang draft?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Itapon ang draft na ine-edit. Aalisin din nito ang mga salin na kabilang sa draft (kung mayroon).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Pamahalaan ang mga bersyon</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

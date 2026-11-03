@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Nĩ ũndũ wa atũmĩri matathuurĩte: o mũtũmĩri athuuraga mbaũ-inĩ ya "Niĩ", mũgeni mbaũ-inĩ ya "Wamũkĩire".</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Cabithia ũhoro wa ndrafti ĩrĩa ĩrĩ gũcenjio. Ndrafti nĩ ĩgatuĩka ũrutwo ũrĩa ũcabithĩtio wa kĩndũ.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Tũma gũcabithio</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Iga ũhoro wa ndrafti ĩrĩa ĩrĩ gũcenjio na ũtũũre ũkĩcenjia. Hũthĩra kĩhingo gĩkĩ kũiga wĩra waku hĩndĩ na ĩngĩ ũkĩcenjia.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Iga ndrafti</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Iga ndrafti ĩrĩa ĩrĩ gũcenjio na ũume thĩinĩ wa njĩra ya gũcenjia. Hũthĩra rĩrĩa ũrenda gũtiga wĩra waku na ũcooke thutha ũtũũre.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Iga ndrafti na ũume</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Nĩ wĩtĩkĩrĩte atĩ ũrenda kũikia ndrafti?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Ikia ndrafti ĩrĩa ĩrĩ gũcenjio. Ũndũ ũyũ nĩ ũkaehereria o na ũtaũri ũrĩa ũrĩ ndrafti-inĩ (ũngĩkorwo ũrĩho).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Rũgamĩrĩra irutwo</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

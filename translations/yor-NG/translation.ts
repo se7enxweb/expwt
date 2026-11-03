@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Fún àwọn olùlò tí kò tíì yàn: olùlò kọ̀ọ̀kan ń yàn nínú pánẹ́ẹ̀lì "Èmi", àlejò nínú pánẹ́ẹ̀lì "Ẹ káàbọ̀".</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Tẹ̀ àkóónú àkọsílẹ̀ àkọ́kọ́ tí ẹ ń ṣàtúnṣe jáde. Àkọsílẹ̀ àkọ́kọ́ náà yóò di ẹ̀dà ohun náà tí a tẹ̀jáde.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Fi ranṣẹ fún títẹ̀jáde</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Tọ́jú àkóónú àkọsílẹ̀ àkọ́kọ́ tí ẹ ń ṣàtúnṣe kí ẹ sì tẹ̀síwájú nínú àtúnṣe. Ẹ lo bọ́tìnnì yìí láti máa fi iṣẹ́ yín pamọ́ lẹ́ẹ̀kọ̀ọ̀kan nígbà tí ẹ bá ń ṣàtúnṣe.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Tọ́jú àkọsílẹ̀ àkọ́kọ́</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Fi àkọsílẹ̀ àkọ́kọ́ tí ẹ ń ṣàtúnṣe pamọ́ kí ẹ sì jáde kúrò nínú ipò àtúnṣe. Ẹ lò ó nígbà tí ẹ bá nílò láti dá iṣẹ́ yín dúró kí ẹ sì padà wá tẹ̀síwájú lẹ́yìn náà.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Fi àkọsílẹ̀ àkọ́kọ́ pamọ́ kí o sì jáde</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Ṣé ẹ ṣetán láti pa àkọsílẹ̀ àkọ́kọ́ tì?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Pa àkọsílẹ̀ àkọ́kọ́ tí ẹ ń ṣàtúnṣe tì. Èyí yóò tún yọ àwọn ìtúmọ̀ tó jẹ́ ti àkọsílẹ̀ àkọ́kọ́ náà kúrò (bí wọ́n bá wà).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Ṣàkóso àwọn ẹ̀yà</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

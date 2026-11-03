@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Seçim yapmamış kullanıcılar için: her kullanıcı "Ben" panelinde, ziyaretçi "Hoş geldiniz" panelinde seçer.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Düzenlenmekte olan taslağın içeriğini yayımlayın. Taslak, nesnenin yayımlanmış sürümü olur.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Yayımlamaya gönder</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Düzenlenmekte olan taslağın içeriğini kaydedin ve düzenlemeye devam edin. Düzenleme sırasında çalışmanızı düzenli olarak kaydetmek için bu düğmeyi kullanın.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Taslağı kaydet</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Düzenlenmekte olan taslağı kaydedin ve düzenleme modundan çıkın. Çalışmanızdan çıkıp daha sonra devam etmek için geri dönmeniz gerektiğinde kullanın.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Taslağı kaydet ve çık</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Taslağı atmak istediğinizden emin misiniz?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Düzenlenmekte olan taslağı atın. Bu işlem taslağa ait çevirileri de (varsa) kaldırır.</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Sürümleri yönet</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

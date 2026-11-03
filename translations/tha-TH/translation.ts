@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>สำหรับผู้ใช้ที่ยังไม่ได้เลือก: ผู้ใช้แต่ละคนเลือกในแผง "ฉัน" ผู้เยี่ยมชมเลือกในแผง "ยินดีต้อนรับ"</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>เผยแพร่เนื้อหาของฉบับร่างที่กำลังแก้ไข ฉบับร่างจะกลายเป็นเวอร์ชันที่เผยแพร่ของออบเจ็กต์.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>ส่งเพื่อเผยแพร่</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>บันทึกเนื้อหาของฉบับร่างที่กำลังแก้ไขและแก้ไขต่อ ใช้ปุ่มนี้เพื่อบันทึกงานของคุณเป็นระยะระหว่างการแก้ไข.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>บันทึกฉบับร่าง</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>บันทึกฉบับร่างที่กำลังแก้ไขและออกจากโหมดแก้ไข ใช้เมื่อคุณต้องการหยุดงานและกลับมาทำต่อภายหลัง.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>บันทึกฉบับร่างและออก</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>คุณต้องการละทิ้งฉบับร่างหรือไม่?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>ละทิ้งฉบับร่างที่กำลังแก้ไข การดำเนินการนี้จะนำคำแปลที่เป็นของฉบับร่างออกด้วย (หากมี)</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>จัดการเวอร์ชัน</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

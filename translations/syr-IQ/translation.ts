@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>ܠܡܦܠܚܢ̈ܐ ܕܠܐ ܓܒܘ: ܟܠ ܡܦܠܚܢܐ ܓܒܐ ܒܦܢܟܐ "ܐܢܐ"، ܘܐܟܣܢܝܐ ܒܦܢܟܐ "ܒܫܝܢܐ".</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>ܦܪܣܐ ܕܡܠܝܘܬܐ ܕܣܘܪܛܐ ܕܡܬܬܩܢ. ܣܘܪܛܐ ܒܕ ܗܘܐ ܡܦܩܬܐ ܦܪܝܣܬܐ ܕܨܒܘܬܐ.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>ܫܕܪܐ ܠܦܘܪܣܐ</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>ܢܛܪܐ ܕܡܠܝܘܬܐ ܕܣܘܪܛܐ ܕܡܬܬܩܢ ܘܡܡܛܝܐ ܕܬܘܩܢܐ. ܡܦܠܚܘܢ ܗܕܐ ܩܦܬܐ ܠܢܛܪܐ ܕܥܒܕܐ ܕܝܘܟܘܢ ܡܢ ܙܒܢܐ ܠܙܒܢܐ ܒܥܕܢܐ ܕܬܘܩܢܐ.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>ܢܛܪܐ ܕܣܘܪܛܐ</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>ܢܛܪܐ ܕܣܘܪܛܐ ܕܡܬܬܩܢ ܘܡܦܩܢܐ ܡܢ ܬܘܩܢܐ. ܡܦܠܚܘܢ ܗܕܐ ܡܐ ܕܣܢܝܩܝܬܘܢ ܠܦܠܛܐ ܡܢ ܥܒܕܐ ܘܠܕܥܪܬܐ ܒܬܪܟܢ ܠܡܡܛܝܐ.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>ܢܛܪܐ ܕܣܘܪܛܐ ܘܡܦܩܢܐ</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>ܒܥܝܬܘܢ ܫܕܝܐ ܕܣܘܪܛܐ؟</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>ܫܕܝܐ ܕܣܘܪܛܐ ܕܡܬܬܩܢ. ܗܕܐ ܫܩܠܐ ܐܦ ܠܬܘܪ̈ܓܡܐ ܕܣܘܪܛܐ (ܐܢ ܐܝܬ).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>ܕܘܒܪܐ ܕܡܦ̈ܩܬܐ</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

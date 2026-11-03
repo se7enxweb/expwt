@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Pa los usuarios que nun escoyeron: cada usuariu escueye nel panel «Yo», un visitante nel panel «Bienveníu».</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Espublizar el conteníu del borrador que se ta editando. El borrador va ser la versión espublizada del oxetu.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Unviar pa espublizar</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Guardar el conteníu del borrador que s'ta editando y siguir editando. Usa esti botón pa guardar el to trabayu de cutiu mentanto editas.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Guardar el borrador</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Guardar el borrador que se ta editando y colar del mou d'edición. Úsalo cuando necesites dexar el trabayu y siguir más sero.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Guardar el borrador y colar</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>¿De xuru que quies descartar el borrador?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Descartar el borrador que tas editando. Esto tamién quitará les traducciones del borrador (si les hai).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Remanar versiones</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

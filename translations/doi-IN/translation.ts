@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>जिनें उपयोगकर्तें नेईं चुनेआ उंदे आस्तै: हर उपयोगकर्ता "मैं" पैनल च चुनदा ऐ, आगंतुक "जी आयां गी" पैनल च।</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>संपादत कीते जा दे मसौदे दी सामग्री प्रकाशत करो। मसौदा ऑब्जेक्ट दा प्रकाशत संस्करण बनी जाग।</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>प्रकाशन आस्तै भेजो</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>संपादत कीते जा दे मसौदे दी सामग्री सहेजो ते संपादन जारी रक्खो। संपादन दे दौरान अपना कम्म बार-बार सहेजने आस्तै इस बटन दा इस्तेमाल करो।</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>मसौदा सहेजो</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>संपादत कीते जा दे मसौदे गी सहेजो ते संपादन मोड थमां बाह्र निकलो। जदूं तुसेंगी अपना कम्म छड्डियै बाद च जारी रक्खने आस्तै परतोना होऐ, तां इसदा इस्तेमाल करो।</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>मसौदा सहेजो ते बाह्र निकलो</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>के तुस सच्चें मसौदा छड्डना चांहदे ओ?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>संपादत कीते जा दे मसौदे गी छड्डो। इसदे कन्नै मसौदे कन्नै संबंधत अनुवाद (जेकर कोई होन) बी कड्ढे जाङन।</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>संस्करण प्रबंधत करो</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

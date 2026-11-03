@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>פֿאַר באַניצער וואָס האָבן נישט אויסגעקליבן: יעדער באַניצער קלייבט אויס אינעם פּאַנעל „איך“, אַ באַזוכער אינעם פּאַנעל „ברוך־הבא“.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>פֿאַרעפֿנטלעכן דעם אינהאַלט פֿונעם שׂרטוט וואָס ווערט רעדאַגירט. דער שׂרטוט וועט ווערן די פֿאַרעפֿנטלעכטע ווערסיע פֿונעם אָביעקט.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>שיקן צום פֿאַרעפֿנטלעכן</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>אויפֿהיטן דעם אינהאַלט פֿונעם שׂרטוט וואָס ווערט רעדאַגירט און רעדאַגירן ווייַטער. ניצט דעם קנעפּל פֿון צייַט צו צייַט כּדי אויפֿצוהיטן אייַער אַרבעט בעת דעם רעדאַגירן.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>אויפֿהיטן דעם שׂרטוט</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>אויפֿהיטן דעם שׂרטוט וואָס ווערט רעדאַגירט און אַרויסגיין פֿונעם רעדאַגיר־מאָדוס. ניצט דאָס ווען איר דאַרפֿט איבערלאָזן די אַרבעט און שפּעטער צוריקקומען צו איר.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>אויפֿהיטן דעם שׂרטוט און אַרויסגיין</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>צי ווילט איר אָפּוואַרפֿן דעם שׂרטוט?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>אָפּוואַרפֿן דעם שׂרטוט וואָס ווערט רעדאַגירט. דאָס וועט אויך אַוועקנעמען די איבערזעצונגען וואָס געהערן צום שׂרטוט (אויב ס׳זענען פֿאַראַן).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>פֿאַרוואַלטן ווערסיעס</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

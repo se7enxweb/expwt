@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Per als usuaris que no han triat: cada usuari tria al tauler «Jo», un visitant al tauler «Benvingut».</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Publica el contingut de l'esborrany que s'està editant. L'esborrany passarà a ser la versió publicada de l'objecte.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Envia per a publicar</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Desa el contingut de l'esborrany que s'està editant i continua editant. Fes servir aquest botó per desar la feina de tant en tant mentre edites.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Desa l'esborrany</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Desa l'esborrany que s'està editant i surt del mode d'edició. Fes-ho servir quan hagis de deixar la feina i tornar-hi més tard.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Desa l'esborrany i surt</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Segur que vols descartar l'esborrany?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Descarta l'esborrany que s'està editant. Això també suprimeix les traduccions que pertanyen a l'esborrany (si n'hi ha).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Gestiona les versions</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

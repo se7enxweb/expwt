@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>לאנשא דלא גבו: כל משמשנא גבא בלוחא "אנא", ואכסניא בלוחא "שלמא עלך".</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>פרסא דמליותא דסורטא דמתתקן. סורטא בד הוא מפקתא פריסתא דצבותא.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>שדרא לפורסא</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>נטרא דמליותא דסורטא דמתתקן וממטיא דתוקנא. מפלחון הדא קפתא לנטרא דעבדא דיוכון מן זבנא לזבנא בעדנא דתוקנא.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>נטרא דסורטא</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>נטרא דסורטא דמתתקן ומפקנא מן תוקנא. מפלחון הדא מא דסניקיתון לפלטא מן עבדא ולדערתא בתרכן לממטיא.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>נטרא דסורטא ומפקנא</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>בעיתון שדיא דסורטא?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>שדיא דסורטא דמתתקן. הדא שקלא אף לתורגמא דסורטא (אן אית).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>דוברא דמפקתא</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

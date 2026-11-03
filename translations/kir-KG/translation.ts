@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Тандабаган колдонуучулар үчүн: ар бир колдонуучу «Мен» панелинде, келүүчү «Кош келиңиз» панелинде тандайт.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Түзөтүлүп жаткан долбоордун мазмунун жарыялоо. Долбоор объекттин жарыяланган версиясы болуп калат.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Жарыялоого жөнөтүү</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Түзөтүлүп жаткан долбоордун мазмунун сактап, түзөтүүнү улантуу. Түзөтүү учурунда иштериңизди мезгил-мезгили менен сактоо үчүн бул баскычты колдонуңуз.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Долбоорду сактоо</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Түзөтүлүп жаткан долбоорду сактап, түзөтүү режиминен чыгуу. Иштен чыгып, кийин улантуу керек болгондо колдонуңуз.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Долбоорду сактап, чыгуу</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Долбоорду чын эле таштагыңыз келеби?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Түзөтүлүп жаткан долбоорду таштоо. Бул долбоорго таандык котормолорду да алып салат (болсо).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Версияларды башкаруу</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

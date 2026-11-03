@@ -1,0 +1,123 @@
+/*
+ * expwt: the actions a site design includes in its own pages (design:parts/expwt_edit_actions.tpl,
+ * expwt_versionview_actions.tpl, expwt_page_toolbar.tpl). Outside the sidebar's Shadow DOM, so design neutral: the
+ * font is the design's, every colour, radius and space is one of the --expwt-act-* tokens below, and a design sets
+ * them on .expwt-actions to match its own look. Dark: the page's data-theme, data-a4-theme or data-bs-theme set to
+ * dark. Logical properties, so a right-to-left language mirrors the rows.
+ */
+
+/* tokens:start */
+.expwt-actions {
+  --expwt-act-accent: #c2410c;
+  --expwt-act-accent-hover: #9a3412;
+  --expwt-act-on-accent: #fff;
+  --expwt-act-danger: #b42318;
+  --expwt-act-danger-hover: #912018;
+  --expwt-act-on-danger: #fff;
+  --expwt-act-ink: #1f2430;
+  --expwt-act-muted: #545c6a;
+  --expwt-act-surface: #fff;
+  --expwt-act-soft: #eaedf1;
+  --expwt-act-line: #6e7588;
+  --expwt-act-ring: #c2410c;
+  --expwt-act-radius: 9px;
+  --expwt-act-space-1: 4px;
+  --expwt-act-space-2: 8px;
+  --expwt-act-space-3: 12px;
+}
+[data-theme="dark"] .expwt-actions,
+[data-a4-theme="dark"] .expwt-actions,
+[data-bs-theme="dark"] .expwt-actions {
+  --expwt-act-accent: #f26a21;
+  --expwt-act-accent-hover: #ff8a4c;
+  --expwt-act-on-accent: #0e1218;
+  --expwt-act-danger: #f97066;
+  --expwt-act-danger-hover: #fda29b;
+  --expwt-act-on-danger: #0e1218;
+  --expwt-act-ink: #e8ebf0;
+  --expwt-act-muted: #a3abb9;
+  --expwt-act-surface: #1e242f;
+  --expwt-act-soft: #29313e;
+  --expwt-act-line: #7a85a0;
+  --expwt-act-ring: #ff9a5c;
+}
+/* tokens:end */
+
+.expwt-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--expwt-act-space-2) var(--expwt-act-space-3);
+  align-items: center;
+  margin-block: var(--expwt-act-space-3);
+  padding: var(--expwt-act-space-2) var(--expwt-act-space-3);
+  border: 1px solid var(--expwt-act-line);
+  border-radius: var(--expwt-act-radius);
+  background: var(--expwt-act-soft);
+  color: var(--expwt-act-ink);
+  font: inherit;
+}
+.expwt-actions-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--expwt-act-space-2);
+  align-items: center;
+}
+.expwt-act,
+.expwt-act-select {
+  display: inline-flex;
+  align-items: center;
+  min-block-size: 2.25em;
+  margin: 0;
+  padding-block: var(--expwt-act-space-1);
+  padding-inline: var(--expwt-act-space-3);
+  border: 1px solid var(--expwt-act-line);
+  border-radius: var(--expwt-act-radius);
+  background: var(--expwt-act-surface);
+  color: var(--expwt-act-ink);
+  font: inherit;
+  line-height: 1.2;
+  text-decoration: none;
+  cursor: pointer;
+}
+.expwt-act:hover {
+  border-color: var(--expwt-act-accent);
+}
+.expwt-act:focus-visible,
+.expwt-act-select:focus-visible {
+  outline: 2px solid var(--expwt-act-ring);
+  outline-offset: 2px;
+}
+.expwt-act-primary {
+  border-color: var(--expwt-act-accent);
+  background: var(--expwt-act-accent);
+  color: var(--expwt-act-on-accent);
+}
+.expwt-act-primary:hover {
+  border-color: var(--expwt-act-accent-hover);
+  background: var(--expwt-act-accent-hover);
+}
+.expwt-act-danger {
+  border-color: var(--expwt-act-danger);
+  color: var(--expwt-act-danger);
+}
+.expwt-act-danger:hover {
+  border-color: var(--expwt-act-danger-hover);
+  background: var(--expwt-act-danger);
+  color: var(--expwt-act-on-danger);
+}
+.expwt-act-quiet {
+  background: transparent;
+}
+.expwt-act[disabled] {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+.expwt-actions-label {
+  color: var(--expwt-act-muted);
+}
+@media (forced-colors: active) {
+  .expwt-act,
+  .expwt-act-select {
+    border-color: ButtonText;
+  }
+}

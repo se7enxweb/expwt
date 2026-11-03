@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Vir gebruikers wat nie gekies het nie: elke gebruiker kies in die paneel "Ek", 'n besoeker in die paneel "Welkom".</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Publiseer die inhoud van die konsep wat gewysig word. Die konsep sal die gepubliseerde weergawe van die objek word.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Stuur vir publisering</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Stoor die inhoud van die konsep wat gewysig word en gaan voort met wysig. Gebruik hierdie knoppie om u werk gereeld te stoor terwyl dit gewysig word.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Stoor konsep</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Stoor die konsep wat gewysig word en verlaat wysigingsmodus. Gebruik wanneer u werk moet verlaat en later wil voortgaan.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Stoor konsep en verlaat</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Is u seker u wil die konsep verwerp?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Verwerp die konsep wat gewysig word. Dit verwyder ook die vertalings wat aan die konsep behoort (indien enige).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Bestuur weergawes</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

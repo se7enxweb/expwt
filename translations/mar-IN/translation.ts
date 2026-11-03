@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>ज्या वापरकर्त्यांनी निवड केलेली नाही त्यांच्यासाठी: प्रत्येक वापरकर्ता "मी" पॅनेलमध्ये निवडतो, अभ्यागत "स्वागत आहे" पॅनेलमध्ये.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>संपादित केल्या जात असलेल्या मसुद्यातील आशय प्रकाशित करा. हा मसुदा ऑब्जेक्टची प्रकाशित आवृत्ती बनेल.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>प्रकाशनासाठी पाठवा</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>संपादित होत असलेल्या मसुद्याचा आशय जतन करा आणि संपादन सुरू ठेवा. संपादन करताना आपले काम वेळोवेळी जतन करण्यासाठी हे बटण वापरा.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>मसुदा जतन करा</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>संपादित केला जात असलेला मसुदा जतन करा आणि संपादन मोडमधून बाहेर पडा. आपले काम थांबवून नंतर पुन्हा सुरू करायचे असल्यास हे वापरा.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>मसुदा जतन करा आणि बाहेर पडा</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>आपल्याला खात्री आहे की आपण मसुदा टाकून देऊ इच्छिता?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>संपादित होत असलेला मसुदा टाकून द्या. यामुळे मसुद्याशी संबंधित भाषांतरेही (असल्यास) काढून टाकली जातील.</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>आवृत्त्या व्यवस्थापित करा</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

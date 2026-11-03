@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>जे उपयोगकर्ता नहि चुनलनि हुनका लेल: प्रत्येक उपयोगकर्ता "हम" पैनलमे चुनैत छथि, आगंतुक "स्वागत अछि" पैनलमे।</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>सम्पादित कयल जा रहल ड्राफ़्टक सामग्री केँ प्रकाशित करू। ड्राफ़्ट ऑब्जेक्टक प्रकाशित संस्करण बनि जायत।</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>प्रकाशनक लेल पठाउ</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>सम्पादित कयल जा रहल ड्राफ़्टक सामग्री सहेजू आ सम्पादन जारी राखू। सम्पादनक दौरान अपन काज समय-समय पर सहेजबाक लेल एहि बटन क प्रयोग करू।</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>ड्राफ़्ट सहेजू</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>सम्पादित कयल जा रहल ड्राफ़्ट केँ सहेजू आ सम्पादन मोड सँ बाहर निकलू। एकर प्रयोग तखन करू जखन अहाँ केँ अपन काज छोड़ि क बाद मे जारी राखबाक लेल घुरबाक हो।</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>ड्राफ़्ट सहेजू आ बाहर निकलू</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>की अहाँ सत्ते ड्राफ़्ट केँ त्यागय चाहैत छी?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>सम्पादित कयल जा रहल ड्राफ़्ट केँ त्यागू। एहि सँ ड्राफ़्ट सँ सम्बन्धित अनुवाद (जँ कोनो हो) सेहो हटि जायत।</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>संस्करण प्रबन्धित करू</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

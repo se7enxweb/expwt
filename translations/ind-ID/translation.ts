@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Untuk pengguna yang belum memilih: setiap pengguna memilih di panel "Saya", pengunjung di panel "Selamat datang".</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Terbitkan isi draf yang sedang disunting. Draf akan menjadi versi objek yang diterbitkan.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Kirim untuk diterbitkan</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Simpan isi draf yang sedang disunting dan lanjutkan penyuntingan. Gunakan tombol ini untuk menyimpan pekerjaan Anda secara berkala selama menyunting.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Simpan draf</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Simpan draf yang sedang disunting dan keluar dari mode penyuntingan. Gunakan saat Anda perlu menghentikan pekerjaan dan kembali lagi nanti untuk melanjutkan.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Simpan draf dan keluar</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Apakah Anda yakin ingin membuang draf ini?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Buang draf yang sedang disunting. Ini juga akan menghapus terjemahan milik draf tersebut (jika ada).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Kelola versi</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

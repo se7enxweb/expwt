@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Za uporabnike, ki niso izbrali: vsak uporabnik izbere v plošči »Jaz«, obiskovalec v plošči »Dobrodošli«.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Objavi vsebino osnutka, ki se ureja. Osnutek bo postal objavljena različica objekta.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Pošlji v objavo</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Shrani vsebino osnutka, ki se ureja, in nadaljuj urejanje. S tem gumbom med urejanjem redno shranjujte svoje delo.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Shrani osnutek</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Shrani osnutek, ki se ureja, in zapusti način urejanja. Uporabite, ko morate prekiniti delo in se pozneje vrniti, da ga nadaljujete.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Shrani osnutek in zapri</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Ali res želite zavreči osnutek?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Zavrzi osnutek, ki se ureja. S tem bodo odstranjeni tudi prevodi, ki pripadajo osnutku (če obstajajo).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Upravljaj različice</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

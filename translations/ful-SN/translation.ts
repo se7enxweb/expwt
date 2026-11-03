@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Ngam huutorɓe ɓe suɓaaki: kala huutoro suɓata e panoo "Miin", koɗo e panoo "Jaaraama".</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Yaltin loowdi daartol ndii ɗo waylaama. Daartol ndii wonay yamre yaltinaaɗe huunde ndee.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Neldu ngam yaltinde</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Mooftu loowdi daartol ndii ɗo waylaama e jokku waylugol. Huutoro toppitirde ndee ngam mooftugol golle maaɗa nder waylugol.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Mooftu daartol</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Mooftu daartol ndii ɗo waylaama e yaltu e laawol waylugol. Huutoro so a haani yaltude golle maaɗa e ruttude ɓaawo ngam jokkude.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Mooftu daartol e yaltu</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>A yiɗii no feewi werlude daartol ndii?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Werlu daartol ɗo waylaama. Ɗum itta fahin pirooji ɗi ngoni e daartol ndii (so ngoodi).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Toppitaago yamreeji</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

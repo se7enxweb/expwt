@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>За потребители, които не са избрали: всеки потребител избира в панела „Аз“, посетителят — в панела „Добре дошли“.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Публикувайте съдържанието на черновата, която се редактира. Черновата ще стане публикуваната версия на обекта.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Изпрати за публикуване</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Запишете съдържанието на черновата, която се редактира, и продължете редактирането. Използвайте този бутон, за да записвате работата си периодично по време на редактиране.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Запиши чернова</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Запишете черновата, която се редактира, и излезте от режима на редактиране. Използвайте, когато трябва да прекъснете работата си и да продължите по-късно.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Запиши черновата и излез</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Сигурни ли сте, че искате да отхвърлите черновата?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Отхвърлете черновата, която се редактира. Това ще премахне и преводите, които принадлежат към черновата (ако има такива).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Управление на версиите</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

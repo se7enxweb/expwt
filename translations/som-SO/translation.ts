@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Isticmaalayaasha aan dooran: isticmaale kastaa wuxuu ku doortaa guddiga "Aniga", booqdahana guddiga "Soo dhawoow".</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Daabac nuxurka qabyada la tafatirayo. Qabyadu waxay noqon doontaa nooca la daabacay ee shayga.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>U dir daabacaad</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Kaydi nuxurka qabyada la tafatirayo oo sii wad tafatirka. Isticmaal badhankan si aad shaqadaada mar walba u kaydiso inta aad tafatirayso.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Kaydi qabyada</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Kaydi qabyada la tafatirayo oo ka bax habka tafatirka. Isticmaal marka aad u baahan tahay inaad shaqada joojiso oo aad dib ugu soo laabato.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Kaydi qabyada oo ka bax</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Ma hubtaa inaad rabto inaad iska tuurto qabyada?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Iska tuur qabyada la tafatirayo. Tani waxay sidoo kale tirtiri doontaa tarjumaadaha qabyadan ka tirsan (haddii ay jiraan).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Maaree noocyada</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

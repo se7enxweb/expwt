@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>ހޮވާފައި ނުވާ ބޭނުންކުރާ ފަރާތްތަކަށް: ކޮންމެ ބޭނުންކުރާ ފަރާތެއް "އަހަރެން" ޕެނަލުން ހޮވާ، ޒިޔާރަތްކުރާ މީހާ "މަރުޙަބާ" ޕެނަލުން.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>އެޑިޓްކުރަމުންދާ ޑްރާފްޓްގެ ކޮންޓެންޓް ޝާއިޢުކުރޭ. ޑްރާފްޓް އޮބްޖެކްޓްގެ ޝާއިޢުކުރެވިފައިވާ ވާޖަނަށް ވާނެ.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>ޝާއިޢުކުރުމަށް ފޮނުވާ</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>އެޑިޓްކުރަމުންދާ ޑްރާފްޓްގެ ކޮންޓެންޓް ރައްކާކޮށް އެޑިޓްކުރުން ކުރިއަށް ގެންދަވާ. އެޑިޓްކުރަމުންދާއިރު ތިޔަފަރާތުގެ މަސައްކަތް ވަގުތުން ވަގުތަށް ރައްކާކުރުމަށް މި ފިތް ބޭނުންކުރައްވާ.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>ޑްރާފްޓް ރައްކާކުރޭ</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>އެޑިޓްކުރަމުންދާ ޑްރާފްޓް ރައްކާކޮށް އެޑިޓް މޯޑުން ނުކުމެވޭ. މަސައްކަތުން ނުކުމެ ފަހުން އަނބުރާ ކުރިއަށް ގެންދިއުމަށް ބޭނުންވާނަމަ މިކަން ކުރައްވާ.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>ޑްރާފްޓް ރައްކާކޮށް ނިމުނު</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>ޑްރާފްޓް ދޫކޮށްލަން ޤަބޫލުތޯ؟</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>އެޑިޓްކުރަމުންދާ ޑްރާފްޓް ދޫކޮށްލާ. މިއިން ޑްރާފްޓާ ގުޅިފައިވާ ތަރުޖަމާތަކެއް ހުރިނަމަ އެތަކެއްވެސް ނެގޭނެ.</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>ވާޖަންތައް މެނޭޖްކުރޭ</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

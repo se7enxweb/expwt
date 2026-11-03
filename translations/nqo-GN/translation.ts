@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>ߟߊ߬ߓߊ߰ߙߊ߬ߟߊ ߡߍ߲ ߠߎ߬ ߡߊ߫ ߓߊ߲߫ ߛߎߥߊ߲ߘߌ ߟߊ߫: ߟߊ߬ߓߊ߰ߙߊ߬ߟߊ ߓߍ߯ ߦߋ߫ ߛߎߥߊ߲ߘߌ ߞߍ߫ "ߒ" ߞߙߊߓߊ߯ߙߊ ߞߣߐ߫߸ ߟߊ߬ߖߊ߲߬ߘߌ߬ߟߊ "ߌ ߣߌ ߗߋ" ߞߣߐ߫.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>ߓߙߎߦߐ߲ ߡߌ߲ ߓߋ ߦߍߟߍߡߊ߸ ߊ ߞߐߣߐߞߏ ߓߌߟߊ ߞߍߣߐ ߞߊ߲. ߓߙߎߦߐ߲ ߓߋߣߊ ߞߍ ߝߍ߲ ߥߍߙߌߛߌߦߐ߲ ߓߌߟߊߟߍ߲ ߦߋ.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>ߗߌ ߥߊߟߊߛߌ ߞߊ ߓߌߟߊ ߞߍߣߐ ߞߊ߲</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>ߓߙߎߦߐ߲ ߡߌ߲ ߓߋ ߦߍߟߍߡߊ߸ ߊ ߞߐߣߐߞߏ ߡߊߙߊ ߞߊ ߦߍߟߍߡߊߟߌ ߞߐߙߐ ߞߍ. ߣߌ߲ ߓߎߕߐ߲ ߓߊߙߊ ߞߍ ߥߊߕߌ-ߥߊߕߌ ߞߊ ߌ ߞߊ ߓߊߙߊ ߡߊߙߊ ߌ ߓߋ ߦߍߟߍߡߊߟߌ ߞߍ ߥߊߕߌ ߡߌ߲ ߣߊ.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>ߓߙߎߦߐ߲ ߡߊߙߊ</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>ߓߙߎߦߐ߲ ߡߌ߲ ߓߋ ߦߍߟߍߡߊ߸ ߊ ߡߊߙߊ ߞ'ߌ ߓߐ ߦߍߟߍߡߊߟߌ ߗߏߜ߳ߏ ߟߊ. ߊ ߓߊߙߊ ߞߍ ߣߌ ߌ ߞߊ ߞߊ߲ ߞߊ ߌ ߞߊ ߓߊߙߊ ߕߏ ߦߊ߲ ߞ'ߌ ߛߍߜ߳ߌ߲ ߣߐߝߍ ߞߊ ߊ ߞߐߙߐ ߞߍ.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>ߓߙߎߦߐ߲ ߡߊߙߊ ߞ'ߌ ߓߐ ߦߊ߲</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>ߦߊߟߊ ߌ ߓ'ߊ ߝߍ ߞߊ ߓߙߎߦߐ߲ ߝߌߟߌ ߕߌߢߍ ߣߊ ߥߊ؟</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>ߓߙߎߦߐ߲ ߡߌ߲ ߓߋ ߦߍߟߍߡߊ߸ ߏ ߝߌߟߌ. ߣߌ߲ ߝߊߣߊ ߓߋ ߓߊߦߍߟߍߡߊߟߌߟߎ ߓߐߛߌ ߡߌ߲ߣߎ ߓߋ ߓߙߎߦߐ߲ ߣߊ (ߣߌ ߎ ߓߋ ߦߋ߲).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>ߥߍߙߌߛߌߦߐ߲ߟߎ ߢߍߡߌߣߍ</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

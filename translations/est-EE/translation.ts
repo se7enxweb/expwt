@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Kasutajatele, kes pole ise valinud: iga kasutaja valib paneelis „Mina“, külastaja paneelis „Tere tulemast“.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Avalda redigeeritava mustandi sisu. Mustandist saab objekti avaldatud versioon.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Saada avaldamiseks</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Salvesta redigeeritava mustandi sisu ja jätka redigeerimist. Kasutage seda nuppu redigeerimise ajal oma töö regulaarseks salvestamiseks.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Salvesta mustand</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Salvesta redigeeritav mustand ja välju redigeerimisrežiimist. Kasutage seda, kui peate töö katkestama ja hiljem jätkama.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Salvesta mustand ja välju</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Kas soovite mustandi kindlasti hüljata?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Hülga redigeeritav mustand. Ühtlasi eemaldatakse mustandi juurde kuuluvad tõlked (kui neid on).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Halda versioone</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>གདམ་ཁ་མ་རྐྱབ་པའི་ལག་ལེན་པ་ཚུ་གི་དོན་ལུ། ལག་ལེན་པ་རེ་རེ་གིས་"ང་།"པེ་ནཱལ་ནང་ལུ་གདམ་ཁ་རྐྱབ། ལྟ་བཤལ་པ་གིས་"ཕེབས་པ་ལེགས་སོ།"པེ་ནཱལ་ནང་ལུ།</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>ཞུན་དག་འབད་བཞིན་པའི་ཟིན་བྲིས་ཀྱི་ནང་དོན་དཔེ་སྐྲུན་འབད། ཟིན་བྲིས་འདི་དངོས་པོ་འདི་གི་དཔེ་སྐྲུན་འབད་ཡོད་པའི་ཐོན་རིམ་འགྱུར་འོང་།</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>དཔེ་སྐྲུན་གྱི་དོན་ལུ་གཏང་།</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>ཞུན་དག་འབད་བཞིན་པའི་ཟིན་བྲིས་ཀྱི་ནང་དོན་སྲུང་བཞག་འབད་ཞིནམ་ལས་ ཞུན་དག་འཕྲོ་མཐུད། ཞུན་དག་འབད་བའི་སྐབས་ཁྱོད་རང་གི་ལཱ་དུས་ཐོག་ལུ་སྲུང་བཞག་འབད་ནིའི་དོན་ལུ་ཨེབ་རྟ་འདི་ལག་ལེན་འཐབ།</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>ཟིན་བྲིས་སྲུང་བཞག</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>ཞུན་དག་འབད་བཞིན་པའི་ཟིན་བྲིས་སྲུང་བཞག་འབད་ཞིནམ་ལས་ ཞུན་དག་ཐབས་ལས་ཐོན། ཁྱོད་རང་གི་ལཱ་ལས་ཐོན་ཞིནམ་ལས་ཤུལ་ལས་འཕྲོ་མཐུད་ནིའི་དོན་ལུ་ལོག་འོང་དགོ་པའི་སྐབས་ལག་ལེན་འཐབ།</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>ཟིན་བྲིས་སྲུང་བཞག་འབད་ཞིནམ་ལས་ཐོན།</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>ཟིན་བྲིས་འདི་བསྐྱུར་བཏང་ནི་ངེས་ཏོག་ཏོ་ཨིན་ན།</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>ཞུན་དག་འབད་བཞིན་པའི་ཟིན་བྲིས་བསྐྱུར་བཏང་། འདི་གིས་ཟིན་བྲིས་དང་འབྲེལ་བའི་ཡིག་སྒྱུར་ཚུ་ (ཡོད་པ་ཅིན་) ཡང་བཏོན་གཏང་འོང་།</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>ཐོན་རིམ་ཚུ་འཛིན་སྐྱོང་འབད།</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

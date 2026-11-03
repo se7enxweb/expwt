@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>직접 선택하지 않은 사용자에게 적용됩니다. 각 사용자는 '나' 패널에서, 방문자는 '환영합니다' 패널에서 선택합니다.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>편집 중인 초안의 내용을 게시합니다. 초안이 개체의 게시된 버전이 됩니다.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>게시 요청</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>편집 중인 초안의 내용을 저장하고 편집을 계속합니다. 편집하는 동안 주기적으로 작업 내용을 저장하려면 이 단추를 사용하십시오.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>초안 저장</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>편집 중인 초안을 저장하고 편집 모드를 종료합니다. 작업을 중단하고 나중에 다시 와서 계속하려는 경우에 사용하십시오.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>초안 저장 후 종료</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>초안을 폐기하시겠습니까?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>편집 중인 초안을 폐기합니다. 초안에 속한 번역이 있으면 함께 제거됩니다.</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>버전 관리</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

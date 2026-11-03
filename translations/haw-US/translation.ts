@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>No nā mea hoʻohana i koho ʻole: koho kēlā me kēia mea hoʻohana ma ka papa "Owau", a ka malihini ma ka papa "Aloha mai".</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Hoʻopuka i ka ʻike o ke kāmua e hoʻoponopono ʻia nei. E lilo ke kāmua i mana i hoʻopuka ʻia o ka mea.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Hoʻouna no ka hoʻopuka</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Mālama i ka ʻike o ke kāmua e hoʻoponopono ʻia nei a hoʻomau i ka hoʻoponopono. E hoʻohana i kēia pihi e mālama i kāu hana i kēlā me kēia manawa i ka wā e hoʻoponopono ana.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Mālama i ke kāmua</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Mālama i ke kāmua e hoʻoponopono ʻia nei a haʻalele i ke ʻano hoʻoponopono. E hoʻohana ke pono ʻoe e haʻalele i kāu hana a hoʻi mai ma hope e hoʻomau.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Mālama i ke kāmua a haʻalele</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Makemake maoli anei ʻoe e hoʻolei i ke kāmua?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Hoʻolei i ke kāmua e hoʻoponopono ʻia nei. E wehe pū kēia i nā unuhi o ke kāmua (inā he mau unuhi).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Hoʻokele i nā mana</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

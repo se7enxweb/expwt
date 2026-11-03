@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Для пользователей, которые не выбрали сами: каждый пользователь выбирает в панели «Я», посетитель — в панели «Добро пожаловать».</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Опубликовать содержимое редактируемого черновика. Черновик станет опубликованной версией объекта.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Отправить на публикацию</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Сохранить содержимое редактируемого черновика и продолжить редактирование. Используйте эту кнопку, чтобы периодически сохранять работу во время редактирования.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Сохранить черновик</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Сохранить редактируемый черновик и выйти из режима редактирования. Используйте, если нужно завершить работу и вернуться к ней позже.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Сохранить черновик и выйти</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Вы действительно хотите отказаться от черновика?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Отказаться от редактируемого черновика. Вместе с ним будут удалены и принадлежащие ему переводы (если они есть).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Управление версиями</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

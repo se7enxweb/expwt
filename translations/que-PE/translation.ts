@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Mana akllaq runakunapaq: sapa runa "Ñuqa" panelpi akllan, watukuq "Allin hamusqayki" panelpi.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Hukchasqayki ñawpa qillqasqap ukhunta lluqsichiy. Ñawpa qillqasqaqa objetup lluqsichisqa versiyunninmi kanqa.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Lluqsichinapaq kachay</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Hukchasqayki ñawpa qillqasqap ukhunta waqaychay hinaspa hukchayta qatipay. Hukchaspa llamk'asqaykita pacha pachamanta waqaychanapaq kay ñit'inata llamk'achiy.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Ñawpa qillqasqata waqaychay</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Hukchasqayki ñawpa qillqasqata waqaychay hinaspa hukchay ruwaymanta lluqsiy. Llamk'ayniykimanta lluqsispa qhipamanta qatipanaykipaq llamk'achiy.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Ñawpa qillqasqata waqaychay hinaspa lluqsiy</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Chiqaptachu ñawpa qillqasqata wikch'uyta munanki?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Hukchasqayki ñawpa qillqasqata wikch'uy. Kayqa ñawpa qillqasqap t'ikraykunatapas (kaptinqa) hurqunqa.</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Versiyunkunata kamachiy</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

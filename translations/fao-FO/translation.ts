@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Fyri brúkarar, ið ikki hava valt: hvør brúkari velur í panelinum "Eg", ein vitjandi í panelinum "Vælkomin".</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Útgev innihaldið í kladduni, sum verður rætta. Kladdan verður útgivna útgávan av lutinum.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Senda til útgávu</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Goym innihaldið í kladduni, sum verður rætta, og halt fram at rætta. Brúka hendan knappin at goyma arbeiði títt jaliga, meðan tú rættar.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Goyma kladdu</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Goym kladduna, sum verður rætta, og far úr rættingarstøðuni. Brúka tað, tá tú mást steðga arbeiðinum og koma aftur seinni at halda fram.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Goyma kladdu og fara úr</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Vilt tú veruliga vraka kladduna?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Vraka kladduna, sum verður rætta. Hetta tekur eisini umsetingarnar, sum hoyra til kladduna, burtur (um nakrar eru).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Stýra útgávum</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Para los usuarios que no han elegido: cada usuario elige en el panel "Yo", un visitante en el panel "Bienvenido".</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Publicar los contenidos del borrador que se está editando. El borrador se convertirá en la versión publicada del objeto.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Enviar para su publicación</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Almacenar los contenidos del borrador que se está editando y continuar con la edición. Usar este botón para guardar periódicamente el trabajo mientras se  edita.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Almacenar borrador</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Almacenar el borrador editado y salir del modo de edición. Úsalo cuando quieras parar y continuar el trabajo más adelante.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Almacenar borrador y salir</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>¿Estás seguro de que quieres descartar el borrador?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Descartar el borrador que se está editando. También se eliminarán las traducciones del borrador (si existen).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Administrar versiones</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

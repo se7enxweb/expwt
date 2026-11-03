@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Aukeratu ez duten erabiltzaileentzat: erabiltzaile bakoitzak "Ni" panelean aukeratzen du, bisitari batek "Ongi etorri" panelean.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Argitaratu editatzen ari zaren zirriborroaren edukia. Zirriborroa objektuaren argitaratutako bertsioa izango da.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Bidali argitaratzeko</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Gorde editatzen ari zaren zirriborroaren edukia eta jarraitu editatzen. Erabili botoi hau editatzen ari zaren bitartean zure lana aldiro gordetzeko.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Gorde zirriborroa</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Gorde editatzen ari zaren zirriborroa eta irten edizio-modutik. Erabili zure lana utzi eta geroago jarraitu behar duzunean.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Gorde zirriborroa eta irten</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Ziur zaude zirriborroa baztertu nahi duzula?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Baztertu editatzen ari zaren zirriborroa. Honek zirriborroari dagozkion itzulpenak ere kenduko ditu (baldin badaude).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Kudeatu bertsioak</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

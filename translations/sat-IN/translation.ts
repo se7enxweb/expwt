@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>ᱡᱟᱦᱟᱸ ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱵᱟᱭ ᱵᱟᱪᱷᱟᱣ ᱟᱠᱟᱫᱟ ᱩᱱᱤᱭᱟᱹᱜ ᱞᱟᱹᱜᱤᱫ: ᱡᱚᱛᱚ ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ "ᱤᱧ" ᱯᱮᱱᱮᱞ ᱨᱮ ᱵᱟᱪᱷᱟᱣᱟ, ᱦᱟᱹᱡᱩᱨ ᱦᱚᱲ "ᱥᱩᱜ ᱥᱟᱱᱟᱢ" ᱯᱮᱱᱮᱞ ᱨᱮ᱾</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>ᱥᱟᱯᱲᱟᱣ ᱪᱟᱞᱟᱜ ᱠᱟᱱ ᱠᱟᱪᱷᱟ ᱜᱷᱟᱛᱤ ᱨᱮᱭᱟᱜ ᱨᱮᱫ ᱥᱟᱦᱴᱟ᱾ ᱠᱟᱪᱷᱟ ᱜᱷᱟᱛᱤ ᱫᱚ ᱡᱤᱱᱤᱥ ᱨᱮᱭᱟᱜ ᱥᱟᱦᱴᱟ ᱟᱠᱟᱫ ᱵᱷᱟᱨᱥᱚᱱ ᱦᱩᱭᱩᱜ ᱟ᱾</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>ᱥᱟᱦᱴᱟ ᱞᱟᱹᱜᱤᱫ ᱞᱟᱹᱛᱩ</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>ᱥᱟᱯᱲᱟᱣ ᱪᱟᱞᱟᱜ ᱠᱟᱱ ᱠᱟᱪᱷᱟ ᱜᱷᱟᱛᱤ ᱨᱮᱭᱟᱜ ᱨᱮᱫ ᱨᱟᱠᱷᱟᱣ ᱟᱨ ᱥᱟᱯᱲᱟᱣ ᱪᱟᱞᱩ ᱨᱟᱠᱷᱟᱣ᱾ ᱥᱟᱯᱲᱟᱣ ᱚᱠᱛᱚ ᱟᱢᱟᱜ ᱠᱟᱹᱢᱤ ᱚᱠᱛᱮ ᱚᱠᱛᱮ ᱨᱟᱠᱷᱟᱣ ᱞᱟᱹᱜᱤᱫ ᱱᱚᱶᱟ ᱵᱟᱴᱚᱱ ᱵᱮᱵᱷᱟᱨ ᱢᱮ᱾</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>ᱠᱟᱪᱷᱟ ᱜᱷᱟᱛᱤ ᱨᱟᱠᱷᱟᱣ</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>ᱥᱟᱯᱲᱟᱣ ᱪᱟᱞᱟᱜ ᱠᱟᱱ ᱠᱟᱪᱷᱟ ᱜᱷᱟᱛᱤ ᱨᱟᱠᱷᱟᱣ ᱟᱨ ᱥᱟᱯᱲᱟᱣ ᱢᱩᱰ ᱠᱷᱚᱱ ᱵᱟᱦᱨᱮ ᱪᱟᱞᱟᱜ᱾ ᱟᱢᱟᱜ ᱠᱟᱹᱢᱤ ᱠᱷᱚᱱ ᱵᱟᱦᱨᱮ ᱪᱟᱞᱟᱜ ᱟᱨ ᱛᱟᱭᱚᱢ ᱥᱮᱱ ᱠᱟᱛᱮ ᱪᱟᱞᱩ ᱞᱟᱹᱜᱤᱫ ᱵᱮᱵᱷᱟᱨ ᱢᱮ᱾</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>ᱠᱟᱪᱷᱟ ᱜᱷᱟᱛᱤ ᱨᱟᱠᱷᱟᱣ ᱟᱨ ᱵᱟᱦᱨᱮ ᱪᱟᱞᱟᱜ</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>ᱠᱟᱪᱷᱟ ᱜᱷᱟᱛᱤ ᱪᱷᱟᱰᱟᱣ ᱫᱟᱲᱮᱭᱟᱜ ᱠᱟᱱᱟ ᱥᱮ?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>ᱥᱟᱯᱲᱟᱣ ᱪᱟᱞᱟᱜ ᱠᱟᱱ ᱠᱟᱪᱷᱟ ᱜᱷᱟᱛᱤ ᱪᱷᱟᱰᱟᱣ᱾ ᱱᱚᱶᱟ ᱫᱚ ᱠᱟᱪᱷᱟ ᱜᱷᱟᱛᱤ ᱨᱮᱭᱟᱜ ᱛᱚᱨᱡᱚᱢᱟ ᱠᱚ ᱦᱚᱸ ᱚᱪᱚᱜ ᱮᱫᱟ (ᱥᱟᱱᱟᱢ ᱠᱷᱟᱱ)᱾</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>ᱵᱷᱟᱨᱥᱚᱱ ᱠᱚ ᱚᱨᱚᱢ</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

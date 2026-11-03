@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>ⵉ ⵉⵎⵙⵙⵎⵔⵙⵏ ⵓⵔ ⵉⴼⵔⵏ: ⴽⵓ ⴰⵎⵙⵙⵎⵔⵙ ⵉⴼⵔⵏ ⴳ ⵜⴼⵍⵡⵉⵜ "ⵏⴽⴽ", ⴰⵏⴱⴳⵉ ⴳ ⵜⴼⵍⵡⵉⵜ "ⴰⵏⵙⵓⴼ".</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>ⵙⵙⵓⴼⵖ ⴰⴳⴱⵓⵔ ⵏ ⵓⵔⵡⵡⴰⵢ ⵏⵏⴰ ⵉⵜⵜⵓⵙⵏⴼⵍⵏ. ⴰⵔⵡⵡⴰⵢ ⴰⴷ ⴰⴷ ⵉⴳ ⵜⵓⵏⵖⵉⵍⵜ ⵜⵜⵓⵙⵓⴼⵖⵏⵜ ⵏ ⵜⵖⴰⵡⵙⴰ.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>ⴰⵣⵏ ⵉ ⵓⵙⵙⵓⴼⵖ</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>ⵃⴹⵓ ⴰⴳⴱⵓⵔ ⵏ ⵓⵔⵡⵡⴰⵢ ⵏⵏⴰ ⵉⵜⵜⵓⵙⵏⴼⵍⵏ ⴷ ⵙⵓⵍ ⴰⵙⵏⴼⵍ. ⵙⵎⵔⵙ ⵜⴱⵔⴰⵜ ⴰⴷ ⴰⵎⵎⴰⵙ ⴰⴼⴰⴷ ⴰⴷ ⵜⵃⴹⵓⴷ ⴰⵡⵍⴰⵡ ⵏⵏⴽ ⵜⵉⵣⵣⵉ ⵏ ⵓⵙⵏⴼⵍ.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>ⵃⴹⵓ ⴰⵔⵡⵡⴰⵢ</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>ⵃⴹⵓ ⴰⵔⵡⵡⴰⵢ ⵏⵏⴰ ⵉⵜⵜⵓⵙⵏⴼⵍⵏ ⴷ ⴼⴼⵖ ⵙⴳ ⵜⴰⵍⵖⴰ ⵏ ⵓⵙⵏⴼⵍ. ⵙⵎⵔⵙ ⵎⵉ ⵜⵅⵙⴷ ⴰⴷ ⵜⴼⴼⵖⴷ ⵙⴳ ⵓⵡⵍⴰⵡ ⵏⵏⴽ ⴷ ⵜⵓⵖⴰⵍⴷ ⵜⵉⴽⵍⵜ ⵢⴰⴹⵏⵉⵏ ⴰⴼⴰⴷ ⴰⴷ ⵜⵙⵓⵍⴷ.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>ⵃⴹⵓ ⴰⵔⵡⵡⴰⵢ ⴷ ⴼⴼⵖ</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>ⵉⵙ ⵜⵅⵙⴷ ⵙ ⵜⵉⴷⵜ ⴰⴷ ⵜⵙⵙⴰⵊⵊⴷ ⴰⵔⵡⵡⴰⵢ?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>ⴰⵊⵊ ⴰⵔⵡⵡⴰⵢ ⵏⵏⴰ ⵉⵜⵜⵓⵙⵏⴼⵍⵏ. ⴰⴷ ⵉⴽⴽⵙ ⵜⵓⵍⴰ ⵉⵙⵙⵓⵖⵍⵏ ⵏⵏⴰ ⵉⵙⵖⵏ ⴰⵔⵡⵡⴰⵢ (ⵎⴰ ⵍⵍⴰⵏ).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>ⵙⵔⵡⵍ ⵜⵓⵏⵖⵉⵍⵉⵏ</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Käyttäjille, jotka eivät ole valinneet: kukin käyttäjä valitsee paneelissa ”Minä”, vierailija paneelissa ”Tervetuloa”.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Julkaise muokattavan luonnoksen sisältö. Luonnoksesta tulee objektin julkaistu versio.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Lähetä julkaistavaksi</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Tallenna muokattavan luonnoksen sisältö ja jatka muokkausta. Tallenna työsi tällä painikkeella säännöllisesti muokkauksen aikana.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Tallenna luonnos</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Tallenna muokattava luonnos ja poistu muokkaustilasta. Käytä tätä, kun haluat keskeyttää työn ja jatkaa sitä myöhemmin.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Tallenna luonnos ja poistu</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Haluatko varmasti hylätä luonnoksen?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Hylkää muokattava luonnos. Samalla poistetaan luonnokseen kuuluvat käännökset, jos niitä on.</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Hallitse versioita</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

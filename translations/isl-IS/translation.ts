@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Fyrir notendur sem hafa ekki valið: hver notandi velur í spjaldinu „Ég“, gestur í spjaldinu „Velkomin(n)“.</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Birta efni draganna sem verið er að breyta. Drögin verða birt útgáfa hlutarins.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Senda til birtingar</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Vista efni draganna sem verið er að breyta og halda áfram að breyta. Notaðu þennan hnapp til að vista vinnuna reglulega meðan þú breytir.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Vista drög</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Vista drögin sem verið er að breyta og hætta í breytingaham. Notaðu þetta þegar þú þarft að hætta í miðju verki og halda áfram síðar.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Vista drög og hætta</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Viltu örugglega henda drögunum?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Henda drögunum sem verið er að breyta. Þetta fjarlægir einnig þýðingarnar sem tilheyra drögunum (ef einhverjar eru).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Stjórna útgáfum</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

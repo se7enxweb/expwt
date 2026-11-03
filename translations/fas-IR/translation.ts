@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>برای کاربرانی که خودشان انتخاب نکرده‌اند: هر کاربر در پنل «من» انتخاب می‌کند، بازدیدکننده در پنل «خوش آمدید».</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>انتشار محتوای پیش‌نویس در حال ویرایش. پیش‌نویس به نسخهٔ منتشرشدهٔ شیء تبدیل خواهد شد.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>ارسال برای انتشار</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>محتوای پیش‌نویسی را که در حال ویرایش است ذخیره کنید و ویرایش را ادامه دهید. از این دکمه برای ذخیرهٔ دوره‌ای کار خود در حین ویرایش استفاده کنید.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>ذخیرهٔ پیش‌نویس</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>ذخیرهٔ پیش‌نویس در حال ویرایش و خروج از حالت ویرایش. هنگامی استفاده کنید که می‌خواهید کار را رها کنید و بعداً برای ادامه بازگردید.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>ذخیرهٔ پیش‌نویس و خروج</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>آیا مطمئن هستید که می‌خواهید پیش‌نویس را دور بیندازید؟</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>دور انداختن پیش‌نویس در حال ویرایش. این کار ترجمه‌های متعلق به پیش‌نویس (در صورت وجود) را نیز حذف می‌کند.</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>مدیریت نسخه‌ها</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

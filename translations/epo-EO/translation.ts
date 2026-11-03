@@ -2487,6 +2487,46 @@
         <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
         <translation>Por uzantoj, kiuj ne elektis: ĉiu uzanto elektas en la panelo "Mi", vizitanto en la panelo "Bonvenon".</translation>
     </message>
+    <message>
+        <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
+        <translation>Publikigi la enhavon de la malneto, kiu estas redaktata. La malneto fariĝos la publikigita versio de la objekto.</translation>
+    </message>
+    <message>
+        <source>Send for publishing</source>
+        <translation>Sendi por publikigo</translation>
+    </message>
+    <message>
+        <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
+        <translation>Konservi la enhavon de la malneto, kiu estas redaktata, kaj daŭrigi la redaktadon. Uzu ĉi tiun butonon por periode konservi vian laboron dum redaktado.</translation>
+    </message>
+    <message>
+        <source>Store draft</source>
+        <translation>Konservi malneton</translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation>Konservi la malneton, kiu estas redaktata, kaj eliri el la redakta reĝimo. Uzu, kiam vi devas interrompi vian laboron kaj reveni poste por daŭrigi.</translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation>Konservi malneton kaj eliri</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to discard the draft?</source>
+        <translation>Ĉu vi certe volas forĵeti la malneton?</translation>
+    </message>
+    <message>
+        <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
+        <translation>Forĵeti la malneton, kiu estas redaktata. Tio forprenos ankaŭ la tradukojn, kiuj apartenas al la malneto (se ekzistas).</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Administri versiojn</translation>
+    </message>
+    <message>
+        <source>Translate from</source>
+        <translation>Translate from</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

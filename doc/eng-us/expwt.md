@@ -620,6 +620,25 @@ order, and the value in effect.
 | `AccentColor`, `AccentColorDark` | (empty) | the accent in light and dark mode, `#rrggbb`, checked against WCAG 2.2 AA (4.5:1 for the text on it, 3:1 against the panel); one that fails is not used and Setup says why; an empty dark one is derived from the light one |
 | `[Comments] HideNew` | disabled | enabled: a comment (expservices.ini `[Community] CommentClass`, else `comment`) published for the first time is hidden right after publishing when its creator may not approve it (no `content/hide` of the comment); the Page panel lists it as waiting for moderation and **Approve** reveals it. Done by expwt's content edit handler (content.ini `[EditSettings] ExtensionDirectories[]=expwt`), which the kernel calls in every publish operation (the web, commands, cronjobs, workflows), through the kernel's hide; no workflow to set up |
 
+## Designs: the edit actions and the page toolbar
+
+A site design includes expwt's templates where an ezwt design included ezwt's. They are design neutral (plain
+buttons, the classes `expwt-actions*`, drawn by `expwt-actions.css` from its `--expwt-act-*` tokens, which a design
+may set on `.expwt-actions` to match its look; dark when the page has `data-theme`, `data-a4-theme` or
+`data-bs-theme` set to `dark`), post the kernel's own actions, and carry no inline style or script:
+
+| Include | In place of | What it draws |
+| --- | --- | --- |
+| `design:parts/expwt_edit_actions.tpl` | `parts/website_toolbar_edit.tpl` | inside the design's `content/edit` form: **Send for publishing**, **Store draft**, **Store draft and exit**, **Discard draft** (asks first, `expwt-actions.js`), **Manage versions**, **Preview**, **Translate from** (a published object in more than one language). `{include uri='design:parts/expwt_edit_actions.tpl' expwt_versions=false()}` leaves out the second row |
+| `design:parts/expwt_versionview_actions.tpl` | `parts/website_toolbar_versionview.tpl` | on `content/versionview`: **Edit**, **Publish**, **Manage versions** (a form of its own) |
+| `design:parts/expwt_page_toolbar.tpl` | `parts/website_toolbar.tpl` | nothing where the sidebar is on (the page actions are in it); where it is off (`Enabled`), **Edit** for an editor of the page |
+
+For designs not yet moved, expwt also answers ezwt's three names (`parts/website_toolbar.tpl`,
+`website_toolbar_edit.tpl`, `website_toolbar_versionview.tpl`) with these includes, so a third-party design that
+still includes them keeps its edit buttons once ezwt is gone. The two are never installed together (Composer
+`replace`). ezwt's plug-in templates of `parts/websitetoolbar/` (RSS, push, timeline, multiupload, newsletter) are
+not drawn: their actions are in the sidebar's panels or in the administration.
+
 ## Adding to the sidebar from another extension
 
 Another extension adds panels, server actions, page highlights and search providers to the sidebar in its own
