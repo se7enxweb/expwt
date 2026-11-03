@@ -173,7 +173,7 @@
   };
   window.ExpwtPanelMemory = PanelMemory;
 
-  /* How the tabs are labelled: icons (the icon alone; the name stays the tooltip and what screen readers say), both
+  /* How the tabs are labeled: icons (the icon alone; the name stays the tooltip and what screen readers say), both
      (the icon and the name) or text (the name alone). The user's choice (state.labels, '' for none) over the
      installation's (cfg.labels, expwt.ini TabLabels). The icons are the kernel's Bootstrap Icons
      (share/icons/bootstrap-icons/svg, cfg.icons; '' on a kernel without them): a built-in panel's by its id, an

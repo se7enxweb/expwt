@@ -90,13 +90,16 @@ extensions. A dry run lists the changes first.
   change the server has not confirmed yet wins over the server's copy on the next page. Exceptions: with unsaved
   changes of the page, and while editing on the page, the Page panel opens; a panel the user no longer has opens the
   first one.
-- **Tab labels:** how the panels' tabs and the closed tab are labelled: **Icons** (the icon alone; the panel's name
-  stays the tab's tooltip and what screen readers say), **Icons and text**, or **Text** (the name alone). Each user
+- **Tab labels:** how the panels' tabs and the closed tab are labeled: **Icons** (the icon alone; the panel's name
+  shows in a bubble below the tab on hover and keyboard focus, Escape hides it, and it stays what screen readers
+  say), **Icons and text**, or **Text** (the name alone). Each user
   chooses in the Me panel, a visitor in the Welcome panel; kept like the sidebar's other settings. Without a choice the
   installation's `TabLabels` applies (shipped: icons), also when it is changed later. The icons are the kernel's
   Bootstrap Icons (`share/icons/bootstrap-icons`, the set the admin4 design uses), drawn in the sidebar's text color in
-  light and dark; a tab without an icon (an extension's panel without one, or a kernel without the set) shows its
-  name in every choice. Badges stay on their tab in every choice. Up to this version the tabs showed their names
+  light and dark, and in the text color the system's forced colors (high contrast) choose; the selected tab is then
+  Highlight. An extension's panel without an icon of its own gets the puzzle icon; on a kernel without the set every
+  tab shows its name. Badges stay on their tab in every choice. An administrator sets the installation's default per
+  siteaccess under Setup > Website sidebar panels (Tab labels). Up to this version the tabs showed their names
   only; `TabLabels=text` keeps them that way.
 - **Light or dark:** the user's choice for the sidebar, else their choice for the administration (light or dark: it
   wins on every design), else the page's: on a site design with its own light/dark switch (the media designs:
@@ -308,6 +311,10 @@ left out, nothing is saved and nothing is sent to a server.
   with the keyboard alone and with a screen reader as well.
 
 ### Panels per role (Setup > Website sidebar panels)
+
+For the chosen siteaccess the page also shows **Tab labels**: Icons, Icons and text or Text, the labels of the tabs
+for users who have not chosen in the Me panel (`[ExpwtSettings] TabLabels`); **Save** writes it to the
+siteaccess's `expwt.ini.append.php` in the same way, a backup first.
 
 Administrators decide, per siteaccess and role, which panels of the sidebar the users of a role see and in which
 order: **Setup > Website sidebar panels** (`expwt/panels`). Pick the siteaccess (the site's siteaccesses, each marked
@@ -601,7 +608,7 @@ order, and the value in effect.
 | `DefaultHeight`, `MinHeight`, `MaxHeight` | 280, 160, 640 | a first visit's height of the bar on top and bottom, the limits |
 | `OverlayBelowWidth` | 768 | narrower windows get the panel over the page |
 | `ShortcutKey` | E | the letter of Alt+Shift+<key> that opens the sidebar for a user who has not chosen another (Me panel) |
-| `TabLabels` | icons | how the tabs are labelled for a user who has not chosen (Me panel): `icons`, `both` (icons and text) or `text`; any other value counts as `icons` |
+| `TabLabels` | icons | how the tabs are labeled for a user who has not chosen (Me panel): `icons`, `both` (icons and text) or `text`, in any case; any other value counts as `icons`. Setup > Website sidebar panels writes it for a siteaccess |
 | `HeaderSelector` | header, [role=banner], #header, .header | the site header the tab and the top bar sit below |
 | `FooterSelector` | footer, [role=contentinfo], cookie bars | what the site may fix to the bottom of the window; the bottom bar sits above whichever of them is fixed or sticky there |
 | `[CreateSettings] HiddenClassList[]` | common_ini_settings | classes Create never offers |
@@ -658,7 +665,7 @@ Action=expwtexample.search
 |---|---|
 | `Label`, `Context` | the English source of the tab's or entry's name, and the translation context it is translated in |
 | `Script`, `Stylesheet` | file names in the extension's design (`javascript/`, `stylesheets/`; the design needs `DesignExtensions[]`) |
-| `Icon` | the tab's icon: the name of one of the kernel's Bootstrap Icons (`share/icons/bootstrap-icons/svg/<name>.svg`, e.g. `speedometer`); none, or a name the kernel does not ship (named among the refusals): the tab shows its label also when icons are chosen |
+| `Icon` | the tab's icon: the name of one of the kernel's Bootstrap Icons (`share/icons/bootstrap-icons/svg/<name>.svg`, e.g. `speedometer`); none, or a name the kernel does not ship (named among the refusals): the puzzle icon, with the label as the bubble when icons are chosen |
 | `Before` | the panel of the sidebar whose tab this panel's tab stands before (default `me`) |
 | `Function` | the expwt function needed (`use`, `edit`, `create`, `structure`, `layouts`, `templates`, `shop`, `admin`; default `use`) |
 | `Policy[]` | kernel policies needed, all of them (`module/function`) |

@@ -97,14 +97,17 @@ der Stelle von ezwt in den aktiven Erweiterungen. Ein Probelauf listet die Ände
   Server, wenn die Seite verlassen wird, und eine Änderung, die der Server noch nicht bestätigt hat, gilt auf der
   nächsten Seite vor der Kopie des Servers. Ausnahmen: mit ungespeicherten Änderungen der Seite und beim Bearbeiten auf
   der Seite öffnet sich das Panel Seite; ein Panel, das der Benutzer nicht mehr hat, öffnet das erste.
-- **Beschriftung der Reiter:** wie die Reiter der Bereiche und der geschlossene Reiter beschriftet sind: **Icons**
-  (nur das Icon; der Name des Bereichs bleibt Tooltip und das, was Screenreader vorlesen), **Icons und Text** oder
+- **Beschriftung der Reiter:** wie die Reiter der Bereiche und der geschlossene Reiter beschriftet sind: **Symbole**
+  (nur das Symbol; der Name des Bereichs erscheint beim Zeigen mit der Maus und beim Fokus mit der Tastatur in einer
+  Blase unter dem Reiter, Escape blendet sie aus, und Screenreader lesen ihn weiter vor), **Symbole und Text** oder
   **Text** (nur der Name). Jeder Benutzer wählt im Bereich Ich, ein Besucher im Bereich Willkommen; gespeichert wie die
   übrigen Einstellungen der Seitenleiste. Ohne eigene Wahl gilt `TabLabels` der Installation (ausgeliefert: icons),
   auch wenn es später geändert wird. Die Icons sind die Bootstrap Icons des Kernels (`share/icons/bootstrap-icons`,
-  derselbe Satz wie im Design admin4), in der Textfarbe der Seitenleiste, hell wie dunkel; ein Reiter ohne Icon (ein
-  Bereich einer Erweiterung ohne Icon, oder ein Kernel ohne den Satz) zeigt in jeder Wahl seinen Namen. Plaketten
-  bleiben in jeder Wahl an ihrem Reiter. Bis zu dieser Version zeigten die Reiter nur ihre Namen; `TabLabels=text`
+  derselbe Satz wie im Design admin4), in der Textfarbe der Seitenleiste, hell wie dunkel, und in der Textfarbe, die
+  die erzwungenen Farben des Systems (hoher Kontrast) wählen; der gewählte Reiter ist dann Highlight. Ein Bereich
+  einer Erweiterung ohne eigenes Symbol bekommt das Puzzle-Symbol; auf einem Kernel ohne den Satz zeigt jeder Reiter
+  seinen Namen. Plaketten bleiben in jeder Wahl an ihrem Reiter. Die Vorgabe der Installation stellt ein
+  Administrator je Siteaccess unter Setup > Bereiche der Website-Seitenleiste ein (Beschriftung der Reiter). Bis zu dieser Version zeigten die Reiter nur ihre Namen; `TabLabels=text`
   lässt es dabei.
 - **Hell oder dunkel:** die Wahl des Benutzers für die Seitenleiste, sonst seine Wahl für die Administration (hell
   oder dunkel: sie gilt auf jedem Design), sonst die der Seite: auf einem Website-Design mit eigenem Hell/Dunkel-
@@ -338,6 +341,11 @@ Seitenleiste selbst bleibt außen vor, nichts wird gespeichert und nichts an ein
   Struktur, ARIA); die Seite auch nur mit der Tastatur und mit einem Screenreader ausprobieren.
 
 ### Bereiche je Rolle (Setup > Bereiche der Website-Seitenleiste)
+
+Für den gewählten Siteaccess zeigt die Seite auch **Beschriftung der Reiter**: Symbole, Symbole und Text oder Text,
+die Beschriftung der Reiter für Benutzer, die im Bereich Ich nicht selbst gewählt haben
+(`[ExpwtSettings] TabLabels`); **Speichern** schreibt sie ebenso in die `expwt.ini.append.php` des Siteaccess,
+zuvor eine Sicherung.
 
 Administratoren legen je Siteaccess und Rolle fest, welche Bereiche der Seitenleiste die Benutzer einer Rolle sehen und
 in welcher Reihenfolge: **Setup > Bereiche der Website-Seitenleiste** (`expwt/panels`). Siteaccess (die Siteaccesses der Website, jeweils mit
@@ -656,7 +664,7 @@ dieser Reihenfolge, und den Wert, der gilt.
 | `DefaultHeight`, `MinHeight`, `MaxHeight` | 280, 160, 640 | Höhe der Leiste oben und unten beim ersten Besuch, die Grenzen |
 | `OverlayBelowWidth` | 768 | schmalere Fenster bekommen den Bereich über der Seite |
 | `ShortcutKey` | E | der Buchstabe von Alt+Umschalt+<Taste>, der die Seitenleiste öffnet, für Benutzer ohne eigene Wahl (Bereich Ich) |
-| `TabLabels` | icons | wie die Reiter für Benutzer ohne eigene Wahl (Bereich Ich) beschriftet sind: `icons`, `both` (Icons und Text) oder `text`; jeder andere Wert gilt als `icons` |
+| `TabLabels` | icons | wie die Reiter für Benutzer ohne eigene Wahl (Bereich Ich) beschriftet sind: `icons`, `both` (Icons und Text) oder `text`, gleich in welcher Schreibung; jeder andere Wert gilt als `icons`. Setup > Bereiche der Website-Seitenleiste schreibt ihn für einen Siteaccess |
 | `HeaderSelector` | header, [role=banner], #header, .header | der Kopf der Website, unter dem der Reiter und die obere Leiste sitzen |
 | `FooterSelector` | footer, [role=contentinfo], Cookie-Hinweise | was die Website unten im Fenster festhalten kann; die untere Leiste sitzt über dem, was davon dort gerade fest steht |
 | `[CreateSettings] HiddenClassList[]` | common_ini_settings | Klassen, die Anlegen nie anbietet |
@@ -679,7 +687,7 @@ Einstellungen sind die des englischen Leitfadens (Abschnitt „Adding to the sid
 Gruppe `[Panel_<id>]`, `[Action_<erweiterung>.<name>]`, `[Highlight_<id>]`, `[SearchProvider_<id>]`. Ein Bereich
 nennt mit `Icon=<name>` sein Icon, eines der Bootstrap Icons des Kernels (`share/icons/bootstrap-icons/svg/<name>.svg`,
 im Beispiel `speedometer`); ohne Icon, oder mit einem Namen, den der Kernel nicht hat (bei den Zurückweisungen
-genannt), zeigt der Reiter auch bei der Wahl Icons seinen Namen.
+genannt), zeigt der Reiter das Puzzle-Symbol und bei der Wahl Symbole seinen Namen in der Blase.
 
 - **Wer was sieht.** Ein Eintrag braucht seine expwt-Funktion und jede Kernel-Richtlinie aus `Policy[]`; ohne sie gibt
   es weder den Reiter noch die Aktion (403), und eine Markierung oder Suchquelle fällt mit ihrem Bereich oder ihrer

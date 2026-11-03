@@ -1,5 +1,5 @@
 /*
- * How the tabs of the website sidebar are labelled (expwt.js, ExpwtTabLabels): icons, icons and text, or text; the
+ * How the tabs of the website sidebar are labeled (expwt.js, ExpwtTabLabels): icons, icons and text, or text; the
  * kernel's Bootstrap Icons for the built-in panels, a named one for an extension's panel, the panel's name whenever
  * there is no icon. Run with Node (no packages): node tests/js/tablabels.test.js (expwtPureTest runs it when Node
  * is there). Prints PASS or FAIL lines and exits 1 on a failure.

@@ -27,7 +27,7 @@ class expwtSettings
         'max_height' => 640,
         'overlay_below_width' => 768,
         'shortcut_key' => 'E',
-        // how the tabs are labelled for a user who did not choose: icons, both (icons and text) or text
+        // how the tabs are labeled for a user who did not choose: icons, both (icons and text) or text
         'tab_labels' => 'icons',
         'header_selector' => 'header, [role=banner], #header, .header',
         'footer_selector' => 'footer, [role=contentinfo], #cookie-bar, .cookie-bar, #cookie-banner, .cookie-banner, #cookie-consent, .cookie-consent, .cc-window, #CybotCookiebotDialog, #onetrust-banner-sdk',
@@ -47,7 +47,7 @@ class expwtSettings
     const DEVICE_MAX_WIDTH = 2560;
     const DEVICE_MAX_HEIGHT = 2400;
 
-    /** How the tabs may be labelled: the icon alone, the icon and the panel's name, the name alone */
+    /** How the tabs may be labeled: the icon alone, the icon and the panel's name, the name alone */
     const TAB_LABELS = array( 'icons', 'both', 'text' );
 
     /** The data layers a setting may name */
