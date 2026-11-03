@@ -74,7 +74,7 @@ class expwtWriter extends expGraphQLWriter
         if ( !$classObject instanceof eZContentClass )
             throw self::notFound();
         $language = $this->languageOf( isset( $args['language'] ) ? $args['language'] : null, null );
-        if ( $parent->checkAccess( 'create', (int)$classObject->attribute( 'id' ), (int)$parent->attribute( 'contentclass_id' ), false, $language, $this->userId() ) != 1 )
+        if ( $parent->checkAccess( 'create', (int)$classObject->attribute( 'id' ), expwtGateway::nodeClassId( $parent ), false, $language, $this->userId() ) != 1 )
             throw self::forbidden();
         $fields = expGraphQLFieldInput::prepare( $class, isset( $args['fields'] ) ? (array)$args['fields'] : array(), false );
         $db = eZDB::instance();
@@ -122,7 +122,7 @@ class expwtWriter extends expGraphQLWriter
         $parent = $this->readableNode( $newParentId );
         $object = $node->object();
         if ( !$object instanceof eZContentObject || !$object->canRead()
-             || $parent->checkAccess( 'create', (int)$object->attribute( 'contentclass_id' ), (int)$parent->attribute( 'contentclass_id' ), false, false, $this->userId() ) != 1 )
+             || $parent->checkAccess( 'create', (int)$object->attribute( 'contentclass_id' ), expwtGateway::nodeClassId( $parent ), false, false, $this->userId() ) != 1 )
             throw self::forbidden();
 
         $db = eZDB::instance();

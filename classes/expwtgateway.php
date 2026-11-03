@@ -28,6 +28,19 @@ class expwtGateway
 
     // ------------------------------------------------------------------------------------------------ the user
 
+    /**
+     * The class id of a node's object: what checkAccess( 'create' ) needs as the parent's class (a node has no
+     * contentclass_id of its own; asking it for one only logs an error). 0 without an object.
+     *
+     * @param eZContentObjectTreeNode $node
+     * @return int
+     */
+    public static function nodeClassId( $node )
+    {
+        $object = $node instanceof eZContentObjectTreeNode ? $node->object() : null;
+        return $object instanceof eZContentObject ? (int)$object->attribute( 'contentclass_id' ) : 0;
+    }
+
     /** @return eZUser */
     protected function currentUser()
     {
@@ -1227,7 +1240,7 @@ class expwtGateway
         foreach ( (array)$nodes as $list )
         {
             if ( !$list instanceof eZContentObjectTreeNode
-                 || $list->checkAccess( 'create', $classId, (int)$list->attribute( 'contentclass_id' ) ) != 1 )
+                 || $list->checkAccess( 'create', $classId, self::nodeClassId( $list ) ) != 1 )
                 continue;
             $listId = (int)$list->attribute( 'contentobject_id' );
             $out[] = array( 'objectId' => $listId, 'name' => (string)$list->attribute( 'name' ), 'subscribers' => self::subscriberCount( $listId ),
@@ -1340,7 +1353,7 @@ class expwtGateway
             throw new expwtApiError( 400, 'bad_input', 'Give a title.' );
         $class = eZContentClass::fetchByIdentifier( 'cjw_newsletter_edition' );
         if ( !$class instanceof eZContentClass
-             || $listNode->checkAccess( 'create', (int)$class->attribute( 'id' ), (int)$listNode->attribute( 'contentclass_id' ) ) != 1 )
+             || $listNode->checkAccess( 'create', (int)$class->attribute( 'id' ), self::nodeClassId( $listNode ) ) != 1 )
             throw new expwtApiError( 403, 'forbidden', 'You may not do this.' );
 
         $db = eZDB::instance();
@@ -1600,7 +1613,7 @@ class expwtGateway
     protected function commentCreateAccess( eZContentObjectTreeNode $node, $class )
     {
         $classId = (int)eZContentClass::classIDByIdentifier( $class );
-        return $classId && $node->checkAccess( 'create', $classId, (int)$node->attribute( 'contentclass_id' ) ) == 1;
+        return $classId && $node->checkAccess( 'create', $classId, self::nodeClassId( $node ) ) == 1;
     }
 
     /**

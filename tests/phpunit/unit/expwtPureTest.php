@@ -1144,4 +1144,22 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
         $this->assertSame( 0, $status, implode( "\n", $out ) );
         $this->assertStringStartsWith( 'PASS', (string)end( $out ) );
     }
+
+    /** A node has no contentclass_id: the parent class of a create check is its object's (no error in the log) */
+    public function testTheParentClassOfACreateCheckIsTheNodesObjectsClass()
+    {
+        $this->assertSame( 0, expwtGateway::nodeClassId( null ) );
+        if ( !class_exists( 'eZContentObjectTreeNode' ) || !class_exists( 'eZContentObject' ) )
+            $this->markTestSkipped( 'the kernel is not loaded' );
+        $node = new class( array() ) extends eZContentObjectTreeNode {
+            public $o = null;
+            public function object() { return $this->o; }
+        };
+        $this->assertSame( 0, expwtGateway::nodeClassId( $node ), 'a node without its object' );
+        $node->o = new eZContentObject( array( 'id' => 59, 'contentclass_id' => 16 ) );
+        $this->assertSame( 16, expwtGateway::nodeClassId( $node ) );
+        foreach ( array( 'expwtgateway.php', 'expwtwriter.php' ) as $file )
+            $this->assertDoesNotMatchRegularExpression( "/\\\$(node|parent|list|listNode)->attribute\\( 'contentclass_id' \\)/",
+                                                        (string)file_get_contents( dirname( __DIR__, 3 ) . '/classes/' . $file ), $file );
+    }
 }
