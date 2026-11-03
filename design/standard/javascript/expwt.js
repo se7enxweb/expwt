@@ -1612,32 +1612,56 @@
       }
       return p.then(function (body) { return body.data; }, function (err) {
         if (!retried && err.status === 403 && err.body && err.body.error === 'reauth_required') {
-          return self.reauth(action).then(function () { return self.call(action, input, true); });
+          return self.reauth(action, opts).then(function () { return self.call(action, input, true, opts); });
         }
         throw err;
       });
     }
 
-    reauth(action) {
+    /* "Verify it's you" in a small window. One window at a time: an action asked while it is open waits for the same
+       answer (a second window.open with the same name would reuse the window and leave the first action waiting for
+       ever). It settles when the window says it was answered, when the window is closed (the action is then sent
+       again and refused once more if nothing was answered), or with Cancel; opts.onReauth gets { focus, cancel } so a
+       panel can bring the window back or give up. */
+    reauth(action, opts) {
       var self = this;
-      this.say(this.t('Please confirm it is you in the new window.'));
-      return new Promise(function (resolve, reject) {
-        var win = window.open(self.boot.transport.reauth + '/' + encodeURIComponent(action), 'expwt-reauth', 'width=560,height=680');
-        if (!win) {
-          reject(new Error(self.t('Allow this site to open a window to confirm it is you.')));
-          return;
-        }
-        self.reauthDone = function () { clearInterval(timer); self.reauthDone = null; resolve(); };
-        var timer = setInterval(function () {
-          if (win.closed) {
+      var pending = this.reauthPending;
+      if (!pending) {
+        pending = this.reauthPending = {};
+        this.say(this.t('Please confirm it is you in the new window.'));
+        pending.promise = new Promise(function (resolve, reject) {
+          var win = window.open(self.boot.transport.reauth + '/' + encodeURIComponent(action), 'expwt-reauth', 'width=560,height=680');
+          var timer = null;
+          var settled = false;
+          function end(error) {
+            if (settled) { return; }
+            settled = true;
             clearInterval(timer);
-            if (self.reauthDone) {
-              self.reauthDone = null;
-              resolve();
+            if (self.reauthPending === pending) {
+              self.reauthPending = null;
             }
+            self.reauthDone = null;
+            if (error) { reject(error); } else { resolve(); }
           }
-        }, 500);
-      });
+          if (!win) {
+            end(new Error(self.t('Allow this site to open a window to confirm it is you.')));
+            return;
+          }
+          pending.focus = function () { try { win.focus(); } catch (e) { /* the window is gone */ } };
+          pending.cancel = function () {
+            try { win.close(); } catch (e) { /* the window is gone */ }
+            var c = new Error('cancelled');
+            c.cancelled = true;
+            end(c);
+          };
+          self.reauthDone = function () { end(null); };
+          timer = setInterval(function () { if (win.closed) { end(null); } }, 500);
+        });
+      }
+      if (opts && typeof opts.onReauth === 'function' && pending.cancel) {
+        opts.onReauth({ focus: pending.focus, cancel: pending.cancel });
+      }
+      return pending.promise;
     }
 
     message(e) {
@@ -1873,7 +1897,7 @@
       return {
         h: h,
         t: function (s) { return self.t(s); },
-        call: function (action, input) { return self.call(action, input); },
+        call: function (action, input, opts) { return self.call(action, input, false, opts); },
         say: function (text, kind) { self.say(text, kind); },
         boot: this.boot,
         node: this.cfg.node || 0,

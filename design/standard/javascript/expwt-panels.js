@@ -3843,6 +3843,39 @@
     state: function (link) {
       if (link.state === 'active') { return { cls: 'wt-chip is-ok', key: 'Works until %time' }; }
       return { cls: 'wt-chip', key: link.state === 'revoked' ? 'Withdrawn' : 'Expired' };
+    },
+    /* A button's action while it runs: aria-busy on the button (a spinner, its label and focus stay), a second press
+       sends nothing; while "Verify it's you" waits in its window, a row under the button's row brings the window back
+       or cancels. The button always comes back and a failure is said, whatever the answer: before, the buttons were
+       disabled until the answer and stayed grey for as long as the window waited, or for ever when a second button
+       asked while it was open. work(opts) returns the promise of ctx.call(action, input, opts). */
+    run: function (ctx, button, work) {
+      if (button.getAttribute('aria-busy') === 'true') { return null; }
+      var t = ctx.t;
+      var row = null;
+      var box = button.parentNode;
+      button.setAttribute('aria-busy', 'true');
+      button.setAttribute('aria-disabled', 'true');
+      function done() {
+        button.removeAttribute('aria-busy');
+        button.removeAttribute('aria-disabled');
+        if (row && row.parentNode) { row.parentNode.removeChild(row); }
+      }
+      var opts = { onReauth: function (r) {
+        var next = box && box.nextSibling;
+        if (next && next.className === 'wt-row wt-reauth-wait') { row = next; return; }
+        row = ctx.h('div', { class: 'wt-row wt-reauth-wait', role: 'group', 'aria-label': t('Verify it\'s you') }, [
+          ctx.h('button', { type: 'button', class: 'wt-btn is-primary', text: t('Verify it\'s you'), onclick: function () { r.focus(); } }),
+          ctx.h('button', { type: 'button', class: 'wt-btn', text: t('Cancel'), onclick: function () { r.cancel(); } })
+        ]);
+        if (box && box.parentNode) { box.parentNode.insertBefore(row, box.nextSibling); }
+      } };
+      var p;
+      try { p = Promise.resolve(work(opts)); } catch (e) { p = Promise.reject(e); }
+      return p.then(function (value) { done(); return value; }, function (err) {
+        done();
+        if (!err || !err.cancelled) { failure(ctx, err); }
+      });
     }
   };
 
@@ -3902,21 +3935,22 @@
         ]));
       }
       function download(format, button) {
-        button.disabled = true;
-        ctx.call('export.fields', { objectId: page.objectId, which: which, version: which === 'draft' && page.draft ? page.draft.version : undefined,
-          language: page.language, format: format }).then(function (file) {
-          var url = URL.createObjectURL(new Blob([Export.bytes(file.data)], { type: file.mime }));
-          var a = document.createElement('a');
-          a.href = url;
-          a.download = file.fileName;
-          document.body.appendChild(a);
-          a.click();
-          document.body.removeChild(a);
-          window.setTimeout(function () { URL.revokeObjectURL(url); }, 10000);
-          ctx.say(file.fileName, 'ok');
-          button.disabled = false;
-        }, function (err) { button.disabled = false; failure(ctx, err); });
+        Export.run(ctx, button, function (opts) {
+          return ctx.call('export.fields', { objectId: page.objectId, which: which, version: which === 'draft' && page.draft ? page.draft.version : undefined,
+            language: page.language, format: format }, opts).then(function (file) {
+            var url = URL.createObjectURL(new Blob([Export.bytes(file.data)], { type: file.mime }));
+            var a = document.createElement('a');
+            a.href = url;
+            a.download = file.fileName;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            window.setTimeout(function () { URL.revokeObjectURL(url); }, 10000);
+            ctx.say(file.fileName, 'ok');
+          });
+        });
       }
+      /* the formats' own names, as the file managers show them: not translated */
       var md = h('button', { type: 'button', class: 'wt-btn', text: 'Markdown (.md)' });
       var docx = h('button', { type: 'button', class: 'wt-btn', text: 'Word (.docx)' });
       md.onclick = function () { download('md', md); };
@@ -3950,16 +3984,16 @@
           var note = h('input', { type: 'text', id: 'wt-exp-note', maxlength: '100', autocomplete: 'off' });
           var create = h('button', { type: 'button', class: 'wt-btn is-primary', text: t('Create link') });
           create.onclick = function () {
-            create.disabled = true;
-            ctx.call('share.create', { objectId: page.objectId, version: s.draft.version, language: s.draft.language,
-              lifetime: parseInt(lifetime.value, 10), note: note.value }).then(function (r) {
-              create.disabled = false;
-              note.value = '';
-              made.textContent = '';
-              made.appendChild(linkField(r.url, 'wt-exp-new'));
-              made.appendChild(h('p', { class: 'wt-muted', text: t('Works until %time').replace('%time', when(r.expires)) }));
-              list(r.links);
-            }, function (err) { create.disabled = false; failure(ctx, err); });
+            Export.run(ctx, create, function (opts) {
+              return ctx.call('share.create', { objectId: page.objectId, version: s.draft.version, language: s.draft.language,
+                lifetime: parseInt(lifetime.value, 10), note: note.value }, opts).then(function (r) {
+                note.value = '';
+                made.textContent = '';
+                made.appendChild(linkField(r.url, 'wt-exp-new'));
+                made.appendChild(h('p', { class: 'wt-muted', text: t('Works until %time').replace('%time', when(r.expires)) }));
+                list(r.links);
+              });
+            });
           };
           shareBox.appendChild(h('p', { class: 'wt-muted', text: t('Anyone with the link sees your draft without an account until the link expires. Send it only to your reviewers.') }));
           shareBox.appendChild(h('label', { class: 'wt-field', for: 'wt-exp-life' }, [h('span', { text: t('Works for') }), lifetime]));
@@ -3979,12 +4013,13 @@
             if (link.state === 'active') {
               var withdraw = h('button', { type: 'button', class: 'wt-btn is-danger', text: t('Withdraw') });
               withdraw.onclick = function () {
-                withdraw.disabled = true;
-                ctx.call('share.revoke', { objectId: page.objectId, id: link.id }).then(function (r) {
-                  ctx.say(t('Withdrawn'), 'ok');
-                  made.textContent = '';
-                  list(r.links);
-                }, function (err) { withdraw.disabled = false; failure(ctx, err); });
+                Export.run(ctx, withdraw, function (opts) {
+                  return ctx.call('share.revoke', { objectId: page.objectId, id: link.id }, opts).then(function (r) {
+                    ctx.say(t('Withdrawn'), 'ok');
+                    made.textContent = '';
+                    list(r.links);
+                  });
+                });
               };
               parts.push(h('div', { class: 'wt-row' }, [withdraw]));
             }

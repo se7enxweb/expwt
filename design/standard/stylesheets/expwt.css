@@ -559,6 +559,21 @@ a { color: var(--a4-accent-text); }
 }
 .wt-btn:hover { background: var(--a4-soft); }
 .wt-btn[disabled] { color: var(--a4-disabled); cursor: not-allowed; }
+/* working (Export.run): the label stays readable and a spinner says it is busy, unlike a grey disabled button */
+.wt-btn[aria-busy="true"] { cursor: progress; }
+.wt-btn[aria-busy="true"]::after {
+  content: "";
+  inline-size: var(--a4-space-3);
+  block-size: var(--a4-space-3);
+  border: 2px solid currentColor;
+  border-inline-end-color: transparent;
+  border-radius: 50%;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .wt-btn[aria-busy="true"]::after { animation: wt-spin .8s linear infinite; }
+}
+@keyframes wt-spin { to { transform: rotate(360deg); } }
+.wt-reauth-wait { margin-block-start: var(--a4-space-2); }
 .wt-btn.is-primary { background: var(--a4-accent-strong); border-color: var(--a4-accent-strong); color: var(--a4-on-accent); }
 .wt-btn.is-primary:hover { background: var(--a4-accent-press); color: var(--a4-on-accent-hover); }
 .wt-btn.is-danger { color: var(--a4-bad); border-color: var(--a4-bad-line); }
