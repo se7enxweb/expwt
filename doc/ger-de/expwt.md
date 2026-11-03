@@ -97,6 +97,15 @@ der Stelle von ezwt in den aktiven Erweiterungen. Ein Probelauf listet die Ände
   Server, wenn die Seite verlassen wird, und eine Änderung, die der Server noch nicht bestätigt hat, gilt auf der
   nächsten Seite vor der Kopie des Servers. Ausnahmen: mit ungespeicherten Änderungen der Seite und beim Bearbeiten auf
   der Seite öffnet sich das Panel Seite; ein Panel, das der Benutzer nicht mehr hat, öffnet das erste.
+- **Beschriftung der Reiter:** wie die Reiter der Bereiche und der geschlossene Reiter beschriftet sind: **Icons**
+  (nur das Icon; der Name des Bereichs bleibt Tooltip und das, was Screenreader vorlesen), **Icons und Text** oder
+  **Text** (nur der Name). Jeder Benutzer wählt im Bereich Ich, ein Besucher im Bereich Willkommen; gespeichert wie die
+  übrigen Einstellungen der Seitenleiste. Ohne eigene Wahl gilt `TabLabels` der Installation (ausgeliefert: icons),
+  auch wenn es später geändert wird. Die Icons sind die Bootstrap Icons des Kernels (`share/icons/bootstrap-icons`,
+  derselbe Satz wie im Design admin4), in der Textfarbe der Seitenleiste, hell wie dunkel; ein Reiter ohne Icon (ein
+  Bereich einer Erweiterung ohne Icon, oder ein Kernel ohne den Satz) zeigt in jeder Wahl seinen Namen. Plaketten
+  bleiben in jeder Wahl an ihrem Reiter. Bis zu dieser Version zeigten die Reiter nur ihre Namen; `TabLabels=text`
+  lässt es dabei.
 - **Hell oder dunkel:** die Wahl des Benutzers für die Seitenleiste, sonst seine Wahl für die Administration (hell
   oder dunkel: sie gilt auf jedem Design), sonst die der Seite: auf einem Website-Design mit eigenem Hell/Dunkel-
   Schalter (die Media-Designs: site, smarty, twig) der Modus dieses Schalters, dem sie beim Umschalten sofort folgt;
@@ -647,6 +656,7 @@ dieser Reihenfolge, und den Wert, der gilt.
 | `DefaultHeight`, `MinHeight`, `MaxHeight` | 280, 160, 640 | Höhe der Leiste oben und unten beim ersten Besuch, die Grenzen |
 | `OverlayBelowWidth` | 768 | schmalere Fenster bekommen den Bereich über der Seite |
 | `ShortcutKey` | E | der Buchstabe von Alt+Umschalt+<Taste>, der die Seitenleiste öffnet, für Benutzer ohne eigene Wahl (Bereich Ich) |
+| `TabLabels` | icons | wie die Reiter für Benutzer ohne eigene Wahl (Bereich Ich) beschriftet sind: `icons`, `both` (Icons und Text) oder `text`; jeder andere Wert gilt als `icons` |
 | `HeaderSelector` | header, [role=banner], #header, .header | der Kopf der Website, unter dem der Reiter und die obere Leiste sitzen |
 | `FooterSelector` | footer, [role=contentinfo], Cookie-Hinweise | was die Website unten im Fenster festhalten kann; die untere Leiste sitzt über dem, was davon dort gerade fest steht |
 | `[CreateSettings] HiddenClassList[]` | common_ini_settings | Klassen, die Anlegen nie anbietet |
@@ -666,7 +676,10 @@ Beispiel, eine Erweiterung mit dem Bereich „Page cache", liegt in `tests/examp
 Registrierung); kopieren, `expwtexample` überall umbenennen, aktivieren und die Autoloads neu erzeugen. Die
 Einstellungen sind die des englischen Leitfadens (Abschnitt „Adding to the sidebar from another extension"):
 `[RegistrySettings]` mit `PanelList[]`, `ActionList[]`, `HighlightList[]`, `SearchProviderList[]` und je Eintrag eine
-Gruppe `[Panel_<id>]`, `[Action_<erweiterung>.<name>]`, `[Highlight_<id>]`, `[SearchProvider_<id>]`.
+Gruppe `[Panel_<id>]`, `[Action_<erweiterung>.<name>]`, `[Highlight_<id>]`, `[SearchProvider_<id>]`. Ein Bereich
+nennt mit `Icon=<name>` sein Icon, eines der Bootstrap Icons des Kernels (`share/icons/bootstrap-icons/svg/<name>.svg`,
+im Beispiel `speedometer`); ohne Icon, oder mit einem Namen, den der Kernel nicht hat (bei den Zurückweisungen
+genannt), zeigt der Reiter auch bei der Wahl Icons seinen Namen.
 
 - **Wer was sieht.** Ein Eintrag braucht seine expwt-Funktion und jede Kernel-Richtlinie aus `Policy[]`; ohne sie gibt
   es weder den Reiter noch die Aktion (403), und eine Markierung oder Suchquelle fällt mit ihrem Bereich oder ihrer

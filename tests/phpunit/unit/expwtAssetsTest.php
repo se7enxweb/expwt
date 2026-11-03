@@ -193,4 +193,26 @@ class expwtAssetsTest extends PHPUnit\Framework\TestCase
             }
         }
     }
+
+
+    /** The tabs' labels: the closed tab hides its word or its icon, the panel tabs draw the kernel's icons as a mask */
+    public function testTabLabelsAreStyled()
+    {
+        $css = self::css();
+        $this->assertStringContainsString( ':host([data-labels="icons"]) .wt-tab-label', $css, 'icons: the closed tab without its word' );
+        $this->assertStringContainsString( ':host([data-labels="text"]) .wt-tab > .wt-tab-icon', $css, 'text: the closed tab without its icon' );
+        $this->assertMatchesRegularExpression( '/\.wt-tabs \.wt-tab-icon\s*\{[^}]*-webkit-mask: var\(--wt-icon\)[^}]*\}/', $css );
+        $this->assertMatchesRegularExpression( '/\.wt-tabs \.wt-tab-icon\s*\{[^}]*[^-]mask: var\(--wt-icon\)[^}]*\}/', $css );
+        $this->assertMatchesRegularExpression( '/\.wt-tabs \.wt-tab-icon\s*\{[^}]*background-color: currentColor[^}]*\}/', $css, 'the text color: hover, selected and dark follow' );
+        $this->assertMatchesRegularExpression( '/@media \(forced-colors: active\)\s*\{[^@]*\.wt-tabs \.wt-tab-icon/', $css, 'high contrast of the system' );
+        $this->assertMatchesRegularExpression( '/:host\(\[data-labels="icons"\]\) \.wt-tabs \[role="tab"\]\s*\{[^}]*min-inline-size/', $css, 'icons: a hit area of its own' );
+    }
+
+    /** The panel tabs set the icon's address by a custom property, never by a style attribute (a strict CSP) */
+    public function testTheIconIsNoStyleAttribute()
+    {
+        $js = (string)file_get_contents( self::ext() . '/design/standard/javascript/expwt.js' );
+        $this->assertStringContainsString( "style.setProperty('--wt-icon'", $js );
+        $this->assertDoesNotMatchRegularExpression( "/setAttribute\\('style'/", $js );
+    }
 }

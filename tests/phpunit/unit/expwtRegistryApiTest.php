@@ -135,7 +135,7 @@ class expwtRegistryApiTest extends PHPUnit\Framework\TestCase
     public function testBootTellsWhatTheUserGets()
     {
         $d = $this->api()->call( 'boot', array(), 'GET' )['body']['data']['registry'];
-        $this->assertSame( array( array( 'id' => 'deploys', 'label' => 'Deploys', 'before' => 'me', 'script' => '/packed/expmigrate-expwt.js',
+        $this->assertSame( array( array( 'id' => 'deploys', 'label' => 'Deploys', 'before' => 'me', 'icon' => '', 'script' => '/packed/expmigrate-expwt.js',
                                          'stylesheet' => '/packed/expmigrate-expwt.css' ) ), $d['panels'] );
         $this->assertSame( array( 'expmigrate.status' => array( 'writes' => false ), 'expmigrate.run' => array( 'writes' => true ),
                                   'expmigrate.broken' => array( 'writes' => false ) ), $d['actions'] );
@@ -146,5 +146,67 @@ class expwtRegistryApiTest extends PHPUnit\Framework\TestCase
         $this->assertSame( array(), $none['highlights'] );
         $this->assertSame( array(), $none['search'] );
         $this->assertSame( array( 'expmigrate.broken' ), array_keys( $none['actions'] ) );
+    }
+
+
+    /** A root with the kernel's Bootstrap Icons holding only cart.svg, for the icons of extension panels */
+    private static function iconRoot()
+    {
+        $root = sys_get_temp_dir() . '/expwt-registry-icons-' . getmypid();
+        if ( !is_dir( $root . '/share/icons/bootstrap-icons/svg' ) )
+            mkdir( $root . '/share/icons/bootstrap-icons/svg', 0777, true );
+        file_put_contents( $root . '/share/icons/bootstrap-icons/svg/cart.svg', '<svg xmlns="http://www.w3.org/2000/svg"/>' );
+        return $root;
+    }
+
+    private static function shop( array $extra )
+    {
+        return array( 'panels' => array( 'shop' => $extra + array( 'Label' => 'Shop', 'Script' => 'shop-expwt.js' ) ) );
+    }
+
+    protected function tearDown(): void
+    {
+        expwtRegistry::$iconRoot = null;
+    }
+
+    /** A panel of an extension names one of the kernel's Bootstrap Icons; the boot answer passes its name */
+    public function testAnExtensionPanelNamesAKernelIcon()
+    {
+        expwtRegistry::$iconRoot = self::iconRoot();
+        $r = expwtRegistry::fromArray( self::shop( array( 'Icon' => 'cart' ) ) );
+        $this->assertSame( array(), $r['refused'] );
+        $this->assertSame( 'cart', $r['panels']['shop']['icon'] );
+        $boot = expwtRegistry::forBoot( $r, function ( $c, $s ) { return $s; }, function ( $t, $f ) { return '/x/' . $f; } );
+        $this->assertSame( 'cart', $boot['panels'][0]['icon'] );
+    }
+
+    /** An icon the kernel does not ship, or no icon name at all: the panel stays, without its icon, and says why */
+    public function testAnUnknownIconIsLeftOutAndNamed()
+    {
+        expwtRegistry::$iconRoot = self::iconRoot();
+        foreach ( array( 'bag', '../x', '<svg>', 'Cart' ) as $icon )
+        {
+            $r = expwtRegistry::fromArray( self::shop( array( 'Icon' => $icon ) ) );
+            $this->assertSame( array( 'shop' ), array_keys( $r['panels'] ), "$icon: the panel is still registered" );
+            $this->assertSame( '', $r['panels']['shop']['icon'], $icon );
+            $this->assertSame( array( "panel shop: the icon $icon is not in share/icons/bootstrap-icons" ), $r['refused'], $icon );
+        }
+    }
+
+    public function testAPanelWithoutAnIconHasNone()
+    {
+        expwtRegistry::$iconRoot = self::iconRoot();
+        $r = expwtRegistry::fromArray( self::shop( array() ) );
+        $this->assertSame( array(), $r['refused'] );
+        $this->assertSame( '', $r['panels']['shop']['icon'] );
+        $boot = expwtRegistry::forBoot( $r, function ( $c, $s ) { return $s; }, function ( $t, $f ) { return '/x/' . $f; } );
+        $this->assertSame( '', $boot['panels'][0]['icon'] );
+    }
+
+    /** The worked example names an icon the kernel ships */
+    public function testTheWorkedExampleNamesAKernelIcon()
+    {
+        $ini = (string)file_get_contents( dirname( __DIR__, 2 ) . '/example/expwtexample/settings/expwt.ini.append.php' );
+        $this->assertMatchesRegularExpression( '/^Icon=speedometer$/m', $ini );
     }
 }

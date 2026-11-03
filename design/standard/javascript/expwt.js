@@ -173,6 +173,55 @@
   };
   window.ExpwtPanelMemory = PanelMemory;
 
+  /* How the tabs are labelled: icons (the icon alone; the name stays the tooltip and what screen readers say), both
+     (the icon and the name) or text (the name alone). The user's choice (state.labels, '' for none) over the
+     installation's (cfg.labels, expwt.ini TabLabels). The icons are the kernel's Bootstrap Icons
+     (share/icons/bootstrap-icons/svg, cfg.icons; '' on a kernel without them): a built-in panel's by its id, an
+     extension's by the name its registration gives. A tab without an icon shows its name in every choice. */
+  var TabLabels = {
+    CHOICES: [['icons', 'Icons'], ['both', 'Icons and text'], ['text', 'Text']],
+    ICONS: {
+      welcome: 'info-circle', page: 'file-earmark-text', create: 'plus-lg', structure: 'diagram-3', seo: 'search',
+      sites: 'globe2', forms: 'ui-checks', newsletter: 'envelope-paper', urls: 'link-45deg', calendar: 'calendar3',
+      export: 'download', insights: 'bar-chart-line', inbox: 'inbox', migrations: 'database', static: 'upload',
+      performance: 'speedometer2', me: 'person-circle'
+    },
+    valid: function (v) {
+      return TabLabels.CHOICES.some(function (c) { return c[0] === v; });
+    },
+    stateValue: function (v) {
+      return TabLabels.valid(v) ? v : '';
+    },
+    mode: function (choice, fallback) {
+      return TabLabels.valid(choice) ? choice : (TabLabels.valid(fallback) ? fallback : 'icons');
+    },
+    iconName: function (name) {
+      return typeof name === 'string' && /^[a-z0-9]+(-[a-z0-9]+)*$/.test(name);
+    },
+    parts: function (panel, mode, base) {
+      var name = TabLabels.iconName(panel.icon) ? panel.icon
+        : (Object.prototype.hasOwnProperty.call(TabLabels.ICONS, panel.id) ? TabLabels.ICONS[panel.id] : '');
+      var icon = mode !== 'text' && base && name ? base + name + '.svg' : null;
+      return { icon: icon, text: mode !== 'icons' || icon === null, name: String(panel.label || '') };
+    },
+    /* the button's contents: the icon as a mask (its address by a custom property, never a style attribute), the
+       name visible or for screen readers only, and the tooltip where the name is not visible */
+    fill: function (button, parts, h) {
+      if (parts.icon) {
+        var i = h('span', { class: 'wt-tab-icon', 'aria-hidden': 'true' });
+        i.style.setProperty('--wt-icon', 'url("' + parts.icon.replace(/["\\]/g, '') + '")');
+        button.appendChild(i);
+      }
+      button.appendChild(h('span', { class: parts.text ? 'wt-tab-text' : 'wt-sr', text: parts.name }));
+      if (parts.text) {
+        button.removeAttribute('title');
+      } else {
+        button.setAttribute('title', parts.name);
+      }
+    }
+  };
+  window.ExpwtTabLabels = TabLabels;
+
   /* The branding of the siteaccess (E10, cfg.brand from expwt.ini [BrandingSettings], checked on the server): the
      name in place of "Website sidebar", a logo beside it, and the accent tokens for light and dark as a stylesheet of
      the shadow root (never an attribute style). Only the known tokens with a color value pass, so nothing else can
@@ -538,6 +587,7 @@
         open: s.open === true,
         mode: s.mode === 'overlay' ? 'overlay' : 'push',
         theme: ['light', 'dark'].indexOf(s.theme) >= 0 ? s.theme : 'auto',
+        labels: TabLabels.stateValue(s.labels),
         panel: /^[a-z][a-z0-9_]{0,39}$/.test(String(s.panel || '')) ? s.panel : 'page',
         /* the user's own shortcuts (F30), only those that differ from the defaults */
         keys: s.keys && typeof s.keys === 'object' && !Array.isArray(s.keys) ? s.keys : {}
@@ -841,7 +891,7 @@
       /* the panels of other extensions (decision 32), each before the panel its registration names */
       this.registry().panels.forEach(function (p) {
         var at = list.map(function (x) { return x.id; }).indexOf(p.before);
-        list.splice(at < 0 ? list.length : at, 0, { id: p.id, label: p.label });
+        list.splice(at < 0 ? list.length : at, 0, { id: p.id, label: p.label, icon: p.icon || '' });
       });
       /* the order and visibility of the user's roles on this siteaccess (E9) */
       return PanelOrder.apply(list, this.boot && this.boot.panels);
@@ -873,6 +923,7 @@
          panel pushed last stays what is asked for (PanelMemory.keep) */
       this.state.panel = PanelMemory.keep(ids, this.state.panel, !!this.boot || this.anonymous);
       var current = PanelMemory.pick(ids, this.state.panel);
+      var mode = this.labelMode();
       this.tablist.textContent = '';
       this.tabButtons = list.map(function (p) {
         var b = h('button', {
@@ -880,7 +931,8 @@
           'aria-selected': p.id === current ? 'true' : 'false', tabindex: p.id === current ? '0' : '-1',
           onclick: function () { self.show(p.id); },
           onkeydown: function (e) { self.tabsKey(e); }
-        }, [p.label]);
+        });
+        TabLabels.fill(b, TabLabels.parts(p, mode, self.cfg.icons || ''), h);
         self.tablist.appendChild(b);
         return b;
       });
@@ -939,6 +991,11 @@
             h('span', { class: 'wt-sr', text: ' ' + self.t('%n comments wait for moderation').replace('%n', self.commentsWaiting) })]));
         }
       });
+    }
+
+    /* icons, both or text: the user's choice, else the installation's */
+    labelMode() {
+      return TabLabels.mode(this.state.labels, this.cfg.labels);
     }
 
     tabsKey(e) {
@@ -1192,6 +1249,13 @@
       this.setAttribute('data-open', this.state.open ? 'true' : 'false');
       this.setAttribute('data-overlay', this.overlay() ? 'true' : 'false');
       this.tab.setAttribute('aria-expanded', this.state.open ? 'true' : 'false');
+      /* the closed tab follows the choice of the tab labels (the stylesheet); the panel tabs are drawn anew */
+      var labels = this.labelMode();
+      if (this.getAttribute('data-labels') !== labels) {
+        var redraw = this.hasAttribute('data-labels');
+        this.setAttribute('data-labels', labels);
+        if (redraw && this.tabButtons) { this.buildTabs(); }
+      }
       this.panel.hidden = !this.state.open;
       /* the panel's edge: a vertical separator sizes the width, a horizontal one the height of the bar */
       this.resizer.setAttribute('aria-orientation', hz ? 'horizontal' : 'vertical');
@@ -1969,6 +2033,7 @@
         h('button', { type: 'submit', class: 'wt-btn', text: this.t('Search') })
       ]));
       b.appendChild(this.themeChooser());
+      b.appendChild(this.labelChooser());
       b.appendChild(this.visitorChooser());
     }
 
@@ -2026,6 +2091,23 @@
           h('input', { type: 'radio', name: 'wt-theme', id: id, value: o[0], checked: self.state.theme === o[0],
             onchange: function () { self.setState({ theme: o[0] }); } }),
           o[1]
+        ]));
+      });
+      return group;
+    }
+
+    /* Tab labels: icons, icons and text, or text; kept with the sidebar's other settings */
+    labelChooser() {
+      var self = this;
+      var mode = this.labelMode();
+      var group = h('fieldset', { class: 'wt-section wt-choice' }, [h('legend', { text: this.t('Tab labels') })]);
+      var names = { icons: this.t('Icons'), both: this.t('Icons and text'), text: this.t('Text') };
+      TabLabels.CHOICES.forEach(function (o) {
+        var id = 'wt-labels-' + o[0];
+        group.appendChild(h('label', { class: 'wt-check', for: id }, [
+          h('input', { type: 'radio', name: 'wt-labels', id: id, value: o[0], checked: mode === o[0],
+            onchange: function () { self.setState({ labels: o[0] }); } }),
+          names[o[0]]
         ]));
       });
       return group;

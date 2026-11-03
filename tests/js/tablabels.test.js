@@ -1,0 +1,154 @@
+/*
+ * How the tabs of the website sidebar are labelled (expwt.js, ExpwtTabLabels): icons, icons and text, or text; the
+ * kernel's Bootstrap Icons for the built-in panels, a named one for an extension's panel, the panel's name whenever
+ * there is no icon. Run with Node (no packages): node tests/js/tablabels.test.js (expwtPureTest runs it when Node
+ * is there). Prints PASS or FAIL lines and exits 1 on a failure.
+ *
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
+ * @license GNU General Public License v2.0 (or any later version)
+ * @package expwt
+ */
+'use strict';
+var fs = require('fs');
+var path = require('path');
+var vm = require('vm');
+
+var source = fs.readFileSync(path.join(__dirname, '../../design/standard/javascript/expwt.js'), 'utf8');
+var win = { customElements: { get: function () { return undefined; }, define: function () {} } };
+var sandbox = { window: win, document: {}, HTMLElement: function () {}, Document: function () {}, CSSStyleSheet: function () {}, Element: function () {} };
+sandbox.HTMLElement.prototype = {};
+vm.createContext(sandbox);
+vm.runInContext(source, sandbox, { filename: 'expwt.js' });
+var L = win.ExpwtTabLabels;
+var M = win.ExpwtPanelMemory;
+
+var failed = 0;
+function check(name, ok) {
+  console.log((ok ? 'PASS ' : 'FAIL ') + name);
+  if (!ok) { failed++; }
+}
+
+check('the helper is there', !!L);
+if (!L) {
+  console.log('FAIL the remaining checks need the helper');
+  process.exit(1);
+}
+
+var B = '/share/icons/bootstrap-icons/svg/';
+var BUILT_IN = ['welcome', 'page', 'create', 'structure', 'seo', 'sites', 'forms', 'newsletter', 'urls', 'calendar',
+  'export', 'insights', 'inbox', 'migrations', 'static', 'performance', 'me'];
+
+// mode: the user's choice, else the installation's, else icons
+check('mode: the user\'s choice', L.mode('both', 'text') === 'both');
+check('mode: no choice takes the installation\'s', L.mode('', 'text') === 'text');
+check('mode: an unknown choice takes the installation\'s', L.mode('words', 'text') === 'text');
+check('mode: nothing valid is icons', L.mode('x', 'y') === 'icons');
+check('mode: undefined is icons', L.mode(undefined, undefined) === 'icons');
+
+// the state keeps the choice, or '' for the installation's
+check('stateValue: icons', L.stateValue('icons') === 'icons');
+check('stateValue: both', L.stateValue('both') === 'both');
+check('stateValue: text', L.stateValue('text') === 'text');
+check('stateValue: unknown is the installation\'s', L.stateValue('icon') === '');
+check('stateValue: missing is the installation\'s', L.stateValue(undefined) === '');
+check('stateValue: a number is the installation\'s', L.stateValue(7) === '');
+
+// the choices of the Me and Welcome panels, in this order
+check('choices: icons, both, text', JSON.stringify(L.CHOICES) === JSON.stringify([['icons', 'Icons'], ['both', 'Icons and text'], ['text', 'Text']]));
+
+// icon names
+check('iconName: a name', L.iconName('file-earmark-text') && L.iconName('globe2'));
+check('iconName: no path', !L.iconName('../x') && !L.iconName('a/b'));
+check('iconName: no markup', !L.iconName('<svg>'));
+check('iconName: no empty or odd dashes', !L.iconName('') && !L.iconName('-a') && !L.iconName('a--b') && !L.iconName('A'));
+check('iconName: no array', !L.iconName(['house']));
+
+// every built-in panel has its own icon, and the kernel ships it
+check('ICONS: every built-in panel', BUILT_IN.every(function (id) { return typeof L.ICONS[id] === 'string'; }));
+check('ICONS: no other', Object.keys(L.ICONS).length === BUILT_IN.length);
+check('ICONS: no two the same', new Set(Object.keys(L.ICONS).map(function (k) { return L.ICONS[k]; })).size === BUILT_IN.length);
+check('ICONS: every name is a name', Object.keys(L.ICONS).every(function (k) { return L.iconName(L.ICONS[k]); }));
+var kernel = path.join(process.env.EXPONENTIAL_ROOT || process.cwd(), 'share/icons/bootstrap-icons/svg');
+if (fs.existsSync(kernel)) {
+  var missing = Object.keys(L.ICONS).filter(function (k) { return !fs.existsSync(path.join(kernel, L.ICONS[k] + '.svg')); });
+  check('ICONS: the kernel ships every one' + (missing.length ? ' (missing: ' + missing.join(', ') + ')' : ''), missing.length === 0);
+} else {
+  console.log('SKIP ICONS: the kernel ships every one (no ' + kernel + '; run from the installation\'s root or set EXPONENTIAL_ROOT)');
+}
+
+// parts: what a tab shows
+var p = L.parts({ id: 'page', label: 'Page' }, 'icons', B);
+check('icons: the icon', p.icon === B + 'file-earmark-text.svg');
+check('icons: no visible name', p.text === false);
+check('icons: the name stays', p.name === 'Page');
+p = L.parts({ id: 'page', label: 'Page' }, 'both', B);
+check('icons and text: icon and name', p.icon === B + 'file-earmark-text.svg' && p.text === true);
+p = L.parts({ id: 'page', label: 'Page' }, 'text', B);
+check('text: no icon, the name', p.icon === null && p.text === true);
+p = L.parts({ id: 'page', label: 'Page' }, 'icons', '');
+check('a kernel without the icon set: the name', p.icon === null && p.text === true && p.name === 'Page');
+p = L.parts({ id: 'shop', label: 'Shop' }, 'icons', B);
+check('an extension\'s panel without an icon: its label', p.icon === null && p.text === true && p.name === 'Shop');
+p = L.parts({ id: 'shop', label: 'Shop', icon: 'cart' }, 'icons', B);
+check('an extension\'s panel with an icon', p.icon === B + 'cart.svg' && p.text === false && p.name === 'Shop');
+p = L.parts({ id: 'shop', label: 'Shop', icon: '../x' }, 'icons', B);
+check('an extension\'s icon that is no name: its label', p.icon === null && p.text === true);
+p = L.parts({ id: 'shop', label: 'Shop', icon: '' }, 'icons', B);
+check('an extension\'s empty icon: its label', p.icon === null && p.text === true);
+p = L.parts({ id: 'toString', label: 'X' }, 'icons', B);
+check('no icon from the object\'s prototype', p.icon === null && p.text === true);
+p = L.parts({ id: 'static', label: 'Statisch veröffentlichen' }, 'icons', B);
+check('static publishing: the kernel\'s label and the built-in icon', p.name === 'Statisch veröffentlichen' && p.icon === B + L.ICONS['static'] + '.svg');
+
+// fill: the button of a tab, with a stand-in for the sidebar's element factory
+function fake(tag, attrs, children) {
+  var el = { tag: tag, attrs: {}, children: [], props: {}, text: '' };
+  el.style = { setProperty: function (k, v) { el.props[k] = v; } };
+  el.setAttribute = function (k, v) { el.attrs[k] = String(v); };
+  el.getAttribute = function (k) { return Object.prototype.hasOwnProperty.call(el.attrs, k) ? el.attrs[k] : null; };
+  el.removeAttribute = function (k) { delete el.attrs[k]; };
+  el.appendChild = function (c) { el.children.push(c); return c; };
+  Object.keys(attrs || {}).forEach(function (k) {
+    if (k === 'text') { el.text = attrs[k]; } else if (attrs[k] !== null && attrs[k] !== undefined) { el.attrs[k] = String(attrs[k]); }
+  });
+  (children || []).forEach(function (c) { el.children.push(typeof c === 'string' ? { tag: '#text', text: c } : c); });
+  return el;
+}
+function byClass(el, cls) {
+  return el.children.filter(function (c) { return c.attrs && (' ' + (c.attrs['class'] || '') + ' ').indexOf(' ' + cls + ' ') >= 0; });
+}
+
+var b = fake('button');
+L.fill(b, L.parts({ id: 'page', label: 'Page' }, 'icons', B), fake);
+var ic = byClass(b, 'wt-tab-icon');
+check('fill icons: one icon', ic.length === 1);
+check('fill icons: the icon is hidden from screen readers', ic.length === 1 && ic[0].attrs['aria-hidden'] === 'true');
+check('fill icons: the icon by a custom property, not a style attribute', ic.length === 1 && ic[0].props['--wt-icon'] === 'url("' + B + 'file-earmark-text.svg")' && !('style' in ic[0].attrs));
+check('fill icons: the name for screen readers', byClass(b, 'wt-sr').length === 1 && byClass(b, 'wt-sr')[0].text === 'Page');
+check('fill icons: no visible name', byClass(b, 'wt-tab-text').length === 0);
+check('fill icons: the tooltip', b.attrs.title === 'Page');
+
+b = fake('button');
+L.fill(b, L.parts({ id: 'page', label: 'Page' }, 'both', B), fake);
+check('fill icons and text: icon and visible name', byClass(b, 'wt-tab-icon').length === 1 && byClass(b, 'wt-tab-text').length === 1 && byClass(b, 'wt-tab-text')[0].text === 'Page');
+check('fill icons and text: no hidden name, no tooltip', byClass(b, 'wt-sr').length === 0 && !('title' in b.attrs));
+
+b = fake('button');
+L.fill(b, L.parts({ id: 'page', label: 'Page' }, 'text', B), fake);
+check('fill text: the name only', byClass(b, 'wt-tab-icon').length === 0 && byClass(b, 'wt-tab-text').length === 1 && byClass(b, 'wt-sr').length === 0);
+
+// a badge the sidebar adds after fill stays beside the label
+b = fake('button');
+L.fill(b, L.parts({ id: 'inbox', label: 'Inbox' }, 'icons', B), fake);
+b.appendChild(fake('span', { 'class': 'wt-badge', 'data-badge': 'waiting' }, [fake('span', { 'aria-hidden': 'true', text: '3' }), fake('span', { 'class': 'wt-sr', text: ' 3 new in your inbox' })]));
+check('badge on an icon tab: icon, name and badge', byClass(b, 'wt-tab-icon').length === 1 && byClass(b, 'wt-sr').length === 1 && byClass(b, 'wt-badge').length === 1);
+check('badge on an icon tab: the name first, then the badge', b.children.indexOf(byClass(b, 'wt-sr')[0]) < b.children.indexOf(byClass(b, 'wt-badge')[0]));
+
+// the choice kept on this device wins over the server's after the boot answer, as the theme does
+var s = M.onBoot({ labels: 'text', theme: 'dark' }, { labels: 'both' }, false);
+check('onBoot: this device\'s unsent choice over the server\'s', s.labels === 'both' && s.theme === 'dark');
+s = M.onBoot({ labels: 'text' }, null, false);
+check('onBoot: the server\'s choice on another device', s.labels === 'text');
+
+console.log(failed ? 'FAIL ' + failed + ' failed' : 'PASS all');
+process.exit(failed ? 1 : 0);

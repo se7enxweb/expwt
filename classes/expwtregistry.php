@@ -4,7 +4,8 @@
  *
  *   panel            a panel of its own (a tab beside Page, Create, Structure ...): its label, the script that draws it
  *                    (in the extension's design, javascript/), optionally a stylesheet for it (stylesheets/), where
- *                    its tab goes, and who sees it
+ *                    its tab goes, who sees it, and optionally its icon (Icon: the name of one of the kernel's
+ *                    Bootstrap Icons, share/icons/bootstrap-icons/svg/<name>.svg)
  *   action           a server action of the extension, answered by its class through the sidebar's data layer
  *                    (expwt/api, /api/expwt/v1, GraphQL): the same checks, CSRF token and "Verify it's you" as the
  *                    sidebar's own actions; named <extension>.<name>
@@ -63,6 +64,9 @@ class expwtRegistry
                          'highlights' => array( 'HighlightList', 'Highlight_' ),
                          'search' => array( 'SearchProviderList', 'SearchProvider_' ) );
 
+    /** @var string|null where share/icons/bootstrap-icons is looked for; null: eZSys::rootDir() (a test sets it) */
+    public static $iconRoot = null;
+
     /** @var array a registry of no entries */
     const EMPTY_REGISTRY = array( 'panels' => array(), 'actions' => array(), 'highlights' => array(), 'search' => array() );
 
@@ -110,11 +114,20 @@ class expwtRegistry
             else if ( !is_array( $s ) || !self::file( self::get( $s, 'Script' ), 'js' ) || self::get( $s, 'Label' ) === '' )
                 $refuse( 'panel', $id, 'Label and Script (a .js file name) are needed' );
             else
+            {
+                $icon = self::get( $s, 'Icon' );
+                if ( $icon !== '' && !self::isKernelIcon( $icon ) )
+                {
+                    $refuse( 'panel', $id, "the icon $icon is not in share/icons/bootstrap-icons" );
+                    $icon = '';
+                }
                 $out['panels'][$id] = array( 'id' => $id, 'label' => self::get( $s, 'Label' ), 'context' => self::context( $s ),
+                                             'icon' => $icon,
                                              'script' => self::get( $s, 'Script' ),
                                              'stylesheet' => self::file( self::get( $s, 'Stylesheet' ), 'css' ) ? self::get( $s, 'Stylesheet' ) : '',
                                              'before' => in_array( self::get( $s, 'Before' ), self::CORE_PANELS, true ) ? self::get( $s, 'Before' ) : 'me' )
                                       + self::who( $s );
+            }
         }
         foreach ( isset( $raw['actions'] ) ? (array)$raw['actions'] : array() as $id => $s )
         {
@@ -214,6 +227,7 @@ class expwtRegistry
             $out['actions'][$e['id']] = array( 'writes' => $e['writes'] );
         foreach ( $registry['panels'] as $e )
             $out['panels'][] = array( 'id' => $e['id'], 'label' => call_user_func( $tr, $e['context'], $e['label'] ), 'before' => $e['before'],
+                                      'icon' => isset( $e['icon'] ) ? $e['icon'] : '',
                                       'script' => call_user_func( $url, 'js', $e['script'] ),
                                       'stylesheet' => $e['stylesheet'] !== '' ? call_user_func( $url, 'css', $e['stylesheet'] ) : '' );
         foreach ( $registry['highlights'] as $e )
@@ -222,6 +236,15 @@ class expwtRegistry
         foreach ( $registry['search'] as $e )
             $out['search'][] = array( 'id' => $e['id'], 'label' => call_user_func( $tr, $e['context'], $e['label'] ), 'action' => $e['action'] );
         return $out;
+    }
+
+    /** @return bool the name of one of the kernel's Bootstrap Icons (share/icons/bootstrap-icons/svg/<name>.svg) */
+    public static function isKernelIcon( $name )
+    {
+        if ( !is_string( $name ) || !preg_match( '/^[a-z0-9]+(-[a-z0-9]+)*$/', $name ) )
+            return false;
+        $root = self::$iconRoot !== null ? self::$iconRoot : ( class_exists( 'eZSys' ) ? eZSys::rootDir() : '' );
+        return $root !== '' && is_file( rtrim( $root, '/' ) . '/share/icons/bootstrap-icons/svg/' . $name . '.svg' );
     }
 
     /** @return bool an action name of an extension: <extension>.<name> */

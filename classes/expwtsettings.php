@@ -27,6 +27,8 @@ class expwtSettings
         'max_height' => 640,
         'overlay_below_width' => 768,
         'shortcut_key' => 'E',
+        // how the tabs are labelled for a user who did not choose: icons, both (icons and text) or text
+        'tab_labels' => 'icons',
         'header_selector' => 'header, [role=banner], #header, .header',
         'footer_selector' => 'footer, [role=contentinfo], #cookie-bar, .cookie-bar, #cookie-banner, .cookie-banner, #cookie-consent, .cookie-consent, .cc-window, #CybotCookiebotDialog, #onetrust-banner-sdk',
         'show_in_admin' => false,
@@ -44,6 +46,9 @@ class expwtSettings
     const DEVICE_MIN = 240;
     const DEVICE_MAX_WIDTH = 2560;
     const DEVICE_MAX_HEIGHT = 2400;
+
+    /** How the tabs may be labelled: the icon alone, the icon and the panel's name, the name alone */
+    const TAB_LABELS = array( 'icons', 'both', 'text' );
 
     /** The data layers a setting may name */
     const DATA_LAYERS = array( 'rest', 'graphql' );
@@ -80,6 +85,7 @@ class expwtSettings
         $s['lock_seconds'] = max( 30, $s['lock_seconds'] );
         $key = strtoupper( substr( trim( (string)$s['shortcut_key'] ), 0, 1 ) );
         $s['shortcut_key'] = preg_match( '/^[A-Z0-9]$/', $key ) ? $key : 'E';
+        $s['tab_labels'] = in_array( $s['tab_labels'], self::TAB_LABELS, true ) ? $s['tab_labels'] : 'icons';
         $s['header_selector'] = trim( (string)$s['header_selector'] );
         $s['footer_selector'] = trim( (string)$s['footer_selector'] );
         $s['hidden_classes'] = array_values( array_filter( array_map( 'strval', (array)$s['hidden_classes'] ), 'strlen' ) );
@@ -144,6 +150,7 @@ class expwtSettings
         $read( 'ExpwtSettings', 'MaxHeight', 'max_height' );
         $read( 'ExpwtSettings', 'OverlayBelowWidth', 'overlay_below_width' );
         $read( 'ExpwtSettings', 'ShortcutKey', 'shortcut_key' );
+        $read( 'ExpwtSettings', 'TabLabels', 'tab_labels' );
         $read( 'ExpwtSettings', 'HeaderSelector', 'header_selector' );
         $read( 'ExpwtSettings', 'FooterSelector', 'footer_selector' );
         $read( 'ExpwtSettings', 'ShowInAdmin', 'show_in_admin' );

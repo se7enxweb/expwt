@@ -101,6 +101,7 @@ class expwtHook
                 'minWidth' => $settings['min_width'], 'maxWidth' => $settings['max_width'],
                 'height' => $settings['default_height'], 'minHeight' => $settings['min_height'], 'maxHeight' => $settings['max_height'],
                 'overlayBelow' => $settings['overlay_below_width'], 'key' => $settings['shortcut_key'],
+                'labels' => $settings['tab_labels'], 'icons' => self::iconBase( eZSys::rootDir(), eZSys::wwwDir() ),
                 'header' => $settings['header_selector'], 'footer' => $settings['footer_selector'],
                 'login' => $url( '/user/login' ), 'register' => $url( '/user/register' ), 'search' => $url( '/content/search' ),
                 'strings' => expwtStrings::tab(),
@@ -111,6 +112,21 @@ class expwtHook
         if ( $brand )
             $context['config']['brand'] = $brand;
         return $context;
+    }
+
+    /**
+     * Where the kernel's Bootstrap Icons are (share/icons/bootstrap-icons, the set of its bootstrap-icons icon theme),
+     * as the address of their directory; '' on a kernel without them, whose tabs then show their names.
+     *
+     * @param string $rootDir eZSys::rootDir()
+     * @param string $wwwDir eZSys::wwwDir(): '' or the site's subdirectory
+     * @return string
+     */
+    public static function iconBase( $rootDir, $wwwDir )
+    {
+        if ( !is_dir( rtrim( (string)$rootDir, '/' ) . '/share/icons/bootstrap-icons/svg' ) )
+            return '';
+        return rtrim( (string)$wwwDir, '/' ) . '/share/icons/bootstrap-icons/svg/';
     }
 
     /** @return bool the page is shown in the sidebar's frame (?in=sidebar: a field's editor, its browse): no sidebar in it */

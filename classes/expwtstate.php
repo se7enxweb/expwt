@@ -24,6 +24,8 @@ class expwtState
     const PANELS = array( 'page', 'create', 'structure', 'seo', 'sites', 'forms', 'newsletter', 'urls', 'calendar', 'export', 'insights', 'inbox', 'migrations', 'static', 'performance', 'me' );
     const MODES = array( 'push', 'overlay' );
     const THEMES = array( 'auto', 'light', 'dark' );
+    /** The user's choice of tab labels; '' (no choice) follows the installation's TabLabels, also when it changes */
+    const LABELS = array( 'icons', 'both', 'text' );
     /** The edges the sidebar docks to: a vertical panel on left and right, a horizontal bar on top and bottom */
     const EDGES = array( 'left', 'right', 'top', 'bottom' );
     /** Where the tab of a top or bottom bar is anchored: start (the left end), end (the right end) */
@@ -50,7 +52,7 @@ class expwtState
     {
         return array( 'edge' => $settings['default_edge'], 'align' => $settings['default_align'], 'offset' => 0,
                       'width' => $settings['default_width'], 'height' => $settings['default_height'],
-                      'open' => false, 'mode' => 'push', 'theme' => 'auto', 'panel' => 'page', 'keys' => array() );
+                      'open' => false, 'mode' => 'push', 'theme' => 'auto', 'labels' => '', 'panel' => 'page', 'keys' => array() );
     }
 
     /**
@@ -115,6 +117,8 @@ class expwtState
             $s['mode'] = $state['mode'];
         if ( isset( $state['theme'] ) && in_array( $state['theme'], self::THEMES, true ) )
             $s['theme'] = $state['theme'];
+        if ( isset( $state['labels'] ) && in_array( $state['labels'], self::LABELS, true ) )
+            $s['labels'] = $state['labels'];
         // a panel of the sidebar, or of an extension (decision 32: its id; the sidebar opens Page when it is not there)
         if ( isset( $state['panel'] ) && is_string( $state['panel'] ) && ( in_array( $state['panel'], self::PANELS, true ) || preg_match( '/^[a-z][a-z0-9_]{0,39}$/', $state['panel'] ) ) )
             $s['panel'] = $state['panel'];

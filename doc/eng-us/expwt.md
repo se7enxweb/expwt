@@ -90,6 +90,14 @@ extensions. A dry run lists the changes first.
   change the server has not confirmed yet wins over the server's copy on the next page. Exceptions: with unsaved
   changes of the page, and while editing on the page, the Page panel opens; a panel the user no longer has opens the
   first one.
+- **Tab labels:** how the panels' tabs and the closed tab are labelled: **Icons** (the icon alone; the panel's name
+  stays the tab's tooltip and what screen readers say), **Icons and text**, or **Text** (the name alone). Each user
+  chooses in the Me panel, a visitor in the Welcome panel; kept like the sidebar's other settings. Without a choice the
+  installation's `TabLabels` applies (shipped: icons), also when it is changed later. The icons are the kernel's
+  Bootstrap Icons (`share/icons/bootstrap-icons`, the set the admin4 design uses), drawn in the sidebar's text color in
+  light and dark; a tab without an icon (an extension's panel without one, or a kernel without the set) shows its
+  name in every choice. Badges stay on their tab in every choice. Up to this version the tabs showed their names
+  only; `TabLabels=text` keeps them that way.
 - **Light or dark:** the user's choice for the sidebar, else their choice for the administration (light or dark: it
   wins on every design), else the page's: on a site design with its own light/dark switch (the media designs:
   site, smarty, twig) the mode that switch shows, followed at once when it is flipped; elsewhere the system's.
@@ -593,6 +601,7 @@ order, and the value in effect.
 | `DefaultHeight`, `MinHeight`, `MaxHeight` | 280, 160, 640 | a first visit's height of the bar on top and bottom, the limits |
 | `OverlayBelowWidth` | 768 | narrower windows get the panel over the page |
 | `ShortcutKey` | E | the letter of Alt+Shift+<key> that opens the sidebar for a user who has not chosen another (Me panel) |
+| `TabLabels` | icons | how the tabs are labelled for a user who has not chosen (Me panel): `icons`, `both` (icons and text) or `text`; any other value counts as `icons` |
 | `HeaderSelector` | header, [role=banner], #header, .header | the site header the tab and the top bar sit below |
 | `FooterSelector` | footer, [role=contentinfo], cookie bars | what the site may fix to the bottom of the window; the bottom bar sits above whichever of them is fixed or sticky there |
 | `[CreateSettings] HiddenClassList[]` | common_ini_settings | classes Create never offers |
@@ -624,6 +633,7 @@ Label=Page cache
 Context=extension/expwtexample
 Script=expwtexample-expwt.js
 Stylesheet=expwtexample-expwt.css
+Icon=speedometer
 Before=me
 Function=use
 Policy[]=setup/managecache
@@ -648,6 +658,7 @@ Action=expwtexample.search
 |---|---|
 | `Label`, `Context` | the English source of the tab's or entry's name, and the translation context it is translated in |
 | `Script`, `Stylesheet` | file names in the extension's design (`javascript/`, `stylesheets/`; the design needs `DesignExtensions[]`) |
+| `Icon` | the tab's icon: the name of one of the kernel's Bootstrap Icons (`share/icons/bootstrap-icons/svg/<name>.svg`, e.g. `speedometer`); none, or a name the kernel does not ship (named among the refusals): the tab shows its label also when icons are chosen |
 | `Before` | the panel of the sidebar whose tab this panel's tab stands before (default `me`) |
 | `Function` | the expwt function needed (`use`, `edit`, `create`, `structure`, `layouts`, `templates`, `shop`, `admin`; default `use`) |
 | `Policy[]` | kernel policies needed, all of them (`module/function`) |

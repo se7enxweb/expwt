@@ -1738,6 +1738,7 @@
       prefs.appendChild(radios(t('When open'), 'wt-mode', [['push', t('Beside the page')], ['overlay', t('Over the page')]], ctx.state.mode,
         function (v) { ctx.setState({ mode: v }); }));
       prefs.appendChild(ctx.host.themeChooser());
+      prefs.appendChild(ctx.host.labelChooser());
       var only = h('input', { type: 'checkbox', id: 'wt-device', checked: ctx.deviceOnly(), onchange: function () { ctx.deviceOnly(only.checked); } });
       prefs.appendChild(h('label', { class: 'wt-check', for: 'wt-device' }, [only, t('Keep these settings only on this device')]));
       root.appendChild(prefs);

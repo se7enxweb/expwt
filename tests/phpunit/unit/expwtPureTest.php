@@ -402,7 +402,7 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
         $state = expwtState::normalize( array( 'edge' => 'top', 'align' => 'start', 'offset' => '120', 'width' => 99999, 'height' => 5,
                                                'open' => 'true', 'mode' => 'overlay', 'theme' => 'dark', 'panel' => 'me', 'evil' => '<script>' ), $s );
         $this->assertSame( array( 'edge' => 'top', 'align' => 'start', 'offset' => 120, 'width' => 720, 'height' => 160, 'open' => true,
-                                  'mode' => 'overlay', 'theme' => 'dark', 'panel' => 'me', 'keys' => array() ), $state );
+                                  'mode' => 'overlay', 'theme' => 'dark', 'labels' => '', 'panel' => 'me', 'keys' => array() ), $state );
         $bad = expwtState::normalize( array( 'edge' => 'middle', 'align' => 'center', 'height' => 99999 ), $s );
         $this->assertSame( array( 'right', 'end', 640 ), array( $bad['edge'], $bad['align'], $bad['height'] ) );
         $this->assertSame( expwtState::defaults( $s ), expwtState::normalize( 'nonsense', $s ) );
@@ -1129,5 +1129,19 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
         $this->assertSame( 'disabled', $groups['Comments']['HideNew'] );
         $this->assertSame( expwtBranding::fromArray( array() ), expwtBranding::fromIni( $ini ), 'no branding shipped' );
         $this->assertSame( array(), $groups['RolePanelSettings']['RoleList'], 'no panels per role shipped' );
+    }
+
+
+    /** The tabs' labels: icons, icons and text, text, and the kernel's icons (tests/js/tablabels.test.js, Node) */
+    public function testTheTabLabels()
+    {
+        $node = trim( (string)shell_exec( 'command -v node 2>&1' ) );
+        if ( $node === '' || !is_executable( $node ) )
+            $this->markTestSkipped( 'Node is not installed' );
+        // run from the installation's root: the test checks that the kernel ships every icon
+        exec( 'cd ' . escapeshellarg( getcwd() ) . ' && ' . escapeshellarg( $node ) . ' '
+              . escapeshellarg( dirname( __DIR__, 2 ) . '/js/tablabels.test.js' ) . ' 2>&1', $out, $status );
+        $this->assertSame( 0, $status, implode( "\n", $out ) );
+        $this->assertStringStartsWith( 'PASS', (string)end( $out ) );
     }
 }

@@ -17,6 +17,8 @@ Label=Page cache
 Context=extension/expwtexample
 Script=expwtexample-expwt.js
 Stylesheet=expwtexample-expwt.css
+# Its tab's icon: one of the kernel's Bootstrap Icons (share/icons/bootstrap-icons/svg/<name>.svg); none: its label
+Icon=speedometer
 Before=me
 Function=use
 Policy[]=setup/managecache

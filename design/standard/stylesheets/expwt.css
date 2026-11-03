@@ -529,6 +529,27 @@ select:focus-visible, textarea:focus-visible, [contenteditable]:focus-visible, [
 }
 .wt-tabs [role="tab"][aria-selected="true"] { font-weight: var(--a4-weight-strong); }
 .wt-tabs [role="tab"]:hover { color: var(--a4-ink); }
+/* The tabs' labels (expwt.ini TabLabels, the user's choice in the Me panel): the kernel's Bootstrap Icons drawn as a
+   mask in the text's color, so hover, the selected tab and the dark mode color them as they color the text; the
+   name beside it, or for screen readers only (icons). The closed tab hides its word (icons) or its icon (text). */
+.wt-tabs [role="tab"] { display: inline-flex; align-items: center; gap: var(--a4-space-1); }
+.wt-tabs .wt-tab-icon {
+  display: block;
+  flex: none;
+  inline-size: var(--a4-space-4);
+  block-size: var(--a4-space-4);
+  color: inherit;
+  background-color: currentColor;
+  -webkit-mask: var(--wt-icon) center / contain no-repeat;
+  mask: var(--wt-icon) center / contain no-repeat;
+}
+:host([data-labels="icons"]) .wt-tabs [role="tab"] { justify-content: center; min-inline-size: var(--a4-space-6); min-block-size: var(--a4-space-6); padding-inline: var(--a4-space-1); }
+:host([data-labels="icons"]) .wt-tab-label { display: none; }
+:host([data-labels="text"]) .wt-tab > .wt-tab-icon { display: none; }
+@media (forced-colors: active) {
+  .wt-tabs .wt-tab-icon { background-color: CanvasText; }
+  .wt-tabs [role="tab"][aria-selected="true"] .wt-tab-icon { background-color: HighlightText; }
+}
 
 .wt-body { flex: 1; overflow: auto; padding: var(--a4-space-4); }
 .wt-status { min-block-size: var(--a4-space-5); padding: var(--a4-space-2) var(--a4-space-4); border-block-start: 1px solid var(--a4-line); color: var(--a4-muted); font-size: var(--a4-text-s); }

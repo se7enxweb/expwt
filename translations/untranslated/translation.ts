@@ -1364,6 +1364,22 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Tab labels</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Thank you. You can go back to the page; this window closes by itself.</source>
         <translation type="unfinished"></translation>
     </message>
