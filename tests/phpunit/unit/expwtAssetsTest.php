@@ -204,7 +204,8 @@ class expwtAssetsTest extends PHPUnit\Framework\TestCase
         $this->assertMatchesRegularExpression( '/\.wt-tabs \.wt-tab-icon\s*\{[^}]*-webkit-mask: var\(--wt-icon\)[^}]*\}/', $css );
         $this->assertMatchesRegularExpression( '/\.wt-tabs \.wt-tab-icon\s*\{[^}]*[^-]mask: var\(--wt-icon\)[^}]*\}/', $css );
         $this->assertMatchesRegularExpression( '/\.wt-tabs \.wt-tab-icon\s*\{[^}]*background-color: currentColor[^}]*\}/', $css, 'the text color: hover, selected and dark follow' );
-        $this->assertMatchesRegularExpression( '/@media \(forced-colors: active\)\s*\{[^@]*\.wt-tabs \.wt-tab-icon/', $css, 'high contrast of the system' );
+        $this->assertMatchesRegularExpression( '/@media \(forced-colors: active\)\s*\{[^@]*\.wt-tabs \.wt-tab-icon \{ forced-color-adjust: none; background-color: currentColor; \}/', $css, 'high contrast: the system would replace the masked background, so the icon keeps the text color' );
+        $this->assertMatchesRegularExpression( '/@media \(forced-colors: active\)\s*\{[^@]*\[aria-selected="true"\] \{ forced-color-adjust: none; background: Highlight;/', $css, 'high contrast: the selected tab is Highlight' );
         $this->assertMatchesRegularExpression( '/:host\(\[data-labels="icons"\]\) \.wt-tabs \[role="tab"\]\s*\{[^}]*min-inline-size/', $css, 'icons: a hit area of its own' );
     }
 

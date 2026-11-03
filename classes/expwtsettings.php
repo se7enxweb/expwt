@@ -85,7 +85,8 @@ class expwtSettings
         $s['lock_seconds'] = max( 30, $s['lock_seconds'] );
         $key = strtoupper( substr( trim( (string)$s['shortcut_key'] ), 0, 1 ) );
         $s['shortcut_key'] = preg_match( '/^[A-Z0-9]$/', $key ) ? $key : 'E';
-        $s['tab_labels'] = in_array( $s['tab_labels'], self::TAB_LABELS, true ) ? $s['tab_labels'] : 'icons';
+        $labels = is_string( $s['tab_labels'] ) ? strtolower( trim( $s['tab_labels'] ) ) : '';
+        $s['tab_labels'] = in_array( $labels, self::TAB_LABELS, true ) ? $labels : 'icons';
         $s['header_selector'] = trim( (string)$s['header_selector'] );
         $s['footer_selector'] = trim( (string)$s['footer_selector'] );
         $s['hidden_classes'] = array_values( array_filter( array_map( 'strval', (array)$s['hidden_classes'] ), 'strlen' ) );

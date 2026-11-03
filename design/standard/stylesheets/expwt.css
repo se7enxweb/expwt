@@ -546,9 +546,11 @@ select:focus-visible, textarea:focus-visible, [contenteditable]:focus-visible, [
 :host([data-labels="icons"]) .wt-tabs [role="tab"] { justify-content: center; min-inline-size: var(--a4-space-6); min-block-size: var(--a4-space-6); padding-inline: var(--a4-space-1); }
 :host([data-labels="icons"]) .wt-tab-label { display: none; }
 :host([data-labels="text"]) .wt-tab > .wt-tab-icon { display: none; }
+/* Forced colors: the system replaces every background, the icon's too (its mask would draw nothing), so the icon
+   keeps the text color it is drawn in; the selected tab, whose accent fill is replaced as well, is Highlight. */
 @media (forced-colors: active) {
-  .wt-tabs .wt-tab-icon { background-color: CanvasText; }
-  .wt-tabs [role="tab"][aria-selected="true"] .wt-tab-icon { background-color: HighlightText; }
+  .wt-tabs .wt-tab-icon { forced-color-adjust: none; background-color: currentColor; }
+  .wt-tabs [role="tab"][aria-selected="true"] { forced-color-adjust: none; background: Highlight; border-color: Highlight; color: HighlightText; }
 }
 
 .wt-body { flex: 1; overflow: auto; padding: var(--a4-space-4); }

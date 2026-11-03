@@ -177,7 +177,7 @@
      (the icon and the name) or text (the name alone). The user's choice (state.labels, '' for none) over the
      installation's (cfg.labels, expwt.ini TabLabels). The icons are the kernel's Bootstrap Icons
      (share/icons/bootstrap-icons/svg, cfg.icons; '' on a kernel without them): a built-in panel's by its id, an
-     extension's by the name its registration gives. A tab without an icon shows its name in every choice. */
+     extension's by the name its registration gives, else FALLBACK. Without the icon set every tab shows its name. */
   var TabLabels = {
     CHOICES: [['icons', 'Icons'], ['both', 'Icons and text'], ['text', 'Text']],
     ICONS: {
@@ -186,6 +186,8 @@
       export: 'download', insights: 'bar-chart-line', inbox: 'inbox', migrations: 'database', static: 'upload',
       performance: 'speedometer2', me: 'person-circle'
     },
+    /* the icon of an extension's panel that names none, or one the kernel does not ship */
+    FALLBACK: 'puzzle',
     valid: function (v) {
       return TabLabels.CHOICES.some(function (c) { return c[0] === v; });
     },
@@ -200,7 +202,7 @@
     },
     parts: function (panel, mode, base) {
       var name = TabLabels.iconName(panel.icon) ? panel.icon
-        : (Object.prototype.hasOwnProperty.call(TabLabels.ICONS, panel.id) ? TabLabels.ICONS[panel.id] : '');
+        : (Object.prototype.hasOwnProperty.call(TabLabels.ICONS, panel.id) ? TabLabels.ICONS[panel.id] : TabLabels.FALLBACK);
       var icon = mode !== 'text' && base && name ? base + name + '.svg' : null;
       return { icon: icon, text: mode !== 'icons' || icon === null, name: String(panel.label || '') };
     },

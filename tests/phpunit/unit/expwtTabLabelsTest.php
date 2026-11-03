@@ -42,6 +42,8 @@ class expwtTabLabelsTest extends PHPUnit\Framework\TestCase
         $this->assertSame( 'text', expwtSettings::fromArray( array( 'tab_labels' => 'text' ) )['tab_labels'] );
         $this->assertSame( 'both', expwtSettings::fromArray( array( 'tab_labels' => 'both' ) )['tab_labels'] );
         $this->assertSame( 'icons', expwtSettings::fromArray( array( 'tab_labels' => 'icons' ) )['tab_labels'] );
+        $this->assertSame( 'both', expwtSettings::fromArray( array( 'tab_labels' => ' Both ' ) )['tab_labels'], 'case and spaces of an INI value' );
+        $this->assertSame( 'text', expwtSettings::fromArray( array( 'tab_labels' => 'TEXT' ) )['tab_labels'] );
     }
 
     public function testTabLabelsUnknownValueIsIcons()
