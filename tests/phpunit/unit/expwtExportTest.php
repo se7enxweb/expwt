@@ -143,4 +143,23 @@ class expwtExportTest extends PHPUnit\Framework\TestCase
         $this->assertSame( array( 3600, 86400 ), array_column( expwtGateway::shareLifetimes( 172800, 3600 ), 'seconds' ) );
         $this->assertSame( array( array( 'seconds' => 1800, 'chosen' => true ) ), expwtGateway::shareLifetimes( 1800, 1800 ) );
     }
+
+    /** A link's address only for its creator or a user who may share that version; never for an ended link */
+    public function testShareLinkAddressOnlyForItsCreatorOrASharer()
+    {
+        $asked = 0;
+        $no = function () use ( &$asked ) { $asked++; return false; };
+        $yes = function () { return true; };
+        $link = array( 'id' => 'a', 'object' => 59, 'version' => 3, 'creator' => 14, 'state' => 'active' );
+        $this->assertTrue( expwtGateway::shareLinkShowsUrl( $link, 14, $no ), 'the creator' );
+        $this->assertSame( 0, $asked, 'the creator is not asked about the version' );
+        $this->assertFalse( expwtGateway::shareLinkShowsUrl( $link, 15, $no ), "another editor's link has no address" );
+        $this->assertSame( 1, $asked );
+        $this->assertTrue( expwtGateway::shareLinkShowsUrl( $link, 15, $yes ), 'a user who may share that version' );
+        $this->assertTrue( expwtGateway::shareLinkShowsUrl( array( 'creator' => '14' ) + $link, 14, $no ), 'the creator as a string' );
+        $this->assertFalse( expwtGateway::shareLinkShowsUrl( array( 'creator' => 0 ) + $link, 0, $no ), 'nobody is not the creator' );
+        foreach ( array( 'expired', 'revoked' ) as $state )
+            $this->assertFalse( expwtGateway::shareLinkShowsUrl( array( 'state' => $state ) + $link, 14, $yes ), "an $state link" );
+        $this->assertFalse( expwtGateway::shareLinkShowsUrl( array( 'id' => 'b', 'creator' => 14 ), 14, $yes ), 'a link without its state' );
+    }
 }

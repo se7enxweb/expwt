@@ -399,13 +399,40 @@ class expwtGateway
         return $out;
     }
 
-    /** @return array[] the object's links for the panel: never a token of an ended link */
+    /**
+     * Pure: whether the panel gets a link's address (its token): only for an active link, and only for its creator or
+     * a user who may share that version (expContentPreviewLink::mayShare). Everyone else who sees the page's links
+     * sees that the link is there, never where it leads: another editor's draft stays theirs.
+     *
+     * @param array $link a link of expContentPreviewLink::listFor()
+     * @param int $userId the current user
+     * @param callable $mayShare function ( array $link ): bool, asked only when the user did not create the link
+     * @return bool
+     */
+    public static function shareLinkShowsUrl( array $link, $userId, $mayShare )
+    {
+        if ( !isset( $link['state'] ) || $link['state'] !== 'active' )
+            return false;
+        if ( isset( $link['creator'] ) && (int)$link['creator'] === (int)$userId && (int)$userId > 0 )
+            return true;
+        return (bool)call_user_func( $mayShare, $link );
+    }
+
+    /** @return bool the current user may share the version of the link (content/versionread and edit of the kernel) */
+    protected function mayShareLinkVersion( array $link )
+    {
+        $version = isset( $link['object'], $link['version'] ) ? eZContentObjectVersion::fetchVersion( (int)$link['version'], (int)$link['object'] ) : null;
+        return $version instanceof eZContentObjectVersion && expContentPreviewLink::mayShare( $version );
+    }
+
+    /** @return array[] the object's links for the panel: never a token of an ended link, nor of a link the user may not share */
     protected function shareLinkList( $objectId )
     {
         $out = array();
         foreach ( expContentPreviewLink::listFor( $objectId ) as $link )
         {
-            $token = $link['state'] === 'active' ? expContentPreviewLink::tokenFor( $link ) : null;
+            $token = self::shareLinkShowsUrl( $link, $this->userId(), function ( $l ) { return $this->mayShareLinkVersion( $l ); } )
+                   ? expContentPreviewLink::tokenFor( $link ) : null;
             $creator = eZContentObject::fetch( $link['creator'] );
             $out[] = array( 'id' => $link['id'], 'version' => $link['version'], 'language' => $link['language'], 'state' => $link['state'],
                             'created' => $link['created'], 'expires' => $link['expires'], 'revoked' => $link['revoked'],
