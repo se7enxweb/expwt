@@ -1534,6 +1534,7 @@
     }
 
     request(method, url, body, headers, opts) {
+      var self = this;
       var init = { method: method, credentials: 'same-origin', headers: Object.assign({ 'X-Requested-With': 'XMLHttpRequest', Accept: 'application/json' }, headers || {}) };
       if (body !== null) {
         init.body = body;
@@ -1547,12 +1548,13 @@
           var data = null;
           try { data = JSON.parse(text); } catch (e) { data = null; }
           /* a kernel answer the debug report was added to (the "Verify it's you" refusal where the debug bar is on):
-             the JSON before it */
-          if (data === null && text.indexOf('\n<!--') > 0) {
-            try { data = JSON.parse(text.slice(0, text.indexOf('\n<!--'))); } catch (e) { data = null; }
+             the JSON before it, with or without a line break before the report */
+          var cut = data === null ? text.indexOf('<!--') : -1;
+          if (cut > 0) {
+            try { data = JSON.parse(text.slice(0, cut)); } catch (e) { data = null; }
           }
           if (!res.ok || !data || data.ok === false) {
-            var err = new Error(data && data.message ? data.message : 'HTTP ' + res.status);
+            var err = new Error(data && data.message ? data.message : self.pageReason(res.status, data === null ? text : ''));
             err.status = res.status;
             err.body = data || {};
             throw err;
@@ -1560,6 +1562,18 @@
           return data;
         });
       });
+    }
+
+    /* The reason for an answer that is a page instead of the sidebar's JSON: the kernel's "Please sign in" (its
+       sign-in form) or its refusal of the view; a bare "HTTP <status>" only for anything else */
+    pageReason(status, text) {
+      if (text && /name=["']?Login["'\s>]/.test(text)) {
+        return this.t('Sign in to edit this website.');
+      }
+      if (status === 403) {
+        return this.t('You may not do this.');
+      }
+      return 'HTTP ' + status;
     }
 
     /* An action through the installation's data layer; "Verify it's you" first when the administration would ask. */
