@@ -188,4 +188,42 @@ class expwtRolePanelsTest extends PHPUnit\Framework\TestCase
         clearstatcache();
         $this->assertNotSame( $before, expwtRolePanels::settingsFingerprint( $root ), 'site.ini touched' );
     }
+
+    /** Setup > Website sidebar panels sets a siteaccess's TabLabels: one of the three choices, by the settings editor */
+    public function testSetupSetsTheTabLabelsOfASiteaccess()
+    {
+        $ext = dirname( __DIR__, 3 );
+        $tpl = (string)file_get_contents( $ext . '/design/admin/templates/expwt/panels.tpl' );
+        $this->assertStringContainsString( 'name="TabLabelsButton"', $tpl );
+        $this->assertSame( 1, preg_match_all( '/<input type="radio" name="TabLabels"/', $tpl ), 'one radio, repeated per choice' );
+        $this->assertStringContainsString( '{if $can_edit|not} disabled="disabled"{/if}', $tpl, 'settings/view only: shown, not changed' );
+        $php = (string)file_get_contents( $ext . '/modules/expwt/panels.php' );
+        $this->assertMatchesRegularExpression( "/in_array\\( \\\$labels, expwtSettings::TAB_LABELS, true \\)/", $php, 'only a valid choice is written' );
+        $this->assertStringContainsString( "\$editor->set( 'ExpwtSettings', 'TabLabels', \$labels )", $php );
+        $this->assertLessThan( strpos( $php, "hasPostVariable( 'TabLabelsButton' )" ), strpos( $php, 'if ( !$canEdit )' ), 'settings/edit first' );
+    }
+
+    /** Every text of the administration's expwt templates is in every catalogue */
+    public function testEveryAdminTemplateTextIsInEveryCatalogue()
+    {
+        $ext = dirname( __DIR__, 3 );
+        $texts = array();
+        foreach ( glob( $ext . '/design/admin/templates/expwt/*.tpl' ) as $file )
+        {
+            preg_match_all( "/\\{'((?:[^'\\\\]|\\\\.)*)'\\|i18n\\( 'extension\\/expwt' \\)/", (string)file_get_contents( $file ), $m );
+            foreach ( $m[1] as $text )
+                $texts[] = stripslashes( $text );
+        }
+        $this->assertNotEmpty( $texts );
+        foreach ( glob( $ext . '/translations/*/translation.ts' ) as $file )
+        {
+            $have = array();
+            foreach ( simplexml_load_file( $file )->context as $context )
+                if ( (string)$context->name === 'extension/expwt' )
+                    foreach ( $context->message as $message )
+                        $have[(string)$message->source] = true;
+            foreach ( array_unique( $texts ) as $text )
+                $this->assertArrayHasKey( $text, $have, basename( dirname( $file ) ) . ": $text" );
+        }
+    }
 }

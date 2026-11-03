@@ -40,6 +40,29 @@
 <p class="a4-notice is-warn">{$message|wash}</p>
 {/foreach}
 
+{if $siteaccess}
+<section class="a4-card" aria-labelledby="expwt-panels-labels">
+<div class="a4-card-head"><h2 class="a4-h2" id="expwt-panels-labels">{'Tab labels'|i18n( 'extension/expwt' )} <span class="a4-meta">{$siteaccess|wash}</span></h2></div>
+<p class="a4-help">{'For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.'|i18n( 'extension/expwt' )}</p>
+{if $tab_labels_elsewhere}
+<p class="a4-notice is-warn">{'Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.'|i18n( 'extension/expwt',, hash( '%siteaccess', $siteaccess ) )|wash}</p>
+{/if}
+<form method="post" action={$here|ezurl}>
+<fieldset class="a4-stack">
+<legend class="a4-sr-only">{'Tab labels'|i18n( 'extension/expwt' )}</legend>
+{foreach $tab_label_choices as $c}
+<label class="a4-check"><input type="radio" name="TabLabels" value="{$c.value|wash}"{if eq( $c.value, $tab_labels )} checked="checked"{/if}{if $can_edit|not} disabled="disabled"{/if} /> {$c.name|wash}</label>
+{/foreach}
+</fieldset>
+{if $can_edit}
+<div class="a4-toolbar">
+<button type="submit" name="TabLabelsButton" class="a4-btn a4-btn-primary">{'Save'|i18n( 'extension/expwt' )}</button>
+</div>
+{/if}
+</form>
+</section>
+{/if}
+
 {if $role_id}
 <section class="a4-card" aria-labelledby="expwt-panels-role">
 <div class="a4-card-head"><h2 class="a4-h2" id="expwt-panels-role">{$role_name|wash} <span class="a4-meta">{$siteaccess|wash}</span></h2></div>

@@ -15,6 +15,8 @@
  *   RemoveButton                             the role's own panels removed (the sidebar's own order again)
  *   RoleUp=<role> | RoleDown=<role>          the role one place up or down in RoleList[] (saved)
  *   Restore=<Ymd-His[-N]>                    the role settings of that backup put back (saved)
+ *   TabLabelsButton, TabLabels=<icons|both|text>  the siteaccess's tab labels for users who have not chosen
+ *                                            ([ExpwtSettings] TabLabels, saved)
  *
  * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
@@ -119,11 +121,11 @@ if ( $siteAccess !== null )
     }
 }
 
-// the changes (POST, settings/edit)
-$save = function ( array $newRoles, $message ) use ( $editor, $siteAccess, $t, $Module, $here, $http ) {
+// the changes (POST, settings/edit): $change changes the file in the editor, then it is saved
+$commit = function ( $change, $message ) use ( $editor, $t, $Module, $here, $http ) {
     try
     {
-        expwtRolePanels::write( $editor, $newRoles );
+        call_user_func( $change, $editor );
         if ( !$editor->hasChanges() )
             $flash = array( 'kind' => 'info', 'message' => $t( 'Nothing changed.' ) );
         else
@@ -141,10 +143,21 @@ $save = function ( array $newRoles, $message ) use ( $editor, $siteAccess, $t, $
     $http->setSessionVariable( 'expwtPanelsFlash', $flash );
     return $Module->redirectTo( $here );
 };
+$save = function ( array $newRoles, $message ) use ( $commit ) {
+    return $commit( function ( $editor ) use ( $newRoles ) { expwtRolePanels::write( $editor, $newRoles ); }, $message );
+};
 if ( $_SERVER['REQUEST_METHOD'] === 'POST' && $editor !== null && $flash === null )
 {
     if ( !$canEdit )
         return $Module->handleError( eZError::KERNEL_ACCESS_DENIED, 'kernel' );
+    // the tab labels of the siteaccess (expwt.ini [ExpwtSettings] TabLabels): only one of the three choices is written
+    if ( $http->hasPostVariable( 'TabLabelsButton' ) )
+    {
+        $labels = $http->hasPostVariable( 'TabLabels' ) ? (string)$http->postVariable( 'TabLabels' ) : '';
+        if ( !in_array( $labels, expwtSettings::TAB_LABELS, true ) )
+            return $Module->handleError( eZError::KERNEL_NOT_FOUND, 'kernel' );
+        return $commit( function ( $editor ) use ( $labels ) { $editor->set( 'ExpwtSettings', 'TabLabels', $labels ); }, '' );
+    }
     if ( $http->hasPostVariable( 'Restore' ) )
     {
         $restored = expwtRolePanels::backupRoles( $editor, (string)$http->postVariable( 'Restore' ) );
@@ -246,6 +259,14 @@ foreach ( $siteIni !== null && class_exists( 'expwtBranding' ) ? expwtBranding::
               array( '%color' => $r['value'], '%setting' => $r['setting'], '%ratio' => number_format( $r['ratio'], 2 ), '%needed' => number_format( $r['needed'], 1 ) ) );
 $tpl->setVariable( 'brand_refused', $brandRefused );
 $tpl->setVariable( 'here', $here );
+// the tab labels for users who have not chosen: what the siteaccess reads, and whether another file decides it
+$tabLabels = $siteIni !== null ? expwtSettings::fromIni( $siteIni )['tab_labels'] : expwtSettings::DEFAULTS['tab_labels'];
+$ownLabels = $editor !== null ? $editor->get( 'ExpwtSettings', 'TabLabels' ) : null;
+$tpl->setVariable( 'tab_labels', $tabLabels );
+$tpl->setVariable( 'tab_labels_elsewhere', is_string( $ownLabels ) && strtolower( trim( $ownLabels ) ) !== $tabLabels );
+$tpl->setVariable( 'tab_label_choices', array( array( 'value' => 'icons', 'name' => $t( 'Icons' ) ),
+                                               array( 'value' => 'both', 'name' => $t( 'Icons and text' ) ),
+                                               array( 'value' => 'text', 'name' => $t( 'Text' ) ) ) );
 
 $Result = array(
     'content' => $tpl->fetch( 'design:expwt/panels.tpl' ),
