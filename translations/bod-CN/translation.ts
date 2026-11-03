@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>སྒྲིག་ཆས་འདི་ཁོ་ནར་ཉར་ཡོད། དྲ་ཚིགས་འདིའི་ཤོག་ངོས་ཡོངས་ལ།</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>ཤོག་བྱང་གི་མིང་རྟགས།</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>རྟགས་རིས།</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>རྟགས་རིས་དང་ཡི་གེ</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>ཡི་གེ</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>གདམ་ག་མ་བྱས་པའི་སྤྱོད་མཁན་ཚོར། སྤྱོད་མཁན་རེ་རེས་"ང་།"པང་ལེབ་ནང་གདམ་ག་བྱེད། ལྟ་སྐོར་བས་"ཕེབས་པར་དགའ་བསུ་ཞུ།"པང་ལེབ་ནང་།</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

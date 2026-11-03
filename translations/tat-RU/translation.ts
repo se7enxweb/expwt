@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Бары тик бу җайланмада саклана, бу сайтның һәр бите өчен.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Кыстырмалар язулары</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Тамгалар</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Тамгалар һәм текст</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Текст</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Сайламаган кулланучылар өчен: һәр кулланучы «Мин» панелендә, килүче «Рәхим итегез» панелендә сайлый.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

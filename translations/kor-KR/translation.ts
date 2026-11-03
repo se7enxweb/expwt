@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>이 기기에만 저장되며, 이 사이트의 모든 페이지에 적용됩니다.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>탭 레이블</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>아이콘</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>아이콘 및 텍스트</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>텍스트</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>직접 선택하지 않은 사용자에게 적용됩니다. 각 사용자는 '나' 패널에서, 방문자는 '환영합니다' 패널에서 선택합니다.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

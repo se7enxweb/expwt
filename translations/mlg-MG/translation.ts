@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Voatahiry amin'ity fitaovana ity ihany, ho an'ny pejy rehetra amin'ity tranonkala ity.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Marika tabilao</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Sary famantarana</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Sary famantarana sy soratra</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Soratra</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Ho an'ireo mpampiasa tsy mbola nisafidy: ny mpampiasa tsirairay dia misafidy ao amin'ny tontonana "Izaho", ny mpitsidika ao amin'ny tontonana "Tongasoa".</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

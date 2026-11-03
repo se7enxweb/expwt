@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Shranjeno samo v tej napravi, za vsako stran tega spletnega mesta.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Oznake zavihkov</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Ikone</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Ikone in besedilo</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Besedilo</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Za uporabnike, ki niso izbrali: vsak uporabnik izbere v plošči »Jaz«, obiskovalec v plošči »Dobrodošli«.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

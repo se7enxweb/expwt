@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>صرف اس آلے پر محفوظ، اس سائٹ کے ہر صفحے کے لیے۔</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>ٹیب کے لیبل</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>آئیکنز</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>آئیکنز اور متن</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>متن</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>ان صارفین کے لیے جنہوں نے انتخاب نہیں کیا: ہر صارف "میں" پینل میں، مہمان "خوش آمدید" پینل میں انتخاب کرتا ہے۔</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

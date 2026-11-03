@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Ka puritia ki tēnei pūrere anake, mō ia whārangi o tēnei pae.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Ngā tapanga ripa</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Ngā tohu</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Ngā tohu me te kuputuhi</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Kuputuhi</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Mō ngā kaiwhakamahi kāore anō kia kōwhiri: ka kōwhiri ia kaiwhakamahi i te papa "Ahau", te manuhiri i te papa "Nau mai".</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Păstrat doar pe acest dispozitiv, pentru fiecare pagină a acestui site.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Etichetele filelor</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Pictograme</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Pictograme și text</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Text</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Pentru utilizatorii care nu au ales: fiecare utilizator alege în panoul „Eu”, un vizitator în panoul „Bun venit”.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

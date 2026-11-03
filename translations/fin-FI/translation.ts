@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Tallennettu vain tälle laitteelle, tämän sivuston jokaiselle sivulle.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Välilehtien nimet</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Kuvakkeet</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Kuvakkeet ja teksti</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Teksti</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Käyttäjille, jotka eivät ole valinneet: kukin käyttäjä valitsee paneelissa ”Minä”, vierailija paneelissa ”Tervetuloa”.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

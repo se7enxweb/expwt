@@ -2483,6 +2483,10 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

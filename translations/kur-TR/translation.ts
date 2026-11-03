@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Tenê li ser vê amûrê tê tomarkirin, ji bo her rûpelek vê malperê.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Etîketên tabê</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Îkon</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Îkon û nivîs</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Nivîs</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Ji bo bikarhênerên ku hilnebijartine: her bikarhêner di panela "Ez" de, mêvan di panela "Bi xêr hatî" de hildibijêre.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

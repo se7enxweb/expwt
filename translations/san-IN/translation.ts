@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>केवलम् अस्मिन् उपकरणे रक्षितम्, अस्य जालस्थानस्य प्रत्येकपृष्ठाय।</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>पत्रकचिह्नानि</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>प्रतीकानि</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>प्रतीकानि पाठः च</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>पाठः</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>ये उपयोक्तारः न अवृणत तेभ्यः: प्रत्येकः उपयोक्ता "अहम्" फलके वृणोति, आगन्तुकः "स्वागतम्" फलके।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

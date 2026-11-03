@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>เก็บไว้ในอุปกรณ์นี้เท่านั้น สำหรับทุกหน้าของเว็บไซต์นี้</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>ป้ายแท็บ</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>ไอคอน</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>ไอคอนและข้อความ</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>ข้อความ</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>สำหรับผู้ใช้ที่ยังไม่ได้เลือก: ผู้ใช้แต่ละคนเลือกในแผง "ฉัน" ผู้เยี่ยมชมเลือกในแผง "ยินดีต้อนรับ"</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

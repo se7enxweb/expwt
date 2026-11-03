@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Csak ezen az eszközön tárolva, a webhely minden oldalához.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Fülfeliratok</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Ikonok</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Ikonok és szöveg</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Szöveg</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Azoknak a felhasználóknak, akik nem választottak: minden felhasználó az „Én” panelen választ, a látogató az „Üdvözöljük” panelen.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

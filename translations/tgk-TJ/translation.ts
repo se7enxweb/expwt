@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Танҳо дар ҳамин дастгоҳ нигоҳ дошта мешавад, барои ҳар саҳифаи ин сомона.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Нишонаҳои варақаҳо</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Нишонаҳо</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Нишонаҳо ва матн</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Матн</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Барои корбароне, ки интихоб накардаанд: ҳар корбар дар лавҳаи «Ман», меҳмон дар лавҳаи «Хуш омадед» интихоб мекунад.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

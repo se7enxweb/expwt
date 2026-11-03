@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Just op dësem Apparat gespäichert, fir all Säit vun dësem Site.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Beschrëftung vun den Tabs</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Symboler</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Symboler an Text</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Text</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Fir Benotzer, déi net gewielt hunn: all Benotzer wielt an der Fënster „Ech“, e Besucher an der Fënster „Wëllkomm“.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

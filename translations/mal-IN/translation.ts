@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>ഈ ഉപകരണത്തിൽ മാത്രം സൂക്ഷിക്കുന്നു, ഈ സൈറ്റിലെ എല്ലാ പേജിനും.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>ടാബ് ലേബലുകൾ</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>ഐക്കണുകൾ</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>ഐക്കണുകളും ടെക്സ്റ്റും</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>ടെക്സ്റ്റ്</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>തിരഞ്ഞെടുക്കാത്ത ഉപയോക്താക്കൾക്ക്: ഓരോ ഉപയോക്താവും "ഞാൻ" പാനലിൽ, സന്ദർശകൻ "സ്വാഗതം" പാനലിൽ തിരഞ്ഞെടുക്കുന്നു.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

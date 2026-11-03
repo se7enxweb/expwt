@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>ဤစက်ပစ္စည်းပေါ်တွင်သာ သိမ်းထားသည်၊ ဤဆိုက်၏ စာမျက်နှာတိုင်းအတွက်။</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>တဘ်အညွှန်းများ</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>သင်္ကေတပုံများ</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>သင်္ကေတပုံနှင့် စာသား</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>စာသား</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>မရွေးရသေးသော အသုံးပြုသူများအတွက်- အသုံးပြုသူတိုင်း "ကျွန်ုပ်" အကန့်တွင် ရွေးပြီး ဧည့်သည်က "ကြိုဆိုပါသည်" အကန့်တွင် ရွေးသည်။</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

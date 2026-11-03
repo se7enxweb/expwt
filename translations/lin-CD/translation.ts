@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Ebombami kaka na esaleli oyo, mpo na lokasa nyonso ya site oyo.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Bilembo ya ba onglets</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Bilembo</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Bilembo mpe makomi</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Makomi</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Mpo na basaleli oyo baponi te: mosaleli nyonso aponaka na panneau "Ngai", mopaya na panneau "Boyei malamu".</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

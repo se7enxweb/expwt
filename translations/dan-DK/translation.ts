@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Gemmes kun på denne enhed, for alle sider på dette websted.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Fanebladsetiketter</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Ikoner</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Ikoner og tekst</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Tekst</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>For brugere, der ikke har valgt: hver bruger vælger i panelet "Mig", en besøgende i panelet "Velkommen".</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

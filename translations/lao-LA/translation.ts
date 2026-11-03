@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>ເກັບໄວ້ໃນອຸປະກອນນີ້ເທົ່ານັ້ນ, ສຳລັບທຸກໜ້າຂອງເວັບໄຊນີ້.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>ປ້າຍແຖບ</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>ໄອຄອນ</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>ໄອຄອນ ແລະ ຂໍ້ຄວາມ</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>ຂໍ້ຄວາມ</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>ສຳລັບຜູ້ໃຊ້ທີ່ຍັງບໍ່ໄດ້ເລືອກ: ຜູ້ໃຊ້ແຕ່ລະຄົນເລືອກໃນແຜງ "ຂ້ອຍ", ຜູ້ມາຢ້ຽມຢາມເລືອກໃນແຜງ "ຍິນດີຕ້ອນຮັບ".</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

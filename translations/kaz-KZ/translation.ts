@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Тек осы құрылғыда сақталады, осы сайттың әр бетіне арналған.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Қойынды жазулары</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Белгішелер</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Белгішелер мен мәтін</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Мәтін</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Таңдамаған пайдаланушылар үшін: әр пайдаланушы «Мен» панелінде, келуші «Қош келдіңіз» панелінде таңдайды.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

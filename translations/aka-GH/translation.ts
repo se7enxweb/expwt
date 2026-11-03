@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Ɛwɔ saa mfiri yi so nko ara, ma wɛbsaet yi kratafa biara.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Tab nsɛnkyerɛnne</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Ahyɛnsode</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Ahyɛnsode ne nkyerɛwee</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Nkyerɛwee</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Ma wɔn a wɔnnpaw biribi: ɔdefoɔ biara paw wɔ "Me" panel no mu, ɔsrafoɔ wɔ "Akwaaba" panel no mu.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

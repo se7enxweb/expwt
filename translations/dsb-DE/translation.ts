@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Jano na toś tom rěźe składowane, za kuždy bok toś togo sedła.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Pópisanja rejtarikow</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Symbole</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Symbole a tekst</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Tekst</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Za wužywarjow, kótarež njejsu wubrali: kuždy wužywaŕ wuběrajo w panelu „Ja“, woglědowaŕ w panelu „Witajśo“.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

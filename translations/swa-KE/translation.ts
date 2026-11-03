@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Imehifadhiwa kwenye kifaa hiki pekee, kwa kila ukurasa wa tovuti hii.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Lebo za vichupo</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Aikoni</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Aikoni na maandishi</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Maandishi</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Kwa watumiaji ambao hawajachagua: kila mtumiaji huchagua kwenye paneli ya "Mimi", mgeni kwenye paneli ya "Karibu".</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

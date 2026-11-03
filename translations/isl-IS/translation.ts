@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Aðeins vistað í þessu tæki, fyrir hverja síðu þessa vefs.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Merkingar flipa</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Tákn</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Tákn og texti</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Texti</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Fyrir notendur sem hafa ekki valið: hver notandi velur í spjaldinu „Ég“, gestur í spjaldinu „Velkomin(n)“.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

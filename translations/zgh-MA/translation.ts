@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>ⵉⵜⵜⵓⵃⴹⵓ ⵖⴼ ⵓⵎⴰⵙⵙ ⴰ ⵖⴰⵙ, ⵉ ⴽⵓ ⵜⴰⵙⵏⴰ ⵏ ⵓⵙⵎⵍ ⴰ.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>ⵜⵉⴱⵔⴰⵣ ⵏ ⵉⵙⵓⵔⴰ</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>ⵜⵉⵎⴰⵜⴰⵔⵉⵏ</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>ⵜⵉⵎⴰⵜⴰⵔⵉⵏ ⴷ ⵓⴹⵕⵉⵚ</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>ⴰⴹⵕⵉⵚ</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>ⵉ ⵉⵎⵙⵙⵎⵔⵙⵏ ⵓⵔ ⵉⴼⵔⵏ: ⴽⵓ ⴰⵎⵙⵙⵎⵔⵙ ⵉⴼⵔⵏ ⴳ ⵜⴼⵍⵡⵉⵜ "ⵏⴽⴽ", ⴰⵏⴱⴳⵉ ⴳ ⵜⴼⵍⵡⵉⵜ "ⴰⵏⵙⵓⴼ".</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

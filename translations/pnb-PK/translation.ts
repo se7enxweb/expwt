@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>بس ایس ڈیوائس تے رکھیا، ایس سائٹ دے ہر صفحے لئی۔</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>ٹیب لیبل</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>آئیکن</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>آئیکن تے لکھت</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>لکھت</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>اوہناں ورتن والیاں لئی جنہاں نے نئیں چُنیا: ہر ورتن والا "میں" پینل وچ چُن دا اے، مہمان "جی آیاں نوں" پینل وچ۔</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

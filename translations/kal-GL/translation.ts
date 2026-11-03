@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Atortumi matumani kisimi toqqorneqarpoq, nittartakkami matumani quppernerit tamaasa.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Tab-ip taaguutai</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Ikonit</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Ikonit allagaqlu</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Allagaq</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Atuisunut toqqaasimanngitsunut: atuisut tamarmik "Uanga"-mi toqqaasarput, takornariaq "Tikilluarit"-mi.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

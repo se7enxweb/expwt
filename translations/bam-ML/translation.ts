@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Mara bɛ nin minɛn in kan dɔrɔn, nin siti in ɲɛ bɛɛ kama.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Tab tɔgɔw</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Jaw</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Jaw ani sɛbɛn</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Sɛbɛn</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Baarakɛla minnu ma sugandili kɛ olu ye: baarakɛla bɛɛ bɛ sugandili kɛ "Ne" panow kɔnɔ, bisimiladen bɛ a kɛ "I bisimila" kɔnɔ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

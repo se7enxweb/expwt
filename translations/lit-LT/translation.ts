@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Saugoma tik šiame įrenginyje, kiekvienam šios svetainės puslapiui.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Kortelių pavadinimai</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Piktogramos</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Piktogramos ir tekstas</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Tekstas</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Naudotojams, kurie nepasirinko: kiekvienas naudotojas renkasi skydelyje „Aš“, lankytojas – skydelyje „Sveiki“.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>फकत ह्या डिवायसार दवरला, ह्या सायटीच्या दर पानाखातीर.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>टॅबाचीं लेबलां</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>आयकन</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>आयकन आनी मजकूर</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>मजकूर</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>जांणी वेंचून काडूंक ना त्या वापरप्यांखातीर: दरेक वापरपी "हांव" फलकांत वेंचता, भेट दिवपी "येवकार" फलकांत.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

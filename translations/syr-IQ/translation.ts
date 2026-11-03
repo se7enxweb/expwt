@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>ܢܛܝܪ ܥܠ ܗܢܐ ܡܐܢܐ ܒܠܚܘܕ، ܠܟܠ ܦܐܬܐ ܕܗܢܐ ܐܬܪܐ.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>ܫܡܗ̈ܐ ܕܦܬܩ̈ܐ</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>ܨܘܪ̈ܬܐ</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>ܨܘܪ̈ܬܐ ܘܟܬܒܐ</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>ܟܬܒܐ</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>ܠܡܦܠܚܢ̈ܐ ܕܠܐ ܓܒܘ: ܟܠ ܡܦܠܚܢܐ ܓܒܐ ܒܦܢܟܐ "ܐܢܐ"، ܘܐܟܣܢܝܐ ܒܦܢܟܐ "ܒܫܝܢܐ".</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

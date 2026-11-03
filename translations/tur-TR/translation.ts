@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Yalnızca bu cihazda saklanır, bu sitenin her sayfası için.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Sekme etiketleri</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Simgeler</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Simgeler ve metin</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Metin</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Seçim yapmamış kullanıcılar için: her kullanıcı "Ben" panelinde, ziyaretçi "Hoş geldiniz" panelinde seçer.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

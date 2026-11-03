@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Kay antapi sapalla waqaychasqa, kay sitiop sapa rapinpaq.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Tab sutichaykuna</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Rikchakuna</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Rikchakuna qillqawan</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Qillqa</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Mana akllaq runakunapaq: sapa runa "Ñuqa" panelpi akllan, watukuq "Allin hamusqayki" panelpi.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

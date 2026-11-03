@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>فقط روی همین دستگاه نگهداری می‌شود، برای همهٔ صفحه‌های این سایت.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>برچسب‌های زبانه</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>نمادها</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>نمادها و متن</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>متن</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>برای کاربرانی که انتخاب نکرده‌اند: هر کاربر در پنل «من» انتخاب می‌کند، بازدیدکننده در پنل «خوش آمدید».</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

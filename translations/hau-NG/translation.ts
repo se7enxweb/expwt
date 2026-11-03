@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>An adana a wannan na'urar kawai, don kowane shafi na wannan gidan yanar gizo.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Lakabin shafuka</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Gumaka</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Gumaka da rubutu</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Rubutu</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Ga masu amfani da ba su zaɓa ba: kowane mai amfani yana zaɓa a fanon "Ni", baƙo a fanon "Barka da zuwa".</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

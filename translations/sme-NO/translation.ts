@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Vurkejuvvon dušše dán ovttadahkii, juohke siidui dán neahttabáikkis.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Gilkoriid namahusat</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Govažat</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Govažat ja teaksta</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Teaksta</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Geavaheddjiide geat eai leat válljen: juohke geavaheaddji vállje panelas «Mun», guossi panelas «Bures boahtin».</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

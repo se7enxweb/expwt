@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>কেৱল এই ডিভাইচত সংৰক্ষিত, এই ছাইটৰ প্ৰতিটো পৃষ্ঠাৰ বাবে।</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>টেবৰ লেবেল</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>আইকন</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>আইকন আৰু পাঠ</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>পাঠ</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>যিসকল ব্যৱহাৰকাৰীয়ে বাছনি কৰা নাই তেওঁলোকৰ বাবে: প্ৰতিজন ব্যৱহাৰকাৰীয়ে "মই" পেনেলত বাছনি কৰে, আগন্তুকে "স্বাগতম" পেনেলত।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

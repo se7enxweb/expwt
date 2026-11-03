@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>រក្សាទុកតែនៅលើឧបករណ៍នេះប៉ុណ្ណោះ សម្រាប់គ្រប់ទំព័រនៃគេហទំព័រនេះ។</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>ស្លាកផ្ទាំង</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>រូបតំណាង</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>រូបតំណាង និងអត្ថបទ</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>អត្ថបទ</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>សម្រាប់អ្នកប្រើដែលមិនទាន់បានជ្រើសរើស៖ អ្នកប្រើម្នាក់ៗជ្រើសរើសក្នុងផ្ទាំង "ខ្ញុំ" ភ្ញៀវក្នុងផ្ទាំង "សូមស្វាគមន៍"។</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

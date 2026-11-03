@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Gailu honetan soilik gordeta, gune honetako orri guztietarako.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Fitxen etiketak</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Ikonoak</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Ikonoak eta testua</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Testua</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Aukeratu ez duten erabiltzaileentzat: erabiltzaile bakoitzak "Ni" panelean aukeratzen du, bisitari batek "Ongi etorri" panelean.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

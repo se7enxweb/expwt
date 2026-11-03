@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>ኣብዚ መሳርሒ ጥራይ ዝተዓቀበ፣ ንነፍሲ ወከፍ ገጽ ናይዚ መርበብ።</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>ምልክታት ታብ</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>ኣይኮናት</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>ኣይኮናትን ጽሑፍን</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>ጽሑፍ</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>ንዘይመረጹ ተጠቀምቲ፦ ነፍሲ ወከፍ ተጠቃሚ ኣብ "ኣነ" መቓን ይመርጽ፣ በጻሒ ድማ ኣብ "እንቋዕ ብደሓን መጻእካ" መቓን።</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

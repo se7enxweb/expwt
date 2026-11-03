@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Чува се само на овом уређају, за сваку страницу овог сајта.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Ознаке картица</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Иконе</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Иконе и текст</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Текст</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>За кориснике који нису изабрали: сваки корисник бира у панелу „Ја“, посетилац у панелу „Добродошли“.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

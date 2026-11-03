@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Disimpan pada peranti ini sahaja, untuk setiap halaman laman ini.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Label tab</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Ikon</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Ikon dan teks</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Teks</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Untuk pengguna yang belum memilih: setiap pengguna memilih dalam panel "Saya", pelawat dalam panel "Selamat datang".</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

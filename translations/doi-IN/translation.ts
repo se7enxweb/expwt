@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>सिर्फ इस डिवाइस पर रक्खेआ गेदा, इस साइट दे हर सफे आस्तै।</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>टैब दे लेबल</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>आइकन</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>आइकन ते टैक्स्ट</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>टैक्स्ट</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>जिनें उपयोगकर्तें नेईं चुनेआ उंदे आस्तै: हर उपयोगकर्ता "मैं" पैनल च चुनदा ऐ, आगंतुक "जी आयां गी" पैनल च।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

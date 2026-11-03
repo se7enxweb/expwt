@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Uloženo jen v tomto zařízení, pro každou stránku tohoto webu.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Popisky karet</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Ikony</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Ikony a text</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Text</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Pro uživatele, kteří si nevybrali: každý uživatel volí v panelu „Já“, návštěvník v panelu „Vítejte“.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

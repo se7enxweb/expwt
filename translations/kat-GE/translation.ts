@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>ინახება მხოლოდ ამ მოწყობილობაზე, ამ საიტის ყველა გვერდისთვის.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>ჩანართების წარწერები</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>ხატულები</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>ხატულები და ტექსტი</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>ტექსტი</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>მომხმარებლებისთვის, რომლებსაც არ აურჩევიათ: თითოეული მომხმარებელი ირჩევს პანელში „მე“, სტუმარი — პანელში „მოგესალმებით“.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

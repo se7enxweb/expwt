@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>यो उपकरणमा मात्र राखिएको, यो साइटको हरेक पृष्ठका लागि।</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>ट्याबका लेबलहरू</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>आइकनहरू</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>आइकन र पाठ</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>पाठ</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>छनोट नगरेका प्रयोगकर्ताहरूका लागि: प्रत्येक प्रयोगकर्ताले "म" प्यानलमा छान्छन्, आगन्तुकले "स्वागत छ" प्यानलमा।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

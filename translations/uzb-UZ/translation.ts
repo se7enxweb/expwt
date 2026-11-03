@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Faqat shu qurilmada saqlanadi, bu saytning har bir sahifasi uchun.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Varaqcha yozuvlari</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Belgilar</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Belgilar va matn</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Matn</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Tanlamagan foydalanuvchilar uchun: har bir foydalanuvchi "Men" panelida, tashrif buyuruvchi "Xush kelibsiz" panelida tanlaydi.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Waxaa lagu kaydiyay qalabkan oo keliya, bog kasta oo boggan ka mid ah.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Calaamadaha tabka</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Astaamo</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Astaamo iyo qoraal</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Qoraal</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Isticmaalayaasha aan dooran: isticmaale kastaa wuxuu ku doortaa guddiga "Aniga", booqdahana guddiga "Soo dhawoow".</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>یوازې په دې وسیله ساتل کېږي، د دې سایټ د هرې پاڼې لپاره.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>د ټب لیبلونه</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>انځورګوټي</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>انځورګوټي او متن</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>متن</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>د هغو کاروونکو لپاره چې یې نه دي ټاکلي: هر کاروونکی په «زه» پینل کې ټاکي، لیدونکی په «ښه راغلاست» پینل کې.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

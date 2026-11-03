@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Bibitswe kuri iki gikoresho gusa, kuri buri rupapuro rw'uru rubuga.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Ibimenyetso vy'udusanduku</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Utumenyetso</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Utumenyetso n'inyandiko</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Inyandiko</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Ku bakoresha batarahitamo: umukoresha wese ahitamo mu gice "Jewe", umushitsi mu gice "Kaze".</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

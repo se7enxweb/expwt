@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Meeshaa kana qofa irratti kuufame, fuula marsariitii kanaa hundaaf.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Mallattoowwan tab</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Mallattoowwan</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Mallattoowwan fi barreeffama</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Barreeffama</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Fayyadamtoota hin filanneef: fayyadamaan hundi gabatee "Ana" keessatti, daawwataan gabatee "Baga nagaan dhufte" keessatti filata.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

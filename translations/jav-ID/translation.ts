@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Mung disimpen ing piranti iki, kanggo saben kaca situs iki.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Label tab</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Ikon</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Ikon lan teks</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Teks</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Kanggo pangguna sing durung milih: saben pangguna milih ing panel "Aku", pengunjung ing panel "Sugeng rawuh".</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

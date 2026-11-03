@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Goymt bert á hesi eind, fyri hvørja síðu á hesi heimasíðu.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Spjaldaheiti</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Ímyndir</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Ímyndir og tekstur</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Tekstur</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Fyri brúkarar, ið ikki hava valt: hvør brúkari velur í panelinum "Eg", ein vitjandi í panelinum "Vælkomin".</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

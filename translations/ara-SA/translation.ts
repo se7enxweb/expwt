@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>محفوظ على هذا الجهاز فقط، لكل صفحة من صفحات هذا الموقع.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>تسميات علامات التبويب</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>أيقونات</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>أيقونات ونص</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>نص</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>للمستخدمين الذين لم يختاروا: يختار كل مستخدم في لوحة «أنا»، والزائر في لوحة «مرحبًا».</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

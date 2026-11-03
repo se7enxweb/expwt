@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Jenož na tutym graće składowane, za kóždu stronu tutoho sydła.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Popisanja rajtarkow</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Symbole</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Symbole a tekst</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Tekst</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Za wužiwarjow, kotřiž njejsu wubrali: kóždy wužiwar wubjera w panelu „Ja“, wopytowar w panelu „Witajće“.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Gardat sonque sus aqueste aparelh, per cada pagina d'aqueste site.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Etiquetas dels onglets</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Icònas</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Icònas e tèxte</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Tèxte</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Pels utilizaires qu'an pas causit: cada utilizaire causís dins lo panèl « Ieu », un visitaire dins lo panèl « Benvenguda ».</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

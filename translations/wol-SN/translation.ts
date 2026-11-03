@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Denc nañu ko ci jumtukaay bii rekk, ngir xët wu nekk ci dalu bii.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Màndarga tab yi</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Nataal yi</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Nataal ak mbind</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Mbind</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Ngir jëfandikukat yi tànnul: jëfandikukat bu nekk dafay tànn ci panno "Man", ganaa ci panno "Dalal ak jàmm".</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

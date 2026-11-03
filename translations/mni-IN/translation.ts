@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>মসি ডিভাইসতা খক্তদা থম্লি, সাইত অসিগী লমায় খুদিংমক্কীদমক।</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>তেবকী লেবেলশিং</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>আইকনশিং</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>আইকন অমসুং তেক্স্ত</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>তেক্স্ত</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>খনদ্রবা শিজিন্নরিবশিংগীদমক: শিজিন্নরিবা খুদিংমক্না "ঐ" পেনেলদা খনই, লাকপা মীনা "তরাম্না ওকচরি" পেনেলদা।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

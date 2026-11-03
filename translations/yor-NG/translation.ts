@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>A tọ́jú rẹ̀ sórí ẹ̀rọ yìí nìkan, fún gbogbo ojú-ewé ojú-òpó yìí.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Àmì táàbù</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Àwọn àmì</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Àwọn àmì àti ọ̀rọ̀</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Ọ̀rọ̀</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Fún àwọn olùlò tí kò tíì yàn: olùlò kọ̀ọ̀kan ń yàn nínú pánẹ́ẹ̀lì "Èmi", àlejò nínú pánẹ́ẹ̀lì "Ẹ káàbọ̀".</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

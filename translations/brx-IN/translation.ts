@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>बेनि डिभाइसआव मोनसेल' दोननाय, बे साइटनि बिलाइ बिलाइनि थाखाय।</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>टेबनि लेबेल</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>आइकन</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>आइकन आरो लिरथाय</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>लिरथाय</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>सायखनो हायाखै बाहायगिरिफोरनि थाखाय: बाहायगिरि गासैबो "आं" पेनेलआव सायखो, नायगिरिया "बरायबाय" पेनेलआव।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Miret war an trevnad-mañ hepken, evit pep pajenn eus al lec'hienn-mañ.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Tikedennoù an ivinelloù</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Arlunioù</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Arlunioù ha testenn</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Testenn</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Evit an implijerien n'o deus ket dibabet: pep implijer a zibab er panell "Me", ur weladenner er panell "Donemat".</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

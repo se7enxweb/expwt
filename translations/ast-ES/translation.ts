@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Guardao namái nesti preséu, pa toles páxines d'esti sitiu.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Etiquetes de les llingüetes</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Iconos</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Iconos y testu</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Testu</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Pa los usuarios que nun escoyeron: cada usuariu escueye nel panel «Yo», un visitante nel panel «Bienveníu».</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

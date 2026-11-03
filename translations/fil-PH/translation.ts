@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Nakatago lang sa device na ito, para sa bawat pahina ng site na ito.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Mga label ng tab</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Mga icon</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Mga icon at teksto</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Teksto</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Para sa mga user na hindi pa pumipili: bawat user ay pumipili sa panel na "Ako", ang bisita sa panel na "Maligayang pagdating".</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

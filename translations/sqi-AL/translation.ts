@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Ruhet vetëm në këtë pajisje, për çdo faqe të këtij sajti.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Etiketat e skedave</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Ikona</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Ikona dhe tekst</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Tekst</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Për përdoruesit që nuk kanë zgjedhur: çdo përdorues zgjedh te paneli "Unë", një vizitor te paneli "Mirë se vini".</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

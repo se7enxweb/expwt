@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>تەنها لەسەر ئەم ئامێرە پاشەکەوت دەکرێت، بۆ هەموو پەڕەیەکی ئەم ماڵپەڕە.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>ناونیشانی تابەکان</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>ئایکۆنەکان</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>ئایکۆن و دەق</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>دەق</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>بۆ ئەو بەکارهێنەرانەی هەڵیان نەبژاردووە: هەر بەکارهێنەرێک لە پانێڵی «من» هەڵدەبژێرێت، میوان لە پانێڵی «بەخێربێیت».</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

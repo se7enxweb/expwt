@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>In hoc tantum instrumento servatum, pro omni pagina huius situs.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Inscriptiones tabularum</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Icones</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Icones et textus</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Textus</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Usoribus qui non elegerunt: quisque usor in tabula "Ego" eligit, visitator in tabula "Salve".</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

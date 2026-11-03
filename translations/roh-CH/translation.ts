@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Memorisà mo sin quest apparat, per mintga pagina da questa website.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Inscripziuns dals tabs</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Icons</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Icons e text</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Text</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Per utilisaders che n'han betg tschernì: mintga utilisader tscherna en il panel «Jau», in visitader en il panel «Bainvegni».</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

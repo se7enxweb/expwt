@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>נאָר אויף דעם דאָזיקן מכשיר געהאַלטן, פֿאַר יעדן בלאַט פֿון דעם זײַטל.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>לייבלען פֿון די טאַבס</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>בילדלעך</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>בילדלעך און טעקסט</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>טעקסט</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>פֿאַר באַניצער וואָס האָבן נישט אויסגעקליבן: יעדער באַניצער קלייבט אויס אינעם פּאַנעל „איך“, אַ באַזוכער אינעם פּאַנעל „ברוך־הבא“.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

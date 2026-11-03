@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>僅儲存在此裝置上，適用於本網站的每個頁面。</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>分頁標籤</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>圖示</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>圖示和文字</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>文字</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>適用於尚未自行選擇的使用者：每位使用者在「我」面板中選擇，訪客在「歡迎」面板中選擇。</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

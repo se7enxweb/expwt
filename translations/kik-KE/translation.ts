@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Ĩigĩtwo kĩndũ-inĩ gĩkĩ tu, nĩ ũndũ wa karatathi o gothe ka mũkuruwa ũyũ.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Marĩtwa ma tab</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Mbica nini</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Mbica nini na mandĩko</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Mandĩko</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Nĩ ũndũ wa atũmĩri matathuurĩte: o mũtũmĩri athuuraga mbaũ-inĩ ya "Niĩ", mũgeni mbaũ-inĩ ya "Wamũkĩire".</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

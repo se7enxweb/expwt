@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>በዚህ መሣሪያ ላይ ብቻ ተቀምጧል፣ ለዚህ ጣቢያ ለእያንዳንዱ ገጽ።</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>የትር መለያዎች</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>አዶዎች</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>አዶዎች እና ጽሑፍ</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>ጽሑፍ</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>ላልመረጡ ተጠቃሚዎች፦ እያንዳንዱ ተጠቃሚ በ"እኔ" ፓነል ይመርጣል፣ ጎብኚ ደግሞ በ"እንኳን ደህና መጡ" ፓነል።</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

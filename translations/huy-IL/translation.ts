@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>נטיר בהדין מאנא בלחוד, לכל דפא דהדין אתרא.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>שמהתא דלוחא</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>צלמא</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>צלמא וכתבא</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>כתבא</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>לאנשא דלא בחרו: כל אנש בחר בלוחא "אנא", ואורחא בלוחא "בשלמא".</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

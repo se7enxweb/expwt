@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Danndaa e ngal kaɓirgal tan, ngam hello kala e ndee lowre.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Innde tab</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Maandeeji</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Maandeeji e binndi</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Binndi</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Ngam huutorɓe ɓe suɓaaki: kala huutoro suɓata e panoo "Miin", koɗo e panoo "Jaaraama".</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

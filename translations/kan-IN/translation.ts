@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>ಈ ಸಾಧನದಲ್ಲಿ ಮಾತ್ರ ಇರಿಸಲಾಗಿದೆ, ಈ ಸೈಟ್‌ನ ಪ್ರತಿ ಪುಟಕ್ಕೂ.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>ಟ್ಯಾಬ್ ಲೇಬಲ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>ಐಕಾನ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>ಐಕಾನ್‌ಗಳು ಮತ್ತು ಪಠ್ಯ</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>ಪಠ್ಯ</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>ಆಯ್ಕೆ ಮಾಡದ ಬಳಕೆದಾರರಿಗೆ: ಪ್ರತಿ ಬಳಕೆದಾರರು "ನಾನು" ಫಲಕದಲ್ಲಿ ಆಯ್ಕೆ ಮಾಡುತ್ತಾರೆ, ಸಂದರ್ಶಕರು "ಸ್ವಾಗತ" ಫಲಕದಲ್ಲಿ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

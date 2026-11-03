@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Tauhi ʻi he meʻangāue ko ʻeni pē, ki he peesi kotoa pē ʻo e uepisaiti ko ʻeni.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Ngaahi hingoa ʻo e tab</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Ngaahi ʻaikoni</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Ngaahi ʻaikoni mo e tohi</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Tohi</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Ki he kau ngāue ʻoku teʻeki ke nau fili: ʻoku fili ʻa e kau ngāue taki taha ʻi he papa "Ko au", ʻa e kau ʻaʻahi ʻi he papa "Talitali lelei".</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

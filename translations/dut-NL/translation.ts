@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Alleen op dit apparaat bewaard, voor elke pagina van deze site.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Tablabels</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Pictogrammen</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Pictogrammen en tekst</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Tekst</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Voor gebruikers die niet zelf hebben gekozen: elke gebruiker kiest in het paneel "Ik", een bezoeker in het paneel "Welkom".</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

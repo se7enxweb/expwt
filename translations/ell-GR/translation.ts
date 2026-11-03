@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Αποθηκεύεται μόνο σε αυτήν τη συσκευή, για κάθε σελίδα αυτού του ιστότοπου.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Ετικέτες καρτελών</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Εικονίδια</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Εικονίδια και κείμενο</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Κείμενο</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Για χρήστες που δεν έχουν επιλέξει: κάθε χρήστης επιλέγει στο πλαίσιο «Εγώ», ένας επισκέπτης στο πλαίσιο «Καλώς ορίσατε».</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Chỉ lưu trên thiết bị này, cho mọi trang của trang web này.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Nhãn thẻ</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Biểu tượng</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Biểu tượng và chữ</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Chữ</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Dành cho người dùng chưa chọn: mỗi người dùng chọn trong bảng "Tôi", khách truy cập chọn trong bảng "Chào mừng".</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>මෙම උපාංගයේ පමණක් තබා ඇත, මෙම අඩවියේ සෑම පිටුවක් සඳහාම.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>ටැබ් ලේබල</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>නිරූපක</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>නිරූපක සහ පෙළ</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>පෙළ</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>තෝරා නොගත් පරිශීලකයින් සඳහා: සෑම පරිශීලකයෙක්ම "මම" පුවරුවේ තෝරයි, අමුත්තා "සාදරයෙන් පිළිගනිමු" පුවරුවේ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

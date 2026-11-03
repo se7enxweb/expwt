@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>இந்தச் சாதனத்தில் மட்டுமே வைக்கப்படும், இந்தத் தளத்தின் ஒவ்வொரு பக்கத்திற்கும்.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>தாவல் லேபிள்கள்</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>ஐகான்கள்</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>ஐகான்களும் உரையும்</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>உரை</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>தேர்வு செய்யாத பயனர்களுக்கு: ஒவ்வொரு பயனரும் "நான்" பலகத்தில், பார்வையாளர் "வரவேற்கிறோம்" பலகத்தில் தேர்வு செய்கிறார்.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Diňe şu enjamda saklanýar, bu saýtyň her sahypasy üçin.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Bölümleriň ýazgylary</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Nyşanlar</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Nyşanlar we tekst</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Tekst</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Saýlamadyk ulanyjylar üçin: her ulanyjy «Men» panelinde, myhman «Hoş geldiňiz» panelinde saýlaýar.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

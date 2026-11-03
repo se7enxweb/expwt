@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Coinnithe ar an ngléas seo amháin, do gach leathanach den suíomh seo.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Lipéid na gcluaisíní</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Deilbhíní</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Deilbhíní agus téacs</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Téacs</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>D'úsáideoirí nár roghnaigh: roghnaíonn gach úsáideoir sa phainéal "Mise", cuairteoir sa phainéal "Fáilte".</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

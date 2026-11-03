@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Yettwasekles ɣef yibenk-a kan, i yal asebter n usmel-a.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Tibzimin n yiccaren</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Tignitin</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Tignitin d uḍris</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Aḍris</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>I yiseqdacen ur nefri ara: yal aseqdac ifren deg ugalis "Nekk", amerzu deg ugalis "Anṣuf".</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

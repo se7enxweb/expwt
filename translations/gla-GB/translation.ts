@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Air a ghleidheadh air an uidheam seo a-mhàin, airson gach duilleag den làrach seo.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Leubailean nan tabaichean</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Ìomhaigheagan</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Ìomhaigheagan is teacsa</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Teacsa</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Do chleachdaichean nach do thagh: taghaidh gach cleachdaiche san panail "Mise", is taghaidh aoigh san panail "Fàilte".</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>このデバイスにのみ保存され、このサイトのすべてのページに適用されます。</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>タブの表示</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>アイコン</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>アイコンとテキスト</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>テキスト</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>自分で選んでいないユーザー向け：各ユーザーは「自分」パネルで、訪問者は「ようこそ」パネルで選びます。</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

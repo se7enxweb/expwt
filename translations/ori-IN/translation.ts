@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>କେବଳ ଏହି ଡିଭାଇସରେ ରଖାଯାଇଛି, ଏହି ସାଇଟର ପ୍ରତ୍ୟେକ ପୃଷ୍ଠା ପାଇଁ।</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>ଟ୍ୟାବ ଲେବେଲ</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>ଆଇକନ</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>ଆଇକନ ଓ ପାଠ୍ୟ</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>ପାଠ୍ୟ</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>ଯେଉଁ ଉପଯୋଗକର୍ତ୍ତା ବାଛି ନାହାଁନ୍ତି ସେମାନଙ୍କ ପାଇଁ: ପ୍ରତ୍ୟେକ ଉପଯୋଗକର୍ତ୍ତା "ମୁଁ" ପ୍ୟାନେଲରେ ବାଛନ୍ତି, ଅତିଥି "ସ୍ୱାଗତ" ପ୍ୟାନେଲରେ।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

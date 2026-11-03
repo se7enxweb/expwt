@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Gardado só neste dispositivo, para cada páxina deste sitio.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Etiquetas das lapelas</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Iconas</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Iconas e texto</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Texto</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Para os usuarios que non escolleron: cada usuario escolle no panel «Eu», un visitante no panel «Benvido».</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

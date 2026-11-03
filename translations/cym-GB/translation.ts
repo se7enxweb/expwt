@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Wedi'i gadw ar y ddyfais hon yn unig, ar gyfer pob tudalen o'r wefan hon.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Labeli tabiau</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Eiconau</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Eiconau a thestun</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Testun</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Ar gyfer defnyddwyr sydd heb ddewis: mae pob defnyddiwr yn dewis yn y panel "Fi", ac ymwelydd yn y panel "Croeso".</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

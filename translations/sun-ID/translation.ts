@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Ngan disimpen dina alat ieu, pikeun unggal kaca situs ieu.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Labél tab</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Ikon</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Ikon jeung téks</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Téks</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Pikeun pamaké anu can milih: unggal pamaké milih dina panél "Kuring", sémah dina panél "Wilujeng sumping".</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Сохраняется только на этом устройстве, для каждой страницы этого сайта.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Подписи вкладок</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Значки</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Значки и текст</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Текст</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Для пользователей, которые не выбрали сами: каждый пользователь выбирает в панели «Я», посетитель — в панели «Добро пожаловать».</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

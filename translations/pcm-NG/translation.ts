@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Na only dis device e dey keep am, for every page of dis site.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Tab labels</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Icons</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Icons and text</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Text</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>For users wey never choose: every user dey choose for the "Me" panel, visitor for the "Welcome" panel.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>صرف یتھ ڈیوائسس پیٹھ محفوظ، یتھ سائٹٕچ پرٛتھ صفحس خٲطرٕ۔</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>ٹیبن ہٕنڈ لیبل</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>آئیکن</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>آئیکن تہٕ متن</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>متن</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>تِمن صارفن خٲطرٕ یِمو نہٕ ژٲرِتھ: پرٛتھ صارف ژارِ "بہٕ" پینلس منز، مہمان "خوش آمدید" پینلس منز۔</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

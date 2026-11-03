@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Maħżun fuq dan it-tagħmir biss, għal kull paġna ta' dan is-sit.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Tikketti tat-tabs</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Ikoni</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Ikoni u test</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Test</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Għall-utenti li ma għażlux: kull utent jagħżel fil-pannell "Jien", viżitatur fil-pannell "Merħba".</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

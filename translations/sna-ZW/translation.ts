@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Zvakachengetwa pachishandiso ichi chete, papeji yega yega yesaiti ino.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Mavara etabhu</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Zviratidziso</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Zviratidziso nemavara</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Mavara</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Kune vashandisi vasina kusarudza: mushandisi wega wega anosarudza mupaneru "Ini", muenzi mupaneru "Mauya".</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

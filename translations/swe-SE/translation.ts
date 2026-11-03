@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Sparas bara på den här enheten, för varje sida på den här webbplatsen.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Flikarnas etiketter</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Ikoner</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Ikoner och text</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Text</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>För användare som inte har valt: varje användare väljer i panelen ”Jag”, en besökare i panelen ”Välkommen”.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2467,6 +2467,26 @@
         <source>Kept on this device only, for every page of this site.</source>
         <translation>Biterekeddwa ku kyuma kino kyokka, ku buli lupapula lwa site eno.</translation>
     </message>
+    <message>
+        <source>Tab labels</source>
+        <translation>Amannya g'ebiwandiiko</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>Obubonero</translation>
+    </message>
+    <message>
+        <source>Icons and text</source>
+        <translation>Obubonero n'ebiwandiiko</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Ebiwandiiko</translation>
+    </message>
+    <message>
+        <source>For users who have not chosen: each user chooses in the Me panel, a visitor in the Welcome panel.</source>
+        <translation>Ku bakozesa abatannalonda: buli mukozesa alondera mu kitundu "Nze", omugenyi mu kitundu "Tukwanirizza".</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>
