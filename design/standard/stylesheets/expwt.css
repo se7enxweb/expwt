@@ -546,6 +546,30 @@ select:focus-visible, textarea:focus-visible, [contenteditable]:focus-visible, [
 :host([data-labels="icons"]) .wt-tabs [role="tab"] { justify-content: center; min-inline-size: var(--a4-space-6); min-block-size: var(--a4-space-6); padding-inline: var(--a4-space-1); }
 :host([data-labels="icons"]) .wt-tab-label { display: none; }
 :host([data-labels="text"]) .wt-tab > .wt-tab-icon { display: none; }
+/* The name of an icon tab on hover and keyboard focus: fixed (the bar's row of tabs scrolls and would clip it),
+   placed by the script, over the page without moving anything; the colors of the text and the surface swapped. */
+.wt-tip {
+  position: fixed;
+  left: var(--wt-tip-x, 0px);
+  top: var(--wt-tip-y, 0px);
+  z-index: var(--a4-z-popover);
+  max-inline-size: calc(100vw - var(--a4-space-3));
+  padding: var(--a4-space-1) var(--a4-space-2);
+  border: 1px solid var(--a4-ink);
+  border-radius: var(--a4-radius-s);
+  background: var(--a4-ink);
+  color: var(--a4-surface);
+  box-shadow: var(--a4-shadow-m);
+  font-size: var(--a4-text-s);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  pointer-events: none;
+}
+.wt-tip[hidden] { display: none; }
+@media (forced-colors: active) {
+  .wt-tip { border-color: CanvasText; }
+}
 /* Forced colors: the system replaces every background, the icon's too (its mask would draw nothing), so the icon
    keeps the text color it is drawn in; the selected tab, whose accent fill is replaced as well, is Highlight. */
 @media (forced-colors: active) {

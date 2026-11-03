@@ -216,4 +216,16 @@ class expwtAssetsTest extends PHPUnit\Framework\TestCase
         $this->assertStringContainsString( "style.setProperty('--wt-icon'", $js );
         $this->assertDoesNotMatchRegularExpression( "/setAttribute\\('style'/", $js );
     }
+
+    /** An icon tab's name shows in a bubble on hover and keyboard focus: fixed, placed by custom properties, no title */
+    public function testTheIconTabsNameBubble()
+    {
+        $js = (string)file_get_contents( self::ext() . '/design/standard/javascript/expwt.js' );
+        $this->assertStringContainsString( "style.setProperty('--wt-tip-x'", $js );
+        $this->assertStringContainsString( "button.setAttribute('data-tip'", $js );
+        $this->assertDoesNotMatchRegularExpression( "/button\\.setAttribute\\('title'/", $js, 'the bubble, not a title keyboard users never see' );
+        $css = self::css();
+        $this->assertMatchesRegularExpression( '/\.wt-tip\s*\{[^}]*position: fixed;[^}]*left: var\(--wt-tip-x[^}]*pointer-events: none;[^}]*\}/', $css, 'over the page, not clipped by the scrolling row' );
+        $this->assertStringContainsString( '.wt-tip[hidden] { display: none; }', $css );
+    }
 }

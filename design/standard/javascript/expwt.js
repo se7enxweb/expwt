@@ -207,7 +207,8 @@
       return { icon: icon, text: mode !== 'icons' || icon === null, name: String(panel.label || '') };
     },
     /* the button's contents: the icon as a mask (its address by a custom property, never a style attribute), the
-       name visible or for screen readers only, and the tooltip where the name is not visible */
+       name visible or for screen readers only; where it is not visible, data-tip gives it to the bubble the sidebar
+       shows on hover and keyboard focus (tipShow), which keyboard users see too, unlike a title */
     fill: function (button, parts, h) {
       if (parts.icon) {
         var i = h('span', { class: 'wt-tab-icon', 'aria-hidden': 'true' });
@@ -215,11 +216,22 @@
         button.appendChild(i);
       }
       button.appendChild(h('span', { class: parts.text ? 'wt-tab-text' : 'wt-sr', text: parts.name }));
+      button.removeAttribute('title');
       if (parts.text) {
-        button.removeAttribute('title');
+        button.removeAttribute('data-tip');
       } else {
-        button.setAttribute('title', parts.name);
+        button.setAttribute('data-tip', parts.name);
       }
+    },
+    /* where the bubble goes (viewport pixels): centered below the tab, above it where the window ends, never past
+       a side of the window; rect the tab's, size the bubble's, view the window's {width, height} */
+    tipAt: function (rect, size, view) {
+      var gap = 4;
+      var x = rect.left + rect.width / 2 - size.width / 2;
+      x = Math.max(gap, Math.min(x, view.width - size.width - gap));
+      var y = rect.bottom + gap;
+      if (y + size.height > view.height - gap && rect.top - gap - size.height >= 0) { y = rect.top - gap - size.height; }
+      return { x: Math.round(x), y: Math.round(y) };
     }
   };
   window.ExpwtTabLabels = TabLabels;
@@ -340,6 +352,11 @@
       el.appendChild(typeof child === 'string' ? document.createTextNode(child) : child);
     });
     return el;
+  }
+
+  /* the element has the keyboard's focus ring (not a click's); true where the browser cannot tell */
+  function focusVisible(el) {
+    try { return el.matches(':focus-visible'); } catch (e) { return true; }
   }
 
   function icon(paths) {
@@ -704,6 +721,9 @@
       root.appendChild(this.panel);
       root.appendChild(this.pill);
       root.appendChild(this.sheet);
+      /* the name of an icon tab on hover and keyboard focus (TabLabels.fill, data-tip); screen readers have it already */
+      this.tip = h('span', { class: 'wt-tip', 'aria-hidden': 'true', hidden: true });
+      root.appendChild(this.tip);
       this.buildTabs();
     }
 
@@ -926,13 +946,18 @@
       this.state.panel = PanelMemory.keep(ids, this.state.panel, !!this.boot || this.anonymous);
       var current = PanelMemory.pick(ids, this.state.panel);
       var mode = this.labelMode();
+      this.tipHide();
       this.tablist.textContent = '';
       this.tabButtons = list.map(function (p) {
         var b = h('button', {
           type: 'button', role: 'tab', id: 'wt-tab-' + p.id, 'aria-controls': 'wt-body', 'data-panel': p.id,
           'aria-selected': p.id === current ? 'true' : 'false', tabindex: p.id === current ? '0' : '-1',
           onclick: function () { self.show(p.id); },
-          onkeydown: function (e) { self.tabsKey(e); }
+          onkeydown: function (e) { self.tabsKey(e); },
+          onmouseenter: function () { self.tipShow(b); },
+          onmouseleave: function () { self.tipHide(); },
+          onfocus: function () { if (focusVisible(b)) { self.tipShow(b); } },
+          onblur: function () { self.tipHide(); }
         });
         TabLabels.fill(b, TabLabels.parts(p, mode, self.cfg.icons || ''), h);
         self.tablist.appendChild(b);
@@ -1010,7 +1035,32 @@
       return TabLabels.mode(this.state.labels, this.cfg.labels);
     }
 
+    /* the bubble with the name of an icon tab (data-tip), placed by custom properties (never a style attribute) */
+    tipShow(button) {
+      var tip = this.tip;
+      var text = button && button.getAttribute('data-tip');
+      if (!tip || !text) { this.tipHide(); return; }
+      tip.textContent = text;
+      tip.hidden = false;
+      var r = button.getBoundingClientRect();
+      var at = TabLabels.tipAt(r, { width: tip.offsetWidth, height: tip.offsetHeight },
+        { width: document.documentElement.clientWidth || window.innerWidth, height: window.innerHeight });
+      tip.style.setProperty('--wt-tip-x', at.x + 'px');
+      tip.style.setProperty('--wt-tip-y', at.y + 'px');
+    }
+
+    tipHide() {
+      if (this.tip) { this.tip.hidden = true; }
+    }
+
     tabsKey(e) {
+      /* Escape hides the bubble first (it can be dismissed without moving the focus), then does what it does */
+      if (e.key === 'Escape' && this.tip && !this.tip.hidden) {
+        e.preventDefault();
+        e.stopPropagation();
+        this.tipHide();
+        return;
+      }
       var i = this.tabButtons.indexOf(e.target);
       var n = this.tabButtons.length;
       var next = null;
