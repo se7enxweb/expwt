@@ -266,6 +266,17 @@
   };
   window.ExpwtBrand = Brand;
 
+  /* A page shown in a frame of another page: the administration's version and layout previews, the sidebar's own
+     split view and device preview. The sidebar belongs to the top page only; in a frame the session may not be this
+     site's (an admin preview asks "Sign in to edit this website"), so it does not start there. A top page of another
+     origin cannot be read: that counts as a frame too. */
+  var Frame = {
+    inside: function (w) {
+      try { return w.self !== w.top; } catch (e) { return true; }
+    }
+  };
+  window.ExpwtFrame = Frame;
+
   /* a node into a parent: moveBefore() keeps a frame's page as it is (no reload) where the browser has it */
   function move(parent, node, before) {
     if (typeof parent.moveBefore === 'function' && node.isConnected && parent.isConnected && node.getRootNode() === parent.getRootNode()) {
@@ -515,10 +526,8 @@
       if (this.shadowRoot) {
         return;
       }
-      /* a page shown side by side in the sidebar's split view (F27): no sidebar of its own there */
-      try {
-        if (window.frameElement && window.frameElement.hasAttribute('data-expwt-split')) { return; }
-      } catch (e) { /* a frame of another origin */ }
+      /* a page in a frame (the split view of F27, a device preview, an admin preview): no sidebar of its own there */
+      if (Frame.inside(window)) { return; }
       /* what the visitor chose for reading this site on this device (E15), on every page, before anything else */
       Visitor.apply(Visitor.normalize(store(VISITOR)));
       var self = this;
@@ -1647,6 +1656,12 @@
         }
         return self.boot;
       }).catch(function (err) {
+        /* a session this site does not know (signed out in another tab, a page of another siteaccess's session): no
+           sidebar and no error, the page is the visitor's */
+        if (err && (err.status === 401 || err.status === 403)) {
+          self.hidden = true;
+          return null;
+        }
         /* in the console what it was: a server not reached, or an error of the sidebar's own code */
         if (window.console) { window.console.error('expwt boot', err); }
         self.unreachable(function () { self.loadBoot(); });
