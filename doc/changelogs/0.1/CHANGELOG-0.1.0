@@ -1,0 +1,16 @@
+expwt 0.1.0 (2026-11-03), the first release
+
+expwt is the website sidebar of Exponential 6.0.15: edit, create and arrange content on the site's own pages, in a
+sidebar docked to the edge of every design. It replaces ezwt, the website toolbar (the package replaces
+se7enxweb/ezwt).
+
+- Added: The sidebar with its tab and panels (Welcome, Page, Create, Structure, SEO, Sites, Forms, Newsletter, URLs,
+  Calendar, Export, Insights, Inbox, Migrations, Static, Performance, Me), behind the policies expwt/use, edit, create,
+  structure, layouts, templates, shop, admin, insights and performance.
+- Added: Editing on a draft from the sidebar or on the page, preview, publishing now or at a date, and soft locks.
+- Added: Edit actions, version actions and a page toolbar for site designs, in place of ezwt's.
+- Added: Setup > Website sidebar panels sets the panels and tab labels per siteaccess and role.
+- Added: A REST API and GraphQL persisted queries for the sidebar; documentation in English and German.
+
+Off by default (expwt.ini [ExpwtSettings] Enabled=disabled), never in the administration and never for visitors who
+are not signed in unless a setting says so. Upgrading from ezwt: ./console exp:wt:migrate-from-ezwt --apply.
