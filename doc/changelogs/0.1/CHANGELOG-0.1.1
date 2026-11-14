@@ -1,0 +1,19 @@
+expwt 0.1.1 (2026-11-14)
+
+The sidebar's views take module view parameters and never read query parameters, so a request shield that refuses
+unknown query parameters (exp_request_shield's EXP-STRICT) no longer refuses the sidebar.
+
+- Updated: The sidebar's API takes the action from the path and its input as a view parameter:
+  GET /expwt/api/<action>/(input)/<the JSON input as base64url, no padding> reads and starts the sidebar, and
+  POST /expwt/api/<action>/ with the input in the body writes (the closing slash keeps a write such as state.save
+  clear of the shield's scanner rule for backup files ending in .save). The old ?action=...&input=... form is no
+  longer read. Input that is not base64url or not a JSON object or list is answered 400 bad_input, with no warning.
+- Updated: The field editor in the sidebar's frame takes (in)/sidebar and (theme)/light|dark as view parameters, and
+  so do the device preview and the frame's browsing (<page>/(in)/sidebar).
+- Updated: "Verify it's you" takes the action of expwt/api from the path, as it does for expwt/reauth.
+- Updated: The documentation (English and German) describes the addresses and what a request shield must allow:
+  POST to /expwt/api/ and a JSON answer for its browser check (api-path).
+- Updated: ezinfo.php and extension.xml state 0.1.1.
+
+What was wrong in 0.1.0: the sidebar sent its action and input as query parameters (GET /expwt/api?action=boot&input=...),
+which a request shield in strict query mode refuses, and its writes went to a path not on the usual POST allow list.
