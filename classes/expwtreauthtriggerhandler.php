@@ -19,7 +19,8 @@ class expwtReauthTriggerHandler implements expReauthTriggerHandler
     {
         if ( $module !== 'expwt' || !in_array( $view, array( 'api', 'reauth' ), true ) )
             return null;
-        $action = $view === 'reauth' ? ( isset( $params[0] ) ? (string)$params[0] : '' ) : ( isset( $post['action'] ) ? (string)$post['action'] : '' );
+        // expwt/reauth/<action> and expwt/api/<action>: the action is the view's first parameter
+        $action = isset( $params[0] ) && is_string( $params[0] ) ? $params[0] : '';
         if ( $view === 'api' && strtoupper( (string)$method ) !== 'POST' )
             return null;
         return self::groupOf( $action, expReauth::settings() );

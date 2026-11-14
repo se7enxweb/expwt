@@ -242,7 +242,7 @@ Bild-Datentyps); mit einem älteren Kernel wird der Teil nicht gezeigt, und die 
 - **Hell oder dunkel je Rahmen:** Wie die Website, Hell oder Dunkel; die Wahl gilt nur in diesem Rahmen (der Farbmodus
   der Media-Designs), an der eigenen Wahl der Website ändert sich nichts. Wie die Website lädt den Rahmen neu, wie die
   Website ihn hat.
-- Die Seiten in den Rahmen zeigen keine eigene Seitenleiste und keine Debug-Leiste (`?in=sidebar`). Die Auswahl merkt
+- Die Seiten in den Rahmen zeigen keine eigene Seitenleiste und keine Debug-Leiste (der View-Parameter `(in)/sidebar`). Die Auswahl merkt
   sich dieses Gerät. Nur lesend: auf dem Server wird nichts gespeichert.
 - Braucht `expwt/edit` (die Schaltfläche gibt es für alle, die die Seite bearbeiten dürfen). Aktion `preview.devices`
   (GET): sie antwortet mit den Rahmen und den beiden Adressen, ohne `expwt/edit` mit 403.
@@ -616,11 +616,28 @@ zeigt keine Seitenleiste.
 
 | DataLayer | Der Browser | Ein Client mit Token |
 |---|---|---|
-| `rest` (Standard) | `expwt/api` (GET zum Lesen, POST mit dem CSRF-Token für Änderungen) | `/api/expwt/v1/<Aktion>` (OAuth oder ein persönlicher API-Schlüssel mit dem Scope `expwt`) |
+| `rest` (Standard) | `expwt/api/<Aktion>` (GET zum Lesen, die Eingabe im View-Parameter `(input)`; POST mit dem CSRF-Token für Änderungen) | `/api/expwt/v1/<Aktion>` (OAuth oder ein persönlicher API-Schlüssel mit dem Scope `expwt`) |
 | `graphql` | `graphql/query` mit den gespeicherten Abfragen `expwt-read` und `expwt-write` | `/api/graphql`, die Felder `expwtRead` und `expwtWrite` |
 
 Beide beantworten dieselben Aktionen mit denselben Prüfungen (`expwtApi`). `graphql` fällt auf `rest` zurück, wo die
 GraphQL-API oder ihre Mutationen ausgeschaltet sind oder dem Benutzer `graphql/query` fehlt.
+
+Die Ansichten des Moduls nehmen View-Parameter, nie Query-Parameter (ein Request Shield, der unbekannte
+Query-Parameter abweist, lässt sie unverändert durch):
+
+- Lesen: `GET expwt/api/<Aktion>/(input)/<Eingabe>`, wobei `<Eingabe>` das JSON der Eingabe in base64url ist (RFC 4648
+  Abschnitt 5, ohne Auffüllung). Rohes JSON kann einen `/` enthalten, und einen kodierten Schrägstrich im Pfad weist
+  der Webserver ab (Apache `AllowEncodedSlashes off`). Eine leere Eingabe lässt `(input)` weg: `GET expwt/api/boot`.
+  Eine Eingabe, die kein base64url oder kein JSON ist, wird mit 400 `bad_input` beantwortet.
+- Ändern: `POST expwt/api/<Aktion>/` mit dem Formularfeld `input` (das JSON) und dem CSRF-Token im Header
+  `X-CSRF-Token`. Der abschließende Schrägstrich verhindert, dass eine Aktion wie `state.save` wie eine Sicherungsdatei
+  (`.save`) endet, die Request Shields und Web Application Firewalls abweisen.
+- Der Editor eines Felds im Rahmen der Seitenleiste:
+  `expwt/field/<Objekt>/<Version>/<Sprache>/<Feld>/(in)/sidebar/(theme)/dark`.
+
+Die Adressen gehen von der eingestellten Basis aus, ein Siteaccess im Pfad (`/site/expwt/api/boot`) funktioniert also
+wie bisher. Ein Request Shield muss `POST` auf `**/expwt/api/**` erlauben und, damit er seine Browser-Prüfung dort als
+JSON beantwortet, `**/expwt/api/**` als API-Pfad führen.
 
 ## Leistung und Caching
 

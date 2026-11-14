@@ -2,8 +2,9 @@
 /**
  * The module expwt: the sidebar's session end point and its policies (decision F6).
  *
- *   expwt/api              the sidebar's actions as JSON (GET: the reading ones, POST with the CSRF token: the others);
- *                          the REST data layer of the browser (expwtApi)
+ *   expwt/api/<action>     the sidebar's actions as JSON (GET with the input in the view parameter (input), base64url:
+ *                          the reading ones; POST with the input as a form field and the CSRF token: the others);
+ *                          the REST data layer of the browser (expwtApi). View parameters only, no query parameters.
  *   expwt/panels/<sa>/<role>  Setup > Website sidebar panels: order and visibility of the panels per role and siteaccess (E9)
  *   expwt/reauth/<action>  "Verify it's you" for an action, in a small window the sidebar opens; tells the sidebar
  *                          when the user has answered
@@ -27,7 +28,9 @@ $ViewList['api'] = array(
     'functions' => array( 'use' ),
     'script' => 'api.php',
     'ui_context' => 'ajax',
-    'params' => array() );
+    'params' => array( 'Action' ),
+    // the input of a reading action: its JSON in base64url (RFC 4648 section 5, no padding; expwtApi::decodeInput())
+    'unordered_params' => array( 'input' => 'Input' ) );
 
 $ViewList['reauth'] = array(
     'functions' => array( 'use' ),
@@ -44,7 +47,9 @@ $ViewList['field'] = array(
     // a page inside the sidebar's frame: never the session's last page (LastAccessesURI, LastAccessedModifyingURI),
     // which content/edit's discard and publish return to
     'ui_context' => 'ajax',
-    'params' => array( 'ObjectID', 'Version', 'Language', 'Identifier' ) );
+    'params' => array( 'ObjectID', 'Version', 'Language', 'Identifier' ),
+    // (in)/sidebar: in the sidebar's frame; (theme)/light|dark: drawn in the sidebar's mode from the first frame
+    'unordered_params' => array( 'in' => 'In', 'theme' => 'Theme' ) );
 
 // Setup > Website sidebar panels (E9): the panels of the sidebar per role and siteaccess, their order and which are
 // shown. Also needs the kernel's settings module (settings/view to see it, settings/edit to change it).

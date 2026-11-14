@@ -135,6 +135,77 @@ class expwtApiTest extends PHPUnit\Framework\TestCase
         return new expwtApi( $this->gateway, $settings );
     }
 
+    /** expwt/api/<action>/(input)/<base64url>: the input of a GET in a view parameter, never a query parameter */
+    public function testInputTravelsAsBase64UrlWithoutPadding()
+    {
+        $input = array( 'nodeId' => 144, 'path' => '/news/a+b?c=d', 'name' => 'Grüße' );
+        $encoded = expwtApi::encodeInput( $input );
+        $this->assertSame( 1, preg_match( '/^[A-Za-z0-9_-]+$/', $encoded ), 'no "/", "+" or "=" in the path: ' . $encoded );
+        $this->assertSame( $input, expwtApi::decodeInput( $encoded ) );
+        $this->assertSame( '', expwtApi::encodeInput( array() ), 'an empty input leaves (input) out' );
+        // eyJub2RlSWQiOjg5fQ is {"nodeId":89}, as the browser sends it (expwt.js, ExpwtApiUrl)
+        $this->assertSame( array( 'nodeId' => 89 ), expwtApi::decodeInput( 'eyJub2RlSWQiOjg5fQ' ) );
+        // the "-" of base64url: the JSON object with q = two question marks and ">" (standard base64: eyJxIjoiPz8+In0=)
+        $this->assertSame( array( 'q' => '??>' ), expwtApi::decodeInput( 'eyJxIjoiPz8-In0' ) );
+        foreach ( array( false, null, '' ) as $none )
+            $this->assertSame( array(), expwtApi::decodeInput( $none ), 'not given: no input' );
+    }
+
+    public function testBadInputIsRefusedWithoutAWarning()
+    {
+        $bad = array(
+            'standard base64 with padding' => 'eyJxIjoiPz8+In0=',
+            'a slash' => 'eyJx/In0',
+            'a length base64 cannot have' => 'eyJub2RlSWQiOjg5fQxyz',
+            'not JSON' => rtrim( strtr( base64_encode( 'nodeId=89' ), '+/', '-_' ), '=' ),
+            'JSON but no object' => rtrim( strtr( base64_encode( '42' ), '+/', '-_' ), '=' ),
+            'a percent-encoded query' => '%7B%22nodeId%22%3A89%7D',
+            'an array' => array( 'x' ),
+        );
+        set_error_handler( function ( $no, $message ) { throw new ErrorException( $message, 0, $no ); } );
+        try
+        {
+            foreach ( $bad as $name => $value )
+                $this->assertNull( expwtApi::decodeInput( $value ), $name );
+            $this->assertNull( expwtApi::requestInput( 'GET', 'eyJx/In0', array() ) );
+            $this->assertNull( expwtApi::requestInput( 'POST', false, array( 'input' => '{nope' ) ), 'POST: the form field is JSON' );
+            $this->assertNull( expwtApi::requestInput( 'POST', false, array( 'input' => array( 'a' ) ) ) );
+        }
+        finally
+        {
+            restore_error_handler();
+        }
+    }
+
+    public function testRequestInputReadsTheViewParameterForGetAndTheFormForPost()
+    {
+        $this->assertSame( array( 'nodeId' => 89 ), expwtApi::requestInput( 'GET', 'eyJub2RlSWQiOjg5fQ', array( 'input' => '{"nodeId":1}' ) ), 'GET: the view parameter' );
+        $this->assertSame( array(), expwtApi::requestInput( 'GET', false, array() ), 'GET without (input)' );
+        $this->assertSame( array( 'open' => 'me' ), expwtApi::requestInput( 'POST', 'eyJub2RlSWQiOjg5fQ', array( 'input' => '{"open":"me"}' ) ), 'POST: the form field' );
+        $this->assertSame( array(), expwtApi::requestInput( 'POST', false, array() ) );
+    }
+
+    /** The browser builds the same addresses and the same base64url (tests/js/apiurl.test.js, Node) */
+    public function testBrowserBuildsTheAddressesTheViewReads()
+    {
+        $node = trim( (string)shell_exec( 'command -v node 2>&1' ) );
+        if ( $node === '' || !is_executable( $node ) )
+            $this->markTestSkipped( 'Node is not installed' );
+        exec( escapeshellarg( $node ) . ' ' . escapeshellarg( dirname( __DIR__, 2 ) . '/js/apiurl.test.js' ) . ' 2>&1', $out, $status );
+        $this->assertSame( 0, $status, implode( "\n", $out ) );
+    }
+
+    /** "Verify it's you" sees the action as the view's first parameter, for expwt/api as for expwt/reauth */
+    public function testReauthHandlerReadsTheActionFromThePath()
+    {
+        if ( !interface_exists( 'expReauthTriggerHandler' ) || !class_exists( 'expwtReauthTriggerHandler' ) || !class_exists( 'eZUser' ) )
+            $this->markTestSkipped( 'The kernel of 6.0.15 with "Verify it\'s you"' );
+        $handler = new expwtReauthTriggerHandler();
+        $user = $this->createStub( 'eZUser' );
+        $this->assertNull( $handler->reauthGroup( 'expwt', 'api', 'GET', array(), array( 'draft.publish' ), $user ), 'a read asks nothing' );
+        $this->assertNull( $handler->reauthGroup( 'expwt', 'api', 'POST', array( 'action' => 'draft.publish' ), array(), $user ), 'no action in the path: none' );
+    }
+
     public function testUnknownActionIs404()
     {
         $r = $this->api()->call( 'drop.tables', array() );

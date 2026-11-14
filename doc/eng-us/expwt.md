@@ -223,7 +223,7 @@ the whole window, to see how it lays out before it is published.
   published page and say so.
 - **Light or dark per frame:** Like the site, Light or Dark; the choice is set in that frame only (the media designs'
   color mode), nothing of the site's own choice changes. Like the site loads the frame again as the site has it.
-- The pages in the frames show no sidebar and no debug bar of their own (`?in=sidebar`). The choices are remembered on
+- The pages in the frames show no sidebar and no debug bar of their own (the view parameter `(in)/sidebar`). The choices are remembered on
   this device. Read-only: nothing is saved on the server.
 - Needs `expwt/edit` (the button is there for those who may edit the page). Action `preview.devices` (GET): it answers
   the frames and the two addresses, and 403 without `expwt/edit`.
@@ -562,11 +562,27 @@ sidebar.
 
 | DataLayer | The browser | A client with a token |
 |---|---|---|
-| `rest` (default) | `expwt/api` (GET for reading, POST with the CSRF token for changes) | `/api/expwt/v1/<action>` (OAuth or a personal API key with the scope `expwt`) |
+| `rest` (default) | `expwt/api/<action>` (GET for reading, the input in the view parameter `(input)`; POST with the CSRF token for changes) | `/api/expwt/v1/<action>` (OAuth or a personal API key with the scope `expwt`) |
 | `graphql` | `graphql/query` with the persisted queries `expwt-read` and `expwt-write` | `/api/graphql`, the fields `expwtRead` and `expwtWrite` |
 
 Both answer the same actions with the same checks (`expwtApi`). `graphql` falls back to `rest` where the GraphQL API
 or its mutations are switched off, or the user lacks `graphql/query`.
+
+The views of the module take view parameters, never query parameters (a request shield that refuses unknown query
+parameters lets them through unchanged):
+
+- A read: `GET expwt/api/<action>/(input)/<input>`, where `<input>` is the input's JSON in base64url (RFC 4648 section
+  5, without padding). Raw JSON can hold a `/`, and an encoded slash in a path is refused by the web server (Apache
+  `AllowEncodedSlashes off`). An empty input leaves `(input)` out: `GET expwt/api/boot`. Input that is not base64url or
+  not JSON is answered with 400 `bad_input`.
+- A change: `POST expwt/api/<action>/` with the form field `input` (the JSON) and the CSRF token in the header
+  `X-CSRF-Token`. The closing slash keeps an action such as `state.save` from ending like a backup file (`.save`),
+  which request shields and web application firewalls refuse.
+- A field's editor in the sidebar's frame: `expwt/field/<object>/<version>/<language>/<field>/(in)/sidebar/(theme)/dark`.
+
+The addresses start from the configured base, so a siteaccess in the path (`/site/expwt/api/boot`) works as before.
+A request shield needs `POST` allowed on `**/expwt/api/**` and, to answer its browser check there as JSON,
+`**/expwt/api/**` as an API path.
 
 ## Performance and caching
 

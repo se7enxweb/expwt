@@ -95,16 +95,15 @@ if ( !$attribute )
     return $Module->handleError( eZError::KERNEL_NOT_AVAILABLE, 'kernel' );
 $attributes = array( $attribute );
 $selfUri = 'expwt/field/' . (int)$object->attribute( 'id' ) . '/' . $postVersion . '/' . $language . '/' . $identifier;
-$theme = $http->hasGetVariable( 'theme' ) && in_array( $http->getVariable( 'theme' ), array( 'light', 'dark' ), true ) ? $http->getVariable( 'theme' ) : '';
-// in the sidebar's frame (?in=sidebar): the sidebar's own row has Save draft and Cancel; the page drawn in the
+// the view parameters (theme)/light|dark and (in)/sidebar, never query parameters
+$theme = isset( $Params['Theme'] ) && in_array( $Params['Theme'], array( 'light', 'dark' ), true ) ? $Params['Theme'] : '';
+// in the sidebar's frame ((in)/sidebar): the sidebar's own row has Save draft and Cancel; the page drawn in the
 // sidebar's light or dark mode from its first frame. Kept on every address of the frame (a browse returns here).
-$embedded = $http->hasGetVariable( 'in' ) && $http->getVariable( 'in' ) === 'sidebar';
-$query = array();
-if ( $theme !== '' )
-    $query[] = 'theme=' . $theme;
+$embedded = isset( $Params['In'] ) && $Params['In'] === 'sidebar';
 if ( $embedded )
-    $query[] = 'in=sidebar';
-$selfUri .= $query ? '?' . implode( '&', $query ) : '';
+    $selfUri = expwtGateway::framed( $selfUri, $theme );
+elseif ( $theme !== '' )
+    $selfUri .= '/(theme)/' . $theme;
 
 $saved = false;
 $validation = array( 'processed' => false, 'attributes' => array() );
@@ -149,9 +148,7 @@ if ( $http->hasPostVariable( 'StoreButton' ) || $http->hasPostVariable( 'CustomA
         {
             // the browse records itself as the session's last modifying page; kept here, put back when it returns
             $http->setSessionVariable( 'expwtFrameModifyingURI', (string)$http->sessionVariable( 'LastAccessedModifyingURI', '' ) );
-            $to = '/layout/set/expwtframe/' . ltrim( $to, '/' );
-            $missing = array_filter( $query, function ( $pair ) use ( $to ) { return strpos( $to, $pair ) === false; } );
-            $Module->redirectTo( $to . ( $missing ? ( strpos( $to, '?' ) === false ? '?' : '&' ) . implode( '&', $missing ) : '' ) );
+            $Module->redirectTo( expwtGateway::framed( '/layout/set/expwtframe/' . ltrim( $to, '/' ), $theme ) );
         }
         return;
     }

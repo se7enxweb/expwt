@@ -3137,17 +3137,30 @@ class expwtGateway
         );
     }
 
-    /** Pure: an address of the site with in=sidebar added (no sidebar and no debug bar in the page it shows) */
-    public static function framed( $url )
+    /**
+     * Pure: an address of the site with the view parameter (in)/sidebar added (no sidebar and no debug bar in the page
+     * it shows) and, given, (theme)/light|dark (the page in the sidebar's mode). View parameters, never a query: they
+     * go at the end of the path, before a query and a fragment the address already has; one already there stays.
+     *
+     * @param string $url
+     * @param string $theme light, dark or empty
+     * @return string
+     */
+    public static function framed( $url, $theme = '' )
     {
         $url = (string)$url;
-        $hash = '';
-        if ( ( $at = strpos( $url, '#' ) ) !== false )
+        $tail = '';
+        if ( preg_match( '/[?#]/', $url, $m, PREG_OFFSET_CAPTURE ) )
         {
-            $hash = substr( $url, $at );
-            $url = substr( $url, 0, $at );
+            $tail = substr( $url, $m[0][1] );
+            $url = substr( $url, 0, $m[0][1] );
         }
-        return $url . ( strpos( $url, '?' ) === false ? '?' : '&' ) . 'in=sidebar' . $hash;
+        $path = rtrim( $url, '/' );
+        if ( in_array( $theme, array( 'light', 'dark' ), true ) && !preg_match( '#/\(theme\)/#', $path . '/' ) )
+            $path .= '/(theme)/' . $theme;
+        if ( !preg_match( '#/\(in\)/sidebar(/|$)#', $path ) )
+            $path .= '/(in)/sidebar';
+        return $path . $tail;
     }
 
     // ------------------------------------------------------------------------------------------------ the inbox

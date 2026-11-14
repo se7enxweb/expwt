@@ -780,8 +780,10 @@
        after a save, the field's new value. */
     function frameSrc(f) {
       var fieldBase = String(ctx.boot.transport.rest || '').replace(/\/api$/, '/field');
+      /* view parameters, never a query: (in)/sidebar and the sidebar's mode (theme)/light|dark */
+      var theme = ctx.host.getAttribute('data-theme');
       return fieldBase + '/' + p.objectId + '/' + (version || 0) + '/' + encodeURIComponent(p.language) + '/' + encodeURIComponent(f.identifier)
-        + '?in=sidebar&theme=' + encodeURIComponent(ctx.host.getAttribute('data-theme') || '');
+        + '/(in)/sidebar' + (theme === 'light' || theme === 'dark' ? '/(theme)/' + theme : '');
     }
     function load(entry) {
       if (!entry || entry.frame) { return; }
@@ -4135,7 +4137,7 @@
   /* The device preview (E8): a view over the whole window with the page in a frame per device, side by side where
      they fit, the 200% zoom case among them, plus frames of a width of one's own; the user's draft or the published
      page; light or dark per frame (the media designs' html[data-exp-theme], set in that frame only; "Like the site"
-     loads it again as the site has it). The pages in the frames come without a sidebar (?in=sidebar). Escape, Close
+     loads it again as the site has it). The pages in the frames come without a sidebar ((in)/sidebar). Escape, Close
      or the backdrop end it. */
   function devices(ctx, p) {
     var h = ctx.h;

@@ -363,6 +363,64 @@ class expwtApi
         return array( 'status' => (int)$status, 'body' => $body );
     }
 
+    /**
+     * Pure: the input of a reading action as the view parameter (input) of expwt/api carries it: its JSON in base64url
+     * (RFC 4648 section 5, without padding). Raw JSON can hold a "/", and an encoded slash in a path is refused by the
+     * web server (Apache AllowEncodedSlashes off); base64url has neither.
+     *
+     * @param array $input
+     * @return string empty for an empty input (the parameter may then be left out)
+     */
+    public static function encodeInput( array $input )
+    {
+        if ( !$input )
+            return '';
+        $json = json_encode( $input, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE );
+        return rtrim( strtr( base64_encode( (string)$json ), '+/', '-_' ), '=' );
+    }
+
+    /**
+     * Pure: the input from the view parameter (input), strictly: only the base64url alphabet without padding, a
+     * length base64 can have, and a JSON object or list in it. Anything else is no input (null), never a warning.
+     *
+     * @param mixed $encoded the view parameter (false or null when it was not given)
+     * @return array|null the input; an empty array when it was not given
+     */
+    public static function decodeInput( $encoded )
+    {
+        if ( $encoded === false || $encoded === null || $encoded === '' )
+            return array();
+        if ( !is_string( $encoded ) || strlen( $encoded ) % 4 === 1 || !preg_match( '/^[A-Za-z0-9_-]+$/', $encoded ) )
+            return null;
+        $padded = strtr( $encoded, '-_', '+/' ) . str_repeat( '=', ( 4 - strlen( $encoded ) % 4 ) % 4 );
+        $json = base64_decode( $padded, true );
+        if ( !is_string( $json ) || $json === '' )
+            return null;
+        $input = json_decode( $json, true );
+        return is_array( $input ) ? $input : null;
+    }
+
+    /**
+     * Pure: the action's input as expwt/api gets it. A reading action (GET) in the view parameter (input), base64url;
+     * any action sent by POST in the form field input, as JSON. No query parameters (the views take view parameters).
+     *
+     * @param string $method GET, POST ...
+     * @param mixed $viewInput the view parameter (input)
+     * @param array $post the POST fields
+     * @return array|null the input, null when it is not readable
+     */
+    public static function requestInput( $method, $viewInput, array $post )
+    {
+        if ( strtoupper( (string)$method ) !== 'POST' )
+            return self::decodeInput( $viewInput );
+        if ( !isset( $post['input'] ) || $post['input'] === '' )
+            return array();
+        if ( !is_string( $post['input'] ) )
+            return null;
+        $input = json_decode( $post['input'], true );
+        return is_array( $input ) ? $input : null;
+    }
+
     /** The kernel writer's refusals in the sidebar's terms */
     public static function fromGraphQLError( Exception $e )
     {

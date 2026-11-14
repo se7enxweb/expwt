@@ -129,10 +129,16 @@ class expwtHook
         return rtrim( (string)$wwwDir, '/' ) . '/share/icons/bootstrap-icons/svg/';
     }
 
-    /** @return bool the page is shown in the sidebar's frame (?in=sidebar: a field's editor, its browse): no sidebar in it */
-    public static function inFrame()
+    /**
+     * @param string|null $uri the request's address (default: this request's)
+     * @return bool the page is shown in the sidebar's frame (the view parameter (in)/sidebar: a field's editor, its
+     *              browse, the device preview): no sidebar in it
+     */
+    public static function inFrame( $uri = null )
     {
-        return isset( $_GET['in'] ) && $_GET['in'] === 'sidebar';
+        if ( $uri === null )
+            $uri = class_exists( 'eZSys' ) ? (string)eZSys::requestURI() : '';
+        return (bool)preg_match( '#/\(in\)/sidebar(/|$)#', (string)parse_url( '/' . ltrim( (string)$uri, '/' ), PHP_URL_PATH ) );
     }
 
     /** @var string|null DebugOutput as it was before a page of the frame switched it off */
@@ -140,20 +146,16 @@ class expwtHook
 
     /**
      * @param string|null $uri the request's path (default: this request's)
-     * @return bool a page of the sidebar's frame: ?in=sidebar, a field's editor (expwt/field), the small window of
+     * @return bool a page of the sidebar's frame: (in)/sidebar, a field's editor (expwt/field), the small window of
      *              "Verify it's you" (expwt/reauth: the sidebar would cover the kernel's form there) or a page in the
      *              frame's layout (layout/set/expwtframe)
      */
     public static function framePage( $uri = null )
     {
         if ( $uri === null )
-        {
-            if ( self::inFrame() )
-                return true;
             $uri = class_exists( 'eZSys' ) ? (string)eZSys::requestURI() : '';
-        }
         $path = '/' . ltrim( (string)parse_url( (string)$uri, PHP_URL_PATH ), '/' );
-        if ( strpos( (string)$uri, 'in=sidebar' ) !== false )
+        if ( self::inFrame( $uri ) )
             return true;
         return (bool)preg_match( '#(^|/)(expwt/field|expwt/reauth|layout/set/expwtframe)(/|$)#', $path );
     }

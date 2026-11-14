@@ -277,6 +277,35 @@
   };
   window.ExpwtFrame = Frame;
 
+  /* The address of a reading action of expwt/api: view parameters, never a query (the server's rule):
+     <base>/<action>/(input)/<the input's JSON in base64url> (RFC 4648 section 5, no padding: raw JSON can hold a "/",
+     and an encoded slash in a path is refused by the web server). An empty input leaves (input) out. A write is a
+     POST to <base>/<action>/ with the input as a form field: the closing slash keeps an action such as state.save
+     from ending like a backup file (.save), which request shields and web application firewalls refuse. */
+  var ApiUrl = {
+    encode: function (input) {
+      var json = JSON.stringify(input || {});
+      if (json === '{}' || json === '[]') { return ''; }
+      var bytes = new TextEncoder().encode(json);
+      var bin = '';
+      for (var i = 0; i < bytes.length; i += 0x8000) {
+        bin += String.fromCharCode.apply(null, bytes.subarray(i, i + 0x8000));
+      }
+      return btoa(bin).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+    },
+    action: function (base, action) {
+      return String(base || '').replace(/\/+$/, '') + '/' + encodeURIComponent(action);
+    },
+    read: function (base, action, input) {
+      var encoded = ApiUrl.encode(input);
+      return ApiUrl.action(base, action) + (encoded ? '/(input)/' + encoded : '');
+    },
+    write: function (base, action) {
+      return ApiUrl.action(base, action) + '/';
+    }
+  };
+  window.ExpwtApiUrl = ApiUrl;
+
   /* a node into a parent: moveBefore() keeps a frame's page as it is (no reload) where the browser has it */
   function move(parent, node, before) {
     if (typeof parent.moveBefore === 'function' && node.isConnected && parent.isConnected && node.getRootNode() === parent.getRootNode()) {
@@ -1619,7 +1648,7 @@
 
     loadBoot() {
       var self = this;
-      return this.request('GET', this.cfg.boot + '?action=boot&input=' + encodeURIComponent(JSON.stringify(this.cfg.node ? { nodeId: this.cfg.node } : {})), null).then(function (body) {
+      return this.request('GET', ApiUrl.read(this.cfg.boot, 'boot', this.cfg.node ? { nodeId: this.cfg.node } : {}), null).then(function (body) {
         self.boot = body.data;
         /* reached (after "Try again" too): no word of the failure or the loading left */
         self.say('');
@@ -1752,12 +1781,11 @@
         });
       } else if (write) {
         var form = new URLSearchParams();
-        form.set('action', action);
         form.set('input', json);
         form.set('ezxform_token', this.boot.token || '');
-        p = this.request('POST', t.rest, form.toString(), Object.assign({ 'Content-Type': 'application/x-www-form-urlencoded' }, headers), opts);
+        p = this.request('POST', ApiUrl.write(t.rest, action), form.toString(), Object.assign({ 'Content-Type': 'application/x-www-form-urlencoded' }, headers), opts);
       } else {
-        p = this.request('GET', t.rest + '?action=' + encodeURIComponent(action) + '&input=' + encodeURIComponent(json), null);
+        p = this.request('GET', ApiUrl.read(t.rest, action, input || {}), null);
       }
       return p.then(function (body) { return body.data; }, function (err) {
         if (!retried && err.status === 403 && err.body && err.body.error === 'reauth_required') {

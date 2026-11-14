@@ -822,11 +822,11 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
     /** The debug report stays out of the pages of the sidebar's frame (expwtHook::preOutput()); the outer page keeps it. */
     public function testFramePagesAreKnownByTheirAddress()
     {
-        foreach ( array( '/site/expwt/field/134/0/eng-US/title', '/expwt/field/1/2/eng-US/body?theme=dark',
-                         '/twig/layout/set/expwtframe/content/browse/2', '/site/healthy-eating?in=sidebar', '/site/expwt/reauth/newsletter.send' ) as $uri )
+        foreach ( array( '/site/expwt/field/134/0/eng-US/title', '/expwt/field/1/2/eng-US/body/(theme)/dark',
+                         '/twig/layout/set/expwtframe/content/browse/2', '/site/healthy-eating/(in)/sidebar', '/site/healthy-eating/(in)/sidebar?x=1', '/site/layout/set/expwtframe/content/browse/(in)/sidebar/(theme)/dark', '/site/expwt/reauth/newsletter.send' ) as $uri )
             $this->assertTrue( expwtHook::framePage( $uri ), $uri );
         foreach ( array( '/site/healthy-eating', '/site/content/edit/134/2/eng-US', '/layout/set/print/healthy-eating',
-                         '/site/expwt/api', '/site/my-expwt/field-notes' ) as $uri )
+                         '/site/expwt/api', '/site/my-expwt/field-notes', '/site/healthy-eating?in=sidebar', '/site/news/(in)/sidebars' ) as $uri )
             $this->assertFalse( expwtHook::framePage( $uri ), $uri );
     }
 
@@ -1067,14 +1067,18 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
         $this->assertSame( array( 'iphone13', 'pixel7', 'tablet', 'zoom200', 'desktop' ), $v['shown'], 'all of them without ShownDeviceList[]' );
         $this->assertSame( 'Tablett', $v['devices'][2]['name'] );
         $this->assertSame( 820, $v['devices'][2]['width'] );
-        $this->assertSame( array( 'published' => '/site/news/a?in=sidebar', 'draft' => null ), $v['urls'] );
+        $this->assertSame( array( 'published' => '/site/news/a/(in)/sidebar', 'draft' => null ), $v['urls'] );
         $this->assertNull( $v['draft'], 'no draft, nothing about one' );
         $this->assertSame( array( 'min' => 240, 'max' => 2560, 'height' => 900 ), $v['custom'] );
         $v = expwtGateway::devicesView( $s, '/site/news/a', '/site/content/versionview/7/3/eng-US', array( 'version' => 3, 'modified' => 1 ), $tr );
         $this->assertSame( array( 'b' ), $v['shown'] );
-        $this->assertSame( '/site/content/versionview/7/3/eng-US?in=sidebar', $v['urls']['draft'] );
+        $this->assertSame( '/site/content/versionview/7/3/eng-US/(in)/sidebar', $v['urls']['draft'] );
         $this->assertSame( 3, $v['draft']['version'] );
-        $this->assertSame( '/a?x=1&in=sidebar#top', expwtGateway::framed( '/a?x=1#top' ) );
+        $this->assertSame( '/a/(in)/sidebar?x=1#top', expwtGateway::framed( '/a?x=1#top' ), 'view parameters before the query and the fragment' );
+        $this->assertSame( '/a/(in)/sidebar', expwtGateway::framed( '/a/' ) );
+        $this->assertSame( '/a/(theme)/dark/(in)/sidebar', expwtGateway::framed( '/a', 'dark' ) );
+        $this->assertSame( '/a/(in)/sidebar', expwtGateway::framed( '/a', 'blue' ), 'only light or dark' );
+        $this->assertSame( '/a/(theme)/dark/(in)/sidebar', expwtGateway::framed( expwtGateway::framed( '/a', 'dark' ), 'dark' ), 'once' );
         $this->assertTrue( expwtHook::framePage( expwtGateway::framed( '/site/news/a' ) ), 'the frames get no sidebar of their own' );
         foreach ( array( 'Devices', 'Device preview', 'Tablet', 'Desktop', '1920 wide at 200% zoom', 'Frames shown', 'Show all', 'All frames are shown.' ) as $text )
             $this->assertContains( $text, expwtStrings::SOURCES, 'translated' );

@@ -51,7 +51,7 @@ same('the limits are allowed', [D.custom('240', 240, 2560), D.custom(2560, 240, 
 same('outside the limits, not a whole number or nothing', [D.custom('239', 240, 2560), D.custom('2561', 240, 2560), D.custom('10.5', 240, 2560),
   D.custom('1e3', 240, 2560), D.custom('', 240, 2560), D.custom(null, 240, 2560), D.custom('-400', 240, 2560)], [null, null, null, null, null, null, null]);
 
-var urls = { published: '/site/a?in=sidebar', draft: '/site/content/versionview/7/3/eng-US?in=sidebar' };
+var urls = { published: '/site/a/(in)/sidebar', draft: '/site/content/versionview/7/3/eng-US/(in)/sidebar' };
 same('the draft when chosen', D.src(urls, 'draft'), urls.draft);
 same('the published page when chosen', D.src(urls, 'published'), urls.published);
 same('the published page without a draft', D.src({ published: '/p', draft: null }, 'draft'), '/p');
