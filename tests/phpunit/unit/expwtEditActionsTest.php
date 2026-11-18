@@ -48,8 +48,21 @@ class expwtEditActionsTest extends PHPUnit\Framework\TestCase
     public function testPageToolbarDrawsNothingWhereTheSidebarIsOn()
     {
         $tpl = self::tpl( 'expwt_page_toolbar.tpl' );
-        $this->assertStringContainsString( "ezini( 'ExpwtSettings', 'Enabled', 'expwt.ini' )|ne( 'enabled' )", $tpl );
+        $this->assertStringContainsString( '$expwt_sidebar_on = expwt_sidebar_on()', $tpl );
+        $this->assertStringContainsString( '$expwt_sidebar_on|not', $tpl );
         $this->assertStringContainsString( 'can_edit', $tpl );
+        // expwt.ini sets nothing (the defaults are in the code): an ezini() of it in a template logs an error
+        $this->assertStringNotContainsString( "ezini( 'ExpwtSettings'", $tpl );
+    }
+
+    public function testTheSidebarOnOperatorIsRegistered()
+    {
+        $op = new expwtTemplateOperator();
+        $this->assertContains( 'expwt_sidebar_on', $op->operatorList() );
+        $this->assertArrayHasKey( 'expwt_sidebar_on', $op->namedParameterList() );
+        $eZTemplateOperatorArray = array();
+        include dirname( __DIR__, 3 ) . '/autoloads/eztemplateautoload.php';
+        $this->assertContains( 'expwt_sidebar_on', $eZTemplateOperatorArray[0]['operator_names'] );
     }
 
     public function testShimsIncludeExpwtsTemplates()

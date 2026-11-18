@@ -9,4 +9,4 @@
 
 $eZTemplateOperatorArray = array();
 $eZTemplateOperatorArray[] = array( 'class' => 'expwtTemplateOperator',
-                                    'operator_names' => array( 'expwt_markup' ) );
+                                    'operator_names' => array( 'expwt_markup', 'expwt_sidebar_on' ) );
