@@ -9,7 +9,7 @@
  * The same actions, checks and answers as the browser's expwt/api (expwtApi). "Verify it's you" belongs to the web
  * pages and is never asked here, as for the rest of the REST interface.
  *
- * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x; All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package expwt
  */

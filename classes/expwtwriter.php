@@ -8,7 +8,7 @@
  *   createDraft()   a new object left a draft with only the fields given (a quick title), the required ones are
  *                   asked for before it is published (missingRequired())
  *
- * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x; All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package expwt
  */

@@ -12,7 +12,7 @@
  * without static publishing there is no panel: every call is behind class_exists, method_exists and defined; on a
  * kernel whose publish job cannot build single nodes yet (expStaticJob::NODES) the panel is read-only.
  *
- * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x; All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package expwt
  */

@@ -3,7 +3,7 @@
  * The branding per siteaccess (E10, expwt.ini [BrandingSettings]): the name, the logo and the accent color with its
  * contrast check in both modes, what the sidebar's script gets, and the Help credit that stays.
  *
- * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x; All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package expwt
  */

@@ -4,7 +4,7 @@
  * their names, other fields in the readable string form of their datatype. Never a datatype's storage string that is
  * no text for people (eztags "ids|#keywords|#parents", relations as object ids): those fields show their names.
  *
- * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x; All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package expwt
  */

@@ -8,7 +8,7 @@
  * decide() is pure; the locks themselves are kept in the site data table (ezsite_data, key expwt_lock_<object id>),
  * which every database engine has.
  *
- * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x; All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package expwt
  */

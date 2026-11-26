@@ -3,7 +3,7 @@
  * The Static panel (S6, expwtStatic): whether this page is stale on a target, its public address there, the last
  * publish as the panel shows it, the actions and their policies, and that every text is the kernel's own.
  *
- * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x; All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package expwt
  */

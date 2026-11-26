@@ -13,7 +13,7 @@
  * <version> 0: the user's newest draft in <language>, or a new one. The page tells the sidebar (expwt-field.js,
  * postMessage to the parent window of the same origin) which draft it is and, after a save, the field's new value.
  *
- * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x; All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package expwt
  */

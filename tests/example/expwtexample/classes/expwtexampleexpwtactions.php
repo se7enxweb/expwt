@@ -4,7 +4,7 @@
  * expwtApi has checked the registration (the action exists, POST for a writing one, the expwt function and kernel
  * policies named there); each action checks the kernel's policy of what it reads or changes itself.
  *
- * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x; All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package expwtexample
  */

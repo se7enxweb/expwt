@@ -16,7 +16,7 @@
  *   structure  moving, adding locations, hiding and revealing, the trash, sorting
  *   layouts, templates, shop, admin   the panels of later phases (defined now so roles can be prepared)
  *
- * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x; All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package expwt
  */

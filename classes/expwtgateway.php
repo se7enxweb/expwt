@@ -5,7 +5,7 @@
  * content/remove, content/updatepriority), each with the user's rights checked by the kernel. expwtApi calls it;
  * a test hands expwtApi a subclass that answers from arrays.
  *
- * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x; All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package expwt
  */

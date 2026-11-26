@@ -7,7 +7,7 @@
  * SOURCES is generated from the code (every t('...') of the JavaScript, the refusals of the classes, the views'
  * strings); a test keeps it current.
  *
- * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x; All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package expwt
  */

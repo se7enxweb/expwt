@@ -4,7 +4,7 @@
  * (a ZIP read back from its central directory, every part well-formed XML), the file name; the share link actions,
  * their policies and "Verify it's you", and the lifetimes the panel offers.
  *
- * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x; All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package expwt
  */

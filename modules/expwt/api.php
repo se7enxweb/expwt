@@ -11,7 +11,7 @@
  * first parameter; the input of a POST stays a form field. The browser closes the address of a POST with a slash, so
  * an action such as state.save does not end like a backup file (.save), which request shields and firewalls refuse.
  *
- * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x; All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package expwt
  */

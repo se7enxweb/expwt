@@ -3,7 +3,7 @@
  * read as base64url (RFC 4648 section 5, no padding) that the server's expwtApi::decodeInput() reads back.
  * Run with Node (no packages): node tests/js/apiurl.test.js. Prints PASS or FAIL lines and exits 1 on a failure.
  *
- * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x; All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package expwt
  */

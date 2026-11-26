@@ -3,7 +3,7 @@
  * system's, not one another shortcut has), the page's access keys and the text fields on a Mac (expwt.js, ExpwtKeys).
  * Run with Node (no packages): node tests/js/shortcuts.test.js (expwtPureTest runs it when Node is there).
  *
- * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x; All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package expwt
  */

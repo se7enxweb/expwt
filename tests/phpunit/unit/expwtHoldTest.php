@@ -3,7 +3,7 @@
  * The review hold in the website sidebar (E14, expwtHold): what the Page panel shows and offers, the reason as it is
  * kept, the actions, their policies, the input they get, and the audit events of the sidebar.
  *
- * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x; All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package expwt
  */

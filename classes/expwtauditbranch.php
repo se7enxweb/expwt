@@ -4,7 +4,7 @@
  * settings/audit.ini.append.php. Everything else the sidebar changes is recorded under the kernel's own names (a
  * publish, an alias, a move ...), as the administration records it.
  *
- * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x; All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package expwt
  */

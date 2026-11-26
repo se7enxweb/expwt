@@ -3,7 +3,7 @@
  * packages): TZ=Europe/Berlin node tests/js/calendar.test.js (any zone works). Prints PASS or FAIL lines and exits 1 on
  * a failure.
  *
- * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x; All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package expwt
  */

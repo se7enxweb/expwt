@@ -4,7 +4,7 @@
  * it leaves out, the time of each layout block from the template tree, the figures on the sidebar's element, and the
  * policy behind the action.
  *
- * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x; All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package expwt
  */

@@ -5,7 +5,7 @@
  * of the code for what expwt.ini leaves unset; a template reading expwt.ini [ExpwtSettings] Enabled itself logged an
  * error wherever it is unset, already when the template was compiled).
  *
- * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x; All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package expwt
  */
